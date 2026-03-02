@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "sigs-academy-addons",
+	"version": "${version}",
+	"name": "Sigs Academy Addons",
+	"description": "Client-side QOL features for Cobblemon Academy — safari timer, hunt tracking, and more.",
+	"authors": [
+		"siguha"
+	],
+	"contact": {
+		"sources": "https://github.com/siguha/sigs-academy-addons"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sigs-academy-addons/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.siguha.sigsacademyaddons.SigsAcademyAddons"
+		],
+		"client": [
+			"com.siguha.sigsacademyaddons.SigsAcademyAddonsClient"
+		]
+	},
+	"mixins": [
+		"sigs-academy-addons.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"cobblemon": ">=1.6.0",
+		"fabric-language-kotlin": "*"
+	}
+}

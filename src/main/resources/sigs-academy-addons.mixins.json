@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.siguha.sigsacademyaddons.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [],
+	"client": [
+		"EntityGlowMixin",
+		"EntityOutlineColorMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
