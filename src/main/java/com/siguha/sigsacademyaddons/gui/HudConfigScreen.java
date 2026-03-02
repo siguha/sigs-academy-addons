@@ -8,6 +8,7 @@ import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 
+import java.util.ArrayList;
 import java.util.List;
 
 // drag-to-reposition and corner-resize screen for the safari hud panel
@@ -17,7 +18,7 @@ public class HudConfigScreen extends Screen {
     private static final int PADDING = 4;
     private static final int LINE_HEIGHT = 11;
     private static final int SECTION_SPACING = 6;
-    private static final int PROGRESS_BAR_HEIGHT = 3;
+    private static final int TIMER_BAR_HEIGHT = 11;
     private static final int PANEL_MIN_WIDTH = 140;
 
     // corner handle size and grab radius
@@ -37,6 +38,10 @@ public class HudConfigScreen extends Screen {
     private static final int COLOR_OUTLINE_DRAG = 0xFF55FF55;
     private static final int COLOR_CORNER_HANDLE = 0xFFFFFFFF;
     private static final int COLOR_CORNER_HOVER = 0xFF55FF55;
+    private static final int COLOR_QUEST_NUMBER = 0xFFFFFF55;
+    private static final int COLOR_PROGRESS_COMPLETE = 0xFFFFAA00;
+
+    private static final String NO_QUESTS_MESSAGE = "Please visit the Safari Hunt NPC and load your hunt menu.";
 
     private final HudConfig hudConfig;
     private final SafariManager safariManager;
@@ -161,7 +166,11 @@ public class HudConfigScreen extends Screen {
 
     // renders preview panel content at (0,0) in unscaled space
     private void renderPreviewPanel(GuiGraphics graphics) {
-        graphics.fill(0, 0, unscaledWidth, unscaledHeight, COLOR_BG);
+        boolean transparent = hudConfig.getHudStyle() == HudConfig.HudStyle.TRANSPARENT;
+
+        if (!transparent) {
+            graphics.fill(0, 0, unscaledWidth, unscaledHeight, COLOR_BG);
+        }
 
         int y = PADDING;
 
@@ -170,40 +179,68 @@ public class HudConfigScreen extends Screen {
 
         // placeholder preview when nothing active
         if (!showTimer && !showHunts) {
-            graphics.drawString(this.font, "Safari Zone", PADDING, y, COLOR_HEADER, true);
+            graphics.drawString(this.font, "SAA Safari Helper", PADDING, y, COLOR_HEADER, true);
             y += LINE_HEIGHT;
-            graphics.drawString(this.font, "24:31", PADDING, y, 0xFF55FF55, true);
-            y += LINE_HEIGHT + SECTION_SPACING;
-            graphics.drawString(this.font, "Active Hunts", PADDING, y, COLOR_HEADER, true);
-            y += LINE_HEIGHT + 2;
-            graphics.drawString(this.font, "Ice Type  5/30", PADDING, y, COLOR_HINT, true);
+
+            // placeholder timer bar with centered text
+            int barWidth = unscaledWidth - (PADDING * 2);
+            graphics.fill(PADDING, y, PADDING + barWidth, y + TIMER_BAR_HEIGHT, 0xFF333333);
+            int filledWidth = (int) (barWidth * 0.82f);
+            graphics.fill(PADDING, y, PADDING + filledWidth, y + TIMER_BAR_HEIGHT, 0xFF55FF55);
+            String placeholderTimer = "24:31";
+            int timerTextWidth = this.font.width(placeholderTimer);
+            int timerTextX = PADDING + (barWidth - timerTextWidth) / 2;
+            int timerTextY = y + (TIMER_BAR_HEIGHT - this.font.lineHeight) / 2 + 1;
+            graphics.drawString(this.font, placeholderTimer, timerTextX, timerTextY, COLOR_TEXT, true);
+            y += TIMER_BAR_HEIGHT;
+
+            // no quests message
+            y += SECTION_SPACING;
+            int maxTextWidth = unscaledWidth - PADDING * 2;
+            for (String line : wrapText(this.font, NO_QUESTS_MESSAGE, maxTextWidth)) {
+                int lineWidth = this.font.width(line);
+                graphics.drawString(this.font, line, (unscaledWidth - lineWidth) / 2, y, COLOR_HINT, true);
+                y += LINE_HEIGHT;
+            }
             return;
         }
 
         // timer section
         if (showTimer) {
-            String header = safariManager.isInSafariZone() ? "Safari Zone" : "Safari Zone (away)";
+            String header = safariManager.isInSafariZone() ? "SAA Safari Helper" : "SAA Safari Helper (away)";
             graphics.drawString(this.font, header, PADDING, y, COLOR_HEADER, true);
             y += LINE_HEIGHT;
 
             String timerText = safariManager.getRemainingTimeFormatted();
-            graphics.drawString(this.font, timerText, PADDING, y, 0xFF55FF55, true);
-            y += LINE_HEIGHT;
-
-            // progress bar
-            int barWidth = unscaledWidth - (PADDING * 2);
             float remainingPercent = 1.0f - safariManager.getTimerProgress();
-            graphics.fill(PADDING, y, PADDING + barWidth, y + PROGRESS_BAR_HEIGHT, 0xFF333333);
+
+            int barWidth = unscaledWidth - (PADDING * 2);
+            graphics.fill(PADDING, y, PADDING + barWidth, y + TIMER_BAR_HEIGHT, 0xFF333333);
             int filledWidth = (int) (barWidth * remainingPercent);
+
             if (filledWidth > 0) {
-                graphics.fill(PADDING, y, PADDING + filledWidth, y + PROGRESS_BAR_HEIGHT, 0xFF55FF55);
+                graphics.fill(PADDING, y, PADDING + filledWidth, y + TIMER_BAR_HEIGHT, 0xFF55FF55);
             }
-            y += PROGRESS_BAR_HEIGHT;
+
+            int timerTextWidth = this.font.width(timerText);
+            int timerTextX = PADDING + (barWidth - timerTextWidth) / 2;
+            int timerTextY = y + (TIMER_BAR_HEIGHT - this.font.lineHeight) / 2 + 1;
+            graphics.drawString(this.font, timerText, timerTextX, timerTextY, COLOR_TEXT, true);
+            y += TIMER_BAR_HEIGHT;
 
             if (showHunts) {
                 y += SECTION_SPACING;
                 graphics.fill(PADDING, y, PADDING + barWidth, y + 1, 0xFF555555);
                 y += SECTION_SPACING;
+            } else {
+                // no quests message
+                y += SECTION_SPACING;
+                int maxTextWidth = unscaledWidth - PADDING * 2;
+                for (String line : wrapText(this.font, NO_QUESTS_MESSAGE, maxTextWidth)) {
+                    int lineWidth = this.font.width(line);
+                    graphics.drawString(this.font, line, (unscaledWidth - lineWidth) / 2, y, COLOR_HINT, true);
+                    y += LINE_HEIGHT;
+                }
             }
         }
 
@@ -222,7 +259,7 @@ public class HudConfigScreen extends Screen {
                     nameX += this.font.width(stars) + 2;
                 }
 
-                int nameColor = hunt.isComplete() ? 0xFFFFAA00 : COLOR_TEXT;
+                int nameColor = hunt.isComplete() ? COLOR_PROGRESS_COMPLETE : COLOR_TEXT;
                 graphics.drawString(this.font, hunt.getDisplayName(), nameX, y, nameColor, true);
 
                 // reset countdown (right-aligned)
@@ -236,10 +273,20 @@ public class HudConfigScreen extends Screen {
 
                 y += LINE_HEIGHT;
 
-                // progress text
-                String progressText = hunt.getProgressString();
-                int progressColor = hunt.isComplete() ? 0xFFFFAA00 : COLOR_HINT;
-                graphics.drawString(this.font, progressText, PADDING + 4, y, progressColor, true);
+                int textX = PADDING + 4;
+                String caughtStr = String.valueOf(hunt.getCaught());
+                String slash = "/";
+                String totalStr = String.valueOf(hunt.getTotal());
+
+                int numberColor = hunt.isComplete() ? COLOR_PROGRESS_COMPLETE : COLOR_QUEST_NUMBER;
+                int slashColor = hunt.isComplete() ? COLOR_PROGRESS_COMPLETE : COLOR_HINT;
+
+                int px = textX;
+                graphics.drawString(this.font, caughtStr, px, y, numberColor, true);
+                px += this.font.width(caughtStr);
+                graphics.drawString(this.font, slash, px, y, slashColor, true);
+                px += this.font.width(slash);
+                graphics.drawString(this.font, totalStr, px, y, numberColor, true);
 
                 y += LINE_HEIGHT;
             }
@@ -263,7 +310,7 @@ public class HudConfigScreen extends Screen {
         }
 
         if (showTimer) {
-            String header = safariManager.isInSafariZone() ? "Safari Zone" : "Safari Zone (away)";
+            String header = safariManager.isInSafariZone() ? "SAA Safari Helper" : "SAA Safari Helper (away)";
             maxWidth = Math.max(maxWidth, this.font.width(header) + PADDING * 2);
         }
 
@@ -271,26 +318,31 @@ public class HudConfigScreen extends Screen {
     }
 
     private int calculateActualHeight(boolean showTimer, boolean showHunts) {
+        int panelWidth = calculateActualWidth(showTimer, showHunts);
+        int maxTextWidth = Math.max(panelWidth - PADDING * 2, 1);
+        int messageLines = wrapText(this.font, NO_QUESTS_MESSAGE, maxTextWidth).size();
+
         // default preview size when nothing active
         if (!showTimer && !showHunts) {
-            return PADDING + LINE_HEIGHT + LINE_HEIGHT + SECTION_SPACING + LINE_HEIGHT + 2 + LINE_HEIGHT + PADDING;
+            return PADDING + LINE_HEIGHT + TIMER_BAR_HEIGHT + SECTION_SPACING + LINE_HEIGHT * messageLines + PADDING;
         }
 
         int height = PADDING;
 
         if (showTimer) {
-            height += LINE_HEIGHT;         // header
-            height += LINE_HEIGHT;         // timer text
-            height += PROGRESS_BAR_HEIGHT; // progress bar
+            height += LINE_HEIGHT;
+            height += TIMER_BAR_HEIGHT;
         }
 
         if (showTimer && showHunts) {
-            height += SECTION_SPACING * 2 + 1; // divider
+            height += SECTION_SPACING * 2 + 1;
         }
 
         if (showHunts) {
             height += LINE_HEIGHT + 2; // "active hunts" header
-            height += safariHuntManager.getActiveHunts().size() * (LINE_HEIGHT * 2); // each hunt: name + progress
+            height += safariHuntManager.getActiveHunts().size() * (LINE_HEIGHT * 2);
+        } else if (showTimer) {
+            height += SECTION_SPACING + LINE_HEIGHT * messageLines;
         }
 
         height += PADDING;
@@ -304,7 +356,6 @@ public class HudConfigScreen extends Screen {
         int mx = (int) mouseX;
         int my = (int) mouseY;
 
-        // corners first (resize priority over move)
         CornerHit corner = getCornerHit(mx, my);
         if (corner != null) {
             dragMode = DragMode.RESIZE;
@@ -427,5 +478,29 @@ public class HudConfigScreen extends Screen {
 
     private static boolean isNearPoint(int mx, int my, int px, int py, int radius) {
         return Math.abs(mx - px) <= radius && Math.abs(my - py) <= radius;
+    }
+    
+    private static List<String> wrapText(net.minecraft.client.gui.Font font, String text, int maxWidth) {
+        List<String> lines = new ArrayList<>();
+        String[] words = text.split(" ");
+        StringBuilder current = new StringBuilder();
+
+        for (String word : words) {
+            if (current.isEmpty()) {
+                current.append(word);
+            } else {
+                String test = current + " " + word;
+                if (font.width(test) > maxWidth) {
+                    lines.add(current.toString());
+                    current = new StringBuilder(word);
+                } else {
+                    current.append(" ").append(word);
+                }
+            }
+        }
+        if (!current.isEmpty()) {
+            lines.add(current.toString());
+        }
+        return lines;
     }
 }

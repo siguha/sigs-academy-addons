@@ -198,6 +198,31 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                             return 1;
                                         })
                                 )
+                                .then(ClientCommandManager.literal("hudStyle")
+                                        .then(ClientCommandManager.literal("solid")
+                                                .executes(context -> {
+                                                    hudConfig.setHudStyle(HudConfig.HudStyle.SOLID);
+                                                    context.getSource().sendFeedback(
+                                                            Component.literal("\u00A7aHUD style set to solid."));
+                                                    return 1;
+                                                })
+                                        )
+                                        .then(ClientCommandManager.literal("transparent")
+                                                .executes(context -> {
+                                                    hudConfig.setHudStyle(HudConfig.HudStyle.TRANSPARENT);
+                                                    context.getSource().sendFeedback(
+                                                            Component.literal("\u00A7aHUD style set to transparent."));
+                                                    return 1;
+                                                })
+                                        )
+                                        .executes(context -> {
+                                            String current = hudConfig.getHudStyle().name().toLowerCase();
+                                            context.getSource().sendFeedback(Component.literal(
+                                                    "\u00A77hudStyle = \u00A7f" + current +
+                                                    "\n\u00A77Usage: \u00A7e/sig config hudStyle <solid|transparent>"));
+                                            return 1;
+                                        })
+                                )
                                 .executes(context -> {
                                     // show all config values
                                     context.getSource().sendFeedback(Component.literal(
@@ -205,6 +230,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                             "\u00A77safariTimerAlways = \u00A7f" + hudConfig.isSafariTimerAlways() +
                                             "\n\u00A77safariQuestMonGlow = \u00A7f" + hudConfig.isSafariQuestMonGlow() +
                                             "\n\u00A77safariQuestMonTracers = \u00A7f" + hudConfig.isSafariQuestMonTracers() +
+                                            "\n\u00A77hudStyle = \u00A7f" + hudConfig.getHudStyle().name().toLowerCase() +
                                             "\n\u00A77hudScale = \u00A7f" + String.format("%.0f%%", hudConfig.getHudScale() * 100) +
                                             "\n\u00A77anchor = \u00A7f" + hudConfig.getAnchor().name() +
                                             "\n\u00A77offset = \u00A7f(" + hudConfig.getOffsetX() + ", " + hudConfig.getOffsetY() + ")"
@@ -223,7 +249,8 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                     "\u00A7e/sig config\u00A77 — View configuration\n" +
                                     "\u00A7e/sig config safariTimerAlways <bool>\u00A77 — Show HUD outside safari zone\n" +
                                     "\u00A7e/sig config safariQuestMonGlow <bool>\u00A77 — Glow on quest-matching Pokemon\n" +
-                                    "\u00A7e/sig config safariQuestMonTracers <bool>\u00A77 — Tracers to nearby quest Pokemon"
+                                    "\u00A7e/sig config safariQuestMonTracers <bool>\u00A77 — Tracers to nearby quest Pokemon\n" +
+                                    "\u00A7e/sig config hudStyle <solid|transparent>\u00A77 — HUD background style"
                             ));
                             return 1;
                         })

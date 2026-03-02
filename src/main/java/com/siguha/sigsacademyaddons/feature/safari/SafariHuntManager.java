@@ -7,6 +7,7 @@ import com.siguha.sigsacademyaddons.handler.ScreenInterceptor;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -23,7 +24,7 @@ public class SafariHuntManager {
     private final HuntDataStore dataStore;
     private List<SafariHuntData> activeHunts = new ArrayList<>();
 
-    // unattributed catches since last screen scrape (party full → pc)
+    // unattributed catches since last screen scrape
     private int pendingUpdates = 0;
 
     // expiration check cooldown (~5 seconds = 100 ticks)
@@ -178,9 +179,11 @@ public class SafariHuntManager {
         }
     }
 
-    // returns unmodifiable list of active hunts
+    // returns a sorted list of hunts by type hunt to egg hunt
     public List<SafariHuntData> getActiveHunts() {
-        return Collections.unmodifiableList(activeHunts);
+        List<SafariHuntData> sorted = new ArrayList<>(activeHunts);
+        sorted.sort(Comparator.comparingInt(h -> h.getCategory().ordinal()));
+        return Collections.unmodifiableList(sorted);
     }
 
     public boolean hasActiveHunts() {
@@ -249,7 +252,7 @@ public class SafariHuntManager {
             targets = List.of(eggGroupName);
         } else if (nameWithoutStars.toLowerCase().contains("type")) {
             category = SafariHuntData.HuntCategory.TYPE;
-            // "ice type" → "ice", "dark flying type" → ["dark", "flying"]
+            // "ice type" to "ice", "dark flying type" to ["dark", "flying"]
             String typePart = nameWithoutStars
                     .replaceAll("(?i)type", "")
                     .trim();
@@ -300,14 +303,13 @@ public class SafariHuntManager {
         return stripped.trim();
     }
 
-    // counts star chars (unicode stars + thai resource-pack mapped chars)
     private static int countStars(String text) {
         int count = 0;
         for (char c : text.toCharArray()) {
             if (c == '\u2B50' || c == '\u2605' || c == '\u2606' || c == '*') {
                 count++;
             }
-            if (c == '\u0E47') { // thai char mapped to star by resource pack
+            if (c == '\u0E47') {
                 count++;
             }
         }

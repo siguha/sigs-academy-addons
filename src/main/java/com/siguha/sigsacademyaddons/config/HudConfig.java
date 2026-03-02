@@ -24,6 +24,12 @@ public class HudConfig {
         BOTTOM_RIGHT
     }
 
+    // hud visual style: solid background or transparent overlay
+    public enum HudStyle {
+        SOLID,
+        TRANSPARENT
+    }
+
     private Anchor anchor = Anchor.TOP_RIGHT;
     private int offsetX = 5;
     private int offsetY = 5;
@@ -31,6 +37,7 @@ public class HudConfig {
     private float hudScale = 1.0f;
     private boolean safariQuestMonGlow = true;
     private boolean safariQuestMonTracers = true;
+    private HudStyle hudStyle = HudStyle.SOLID;
 
     public HudConfig() {
         load();
@@ -69,6 +76,15 @@ public class HudConfig {
 
     public void setSafariQuestMonTracers(boolean safariQuestMonTracers) {
         this.safariQuestMonTracers = safariQuestMonTracers;
+        save();
+    }
+
+    public HudStyle getHudStyle() {
+        return hudStyle;
+    }
+
+    public void setHudStyle(HudStyle hudStyle) {
+        this.hudStyle = hudStyle;
         save();
     }
 
@@ -140,7 +156,7 @@ public class HudConfig {
             Files.createDirectories(filePath.getParent());
 
             ConfigData data = new ConfigData(anchor.name(), offsetX, offsetY, safariTimerAlways, hudScale,
-                    safariQuestMonGlow, safariQuestMonTracers);
+                    safariQuestMonGlow, safariQuestMonTracers, hudStyle.name());
             try (Writer writer = Files.newBufferedWriter(filePath)) {
                 GSON.toJson(data, writer);
             }
@@ -169,6 +185,7 @@ public class HudConfig {
                     // null = missing from old config, default true
                     this.safariQuestMonGlow = data.safariQuestMonGlow != null ? data.safariQuestMonGlow : true;
                     this.safariQuestMonTracers = data.safariQuestMonTracers != null ? data.safariQuestMonTracers : true;
+                    this.hudStyle = data.hudStyle != null ? HudStyle.valueOf(data.hudStyle) : HudStyle.SOLID;
                     SigsAcademyAddons.LOGGER.info("[HudConfig] Loaded HUD position: anchor={}, offsetX={}, offsetY={}",
                             anchor, offsetX, offsetY);
                 }
@@ -185,6 +202,6 @@ public class HudConfig {
     }
 
     private record ConfigData(String anchor, int offsetX, int offsetY, boolean safariTimerAlways, float hudScale,
-                               Boolean safariQuestMonGlow, Boolean safariQuestMonTracers) {
+                               Boolean safariQuestMonGlow, Boolean safariQuestMonTracers, String hudStyle) {
     }
 }
