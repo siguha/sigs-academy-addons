@@ -1,0 +1,243 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1,
+  "name": "Bulbasaur",
+  "primaryType": "grass",
+  "secondaryType": "poison",
+  "maleRatio": 0.875,
+  "height": 7,
+  "weight": 69,
+  "pokedex": [
+    "cobblemon.species.bulbasaur.desc"
+  ],
+  "labels": [
+    "gen1",
+    "starter"
+  ],
+  "aspects": [],
+  "abilities": [
+    "overgrow",
+    "h:chlorophyll"
+  ],
+  "eggGroups": [
+    "monster",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 49,
+    "defence": 49,
+    "special_attack": 65,
+    "special_defence": 65,
+    "speed": 45
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "standingEyeHeight": 0.5,
+  "swimmingEyeHeight": 0.5,
+  "flyingEyeHeight": 0.5,
+  "baseScale": 0.85,
+  "hitbox": {
+    "width": 0.7,
+    "height": 0.8,
+    "fixed": false
+  },
+  "behaviour": {
+    "walk": {
+      "walkSpeed": 0.27
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "light": "0-4",
+      "times": [
+        "night, noon"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "herd": {
+      "maxSize": "4",
+      "toleratedLeaders": [
+        {
+          "pokemon": "ivysaur",
+          "tier": 1
+        },
+        {
+          "pokemon": "venusaur mega=false",
+          "tier": 2
+        },
+        {
+          "pokemon": "venusaur mega",
+          "tier": 3
+        }
+      ]
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+  },
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:melon_seeds",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "3:vinewhip",
+    "6:growth",
+    "9:leechseed",
+    "12:razorleaf",
+    "15:poisonpowder",
+    "15:sleeppowder",
+    "18:seedbomb",
+    "21:takedown",
+    "24:sweetscent",
+    "27:synthesis",
+    "30:worryseed",
+    "33:powerwhip",
+    "36:solarbeam",
+    "egg:curse",
+    "egg:grasswhistle",
+    "egg:ingrain",
+    "egg:petaldance",
+    "egg:skullbash",
+    "egg:sludge",
+    "egg:toxic",
+    "tm:acidspray",
+    "tm:bind",
+    "tm:bodyslam",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:curse",
+    "tm:cut",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:flash",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:knockoff",
+    "tm:leafstorm",
+    "tm:magicalleaf",
+    "tm:naturepower",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:solarbeam",
+    "tm:strength",
+    "tm:stringshot",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:trailblaze",
+    "tm:venoshock",
+    "tm:weatherball",
+    "tm:workup",
+    "tm:worryseed",
+    "tutor:bind",
+    "tutor:block",
+    "tutor:energyball",
+    "tutor:falseswipe",
+    "tutor:frenzyplant",
+    "tutor:furycutter",
+    "tutor:gigadrain",
+    "tutor:grasspledge",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:knockoff",
+    "tutor:magicalleaf",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:stringshot",
+    "tutor:synthesis",
+    "tutor:worryseed",
+    "legacy:amnesia",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:defensecurl",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:lightscreen",
+    "legacy:megadrain",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:outrage",
+    "legacy:rage",
+    "legacy:razorwind",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "special:block",
+    "special:celebrate",
+    "special:frenzyplant"
+  ],
+  "evolutions": [
+    {
+      "id": "bulbasaur_ivysaur",
+      "variant": "level_up",
+      "result": "ivysaur",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]
+    }
+  ]
+}

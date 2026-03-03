@@ -2,7 +2,6 @@ package com.siguha.sigsacademyaddons.feature.safari;
 
 import java.util.List;
 
-// represents a single safari hunt parsed from the hunts npc screen
 public class SafariHuntData {
 
     public enum HuntCategory {
@@ -89,13 +88,11 @@ public class SafariHuntData {
         return caught + "/" + total;
     }
 
-    // remaining ms until reset (0 if unknown or expired)
     public long getResetRemainingMs() {
         if (resetEndTimeMs <= 0) return 0;
         return Math.max(0, resetEndTimeMs - System.currentTimeMillis());
     }
 
-    // returns reset countdown formatted h mm, empty if unknown/expired
     public String getResetCountdownFormatted() {
         long remainingMs = getResetRemainingMs();
         if (remainingMs <= 0) return "";
@@ -114,7 +111,6 @@ public class SafariHuntData {
         }
     }
 
-    // whether this hunt's reset timer has expired
     public boolean isResetExpired() {
         return resetEndTimeMs > 0 && System.currentTimeMillis() >= resetEndTimeMs;
     }

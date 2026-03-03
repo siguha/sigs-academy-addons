@@ -55,6 +55,10 @@ public class SafariHudRenderer {
             return;
         }
 
+        if (!hudConfig.isSafariMenuEnabled()) {
+            return;
+        }
+
         boolean inSafariZone = safariManager.isInSafariZone();
         boolean showOutsideZone = hudConfig.isSafariTimerAlways();
 
@@ -104,8 +108,10 @@ public class SafariHudRenderer {
 
         if (showHunts) {
             renderHuntSection(graphics, font, currentY, panelWidth);
+
         } else if (showTimer) {
             renderNoQuestsMessage(graphics, font, currentY, panelWidth);
+
         }
 
         graphics.pose().popPose();
@@ -114,10 +120,13 @@ public class SafariHudRenderer {
     private int renderTimerSection(GuiGraphics graphics, Font font, int startY, int panelWidth) {
         int y = startY;
         String header = "SAA Safari Helper";
+        
         if (!safariManager.isInSafariZone()) {
             header = "SAA Safari Helper (away)";
         }
-        graphics.drawString(font, header, PADDING, y, COLOR_HEADER, true);
+
+        int headerWidth = font.width(header);
+        graphics.drawString(font, header, (panelWidth - headerWidth) / 2, y, COLOR_HEADER, true);
         y += LINE_HEIGHT;
 
         String timerText = safariManager.getRemainingTimeFormatted();
@@ -130,6 +139,7 @@ public class SafariHudRenderer {
 
         graphics.fill(barX, y, barX + barWidth, y + TIMER_BAR_HEIGHT, COLOR_PROGRESS_BG);
         int filledWidth = (int) (barWidth * remainingPercent);
+
         if (filledWidth > 0) {
             graphics.fill(barX, y, barX + filledWidth, y + TIMER_BAR_HEIGHT, timerColor);
         }
@@ -148,6 +158,7 @@ public class SafariHudRenderer {
         int y = startY + SECTION_SPACING;
         int maxTextWidth = panelWidth - PADDING * 2;
         List<String> lines = wrapText(font, NO_QUESTS_MESSAGE, maxTextWidth);
+
         for (String line : lines) {
             int lineWidth = font.width(line);
             graphics.drawString(font, line, (panelWidth - lineWidth) / 2, y, COLOR_TEXT_SECONDARY, true);
@@ -222,6 +233,7 @@ public class SafariHudRenderer {
                 int barY = y + 3;
                 graphics.fill(barX, barY, barX + barWidth, barY + PROGRESS_BAR_HEIGHT, COLOR_PROGRESS_BG);
                 int filled = (int) (barWidth * huntProgress);
+
                 if (filled > 0) {
                     int fillColor = hunt.isComplete() ? COLOR_PROGRESS_COMPLETE : COLOR_PROGRESS_FILL;
                     graphics.fill(barX, barY, barX + filled, barY + PROGRESS_BAR_HEIGHT, fillColor);
@@ -267,6 +279,7 @@ public class SafariHudRenderer {
         if (showHunts) {
             height += LINE_HEIGHT + 2;
             height += safariHuntManager.getActiveHunts().size() * (LINE_HEIGHT * 2);
+            
         } else if (showTimer) {
             int maxTextWidth = panelWidth - PADDING * 2;
             int lineCount = wrapText(font, NO_QUESTS_MESSAGE, maxTextWidth).size();

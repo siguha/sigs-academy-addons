@@ -22,10 +22,8 @@ public class EggGroupLookup {
 
     private static final String SPECIES_DATA_PREFIX = "data/cobblemon/species/";
 
-    // cache: lowercase species name to lowercase egg group names
     private static final Map<String, Set<String>> cache = new HashMap<>();
 
-    // returns egg groups for a species, cached after first lookup
     public static Set<String> getEggGroups(String speciesName) {
         if (speciesName == null || speciesName.isEmpty()) {
             return Set.of();
@@ -43,9 +41,9 @@ public class EggGroupLookup {
         cache.put(key, eggGroups);
 
         if (!eggGroups.isEmpty()) {
-            SigsAcademyAddons.LOGGER.debug("[sig EggGroupLookup] loaded egg groups for {}: {}", speciesName, eggGroups);
+            SigsAcademyAddons.LOGGER.debug("[SAA EggGroupLookup] loaded egg groups for {}: {}", speciesName, eggGroups);
         } else {
-            SigsAcademyAddons.LOGGER.debug("[sig EggGroupLookup] no egg groups found for {} in species data", speciesName);
+            SigsAcademyAddons.LOGGER.debug("[SAA EggGroupLookup] no egg groups found for {} in species data", speciesName);
         }
 
         return eggGroups;
@@ -79,7 +77,7 @@ public class EggGroupLookup {
                 return eggGroups;
 
             } catch (Exception e) {
-                SigsAcademyAddons.LOGGER.debug("[sig EggGroupLookup] error reading {}: {}", path, e.getMessage());
+                SigsAcademyAddons.LOGGER.debug("[SAA EggGroupLookup] error reading {}: {}", path, e.getMessage());
             }
         }
 

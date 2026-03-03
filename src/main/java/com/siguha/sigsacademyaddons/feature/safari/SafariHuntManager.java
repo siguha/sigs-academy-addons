@@ -12,10 +12,8 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-// parses hunts from the npc screen, tracks progress, and correlates catches
 public class SafariHuntManager {
 
-    // lore parsing patterns
     private static final Pattern CAUGHT_PATTERN = Pattern.compile("Caught:\\s*(\\d+)/(\\d+)");
     private static final Pattern RESET_PATTERN = Pattern.compile("Resets in (.+)");
     private static final Pattern TIME_PARTS_PATTERN = Pattern.compile("(\\d+)h\\s*(\\d+)m\\s*(\\d+)s");
@@ -24,10 +22,8 @@ public class SafariHuntManager {
     private final HuntDataStore dataStore;
     private List<SafariHuntData> activeHunts = new ArrayList<>();
 
-    // unattributed catches since last screen scrape
     private int pendingUpdates = 0;
 
-    // expiration check cooldown (~5 seconds = 100 ticks)
     private int expirationCheckCooldown = 0;
 
     public SafariHuntManager(HuntDataStore dataStore) {
@@ -37,11 +33,8 @@ public class SafariHuntManager {
         activeHunts.removeIf(SafariHuntData::isResetExpired);
         int removed = before - activeHunts.size();
         if (removed > 0) {
-            SigsAcademyAddons.LOGGER.info("[sig Safari] Removed {} expired hunts on load ({} remaining)",
-                    removed, activeHunts.size());
             dataStore.save(activeHunts);
-        } else if (!activeHunts.isEmpty()) {
-            SigsAcademyAddons.LOGGER.info("[sig Safari] Loaded {} persisted hunts from disk", activeHunts.size());
+
         }
     }
 
@@ -54,9 +47,9 @@ public class SafariHuntManager {
 
         int before = activeHunts.size();
         activeHunts.removeIf(SafariHuntData::isResetExpired);
+
         if (activeHunts.size() < before) {
             dataStore.save(activeHunts);
-            SigsAcademyAddons.LOGGER.info("[sig Safari] Removed expired hunts — {} remaining", activeHunts.size());
         }
     }
 
@@ -66,28 +59,26 @@ public class SafariHuntManager {
         for (ScreenInterceptor.ScrapedHuntItem item : scrapedItems) {
             try {
                 SafariHuntData hunt = parseHuntItem(item);
+
                 if (hunt != null) {
                     parsedHunts.add(hunt);
-                    SigsAcademyAddons.LOGGER.debug("[sig Safari] Parsed hunt: {}", hunt);
                 }
+
             } catch (Exception e) {
-                SigsAcademyAddons.LOGGER.warn("[sig Safari] Failed to parse hunt item '{}': {}",
+                SigsAcademyAddons.LOGGER.warn("[SAA Safari] Failed to parse hunt item '{}': {}",
                         item.name(), e.getMessage());
             }
         }
 
         if (!parsedHunts.isEmpty()) {
             this.activeHunts = parsedHunts;
-            this.pendingUpdates = 0; // fresh data from screen
+            this.pendingUpdates = 0;
             dataStore.save(activeHunts);
-            SigsAcademyAddons.LOGGER.info("[sig Safari] Updated {} active hunts (pending updates cleared)", activeHunts.size());
         }
     }
 
     public void onHuntProgressUpdate() {
         pendingUpdates++;
-        SigsAcademyAddons.LOGGER.info("[sig Safari] Hunt progress updated! ({} pending — open HUNTS NPC to refresh)",
-                pendingUpdates);
     }
 
     public int getPendingUpdates() {
@@ -98,9 +89,6 @@ public class SafariHuntManager {
         if (activeHunts.isEmpty()) {
             return;
         }
-
-        SigsAcademyAddons.LOGGER.debug("[sig Safari] Correlating catch: {} (types={}, eggGroups={})",
-                catchInfo.speciesName(), catchInfo.types(), catchInfo.eggGroups());
 
         List<SafariHuntData> matchingHunts = new ArrayList<>();
 
@@ -115,20 +103,15 @@ public class SafariHuntManager {
         }
 
         if (matchingHunts.isEmpty()) {
-            SigsAcademyAddons.LOGGER.debug("[sig Safari] No matching hunts for caught Pokemon: {}",
-                    catchInfo.speciesName());
             return;
         }
 
         for (SafariHuntData hunt : matchingHunts) {
             hunt.incrementCaught();
-            SigsAcademyAddons.LOGGER.debug("[sig Safari] Incremented hunt '{}' → {}",
-                    hunt.getDisplayName(), hunt.getProgressString());
         }
 
         if (pendingUpdates > 0) {
             pendingUpdates--;
-            SigsAcademyAddons.LOGGER.debug("[sig Safari] Catch attributed — pending updates: {}", pendingUpdates);
         }
 
         dataStore.save(activeHunts);
@@ -147,12 +130,14 @@ public class SafariHuntManager {
                 return false;
 
             case EGG_GROUP:
-                // normalized comparison for egg groups (e.g. "Water 2" vs "WATER2")
                 for (String target : hunt.getTargets()) {
                     String normalizedTarget = SigsAcademyAddons.normalizeForComparison(target);
+
                     for (String pokemonEggGroup : catchInfo.eggGroups()) {
                         String normalizedEggGroup = SigsAcademyAddons.normalizeForComparison(pokemonEggGroup);
+
                         if (normalizedEggGroup.equals(normalizedTarget)) {
+
                             return true;
                         }
                     }
@@ -167,10 +152,10 @@ public class SafariHuntManager {
         }
     }
 
-    // returns a sorted list of hunts by type hunt to egg hunt
     public List<SafariHuntData> getActiveHunts() {
         List<SafariHuntData> sorted = new ArrayList<>(activeHunts);
         sorted.sort(Comparator.comparingInt(h -> h.getCategory().ordinal()));
+
         return Collections.unmodifiableList(sorted);
     }
 
@@ -233,13 +218,14 @@ public class SafariHuntManager {
                     .replaceAll("(?i)egg\\s*group", "")
                     .trim();
             targets = List.of(eggGroupName);
+
         } else if (nameWithoutStars.toLowerCase().contains("type")) {
             category = SafariHuntData.HuntCategory.TYPE;
-            // "ice type" to "ice", "dark flying type" to ["dark", "flying"]
             String typePart = nameWithoutStars
                     .replaceAll("(?i)type", "")
                     .trim();
             targets = List.of(typePart.split("\\s+"));
+
         } else {
             category = SafariHuntData.HuntCategory.UNKNOWN;
             targets = List.of(nameWithoutStars);
@@ -266,7 +252,6 @@ public class SafariHuntManager {
 
             long totalMs = ((hours * 3600L) + (minutes * 60L) + seconds) * 1000L;
 
-            // round down 5s for network delay
             totalMs = Math.max(0, totalMs - 5000L);
 
             return System.currentTimeMillis() + totalMs;
@@ -275,12 +260,12 @@ public class SafariHuntManager {
         }
     }
 
-    // strips section-sign formatting, thai resource-pack chars, and star unicode
     private static String stripFormatting(String text) {
         if (text == null) return "";
         String stripped = text.replaceAll("\u00A7[0-9a-fk-or]", "");
         stripped = stripped.replaceAll("[\\u0E00-\\u0E7F]", "");
         stripped = stripped.replaceAll("[\\u2B50\\u2605\\u2606]", "");
+        
         return stripped.trim();
     }
 

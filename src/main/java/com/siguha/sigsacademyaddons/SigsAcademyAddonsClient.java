@@ -2,8 +2,12 @@ package com.siguha.sigsacademyaddons;
 
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.BoolArgumentType;
+import com.mojang.brigadier.arguments.IntegerArgumentType;
 import com.siguha.sigsacademyaddons.config.HudConfig;
+import com.siguha.sigsacademyaddons.data.DaycareDataStore;
 import com.siguha.sigsacademyaddons.data.HuntDataStore;
+import com.siguha.sigsacademyaddons.feature.daycare.DaycareManager;
+import com.siguha.sigsacademyaddons.feature.daycare.DaycareSoundPlayer;
 import com.siguha.sigsacademyaddons.feature.safari.HuntEntityTracker;
 import com.siguha.sigsacademyaddons.feature.safari.SafariHuntManager;
 import com.siguha.sigsacademyaddons.feature.safari.SafariManager;
@@ -11,6 +15,7 @@ import com.siguha.sigsacademyaddons.gui.HudConfigScreen;
 import com.siguha.sigsacademyaddons.handler.CatchDetector;
 import com.siguha.sigsacademyaddons.handler.ChatMessageHandler;
 import com.siguha.sigsacademyaddons.handler.ScreenInterceptor;
+import com.siguha.sigsacademyaddons.hud.DaycareHudRenderer;
 import com.siguha.sigsacademyaddons.hud.HuntLineRenderer;
 import com.siguha.sigsacademyaddons.hud.SafariHudRenderer;
 import net.fabricmc.api.ClientModInitializer;
@@ -19,11 +24,15 @@ import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallba
 import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.message.v1.ClientReceiveMessageEvents;
+import net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents;
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.fabricmc.fabric.api.client.rendering.v1.WorldRenderEvents;
 import net.fabricmc.fabric.api.client.screen.v1.ScreenEvents;
 import net.minecraft.commands.CommandBuildContext;
 import net.minecraft.network.chat.Component;
+import org.lwjgl.glfw.GLFW;
+import org.lwjgl.glfw.GLFWErrorCallback;
+import org.lwjgl.system.MemoryUtil;
 
 public class SigsAcademyAddonsClient implements ClientModInitializer {
 
@@ -31,9 +40,12 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
     private static SafariHuntManager safariHuntManager;
     private static HuntEntityTracker huntEntityTracker;
     private static CatchDetector catchDetector;
+    private static DaycareManager daycareManager;
+    private static DaycareSoundPlayer daycareSoundPlayer;
     private static HudConfig hudConfig;
 
     private static boolean openConfigScreenNextTick = false;
+    private static boolean glfwFilterReinstalled = false;
 
     @Override
     public void onInitializeClient() {
@@ -47,9 +59,14 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
         catchDetector = new CatchDetector();
         catchDetector.setOnCatchListener(safariHuntManager::onPokemonCaught);
 
-        ChatMessageHandler chatHandler = new ChatMessageHandler(safariManager, safariHuntManager, catchDetector);
-        ScreenInterceptor screenInterceptor = new ScreenInterceptor(safariHuntManager);
+        DaycareDataStore daycareDataStore = new DaycareDataStore();
+        daycareSoundPlayer = new DaycareSoundPlayer(hudConfig);
+        daycareManager = new DaycareManager(daycareDataStore, daycareSoundPlayer, hudConfig);
+
+        ChatMessageHandler chatHandler = new ChatMessageHandler(safariManager, safariHuntManager, catchDetector, daycareManager);
+        ScreenInterceptor screenInterceptor = new ScreenInterceptor(safariHuntManager, daycareManager);
         SafariHudRenderer hudRenderer = new SafariHudRenderer(safariManager, safariHuntManager, hudConfig);
+        DaycareHudRenderer daycareHudRenderer = new DaycareHudRenderer(daycareManager, hudConfig);
 
         ClientReceiveMessageEvents.GAME.register(chatHandler::onGameMessage);
         ScreenEvents.AFTER_INIT.register(screenInterceptor::onScreenInit);
@@ -59,21 +76,67 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
             safariHuntManager.tick();
             huntEntityTracker.tick();
             catchDetector.tick(client);
+            daycareManager.tick();
+            daycareSoundPlayer.tick();
+
+            // deferred GLFW error filter reinstall — another mod (e.g. Cobblemon) may override
+            // our callback during initialization, so we reinstall after all mods are loaded
+            if (!glfwFilterReinstalled) {
+                glfwFilterReinstalled = true;
+                installGlfwErrorFilter();
+            }
 
             if (openConfigScreenNextTick && client.player != null) {
                 openConfigScreenNextTick = false;
-                client.setScreen(new HudConfigScreen(hudConfig, safariManager, safariHuntManager));
+                client.setScreen(new HudConfigScreen(hudConfig, safariManager, safariHuntManager, daycareManager));
             }
         });
 
         HudRenderCallback.EVENT.register(hudRenderer::onHudRender);
+        HudRenderCallback.EVENT.register(daycareHudRenderer::onHudRender);
 
         HuntLineRenderer huntLineRenderer = new HuntLineRenderer(safariManager, hudConfig);
         WorldRenderEvents.LAST.register(huntLineRenderer::onWorldRenderLast);
 
+        // restore daycare state when joining a server (not during mod init, when no server is connected)
+        ClientPlayConnectionEvents.JOIN.register((handler, sender, client) -> {
+            daycareManager.onServerJoined();
+        });
+        ClientPlayConnectionEvents.DISCONNECT.register((handler, client) -> {
+            daycareManager.onServerDisconnected();
+        });
+
         ClientCommandRegistrationCallback.EVENT.register(SigsAcademyAddonsClient::registerCommands);
 
+        // suppress GLFW "Invalid key -1" error spam from Cobblemon's pokemon_model rendering
+        // in daycare container screens. The error is harmless but produces massive log spam.
+        installGlfwErrorFilter();
+
         SigsAcademyAddons.LOGGER.info("[Sigs Academy Addons] Client initialization complete.");
+    }
+
+    private static void installGlfwErrorFilter() {
+        try {
+            GLFWErrorCallback previousCallback = GLFW.glfwSetErrorCallback(null);
+            GLFW.glfwSetErrorCallback(GLFWErrorCallback.create((error, description) -> {
+                // GLFW error 0x10003 (GLFW_INVALID_ENUM) with "Invalid key -1" is caused by
+                // Cobblemon's pokemon_model item rendering in container screens — it tries to
+                // resolve a keybinding with an unbound key code, producing spam every frame.
+                if (error == 0x10003) {
+                    String msg = MemoryUtil.memUTF8Safe(description);
+                    if (msg != null && msg.contains("Invalid key")) {
+                        return; // silently suppress
+                    }
+                }
+                // forward all other errors to Minecraft's original callback
+                if (previousCallback != null) {
+                    previousCallback.invoke(error, description);
+                }
+            }));
+            SigsAcademyAddons.LOGGER.info("[sig] Installed GLFW error filter for cobblemon key spam");
+        } catch (Exception e) {
+            SigsAcademyAddons.LOGGER.warn("[sig] Failed to install GLFW error filter", e);
+        }
     }
 
     private static void registerCommands(CommandDispatcher<FabricClientCommandSource> dispatcher,
@@ -83,22 +146,23 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                         .then(ClientCommandManager.literal("gui")
                                 .then(ClientCommandManager.literal("reset")
                                         .executes(context -> {
+                                            int sw = context.getSource().getClient().getWindow().getGuiScaledWidth();
+                                            int sh = context.getSource().getClient().getWindow().getGuiScaledHeight();
                                             hudConfig.setHudScale(1.0f);
                                             hudConfig.setPositionFromAbsolute(
-                                                    context.getSource().getClient().getWindow().getGuiScaledWidth() - 145,
-                                                    5, 140, 100,
-                                                    context.getSource().getClient().getWindow().getGuiScaledWidth(),
-                                                    context.getSource().getClient().getWindow().getGuiScaledHeight()
-                                            );
+                                                    sw - 145, 5, 140, 100, sw, sh);
+                                            hudConfig.setDaycareScale(1.0f);
+                                            hudConfig.setDaycarePositionFromAbsolute(
+                                                    5, 5, 140, 100, sw, sh);
                                             context.getSource().sendFeedback(
-                                                    Component.literal("\u00A7aHUD position and scale reset to default."));
+                                                    Component.literal("\u00A7aAll HUD positions and scales reset to default."));
                                             return 1;
                                         })
                                 )
                                 .executes(context -> {
                                     openConfigScreenNextTick = true;
                                     context.getSource().sendFeedback(
-                                            Component.literal("\u00A7aOpening Safari HUD configuration..."));
+                                            Component.literal("\u00A7aOpening HUD configuration..."));
                                     return 1;
                                 })
                         )
@@ -133,6 +197,36 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                     return 1;
                                 })
                         )
+                        .then(ClientCommandManager.literal("daycare")
+                                .then(ClientCommandManager.literal("clear")
+                                        .executes(context -> {
+                                            daycareManager.clearAll();
+                                            context.getSource().sendFeedback(
+                                                    Component.literal("\u00A7aCleared all daycare data."));
+                                            return 1;
+                                        })
+                                )
+                                .executes(context -> {
+                                    int unlockedPens = daycareManager.getDisplayPens().size();
+                                    long breedingPens = daycareManager.getDisplayPens().stream()
+                                            .filter(p -> p.isBreeding()).count();
+                                    int activeEggs = daycareManager.getTotalActiveEggs();
+                                    int maxDisplay = hudConfig.getDaycareEggsHatchingSlots();
+
+                                    StringBuilder sb = new StringBuilder();
+                                    sb.append("\u00A76Daycare Status:\n");
+                                    sb.append("\u00A77Unlocked pens: \u00A7f").append(unlockedPens);
+                                    sb.append("\n\u00A77Breeding: \u00A7f").append(breedingPens);
+                                    sb.append("\n\u00A77Hatching eggs: \u00A7f").append(activeEggs);
+                                    sb.append("\n\u00A77Max eggs displayed: \u00A7f").append(maxDisplay);
+                                    sb.append("\n\u00A77Menu enabled: \u00A7f").append(hudConfig.isDaycareMenuEnabled());
+                                    sb.append("\n\u00A77Sounds enabled: \u00A7f").append(hudConfig.isDaycareSoundsEnabled());
+                                    sb.append("\n\u00A77Daycare scale: \u00A7f").append(String.format("%.0f%%", hudConfig.getDaycareScale() * 100));
+
+                                    context.getSource().sendFeedback(Component.literal(sb.toString()));
+                                    return 1;
+                                })
+                        )
                         .then(ClientCommandManager.literal("config")
                                 .then(ClientCommandManager.literal("safariTimerAlways")
                                         .then(ClientCommandManager.argument("value", BoolArgumentType.bool())
@@ -151,6 +245,26 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                             context.getSource().sendFeedback(Component.literal(
                                                     "\u00A77safariTimerAlways = \u00A7f" + current +
                                                     "\n\u00A77Usage: \u00A7e/sig config safariTimerAlways <true|false>"));
+                                            return 1;
+                                        })
+                                )
+                                .then(ClientCommandManager.literal("safariMenuEnabled")
+                                        .then(ClientCommandManager.argument("value", BoolArgumentType.bool())
+                                                .executes(context -> {
+                                                    boolean value = BoolArgumentType.getBool(context, "value");
+                                                    hudConfig.setSafariMenuEnabled(value);
+                                                    String msg = value
+                                                            ? "\u00A7aSafari HUD enabled."
+                                                            : "\u00A7aSafari HUD disabled.";
+                                                    context.getSource().sendFeedback(Component.literal(msg));
+                                                    return 1;
+                                                })
+                                        )
+                                        .executes(context -> {
+                                            boolean current = hudConfig.isSafariMenuEnabled();
+                                            context.getSource().sendFeedback(Component.literal(
+                                                    "\u00A77safariMenuEnabled = \u00A7f" + current +
+                                                    "\n\u00A77Usage: \u00A7e/saa config safariMenuEnabled <true|false>"));
                                             return 1;
                                         })
                                 )
@@ -194,6 +308,67 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                             return 1;
                                         })
                                 )
+                                .then(ClientCommandManager.literal("daycareMenuEnabled")
+                                        .then(ClientCommandManager.argument("value", BoolArgumentType.bool())
+                                                .executes(context -> {
+                                                    boolean value = BoolArgumentType.getBool(context, "value");
+                                                    hudConfig.setDaycareMenuEnabled(value);
+                                                    String msg = value
+                                                            ? "\u00A7aDaycare HUD enabled."
+                                                            : "\u00A7aDaycare HUD disabled.";
+                                                    context.getSource().sendFeedback(Component.literal(msg));
+                                                    return 1;
+                                                })
+                                        )
+                                        .executes(context -> {
+                                            boolean current = hudConfig.isDaycareMenuEnabled();
+                                            context.getSource().sendFeedback(Component.literal(
+                                                    "\u00A77daycareMenuEnabled = \u00A7f" + current +
+                                                    "\n\u00A77Usage: \u00A7e/saa config daycareMenuEnabled <true|false>"));
+                                            return 1;
+                                        })
+                                )
+                                .then(ClientCommandManager.literal("daycareSoundsEnabled")
+                                        .then(ClientCommandManager.argument("value", BoolArgumentType.bool())
+                                                .executes(context -> {
+                                                    boolean value = BoolArgumentType.getBool(context, "value");
+                                                    hudConfig.setDaycareSoundsEnabled(value);
+                                                    String msg = value
+                                                            ? "\u00A7aDaycare sounds enabled."
+                                                            : "\u00A7aDaycare sounds disabled.";
+                                                    context.getSource().sendFeedback(Component.literal(msg));
+                                                    return 1;
+                                                })
+                                        )
+                                        .executes(context -> {
+                                            boolean current = hudConfig.isDaycareSoundsEnabled();
+                                            context.getSource().sendFeedback(Component.literal(
+                                                    "\u00A77daycareSoundsEnabled = \u00A7f" + current +
+                                                    "\n\u00A77Usage: \u00A7e/saa config daycareSoundsEnabled <true|false>"));
+                                            return 1;
+                                        })
+                                )
+                                .then(ClientCommandManager.literal("daycareEggsHatchingSlots")
+                                        .then(ClientCommandManager.argument("value", IntegerArgumentType.integer(0, 5))
+                                                .executes(context -> {
+                                                    int value = IntegerArgumentType.getInteger(context, "value");
+                                                    hudConfig.setDaycareEggsHatchingSlots(value);
+                                                    String msg = value == 0
+                                                            ? "\u00A7aDaycare hatching section hidden."
+                                                            : "\u00A7aDaycare will show up to " + value + " hatching eggs.";
+                                                    context.getSource().sendFeedback(Component.literal(msg));
+                                                    return 1;
+                                                })
+                                        )
+                                        .executes(context -> {
+                                            int current = hudConfig.getDaycareEggsHatchingSlots();
+                                            context.getSource().sendFeedback(Component.literal(
+                                                    "\u00A77daycareEggsHatchingSlots = \u00A7f" + current +
+                                                    "\n\u00A77Usage: \u00A7e/saa config daycareEggsHatchingSlots <0-5>" +
+                                                    "\n\u00A77Set to 0 to hide hatching section."));
+                                            return 1;
+                                        })
+                                )
                                 .then(ClientCommandManager.literal("hudStyle")
                                         .then(ClientCommandManager.literal("solid")
                                                 .executes(context -> {
@@ -222,13 +397,20 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                 .executes(context -> {
                                     context.getSource().sendFeedback(Component.literal(
                                             "\u00A76Configuration:\n" +
-                                            "\u00A77safariTimerAlways = \u00A7f" + hudConfig.isSafariTimerAlways() +
+                                            "\u00A77safariMenuEnabled = \u00A7f" + hudConfig.isSafariMenuEnabled() +
+                                            "\n\u00A77safariTimerAlways = \u00A7f" + hudConfig.isSafariTimerAlways() +
                                             "\n\u00A77safariQuestMonGlow = \u00A7f" + hudConfig.isSafariQuestMonGlow() +
                                             "\n\u00A77safariQuestMonTracers = \u00A7f" + hudConfig.isSafariQuestMonTracers() +
+                                            "\n\u00A77daycareMenuEnabled = \u00A7f" + hudConfig.isDaycareMenuEnabled() +
+                                            "\n\u00A77daycareSoundsEnabled = \u00A7f" + hudConfig.isDaycareSoundsEnabled() +
+                                            "\n\u00A77daycareEggsHatchingSlots = \u00A7f" + hudConfig.getDaycareEggsHatchingSlots() +
+                                            "\n\u00A77daycareScale = \u00A7f" + String.format("%.0f%%", hudConfig.getDaycareScale() * 100) +
                                             "\n\u00A77hudStyle = \u00A7f" + hudConfig.getHudStyle().name().toLowerCase() +
-                                            "\n\u00A77hudScale = \u00A7f" + String.format("%.0f%%", hudConfig.getHudScale() * 100) +
-                                            "\n\u00A77anchor = \u00A7f" + hudConfig.getAnchor().name() +
-                                            "\n\u00A77offset = \u00A7f(" + hudConfig.getOffsetX() + ", " + hudConfig.getOffsetY() + ")"
+                                            "\n\u00A77safariScale = \u00A7f" + String.format("%.0f%%", hudConfig.getHudScale() * 100) +
+                                            "\n\u00A77safariAnchor = \u00A7f" + hudConfig.getAnchor().name() +
+                                            "\n\u00A77safariOffset = \u00A7f(" + hudConfig.getOffsetX() + ", " + hudConfig.getOffsetY() + ")" +
+                                            "\n\u00A77daycareAnchor = \u00A7f" + hudConfig.getDaycareAnchor().name() +
+                                            "\n\u00A77daycareOffset = \u00A7f(" + hudConfig.getDaycareOffsetX() + ", " + hudConfig.getDaycareOffsetY() + ")"
                                     ));
                                     return 1;
                                 })
@@ -236,15 +418,21 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                         .executes(context -> {
                             context.getSource().sendFeedback(Component.literal(
                                     "\u00A76Sigs Academy Addons Commands:\n" +
-                                    "\u00A7e/sig gui\u00A77 — Reposition the Safari HUD\n" +
-                                    "\u00A7e/sig gui reset\u00A77 — Reset HUD to default position\n" +
-                                    "\u00A7e/sig safari\u00A77 — View safari status\n" +
-                                    "\u00A7e/sig safari clear\u00A77 — Clear all safari/hunt data\n" +
-                                    "\u00A7e/sig config\u00A77 — View configuration\n" +
-                                    "\u00A7e/sig config safariTimerAlways <bool>\u00A77 — Show HUD outside safari zone\n" +
-                                    "\u00A7e/sig config safariQuestMonGlow <bool>\u00A77 — Glow on quest-matching Pokemon\n" +
-                                    "\u00A7e/sig config safariQuestMonTracers <bool>\u00A77 — Tracers to nearby quest Pokemon\n" +
-                                    "\u00A7e/sig config hudStyle <solid|transparent>\u00A77 — HUD background style"
+                                    "\u00A7e/saa gui\u00A77 — Reposition Safari & Daycare HUDs\n" +
+                                    "\u00A7e/saa gui reset\u00A77 — Reset HUD positions & scale\n" +
+                                    "\u00A7e/saa safari\u00A77 — View safari status\n" +
+                                    "\u00A7e/saa safari clear\u00A77 — Clear all safari/hunt data\n" +
+                                    "\u00A7e/saa daycare\u00A77 — View daycare status\n" +
+                                    "\u00A7e/saa daycare clear\u00A77 — Clear all daycare data\n" +
+                                    "\u00A7e/saa config\u00A77 — View configuration\n" +
+                                    "\u00A7e/saa config safariMenuEnabled <bool>\u00A77 — Safari HUD toggle\n" +
+                                    "\u00A7e/saa config safariTimerAlways <bool>\u00A77 — Show HUD outside safari zone\n" +
+                                    "\u00A7e/saa config safariQuestMonGlow <bool>\u00A77 — Glow on quest-matching Pokemon\n" +
+                                    "\u00A7e/saa config safariQuestMonTracers <bool>\u00A77 — Tracers to nearby quest Pokemon\n" +
+                                    "\u00A7e/saa config daycareMenuEnabled <bool>\u00A77 — Daycare HUD toggle\n" +
+                                    "\u00A7e/saa config daycareSoundsEnabled <bool>\u00A77 — Daycare sound alerts toggle\n" +
+                                    "\u00A7e/saa config daycareEggsHatchingSlots <0-5>\u00A77 — Max eggs shown (0=hide)\n" +
+                                    "\u00A7e/saa config hudStyle <solid|transparent>\u00A77 — HUD background style"
                             ));
                             return 1;
                         })
@@ -255,5 +443,6 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
     public static SafariHuntManager getSafariHuntManager() { return safariHuntManager; }
     public static HuntEntityTracker getHuntEntityTracker() { return huntEntityTracker; }
     public static CatchDetector getCatchDetector() { return catchDetector; }
+    public static DaycareManager getDaycareManager() { return daycareManager; }
     public static HudConfig getHudConfig() { return hudConfig; }
 }

@@ -17,7 +17,6 @@ import net.minecraft.world.phys.Vec3;
 
 import java.util.*;
 
-// scans nearby pokemon entities and caches hunt matches for glow/tracer rendering
 public class HuntEntityTracker {
 
     private static final int SCAN_INTERVAL_TICKS = 20;
@@ -33,7 +32,6 @@ public class HuntEntityTracker {
 
     private int tickCounter = 0;
 
-    // volatile for thread-safe access from render thread: entityId to 0xRRGGBB
     private volatile Map<Integer, Integer> matchedEntities = Collections.emptyMap();
     private volatile Set<Integer> visibleEntities = Collections.emptySet();
 
@@ -45,35 +43,34 @@ public class HuntEntityTracker {
         this.hudConfig = hudConfig;
     }
 
-    // scans for matching entities every ~1 second
     public void tick() {
         tickCounter++;
         if (tickCounter % SCAN_INTERVAL_TICKS != 0) return;
 
-        // skip if both glow and tracers are disabled
         if (!hudConfig.isSafariQuestMonGlow() && !hudConfig.isSafariQuestMonTracers()) {
             if (!matchedEntities.isEmpty()) {
                 matchedEntities = Collections.emptyMap();
                 visibleEntities = Collections.emptySet();
             }
+
             return;
         }
 
-        // skip if not in safari zone
         if (!safariManager.isInSafariZone()) {
             if (!matchedEntities.isEmpty()) {
                 matchedEntities = Collections.emptyMap();
                 visibleEntities = Collections.emptySet();
             }
+
             return;
         }
 
-        // skip if no active hunts
         if (!safariHuntManager.hasActiveHunts()) {
             if (!matchedEntities.isEmpty()) {
                 matchedEntities = Collections.emptyMap();
                 visibleEntities = Collections.emptySet();
             }
+
             return;
         }
 
@@ -82,9 +79,9 @@ public class HuntEntityTracker {
         Player player = client.player;
         if (level == null || player == null) return;
 
-        // collect incomplete hunts with their slot indices
         List<SafariHuntData> allHunts = safariHuntManager.getActiveHunts();
         List<IndexedHunt> incompleteHunts = new ArrayList<>();
+
         for (int i = 0; i < allHunts.size(); i++) {
             SafariHuntData hunt = allHunts.get(i);
             if (!hunt.isComplete() && hunt.getCategory() != SafariHuntData.HuntCategory.UNKNOWN) {
@@ -97,10 +94,10 @@ public class HuntEntityTracker {
                 matchedEntities = Collections.emptyMap();
                 visibleEntities = Collections.emptySet();
             }
+
             return;
         }
 
-        // scan nearby pokemon entities
         AABB scanBox = player.getBoundingBox().inflate(SCAN_RADIUS);
         List<PokemonEntity> nearbyPokemon = level.getEntitiesOfClass(PokemonEntity.class, scanBox);
 
@@ -116,7 +113,6 @@ public class HuntEntityTracker {
 
                 String speciesName = species.getName();
 
-                // extract types
                 Set<String> types = new HashSet<>();
                 try {
                     types.add(species.getPrimaryType().getName());
@@ -124,35 +120,35 @@ public class HuntEntityTracker {
                         types.add(species.getSecondaryType().getName());
                     }
                 } catch (Exception e) {
-                    // type data unavailable
                 }
 
-                // egg groups via client-side json fallback
                 Set<String> eggGroups = EggGroupLookup.getEggGroups(speciesName);
 
-                // match against hunts (lowest index wins for color for mons of multiple types)
                 for (IndexedHunt ih : incompleteHunts) {
                     if (doesEntityMatchHunt(types, eggGroups, ih.hunt)) {
                         int color = SLOT_COLORS[ih.index % SLOT_COLORS.length];
                         newMatches.put(pokemonEntity.getId(), color);
+
                         break;
                     }
                 }
             } catch (Exception e) {
-                // skip entities still spawning or with inaccessible data
             }
         }
 
         matchedEntities = newMatches;
 
-        // los compute for rendering entity glow
         Set<Integer> newVisible = new HashSet<>();
         Vec3 playerEye = player.getEyePosition(1.0f);
+
         for (int entityId : newMatches.keySet()) {
             Entity entity = level.getEntity(entityId);
+
             if (entity == null) continue;
+
             ClipContext ctx = new ClipContext(playerEye, entity.getEyePosition(1.0f),
                     ClipContext.Block.COLLIDER, ClipContext.Fluid.NONE, player);
+
             if (level.clip(ctx).getType() == HitResult.Type.MISS) {
                 newVisible.add(entityId);
             }
@@ -160,7 +156,6 @@ public class HuntEntityTracker {
         visibleEntities = newVisible;
     }
 
-    // checks if entity types/egg groups match a hunt (mirrors SafariHuntManager logic)
     private boolean doesEntityMatchHunt(Set<String> types, Set<String> eggGroups, SafariHuntData hunt) {
         switch (hunt.getCategory()) {
             case TYPE:
@@ -190,17 +185,14 @@ public class HuntEntityTracker {
         }
     }
 
-    // whether entity is matched (called from glow mixin on render thread)
     public boolean isMatched(int entityId) {
         return matchedEntities.containsKey(entityId);
     }
 
-    // whether player has unobstructed los to entity (updated every ~1s)
     public boolean hasLineOfSight(int entityId) {
         return visibleEntities.contains(entityId);
     }
 
-    // returns color for matched entity or -1 (called from color mixin on render thread)
     public int getColor(int entityId) {
         Integer color = matchedEntities.get(entityId);
         return color != null ? color : -1;
@@ -210,12 +202,10 @@ public class HuntEntityTracker {
         return matchedEntities;
     }
 
-    // returns color for a quest slot index (used by hud renderer for indicators)
     public static int getSlotColor(int slotIndex) {
         return SLOT_COLORS[slotIndex % SLOT_COLORS.length];
     }
 
-    // pairs a hunt with its slot index for color assignment
     private record IndexedHunt(int index, SafariHuntData hunt) {
     }
 }

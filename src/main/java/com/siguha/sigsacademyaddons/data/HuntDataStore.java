@@ -48,7 +48,7 @@ public class HuntDataStore {
                 GSON.toJson(entries, writer);
             }
         } catch (IOException e) {
-            SigsAcademyAddons.LOGGER.error("[sig HuntDataStore] failed to save hunt data", e);
+            SigsAcademyAddons.LOGGER.error("[SAA HuntDataStore] failed to save hunt data", e);
         }
     }
 
@@ -83,7 +83,7 @@ public class HuntDataStore {
                         .collect(ArrayList::new, ArrayList::add, ArrayList::addAll);
             }
         } catch (Exception e) {
-            SigsAcademyAddons.LOGGER.error("[sig HuntDataStore] failed to load hunt data", e);
+            SigsAcademyAddons.LOGGER.error("[SAA HuntDataStore] failed to load hunt data", e);
             return new ArrayList<>();
         }
     }

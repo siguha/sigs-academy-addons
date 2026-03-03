@@ -36,6 +36,16 @@ public class HudConfig {
     private boolean safariQuestMonGlow = true;
     private boolean safariQuestMonTracers = true;
     private HudStyle hudStyle = HudStyle.SOLID;
+    private boolean safariMenuEnabled = true;
+
+    // daycare settings
+    private boolean daycareMenuEnabled = true;
+    private boolean daycareSoundsEnabled = true;
+    private Anchor daycareAnchor = Anchor.TOP_LEFT;
+    private int daycareOffsetX = 5;
+    private int daycareOffsetY = 5;
+    private float daycareScale = 1.0f;
+    private int daycareEggsHatchingSlots = 5;
 
     public HudConfig() {
         load();
@@ -83,6 +93,109 @@ public class HudConfig {
 
     public void setHudStyle(HudStyle hudStyle) {
         this.hudStyle = hudStyle;
+        save();
+    }
+
+    public boolean isSafariMenuEnabled() {
+        return safariMenuEnabled;
+    }
+
+    public void setSafariMenuEnabled(boolean safariMenuEnabled) {
+        this.safariMenuEnabled = safariMenuEnabled;
+        save();
+    }
+
+    public boolean isDaycareMenuEnabled() {
+        return daycareMenuEnabled;
+    }
+
+    public void setDaycareMenuEnabled(boolean daycareMenuEnabled) {
+        this.daycareMenuEnabled = daycareMenuEnabled;
+        save();
+    }
+
+    public boolean isDaycareSoundsEnabled() {
+        return daycareSoundsEnabled;
+    }
+
+    public void setDaycareSoundsEnabled(boolean daycareSoundsEnabled) {
+        this.daycareSoundsEnabled = daycareSoundsEnabled;
+        save();
+    }
+
+    public Anchor getDaycareAnchor() {
+        return daycareAnchor;
+    }
+
+    public int getDaycareOffsetX() {
+        return daycareOffsetX;
+    }
+
+    public int getDaycareOffsetY() {
+        return daycareOffsetY;
+    }
+
+    public int getDaycarePanelX(int screenWidth, int panelWidth) {
+        return switch (daycareAnchor) {
+            case TOP_LEFT, BOTTOM_LEFT -> daycareOffsetX;
+            case TOP_RIGHT, BOTTOM_RIGHT -> screenWidth - panelWidth - daycareOffsetX;
+        };
+    }
+
+    public int getDaycarePanelY(int screenHeight, int panelHeight) {
+        return switch (daycareAnchor) {
+            case TOP_LEFT, TOP_RIGHT -> daycareOffsetY;
+            case BOTTOM_LEFT, BOTTOM_RIGHT -> screenHeight - panelHeight - daycareOffsetY;
+        };
+    }
+
+    public float getDaycareScale() {
+        return daycareScale;
+    }
+
+    public void setDaycareScale(float daycareScale) {
+        this.daycareScale = Math.max(0.5f, Math.min(2.0f, daycareScale));
+        save();
+    }
+
+    public int getDaycareEggsHatchingSlots() {
+        return daycareEggsHatchingSlots;
+    }
+
+    public void setDaycareEggsHatchingSlots(int daycareEggsHatchingSlots) {
+        this.daycareEggsHatchingSlots = Math.max(0, Math.min(5, daycareEggsHatchingSlots));
+        save();
+    }
+
+    public void setDaycarePositionFromAbsolute(int panelX, int panelY, int panelWidth, int panelHeight,
+                                                int screenWidth, int screenHeight) {
+        int centerX = panelX + panelWidth / 2;
+        int centerY = panelY + panelHeight / 2;
+
+        boolean leftHalf = centerX < screenWidth / 2;
+        boolean topHalf = centerY < screenHeight / 2;
+
+        if (topHalf && leftHalf) {
+            daycareAnchor = Anchor.TOP_LEFT;
+            daycareOffsetX = panelX;
+            daycareOffsetY = panelY;
+        } else if (topHalf) {
+            daycareAnchor = Anchor.TOP_RIGHT;
+            daycareOffsetX = screenWidth - panelX - panelWidth;
+            daycareOffsetY = panelY;
+        } else if (leftHalf) {
+            daycareAnchor = Anchor.BOTTOM_LEFT;
+            daycareOffsetX = panelX;
+            daycareOffsetY = screenHeight - panelY - panelHeight;
+        } else {
+            daycareAnchor = Anchor.BOTTOM_RIGHT;
+            daycareOffsetX = screenWidth - panelX - panelWidth;
+            daycareOffsetY = screenHeight - panelY - panelHeight;
+        }
+
+        daycareOffsetX = Math.max(0, daycareOffsetX);
+        daycareOffsetY = Math.max(0, daycareOffsetY);
+
         save();
     }
 
@@ -151,7 +264,10 @@ public class HudConfig {
             Files.createDirectories(filePath.getParent());
 
             ConfigData data = new ConfigData(anchor.name(), offsetX, offsetY, safariTimerAlways, hudScale,
-                    safariQuestMonGlow, safariQuestMonTracers, hudStyle.name());
+                    safariQuestMonGlow, safariQuestMonTracers, hudStyle.name(), safariMenuEnabled,
+                    daycareMenuEnabled, daycareSoundsEnabled,
+                    daycareAnchor.name(), daycareOffsetX, daycareOffsetY,
+                    daycareScale, daycareEggsHatchingSlots);
             try (Writer writer = Files.newBufferedWriter(filePath)) {
                 GSON.toJson(data, writer);
             }
@@ -180,6 +296,14 @@ public class HudConfig {
                     this.safariQuestMonGlow = data.safariQuestMonGlow != null ? data.safariQuestMonGlow : true;
                     this.safariQuestMonTracers = data.safariQuestMonTracers != null ? data.safariQuestMonTracers : true;
                     this.hudStyle = data.hudStyle != null ? HudStyle.valueOf(data.hudStyle) : HudStyle.SOLID;
+                    this.safariMenuEnabled = data.safariMenuEnabled != null ? data.safariMenuEnabled : true;
+                    this.daycareMenuEnabled = data.daycareMenuEnabled != null ? data.daycareMenuEnabled : true;
+                    this.daycareSoundsEnabled = data.daycareSoundsEnabled != null ? data.daycareSoundsEnabled : true;
+                    this.daycareAnchor = data.daycareAnchor != null ? Anchor.valueOf(data.daycareAnchor) : Anchor.TOP_LEFT;
+                    this.daycareOffsetX = data.daycareOffsetX != null ? data.daycareOffsetX : 5;
+                    this.daycareOffsetY = data.daycareOffsetY != null ? data.daycareOffsetY : 5;
+                    this.daycareScale = data.daycareScale != null && data.daycareScale > 0 ? data.daycareScale : 1.0f;
+                    this.daycareEggsHatchingSlots = data.daycareEggsHatchingSlots != null ? data.daycareEggsHatchingSlots : 5;
                     SigsAcademyAddons.LOGGER.info("[HudConfig] Loaded HUD position: anchor={}, offsetX={}, offsetY={}",
                             anchor, offsetX, offsetY);
                 }
@@ -196,6 +320,10 @@ public class HudConfig {
     }
 
     private record ConfigData(String anchor, int offsetX, int offsetY, boolean safariTimerAlways, float hudScale,
-                               Boolean safariQuestMonGlow, Boolean safariQuestMonTracers, String hudStyle) {
+                               Boolean safariQuestMonGlow, Boolean safariQuestMonTracers, String hudStyle,
+                               Boolean safariMenuEnabled,
+                               Boolean daycareMenuEnabled, Boolean daycareSoundsEnabled,
+                               String daycareAnchor, Integer daycareOffsetX, Integer daycareOffsetY,
+                               Float daycareScale, Integer daycareEggsHatchingSlots) {
     }
 }
