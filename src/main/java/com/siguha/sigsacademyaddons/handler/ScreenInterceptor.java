@@ -516,9 +516,6 @@ public class ScreenInterceptor {
 
         int penNumber = lastDetectedPenNumber;
 
-        SigsAcademyAddons.LOGGER.info("[SAA Daycare] scrapePenView pen={}: hasEgg={}, cursorEgg={}, p1={}, p2={}, warning={}, arrows=({},{})",
-                penNumber, hasEgg, cursorHasEgg, pokemon1, pokemon2, hasWarning, leftArrowStage, rightArrowStage);
-
         if (hasEgg && pokemon1 == null && pokemon2 == null) {
             return;
         }

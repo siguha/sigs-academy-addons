@@ -82,23 +82,28 @@ public class DaycareManager {
         boolean samePokemon = Objects.equals(previousP1, scraped.pokemon1())
                 && Objects.equals(previousP2, scraped.pokemon2());
 
+        if (pen.getHadEggOnLastScrape() || scraped.hasEgg()) {
+            SigsAcademyAddons.LOGGER.info("[SAA Daycare] Pen {} claim-check: hadEgg={}, hasEgg={}, cursorEgg={}, rawStage={}, prevStage={}",
+                    scraped.penNumber(), pen.getHadEggOnLastScrape(), scraped.hasEgg(),
+                    scraped.cursorHasEgg(), rawStage, previousStage);
+        }
+
         boolean eggWasClaimed = pen.getHadEggOnLastScrape() && !scraped.hasEgg()
-                && !scraped.cursorHasEgg()
-                && rawStage == DaycareState.BreedingStage.BREEDING;
+                && !scraped.cursorHasEgg();
 
         if (pen.getHadEggOnLastScrape() && !scraped.hasEgg() && scraped.cursorHasEgg()) {
             SigsAcademyAddons.LOGGER.info("[SAA Daycare] Pen {} egg on cursor — right-click pickup, not a claim",
                     scraped.penNumber());
         }
 
-        pen.setHadEggOnLastScrape(scraped.hasEgg());
+        pen.setHadEggOnLastScrape(scraped.hasEgg() || scraped.cursorHasEgg());
 
         DaycareState.BreedingStage finalStage;
         boolean startTimer = false;
 
         if (eggWasClaimed) {
             String eggSpecies = pen.getInferredEggSpecies();
-            
+
             if (eggSpecies == null) {
                 eggSpecies = penSpeciesMemory.getOrDefault(pen.getPenNumber(), "Unknown");
             }
@@ -106,6 +111,8 @@ public class DaycareManager {
             long now = System.currentTimeMillis();
             long hatchTimeMs = calculateHatchTimeMs(eggSpecies);
             claimedEggs.add(new DaycareState.ClaimedEgg(eggSpecies, now, now + hatchTimeMs));
+            SigsAcademyAddons.LOGGER.info("[SAA Daycare] Pen {} egg CLAIMED — species={}, hatchTime={}s, totalEggs={}",
+                    scraped.penNumber(), eggSpecies, hatchTimeMs / 1000, claimedEggs.size());
             finalStage = DaycareState.BreedingStage.NEEDS_RESET;
 
         } else if (rawStage == DaycareState.BreedingStage.INCOMPATIBLE) {
@@ -185,7 +192,6 @@ public class DaycareManager {
     }
 
     public void onEggCreated() {
-        SigsAcademyAddons.LOGGER.info("[SAA Daycare] Egg created — playing notification");
         soundPlayer.playEggCreatedSound();
     }
 
@@ -243,10 +249,6 @@ public class DaycareManager {
     private static final long HATCH_MATCH_TOLERANCE_MS = 10 * 1000L;
 
     public void onEggHatched() {
-        SigsAcademyAddons.LOGGER.info("[SAA Daycare] Egg hatched event detected");
-
-        long activeCount = claimedEggs.stream().filter(e -> !e.isCompleted()).count();
-
         DaycareState.ClaimedEgg closestEgg = null;
         for (DaycareState.ClaimedEgg egg : claimedEggs) {
             if (!egg.isCompleted() && egg.getRemainingMs() <= HATCH_MATCH_TOLERANCE_MS) {
@@ -268,12 +270,10 @@ public class DaycareManager {
 
     public void onDaycareMenuOpened() {
         eggsHatchedSinceMenuOpen = 0;
-        SigsAcademyAddons.LOGGER.debug("[SAA Daycare] Daycare menu opened");
     }
 
     public void onDaycareMenuClosed() {
         lastDaycareMenuCloseTimeMs = System.currentTimeMillis();
-        SigsAcademyAddons.LOGGER.debug("[SAA Daycare] Daycare menu closed");
     }
 
     public void tick() {

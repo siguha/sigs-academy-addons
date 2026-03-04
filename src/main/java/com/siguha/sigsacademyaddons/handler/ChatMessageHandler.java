@@ -43,9 +43,6 @@ public class ChatMessageHandler {
         this.wondertradeManager = wondertradeManager;
     }
 
-    private static final MutableComponent DAYCARE_CLICK_SUFFIX = buildClickSuffix("/daycare");
-    private static final MutableComponent BACKPACK_CLICK_SUFFIX = buildClickSuffix("/saa daycare goto backpack");
-
     private static MutableComponent buildClickSuffix(String command) {
         return Component.literal(" - ")
                 .withStyle(ChatFormatting.GREEN)
@@ -66,40 +63,38 @@ public class ChatMessageHandler {
             String species = daycareManager.getEggCreatorSpecies();
             int penNumber = daycareManager.getEggCreatorPenNumber();
             String command = penNumber > 0 ? "/saa daycare goto pen " + penNumber : "/daycare";
+            daycareManager.onEggCreated();
             if (species != null) {
-                daycareManager.onEggCreated();
-                return buildDaycareClickMessage(species, " egg was created!", command);
+                return injectSpeciesAndAppendClick(text, species, command);
             }
-            return message.copy().append(DAYCARE_CLICK_SUFFIX);
+            return message.copy().append(buildClickSuffix(command));
         }
 
         if (text.contains(EGG_HATCHED_MESSAGE)) {
             String species = daycareManager.getClosestHatchingEggSpecies();
+            String command = "/saa daycare goto backpack";
             daycareManager.onEggHatched();
             if (species != null) {
-                return buildDaycareClickMessage(species, " egg hatched!", "/saa daycare goto backpack");
+                return injectSpeciesAndAppendClick(text, species, command);
             }
-            return message.copy().append(BACKPACK_CLICK_SUFFIX);
+            return message.copy().append(buildClickSuffix(command));
         }
 
         return message;
     }
 
-    private static Component buildDaycareClickMessage(String species, String action, String command) {
-        return Component.literal("[SAA] A ")
-                .withStyle(ChatFormatting.GREEN)
-                .append(Component.literal(species)
-                        .withStyle(Style.EMPTY
-                                .withColor(ChatFormatting.GOLD)
-                                .withBold(true)))
-                .append(Component.literal(action + " - ")
-                        .withStyle(ChatFormatting.GREEN))
-                .append(Component.literal("Click Here")
-                        .withStyle(Style.EMPTY
-                                .withColor(ChatFormatting.AQUA)
-                                .withUnderlined(true)
-                                .withClickEvent(new ClickEvent(
-                                        ClickEvent.Action.RUN_COMMAND, command))));
+    private static Component injectSpeciesAndAppendClick(String text, String species, String command) {
+        int eggIdx = text.indexOf("egg ");
+        if (eggIdx < 0) {
+            return Component.literal(text).withStyle(ChatFormatting.GREEN)
+                    .append(buildClickSuffix(command));
+        }
+        String before = text.substring(0, eggIdx + 4);
+        String after = text.substring(eggIdx + 4);
+        return Component.literal(before).withStyle(ChatFormatting.GREEN)
+                .append(Component.literal("(" + species + ") ").withStyle(ChatFormatting.GOLD))
+                .append(Component.literal(after).withStyle(ChatFormatting.GREEN))
+                .append(buildClickSuffix(command));
     }
 
     public void onGameMessage(Component message, boolean overlay) {
@@ -125,16 +120,6 @@ public class ChatMessageHandler {
             safariHuntManager.onHuntProgressUpdate();
             catchDetector.requestPcScan();
 
-            return;
-        }
-
-        if (text.contains(EGG_CREATED_MESSAGE)) {
-            daycareManager.onEggCreated();
-            return;
-        }
-
-        if (text.contains(EGG_HATCHED_MESSAGE)) {
-            daycareManager.onEggHatched();
             return;
         }
 
