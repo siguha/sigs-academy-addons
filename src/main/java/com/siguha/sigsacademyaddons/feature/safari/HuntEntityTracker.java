@@ -47,7 +47,7 @@ public class HuntEntityTracker {
         tickCounter++;
         if (tickCounter % SCAN_INTERVAL_TICKS != 0) return;
 
-        if (!hudConfig.isSafariQuestMonGlow() && !hudConfig.isSafariQuestMonTracers()) {
+        if (!hudConfig.isSafariQuestMonGlow()) {
             if (!matchedEntities.isEmpty()) {
                 matchedEntities = Collections.emptyMap();
                 visibleEntities = Collections.emptySet();

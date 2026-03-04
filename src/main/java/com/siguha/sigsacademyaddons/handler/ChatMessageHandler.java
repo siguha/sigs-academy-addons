@@ -5,7 +5,11 @@ import com.siguha.sigsacademyaddons.feature.daycare.DaycareManager;
 import com.siguha.sigsacademyaddons.feature.safari.SafariHuntManager;
 import com.siguha.sigsacademyaddons.feature.safari.SafariManager;
 import com.siguha.sigsacademyaddons.feature.wondertrade.WondertradeManager;
+import net.minecraft.ChatFormatting;
+import net.minecraft.network.chat.ClickEvent;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.MutableComponent;
+import net.minecraft.network.chat.Style;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -37,6 +41,65 @@ public class ChatMessageHandler {
         this.catchDetector = catchDetector;
         this.daycareManager = daycareManager;
         this.wondertradeManager = wondertradeManager;
+    }
+
+    private static final MutableComponent DAYCARE_CLICK_SUFFIX = buildClickSuffix("/daycare");
+    private static final MutableComponent BACKPACK_CLICK_SUFFIX = buildClickSuffix("/saa daycare goto backpack");
+
+    private static MutableComponent buildClickSuffix(String command) {
+        return Component.literal(" - ")
+                .withStyle(ChatFormatting.GREEN)
+                .append(Component.literal("Click Here")
+                        .withStyle(Style.EMPTY
+                                .withColor(ChatFormatting.AQUA)
+                                .withUnderlined(true)
+                                .withClickEvent(new ClickEvent(
+                                        ClickEvent.Action.RUN_COMMAND, command))));
+    }
+
+    public Component modifyGameMessage(Component message, boolean overlay) {
+        if (overlay) return message;
+
+        String text = message.getString();
+
+        if (text.contains(EGG_CREATED_MESSAGE)) {
+            String species = daycareManager.getEggCreatorSpecies();
+            int penNumber = daycareManager.getEggCreatorPenNumber();
+            String command = penNumber > 0 ? "/saa daycare goto pen " + penNumber : "/daycare";
+            if (species != null) {
+                daycareManager.onEggCreated();
+                return buildDaycareClickMessage(species, " egg was created!", command);
+            }
+            return message.copy().append(DAYCARE_CLICK_SUFFIX);
+        }
+
+        if (text.contains(EGG_HATCHED_MESSAGE)) {
+            String species = daycareManager.getClosestHatchingEggSpecies();
+            daycareManager.onEggHatched();
+            if (species != null) {
+                return buildDaycareClickMessage(species, " egg hatched!", "/saa daycare goto backpack");
+            }
+            return message.copy().append(BACKPACK_CLICK_SUFFIX);
+        }
+
+        return message;
+    }
+
+    private static Component buildDaycareClickMessage(String species, String action, String command) {
+        return Component.literal("[SAA] A ")
+                .withStyle(ChatFormatting.GREEN)
+                .append(Component.literal(species)
+                        .withStyle(Style.EMPTY
+                                .withColor(ChatFormatting.GOLD)
+                                .withBold(true)))
+                .append(Component.literal(action + " - ")
+                        .withStyle(ChatFormatting.GREEN))
+                .append(Component.literal("Click Here")
+                        .withStyle(Style.EMPTY
+                                .withColor(ChatFormatting.AQUA)
+                                .withUnderlined(true)
+                                .withClickEvent(new ClickEvent(
+                                        ClickEvent.Action.RUN_COMMAND, command))));
     }
 
     public void onGameMessage(Component message, boolean overlay) {

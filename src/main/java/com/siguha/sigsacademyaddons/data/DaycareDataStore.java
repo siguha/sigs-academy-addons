@@ -21,6 +21,8 @@ public class DaycareDataStore {
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
     private static final Type DATA_TYPE = new TypeToken<DaycareData>() {}.getType();
 
+    private long disconnectTimeMs = 0;
+
     public void save(Map<Integer, DaycareState.PenState> pens,
                      List<DaycareState.ClaimedEgg> claimedEggs,
                      Map<Integer, String> penSpeciesMemory) {
@@ -46,7 +48,7 @@ public class DaycareDataStore {
 
             Map<Integer, String> speciesMemoryCopy = new HashMap<>(penSpeciesMemory);
 
-            DaycareData data = new DaycareData(serverAddress, penEntries, eggEntries, speciesMemoryCopy);
+            DaycareData data = new DaycareData(serverAddress, penEntries, eggEntries, speciesMemoryCopy, disconnectTimeMs);
 
             try (Writer writer = Files.newBufferedWriter(filePath)) {
                 GSON.toJson(data, writer);
@@ -58,7 +60,8 @@ public class DaycareDataStore {
 
     public record LoadedData(Map<Integer, DaycareState.PenState> pens,
                               List<DaycareState.ClaimedEgg> claimedEggs,
-                              Map<Integer, String> penSpeciesMemory) {}
+                              Map<Integer, String> penSpeciesMemory,
+                              long disconnectTimeMs) {}
 
     public LoadedData load() {
         try {
@@ -109,7 +112,8 @@ public class DaycareDataStore {
                 Map<Integer, String> speciesMemory = data.penSpeciesMemory != null
                         ? new HashMap<>(data.penSpeciesMemory) : new HashMap<>();
 
-                return new LoadedData(pens, eggs, speciesMemory);
+                long loadedDisconnectTime = data.disconnectTimeMs != null ? data.disconnectTimeMs : 0;
+                return new LoadedData(pens, eggs, speciesMemory, loadedDisconnectTime);
             }
         } catch (Exception e) {
             SigsAcademyAddons.LOGGER.error("[SAA DaycareDataStore] failed to load daycare data", e);
@@ -125,8 +129,10 @@ public class DaycareDataStore {
         }
     }
 
+    public void setDisconnectTimeMs(long ms) { this.disconnectTimeMs = ms; }
+
     private LoadedData emptyData() {
-        return new LoadedData(new LinkedHashMap<>(), new ArrayList<>(), new HashMap<>());
+        return new LoadedData(new LinkedHashMap<>(), new ArrayList<>(), new HashMap<>(), 0);
     }
 
     private Path getFilePath() {
@@ -137,7 +143,8 @@ public class DaycareDataStore {
 
     private record DaycareData(String serverAddress, List<PenEntry> pens,
                                 List<ClaimedEggEntry> claimedEggs,
-                                Map<Integer, String> penSpeciesMemory) {}
+                                Map<Integer, String> penSpeciesMemory,
+                                Long disconnectTimeMs) {}
     private record PenEntry(int penNumber, boolean unlocked,
                             String pokemon1, String pokemon2,
                             String stage, long estimatedEndTimeMs,

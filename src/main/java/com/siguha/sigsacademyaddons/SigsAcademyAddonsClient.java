@@ -6,18 +6,21 @@ import com.mojang.brigadier.arguments.IntegerArgumentType;
 import com.siguha.sigsacademyaddons.config.HudConfig;
 import com.siguha.sigsacademyaddons.data.DaycareDataStore;
 import com.siguha.sigsacademyaddons.data.HuntDataStore;
+import com.siguha.sigsacademyaddons.data.WondertradeDataStore;
 import com.siguha.sigsacademyaddons.feature.daycare.DaycareManager;
 import com.siguha.sigsacademyaddons.feature.daycare.DaycareSoundPlayer;
 import com.siguha.sigsacademyaddons.feature.safari.HuntEntityTracker;
 import com.siguha.sigsacademyaddons.feature.safari.SafariHuntManager;
 import com.siguha.sigsacademyaddons.feature.safari.SafariManager;
+import com.siguha.sigsacademyaddons.feature.wondertrade.WondertradeManager;
+import com.siguha.sigsacademyaddons.feature.wondertrade.WondertradeSoundPlayer;
 import com.siguha.sigsacademyaddons.gui.HudConfigScreen;
 import com.siguha.sigsacademyaddons.handler.CatchDetector;
 import com.siguha.sigsacademyaddons.handler.ChatMessageHandler;
 import com.siguha.sigsacademyaddons.handler.ScreenInterceptor;
 import com.siguha.sigsacademyaddons.hud.DaycareHudRenderer;
-import com.siguha.sigsacademyaddons.hud.HuntLineRenderer;
 import com.siguha.sigsacademyaddons.hud.SafariHudRenderer;
+import com.siguha.sigsacademyaddons.hud.WondertradeHudRenderer;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.command.v2.ClientCommandManager;
 import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallback;
@@ -26,7 +29,6 @@ import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.message.v1.ClientReceiveMessageEvents;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents;
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
-import net.fabricmc.fabric.api.client.rendering.v1.WorldRenderEvents;
 import net.fabricmc.fabric.api.client.screen.v1.ScreenEvents;
 import net.minecraft.commands.CommandBuildContext;
 import net.minecraft.network.chat.Component;
@@ -42,6 +44,8 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
     private static CatchDetector catchDetector;
     private static DaycareManager daycareManager;
     private static DaycareSoundPlayer daycareSoundPlayer;
+    private static WondertradeManager wondertradeManager;
+    private static WondertradeSoundPlayer wondertradeSoundPlayer;
     private static HudConfig hudConfig;
 
     private static boolean openConfigScreenNextTick = false;
@@ -63,11 +67,19 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
         daycareSoundPlayer = new DaycareSoundPlayer(hudConfig);
         daycareManager = new DaycareManager(daycareDataStore, daycareSoundPlayer, hudConfig);
 
-        ChatMessageHandler chatHandler = new ChatMessageHandler(safariManager, safariHuntManager, catchDetector, daycareManager);
-        ScreenInterceptor screenInterceptor = new ScreenInterceptor(safariHuntManager, daycareManager);
+        WondertradeDataStore wtDataStore = new WondertradeDataStore();
+        wondertradeSoundPlayer = new WondertradeSoundPlayer(hudConfig);
+        wondertradeManager = new WondertradeManager(wtDataStore, wondertradeSoundPlayer, hudConfig);
+
+        ChatMessageHandler chatHandler = new ChatMessageHandler(safariManager, safariHuntManager,
+                catchDetector, daycareManager, wondertradeManager);
+        ScreenInterceptor screenInterceptor = new ScreenInterceptor(safariHuntManager, daycareManager,
+                wondertradeManager);
         SafariHudRenderer hudRenderer = new SafariHudRenderer(safariManager, safariHuntManager, hudConfig);
         DaycareHudRenderer daycareHudRenderer = new DaycareHudRenderer(daycareManager, hudConfig);
+        WondertradeHudRenderer wtHudRenderer = new WondertradeHudRenderer(wondertradeManager, hudConfig);
 
+        ClientReceiveMessageEvents.MODIFY_GAME.register(chatHandler::modifyGameMessage);
         ClientReceiveMessageEvents.GAME.register(chatHandler::onGameMessage);
         ScreenEvents.AFTER_INIT.register(screenInterceptor::onScreenInit);
 
@@ -78,9 +90,9 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
             catchDetector.tick(client);
             daycareManager.tick();
             daycareSoundPlayer.tick();
+            wondertradeManager.tick();
+            wondertradeSoundPlayer.tick();
 
-            // deferred GLFW error filter reinstall — another mod (e.g. Cobblemon) may override
-            // our callback during initialization, so we reinstall after all mods are loaded
             if (!glfwFilterReinstalled) {
                 glfwFilterReinstalled = true;
                 installGlfwErrorFilter();
@@ -88,28 +100,26 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
 
             if (openConfigScreenNextTick && client.player != null) {
                 openConfigScreenNextTick = false;
-                client.setScreen(new HudConfigScreen(hudConfig, safariManager, safariHuntManager, daycareManager));
+                client.setScreen(new HudConfigScreen(hudConfig, safariManager, safariHuntManager,
+                        daycareManager, wondertradeManager));
             }
         });
 
         HudRenderCallback.EVENT.register(hudRenderer::onHudRender);
         HudRenderCallback.EVENT.register(daycareHudRenderer::onHudRender);
+        HudRenderCallback.EVENT.register(wtHudRenderer::onHudRender);
 
-        HuntLineRenderer huntLineRenderer = new HuntLineRenderer(safariManager, hudConfig);
-        WorldRenderEvents.LAST.register(huntLineRenderer::onWorldRenderLast);
-
-        // restore daycare state when joining a server (not during mod init, when no server is connected)
         ClientPlayConnectionEvents.JOIN.register((handler, sender, client) -> {
             daycareManager.onServerJoined();
+            wondertradeManager.onServerJoined();
         });
         ClientPlayConnectionEvents.DISCONNECT.register((handler, client) -> {
             daycareManager.onServerDisconnected();
+            wondertradeManager.onServerDisconnected();
         });
 
         ClientCommandRegistrationCallback.EVENT.register(SigsAcademyAddonsClient::registerCommands);
 
-        // suppress GLFW "Invalid key -1" error spam from Cobblemon's pokemon_model rendering
-        // in daycare container screens. The error is harmless but produces massive log spam.
         installGlfwErrorFilter();
 
         SigsAcademyAddons.LOGGER.info("[Sigs Academy Addons] Client initialization complete.");
@@ -119,23 +129,18 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
         try {
             GLFWErrorCallback previousCallback = GLFW.glfwSetErrorCallback(null);
             GLFW.glfwSetErrorCallback(GLFWErrorCallback.create((error, description) -> {
-                // GLFW error 0x10003 (GLFW_INVALID_ENUM) with "Invalid key -1" is caused by
-                // Cobblemon's pokemon_model item rendering in container screens — it tries to
-                // resolve a keybinding with an unbound key code, producing spam every frame.
                 if (error == 0x10003) {
                     String msg = MemoryUtil.memUTF8Safe(description);
                     if (msg != null && msg.contains("Invalid key")) {
-                        return; // silently suppress
+                        return;
                     }
                 }
-                // forward all other errors to Minecraft's original callback
                 if (previousCallback != null) {
                     previousCallback.invoke(error, description);
                 }
             }));
-            SigsAcademyAddons.LOGGER.info("[sig] Installed GLFW error filter for cobblemon key spam");
         } catch (Exception e) {
-            SigsAcademyAddons.LOGGER.warn("[sig] Failed to install GLFW error filter", e);
+            SigsAcademyAddons.LOGGER.warn("[SAA] Failed to install GLFW error filter", e);
         }
     }
 
@@ -154,6 +159,9 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                             hudConfig.setDaycareScale(1.0f);
                                             hudConfig.setDaycarePositionFromAbsolute(
                                                     5, 5, 140, 100, sw, sh);
+                                            hudConfig.setWtScale(1.0f);
+                                            hudConfig.setWtPositionFromAbsolute(
+                                                    sw - 145, sh - 80, 140, 70, sw, sh);
                                             context.getSource().sendFeedback(
                                                     Component.literal("\u00A7aAll HUD positions and scales reset to default."));
                                             return 1;
@@ -206,6 +214,27 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                             return 1;
                                         })
                                 )
+                                .then(ClientCommandManager.literal("goto")
+                                        .then(ClientCommandManager.literal("pen")
+                                                .then(ClientCommandManager.argument("penNumber", IntegerArgumentType.integer(1, 4))
+                                                        .executes(context -> {
+                                                            int pen = IntegerArgumentType.getInteger(context, "penNumber");
+                                                            daycareManager.setPendingNavTarget("pen:" + pen);
+                                                            var conn = context.getSource().getClient().getConnection();
+                                                            if (conn != null) conn.sendCommand("daycare");
+                                                            return 1;
+                                                        })
+                                                )
+                                        )
+                                        .then(ClientCommandManager.literal("backpack")
+                                                .executes(context -> {
+                                                    daycareManager.setPendingNavTarget("backpack");
+                                                    var conn = context.getSource().getClient().getConnection();
+                                                    if (conn != null) conn.sendCommand("daycare");
+                                                    return 1;
+                                                })
+                                        )
+                                )
                                 .executes(context -> {
                                     int unlockedPens = daycareManager.getDisplayPens().size();
                                     long breedingPens = daycareManager.getDisplayPens().stream()
@@ -222,6 +251,34 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                     sb.append("\n\u00A77Menu enabled: \u00A7f").append(hudConfig.isDaycareMenuEnabled());
                                     sb.append("\n\u00A77Sounds enabled: \u00A7f").append(hudConfig.isDaycareSoundsEnabled());
                                     sb.append("\n\u00A77Daycare scale: \u00A7f").append(String.format("%.0f%%", hudConfig.getDaycareScale() * 100));
+
+                                    context.getSource().sendFeedback(Component.literal(sb.toString()));
+                                    return 1;
+                                })
+                        )
+                        .then(ClientCommandManager.literal("wt")
+                                .then(ClientCommandManager.literal("clear")
+                                        .executes(context -> {
+                                            wondertradeManager.clearAll();
+                                            context.getSource().sendFeedback(
+                                                    Component.literal("\u00A7aCleared wondertrade timer data."));
+                                            return 1;
+                                        })
+                                )
+                                .executes(context -> {
+                                    StringBuilder sb = new StringBuilder();
+                                    sb.append("\u00A76Wondertrade Status:\n");
+                                    if (!wondertradeManager.hasTimer()) {
+                                        sb.append("\u00A77Timer: \u00A7cNot set");
+                                    } else if (wondertradeManager.isCooldownOver()) {
+                                        sb.append("\u00A77Timer: \u00A7aCooldown over!");
+                                    } else {
+                                        sb.append("\u00A77Timer: \u00A7f").append(wondertradeManager.getRemainingFormatted()).append(" remaining");
+                                    }
+                                    sb.append("\n\u00A77Menu enabled: \u00A7f").append(hudConfig.isWtMenuEnabled());
+                                    sb.append("\n\u00A77Chat reminders: \u00A7f").append(hudConfig.isWtShowChatReminders());
+                                    sb.append("\n\u00A77Sounds enabled: \u00A7f").append(hudConfig.isWtSoundsEnabled());
+                                    sb.append("\n\u00A77WT scale: \u00A7f").append(String.format("%.0f%%", hudConfig.getWtScale() * 100));
 
                                     context.getSource().sendFeedback(Component.literal(sb.toString()));
                                     return 1;
@@ -244,7 +301,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                             boolean current = hudConfig.isSafariTimerAlways();
                                             context.getSource().sendFeedback(Component.literal(
                                                     "\u00A77safariTimerAlways = \u00A7f" + current +
-                                                    "\n\u00A77Usage: \u00A7e/sig config safariTimerAlways <true|false>"));
+                                                    "\n\u00A77Usage: \u00A7e/saa config safariTimerAlways <true|false>"));
                                             return 1;
                                         })
                                 )
@@ -284,27 +341,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                             boolean current = hudConfig.isSafariQuestMonGlow();
                                             context.getSource().sendFeedback(Component.literal(
                                                     "\u00A77safariQuestMonGlow = \u00A7f" + current +
-                                                    "\n\u00A77Usage: \u00A7e/sig config safariQuestMonGlow <true|false>"));
-                                            return 1;
-                                        })
-                                )
-                                .then(ClientCommandManager.literal("safariQuestMonTracers")
-                                        .then(ClientCommandManager.argument("value", BoolArgumentType.bool())
-                                                .executes(context -> {
-                                                    boolean value = BoolArgumentType.getBool(context, "value");
-                                                    hudConfig.setSafariQuestMonTracers(value);
-                                                    String msg = value
-                                                            ? "\u00A7aQuest Pokemon tracers enabled (16 block range)."
-                                                            : "\u00A7aQuest Pokemon tracers disabled.";
-                                                    context.getSource().sendFeedback(Component.literal(msg));
-                                                    return 1;
-                                                })
-                                        )
-                                        .executes(context -> {
-                                            boolean current = hudConfig.isSafariQuestMonTracers();
-                                            context.getSource().sendFeedback(Component.literal(
-                                                    "\u00A77safariQuestMonTracers = \u00A7f" + current +
-                                                    "\n\u00A77Usage: \u00A7e/sig config safariQuestMonTracers <true|false>"));
+                                                    "\n\u00A77Usage: \u00A7e/saa config safariQuestMonGlow <true|false>"));
                                             return 1;
                                         })
                                 )
@@ -369,6 +406,66 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                             return 1;
                                         })
                                 )
+                                .then(ClientCommandManager.literal("wtMenuEnabled")
+                                        .then(ClientCommandManager.argument("value", BoolArgumentType.bool())
+                                                .executes(context -> {
+                                                    boolean value = BoolArgumentType.getBool(context, "value");
+                                                    hudConfig.setWtMenuEnabled(value);
+                                                    String msg = value
+                                                            ? "\u00A7aWondertrade HUD enabled."
+                                                            : "\u00A7aWondertrade HUD disabled.";
+                                                    context.getSource().sendFeedback(Component.literal(msg));
+                                                    return 1;
+                                                })
+                                        )
+                                        .executes(context -> {
+                                            boolean current = hudConfig.isWtMenuEnabled();
+                                            context.getSource().sendFeedback(Component.literal(
+                                                    "\u00A77wtMenuEnabled = \u00A7f" + current +
+                                                    "\n\u00A77Usage: \u00A7e/saa config wtMenuEnabled <true|false>"));
+                                            return 1;
+                                        })
+                                )
+                                .then(ClientCommandManager.literal("wtShowChatReminders")
+                                        .then(ClientCommandManager.argument("value", BoolArgumentType.bool())
+                                                .executes(context -> {
+                                                    boolean value = BoolArgumentType.getBool(context, "value");
+                                                    hudConfig.setWtShowChatReminders(value);
+                                                    String msg = value
+                                                            ? "\u00A7aWT chat reminders enabled."
+                                                            : "\u00A7aWT chat reminders disabled.";
+                                                    context.getSource().sendFeedback(Component.literal(msg));
+                                                    return 1;
+                                                })
+                                        )
+                                        .executes(context -> {
+                                            boolean current = hudConfig.isWtShowChatReminders();
+                                            context.getSource().sendFeedback(Component.literal(
+                                                    "\u00A77wtShowChatReminders = \u00A7f" + current +
+                                                    "\n\u00A77Usage: \u00A7e/saa config wtShowChatReminders <true|false>"));
+                                            return 1;
+                                        })
+                                )
+                                .then(ClientCommandManager.literal("wtSoundsEnabled")
+                                        .then(ClientCommandManager.argument("value", BoolArgumentType.bool())
+                                                .executes(context -> {
+                                                    boolean value = BoolArgumentType.getBool(context, "value");
+                                                    hudConfig.setWtSoundsEnabled(value);
+                                                    String msg = value
+                                                            ? "\u00A7aWT sounds enabled."
+                                                            : "\u00A7aWT sounds disabled.";
+                                                    context.getSource().sendFeedback(Component.literal(msg));
+                                                    return 1;
+                                                })
+                                        )
+                                        .executes(context -> {
+                                            boolean current = hudConfig.isWtSoundsEnabled();
+                                            context.getSource().sendFeedback(Component.literal(
+                                                    "\u00A77wtSoundsEnabled = \u00A7f" + current +
+                                                    "\n\u00A77Usage: \u00A7e/saa config wtSoundsEnabled <true|false>"));
+                                            return 1;
+                                        })
+                                )
                                 .then(ClientCommandManager.literal("hudStyle")
                                         .then(ClientCommandManager.literal("solid")
                                                 .executes(context -> {
@@ -390,7 +487,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                             String current = hudConfig.getHudStyle().name().toLowerCase();
                                             context.getSource().sendFeedback(Component.literal(
                                                     "\u00A77hudStyle = \u00A7f" + current +
-                                                    "\n\u00A77Usage: \u00A7e/sig config hudStyle <solid|transparent>"));
+                                                    "\n\u00A77Usage: \u00A7e/saa config hudStyle <solid|transparent>"));
                                             return 1;
                                         })
                                 )
@@ -400,17 +497,16 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                             "\u00A77safariMenuEnabled = \u00A7f" + hudConfig.isSafariMenuEnabled() +
                                             "\n\u00A77safariTimerAlways = \u00A7f" + hudConfig.isSafariTimerAlways() +
                                             "\n\u00A77safariQuestMonGlow = \u00A7f" + hudConfig.isSafariQuestMonGlow() +
-                                            "\n\u00A77safariQuestMonTracers = \u00A7f" + hudConfig.isSafariQuestMonTracers() +
                                             "\n\u00A77daycareMenuEnabled = \u00A7f" + hudConfig.isDaycareMenuEnabled() +
                                             "\n\u00A77daycareSoundsEnabled = \u00A7f" + hudConfig.isDaycareSoundsEnabled() +
                                             "\n\u00A77daycareEggsHatchingSlots = \u00A7f" + hudConfig.getDaycareEggsHatchingSlots() +
-                                            "\n\u00A77daycareScale = \u00A7f" + String.format("%.0f%%", hudConfig.getDaycareScale() * 100) +
+                                            "\n\u00A77wtMenuEnabled = \u00A7f" + hudConfig.isWtMenuEnabled() +
+                                            "\n\u00A77wtShowChatReminders = \u00A7f" + hudConfig.isWtShowChatReminders() +
+                                            "\n\u00A77wtSoundsEnabled = \u00A7f" + hudConfig.isWtSoundsEnabled() +
                                             "\n\u00A77hudStyle = \u00A7f" + hudConfig.getHudStyle().name().toLowerCase() +
                                             "\n\u00A77safariScale = \u00A7f" + String.format("%.0f%%", hudConfig.getHudScale() * 100) +
-                                            "\n\u00A77safariAnchor = \u00A7f" + hudConfig.getAnchor().name() +
-                                            "\n\u00A77safariOffset = \u00A7f(" + hudConfig.getOffsetX() + ", " + hudConfig.getOffsetY() + ")" +
-                                            "\n\u00A77daycareAnchor = \u00A7f" + hudConfig.getDaycareAnchor().name() +
-                                            "\n\u00A77daycareOffset = \u00A7f(" + hudConfig.getDaycareOffsetX() + ", " + hudConfig.getDaycareOffsetY() + ")"
+                                            "\n\u00A77daycareScale = \u00A7f" + String.format("%.0f%%", hudConfig.getDaycareScale() * 100) +
+                                            "\n\u00A77wtScale = \u00A7f" + String.format("%.0f%%", hudConfig.getWtScale() * 100)
                                     ));
                                     return 1;
                                 })
@@ -418,20 +514,24 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                         .executes(context -> {
                             context.getSource().sendFeedback(Component.literal(
                                     "\u00A76Sigs Academy Addons Commands:\n" +
-                                    "\u00A7e/saa gui\u00A77 — Reposition Safari & Daycare HUDs\n" +
+                                    "\u00A7e/saa gui\u00A77 — Reposition HUDs\n" +
                                     "\u00A7e/saa gui reset\u00A77 — Reset HUD positions & scale\n" +
                                     "\u00A7e/saa safari\u00A77 — View safari status\n" +
                                     "\u00A7e/saa safari clear\u00A77 — Clear all safari/hunt data\n" +
                                     "\u00A7e/saa daycare\u00A77 — View daycare status\n" +
                                     "\u00A7e/saa daycare clear\u00A77 — Clear all daycare data\n" +
+                                    "\u00A7e/saa wt\u00A77 — View wondertrade status\n" +
+                                    "\u00A7e/saa wt clear\u00A77 — Clear wondertrade timer\n" +
                                     "\u00A7e/saa config\u00A77 — View configuration\n" +
                                     "\u00A7e/saa config safariMenuEnabled <bool>\u00A77 — Safari HUD toggle\n" +
                                     "\u00A7e/saa config safariTimerAlways <bool>\u00A77 — Show HUD outside safari zone\n" +
                                     "\u00A7e/saa config safariQuestMonGlow <bool>\u00A77 — Glow on quest-matching Pokemon\n" +
-                                    "\u00A7e/saa config safariQuestMonTracers <bool>\u00A77 — Tracers to nearby quest Pokemon\n" +
                                     "\u00A7e/saa config daycareMenuEnabled <bool>\u00A77 — Daycare HUD toggle\n" +
                                     "\u00A7e/saa config daycareSoundsEnabled <bool>\u00A77 — Daycare sound alerts toggle\n" +
                                     "\u00A7e/saa config daycareEggsHatchingSlots <0-5>\u00A77 — Max eggs shown (0=hide)\n" +
+                                    "\u00A7e/saa config wtMenuEnabled <bool>\u00A77 — Wondertrade HUD toggle\n" +
+                                    "\u00A7e/saa config wtShowChatReminders <bool>\u00A77 — WT chat reminder toggle\n" +
+                                    "\u00A7e/saa config wtSoundsEnabled <bool>\u00A77 — WT sound alerts toggle\n" +
                                     "\u00A7e/saa config hudStyle <solid|transparent>\u00A77 — HUD background style"
                             ));
                             return 1;
@@ -444,5 +544,6 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
     public static HuntEntityTracker getHuntEntityTracker() { return huntEntityTracker; }
     public static CatchDetector getCatchDetector() { return catchDetector; }
     public static DaycareManager getDaycareManager() { return daycareManager; }
+    public static WondertradeManager getWondertradeManager() { return wondertradeManager; }
     public static HudConfig getHudConfig() { return hudConfig; }
 }

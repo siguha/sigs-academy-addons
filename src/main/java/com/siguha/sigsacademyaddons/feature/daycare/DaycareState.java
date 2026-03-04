@@ -64,6 +64,11 @@ public class DaycareState {
         public boolean getHadEggOnLastScrape() { return hadEggOnLastScrape; }
         public void setHadEggOnLastScrape(boolean had) { this.hadEggOnLastScrape = had; }
 
+        public void adjustTimestamps(long offsetMs) {
+            if (estimatedEndTimeMs > 0) estimatedEndTimeMs += offsetMs;
+            lastStageChangeTimeMs += offsetMs;
+        }
+
         public boolean isBreeding() { return stage == BreedingStage.BREEDING; }
 
         public String inferEggSpecies() {
@@ -124,8 +129,8 @@ public class DaycareState {
 
     public static class ClaimedEgg {
         private final String species;
-        private final long claimedTimeMs;
-        private final long estimatedHatchTimeMs;
+        private long claimedTimeMs;
+        private long estimatedHatchTimeMs;
         private boolean completed;
 
         public ClaimedEgg(String species, long claimedTimeMs, long estimatedHatchTimeMs) {
@@ -170,6 +175,11 @@ public class DaycareState {
             float elapsed = totalDuration - remaining;
             
             return Math.clamp(elapsed / totalDuration, 0.0f, 1.0f);
+        }
+
+        public void adjustTimestamps(long offsetMs) {
+            claimedTimeMs += offsetMs;
+            estimatedHatchTimeMs += offsetMs;
         }
 
         public String getDisplayLabel() {
