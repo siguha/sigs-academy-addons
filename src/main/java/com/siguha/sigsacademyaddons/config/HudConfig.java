@@ -72,6 +72,8 @@ public class HudConfig {
     private int groupOffsetY = 5;
     private int groupRefScreenWidth = 0;
 
+    private boolean driflootAlertsEnabled = true;
+
     private boolean suppressInRaids = true;
     private boolean suppressInHideouts = false;
     private boolean suppressInDungeons = false;
@@ -431,6 +433,15 @@ public class HudConfig {
         };
     }
 
+    public boolean isDriflootAlertsEnabled() {
+        return driflootAlertsEnabled;
+    }
+
+    public void setDriflootAlertsEnabled(boolean driflootAlertsEnabled) {
+        this.driflootAlertsEnabled = driflootAlertsEnabled;
+        save();
+    }
+
     public boolean isSuppressInRaids() { return suppressInRaids; }
 
     public void setSuppressInRaids(boolean suppressInRaids) {
@@ -506,6 +517,7 @@ public class HudConfig {
                     joinedGroup.isEmpty() ? null : new ArrayList<>(joinedGroup),
                     groupScale, groupAnchor.name(), groupOffsetX, groupOffsetY,
                     groupRefScreenWidth,
+                    driflootAlertsEnabled,
                     suppressInRaids, suppressInHideouts, suppressInDungeons,
                     suppressInBattles, hudHidden);
             try (Writer writer = Files.newBufferedWriter(filePath)) {
@@ -563,6 +575,8 @@ public class HudConfig {
                     this.groupOffsetY = data.groupOffsetY != null ? data.groupOffsetY : 5;
                     this.groupRefScreenWidth = data.groupRefScreenWidth != null ? data.groupRefScreenWidth : 0;
 
+                    this.driflootAlertsEnabled = data.driflootAlertsEnabled != null ? data.driflootAlertsEnabled : true;
+
                     this.suppressInRaids = data.suppressInRaids != null ? data.suppressInRaids : true;
                     this.suppressInHideouts = data.suppressInHideouts != null ? data.suppressInHideouts : false;
                     this.suppressInDungeons = data.suppressInDungeons != null ? data.suppressInDungeons : false;
@@ -593,6 +607,7 @@ public class HudConfig {
             Integer refScreenWidth, Integer daycareRefScreenWidth, Integer wtRefScreenWidth,
             List<String> joinedGroup, Float groupScale, String groupAnchor,
             Integer groupOffsetX, Integer groupOffsetY, Integer groupRefScreenWidth,
+            Boolean driflootAlertsEnabled,
             Boolean suppressInRaids, Boolean suppressInHideouts, Boolean suppressInDungeons,
             Boolean suppressInBattles, Boolean hudHidden) {
     }

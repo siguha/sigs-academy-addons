@@ -10,6 +10,7 @@ import com.siguha.sigsacademyaddons.data.HuntDataStore;
 import com.siguha.sigsacademyaddons.data.WondertradeDataStore;
 import com.siguha.sigsacademyaddons.feature.daycare.DaycareManager;
 import com.siguha.sigsacademyaddons.feature.daycare.DaycareSoundPlayer;
+import com.siguha.sigsacademyaddons.feature.drifloot.DriflootDetector;
 import com.siguha.sigsacademyaddons.feature.portal.PortalManager;
 import com.siguha.sigsacademyaddons.feature.portal.PortalParticleDetector;
 import com.siguha.sigsacademyaddons.feature.suppression.SuppressionManager;
@@ -57,6 +58,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
     private static WondertradeManager wondertradeManager;
     private static WondertradeSoundPlayer wondertradeSoundPlayer;
     private static PortalManager portalManager;
+    private static DriflootDetector driflootDetector;
     private static SuppressionManager suppressionManager;
     private static HudConfig hudConfig;
 
@@ -84,6 +86,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
         wondertradeManager = new WondertradeManager(wtDataStore, wondertradeSoundPlayer, hudConfig);
 
         portalManager = new PortalManager();
+        driflootDetector = new DriflootDetector(hudConfig);
         suppressionManager = new SuppressionManager(hudConfig);
 
         ChatMessageHandler chatHandler = new ChatMessageHandler(safariManager, safariHuntManager,
@@ -110,6 +113,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
             wondertradeManager.tick();
             wondertradeSoundPlayer.tick();
             portalManager.tick();
+            driflootDetector.tick();
             PortalParticleDetector.tick();
             ParticleCapture.tick();
 
@@ -686,6 +690,26 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                             return 1;
                                         })
                                 )
+                                .then(ClientCommandManager.literal("driflootAlerts")
+                                        .then(ClientCommandManager.argument("value", BoolArgumentType.bool())
+                                                .executes(context -> {
+                                                    boolean value = BoolArgumentType.getBool(context, "value");
+                                                    hudConfig.setDriflootAlertsEnabled(value);
+                                                    String msg = value
+                                                            ? "\u00A7aDrifloot alerts enabled."
+                                                            : "\u00A7aDrifloot alerts disabled.";
+                                                    context.getSource().sendFeedback(Component.literal(msg));
+                                                    return 1;
+                                                })
+                                        )
+                                        .executes(context -> {
+                                            boolean current = hudConfig.isDriflootAlertsEnabled();
+                                            context.getSource().sendFeedback(Component.literal(
+                                                    "\u00A77driflootAlerts = \u00A7f" + current +
+                                                    "\n\u00A77Usage: \u00A7e/saa config driflootAlerts <true|false>"));
+                                            return 1;
+                                        })
+                                )
                                 .then(ClientCommandManager.literal("hudHidden")
                                         .then(ClientCommandManager.argument("value", BoolArgumentType.bool())
                                                 .executes(context -> {
@@ -727,6 +751,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                             "\n\u00A77suppressInHideouts = \u00A7f" + hudConfig.isSuppressInHideouts() +
                                             "\n\u00A77suppressInDungeons = \u00A7f" + hudConfig.isSuppressInDungeons() +
                                             "\n\u00A77suppressInBattles = \u00A7f" + hudConfig.isSuppressInBattles() +
+                                            "\n\u00A77driflootAlerts = \u00A7f" + hudConfig.isDriflootAlertsEnabled() +
                                             "\n\u00A77hudHidden = \u00A7f" + hudConfig.isHudHidden()
                                     ));
                                     return 1;
@@ -861,6 +886,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                     "\u00A7e/saa config suppressInHideouts <bool>\u00A77 — Hide HUD in hideouts\n" +
                                     "\u00A7e/saa config suppressInDungeons <bool>\u00A77 — Hide HUD in dungeons\n" +
                                     "\u00A7e/saa config suppressInBattles <bool>\u00A77 — Hide HUD in battles\n" +
+                                    "\u00A7e/saa config driflootAlerts <bool>\u00A77 — Drifloot spawn alerts\n" +
                                     "\u00A7e/saa config hudHidden <bool>\u00A77 — Manually hide HUD"
                             ));
                             return 1;
