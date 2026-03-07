@@ -10,5 +10,13 @@
     "text.saa.suppression_rules": "Règles de suppression",
     "text.saa.egg": "Oeuf",
     "text.saa.hatched": "Éclos !",
-    "text.saa.waiting": "En attente..."
+    "text.saa.waiting": "En attente...",
+    "text.saa.active_hunts": "Chasses actives",
+    "text.saa.breeding": "Reproduction",
+    "text.saa.hatching": "Eclosion",
+    "text.saa.raids": "Raids",
+    "text.saa.hideouts": "Repères",
+    "text.saa.dungeons": "Donjons",
+    "text.saa.battles": "Combats",
+    "text.saa.hide_hud": "Masque l'ATH"
 }

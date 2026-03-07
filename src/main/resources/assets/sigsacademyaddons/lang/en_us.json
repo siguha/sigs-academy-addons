@@ -12,5 +12,13 @@
     "text.saa.suppression_rules": "Suppression Rules",
     "text.saa.egg": "Egg",
     "text.saa.hatched": "Hatched!",
-    "text.saa.waiting": "Waiting..."
+    "text.saa.waiting": "Waiting...",
+    "text.saa.active_hunts": "Active Hunts",
+    "text.saa.breeding": "Breeding",
+    "text.saa.hatching": "Hatching",
+    "text.saa.raids": "Raids",
+    "text.saa.hideouts": "Hideouts",
+    "text.saa.dungeons": "Dungeons",
+    "text.saa.battles": "Battles",
+    "text.saa.hide_hud": "Hide HUD"
 }

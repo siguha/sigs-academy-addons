@@ -7,6 +7,7 @@ import net.minecraft.client.DeltaTracker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
@@ -189,7 +190,7 @@ public class DaycareHudRenderer implements HudPanel {
 
         boolean hasAnyPen = !displayPens.isEmpty();
         if (hasAnyPen) {
-            graphics.drawString(font, "Breeding", PADDING, currentY, COLOR_SECTION_HEADER, true);
+            graphics.drawString(font, Component.translatable("text.saa.breeding"), PADDING, currentY, COLOR_SECTION_HEADER, true);
             currentY += LINE_HEIGHT;
 
             for (DaycareState.PenState pen : displayPens) {
@@ -198,7 +199,7 @@ public class DaycareHudRenderer implements HudPanel {
         }
 
         if (maxDisplayEggs > 0 && !displayEggs.isEmpty()) {
-            graphics.drawString(font, "Hatching", PADDING, currentY, COLOR_SECTION_HEADER, true);
+            graphics.drawString(font, Component.translatable("text.saa.hatching"), PADDING, currentY, COLOR_SECTION_HEADER, true);
 
             int eggsHatched = daycareManager.getEggsHatchedSinceMenuOpen();
             if (eggsHatched > 0) {
@@ -312,7 +313,7 @@ public class DaycareHudRenderer implements HudPanel {
             graphics.fill(PADDING, currentY, panelWidth - PADDING, currentY + 1, 0xFF555555);
             currentY += SECTION_SPACING;
 
-            graphics.drawString(font, "Breeding", PADDING, currentY, COLOR_SECTION_HEADER, true);
+            graphics.drawString(font, Component.translatable("text.saa.breeding"), PADDING, currentY, COLOR_SECTION_HEADER, true);
             currentY += LINE_HEIGHT;
 
             for (DaycareState.PenState pen : displayPens) {
@@ -325,7 +326,7 @@ public class DaycareHudRenderer implements HudPanel {
             graphics.fill(PADDING, currentY, panelWidth - PADDING, currentY + 1, 0xFF555555);
             currentY += SECTION_SPACING;
 
-            graphics.drawString(font, "Hatching", PADDING, currentY, COLOR_SECTION_HEADER, true);
+            graphics.drawString(font, Component.translatable("text.saa.hatching"), PADDING, currentY, COLOR_SECTION_HEADER, true);
 
             int eggsHatched = daycareManager.getEggsHatchedSinceMenuOpen();
             if (eggsHatched > 0) {
@@ -505,7 +506,7 @@ public class DaycareHudRenderer implements HudPanel {
             int eggsHatched = daycareManager.getEggsHatchedSinceMenuOpen();
             if (eggsHatched > 0) {
                 String hatchedText = eggsHatched + " Hatched";
-                int headerLineWidth = font.width("Hatching") + 8 + font.width(hatchedText) + PADDING * 2;
+                int headerLineWidth = font.width(Component.translatable("text.saa.hatching")) + 8 + font.width(hatchedText) + PADDING * 2;
                 maxWidth = Math.max(maxWidth, headerLineWidth);
             }
         }
@@ -579,7 +580,7 @@ public class DaycareHudRenderer implements HudPanel {
 
             if (eggsHatched > 0) {
                 String hatchedText = eggsHatched + " Egg" + (eggsHatched != 1 ? "s" : "") + " Hatched";
-                int headerLineWidth = font.width("Hatching") + 8 + font.width(hatchedText) + PADDING * 2;
+                int headerLineWidth = font.width(Component.translatable("text.saa.hatching")) + 8 + font.width(hatchedText) + PADDING * 2;
                 maxWidth = Math.max(maxWidth, headerLineWidth);
             }
         }

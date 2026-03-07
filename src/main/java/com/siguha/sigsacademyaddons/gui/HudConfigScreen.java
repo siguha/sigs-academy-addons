@@ -288,7 +288,7 @@ public class HudConfigScreen extends Screen {
 
         by += buttonH + BUTTON_SPACING;
 
-        String suppressText = Component.translatable("suppression_rules") + " " + (suppressionMenuExpanded ? "\u25BC" : "\u25B6");
+        Component suppressText = Component.translatable("text.saa.suppression_rules").append(" ").append(suppressionMenuExpanded ? "\u25BC" : "\u25B6");
         int suppressW = this.font.width(suppressText) + BUTTON_PADDING_X * 2;
         boolean suppressHovered = mouseX >= bx && mouseX <= bx + suppressW
                 && mouseY >= by && mouseY <= by + buttonH;
@@ -302,7 +302,13 @@ public class HudConfigScreen extends Screen {
             by += buttonH + BUTTON_SPACING;
             int childX = bx + 4;
 
-            String[] labels = {"Raids", "Hideouts", "Dungeons", "Battles", "Hide HUD"};
+            Component[] labels = {
+                Component.translatable("text.saa.raids"),
+                Component.translatable("text.saa.hideouts"),
+                Component.translatable("text.saa.dungeons"),
+                Component.translatable("text.saa.battles"),
+                Component.translatable("text.saa.hide_hud")
+            };
             boolean[] values = {
                     hudConfig.isSuppressInRaids(), hudConfig.isSuppressInHideouts(),
                     hudConfig.isSuppressInDungeons(), hudConfig.isSuppressInBattles(),
@@ -635,7 +641,7 @@ public class HudConfigScreen extends Screen {
         graphics.fill(PADDING, y, PADDING + barWidth, y + 1, 0xFF555555);
         y += SECTION_SPACING;
 
-        graphics.drawString(this.font, "Active Hunts", PADDING, y, COLOR_HEADER, true);
+        graphics.drawString(this.font, Component.translatable("text.saa.active_hunts"), PADDING, y, COLOR_HEADER, true);
         y += LINE_HEIGHT + 2;
 
         String[][] placeholderHunts = {
@@ -693,7 +699,7 @@ public class HudConfigScreen extends Screen {
 
         int maxEggs = hudConfig.getDaycareEggsHatchingSlots();
 
-        graphics.drawString(this.font, "Breeding", PADDING, y, COLOR_SECTION_HEADER, true);
+        graphics.drawString(this.font, Component.translatable("text.saa.breeding"), PADDING, y, COLOR_SECTION_HEADER, true);
         y += LINE_HEIGHT;
 
         graphics.drawString(this.font, "[PEN 1]", PADDING + 2, y, 0xFF88DDFF, true);
@@ -710,7 +716,7 @@ public class HudConfigScreen extends Screen {
         y += LINE_HEIGHT;
 
         if (maxEggs > 0) {
-            graphics.drawString(this.font, "Hatching", PADDING, y, COLOR_SECTION_HEADER, true);
+            graphics.drawString(this.font, Component.translatable("text.saa.hatching"), PADDING, y, COLOR_SECTION_HEADER, true);
             y += LINE_HEIGHT;
 
             String[] eggNames = {"Eevee", "Charmander", "Bulbasaur", "Squirtle", "Pikachu"};
@@ -743,7 +749,7 @@ public class HudConfigScreen extends Screen {
         y += 2;
         graphics.fill(PADDING, y, panel.unscaledWidth - PADDING, y + 1, 0xFF555555);
         y += SECTION_SPACING;
-        graphics.drawString(this.font, "Breeding", PADDING, y, COLOR_SECTION_HEADER, true);
+        graphics.drawString(this.font, Component.translatable("text.saa.breeding"), PADDING, y, COLOR_SECTION_HEADER, true);
         y += LINE_HEIGHT;
 
         graphics.drawString(this.font, "[PEN 1]", PADDING + 2, y, 0xFF88DDFF, true);
@@ -766,7 +772,7 @@ public class HudConfigScreen extends Screen {
             y += 2;
             graphics.fill(PADDING, y, panel.unscaledWidth - PADDING, y + 1, 0xFF555555);
             y += SECTION_SPACING;
-            graphics.drawString(this.font, "Hatching", PADDING, y, COLOR_SECTION_HEADER, true);
+            graphics.drawString(this.font, Component.translatable("text.saa.hatching"), PADDING, y, COLOR_SECTION_HEADER, true);
             y += LINE_HEIGHT;
 
             String[] eggNames = {"Eevee", "Charmander", "Bulbasaur", "Squirtle", "Pikachu"};
@@ -1501,7 +1507,7 @@ public class HudConfigScreen extends Screen {
         }
 
         by += buttonH + BUTTON_SPACING;
-        Component suppressText = Component.translatable("suppression_rules").append(" ").append(suppressionMenuExpanded ? "\u25BC" : "\u25B6");
+        Component suppressText = Component.translatable("text.saa.suppression_rules").append(" ").append(suppressionMenuExpanded ? "\u25BC" : "\u25B6");
         int suppressW = this.font.width(suppressText) + BUTTON_PADDING_X * 2;
         if (mx >= bx && mx <= bx + suppressW && my >= by && my <= by + buttonH) {
             return 2;
@@ -1510,7 +1516,15 @@ public class HudConfigScreen extends Screen {
         if (suppressionMenuExpanded) {
             by += buttonH + BUTTON_SPACING;
             int childX = bx + 4;
-            String[] labels = {"Raids", "Hideouts", "Dungeons", "Battles", "Hide HUD"};
+            
+            Component[] labels = {
+                Component.translatable("text.saa.raids"),
+                Component.translatable("text.saa.hideouts"),
+                Component.translatable("text.saa.dungeons"),
+                Component.translatable("text.saa.battles"),
+                Component.translatable("text.saa.hide_hud")
+            };
+
             boolean[] values = {
                     hudConfig.isSuppressInRaids(), hudConfig.isSuppressInHideouts(),
                     hudConfig.isSuppressInDungeons(), hudConfig.isSuppressInBattles(),
