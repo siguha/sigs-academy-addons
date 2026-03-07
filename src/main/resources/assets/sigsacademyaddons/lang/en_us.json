@@ -1,0 +1,16 @@
+{
+    "title.saa.hud_position": "HUD Position",
+
+    
+    "text.saa.resize": "Drag to reposition | Drag corners to resize | Overlap to join",
+    "text.saa.save": "Press Escape to save and close",
+    "text.saa.reset_pos": "Reset positions",
+    "text.saa.reset_scale": "Reset scale",
+    "text.saa.no_quest_message": "Please visit the Safari Hunt NPC and load your hunt menu.",
+    "text.saa.no_wt_message": "Please use WT once to set menu.",
+    "text.saa.ready": "Ready!",
+    "text.saa.suppression_rules": "Suppression Rules",
+    "text.saa.egg": "Egg",
+    "text.saa.hatched": "Hatched!",
+    "text.saa.waiting": "Waiting..."
+}

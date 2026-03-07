@@ -1,0 +1,14 @@
+{
+    "title.saa.hud_position": "Position de l'ATH",
+    "text.saa.resize": "Faire glisser pour reposition | Faire glisser un coin pour redimensionner | Superposer pour fusionner",
+    "text.saa.save": "Echap. pour sauvegarder et quitter",
+    "text.saa.reset_pos": "Réinitialiser les positions",
+    "text.saa.reset_scale": "Réinitialiser la taille",
+    "text.saa.no_quest_message": "Merci de rendre visit au PNJ du Safari pour charger le menu de chasses.",
+    "text.saa.no_wt_message": "Utiliser le WT pour configurer le menu.",
+    "text.saa.ready": "Prêt !",
+    "text.saa.suppression_rules": "Règles de suppression",
+    "text.saa.egg": "Oeuf",
+    "text.saa.hatched": "Éclos !",
+    "text.saa.waiting": "En attente..."
+}

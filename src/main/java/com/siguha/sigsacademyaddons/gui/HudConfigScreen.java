@@ -230,11 +230,11 @@ public class HudConfigScreen extends Screen {
         super.render(graphics, mouseX, mouseY, partialTick);
 
         graphics.fill(0, 0, this.width, this.height, 0x88000000);
-        String title = "Drag to reposition | Drag corners to resize | Overlap to join";
+        Component title = Component.translatable("text.saa.resize");
         int titleWidth = this.font.width(title);
         graphics.drawString(this.font, title, (this.width - titleWidth) / 2, 10, COLOR_HEADER, true);
 
-        String hint = "Press Escape to save and close";
+        Component hint = Component.translatable("text.saa.save");
         int hintWidth = this.font.width(hint);
         graphics.drawString(this.font, hint, (this.width - hintWidth) / 2, 22, COLOR_HINT, true);
 
@@ -263,7 +263,7 @@ public class HudConfigScreen extends Screen {
         int bx = 8;
         int by = 8;
 
-        String resetPosText = "Reset Positions";
+        Component resetPosText = Component.translatable("text.saa.reset_pos");
         int resetPosW = this.font.width(resetPosText) + BUTTON_PADDING_X * 2;
         int buttonH = this.font.lineHeight + BUTTON_PADDING_Y * 2;
         boolean resetPosHovered = mouseX >= bx && mouseX <= bx + resetPosW
@@ -276,7 +276,7 @@ public class HudConfigScreen extends Screen {
 
         by += buttonH + BUTTON_SPACING;
 
-        String resetScaleText = "Reset Scale";
+        Component resetScaleText = Component.translatable("text.saa.reset_scale");
         int resetScaleW = this.font.width(resetScaleText) + BUTTON_PADDING_X * 2;
         boolean resetScaleHovered = mouseX >= bx && mouseX <= bx + resetScaleW
                 && mouseY >= by && mouseY <= by + buttonH;
@@ -288,7 +288,7 @@ public class HudConfigScreen extends Screen {
 
         by += buttonH + BUTTON_SPACING;
 
-        String suppressText = "Suppression Rules " + (suppressionMenuExpanded ? "\u25BC" : "\u25B6");
+        String suppressText = Component.translatable("suppression_rules") + " " + (suppressionMenuExpanded ? "\u25BC" : "\u25B6");
         int suppressW = this.font.width(suppressText) + BUTTON_PADDING_X * 2;
         boolean suppressHovered = mouseX >= bx && mouseX <= bx + suppressW
                 && mouseY >= by && mouseY <= by + buttonH;
@@ -1489,19 +1489,19 @@ public class HudConfigScreen extends Screen {
         int by = 8;
         int buttonH = this.font.lineHeight + BUTTON_PADDING_Y * 2;
 
-        int resetPosW = this.font.width("Reset Positions") + BUTTON_PADDING_X * 2;
+        int resetPosW = this.font.width(Component.translatable("text.saa.reset_pos")) + BUTTON_PADDING_X * 2;
         if (mx >= bx && mx <= bx + resetPosW && my >= by && my <= by + buttonH) {
             return 0;
         }
 
         by += buttonH + BUTTON_SPACING;
-        int resetScaleW = this.font.width("Reset Scale") + BUTTON_PADDING_X * 2;
+        int resetScaleW = this.font.width(Component.translatable("text.saa.reset_scame")) + BUTTON_PADDING_X * 2;
         if (mx >= bx && mx <= bx + resetScaleW && my >= by && my <= by + buttonH) {
             return 1;
         }
 
         by += buttonH + BUTTON_SPACING;
-        String suppressText = "Suppression Rules " + (suppressionMenuExpanded ? "\u25BC" : "\u25B6");
+        Component suppressText = Component.translatable("suppression_rules").append(" ").append(suppressionMenuExpanded ? "\u25BC" : "\u25B6");
         int suppressW = this.font.width(suppressText) + BUTTON_PADDING_X * 2;
         if (mx >= bx && mx <= bx + suppressW && my >= by && my <= by + buttonH) {
             return 2;
