@@ -12,6 +12,7 @@ import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.MutableComponent;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -302,7 +303,7 @@ public class HudConfigScreen extends Screen {
             by += buttonH + BUTTON_SPACING;
             int childX = bx + 4;
 
-            Component[] labels = {
+            MutableComponent[] labels = {
                 Component.translatable("text.saa.raids"),
                 Component.translatable("text.saa.hideouts"),
                 Component.translatable("text.saa.dungeons"),
@@ -317,7 +318,7 @@ public class HudConfigScreen extends Screen {
 
             for (int i = 0; i < labels.length; i++) {
                 boolean enabled = values[i];
-                String label = labels[i] + ": " + (enabled ? "ON" : "OFF");
+                Component label = labels[i].append(": ").append(enabled ? "ON" : "OFF");
                 int labelColor = enabled ? 0xFF55FF55 : 0xFFFF5555;
                 int labelW = this.font.width(label) + BUTTON_PADDING_X * 2;
                 boolean hovered = mouseX >= childX && mouseX <= childX + labelW
@@ -1516,8 +1517,8 @@ public class HudConfigScreen extends Screen {
         if (suppressionMenuExpanded) {
             by += buttonH + BUTTON_SPACING;
             int childX = bx + 4;
-            
-            Component[] labels = {
+
+            MutableComponent[] labels = {
                 Component.translatable("text.saa.raids"),
                 Component.translatable("text.saa.hideouts"),
                 Component.translatable("text.saa.dungeons"),
@@ -1530,12 +1531,15 @@ public class HudConfigScreen extends Screen {
                     hudConfig.isSuppressInDungeons(), hudConfig.isSuppressInBattles(),
                     hudConfig.isHudHidden()
             };
+
             for (int i = 0; i < labels.length; i++) {
-                String label = labels[i] + ": " + (values[i] ? "ON" : "OFF");
+                Component label = labels[i].append(" ").append(values[i] ? "ON" : "OFF");
+
                 int labelW = this.font.width(label) + BUTTON_PADDING_X * 2;
                 if (mx >= childX && mx <= childX + labelW && my >= by && my <= by + buttonH) {
                     return 3 + i;
                 }
+
                 by += buttonH + BUTTON_SPACING;
             }
         }

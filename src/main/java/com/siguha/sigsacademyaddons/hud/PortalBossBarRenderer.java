@@ -6,6 +6,7 @@ import net.minecraft.client.DeltaTracker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 
 public class PortalBossBarRenderer {
@@ -49,12 +50,12 @@ public class PortalBossBarRenderer {
         int screenCenterX = screenWidth / 2;
         int barX = screenCenterX - BAR_WIDTH / 2;
 
-        String titleText = portalManager.getDisplayText();
+        Component titleText = portalManager.getDisplayText();
         drawScaledCenteredString(graphics, font, titleText, screenCenterX, TITLE_Y,
                 TITLE_TEXT_SCALE, COLOR_TITLE);
 
         int horizontalDist = (int) portalManager.getHorizontalDistance();
-        String distText = horizontalDist + " Blocks Away";
+        Component distText = Component.translatable("text.saa.blocks_away", horizontalDist);
         drawScaledCenteredString(graphics, font, distText, screenCenterX, DISTANCE_Y,
                 DISTANCE_TEXT_SCALE, COLOR_DISTANCE);
 
@@ -80,7 +81,7 @@ public class PortalBossBarRenderer {
         }
     }
 
-    private void drawScaledCenteredString(GuiGraphics graphics, Font font, String text,
+    private void drawScaledCenteredString(GuiGraphics graphics, Font font, Component text,
                                           int centerX, int y, float scale, int color) {
         float textWidth = font.width(text);
         float scaledHalfWidth = (textWidth * scale) / 2.0f;

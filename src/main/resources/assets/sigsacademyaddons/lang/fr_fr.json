@@ -18,5 +18,12 @@
     "text.saa.hideouts": "Repères",
     "text.saa.dungeons": "Donjons",
     "text.saa.battles": "Combats",
-    "text.saa.hide_hud": "Masque l'ATH"
+    "text.saa.hide_hud": "Masquer l'ATH",
+    "text.saa.tracking": "\u00A7a Localisation d'un %2$s Tier %1$s à %3$s, %4$s, %5$s",
+    "text.saa.already_tracking": "\u00A7aTracking déjà en cours.",
+    "text.saa.expired_tracking": "\u00A7cLe portail a expiré ou n'est plus disponible.",
+    "text.saa.scanning_tracking": "\u00A7eEn cours de localisation, essayez plus tard...",
+    "text.saa.failed_tracking": "\u00A7cLe portail n'a pas pu être localiser.",
+    "text.saa.portal_display_name": "%2$s Tier %1$s est apparu",
+    "text.saa.blocks_away": "%1$s Blocks plus loin"
 }

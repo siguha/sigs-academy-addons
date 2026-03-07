@@ -344,8 +344,8 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                         .then(ClientCommandManager.argument("id", IntegerArgumentType.integer(0))
                                                 .executes(context -> {
                                                     int id = IntegerArgumentType.getInteger(context, "id");
-                                                    String result = portalManager.trackPortal(id);
-                                                    context.getSource().sendFeedback(Component.literal(result));
+                                                    Component result = portalManager.trackPortal(id);
+                                                    context.getSource().sendFeedback(result);
                                                     return 1;
                                                 })
                                         )
