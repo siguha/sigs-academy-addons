@@ -1,7 +1,5 @@
 {
     "title.saa.hud_position": "HUD Position",
-
-    
     "text.saa.resize": "Drag to reposition | Drag corners to resize | Overlap to join",
     "text.saa.save": "Press Escape to save and close",
     "text.saa.reset_pos": "Reset positions",
@@ -27,5 +25,13 @@
     "text.saa.scanning_tracking": "\u00A7eStill locating portal, try again in a moment...",
     "text.saa.failed_tracking": "\u00A7cPortal could not be located.",
     "text.saa.portal_display_name": "Tier %1$s %2$s Spawned",
-    "text.saa.blocks_away": "%1$s Blocks away"
+    "text.saa.blocks_away": "%1$s Blocks away",
+    "text.saa.drifloot": "Drifloot Spawned Nearby!",
+    "text.saa.wt_time": "Your wondertrade timer is over",
+    "text.saa.click_here": "Click Here",
+    "text.saa.hunt_progress": "Safari Hunt progress updated",
+    "text.saa.egg_created": "An egg was created!",
+    "text.saa.egg_hatched": "An egg has hatched!",
+    "text.saa.parent_reset": "Parents Need Reset!",
+    "text.saa.parent_incomp": "Incompatible Setup"
 }

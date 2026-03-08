@@ -1,5 +1,7 @@
 package com.siguha.sigsacademyaddons.feature.daycare;
 
+import net.minecraft.network.chat.Component;
+
 public class DaycareState {
 
     public enum BreedingStage {
@@ -164,17 +166,17 @@ public class DaycareState {
             return Math.max(0, estimatedHatchTimeMs - System.currentTimeMillis());
         }
 
-        public String getRemainingFormatted() {
-            if (completed) return "Hatched!";
+        public Component getRemainingFormatted() {
+            if (completed) return Component.translatable("text.saa.hatched");
 
             long remaining = getRemainingMs();
-            if (remaining <= 0) return "Waiting...";
+            if (remaining <= 0) return Component.translatable("text.saa.waiting");
 
             long totalSeconds = remaining / 1000;
             long minutes = totalSeconds / 60;
             long seconds = totalSeconds % 60;
 
-            return "~" + String.format("%d:%02d", minutes, seconds);
+            return Component.literal("~" + String.format("%d:%02d", minutes, seconds));
         }
 
         public float getProgress() {

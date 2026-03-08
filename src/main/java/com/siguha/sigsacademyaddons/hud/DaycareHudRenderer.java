@@ -284,7 +284,7 @@ public class DaycareHudRenderer implements HudPanel {
         int y = startY;
         String label = egg.getDisplayLabel();
         graphics.drawString(font, label, PADDING + 2, y, COLOR_TEXT_PRIMARY, true);
-        String timerText = egg.getRemainingFormatted();
+        Component timerText = egg.getRemainingFormatted();
         int timerColor = getTimerColor(egg.getProgress());
         int tw = font.width(timerText);
         graphics.drawString(font, timerText, panelWidth - PADDING - tw, y, timerColor, true);
@@ -406,7 +406,7 @@ public class DaycareHudRenderer implements HudPanel {
                 int speciesX = PADDING + 2 + font.width(penLabel) + 4;
                 graphics.drawString(font, species, speciesX, y, COLOR_TEXT_PRIMARY, true);
 
-                String resetText = "Parents Need Reset!";
+                Component resetText = Component.translatable("text.saa.parent_reset");
                 int resetWidth = font.width(resetText);
                 graphics.drawString(font, resetText, panelWidth - PADDING - resetWidth, y,
                         COLOR_NEEDS_RESET, true);
@@ -422,7 +422,7 @@ public class DaycareHudRenderer implements HudPanel {
                 graphics.drawString(font, penLabel, PADDING + 2, y, COLOR_PEN_LABEL, true);
                 int textX = PADDING + 2 + font.width(penLabel) + 4;
 
-                String incompatText = "Incompatible Setup";
+                Component incompatText = Component.translatable("text.saa.parent_incomp");
                 graphics.drawString(font, incompatText, textX, y, COLOR_INCOMPATIBLE, true);
                 y += LINE_HEIGHT;
 
@@ -443,7 +443,7 @@ public class DaycareHudRenderer implements HudPanel {
         String label = egg.getDisplayLabel();
         graphics.drawString(font, label, PADDING + 2, y, COLOR_TEXT_PRIMARY, true);
 
-        String timerText = egg.getRemainingFormatted();
+        Component timerText = egg.getRemainingFormatted();
         int timerColor = getTimerColor(egg.getProgress());
         int timerWidth = font.width(timerText);
         graphics.drawString(font, timerText, panelWidth - PADDING - timerWidth, y,
@@ -493,7 +493,7 @@ public class DaycareHudRenderer implements HudPanel {
 
         for (DaycareState.ClaimedEgg egg : eggs) {
             String label = egg.getDisplayLabel();
-            String timer = egg.getRemainingFormatted();
+            Component timer = egg.getRemainingFormatted();
             int lineWidth = font.width(label) + font.width(timer) + PADDING * 2 + 8;
             maxWidth = Math.max(maxWidth, lineWidth);
         }
@@ -566,7 +566,7 @@ public class DaycareHudRenderer implements HudPanel {
 
         for (DaycareState.ClaimedEgg egg : eggs) {
             String label = egg.getDisplayLabel();
-            String timer = egg.getRemainingFormatted();
+            Component timer = egg.getRemainingFormatted();
             int lineWidth = font.width(label) + font.width(timer) + PADDING * 2 + 8;
             maxWidth = Math.max(maxWidth, lineWidth);
         }

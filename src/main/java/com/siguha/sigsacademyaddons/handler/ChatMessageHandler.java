@@ -53,7 +53,7 @@ public class ChatMessageHandler {
     private static MutableComponent buildClickSuffix(String command) {
         return Component.literal(" - ")
                 .withStyle(ChatFormatting.GREEN)
-                .append(Component.literal("Click Here")
+                .append(Component.translatable("text.saa.click_here")
                         .withStyle(Style.EMPTY
                                 .withColor(ChatFormatting.AQUA)
                                 .withUnderlined(true)

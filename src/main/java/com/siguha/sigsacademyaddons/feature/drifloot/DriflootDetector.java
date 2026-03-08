@@ -72,7 +72,7 @@ public class DriflootDetector {
 
                 if (seenEntities.add(pokemonEntity.getUUID())) {
                     playDriflootSound();
-                    player.sendSystemMessage(Component.literal("Drifloot Spawned Nearby!")
+                    player.sendSystemMessage(Component.translatable("text.saa.drifloot")
                             .withStyle(ChatFormatting.GREEN));
                 }
             } catch (Exception ignored) {
