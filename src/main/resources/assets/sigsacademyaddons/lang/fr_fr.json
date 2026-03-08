@@ -33,5 +33,7 @@
     "text.saa.egg_created": "Un oeuf a été créer !",
     "text.saa.egg_hatched": "Un oeuf a éclot !",
     "text.saa.parent_reset": "Reset nécessaire",
-    "text.saa.parent_incomp": "Parent incompatible"
+    "text.saa.parent_incomp": "Parent incompatible",
+    "text.saa.wt_unset": "Utilisez le wondertrade une première fois",
+    "text.saa.wt_done": "Temps d'attente fini !"
 }

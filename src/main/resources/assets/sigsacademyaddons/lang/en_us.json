@@ -33,5 +33,7 @@
     "text.saa.egg_created": "An egg was created!",
     "text.saa.egg_hatched": "An egg has hatched!",
     "text.saa.parent_reset": "Parents Need Reset!",
-    "text.saa.parent_incomp": "Incompatible Setup"
+    "text.saa.parent_incomp": "Incompatible Setup",
+    "text.saa.wt_unset": "Please use WT once to set menu.",
+    "text.saa.wt_done": "Cooldown Over!"
 }
