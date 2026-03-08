@@ -186,6 +186,8 @@ public class DaycareManager {
 
         pen.setPokemon1(scraped.pokemon1());
         pen.setPokemon2(scraped.pokemon2());
+        pen.setGender1Female(scraped.gender1Female());
+        pen.setGender2Female(scraped.gender2Female());
 
         if (startTimer) {
             if (scraped.serverBreedingProgress() >= 0) {
@@ -272,17 +274,27 @@ public class DaycareManager {
         }
         if (closest == null) {
             for (DaycareState.ClaimedEgg egg : claimedEggs) {
-                if (!egg.isCompleted()) {
+                if (!egg.isCompleted() && egg.getRemainingMs() <= HATCH_DESYNC_THRESHOLD_MS) {
                     if (closest == null || egg.getRemainingMs() < closest.getRemainingMs()) {
                         closest = egg;
                     }
                 }
             }
         }
-        return closest != null ? closest.getDisplayLabel() : null;
+        if (closest == null) {
+            long now = System.currentTimeMillis();
+            for (DaycareState.ClaimedEgg egg : claimedEggs) {
+                if (egg.isCompleted() && now - egg.getEstimatedHatchTimeMs() <= HATCH_DESYNC_THRESHOLD_MS) {
+                    closest = egg;
+                    break;
+                }
+            }
+        }
+        return closest != null ? closest.getDisplayLabel() : "Unknown";
     }
 
     private static final long HATCH_MATCH_TOLERANCE_MS = 10 * 1000L;
+    private static final long HATCH_DESYNC_THRESHOLD_MS = 30 * 1000L;
 
     public void onEggHatched() {
         DaycareState.ClaimedEgg closestEgg = null;
@@ -295,10 +307,19 @@ public class DaycareManager {
         }
         if (closestEgg == null) {
             for (DaycareState.ClaimedEgg egg : claimedEggs) {
-                if (!egg.isCompleted()) {
+                if (!egg.isCompleted() && egg.getRemainingMs() <= HATCH_DESYNC_THRESHOLD_MS) {
                     if (closestEgg == null || egg.getRemainingMs() < closestEgg.getRemainingMs()) {
                         closestEgg = egg;
                     }
+                }
+            }
+        }
+        if (closestEgg == null) {
+            long now = System.currentTimeMillis();
+            for (DaycareState.ClaimedEgg egg : claimedEggs) {
+                if (egg.isCompleted() && now - egg.getEstimatedHatchTimeMs() <= HATCH_DESYNC_THRESHOLD_MS) {
+                    closestEgg = egg;
+                    break;
                 }
             }
         }
@@ -329,8 +350,13 @@ public class DaycareManager {
             }
         }
 
+        for (DaycareState.ClaimedEgg egg : claimedEggs) {
+            if (!egg.isCompleted() && egg.getRemainingMs() == 0) {
+                egg.setCompleted(true);
+            }
+        }
         claimedEggs.removeIf(e -> e.isCompleted()
-                && System.currentTimeMillis() - e.getEstimatedHatchTimeMs() > 5000);
+                && System.currentTimeMillis() - e.getEstimatedHatchTimeMs() > 30_000);
 
         long now = System.currentTimeMillis();
         for (DaycareState.PenState pen : pens.values()) {
@@ -495,6 +521,7 @@ public class DaycareManager {
     public record ScrapedPenButton(int penNumber, boolean locked) {}
 
     public record ScrapedPenData(int penNumber, String pokemon1, String pokemon2,
+                                  boolean gender1Female, boolean gender2Female,
                                   DaycareState.BreedingStage stage,
                                   boolean hasEgg, boolean cursorHasEgg,
                                   float serverBreedingProgress) {}

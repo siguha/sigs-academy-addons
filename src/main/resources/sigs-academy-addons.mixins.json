@@ -4,6 +4,8 @@
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [],
 	"client": [
+		"ContainerScreenAccessor",
+		"ContainerScreenClickMixin",
 		"EntityGlowMixin",
 		"EntityOutlineColorMixin",
 		"ParticlePacketMixin",

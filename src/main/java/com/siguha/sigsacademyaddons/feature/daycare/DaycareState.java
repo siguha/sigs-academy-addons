@@ -21,6 +21,8 @@ public class DaycareState {
         private String inferredEggSpecies;
         private long lastStageChangeTimeMs;
         private boolean hadEggOnLastScrape = false;
+        private boolean gender1Female = false;
+        private boolean gender2Female = false;
 
         public PenState(int penNumber, boolean unlocked) {
             this.penNumber = penNumber;
@@ -64,6 +66,11 @@ public class DaycareState {
         public boolean getHadEggOnLastScrape() { return hadEggOnLastScrape; }
         public void setHadEggOnLastScrape(boolean had) { this.hadEggOnLastScrape = had; }
 
+        public boolean isGender1Female() { return gender1Female; }
+        public boolean isGender2Female() { return gender2Female; }
+        public void setGender1Female(boolean female) { this.gender1Female = female; }
+        public void setGender2Female(boolean female) { this.gender2Female = female; }
+
         public void adjustTimestamps(long offsetMs) {
             if (estimatedEndTimeMs > 0) estimatedEndTimeMs += offsetMs;
             lastStageChangeTimeMs += offsetMs;
@@ -79,6 +86,12 @@ public class DaycareState {
 
             if (p1.contains("ditto") && !p2.contains("ditto")) {
                 inferredEggSpecies = pokemon2;
+            } else if (p2.contains("ditto") && !p1.contains("ditto")) {
+                inferredEggSpecies = pokemon1;
+            } else if (gender2Female) {
+                inferredEggSpecies = pokemon2;
+            } else if (gender1Female) {
+                inferredEggSpecies = pokemon1;
             } else {
                 inferredEggSpecies = pokemon1;
             }

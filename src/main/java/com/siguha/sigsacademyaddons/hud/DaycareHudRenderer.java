@@ -35,8 +35,8 @@ public class DaycareHudRenderer implements HudPanel {
     private static final int COLOR_INCOMPATIBLE = 0xFFFF3333;
     private static final int COLOR_TEXT_UNSET = 0xFF888888;
 
-    private static final String EMPTY_MESSAGE_FULL = "Please open Daycare pens to set menu.";
-    private static final String EMPTY_MESSAGE_COMPACT = "Open Daycare.";
+    private static final String EMPTY_MESSAGE_FULL = "Please load all daycare pens to load data.";
+    private static final String EMPTY_MESSAGE_COMPACT = "Load daycare pens.";
 
     private final DaycareManager daycareManager;
     private final HudConfig hudConfig;
@@ -60,7 +60,7 @@ public class DaycareHudRenderer implements HudPanel {
 
     @Override
     public boolean hasVisibleContent() {
-        return !daycareManager.getDisplayPens().isEmpty() || !daycareManager.getDisplayEggs().isEmpty();
+        return true;
     }
 
     @Override
@@ -72,7 +72,11 @@ public class DaycareHudRenderer implements HudPanel {
         boolean compact = hudConfig.isCompact();
 
         if (displayPens.isEmpty() && displayEggs.isEmpty()) {
-            return lastPanelWidth;
+            if (compact) {
+                return Math.max(PANEL_MIN_WIDTH, font.width(EMPTY_MESSAGE_COMPACT) + PADDING * 4);
+            } else {
+                return Math.max(PANEL_MIN_WIDTH, font.width(EMPTY_MESSAGE_FULL) + PADDING * 4);
+            }
         }
 
         return compact
@@ -109,6 +113,15 @@ public class DaycareHudRenderer implements HudPanel {
         int maxDisplayEggs = hudConfig.getDaycareEggsHatchingSlots();
         boolean compact = hudConfig.isCompact();
 
+        if (displayPens.isEmpty() && displayEggs.isEmpty()) {
+            if (compact) {
+                renderCompactEmpty(graphics, font, panelWidth);
+            } else {
+                renderFullEmpty(graphics, font, panelWidth);
+            }
+            return;
+        }
+
         if (compact) {
             renderCompact(graphics, font, panelWidth, displayPens, displayEggs, totalActiveEggs, maxDisplayEggs);
         } else {
@@ -139,18 +152,9 @@ public class DaycareHudRenderer implements HudPanel {
 
         boolean transparent = hudConfig.getHudStyle() == HudConfig.HudStyle.TRANSPARENT;
 
-        int panelWidth;
-        int panelHeight;
-        boolean hasContent = hasVisibleContent();
-
-        if (hasContent) {
-            panelWidth = getContentWidth(font);
-            panelHeight = getContentHeight(font);
-            lastPanelWidth = panelWidth;
-        } else {
-            panelWidth = lastPanelWidth;
-            panelHeight = getContentHeight(font);
-        }
+        int panelWidth = getContentWidth(font);
+        int panelHeight = getContentHeight(font);
+        lastPanelWidth = panelWidth;
 
         int scaledWidth = Math.round(panelWidth * scale);
         int scaledHeight = Math.round(panelHeight * scale);
@@ -166,15 +170,7 @@ public class DaycareHudRenderer implements HudPanel {
             graphics.fill(0, 0, panelWidth, panelHeight, COLOR_BG);
         }
 
-        if (!hasContent) {
-            if (hudConfig.isCompact()) {
-                renderCompactEmpty(graphics, font, panelWidth);
-            } else {
-                renderFullEmpty(graphics, font, panelWidth);
-            }
-        } else {
-            renderContent(graphics, font, panelWidth);
-        }
+        renderContent(graphics, font, panelWidth);
 
         graphics.pose().popPose();
     }
