@@ -26,6 +26,7 @@ import com.siguha.sigsacademyaddons.handler.DumpSelfCommand;
 import com.siguha.sigsacademyaddons.handler.NearbyDumpCommand;
 import com.siguha.sigsacademyaddons.handler.ParticleCapture;
 import com.siguha.sigsacademyaddons.handler.ScreenInterceptor;
+import com.siguha.sigsacademyaddons.handler.UpdateChecker;
 import com.siguha.sigsacademyaddons.hud.DaycareHudRenderer;
 import com.siguha.sigsacademyaddons.hud.HudGroupRenderer;
 import com.siguha.sigsacademyaddons.hud.PortalBossBarRenderer;
@@ -40,8 +41,12 @@ import net.fabricmc.fabric.api.client.message.v1.ClientReceiveMessageEvents;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents;
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.fabricmc.fabric.api.client.screen.v1.ScreenEvents;
+import net.minecraft.ChatFormatting;
 import net.minecraft.commands.CommandBuildContext;
+import net.minecraft.network.chat.ClickEvent;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.MutableComponent;
+import net.minecraft.network.chat.Style;
 import org.lwjgl.glfw.GLFW;
 import java.util.Collections;
 import org.lwjgl.glfw.GLFWErrorCallback;
@@ -64,6 +69,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
 
     private static boolean openConfigScreenNextTick = false;
     private static boolean glfwFilterReinstalled = false;
+    private static int welcomeDelayTicks = -1;
 
     @Override
     public void onInitializeClient() {
@@ -122,6 +128,17 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                 installGlfwErrorFilter();
             }
 
+            if (welcomeDelayTicks > 0) {
+                welcomeDelayTicks--;
+            } else if (welcomeDelayTicks == 0 && client.player != null) {
+                welcomeDelayTicks = -1;
+                if (!hudConfig.hasSeenWelcome()) {
+                    client.player.sendSystemMessage(buildWelcomeMessage());
+                    hudConfig.setHasSeenWelcome(true);
+                }
+                UpdateChecker.checkForUpdatesAsync();
+            }
+
             if (openConfigScreenNextTick && client.player != null) {
                 openConfigScreenNextTick = false;
                 client.setScreen(new HudConfigScreen(hudConfig, safariManager, safariHuntManager,
@@ -139,11 +156,14 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
         ClientPlayConnectionEvents.JOIN.register((handler, sender, client) -> {
             daycareManager.onServerJoined();
             wondertradeManager.onServerJoined();
+            welcomeDelayTicks = 60;
         });
         ClientPlayConnectionEvents.DISCONNECT.register((handler, client) -> {
             daycareManager.onServerDisconnected();
             wondertradeManager.onServerDisconnected();
             portalManager.clear();
+            welcomeDelayTicks = -1;
+            UpdateChecker.resetForNewSession();
         });
 
         ClientCommandRegistrationCallback.EVENT.register(SigsAcademyAddonsClient::registerCommands);
@@ -170,6 +190,44 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
         } catch (Exception e) {
             SigsAcademyAddons.LOGGER.warn("[SAA] Failed to install GLFW error filter", e);
         }
+    }
+
+    private static Component buildWelcomeMessage() {
+        MutableComponent msg = Component.empty();
+
+        msg.append(Component.literal("Thanks for using SAA!")
+                .withStyle(ChatFormatting.AQUA));
+
+        msg.append(Component.literal("\n\nThis mod requires some data be scraped initially for setup -- this includes things like the Daycare, WT, Safari, etc. If you want everything to work properly, please open these menus to initialize the mod.")
+                .withStyle(ChatFormatting.AQUA));
+
+        msg.append(Component.literal("\n\nDon't like the placement, style, or size of some of the menus? Want to disable some features? SAA is incredibly configurable!")
+                .withStyle(ChatFormatting.AQUA));
+
+        msg.append(Component.literal("\n* Use ")
+                .withStyle(ChatFormatting.AQUA));
+        msg.append(Component.literal("/saa gui")
+                .withStyle(Style.EMPTY
+                        .withColor(ChatFormatting.GOLD)
+                        .withUnderlined(true)
+                        .withClickEvent(new ClickEvent(ClickEvent.Action.RUN_COMMAND, "/saa gui"))));
+        msg.append(Component.literal(" to edit your menus")
+                .withStyle(ChatFormatting.AQUA));
+
+        msg.append(Component.literal("\n* Use ")
+                .withStyle(ChatFormatting.AQUA));
+        msg.append(Component.literal("/saa config")
+                .withStyle(Style.EMPTY
+                        .withColor(ChatFormatting.GOLD)
+                        .withUnderlined(true)
+                        .withClickEvent(new ClickEvent(ClickEvent.Action.RUN_COMMAND, "/saa config"))));
+        msg.append(Component.literal(" to explore our config options!")
+                .withStyle(ChatFormatting.AQUA));
+
+        msg.append(Component.literal("\n\nWe hope you enjoy!")
+                .withStyle(ChatFormatting.AQUA));
+
+        return msg;
     }
 
     private static void registerCommands(CommandDispatcher<FabricClientCommandSource> dispatcher,

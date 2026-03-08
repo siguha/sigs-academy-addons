@@ -83,6 +83,7 @@ public class HudConfig {
     private boolean suppressInDungeons = false;
     private boolean suppressInBattles = true;
     private boolean hudHidden = false;
+    private boolean hasSeenWelcome = false;
 
     public HudConfig() {
         load();
@@ -508,6 +509,13 @@ public class HudConfig {
         save();
     }
 
+    public boolean hasSeenWelcome() { return hasSeenWelcome; }
+
+    public void setHasSeenWelcome(boolean hasSeenWelcome) {
+        this.hasSeenWelcome = hasSeenWelcome;
+        save();
+    }
+
     public void setGroupPositionFromAbsolute(int panelX, int panelY, int panelWidth, int panelHeight,
                                               int screenWidth, int screenHeight) {
         int centerY = panelY + panelHeight / 2;
@@ -552,7 +560,8 @@ public class HudConfig {
                     driflootAlertsEnabled,
                     suppressInRaids, suppressInHideouts, suppressInDungeons,
                     suppressInBattles, hudHidden,
-                    daycareIvPercentLower, daycareIvPercentUpper);
+                    daycareIvPercentLower, daycareIvPercentUpper,
+                    hasSeenWelcome);
             try (Writer writer = Files.newBufferedWriter(filePath)) {
                 GSON.toJson(data, writer);
             }
@@ -621,6 +630,7 @@ public class HudConfig {
                             ? Math.max(0, Math.min(100, data.daycareIvPercentLower)) : 60;
                     this.daycareIvPercentUpper = data.daycareIvPercentUpper != null
                             ? Math.max(0, Math.min(100, data.daycareIvPercentUpper)) : 80;
+                    this.hasSeenWelcome = data.hasSeenWelcome != null ? data.hasSeenWelcome : false;
                 }
             }
         } catch (Exception e) {
@@ -650,6 +660,7 @@ public class HudConfig {
             Boolean driflootAlertsEnabled,
             Boolean suppressInRaids, Boolean suppressInHideouts, Boolean suppressInDungeons,
             Boolean suppressInBattles, Boolean hudHidden,
-            Integer daycareIvPercentLower, Integer daycareIvPercentUpper) {
+            Integer daycareIvPercentLower, Integer daycareIvPercentUpper,
+            Boolean hasSeenWelcome) {
     }
 }
