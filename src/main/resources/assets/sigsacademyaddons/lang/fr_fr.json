@@ -25,5 +25,5 @@
     "text.saa.scanning_tracking": "\u00A7eEn cours de localisation, essayez plus tard...",
     "text.saa.failed_tracking": "\u00A7cLe portail n'a pas pu être localiser.",
     "text.saa.portal_display_name": "%2$s Tier %1$s est apparu",
-    "text.saa.blocks_away": "%1$s Blocks plus loin"
+    "text.saa.blocks_away": "%1$s Blocs plus loin"
 }
