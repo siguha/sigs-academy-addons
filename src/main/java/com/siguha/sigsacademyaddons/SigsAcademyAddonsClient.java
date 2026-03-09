@@ -105,7 +105,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
         dungeonManager = new DungeonManager();
 
         ChatMessageHandler chatHandler = new ChatMessageHandler(safariManager, safariHuntManager,
-                catchDetector, daycareManager, wondertradeManager, portalManager);
+                catchDetector, daycareManager, wondertradeManager, portalManager, hudConfig);
         ScreenInterceptor screenInterceptor = new ScreenInterceptor(safariHuntManager, daycareManager,
                 wondertradeManager);
         SafariHudRenderer hudRenderer = new SafariHudRenderer(safariManager, safariHuntManager, hudConfig);
@@ -390,7 +390,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                 })
                         )
                         .then(ClientCommandManager.literal("manualHatchMultiplier")
-                                .then(ClientCommandManager.argument("value", FloatArgumentType.floatArg(0f, 1.5f))
+                                .then(ClientCommandManager.argument("value", FloatArgumentType.floatArg(0f, 2.0f))
                                         .executes(context -> {
                                             float value = FloatArgumentType.getFloat(context, "value");
                                             if (value != 0f && value != 2.0f) {
@@ -874,6 +874,26 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                             return 1;
                                         })
                                 )
+                                .then(ClientCommandManager.literal("autoAcceptPartyInvites")
+                                        .then(ClientCommandManager.argument("value", BoolArgumentType.bool())
+                                                .executes(context -> {
+                                                    boolean value = BoolArgumentType.getBool(context, "value");
+                                                    hudConfig.setAutoAcceptPartyInvites(value);
+                                                    String msg = value
+                                                            ? "\u00A7aAuto-accept party invites enabled."
+                                                            : "\u00A7aAuto-accept party invites disabled.";
+                                                    context.getSource().sendFeedback(Component.literal(msg));
+                                                    return 1;
+                                                })
+                                        )
+                                        .executes(context -> {
+                                            boolean current = hudConfig.isAutoAcceptPartyInvites();
+                                            context.getSource().sendFeedback(Component.literal(
+                                                    "\u00A77autoAcceptPartyInvites = \u00A7f" + current +
+                                                    "\n\u00A77Usage: \u00A7e/saa config autoAcceptPartyInvites <true|false>"));
+                                            return 1;
+                                        })
+                                )
                                 .executes(context -> {
                                     context.getSource().sendFeedback(Component.literal(
                                             "\u00A76Configuration:\n" +
@@ -898,7 +918,8 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                             "\n\u00A77suppressInBattles = \u00A7f" + hudConfig.isSuppressInBattles() +
                                             "\n\u00A77driflootAlerts = \u00A7f" + hudConfig.isDriflootAlertsEnabled() +
                                             "\n\u00A77gruntFinder = \u00A7f" + hudConfig.isGruntFinderEnabled() +
-                                            "\n\u00A77hudHidden = \u00A7f" + hudConfig.isHudHidden()
+                                            "\n\u00A77hudHidden = \u00A7f" + hudConfig.isHudHidden() +
+                                            "\n\u00A77autoAcceptPartyInvites = \u00A7f" + hudConfig.isAutoAcceptPartyInvites()
                                     ));
                                     return 1;
                                 })
@@ -1034,7 +1055,8 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                     "\u00A7e/saa config suppressInDungeons <bool>\u00A77 — Hide HUD in dungeons\n" +
                                     "\u00A7e/saa config suppressInBattles <bool>\u00A77 — Hide HUD in battles\n" +
                                     "\u00A7e/saa config driflootAlerts <bool>\u00A77 — Drifloot spawn alerts\n" +
-                                    "\u00A7e/saa config hudHidden <bool>\u00A77 — Manually hide HUD"
+                                    "\u00A7e/saa config hudHidden <bool>\u00A77 — Manually hide HUD\n" +
+                                    "\u00A7e/saa config autoAcceptPartyInvites <bool>\u00A77 — Auto-accept party invites"
                             ));
                             return 1;
                         })

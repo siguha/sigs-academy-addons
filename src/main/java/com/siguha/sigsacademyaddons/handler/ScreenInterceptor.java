@@ -375,6 +375,7 @@ public class ScreenInterceptor {
 
         boolean hasPokemonModel = false;
         boolean hasEggWithParents = false;
+        boolean hasBackpackButtons = false;
 
         for (Slot slot : menu.slots) {
             if (slot.container instanceof net.minecraft.world.entity.player.Inventory) continue;
@@ -391,6 +392,14 @@ public class ScreenInterceptor {
 
             if (itemId.startsWith("cobblemon:")) continue;
 
+            String itemName = stack.getHoverName().getString()
+                    .replaceAll("\u00A7[0-9a-fk-or]", "").trim().toLowerCase();
+
+            if (itemName.contains("previous page") || itemName.contains("next page")
+                    || itemName.contains("take all")) {
+                hasBackpackButtons = true;
+            }
+
             ItemLore lore = stack.get(DataComponents.LORE);
             if (lore != null) {
                 for (Component line : lore.lines()) {
@@ -402,15 +411,15 @@ public class ScreenInterceptor {
             }
         }
 
+        if (backpackTabActive || hasEggWithParents || hasBackpackButtons) {
+            return DaycareView.EGG_BACKPACK;
+        }
+
         if (hasPokemonModel) {
             if (titleNum >= 1 && titleNum <= 4) {
                 lastDetectedPenNumber = titleNum;
             }
             return DaycareView.PEN_VIEW;
-        }
-
-        if (backpackTabActive || hasEggWithParents || titleNum == 7) {
-            return DaycareView.EGG_BACKPACK;
         }
 
         if (titleNum >= 1 && titleNum <= 4) {

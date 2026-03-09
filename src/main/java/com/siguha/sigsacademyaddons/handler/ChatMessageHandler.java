@@ -1,12 +1,14 @@
 package com.siguha.sigsacademyaddons.handler;
 
 import com.siguha.sigsacademyaddons.SigsAcademyAddons;
+import com.siguha.sigsacademyaddons.config.HudConfig;
 import com.siguha.sigsacademyaddons.feature.daycare.DaycareManager;
 import com.siguha.sigsacademyaddons.feature.portal.PortalManager;
 import com.siguha.sigsacademyaddons.feature.safari.SafariHuntManager;
 import com.siguha.sigsacademyaddons.feature.safari.SafariManager;
 import com.siguha.sigsacademyaddons.feature.wondertrade.WondertradeManager;
 import net.minecraft.ChatFormatting;
+import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.ClickEvent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
@@ -27,6 +29,9 @@ public class ChatMessageHandler {
             "A tier (\\d+) (Team Hideout|Raid Portal) has opened\\s+nearby!",
             Pattern.CASE_INSENSITIVE
     );
+    private static final Pattern PARTY_INVITE_PATTERN = Pattern.compile(
+            "You have been invited to a party by (\\S+)!"
+    );
 
     private static final String HUNT_PROGRESS_MESSAGE = "Safari Hunt progress updated!";
     private static final String EGG_CREATED_MESSAGE = "An egg was created!";
@@ -38,16 +43,19 @@ public class ChatMessageHandler {
     private final DaycareManager daycareManager;
     private final WondertradeManager wondertradeManager;
     private final PortalManager portalManager;
+    private final HudConfig hudConfig;
 
     public ChatMessageHandler(SafariManager safariManager, SafariHuntManager safariHuntManager,
                               CatchDetector catchDetector, DaycareManager daycareManager,
-                              WondertradeManager wondertradeManager, PortalManager portalManager) {
+                              WondertradeManager wondertradeManager, PortalManager portalManager,
+                              HudConfig hudConfig) {
         this.safariManager = safariManager;
         this.safariHuntManager = safariHuntManager;
         this.catchDetector = catchDetector;
         this.daycareManager = daycareManager;
         this.wondertradeManager = wondertradeManager;
         this.portalManager = portalManager;
+        this.hudConfig = hudConfig;
     }
 
     private static MutableComponent buildClickSuffix(String command) {
@@ -177,6 +185,18 @@ public class ChatMessageHandler {
                 SigsAcademyAddons.LOGGER.warn("[SAA WT] Failed to parse cooldown minutes from: {}", text);
             }
             return;
+        }
+
+        if (hudConfig.isAutoAcceptPartyInvites()) {
+            Matcher partyMatcher = PARTY_INVITE_PATTERN.matcher(text);
+            if (partyMatcher.find()) {
+                String inviterName = partyMatcher.group(1);
+                Minecraft mc = Minecraft.getInstance();
+                if (mc.getConnection() != null) {
+                    mc.getConnection().sendCommand("party accept " + inviterName);
+                    SigsAcademyAddons.LOGGER.info("[SAA] Auto-accepted party invite from {}", inviterName);
+                }
+            }
         }
 
     }

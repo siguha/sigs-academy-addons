@@ -84,6 +84,7 @@ public class HudConfig {
     private boolean suppressInDungeons = false;
     private boolean suppressInBattles = true;
     private boolean hudHidden = false;
+    private boolean autoAcceptPartyInvites = false;
     private boolean hasSeenWelcome = false;
 
     public HudConfig() {
@@ -513,6 +514,13 @@ public class HudConfig {
     }
 
     public boolean isHudHidden() { return hudHidden; }
+
+    public boolean isAutoAcceptPartyInvites() { return autoAcceptPartyInvites; }
+
+    public void setAutoAcceptPartyInvites(boolean autoAcceptPartyInvites) {
+        this.autoAcceptPartyInvites = autoAcceptPartyInvites;
+        save();
+    }
 
     public void setHudHidden(boolean hudHidden) {
         this.hudHidden = hudHidden;
