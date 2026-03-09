@@ -20,12 +20,12 @@ import java.util.Set;
 public class GruntFinderTracker {
 
     private static final int SCAN_INTERVAL_TICKS = 40;
-    private static final double SCAN_RADIUS = 250.0;
+    private static final double SCAN_RADIUS = 350.0;
     public static final int GRUNT_COLOR = 0xFF5555;
 
     private static final ResourceKey<Level> HIDEOUT_DIM = ResourceKey.create(
             Registries.DIMENSION,
-            ResourceLocation.fromNamespaceAndPath("hideout", "hideouts")
+            ResourceLocation.fromNamespaceAndPath("hideouts", "hideouts")
     );
 
     private final HudConfig hudConfig;
