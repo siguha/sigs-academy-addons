@@ -71,7 +71,7 @@ public class PortalBossBarRenderer {
 
         double relativeAngle = portalManager.getRelativeAngle();
         int barCenter = barX + BAR_WIDTH / 2;
-        int rawCenterX = barCenter - (int) ((relativeAngle / 180.0) * (BAR_WIDTH / 2));
+        int rawCenterX = barCenter + (int) ((relativeAngle / 180.0) * (BAR_WIDTH / 2));
         int indicatorLeft = rawCenterX - INDICATOR_WIDTH / 2;
         indicatorLeft = Math.max(barX, Math.min(barX + BAR_WIDTH - INDICATOR_WIDTH, indicatorLeft));
         int indicatorCenterX = indicatorLeft + INDICATOR_WIDTH / 2;
