@@ -98,18 +98,6 @@ public class ScreenInterceptor {
             return;
         }
 
-        if (isDaycareScreen) {
-            String newTitle = containerScreen.getTitle().getString();
-            int newTitleNum = decodeTitleNumber(newTitle);
-            String cleanNewTitle = newTitle.replaceAll("\u00A7[0-9a-fk-or]", "").trim();
-            boolean newIsDaycare = (newTitleNum >= 1 && newTitleNum <= 9)
-                    || cleanNewTitle.toUpperCase().contains("DAYCARE");
-
-            if (!newIsDaycare) {
-                daycareManager.onDaycareMenuClosed();
-            }
-        }
-
         if (isWtScreen) {
             wondertradeManager.onWtScreenClosed();
         }
