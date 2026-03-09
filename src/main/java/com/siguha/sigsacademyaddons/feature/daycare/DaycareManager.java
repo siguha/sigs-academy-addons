@@ -476,7 +476,7 @@ public class DaycareManager {
             boolean hasStellar = displayText.codePoints().anyMatch(cp -> cp == STELLAR_CODEPOINT);
 
             if (hasPrismatic || hasStellar) {
-                hatchSpeedMultiplier = 1.5f;
+                hatchSpeedMultiplier = 2.0f;
             }
         }
 
