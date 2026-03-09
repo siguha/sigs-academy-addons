@@ -11,6 +11,7 @@ import com.siguha.sigsacademyaddons.data.WondertradeDataStore;
 import com.siguha.sigsacademyaddons.feature.daycare.DaycareManager;
 import com.siguha.sigsacademyaddons.feature.daycare.DaycareSoundPlayer;
 import com.siguha.sigsacademyaddons.feature.drifloot.DriflootDetector;
+import com.siguha.sigsacademyaddons.feature.dungeon.DungeonManager;
 import com.siguha.sigsacademyaddons.feature.hideout.GruntFinderTracker;
 import com.siguha.sigsacademyaddons.feature.portal.PortalManager;
 import com.siguha.sigsacademyaddons.feature.portal.PortalParticleDetector;
@@ -41,7 +42,9 @@ import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.message.v1.ClientReceiveMessageEvents;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents;
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
+import net.fabricmc.fabric.api.client.rendering.v1.WorldRenderEvents;
 import net.fabricmc.fabric.api.client.screen.v1.ScreenEvents;
+import net.fabricmc.fabric.api.event.player.UseBlockCallback;
 import net.minecraft.ChatFormatting;
 import net.minecraft.commands.CommandBuildContext;
 import net.minecraft.network.chat.ClickEvent;
@@ -67,6 +70,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
     private static DriflootDetector driflootDetector;
     private static GruntFinderTracker gruntFinderTracker;
     private static SuppressionManager suppressionManager;
+    private static DungeonManager dungeonManager;
     private static HudConfig hudConfig;
 
     private static boolean openConfigScreenNextTick = false;
@@ -98,6 +102,8 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
         gruntFinderTracker = new GruntFinderTracker(hudConfig);
         suppressionManager = new SuppressionManager(hudConfig);
 
+        dungeonManager = new DungeonManager();
+
         ChatMessageHandler chatHandler = new ChatMessageHandler(safariManager, safariHuntManager,
                 catchDetector, daycareManager, wondertradeManager, portalManager);
         ScreenInterceptor screenInterceptor = new ScreenInterceptor(safariHuntManager, daycareManager,
@@ -123,6 +129,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
             wondertradeSoundPlayer.tick();
             portalManager.tick();
             driflootDetector.tick();
+            dungeonManager.tick();
             gruntFinderTracker.tick();
             PortalParticleDetector.tick();
             ParticleCapture.tick();
@@ -156,6 +163,16 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
         groupRenderer.registerPanel(wtHudRenderer);
         HudRenderCallback.EVENT.register(groupRenderer::onHudRender);
         HudRenderCallback.EVENT.register(portalBossBarRenderer::onHudRender);
+
+        WorldRenderEvents.AFTER_TRANSLUCENT.register(
+                context -> dungeonManager.getWorldRenderer().onWorldRender(context));
+
+        UseBlockCallback.EVENT.register((player, world, hand, hitResult) -> {
+            if (world.isClientSide() && dungeonManager.isInDungeon()) {
+                dungeonManager.markChestOpened(hitResult.getBlockPos());
+            }
+            return net.minecraft.world.InteractionResult.PASS;
+        });
 
         ClientPlayConnectionEvents.JOIN.register((handler, sender, client) -> {
             daycareManager.onServerJoined();
@@ -1031,6 +1048,8 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
     public static DaycareManager getDaycareManager() { return daycareManager; }
     public static WondertradeManager getWondertradeManager() { return wondertradeManager; }
     public static PortalManager getPortalManager() { return portalManager; }
+    public static DungeonManager getDungeonManager() { return dungeonManager; }
     public static GruntFinderTracker getGruntFinderTracker() { return gruntFinderTracker; }
     public static HudConfig getHudConfig() { return hudConfig; }
+
 }
