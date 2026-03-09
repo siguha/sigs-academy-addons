@@ -26,7 +26,6 @@ public class DaycareManager {
     private int lastIdentifiedEggCreatorPen = -1;
     private long lastEggCreationTimeMs = 0;
     private int eggsHatchedSinceMenuOpen = 0;
-    private long lastDaycareMenuCloseTimeMs = 0;
     private String pendingNavTarget = null;
     private float hatchSpeedMultiplier = 1.0f;
     private boolean rankDetected = false;
@@ -62,7 +61,6 @@ public class DaycareManager {
         claimedEggs.clear();
         penSpeciesMemory.clear();
         eggsHatchedSinceMenuOpen = 0;
-        lastDaycareMenuCloseTimeMs = 0;
         pendingNavTarget = null;
         pensUsedForEggCreation.clear();
         rankDetected = false;
@@ -150,21 +148,12 @@ public class DaycareManager {
                         finalStage = DaycareState.BreedingStage.BREEDING;
                         startTimer = true;
 
-                    } else if (scraped.serverBreedingProgress() > 0.01f) {
+                    } else if (scraped.serverBreedingProgress() > 0.05f) {
                         finalStage = DaycareState.BreedingStage.BREEDING;
                         startTimer = true;
 
                     } else {
-                        long timeSinceMenuClose = System.currentTimeMillis() - lastDaycareMenuCloseTimeMs;
-
-                        if (lastDaycareMenuCloseTimeMs > 0 && timeSinceMenuClose <= 60_000) {
-                            finalStage = DaycareState.BreedingStage.BREEDING;
-                            startTimer = true;
-                            lastDaycareMenuCloseTimeMs = 0;
-
-                        } else {
-                            finalStage = DaycareState.BreedingStage.NEEDS_RESET;
-                        }
+                        finalStage = DaycareState.BreedingStage.NEEDS_RESET;
                     }
                 }
                 case BREEDING, EGG_READY -> {
@@ -338,7 +327,6 @@ public class DaycareManager {
     }
 
     public void onDaycareMenuClosed() {
-        lastDaycareMenuCloseTimeMs = System.currentTimeMillis();
     }
 
     public void tick() {
