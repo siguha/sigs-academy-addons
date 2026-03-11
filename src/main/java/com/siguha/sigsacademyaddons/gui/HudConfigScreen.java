@@ -3,9 +3,6 @@ package com.siguha.sigsacademyaddons.gui;
 import com.siguha.sigsacademyaddons.config.HudConfig;
 import com.siguha.sigsacademyaddons.feature.cardstats.CardStatsManager;
 import com.siguha.sigsacademyaddons.feature.daycare.DaycareManager;
-import com.siguha.sigsacademyaddons.feature.daycare.DaycareState;
-import com.siguha.sigsacademyaddons.feature.safari.HuntEntityTracker;
-import com.siguha.sigsacademyaddons.feature.safari.SafariHuntData;
 import com.siguha.sigsacademyaddons.feature.safari.SafariHuntManager;
 import com.siguha.sigsacademyaddons.feature.safari.SafariManager;
 import com.siguha.sigsacademyaddons.feature.wondertrade.WondertradeManager;
@@ -47,6 +44,8 @@ public class HudConfigScreen extends Screen {
     private static final int COLOR_TEXT_INACTIVE = 0xFF777777;
     private static final int COLOR_EGG_READY = 0xFFFFD700;
     private static final int COLOR_TIMER_BAR_BG = 0xFF333333;
+    private static final int COLOR_PEN_LABEL = 0xFF88DDFF;
+    private static final int COLOR_TIMER_GREEN = 0xFF55FF55;
 
     private static final int UNJOIN_BUTTON_SIZE = 7;
 
@@ -64,6 +63,14 @@ public class HudConfigScreen extends Screen {
     private static final int COLOR_BUTTON_BG_HOVER = 0xCC333333;
     private static final int COLOR_BUTTON_BORDER = 0xFFFFAA00;
     private static final int COLOR_BUTTON_TEXT = 0xFFFFFFFF;
+
+    private static final int SAFARI_MAX_HUNTS = 6;
+    private static final String[] PLACEHOLDER_PEN_SPECIES = {"Eevee", "Ralts", "Magikarp", "Ditto", "Pichu"};
+    private static final String[] PLACEHOLDER_PEN_TIMERS = {"~12:34", "~8:22", "~15:01", "~3:45", "~6:10"};
+    private static final float[] PLACEHOLDER_PEN_PROGRESS = {0.4f, 0.65f, 0.2f, 0.85f, 0.55f};
+    private static final String[] PLACEHOLDER_EGG_NAMES = {"Eevee", "Charmander", "Bulbasaur", "Squirtle", "Pikachu"};
+    private static final String[] PLACEHOLDER_EGG_TIMERS = {"~7:45", "~5:12", "~3:30", "~1:15", "~0:42"};
+    private static final float[] PLACEHOLDER_EGG_PROGRESS = {0.25f, 0.45f, 0.6f, 0.8f, 0.92f};
 
     private final HudConfig hudConfig;
     private final SafariManager safariManager;
@@ -179,36 +186,32 @@ public class HudConfigScreen extends Screen {
         boolean compact = hudConfig.isCompact();
 
         safariPanel = new PanelState("safari", "Safari");
-        safariPanel.unscaledWidth = compact
-                ? calculateCompactSafariWidth(false, false)
-                : calculateSafariWidth(false, false);
-        safariPanel.unscaledHeight = compact
-                ? calculateCompactSafariHeight(false, false)
-                : calculateSafariHeight(false, false);
+        safariPanel.unscaledWidth = placeholderSafariWidth(compact);
+        safariPanel.unscaledHeight = placeholderSafariHeight(compact);
         safariPanel.currentScale = hudConfig.getHudScale();
         safariPanel.updateScaledDimensions();
         safariPanel.panelX = hudConfig.getPanelX(this.width, safariPanel.scaledWidth);
         safariPanel.panelY = hudConfig.getPanelY(this.height, safariPanel.scaledHeight);
 
         daycarePanel = new PanelState("daycare", "Daycare");
-        daycarePanel.unscaledWidth = compact ? calculateCompactDaycareWidth() : calculateDaycareWidth();
-        daycarePanel.unscaledHeight = compact ? calculateCompactDaycareHeight() : calculateDaycareHeight();
+        daycarePanel.unscaledWidth = placeholderDaycareWidth(compact);
+        daycarePanel.unscaledHeight = placeholderDaycareHeight(compact);
         daycarePanel.currentScale = hudConfig.getDaycareScale();
         daycarePanel.updateScaledDimensions();
         daycarePanel.panelX = hudConfig.getDaycarePanelX(this.width, daycarePanel.scaledWidth);
         daycarePanel.panelY = hudConfig.getDaycarePanelY(this.height, daycarePanel.scaledHeight);
 
         wtPanel = new PanelState("wondertrade", "Wondertrade");
-        wtPanel.unscaledWidth = compact ? calculateCompactWtWidth() : calculateWtWidth();
-        wtPanel.unscaledHeight = compact ? calculateCompactWtHeight() : calculateWtHeight();
+        wtPanel.unscaledWidth = placeholderWtWidth(compact);
+        wtPanel.unscaledHeight = placeholderWtHeight(compact);
         wtPanel.currentScale = hudConfig.getWtScale();
         wtPanel.updateScaledDimensions();
         wtPanel.panelX = hudConfig.getWtPanelX(this.width, wtPanel.scaledWidth);
         wtPanel.panelY = hudConfig.getWtPanelY(this.height, wtPanel.scaledHeight);
 
         cardStatsPanel = new PanelState("cardstats", "Card Stats");
-        cardStatsPanel.unscaledWidth = compact ? calculateCompactCardStatsWidth() : calculateCardStatsWidth();
-        cardStatsPanel.unscaledHeight = compact ? calculateCompactCardStatsHeight() : calculateCardStatsHeight();
+        cardStatsPanel.unscaledWidth = placeholderCardStatsWidth(compact);
+        cardStatsPanel.unscaledHeight = placeholderCardStatsHeight(compact);
         cardStatsPanel.currentScale = hudConfig.getCardStatsScale();
         cardStatsPanel.updateScaledDimensions();
         cardStatsPanel.panelX = hudConfig.getCardStatsPanelX(this.width, cardStatsPanel.scaledWidth);
@@ -708,40 +711,38 @@ public class HudConfigScreen extends Screen {
 
     private void renderCompactDaycarePreview(GuiGraphics graphics, PanelState panel) {
         int y = PADDING;
+        int penCount = getPlaceholderPenCount();
+        int maxEggs = hudConfig.getDaycareEggsHatchingSlots();
 
         graphics.drawString(this.font, "Daycare", PADDING, y, COLOR_HEADER, true);
         y += LINE_HEIGHT;
 
-        int maxEggs = hudConfig.getDaycareEggsHatchingSlots();
-
         graphics.drawString(this.font, "Breeding", PADDING, y, COLOR_SECTION_HEADER, true);
         y += LINE_HEIGHT;
 
-        graphics.drawString(this.font, "[PEN 1]", PADDING + 2, y, 0xFF88DDFF, true);
-        int textX = PADDING + 2 + this.font.width("[PEN 1]") + 4;
-        graphics.drawString(this.font, "Eevee", textX, y, COLOR_TEXT, true);
-        String timer1 = "~12:34";
-        int tw1 = this.font.width(timer1);
-        graphics.drawString(this.font, timer1, panel.unscaledWidth - PADDING - tw1, y, 0xFF55FF55, true);
-        y += LINE_HEIGHT;
+        for (int i = 0; i < penCount; i++) {
+            String penLabel = "[PEN " + (i + 1) + "]";
+            graphics.drawString(this.font, penLabel, PADDING + 2, y, COLOR_PEN_LABEL, true);
+            int textX = PADDING + 2 + this.font.width(penLabel) + 4;
 
-        graphics.drawString(this.font, "[PEN 2]", PADDING + 2, y, 0xFF88DDFF, true);
-        int textX2 = PADDING + 2 + this.font.width("[PEN 2]") + 4;
-        graphics.drawString(this.font, "Inactive", textX2, y, COLOR_TEXT_INACTIVE, true);
-        y += LINE_HEIGHT;
+            String species = PLACEHOLDER_PEN_SPECIES[i % PLACEHOLDER_PEN_SPECIES.length];
+            String timer = PLACEHOLDER_PEN_TIMERS[i % PLACEHOLDER_PEN_TIMERS.length];
+            graphics.drawString(this.font, species, textX, y, COLOR_TEXT, true);
+            int tw = this.font.width(timer);
+            graphics.drawString(this.font, timer, panel.unscaledWidth - PADDING - tw, y, COLOR_TIMER_GREEN, true);
+            y += LINE_HEIGHT;
+        }
 
         if (maxEggs > 0) {
             graphics.drawString(this.font, "Hatching", PADDING, y, COLOR_SECTION_HEADER, true);
             y += LINE_HEIGHT;
 
-            String[] eggNames = {"Eevee", "Charmander", "Bulbasaur", "Squirtle", "Pikachu"};
-            String[] eggTimers = {"~7:45", "~5:12", "~3:30", "~1:15", "~0:42"};
             for (int i = 0; i < maxEggs; i++) {
-                String eggName = eggNames[i % eggNames.length];
-                String eggTimer = eggTimers[i % eggTimers.length];
+                String eggName = PLACEHOLDER_EGG_NAMES[i % PLACEHOLDER_EGG_NAMES.length];
+                String eggTimer = PLACEHOLDER_EGG_TIMERS[i % PLACEHOLDER_EGG_TIMERS.length];
                 graphics.drawString(this.font, eggName, PADDING + 2, y, COLOR_TEXT, true);
                 int tw = this.font.width(eggTimer);
-                graphics.drawString(this.font, eggTimer, panel.unscaledWidth - PADDING - tw, y, 0xFF55FF55, true);
+                graphics.drawString(this.font, eggTimer, panel.unscaledWidth - PADDING - tw, y, COLOR_TIMER_GREEN, true);
                 y += LINE_HEIGHT;
             }
 
@@ -751,13 +752,14 @@ public class HudConfigScreen extends Screen {
 
     private void renderFullDaycarePreview(GuiGraphics graphics, PanelState panel) {
         int y = PADDING;
+        int penCount = getPlaceholderPenCount();
+        int maxEggs = hudConfig.getDaycareEggsHatchingSlots();
 
         String dcHeader = "SAA Daycare Helper";
         int dcHeaderW = this.font.width(dcHeader);
         graphics.drawString(this.font, dcHeader, (panel.unscaledWidth - dcHeaderW) / 2, y, COLOR_HEADER, true);
         y += LINE_HEIGHT;
 
-        int maxEggs = hudConfig.getDaycareEggsHatchingSlots();
         int barX = PADDING + 2;
         int barWidth = panel.unscaledWidth - barX - PADDING;
 
@@ -767,21 +769,22 @@ public class HudConfigScreen extends Screen {
         graphics.drawString(this.font, "Breeding", PADDING, y, COLOR_SECTION_HEADER, true);
         y += LINE_HEIGHT;
 
-        graphics.drawString(this.font, "[PEN 1]", PADDING + 2, y, 0xFF88DDFF, true);
-        int speciesX = PADDING + 2 + this.font.width("[PEN 1]") + 4;
-        graphics.drawString(this.font, "Eevee", speciesX, y, COLOR_TEXT, true);
-        String timer1 = "~12:34";
-        int tw1 = this.font.width(timer1);
-        graphics.drawString(this.font, timer1, panel.unscaledWidth - PADDING - tw1, y, 0xFF55FF55, true);
-        y += LINE_HEIGHT;
-        graphics.fill(barX, y, barX + barWidth, y + 6, COLOR_TIMER_BAR_BG);
-        graphics.fill(barX, y, barX + (int)(barWidth * 0.4f), y + 6, 0xFF55FF55);
-        y += 8;
+        for (int i = 0; i < penCount; i++) {
+            String penLabel = "[PEN " + (i + 1) + "]";
+            String species = PLACEHOLDER_PEN_SPECIES[i % PLACEHOLDER_PEN_SPECIES.length];
+            String timer = PLACEHOLDER_PEN_TIMERS[i % PLACEHOLDER_PEN_TIMERS.length];
+            float progress = PLACEHOLDER_PEN_PROGRESS[i % PLACEHOLDER_PEN_PROGRESS.length];
 
-        graphics.drawString(this.font, "[PEN 2]", PADDING + 2, y, 0xFF88DDFF, true);
-        int textX2 = PADDING + 2 + this.font.width("[PEN 2]") + 4;
-        graphics.drawString(this.font, "Inactive", textX2, y, COLOR_TEXT_INACTIVE, true);
-        y += LINE_HEIGHT;
+            graphics.drawString(this.font, penLabel, PADDING + 2, y, COLOR_PEN_LABEL, true);
+            int speciesX = PADDING + 2 + this.font.width(penLabel) + 4;
+            graphics.drawString(this.font, species, speciesX, y, COLOR_TEXT, true);
+            int tw = this.font.width(timer);
+            graphics.drawString(this.font, timer, panel.unscaledWidth - PADDING - tw, y, COLOR_TIMER_GREEN, true);
+            y += LINE_HEIGHT;
+            graphics.fill(barX, y, barX + barWidth, y + 6, COLOR_TIMER_BAR_BG);
+            graphics.fill(barX, y, barX + (int)(barWidth * progress), y + 6, COLOR_TIMER_GREEN);
+            y += 8;
+        }
 
         if (maxEggs > 0) {
             y += 2;
@@ -790,21 +793,18 @@ public class HudConfigScreen extends Screen {
             graphics.drawString(this.font, "Hatching", PADDING, y, COLOR_SECTION_HEADER, true);
             y += LINE_HEIGHT;
 
-            String[] eggNames = {"Eevee", "Charmander", "Bulbasaur", "Squirtle", "Pikachu"};
-            String[] eggTimers = {"~7:45", "~5:12", "~3:30", "~1:15", "~0:42"};
-            float[] eggProgress = {0.25f, 0.45f, 0.6f, 0.8f, 0.92f};
             for (int i = 0; i < maxEggs; i++) {
-                String eggName = eggNames[i % eggNames.length];
-                String eggTimer = eggTimers[i % eggTimers.length];
-                float progress = eggProgress[i % eggProgress.length];
+                String eggName = PLACEHOLDER_EGG_NAMES[i % PLACEHOLDER_EGG_NAMES.length];
+                String eggTimer = PLACEHOLDER_EGG_TIMERS[i % PLACEHOLDER_EGG_TIMERS.length];
+                float progress = PLACEHOLDER_EGG_PROGRESS[i % PLACEHOLDER_EGG_PROGRESS.length];
 
                 graphics.drawString(this.font, eggName, PADDING + 2, y, COLOR_TEXT, true);
                 int tw = this.font.width(eggTimer);
-                graphics.drawString(this.font, eggTimer, panel.unscaledWidth - PADDING - tw, y, 0xFF55FF55, true);
+                graphics.drawString(this.font, eggTimer, panel.unscaledWidth - PADDING - tw, y, COLOR_TIMER_GREEN, true);
                 y += LINE_HEIGHT;
 
                 graphics.fill(barX, y, barX + barWidth, y + 6, COLOR_TIMER_BAR_BG);
-                graphics.fill(barX, y, barX + (int)(barWidth * progress), y + 6, 0xFF55FF55);
+                graphics.fill(barX, y, barX + (int)(barWidth * progress), y + 6, COLOR_TIMER_GREEN);
                 y += 8;
             }
 
@@ -855,193 +855,6 @@ public class HudConfigScreen extends Screen {
         int barWidth = panel.unscaledWidth - barX - PADDING;
         graphics.fill(barX, y, barX + barWidth, y + 6, COLOR_TIMER_BAR_BG);
         graphics.fill(barX, y, barX + (int) (barWidth * 0.3f), y + 6, 0xFF55FF55);
-    }
-
-    private int calculateCompactWtWidth() {
-        String prefix = "WT Time: ";
-        String timerText;
-        if (wondertradeManager.hasTimer()) {
-            timerText = wondertradeManager.isCooldownOver() ? "Ready!" : wondertradeManager.getRemainingFormatted();
-        } else {
-            timerText = "42:15";
-        }
-        return this.font.width(prefix) + this.font.width(timerText) + PADDING * 2;
-    }
-
-    private int calculateCompactWtHeight() {
-        return PADDING + LINE_HEIGHT + PADDING;
-    }
-
-    private int calculateCompactSafariWidth(boolean showTimer, boolean showHunts) {
-        int maxWidth = PANEL_MIN_WIDTH;
-
-        if (showTimer) {
-            String prefix = safariManager.isInSafariZone() ? "Safari: " : "Safari (away): ";
-            maxWidth = Math.max(maxWidth,
-                    this.font.width(prefix) + this.font.width(safariManager.getRemainingTimeFormatted()) + PADDING * 2);
-        }
-
-        if (showHunts) {
-            for (int i = 0; i < safariHuntManager.getActiveHunts().size(); i++) {
-                SafariHuntData hunt = safariHuntManager.getActiveHunts().get(i);
-                int lineWidth = this.font.width(hunt.getDisplayName()) + 4
-                        + this.font.width("[" + hunt.getCaught() + "/" + hunt.getTotal() + "]");
-                String resetText = hunt.getResetCountdownFormatted();
-                if (!resetText.isEmpty()) {
-                    lineWidth += this.font.width(" - " + resetText);
-                }
-                maxWidth = Math.max(maxWidth, lineWidth + PADDING * 2);
-            }
-        }
-
-        if (!showTimer && !showHunts) {
-            String prefix = "Safari: ";
-            maxWidth = Math.max(maxWidth, this.font.width(prefix) + this.font.width("24:31") + PADDING * 2);
-            maxWidth = Math.max(maxWidth, this.font.width("Electric Type") + 4
-                    + this.font.width("[8/10]") + this.font.width(" - 0h 18m") + PADDING * 2);
-        }
-
-        return maxWidth + PADDING * 2;
-    }
-
-    private int calculateCompactSafariHeight(boolean showTimer, boolean showHunts) {
-        int height = PADDING;
-
-        if (!showTimer && !showHunts) {
-            height += LINE_HEIGHT; // placeholder timer
-            height += 6 * LINE_HEIGHT; // 6 placeholder hunts
-            height += PADDING;
-            return height;
-        }
-
-        if (showTimer) height += LINE_HEIGHT;
-        if (showHunts) {
-            height += safariHuntManager.getActiveHunts().size() * LINE_HEIGHT;
-        } else if (showTimer) {
-            height += LINE_HEIGHT; // "No hunts loaded"
-        }
-        height += PADDING;
-        return height;
-    }
-
-    private int calculateCompactDaycareWidth() {
-        int maxWidth = this.font.width("Daycare") + PADDING * 2;
-        maxWidth = Math.max(maxWidth, this.font.width("[PEN 1]") + 4 + this.font.width("Eevee") + 8 + this.font.width("~12:34") + PADDING * 2 + 4);
-        maxWidth = Math.max(maxWidth, this.font.width("Charmander") + this.font.width("~5:12") + PADDING * 2 + 8);
-        return maxWidth + PADDING * 2;
-    }
-
-    private int calculateCompactDaycareHeight() {
-        int maxEggs = hudConfig.getDaycareEggsHatchingSlots();
-        int height = PADDING;
-        height += LINE_HEIGHT; // "Daycare" title
-        height += LINE_HEIGHT; // "Breeding"
-        height += 2 * LINE_HEIGHT; // 2 pens
-        if (maxEggs > 0) {
-            height += LINE_HEIGHT; // "Hatching"
-            height += maxEggs * LINE_HEIGHT; // eggs
-            height += LINE_HEIGHT; // "(+1 more)" overflow
-        }
-        height += PADDING;
-        return height;
-    }
-
-    private int calculateWtWidth() {
-        int maxWidth = PANEL_MIN_WIDTH;
-        maxWidth = Math.max(maxWidth, this.font.width("SAA Wondertrade Helper") + PADDING * 2);
-        maxWidth = Math.max(maxWidth, this.font.width("Please use WT once to set menu.") + PADDING * 2);
-        return maxWidth + PADDING * 2;
-    }
-
-    private int calculateWtHeight() {
-        int height = PADDING;
-        height += LINE_HEIGHT; // header
-        height += 2 + SECTION_SPACING; // divider
-        height += LINE_HEIGHT; // timer text
-        height += 6; // bar
-        height += PADDING;
-        return height;
-    }
-
-    private int calculateSafariWidth(boolean showTimer, boolean showHunts) {
-        int maxWidth = PANEL_MIN_WIDTH;
-
-        if (showHunts) {
-            for (SafariHuntData hunt : safariHuntManager.getActiveHunts()) {
-                int nameWidth = this.font.width(hunt.getDisplayName()) + (hunt.getStarRating() * 5) + PADDING * 2;
-                String resetText = hunt.getResetCountdownFormatted();
-                if (!resetText.isEmpty()) {
-                    nameWidth += this.font.width(resetText) + 8;
-                }
-                maxWidth = Math.max(maxWidth, nameWidth);
-            }
-        }
-
-        if (showTimer) {
-            String header = safariManager.isInSafariZone() ? "SAA Safari Helper" : "SAA Safari Helper (away)";
-            maxWidth = Math.max(maxWidth, this.font.width(header) + PADDING * 2);
-        }
-
-        return maxWidth + PADDING * 2;
-    }
-
-    private int calculateSafariHeight(boolean showTimer, boolean showHunts) {
-        int height = PADDING;
-
-        if (!showTimer && !showHunts) {
-            height += LINE_HEIGHT; // header
-            height += TIMER_BAR_HEIGHT; // timer bar
-            height += SECTION_SPACING * 2 + 1; // divider
-            height += LINE_HEIGHT + 2; // "Active Hunts"
-            height += 6 * (LINE_HEIGHT * 2); // 6 hunts, 2 lines each
-            height += PADDING;
-            return height;
-        }
-
-        if (showTimer) {
-            height += LINE_HEIGHT;
-            height += TIMER_BAR_HEIGHT;
-        }
-
-        if (showTimer && showHunts) {
-            height += SECTION_SPACING * 2 + 1;
-        }
-
-        if (showHunts) {
-            height += LINE_HEIGHT + 2;
-            height += safariHuntManager.getActiveHunts().size() * (LINE_HEIGHT * 2);
-        } else if (showTimer) {
-            int panelWidth = calculateSafariWidth(showTimer, showHunts);
-            int messageLines = wrapText(this.font, NO_QUESTS_MESSAGE, Math.max(panelWidth - PADDING * 2, 1)).size();
-            height += SECTION_SPACING + LINE_HEIGHT * messageLines;
-        }
-
-        height += PADDING;
-        return height;
-    }
-
-    private int calculateDaycareWidth() {
-        int maxWidth = PANEL_MIN_WIDTH;
-        maxWidth = Math.max(maxWidth, this.font.width("SAA Daycare Helper") + PADDING * 2);
-        maxWidth = Math.max(maxWidth, this.font.width("[PEN 1]") + 4 + this.font.width("Eevee") + 8 + this.font.width("~12:34") + PADDING * 2 + 4);
-        maxWidth = Math.max(maxWidth, this.font.width("Charmander") + this.font.width("~5:12") + PADDING * 2 + 8);
-        return maxWidth + PADDING * 2;
-    }
-
-    private int calculateDaycareHeight() {
-        int maxEggs = hudConfig.getDaycareEggsHatchingSlots();
-        int height = PADDING;
-        height += LINE_HEIGHT; // header
-        height += 2 + SECTION_SPACING + LINE_HEIGHT; // divider + "Breeding"
-        height += LINE_HEIGHT + 8; // Pen 1 with bar
-        height += LINE_HEIGHT; // Pen 2 inactive
-        if (maxEggs > 0) {
-            height += 2 + SECTION_SPACING + LINE_HEIGHT; // divider + "Hatching"
-            height += maxEggs * (LINE_HEIGHT + 8); // eggs with bars
-            height += LINE_HEIGHT; // "(+1 more)" overflow
-        }
-        height += PADDING;
-        return height;
     }
 
     @Override
@@ -1695,44 +1508,133 @@ public class HudConfigScreen extends Screen {
         }
     }
 
-    private int calculateCardStatsWidth() {
-        int maxWidth = PANEL_MIN_WIDTH;
-        maxWidth = Math.max(maxWidth, this.font.width("SAA Stats") + PADDING * 2);
-        maxWidth = Math.max(maxWidth, this.font.width("Type Spawn Chance") + this.font.width("+3%") + PADDING * 2 + 8);
-        return maxWidth + PADDING * 2;
+    private int getPlaceholderPenCount() {
+        int actual = daycareManager.getDisplayPens().size();
+        return Math.max(actual, 2);
     }
 
-    private int calculateCardStatsHeight() {
-        int height = PADDING;
-        height += LINE_HEIGHT;
-        height += 2 + SECTION_SPACING;
-        height += LINE_HEIGHT;
-        height += 3 * LINE_HEIGHT;
-        height += 2 + SECTION_SPACING;
-        height += LINE_HEIGHT;
-        height += 3 * LINE_HEIGHT;
-        height += PADDING;
-        return height;
+    private int placeholderSafariWidth(boolean compact) {
+        if (compact) {
+            int maxWidth = PANEL_MIN_WIDTH;
+            maxWidth = Math.max(maxWidth, this.font.width("Safari: ") + this.font.width("24:31") + PADDING * 2);
+            maxWidth = Math.max(maxWidth, this.font.width("Electric Type") + 4
+                    + this.font.width("[12/25]") + this.font.width(" - 3h 20m") + PADDING * 2);
+            return maxWidth + PADDING * 2;
+        } else {
+            int maxWidth = PANEL_MIN_WIDTH;
+            maxWidth = Math.max(maxWidth, this.font.width("SAA Safari Helper") + PADDING * 2);
+            maxWidth = Math.max(maxWidth, this.font.width("Electric Type") + 8
+                    + this.font.width("3h 20m") + PADDING * 2);
+            return maxWidth + PADDING * 2;
+        }
     }
 
-    private int calculateCompactCardStatsWidth() {
-        int maxWidth = PANEL_MIN_WIDTH;
-        maxWidth = Math.max(maxWidth, this.font.width("Stats") + PADDING * 2);
-        maxWidth = Math.max(maxWidth, this.font.width("Player") + PADDING * 2);
-        maxWidth = Math.max(maxWidth, this.font.width("Cards") + PADDING * 2);
-        maxWidth = Math.max(maxWidth, this.font.width("Type Spawn Chance") + this.font.width("+3%") + PADDING * 2 + 8);
-        return maxWidth + PADDING * 2;
+    private int placeholderSafariHeight(boolean compact) {
+        if (compact) {
+            return PADDING + LINE_HEIGHT + SAFARI_MAX_HUNTS * LINE_HEIGHT + PADDING;
+        } else {
+            int height = PADDING;
+            height += LINE_HEIGHT + TIMER_BAR_HEIGHT;
+            height += SECTION_SPACING * 2 + 1;
+            height += LINE_HEIGHT + 2;
+            height += SAFARI_MAX_HUNTS * (LINE_HEIGHT * 2);
+            height += PADDING;
+            return height;
+        }
     }
 
-    private int calculateCompactCardStatsHeight() {
-        int height = PADDING;
-        height += LINE_HEIGHT;
-        height += LINE_HEIGHT;
-        height += 3 * LINE_HEIGHT;
-        height += LINE_HEIGHT;
-        height += 3 * LINE_HEIGHT;
-        height += PADDING;
-        return height;
+    private int placeholderDaycareWidth(boolean compact) {
+        int penCount = getPlaceholderPenCount();
+        String widestPenLabel = "[PEN " + penCount + "]";
+
+        if (compact) {
+            int maxWidth = this.font.width("Daycare") + PADDING * 2;
+            maxWidth = Math.max(maxWidth, this.font.width(widestPenLabel) + 4
+                    + this.font.width("Eevee") + 8 + this.font.width("~12:34") + PADDING * 2 + 4);
+            maxWidth = Math.max(maxWidth, this.font.width("Charmander") + this.font.width("~5:12") + PADDING * 2 + 8);
+            return maxWidth + PADDING * 2;
+        } else {
+            int maxWidth = PANEL_MIN_WIDTH;
+            maxWidth = Math.max(maxWidth, this.font.width("SAA Daycare Helper") + PADDING * 2);
+            maxWidth = Math.max(maxWidth, this.font.width(widestPenLabel) + 4
+                    + this.font.width("Eevee") + 8 + this.font.width("~12:34") + PADDING * 2 + 4);
+            maxWidth = Math.max(maxWidth, this.font.width("Charmander") + this.font.width("~5:12") + PADDING * 2 + 8);
+            return maxWidth + PADDING * 2;
+        }
+    }
+
+    private int placeholderDaycareHeight(boolean compact) {
+        int maxEggs = hudConfig.getDaycareEggsHatchingSlots();
+        int penCount = getPlaceholderPenCount();
+
+        if (compact) {
+            int height = PADDING;
+            height += LINE_HEIGHT;
+            height += LINE_HEIGHT;
+            height += penCount * LINE_HEIGHT;
+            if (maxEggs > 0) {
+                height += LINE_HEIGHT;
+                height += maxEggs * LINE_HEIGHT;
+                height += LINE_HEIGHT;
+            }
+            height += PADDING;
+            return height;
+        } else {
+            int height = PADDING;
+            height += LINE_HEIGHT;
+            height += 2 + SECTION_SPACING;
+            height += LINE_HEIGHT;
+            height += penCount * (LINE_HEIGHT + 8);
+            if (maxEggs > 0) {
+                height += 2 + SECTION_SPACING;
+                height += LINE_HEIGHT;
+                height += maxEggs * (LINE_HEIGHT + 8);
+                height += LINE_HEIGHT;
+            }
+            height += PADDING;
+            return height;
+        }
+    }
+
+    private int placeholderWtWidth(boolean compact) {
+        if (compact) {
+            return this.font.width("WT Time: ") + this.font.width("42:15") + PADDING * 2;
+        } else {
+            int maxWidth = PANEL_MIN_WIDTH;
+            maxWidth = Math.max(maxWidth, this.font.width("SAA Wondertrade Helper") + PADDING * 2);
+            maxWidth = Math.max(maxWidth, this.font.width("Please use WT once to set menu.") + PADDING * 2);
+            return maxWidth + PADDING * 2;
+        }
+    }
+
+    private int placeholderWtHeight(boolean compact) {
+        if (compact) {
+            return PADDING + LINE_HEIGHT + PADDING;
+        } else {
+            return PADDING + LINE_HEIGHT + 2 + SECTION_SPACING + LINE_HEIGHT + 6 + PADDING;
+        }
+    }
+
+    private int placeholderCardStatsWidth(boolean compact) {
+        if (compact) {
+            int maxWidth = PANEL_MIN_WIDTH;
+            maxWidth = Math.max(maxWidth, this.font.width("Type Spawn Chance") + this.font.width("+3%") + PADDING * 2 + 8);
+            return maxWidth + PADDING * 2;
+        } else {
+            int maxWidth = PANEL_MIN_WIDTH;
+            maxWidth = Math.max(maxWidth, this.font.width("SAA Stats") + PADDING * 2);
+            maxWidth = Math.max(maxWidth, this.font.width("Type Spawn Chance") + this.font.width("+3%") + PADDING * 2 + 8);
+            return maxWidth + PADDING * 2;
+        }
+    }
+
+    private int placeholderCardStatsHeight(boolean compact) {
+        if (compact) {
+            return PADDING + LINE_HEIGHT + LINE_HEIGHT + 3 * LINE_HEIGHT + LINE_HEIGHT + 3 * LINE_HEIGHT + PADDING;
+        } else {
+            return PADDING + LINE_HEIGHT + 2 + SECTION_SPACING + LINE_HEIGHT + 3 * LINE_HEIGHT
+                    + 2 + SECTION_SPACING + LINE_HEIGHT + 3 * LINE_HEIGHT + PADDING;
+        }
     }
 
     private void drawResizeIcon(GuiGraphics graphics, int x, int y, int color) {

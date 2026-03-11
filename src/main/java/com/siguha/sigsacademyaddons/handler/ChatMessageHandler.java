@@ -9,6 +9,7 @@ import com.siguha.sigsacademyaddons.feature.safari.SafariManager;
 import com.siguha.sigsacademyaddons.feature.wondertrade.WondertradeManager;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.multiplayer.PlayerInfo;
 import net.minecraft.network.chat.ClickEvent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
@@ -118,6 +119,14 @@ public class ChatMessageHandler {
             }
         }
 
+        if (hudConfig.isMessageNotificationSound() && !PRIVATE_MESSAGE_PATTERN.matcher(text).matches()
+                && containsMention(text)) {
+            return message.copy().append(
+                    Component.literal(" Mentions You").withStyle(Style.EMPTY
+                            .withColor(ChatFormatting.YELLOW)
+                            .withItalic(true)));
+        }
+
         return message;
     }
 
@@ -203,12 +212,58 @@ public class ChatMessageHandler {
             }
         }
 
-        if (hudConfig.isMessageNotificationSound() && PRIVATE_MESSAGE_PATTERN.matcher(text).matches()) {
-            Minecraft mc = Minecraft.getInstance();
-            if (mc.player != null) {
-                mc.player.playSound(SoundEvents.NOTE_BLOCK_COW_BELL.value(), 0.8f, 1.0f);
+        if (hudConfig.isMessageNotificationSound()) {
+            if (PRIVATE_MESSAGE_PATTERN.matcher(text).matches() || containsMention(text)) {
+                Minecraft mc = Minecraft.getInstance();
+                if (mc.player != null) {
+                    mc.player.playSound(SoundEvents.NOTE_BLOCK_COW_BELL.value(), 0.8f, 1.0f);
+                }
             }
         }
 
+    }
+
+    private boolean containsMention(String text) {
+        Minecraft mc = Minecraft.getInstance();
+        if (mc.player == null || mc.getConnection() == null) return false;
+
+        String body = extractMessageBody(text);
+        if (body.isEmpty()) return false;
+
+        String username = mc.player.getGameProfile().getName();
+        if (matchesWholeWord(body, username)) return true;
+
+        PlayerInfo info = mc.getConnection().getPlayerInfo(mc.player.getUUID());
+        if (info != null && info.getTabListDisplayName() != null) {
+            String nickname = info.getTabListDisplayName().getString().replaceAll("\u00A7.", "").trim();
+            if (!nickname.isEmpty() && !nickname.equalsIgnoreCase(username)
+                    && matchesWholeWord(body, nickname)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    private static String extractMessageBody(String text) {
+        int angleBracket = text.indexOf("> ");
+        if (angleBracket >= 0) return text.substring(angleBracket + 2);
+        int colon = text.indexOf(": ");
+        if (colon >= 0) return text.substring(colon + 2);
+        return "";
+    }
+
+    private static boolean matchesWholeWord(String text, String word) {
+        String lower = text.toLowerCase();
+        String wordLower = word.toLowerCase();
+        int idx = 0;
+        while ((idx = lower.indexOf(wordLower, idx)) >= 0) {
+            boolean startOk = idx == 0 || !Character.isLetterOrDigit(lower.charAt(idx - 1));
+            int end = idx + wordLower.length();
+            boolean endOk = end >= lower.length() || !Character.isLetterOrDigit(lower.charAt(end));
+            if (startOk && endOk) return true;
+            idx++;
+        }
+        return false;
     }
 }
