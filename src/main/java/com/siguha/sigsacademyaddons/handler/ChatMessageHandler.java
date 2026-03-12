@@ -31,6 +31,9 @@ public class ChatMessageHandler {
             "A tier (\\d+) (Team Hideout|Raid Portal) has opened\\s+nearby!",
             Pattern.CASE_INSENSITIVE
     );
+    private static final Pattern TPA_REQUEST_PATTERN = Pattern.compile(
+            "You have a tpa request from (\\S+)!"
+    );
     private static final Pattern PARTY_INVITE_PATTERN = Pattern.compile(
             "You have been invited to a party by (\\S+)!"
     );
@@ -117,6 +120,17 @@ public class ChatMessageHandler {
             } catch (NumberFormatException e) {
                 SigsAcademyAddons.LOGGER.warn("[SAA Portal] Failed to parse portal tier from: {}", text);
             }
+        }
+
+        Matcher tpaMatcher = TPA_REQUEST_PATTERN.matcher(text);
+        if (tpaMatcher.find()) {
+            return message.copy().append(buildClickSuffix("/tpaccept"));
+        }
+
+        Matcher partyMatcher = PARTY_INVITE_PATTERN.matcher(text);
+        if (partyMatcher.find()) {
+            String inviterName = partyMatcher.group(1);
+            return message.copy().append(buildClickSuffix("/party accept " + inviterName));
         }
 
         if (hudConfig.isMessageNotificationSound() && !PRIVATE_MESSAGE_PATTERN.matcher(text).matches()
