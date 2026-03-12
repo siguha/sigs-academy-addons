@@ -729,7 +729,8 @@ public class HudConfig {
                     daycareWidthOverride > 0 ? daycareWidthOverride : null,
                     wtWidthOverride > 0 ? wtWidthOverride : null,
                     groupWidthOverride > 0 ? groupWidthOverride : null,
-                    cardStatsWidthOverride > 0 ? cardStatsWidthOverride : null);
+                    cardStatsWidthOverride > 0 ? cardStatsWidthOverride : null,
+                    autoAcceptPartyInvites);
             try (Writer writer = Files.newBufferedWriter(filePath)) {
                 GSON.toJson(data, writer);
             }
@@ -816,6 +817,8 @@ public class HudConfig {
                     this.wtWidthOverride = data.wtWidthOverride != null && data.wtWidthOverride > 0 ? data.wtWidthOverride : 0;
                     this.groupWidthOverride = data.groupWidthOverride != null && data.groupWidthOverride > 0 ? data.groupWidthOverride : 0;
                     this.cardStatsWidthOverride = data.cardStatsWidthOverride != null && data.cardStatsWidthOverride > 0 ? data.cardStatsWidthOverride : 0;
+
+                    this.autoAcceptPartyInvites = data.autoAcceptPartyInvites != null ? data.autoAcceptPartyInvites : false;
                 }
             }
         } catch (Exception e) {
@@ -853,6 +856,7 @@ public class HudConfig {
             Float cardStatsScale, Integer cardStatsRefScreenWidth,
             Integer hudWidthOverride, Integer daycareWidthOverride,
             Integer wtWidthOverride, Integer groupWidthOverride,
-            Integer cardStatsWidthOverride) {
+            Integer cardStatsWidthOverride,
+            Boolean autoAcceptPartyInvites) {
     }
 }
