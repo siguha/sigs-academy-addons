@@ -71,8 +71,8 @@ public class DriflootDetector {
                 if (!pokemon.getForcedAspects().contains("chest")) continue;
 
                 if (seenEntities.add(pokemonEntity.getUUID())) {
-                    playDriflootSound();
-                    player.sendSystemMessage(Component.translatable("text.saa.drifloot")
+                        playDriflootSound();
+                        player.sendSystemMessage(Component.translatable("text.saa.drifloot_spawned_nearby")
                             .withStyle(ChatFormatting.GREEN));
                 }
             } catch (Exception ignored) {

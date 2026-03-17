@@ -1,6 +1,8 @@
 package com.siguha.sigsacademyaddons.feature.portal;
 
 import com.siguha.sigsacademyaddons.SigsAcademyAddons;
+
+import net.minecraft.ChatFormatting;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.core.BlockPos;
@@ -109,17 +111,17 @@ public class PortalManager {
         if (pending == null) {
             // Could have been auto-tracked already
             if (isActive()) {
-                return Component.translatable("text.saa.already_tracking");
+                return Component.translatable("text.saa.already_tracking").withStyle(ChatFormatting.GREEN);
             }
-            return Component.translatable("text.saa.expired_tracking");
+            return Component.translatable("text.saa.expired_tracking").withStyle(ChatFormatting.RED);
         }
 
         switch (pending.state) {
             case SCANNING:
-                return Component.translatable("text.saa.scanning_tracking");
+                return Component.translatable("text.saa.scanning_tracking").withStyle(ChatFormatting.YELLOW);
             case FAILED:
                 pendingPortals.remove(id);
-                return Component.translatable("text.saa.failed_tracking");
+                return Component.translatable("text.saa.failed_tracking").withStyle(ChatFormatting.RED);
             case LOCATED:
                 break;
         }
@@ -128,7 +130,7 @@ public class PortalManager {
         pendingPortals.remove(id);
 
         Component typeText = pending.type == PortalType.HIDEOUT ? Component.translatable("text.saa.hideouts") : Component.translatable("text.saa.raids");
-        Component trackingText = Component.translatable("text.saa.tracking", pending.tier, typeText, pending.position.getX(), pending.position.getY(), pending.position.getZ());
+        Component trackingText = Component.translatable("text.saa.tracking", pending.tier, typeText, pending.position.getX(), pending.position.getY(), pending.position.getZ()).withStyle(ChatFormatting.GREEN);
 
         return trackingText;
     }

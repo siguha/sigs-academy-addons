@@ -105,14 +105,15 @@ public class WondertradeManager {
             if (hudConfig.isWtShowChatReminders()) {
                 Minecraft client = Minecraft.getInstance();
                 if (client.player != null) {
-                    MutableComponent msg = Component.translatable("text.saa.wt_time").append(" - ")
+                        MutableComponent msg = Component.translatable("text.saa.wondertrade_timer_over")
+                            .append(" - ")
                             .withStyle(ChatFormatting.GREEN)
                             .append(Component.translatable("text.saa.click_here")
-                                    .withStyle(Style.EMPTY
-                                            .withColor(ChatFormatting.AQUA)
-                                            .withUnderlined(true)
-                                            .withClickEvent(new ClickEvent(
-                                                    ClickEvent.Action.RUN_COMMAND, "/wt"))));
+                                .withStyle(Style.EMPTY
+                                    .withColor(ChatFormatting.AQUA)
+                                    .withUnderlined(true)
+                                    .withClickEvent(new ClickEvent(
+                                        ClickEvent.Action.RUN_COMMAND, "/wt"))));
                     client.player.sendSystemMessage(msg);
                 }
             }

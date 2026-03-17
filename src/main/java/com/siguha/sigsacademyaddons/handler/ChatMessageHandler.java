@@ -112,7 +112,7 @@ public class ChatMessageHandler {
     private static MutableComponent buildPortalTrackSuffix(int portalId) {
         return Component.literal(" - ")
                 .withStyle(ChatFormatting.GREEN)
-                .append(Component.literal("Track")
+                .append(Component.translatable("text.saa.portal_track_suffix")
                         .withStyle(Style.EMPTY
                                 .withColor(ChatFormatting.AQUA)
                                 .withUnderlined(true)
@@ -124,7 +124,7 @@ public class ChatMessageHandler {
     private static MutableComponent buildPortalUnableSuffix() {
         return Component.literal(" - ")
                 .withStyle(ChatFormatting.GRAY)
-                .append(Component.literal("Unable to locate")
+                .append(Component.translatable("text.saa.portal_unable_suffix")
                         .withStyle(ChatFormatting.RED));
     }
 
