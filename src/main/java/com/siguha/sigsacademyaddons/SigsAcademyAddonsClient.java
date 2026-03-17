@@ -40,8 +40,12 @@ import net.fabricmc.fabric.api.client.message.v1.ClientReceiveMessageEvents;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents;
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.fabricmc.fabric.api.client.screen.v1.ScreenEvents;
+import net.minecraft.ChatFormatting;
+
 import net.minecraft.commands.CommandBuildContext;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.MutableComponent;
+
 import org.lwjgl.glfw.GLFW;
 import java.util.Collections;
 import org.lwjgl.glfw.GLFWErrorCallback;
@@ -192,14 +196,14 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                                     sw - 145, sh - 80, 140, 70, sw, sh);
                                             hudConfig.setJoinedGroup(Collections.emptyList());
                                             context.getSource().sendFeedback(
-                                                    Component.literal("\u00A7aAll HUD positions and scales reset to default."));
+                                                    Component.translatable("command.saa.gui.reset").withStyle(ChatFormatting.GREEN));
                                             return 1;
                                         })
                                 )
                                 .executes(context -> {
                                     openConfigScreenNextTick = true;
                                     context.getSource().sendFeedback(
-                                            Component.literal("\u00A7aOpening HUD configuration..."));
+                                            Component.translatable("command.saa.gui.open").withStyle(ChatFormatting.GREEN));
                                     return 1;
                                 })
                         )
@@ -209,7 +213,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                             safariHuntManager.clearHunts();
                                             safariManager.endSafari();
                                             context.getSource().sendFeedback(
-                                                    Component.literal("\u00A7aCleared all safari data."));
+                                                    Component.translatable("command.saa.safari.clear").withStyle(ChatFormatting.GREEN));
                                             return 1;
                                         })
                                 )
@@ -219,18 +223,71 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                     int huntCount = safariHuntManager.getActiveHunts().size();
                                     int pending = safariHuntManager.getPendingUpdates();
 
-                                    StringBuilder sb = new StringBuilder();
-                                    sb.append("\u00A76Safari Status:\n");
-                                    sb.append("\u00A77Timer: ");
-                                    sb.append(inSafari ? "\u00A7a" + safariManager.getRemainingTimeFormatted() + " remaining" : "\u00A7cInactive");
-                                    sb.append("\n\u00A77Zone: ");
-                                    sb.append(inZone ? "\u00A7aIn safari zone" : "\u00A7eOutside safari");
-                                    sb.append("\n\u00A77Active hunts: \u00A7f" + huntCount);
-                                    if (pending > 0) {
-                                        sb.append("\n\u00A77Pending updates: \u00A7b" + pending);
+                                    var components = new java.util.ArrayList<Component>();
+
+                                    components.add(Component.translatable("command.saa.safari.status.title").withStyle(ChatFormatting.GOLD));
+
+                                    // Blank line
+                                    components.add(Component.empty());
+
+                                    {
+                                        MutableComponent timerComponent = Component.translatable("command.saa.safari.status.timer.title").withStyle(ChatFormatting.GRAY);
+                                        if (inSafari) {
+                                            timerComponent = timerComponent
+                                                    .append(Component.translatable("command.saa.safari.status.timer.remaining_time", safariManager.getRemainingTimeFormatted())
+                                                    .withStyle(ChatFormatting.GREEN));
+                                        } else {
+                                            timerComponent = timerComponent
+                                                    .append(Component.translatable("command.saa.safari.status.timer.inactive")
+                                                    .withStyle(ChatFormatting.RED));
+                                        }
+                                        components.add(timerComponent);
+                                    }
+                                        
+                                    // Blank line
+                                    components.add(Component.empty());
+
+                                    {
+                                        MutableComponent zoneComponent = Component.translatable("command.saa.safari.status.zone.title").withStyle(ChatFormatting.GRAY);
+                                        if (inZone) {
+                                            zoneComponent = zoneComponent
+                                                .append(Component.translatable("command.saa.safari.status.zone.inside_safari")
+                                                .withStyle(ChatFormatting.GREEN));
+                                        } else {
+                                            zoneComponent = zoneComponent
+                                                .append(Component.translatable("command.saa.safari.status.zone.outside_safari")
+                                                .withStyle(ChatFormatting.YELLOW));
+                                        }
+                                        components.add(zoneComponent);
                                     }
 
-                                    context.getSource().sendFeedback(Component.literal(sb.toString()));
+                                    // Blank line
+                                    components.add(Component.empty());
+
+                                    components.add(Component.translatable("command.saa.safari.status.active_hunts", 
+                                            Component.literal(String.valueOf(huntCount)).withStyle(ChatFormatting.WHITE))
+                                            .withStyle(ChatFormatting.GRAY));
+
+                                    if (pending > 0) {
+                                        // Blank line
+                                        components.add(Component.empty());
+
+                                        components.add(Component.translatable("command.saa.safari.status.pending_updates", 
+                                                Component.literal(String.valueOf(pending)).withStyle(ChatFormatting.AQUA))
+                                                .withStyle(ChatFormatting.GRAY));
+                                    }
+
+                                    // Combine components with newlines
+                                    MutableComponent result = Component.empty();
+                                    for (int i = 0; i < components.size(); i++) {
+                                        result.append(components.get(i));
+                                        if (i < components.size() - 1) {
+                                            result.append(Component.literal("\n"));
+                                        }
+                                    }
+
+                                    context.getSource().sendFeedback(result);
+                                    
                                     return 1;
                                 })
                         )
@@ -239,7 +296,8 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                         .executes(context -> {
                                             daycareManager.clearAll();
                                             context.getSource().sendFeedback(
-                                                    Component.literal("\u00A7aCleared all daycare data."));
+                                                    Component.translatable("command.saa.daycare.clear")
+                                                        .withStyle(ChatFormatting.GREEN));
                                             return 1;
                                         })
                                 )
@@ -264,30 +322,6 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                                 })
                                         )
                                 )
-                                .then(ClientCommandManager.literal("ivPercentPreference")
-                                        .then(ClientCommandManager.argument("lowerBound", IntegerArgumentType.integer(0, 100))
-                                                .then(ClientCommandManager.argument("upperBound", IntegerArgumentType.integer(0, 100))
-                                                        .executes(context -> {
-                                                            int lower = IntegerArgumentType.getInteger(context, "lowerBound");
-                                                            int upper = IntegerArgumentType.getInteger(context, "upperBound");
-                                                            hudConfig.setDaycareIvPercentLower(lower);
-                                                            hudConfig.setDaycareIvPercentUpper(upper);
-                                                            context.getSource().sendFeedback(Component.literal(
-                                                                    "\u00A7aIV% thresholds set to \u00A76" + lower
-                                                                    + "%\u00A7a (orange) / \u00A7b" + upper + "%\u00A7a (blue)."));
-                                                            return 1;
-                                                        })
-                                                )
-                                        )
-                                        .executes(context -> {
-                                            context.getSource().sendFeedback(Component.literal(
-                                                    "\u00A77IV% highlight thresholds:" +
-                                                    "\n\u00A76  Orange: \u00A7f" + hudConfig.getDaycareIvPercentLower() + "%+" +
-                                                    "\n\u00A7b  Blue: \u00A7f" + hudConfig.getDaycareIvPercentUpper() + "%+" +
-                                                    "\n\u00A77Usage: \u00A7e/saa daycare ivPercentPreference <lower> <upper>"));
-                                            return 1;
-                                        })
-                                )
                                 .executes(context -> {
                                     int unlockedPens = daycareManager.getDisplayPens().size();
                                     long breedingPens = daycareManager.getDisplayPens().stream()
@@ -295,18 +329,75 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                     int activeEggs = daycareManager.getTotalActiveEggs();
                                     int maxDisplay = hudConfig.getDaycareEggsHatchingSlots();
 
-                                    StringBuilder sb = new StringBuilder();
-                                    sb.append("\u00A76Daycare Status:\n");
-                                    sb.append("\u00A77Unlocked pens: \u00A7f").append(unlockedPens);
-                                    sb.append("\n\u00A77Breeding: \u00A7f").append(breedingPens);
-                                    sb.append("\n\u00A77Hatching eggs: \u00A7f").append(activeEggs);
-                                    sb.append("\n\u00A77Max eggs displayed: \u00A7f").append(maxDisplay);
-                                    sb.append("\n\u00A77Menu enabled: \u00A7f").append(hudConfig.isDaycareMenuEnabled());
-                                    sb.append("\n\u00A77Sounds enabled: \u00A7f").append(hudConfig.isDaycareSoundsEnabled());
-                                    sb.append("\n\u00A77Daycare scale: \u00A7f").append(String.format("%.0f%%", hudConfig.getDaycareScale() * 100));
-                                    sb.append("\n\u00A77IV% highlight: \u00A76").append(hudConfig.getDaycareIvPercentLower()).append("%+\u00A77 (orange) / \u00A7b").append(hudConfig.getDaycareIvPercentUpper()).append("%+\u00A77 (blue)");
+                                    var components = new java.util.ArrayList<Component>();
+                                        
+                                    components.add(Component.translatable("command.saa.daycare.status.title")
+                                            .withStyle(ChatFormatting.GOLD));
 
-                                    context.getSource().sendFeedback(Component.literal(sb.toString()));
+                                    // Blank line
+                                    components.add(Component.empty());
+
+                                    components.add(Component.translatable("command.saa.daycare.status.unlocked_pens",
+                                            Component.literal(String.valueOf(unlockedPens))
+                                                    .withStyle(ChatFormatting.WHITE))
+                                            .withStyle(ChatFormatting.GRAY));
+
+                                    // Blank line
+                                    components.add(Component.empty());
+
+                                    components.add(Component.translatable("command.saa.daycare.status.breeding",
+                                            Component.literal(String.valueOf(breedingPens))
+                                                      .withStyle(ChatFormatting.WHITE))
+                                            .withStyle(ChatFormatting.GRAY));
+
+                                    // Blank line
+                                    components.add(Component.empty());
+
+                                    components.add(Component.translatable("command.saa.daycare.status.hatching",
+                                            Component.literal(String.valueOf(activeEggs))
+                                                    .withStyle(ChatFormatting.WHITE))
+                                            .withStyle(ChatFormatting.GRAY));
+
+                                    // Blank line
+                                    components.add(Component.empty());
+
+                                    components.add(Component.translatable("command.saa.daycare.status.max_display",
+                                            Component.literal(String.valueOf(maxDisplay))
+                                                    .withStyle(ChatFormatting.WHITE))
+                                            .withStyle(ChatFormatting.GRAY));
+                                            
+
+                                    components.add(Component.translatable("command.saa.daycare.status.menu_enabled",
+                                            Component.literal(String.valueOf(hudConfig.isDaycareMenuEnabled()))
+                                                    .withStyle(ChatFormatting.WHITE))
+                                            .withStyle(ChatFormatting.GRAY));
+
+                                    // Blank line
+                                    components.add(Component.empty());
+
+                                    components.add(Component.translatable("command.saa.daycare.status.sounds_enabled",
+                                            Component.literal(String.valueOf(hudConfig.isDaycareSoundsEnabled()))
+                                                    .withStyle(ChatFormatting.WHITE))
+                                            .withStyle(ChatFormatting.GRAY));
+
+                                    // Blank line
+                                    components.add(Component.empty());
+
+                                    components.add(Component.translatable("command.saa.daycare.status.scale",
+                                            Component.literal(String.format("%.0f%%", hudConfig.getDaycareScale() * 100))
+                                                    .withStyle(ChatFormatting.WHITE))
+                                            .withStyle(ChatFormatting.GRAY));
+                                        
+                                    MutableComponent result = Component.empty();
+                                    for (int i = 0; i < components.size(); i++) {
+                                            result.append(components.get(i));
+                                            if (i < components.size() - 1) {
+                                                    result.append(Component.literal("\n"));
+                                            }
+                                    }
+                                    
+                                    context.getSource().sendFeedback(result);
+                                    
                                     return 1;
                                 })
                         )
@@ -316,23 +407,30 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                             float value = FloatArgumentType.getFloat(context, "value");
                                             if (value != 0f && value != 1.5f) {
                                                 context.getSource().sendFeedback(
-                                                        Component.literal("\u00A7cInvalid value. Use 0 (auto-detect) or 1.5 (force 1.5x speed)."));
+                                                        Component.translatable("command.saa.manual_hatch_multiplier.set.invalid_value")
+                                                                .withStyle(ChatFormatting.RED));
                                                 return 0;
                                             }
                                             hudConfig.setManualHatchMultiplier(value);
-                                            String label = value == 0f ? "\u00A7bauto-detect" : "\u00A7b1.5x";
+                                            MutableComponent label = value == 0f ? Component.translatable("command.saa.manual_hatch_multiplier.value.auto-detect") : Component.literal("1.5x");
                                             context.getSource().sendFeedback(
-                                                    Component.literal("\u00A7aHatch multiplier set to " + label + "\u00A7a. Takes effect on next server join."));
+                                                    Component.translatable("command.saa.manual_hatch_multiplier.set.value", label.withStyle(ChatFormatting.AQUA))
+                                                        .withStyle(ChatFormatting.GREEN));
                                             return 1;
                                         })
                                 )
                                 .executes(context -> {
                                     float current = hudConfig.getManualHatchMultiplier();
-                                    String label = current == 0f ? "auto-detect" : String.format("%.1fx", current);
-                                    context.getSource().sendFeedback(Component.literal(
-                                            "\u00A77manualHatchMultiplier = \u00A7f" + label +
-                                            "\n\u00A77Usage: \u00A7e/saa manualHatchMultiplier <0 | 1.5>" +
-                                            "\n\u00A770 = auto-detect from rank, 1.5 = force 1.5x hatch speed"));
+                                                                        MutableComponent label = current == 0f ? Component.translatable("command.saa.manual_hatch_multiplier.value.auto-detect") : Component.literal(String.format("%.1fx", current));
+                                                                        context.getSource().sendFeedback(
+                                                                                Component.translatable("command.saa.manual_hatch_multiplier.status", label.withStyle(ChatFormatting.WHITE))
+                                                                                        .append(Component.literal("\n"))
+                                                                                        .append(Component.translatable("command.saa.manual_hatch_multiplier.usage"))
+                                                                                        .append(Component.translatable("command.saa.manual_hatch_multiplier.usage.command")
+                                                                                                .withStyle(ChatFormatting.YELLOW))
+                                                                                        .append(Component.literal("\n"))
+                                                                                        .append(Component.translatable("command.saa.manual_hatch_multiplier.help"))
+                                                                                        .withStyle(ChatFormatting.GRAY));
                                     return 1;
                                 })
                         )
@@ -341,26 +439,77 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                         .executes(context -> {
                                             wondertradeManager.clearAll();
                                             context.getSource().sendFeedback(
-                                                    Component.literal("\u00A7aCleared wondertrade timer data."));
+                                                    Component.translatable("command.saa.wondertrade.clear")
+                                                            .withStyle(ChatFormatting.GREEN));
                                             return 1;
                                         })
                                 )
                                 .executes(context -> {
-                                    StringBuilder sb = new StringBuilder();
-                                    sb.append("\u00A76Wondertrade Status:\n");
-                                    if (!wondertradeManager.hasTimer()) {
-                                        sb.append("\u00A77Timer: \u00A7cNot set");
-                                    } else if (wondertradeManager.isCooldownOver()) {
-                                        sb.append("\u00A77Timer: \u00A7aCooldown over!");
-                                    } else {
-                                        sb.append("\u00A77Timer: \u00A7f").append(wondertradeManager.getRemainingFormatted()).append(" remaining");
-                                    }
-                                    sb.append("\n\u00A77Menu enabled: \u00A7f").append(hudConfig.isWtMenuEnabled());
-                                    sb.append("\n\u00A77Chat reminders: \u00A7f").append(hudConfig.isWtShowChatReminders());
-                                    sb.append("\n\u00A77Sounds enabled: \u00A7f").append(hudConfig.isWtSoundsEnabled());
-                                    sb.append("\n\u00A77WT scale: \u00A7f").append(String.format("%.0f%%", hudConfig.getWtScale() * 100));
+                                    var components = new java.util.ArrayList<Component>();
+                                    components.add(Component.translatable("command.saa.wondertrade.status.title").withStyle(ChatFormatting.GOLD));
 
-                                    context.getSource().sendFeedback(Component.literal(sb.toString()));
+                                    // Blank line
+                                    components.add(Component.empty());
+    
+                                    {
+                                        MutableComponent timerComponent = Component.translatable("command.saa.wondertrade.status.timer.title").withStyle(ChatFormatting.GRAY);
+                                        
+                                        if (!wondertradeManager.hasTimer()) {
+                                            timerComponent = timerComponent
+                                                    .append(Component.translatable("command.saa.wondertrade.status.timer.not_set")
+                                                    .withStyle(ChatFormatting.RED));
+                                        } else if (wondertradeManager.isCooldownOver()) {
+                                            timerComponent = timerComponent
+                                                    .append(Component.translatable("command.saa.wondertrade.status.timer.cooldown_over")
+                                                    .withStyle(ChatFormatting.GREEN));
+                                        } else {
+                                            timerComponent = timerComponent
+                                                    .append(Component.translatable("command.saa.wondertrade.status.timer.remaining", wondertradeManager.getRemainingFormatted())
+                                                    .withStyle(ChatFormatting.WHITE));
+                                        }
+                                        components.add(timerComponent);
+                                    }
+    
+                                    // Blank line
+                                    components.add(Component.empty());
+    
+                                    components.add(Component.translatable("command.saa.wondertrade.status.menu_enabled",
+                                            Component.literal(String.valueOf(hudConfig.isWtMenuEnabled()))
+                                                    .withStyle(ChatFormatting.WHITE))
+                                            .withStyle(ChatFormatting.GRAY));
+    
+                                    // Blank line
+                                    components.add(Component.empty());
+    
+                                    components.add(Component.translatable("command.saa.wondertrade.status.chat_reminders",
+                                            Component.literal(String.valueOf(hudConfig.isWtShowChatReminders()))
+                                                    .withStyle(ChatFormatting.WHITE))
+                                            .withStyle(ChatFormatting.GRAY));
+    
+                                    // Blank line
+                                    components.add(Component.empty());
+    
+                                    components.add(Component.translatable("command.saa.wondertrade.status.sounds_enabled",
+                                            Component.literal(String.valueOf(hudConfig.isWtSoundsEnabled()))
+                                                    .withStyle(ChatFormatting.WHITE))
+                                            .withStyle(ChatFormatting.GRAY));
+    
+                                    // Blank line
+                                    components.add(Component.empty());
+    
+                                    components.add(Component.translatable("command.saa.wondertrade.status.scale",
+                                            Component.literal(String.format("%.0f%%", hudConfig.getWtScale() * 100))
+                                                    .withStyle(ChatFormatting.WHITE))
+                                            .withStyle(ChatFormatting.GRAY));
+    
+                                    MutableComponent result = Component.empty();
+                                    for (int i = 0; i < components.size(); i++) {
+                                            result.append(components.get(i));
+                                            if (i < components.size() - 1) {
+                                                    result.append(Component.literal("\n"));
+                                            }
+                                    }
+                                    context.getSource().sendFeedback(result);
                                     return 1;
                                 })
                         )
@@ -379,27 +528,49 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                         .executes(context -> {
                                             portalManager.clear();
                                             context.getSource().sendFeedback(
-                                                    Component.literal("\u00A7aCleared portal tracking data."));
+                                                    Component.translatable("command.saa.portal.clear")
+                                                            .withStyle(ChatFormatting.GREEN));
                                             return 1;
                                         })
                                 )
                                 .executes(context -> {
                                     boolean active = portalManager.isActive();
-                                    StringBuilder sb = new StringBuilder();
-                                    sb.append("\u00A76Portal Status:\n");
+                                    var components = new java.util.ArrayList<Component>();
+                                    components.add(Component.translatable("command.saa.portal.status.title")
+                                            .withStyle(ChatFormatting.GOLD));
+
+
+                                    components.add(Component.translatable("command.saa.portal.status.tracking",
+                                        active ? Component.literal(wondertradeManager.getRemainingFormatted())
+                                                .withStyle(ChatFormatting.GREEN)
+                                        : Component.translatable("command.saa.portal.status.tracking.none")
+                                                .withStyle(ChatFormatting.WHITE))
+                                            .withStyle(ChatFormatting.GRAY));
+
                                     if (active) {
-                                        sb.append("\u00A77Tracking: \u00A7a").append(portalManager.getDisplayText());
-                                        sb.append("\n\u00A77Position: \u00A7f")
-                                                .append(portalManager.getPortalPos().getX()).append(", ")
-                                                .append(portalManager.getPortalPos().getY()).append(", ")
-                                                .append(portalManager.getPortalPos().getZ());
-                                        sb.append("\n\u00A77Distance: \u00A7f")
-                                                .append(String.format("%.0f", portalManager.getHorizontalDistance()))
-                                                .append(" blocks");
-                                    } else {
-                                        sb.append("\u00A77Tracking: \u00A7cNone");
+                                        components.add(Component.translatable("command.saa.portal.status.position",
+                                            Component.literal(String.format("%d, %d, %d",
+                                                portalManager.getPortalPos().getX(),
+                                                portalManager.getPortalPos().getY(),
+                                                portalManager.getPortalPos().getZ()))
+                                                        .withStyle(ChatFormatting.WHITE))
+                                                .withStyle(ChatFormatting.GRAY));
+
+                                        components.add(Component.translatable("command.saa.portal.status.distance",
+                                            Component.literal(String.format("%.0f", portalManager.getHorizontalDistance()))
+                                                .withStyle(ChatFormatting.WHITE))
+                                                .withStyle(ChatFormatting.GRAY));
                                     }
-                                    context.getSource().sendFeedback(Component.literal(sb.toString()));
+
+                                    MutableComponent result = Component.empty();
+                                    for (int i = 0; i < components.size(); i++) {
+                                        result.append(components.get(i));
+                                        if (i < components.size() - 1) {
+                                            result.append(Component.literal("\n"));
+                                        }
+                                    }
+
+                                    context.getSource().sendFeedback(result);
                                     return 1;
                                 })
                         )
@@ -409,18 +580,19 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                                 .executes(context -> {
                                                     boolean value = BoolArgumentType.getBool(context, "value");
                                                     hudConfig.setSafariTimerAlways(value);
-                                                    String msg = value
-                                                            ? "\u00A7aHUD will always display when active."
-                                                            : "\u00A7aHUD will only display in the safari zone.";
-                                                    context.getSource().sendFeedback(Component.literal(msg));
+                                                    String msgKey = value ? "command.saa.config.safari.timer_always.always" : "command.saa.config.safari.timer_always.in_safari";
+                                                    context.getSource().sendFeedback(Component.translatable(msgKey).withStyle(ChatFormatting.GREEN));
                                                     return 1;
                                                 })
                                         )
                                         .executes(context -> {
                                             boolean current = hudConfig.isSafariTimerAlways();
-                                            context.getSource().sendFeedback(Component.literal(
-                                                    "\u00A77safariTimerAlways = \u00A7f" + current +
-                                                    "\n\u00A77Usage: \u00A7e/saa config safariTimerAlways <true|false>"));
+                                            context.getSource().sendFeedback(Component.translatable("command.saa.config.safari.timer_always.current_value", Component.literal(String.valueOf(current)).withStyle(ChatFormatting.WHITE))
+                                                    .append(Component.literal("\n"))
+                                                    .append(Component.translatable("command.saa.config.safari.timer_always.usage", 
+                                                        Component.translatable("command.saa.config.safari.timer_always.command")
+                                                                .withStyle(ChatFormatting.YELLOW))
+                                                            .withStyle(ChatFormatting.GRAY)));
                                             return 1;
                                         })
                                 )
@@ -429,18 +601,22 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                                 .executes(context -> {
                                                     boolean value = BoolArgumentType.getBool(context, "value");
                                                     hudConfig.setSafariMenuEnabled(value);
-                                                    String msg = value
-                                                            ? "\u00A7aSafari HUD enabled."
-                                                            : "\u00A7aSafari HUD disabled.";
-                                                    context.getSource().sendFeedback(Component.literal(msg));
+                                                    MutableComponent msg = Component.translatable("command.saa.config.safari.menu_enabled.set", (value ? 
+                                                            Component.translatable("text.saa.enabled") : 
+                                                            Component.translatable("text.saa.disabled")
+                                                        ).withStyle(ChatFormatting.WHITE));
+                                                    context.getSource().sendFeedback(msg.withStyle(ChatFormatting.GREEN));
                                                     return 1;
                                                 })
                                         )
                                         .executes(context -> {
                                             boolean current = hudConfig.isSafariMenuEnabled();
-                                            context.getSource().sendFeedback(Component.literal(
-                                                    "\u00A77safariMenuEnabled = \u00A7f" + current +
-                                                    "\n\u00A77Usage: \u00A7e/saa config safariMenuEnabled <true|false>"));
+                                            context.getSource().sendFeedback(Component.translatable("command.saa.config.safari.menu_enabled.current_value", Component.literal(String.valueOf(current)).withStyle(ChatFormatting.WHITE))
+                                                    .append(Component.literal("\n"))
+                                                    .append(Component.translatable("command.saa.config.safari.menu_enabled.usage", 
+                                                        Component.translatable("command.saa.config.safari.menu_enabled.command")
+                                                                .withStyle(ChatFormatting.YELLOW))
+                                                            .withStyle(ChatFormatting.GRAY)));
                                             return 1;
                                         })
                                 )
@@ -449,18 +625,22 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                                 .executes(context -> {
                                                     boolean value = BoolArgumentType.getBool(context, "value");
                                                     hudConfig.setSafariQuestMonGlow(value);
-                                                    String msg = value
-                                                            ? "\u00A7aQuest Pokemon glow enabled."
-                                                            : "\u00A7aQuest Pokemon glow disabled.";
-                                                    context.getSource().sendFeedback(Component.literal(msg));
+                                                    MutableComponent msg = Component.translatable("command.saa.config.safari.quest_mon_glow.set", (value ? 
+                                                            Component.translatable("text.saa.enabled") : 
+                                                            Component.translatable("text.saa.disabled")
+                                                        ).withStyle(ChatFormatting.WHITE));
+                                                    context.getSource().sendFeedback(msg.withStyle(ChatFormatting.GREEN));
                                                     return 1;
                                                 })
                                         )
                                         .executes(context -> {
                                             boolean current = hudConfig.isSafariQuestMonGlow();
-                                            context.getSource().sendFeedback(Component.literal(
-                                                    "\u00A77safariQuestMonGlow = \u00A7f" + current +
-                                                    "\n\u00A77Usage: \u00A7e/saa config safariQuestMonGlow <true|false>"));
+                                            context.getSource().sendFeedback(Component.translatable("command.saa.config.safari.quest_mon_glow.current_value", Component.literal(String.valueOf(current)).withStyle(ChatFormatting.WHITE))
+                                                    .append(Component.literal("\n"))
+                                                    .append(Component.translatable("command.saa.config.safari.quest_mon_glow.usage", 
+                                                        Component.translatable("command.saa.config.safari.quest_mon_glow.command")
+                                                                .withStyle(ChatFormatting.YELLOW))
+                                                            .withStyle(ChatFormatting.GRAY)));
                                             return 1;
                                         })
                                 )
@@ -469,18 +649,24 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                                 .executes(context -> {
                                                     boolean value = BoolArgumentType.getBool(context, "value");
                                                     hudConfig.setDaycareMenuEnabled(value);
-                                                    String msg = value
-                                                            ? "\u00A7aDaycare HUD enabled."
-                                                            : "\u00A7aDaycare HUD disabled.";
-                                                    context.getSource().sendFeedback(Component.literal(msg));
+                                                    MutableComponent msg = Component.translatable("command.saa.config.daycare.menu_enabled.set", 
+                                                        (value ? 
+                                                            Component.translatable("text.saa.enabled") : 
+                                                            Component.translatable("text.saa.disabled")
+                                                        ).withStyle(ChatFormatting.WHITE));
+                                                    context.getSource().sendFeedback(msg.withStyle(ChatFormatting.GREEN));
                                                     return 1;
                                                 })
                                         )
                                         .executes(context -> {
                                             boolean current = hudConfig.isDaycareMenuEnabled();
-                                            context.getSource().sendFeedback(Component.literal(
-                                                    "\u00A77daycareMenuEnabled = \u00A7f" + current +
-                                                    "\n\u00A77Usage: \u00A7e/saa config daycareMenuEnabled <true|false>"));
+                                                context.getSource().sendFeedback(
+                                                        Component.translatable("command.saa.config.daycare.menu_enabled.current_value", String.valueOf(current))
+                                                                .append(Component.literal("\n"))
+                                                                .append(Component.translatable("command.saa.config.daycare.menu_enabled.usage", 
+                                                                    Component.translatable("command.saa.config.daycare.menu_enabled.command")
+                                                                        .withStyle(ChatFormatting.YELLOW)))
+                                                                    .withStyle(ChatFormatting.GRAY));
                                             return 1;
                                         })
                                 )
@@ -489,18 +675,25 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                                 .executes(context -> {
                                                     boolean value = BoolArgumentType.getBool(context, "value");
                                                     hudConfig.setDaycareSoundsEnabled(value);
-                                                    String msg = value
-                                                            ? "\u00A7aDaycare sounds enabled."
-                                                            : "\u00A7aDaycare sounds disabled.";
-                                                    context.getSource().sendFeedback(Component.literal(msg));
+                                                    MutableComponent msg = Component.translatable("command.saa.config.daycare.sounds_enabled.set", 
+                                                        (value ? 
+                                                            Component.translatable("text.saa.enabled") : 
+                                                            Component.translatable("text.saa.disabled")
+                                                        ).withStyle(ChatFormatting.WHITE));
+                                                    context.getSource().sendFeedback(msg.withStyle(ChatFormatting.GREEN));
                                                     return 1;
                                                 })
                                         )
                                         .executes(context -> {
                                             boolean current = hudConfig.isDaycareSoundsEnabled();
-                                            context.getSource().sendFeedback(Component.literal(
-                                                    "\u00A77daycareSoundsEnabled = \u00A7f" + current +
-                                                    "\n\u00A77Usage: \u00A7e/saa config daycareSoundsEnabled <true|false>"));
+                                            context.getSource().sendFeedback(
+                                                Component.translatable("command.saa.config.daycare.sounds_enabled.current_value", String.valueOf(current))
+                                                        .append(Component.literal("\n"))
+                                                        .append(Component.translatable("command.saa.config.daycare.sounds_enabled.usage", 
+                                                                Component.translatable("command.saa.config.daycare.sounds_enabled.command")
+                                                                .withStyle(ChatFormatting.YELLOW)))
+                                                                .withStyle(ChatFormatting.GRAY));
+
                                             return 1;
                                         })
                                 )
@@ -509,39 +702,25 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                                 .executes(context -> {
                                                     int value = IntegerArgumentType.getInteger(context, "value");
                                                     hudConfig.setDaycareEggsHatchingSlots(value);
-                                                    String msg = value == 0
-                                                            ? "\u00A7aDaycare hatching section hidden."
-                                                            : "\u00A7aDaycare will show up to " + value + " hatching eggs.";
-                                                    context.getSource().sendFeedback(Component.literal(msg));
+                                                    MutableComponent msg = value == 0
+                                                            ? Component.translatable("command.saa.config.daycare.eggs_hatching_slots.set.hidden")
+                                                            : Component.translatable("command.saa.config.daycare.eggs_hatching_slots.set.value", String.valueOf(value));
+                                                    context.getSource().sendFeedback(msg.withStyle(ChatFormatting.GREEN));
                                                     return 1;
                                                 })
                                         )
                                         .executes(context -> {
                                             int current = hudConfig.getDaycareEggsHatchingSlots();
-                                            context.getSource().sendFeedback(Component.literal(
-                                                    "\u00A77daycareEggsHatchingSlots = \u00A7f" + current +
-                                                    "\n\u00A77Usage: \u00A7e/saa config daycareEggsHatchingSlots <0-5>" +
-                                                    "\n\u00A77Set to 0 to hide hatching section."));
-                                            return 1;
-                                        })
-                                )
-                                .then(ClientCommandManager.literal("daycareBabyGuards")
-                                        .then(ClientCommandManager.argument("value", BoolArgumentType.bool())
-                                                .executes(context -> {
-                                                    boolean value = BoolArgumentType.getBool(context, "value");
-                                                    hudConfig.setDaycareBabyGuards(value);
-                                                    String msg = value
-                                                            ? "\u00A7aDaycare baby guards enabled."
-                                                            : "\u00A7aDaycare baby guards disabled.";
-                                                    context.getSource().sendFeedback(Component.literal(msg));
-                                                    return 1;
-                                                })
-                                        )
-                                        .executes(context -> {
-                                            boolean current = hudConfig.isDaycareBabyGuards();
-                                            context.getSource().sendFeedback(Component.literal(
-                                                    "\u00A77daycareBabyGuards = \u00A7f" + current +
-                                                    "\n\u00A77Usage: \u00A7e/saa config daycareBabyGuards <true|false>"));
+                                        context.getSource().sendFeedback(
+                                                Component.translatable("command.saa.config.daycare.eggs_hatching_slots.current_value", Component.literal(String.valueOf(current)).withStyle(ChatFormatting.WHITE)).withStyle(ChatFormatting.GRAY)
+                                                        .append(Component.literal("\n"))
+                                                        .append(Component.translatable("command.saa.config.daycare.eggs_hatching_slots.usage", 
+                                                                Component.translatable("command.saa.config.daycare.eggs_hatching_slots.command")
+                                                                .withStyle(ChatFormatting.YELLOW)
+                                                        ).withStyle(ChatFormatting.GRAY))
+                                                        .append(Component.literal("\n"))
+                                                        .append(Component.translatable("command.saa.config.daycare.eggs_hatching_slots.tooltip").withStyle(ChatFormatting.GRAY))
+                                        );
                                             return 1;
                                         })
                                 )
@@ -550,18 +729,24 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                                 .executes(context -> {
                                                     boolean value = BoolArgumentType.getBool(context, "value");
                                                     hudConfig.setWtMenuEnabled(value);
-                                                    String msg = value
-                                                            ? "\u00A7aWondertrade HUD enabled."
-                                                            : "\u00A7aWondertrade HUD disabled.";
-                                                    context.getSource().sendFeedback(Component.literal(msg));
+                                                    MutableComponent msg = Component.translatable("command.saa.config.wondertrade.menu_enabled.set", 
+                                                        (value ? 
+                                                            Component.translatable("text.saa.enabled") : 
+                                                            Component.translatable("text.saa.disabled")
+                                                        ).withStyle(ChatFormatting.WHITE));
+                                                    context.getSource().sendFeedback(msg.withStyle(ChatFormatting.GREEN));
                                                     return 1;
                                                 })
                                         )
                                         .executes(context -> {
                                             boolean current = hudConfig.isWtMenuEnabled();
-                                            context.getSource().sendFeedback(Component.literal(
-                                                    "\u00A77wtMenuEnabled = \u00A7f" + current +
-                                                    "\n\u00A77Usage: \u00A7e/saa config wtMenuEnabled <true|false>"));
+                                            context.getSource().sendFeedback(
+                                                Component.translatable("command.saa.config.wondertrade.menu_enabled.current_value", String.valueOf(current))
+                                                        .append(Component.literal("\n"))
+                                                        .append(Component.translatable("command.saa.config.wondertrade.menu_enabled.usage", 
+                                                                Component.translatable("command.saa.config.wondertrade.menu_enabled.command")
+                                                                .withStyle(ChatFormatting.YELLOW)))
+                                                                .withStyle(ChatFormatting.GRAY));
                                             return 1;
                                         })
                                 )
@@ -570,18 +755,25 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                                 .executes(context -> {
                                                     boolean value = BoolArgumentType.getBool(context, "value");
                                                     hudConfig.setWtShowChatReminders(value);
-                                                    String msg = value
-                                                            ? "\u00A7aWT chat reminders enabled."
-                                                            : "\u00A7aWT chat reminders disabled.";
-                                                    context.getSource().sendFeedback(Component.literal(msg));
+                                                    MutableComponent msg = Component.translatable("command.saa.config.wondertrade.show_chat_reminders.set", 
+                                                        (value ? 
+                                                            Component.translatable("text.saa.enabled") : 
+                                                            Component.translatable("text.saa.disabled")
+                                                        ).withStyle(ChatFormatting.WHITE));
+                                                    context.getSource().sendFeedback(msg.withStyle(ChatFormatting.GREEN));
                                                     return 1;
                                                 })
                                         )
                                         .executes(context -> {
                                             boolean current = hudConfig.isWtShowChatReminders();
-                                            context.getSource().sendFeedback(Component.literal(
-                                                    "\u00A77wtShowChatReminders = \u00A7f" + current +
-                                                    "\n\u00A77Usage: \u00A7e/saa config wtShowChatReminders <true|false>"));
+                                            context.getSource().sendFeedback(
+                                                Component.translatable("command.saa.config.wondertrade.show_chat_reminders.current_value", String.valueOf(current))
+                                                        .append(Component.literal("\n"))
+                                                        .append(Component.translatable("command.saa.config.wondertrade.show_chat_reminders.usage", 
+                                                                Component.translatable("command.saa.config.wondertrade.show_chat_reminders.command")
+                                                                .withStyle(ChatFormatting.YELLOW)))
+                                                                .withStyle(ChatFormatting.GRAY));
+
                                             return 1;
                                         })
                                 )
@@ -590,18 +782,24 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                                 .executes(context -> {
                                                     boolean value = BoolArgumentType.getBool(context, "value");
                                                     hudConfig.setWtSoundsEnabled(value);
-                                                    String msg = value
-                                                            ? "\u00A7aWT sounds enabled."
-                                                            : "\u00A7aWT sounds disabled.";
-                                                    context.getSource().sendFeedback(Component.literal(msg));
+                                                    MutableComponent msg = Component.translatable("command.saa.config.wondertrade.sounds_enabled.set", 
+                                                        (value ? 
+                                                            Component.translatable("text.saa.enabled") : 
+                                                            Component.translatable("text.saa.disabled")
+                                                        ).withStyle(ChatFormatting.WHITE));
+                                                    context.getSource().sendFeedback(msg.withStyle(ChatFormatting.GREEN));
                                                     return 1;
                                                 })
                                         )
                                         .executes(context -> {
                                             boolean current = hudConfig.isWtSoundsEnabled();
-                                            context.getSource().sendFeedback(Component.literal(
-                                                    "\u00A77wtSoundsEnabled = \u00A7f" + current +
-                                                    "\n\u00A77Usage: \u00A7e/saa config wtSoundsEnabled <true|false>"));
+                                            context.getSource().sendFeedback(
+                                                Component.translatable("command.saa.config.wondertrade.sounds_enabled.current_value", String.valueOf(current))
+                                                        .append(Component.literal("\n"))
+                                                        .append(Component.translatable("command.saa.config.wondertrade.sounds_enabled.usage", 
+                                                                Component.translatable("command.saa.config.wondertrade.sounds_enabled.command")
+                                                                .withStyle(ChatFormatting.YELLOW)))
+                                                                .withStyle(ChatFormatting.GRAY));
                                             return 1;
                                         })
                                 )
@@ -784,7 +982,6 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                             "\n\u00A77daycareMenuEnabled = \u00A7f" + hudConfig.isDaycareMenuEnabled() +
                                             "\n\u00A77daycareSoundsEnabled = \u00A7f" + hudConfig.isDaycareSoundsEnabled() +
                                             "\n\u00A77daycareEggsHatchingSlots = \u00A7f" + hudConfig.getDaycareEggsHatchingSlots() +
-                                            "\n\u00A77daycareBabyGuards = \u00A7f" + hudConfig.isDaycareBabyGuards() +
                                             "\n\u00A77wtMenuEnabled = \u00A7f" + hudConfig.isWtMenuEnabled() +
                                             "\n\u00A77wtShowChatReminders = \u00A7f" + hudConfig.isWtShowChatReminders() +
                                             "\n\u00A77wtSoundsEnabled = \u00A7f" + hudConfig.isWtSoundsEnabled() +
@@ -923,7 +1120,6 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                     "\u00A7e/saa config daycareMenuEnabled <bool>\u00A77 — Daycare HUD toggle\n" +
                                     "\u00A7e/saa config daycareSoundsEnabled <bool>\u00A77 — Daycare sound alerts toggle\n" +
                                     "\u00A7e/saa config daycareEggsHatchingSlots <0-5>\u00A77 — Max eggs shown (0=hide)\n" +
-                                    "\u00A7e/saa config daycareBabyGuards <bool>\u00A77 — Confirm before removing parents\n" +
                                     "\u00A7e/saa config wtMenuEnabled <bool>\u00A77 — Wondertrade HUD toggle\n" +
                                     "\u00A7e/saa config wtShowChatReminders <bool>\u00A77 — WT chat reminder toggle\n" +
                                     "\u00A7e/saa config wtSoundsEnabled <bool>\u00A77 — WT sound alerts toggle\n" +
