@@ -11,6 +11,7 @@ import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.MutableComponent;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -275,7 +276,7 @@ public class HudConfigScreen extends Screen {
         int titleWidth = this.font.width(title);
         graphics.drawString(this.font, title, (this.width - titleWidth) / 2, 10, COLOR_HEADER, true);
 
-        String hint = "Press Escape to save and close";
+        Component hint = Component.translatable("text.saa.save");
         int hintWidth = this.font.width(hint);
         graphics.drawString(this.font, hint, (this.width - hintWidth) / 2, 22, COLOR_HINT, true);
 
@@ -314,7 +315,7 @@ public class HudConfigScreen extends Screen {
         int bx = 8;
         int by = 8;
 
-        String resetPosText = "Reset Positions";
+        Component resetPosText = Component.translatable("text.saa.reset_pos");
         int resetPosW = this.font.width(resetPosText) + BUTTON_PADDING_X * 2;
         int buttonH = this.font.lineHeight + BUTTON_PADDING_Y * 2;
         boolean resetPosHovered = mouseX >= bx && mouseX <= bx + resetPosW
@@ -327,7 +328,7 @@ public class HudConfigScreen extends Screen {
 
         by += buttonH + BUTTON_SPACING;
 
-        String resetScaleText = "Reset Scale";
+        Component resetScaleText = Component.translatable("text.saa.reset_scale");
         int resetScaleW = this.font.width(resetScaleText) + BUTTON_PADDING_X * 2;
         boolean resetScaleHovered = mouseX >= bx && mouseX <= bx + resetScaleW
                 && mouseY >= by && mouseY <= by + buttonH;
@@ -339,7 +340,7 @@ public class HudConfigScreen extends Screen {
 
         by += buttonH + BUTTON_SPACING;
 
-        String suppressText = "Suppression Rules " + (suppressionMenuExpanded ? "\u25BC" : "\u25B6");
+        Component suppressText = Component.translatable("text.saa.suppression_rules").append(" ").append(suppressionMenuExpanded ? "\u25BC" : "\u25B6");
         int suppressW = this.font.width(suppressText) + BUTTON_PADDING_X * 2;
         boolean suppressHovered = mouseX >= bx && mouseX <= bx + suppressW
                 && mouseY >= by && mouseY <= by + buttonH;
@@ -353,7 +354,13 @@ public class HudConfigScreen extends Screen {
             by += buttonH + BUTTON_SPACING;
             int childX = bx + 4;
 
-            String[] labels = {"Raids", "Hideouts", "Dungeons", "Battles", "Hide HUD"};
+            MutableComponent[] labels = {
+                Component.translatable("text.saa.raids"),
+                Component.translatable("text.saa.hideouts"),
+                Component.translatable("text.saa.dungeons"),
+                Component.translatable("text.saa.battles"),
+                Component.translatable("text.saa.hide_hud")
+            };
             boolean[] values = {
                     hudConfig.isSuppressInRaids(), hudConfig.isSuppressInHideouts(),
                     hudConfig.isSuppressInDungeons(), hudConfig.isSuppressInBattles(),
@@ -362,7 +369,7 @@ public class HudConfigScreen extends Screen {
 
             for (int i = 0; i < labels.length; i++) {
                 boolean enabled = values[i];
-                String label = labels[i] + ": " + (enabled ? "ON" : "OFF");
+                Component label = labels[i].append(": ").append(enabled ? "ON" : "OFF");
                 int labelColor = enabled ? 0xFF55FF55 : 0xFFFF5555;
                 int labelW = this.font.width(label) + BUTTON_PADDING_X * 2;
                 boolean hovered = mouseX >= childX && mouseX <= childX + labelW
@@ -819,7 +826,7 @@ public class HudConfigScreen extends Screen {
     private void renderCompactSafariPreview(GuiGraphics graphics, PanelState panel) {
         int y = PADDING;
 
-        y = HudTextUtil.renderStatLine(graphics, this.font, "Safari:", "24:31",
+        y = HudTextUtil.renderStatLine(graphics, this.font, "Safari:", Component.literal("24:31"),
                 COLOR_HEADER, 0xFF55FF55, y, panel.unscaledWidth, PADDING, LINE_HEIGHT);
 
         String[][] placeholderHunts = {
@@ -836,7 +843,7 @@ public class HudConfigScreen extends Screen {
             int nameColor = i == 5 ? COLOR_PROGRESS_COMPLETE : slotColors[i];
             String nameAndCount = placeholderHunts[i][0] + " " + placeholderHunts[i][1];
             if (!placeholderHunts[i][2].isEmpty()) {
-                y = HudTextUtil.renderStatLine(graphics, this.font, nameAndCount, " " + placeholderHunts[i][2],
+                y = HudTextUtil.renderStatLine(graphics, this.font, nameAndCount, Component.literal(" " + placeholderHunts[i][2]),
                         nameColor, 0xFFFF8855, y, panel.unscaledWidth, PADDING, LINE_HEIGHT);
             } else {
                 graphics.drawString(this.font, nameAndCount, PADDING, y, nameColor, true);
@@ -865,7 +872,7 @@ public class HudConfigScreen extends Screen {
         graphics.fill(PADDING, y, PADDING + barWidth, y + 1, 0xFF555555);
         y += SECTION_SPACING;
 
-        graphics.drawString(this.font, "Active Hunts", PADDING, y, COLOR_HEADER, true);
+        graphics.drawString(this.font, Component.translatable("text.saa.active_hunts"), PADDING, y, COLOR_HEADER, true);
         y += LINE_HEIGHT + 2;
 
         String[][] placeholderHunts = {
@@ -882,7 +889,7 @@ public class HudConfigScreen extends Screen {
             int nameColor = complete ? COLOR_PROGRESS_COMPLETE : COLOR_TEXT;
 
             if (!placeholderHunts[i][3].isEmpty()) {
-                y = HudTextUtil.renderStatLine(graphics, this.font, placeholderHunts[i][0], placeholderHunts[i][3],
+                y = HudTextUtil.renderStatLine(graphics, this.font, placeholderHunts[i][0], Component.literal(placeholderHunts[i][3]),
                         nameColor, 0xFFFF8855, y, panel.unscaledWidth, PADDING, LINE_HEIGHT);
             } else {
                 graphics.drawString(this.font, placeholderHunts[i][0], PADDING, y, nameColor, true);
@@ -923,7 +930,7 @@ public class HudConfigScreen extends Screen {
         graphics.drawString(this.font, "Daycare", PADDING, y, COLOR_HEADER, true);
         y += LINE_HEIGHT;
 
-        graphics.drawString(this.font, "Breeding", PADDING, y, COLOR_SECTION_HEADER, true);
+        graphics.drawString(this.font, Component.translatable("text.saa.breeding"), PADDING, y, COLOR_SECTION_HEADER, true);
         y += LINE_HEIGHT;
 
         for (int i = 0; i < penCount; i++) {
@@ -931,18 +938,18 @@ public class HudConfigScreen extends Screen {
             String species = PLACEHOLDER_PEN_SPECIES[i % PLACEHOLDER_PEN_SPECIES.length];
             String timer = PLACEHOLDER_PEN_TIMERS[i % PLACEHOLDER_PEN_TIMERS.length];
             String namepart = penLabel + " " + species;
-            y = HudTextUtil.renderStatLine(graphics, this.font, namepart, timer,
+            y = HudTextUtil.renderStatLine(graphics, this.font, namepart, Component.literal(timer),
                     COLOR_TEXT, COLOR_TIMER_GREEN, y, panel.unscaledWidth, PADDING, LINE_HEIGHT);
         }
 
         if (maxEggs > 0) {
-            graphics.drawString(this.font, "Hatching", PADDING, y, COLOR_SECTION_HEADER, true);
+            graphics.drawString(this.font, Component.translatable("text.saa.hatching"), PADDING, y, COLOR_SECTION_HEADER, true);
             y += LINE_HEIGHT;
 
             for (int i = 0; i < maxEggs; i++) {
                 String eggName = PLACEHOLDER_EGG_NAMES[i % PLACEHOLDER_EGG_NAMES.length];
                 String eggTimer = PLACEHOLDER_EGG_TIMERS[i % PLACEHOLDER_EGG_TIMERS.length];
-                y = HudTextUtil.renderStatLine(graphics, this.font, eggName, eggTimer,
+                y = HudTextUtil.renderStatLine(graphics, this.font, eggName, Component.literal(eggTimer),
                         COLOR_TEXT, COLOR_TIMER_GREEN, y, panel.unscaledWidth, PADDING, LINE_HEIGHT);
             }
 
@@ -963,7 +970,7 @@ public class HudConfigScreen extends Screen {
         y += 2;
         graphics.fill(PADDING, y, panel.unscaledWidth - PADDING, y + 1, 0xFF555555);
         y += SECTION_SPACING;
-        graphics.drawString(this.font, "Breeding", PADDING, y, COLOR_SECTION_HEADER, true);
+        graphics.drawString(this.font, Component.translatable("text.saa.breeding"), PADDING, y, COLOR_SECTION_HEADER, true);
         y += LINE_HEIGHT;
 
         for (int i = 0; i < penCount; i++) {
@@ -973,7 +980,7 @@ public class HudConfigScreen extends Screen {
             float progress = PLACEHOLDER_PEN_PROGRESS[i % PLACEHOLDER_PEN_PROGRESS.length];
 
             String namepart = penLabel + " " + species;
-            y = HudTextUtil.renderStatLine(graphics, this.font, namepart, timer,
+            y = HudTextUtil.renderStatLine(graphics, this.font, namepart, Component.literal(timer),
                     COLOR_TEXT, COLOR_TIMER_GREEN, y, panel.unscaledWidth, PADDING, LINE_HEIGHT);
             graphics.fill(barX, y, barX + barWidth, y + 6, COLOR_TIMER_BAR_BG);
             graphics.fill(barX, y, barX + (int)(barWidth * progress), y + 6, COLOR_TIMER_GREEN);
@@ -984,7 +991,7 @@ public class HudConfigScreen extends Screen {
             y += 2;
             graphics.fill(PADDING, y, panel.unscaledWidth - PADDING, y + 1, 0xFF555555);
             y += SECTION_SPACING;
-            graphics.drawString(this.font, "Hatching", PADDING, y, COLOR_SECTION_HEADER, true);
+            graphics.drawString(this.font, Component.translatable("text.saa.hatching"), PADDING, y, COLOR_SECTION_HEADER, true);
             y += LINE_HEIGHT;
 
             for (int i = 0; i < maxEggs; i++) {
@@ -992,7 +999,7 @@ public class HudConfigScreen extends Screen {
                 String eggTimer = PLACEHOLDER_EGG_TIMERS[i % PLACEHOLDER_EGG_TIMERS.length];
                 float progress = PLACEHOLDER_EGG_PROGRESS[i % PLACEHOLDER_EGG_PROGRESS.length];
 
-                y = HudTextUtil.renderStatLine(graphics, this.font, eggName, eggTimer,
+                y = HudTextUtil.renderStatLine(graphics, this.font, eggName, Component.literal(eggTimer),
                         COLOR_TEXT, COLOR_TIMER_GREEN, y, panel.unscaledWidth, PADDING, LINE_HEIGHT);
 
                 graphics.fill(barX, y, barX + barWidth, y + 6, COLOR_TIMER_BAR_BG);
@@ -1020,7 +1027,7 @@ public class HudConfigScreen extends Screen {
 
     private void renderCompactWtPreview(GuiGraphics graphics, PanelState panel) {
         int y = PADDING;
-        HudTextUtil.renderStatLine(graphics, this.font, "WT Time:", "42:15",
+        HudTextUtil.renderStatLine(graphics, this.font, "WT Time:", Component.literal("42:15"),
                 COLOR_HEADER, 0xFF55FF55, y, panel.unscaledWidth, PADDING, LINE_HEIGHT);
     }
 
@@ -1564,19 +1571,19 @@ public class HudConfigScreen extends Screen {
         int by = 8;
         int buttonH = this.font.lineHeight + BUTTON_PADDING_Y * 2;
 
-        int resetPosW = this.font.width("Reset Positions") + BUTTON_PADDING_X * 2;
+        int resetPosW = this.font.width(Component.translatable("text.saa.reset_pos")) + BUTTON_PADDING_X * 2;
         if (mx >= bx && mx <= bx + resetPosW && my >= by && my <= by + buttonH) {
             return 0;
         }
 
         by += buttonH + BUTTON_SPACING;
-        int resetScaleW = this.font.width("Reset Scale") + BUTTON_PADDING_X * 2;
+        int resetScaleW = this.font.width(Component.translatable("text.saa.reset_scame")) + BUTTON_PADDING_X * 2;
         if (mx >= bx && mx <= bx + resetScaleW && my >= by && my <= by + buttonH) {
             return 1;
         }
 
         by += buttonH + BUTTON_SPACING;
-        String suppressText = "Suppression Rules " + (suppressionMenuExpanded ? "\u25BC" : "\u25B6");
+        Component suppressText = Component.translatable("text.saa.suppression_rules").append(" ").append(suppressionMenuExpanded ? "\u25BC" : "\u25B6");
         int suppressW = this.font.width(suppressText) + BUTTON_PADDING_X * 2;
         if (mx >= bx && mx <= bx + suppressW && my >= by && my <= by + buttonH) {
             return 2;
@@ -1585,18 +1592,29 @@ public class HudConfigScreen extends Screen {
         if (suppressionMenuExpanded) {
             by += buttonH + BUTTON_SPACING;
             int childX = bx + 4;
-            String[] labels = {"Raids", "Hideouts", "Dungeons", "Battles", "Hide HUD"};
+
+            MutableComponent[] labels = {
+                Component.translatable("text.saa.raids"),
+                Component.translatable("text.saa.hideouts"),
+                Component.translatable("text.saa.dungeons"),
+                Component.translatable("text.saa.battles"),
+                Component.translatable("text.saa.hide_hud")
+            };
+
             boolean[] values = {
                     hudConfig.isSuppressInRaids(), hudConfig.isSuppressInHideouts(),
                     hudConfig.isSuppressInDungeons(), hudConfig.isSuppressInBattles(),
                     hudConfig.isHudHidden()
             };
+
             for (int i = 0; i < labels.length; i++) {
-                String label = labels[i] + ": " + (values[i] ? "ON" : "OFF");
+                Component label = labels[i].append(" ").append(values[i] ? "ON" : "OFF");
+
                 int labelW = this.font.width(label) + BUTTON_PADDING_X * 2;
                 if (mx >= childX && mx <= childX + labelW && my >= by && my <= by + buttonH) {
                     return 3 + i;
                 }
+
                 by += buttonH + BUTTON_SPACING;
             }
         }
@@ -1696,7 +1714,7 @@ public class HudConfigScreen extends Screen {
                 {"Armor", "+2%"},
         };
         for (String[] stat : playerStats) {
-            y = HudTextUtil.renderStatLine(graphics, this.font, stat[0], stat[1],
+            y = HudTextUtil.renderStatLine(graphics, this.font, stat[0], Component.literal(stat[1]),
                     COLOR_TEXT, 0xFF55FF55, y, panel.unscaledWidth, PADDING, LINE_HEIGHT);
         }
 
@@ -1709,7 +1727,7 @@ public class HudConfigScreen extends Screen {
                 {"Type Spawn Chance", "+3%"},
         };
         for (String[] stat : cardStats) {
-            y = HudTextUtil.renderStatLine(graphics, this.font, stat[0], stat[1],
+            y = HudTextUtil.renderStatLine(graphics, this.font, stat[0], Component.literal(stat[1]),
                     COLOR_TEXT, 0xFF55FF55, y, panel.unscaledWidth, PADDING, LINE_HEIGHT);
         }
     }
@@ -1733,7 +1751,7 @@ public class HudConfigScreen extends Screen {
                 {"Armor", "+2%"},
         };
         for (String[] stat : playerStats) {
-            y = HudTextUtil.renderStatLine(graphics, this.font, stat[0], stat[1],
+            y = HudTextUtil.renderStatLine(graphics, this.font, stat[0], Component.literal(stat[1]),
                     COLOR_TEXT, 0xFF55FF55, y, panel.unscaledWidth, PADDING, LINE_HEIGHT);
         }
 
@@ -1750,7 +1768,7 @@ public class HudConfigScreen extends Screen {
                 {"Type Spawn Chance", "+3%"},
         };
         for (String[] stat : cardStats) {
-            y = HudTextUtil.renderStatLine(graphics, this.font, stat[0], stat[1],
+            y = HudTextUtil.renderStatLine(graphics, this.font, stat[0], Component.literal(stat[1]),
                     COLOR_TEXT, 0xFF55FF55, y, panel.unscaledWidth, PADDING, LINE_HEIGHT);
         }
     }
@@ -1803,7 +1821,7 @@ public class HudConfigScreen extends Screen {
             int height = PADDING;
             height += HudTextUtil.wrappedCenteredHeight(this.font, "Safari: 24:31", width, LINE_HEIGHT);
             for (int i = 0; i < SAFARI_MAX_HUNTS; i++) {
-                height += HudTextUtil.statLineHeight(this.font, "Electric Type", "[12/25] - 3h 20m", width, PADDING, LINE_HEIGHT);
+                height += HudTextUtil.statLineHeight(this.font, "Electric Type", Component.literal("[12/25] - 3h 20m"), width, PADDING, LINE_HEIGHT);
             }
             height += PADDING;
             return height;
@@ -1870,10 +1888,10 @@ public class HudConfigScreen extends Screen {
             int height = PADDING;
             height += LINE_HEIGHT;
             height += LINE_HEIGHT;            for (String[] stat : playerStats) {
-                height += HudTextUtil.statLineHeight(this.font, stat[0], stat[1], width, PADDING, LINE_HEIGHT);
+                height += HudTextUtil.statLineHeight(this.font, stat[0], Component.literal(stat[1]), width, PADDING, LINE_HEIGHT);
             }
             height += LINE_HEIGHT;            for (String[] stat : cardStats) {
-                height += HudTextUtil.statLineHeight(this.font, stat[0], stat[1], width, PADDING, LINE_HEIGHT);
+                height += HudTextUtil.statLineHeight(this.font, stat[0], Component.literal(stat[1]), width, PADDING, LINE_HEIGHT);
             }
             height += PADDING;
             return height;
@@ -1882,11 +1900,11 @@ public class HudConfigScreen extends Screen {
             height += HudTextUtil.wrappedCenteredHeight(this.font, "SAA Stats", width, LINE_HEIGHT);
             height += 2 + SECTION_SPACING;
             height += LINE_HEIGHT;            for (String[] stat : playerStats) {
-                height += HudTextUtil.statLineHeight(this.font, stat[0], stat[1], width, PADDING, LINE_HEIGHT);
+                height += HudTextUtil.statLineHeight(this.font, stat[0], Component.literal(stat[1]), width, PADDING, LINE_HEIGHT);
             }
             height += 2 + SECTION_SPACING;
             height += LINE_HEIGHT;            for (String[] stat : cardStats) {
-                height += HudTextUtil.statLineHeight(this.font, stat[0], stat[1], width, PADDING, LINE_HEIGHT);
+                height += HudTextUtil.statLineHeight(this.font, stat[0], Component.literal(stat[1]), width, PADDING, LINE_HEIGHT);
             }
             height += PADDING;
             return height;

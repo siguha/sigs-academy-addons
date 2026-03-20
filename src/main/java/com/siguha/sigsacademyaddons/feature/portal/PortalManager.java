@@ -1,9 +1,12 @@
 package com.siguha.sigsacademyaddons.feature.portal;
 
 import com.siguha.sigsacademyaddons.SigsAcademyAddons;
+
+import net.minecraft.ChatFormatting;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.core.BlockPos;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.Mth;
@@ -103,22 +106,22 @@ public class PortalManager {
         activeScanId = -1;
     }
 
-    public String trackPortal(int id) {
+    public Component trackPortal(int id) {
         PendingPortal pending = pendingPortals.get(id);
         if (pending == null) {
             // Could have been auto-tracked already
             if (isActive()) {
-                return "\u00A7aAlready tracking a portal.";
+                return Component.translatable("text.saa.already_tracking").withStyle(ChatFormatting.GREEN);
             }
-            return "\u00A7cPortal has expired or is no longer available.";
+            return Component.translatable("text.saa.expired_tracking").withStyle(ChatFormatting.RED);
         }
 
         switch (pending.state) {
             case SCANNING:
-                return "\u00A7eStill locating portal, try again in a moment...";
+                return Component.translatable("text.saa.scanning_tracking").withStyle(ChatFormatting.YELLOW);
             case FAILED:
                 pendingPortals.remove(id);
-                return "\u00A7cPortal could not be located.";
+                return Component.translatable("text.saa.failed_tracking").withStyle(ChatFormatting.RED);
             case LOCATED:
                 break;
         }
@@ -126,9 +129,10 @@ public class PortalManager {
         activatePortal(pending);
         pendingPortals.remove(id);
 
-        String typeText = pending.type == PortalType.HIDEOUT ? "Hideout" : "Raid";
-        return "\u00A7aTracking Tier " + pending.tier + " " + typeText + " at " +
-                pending.position.getX() + ", " + pending.position.getY() + ", " + pending.position.getZ();
+        Component typeText = pending.type == PortalType.HIDEOUT ? Component.translatable("text.saa.hideouts") : Component.translatable("text.saa.raids");
+        Component trackingText = Component.translatable("text.saa.tracking", pending.tier, typeText, pending.position.getX(), pending.position.getY(), pending.position.getZ()).withStyle(ChatFormatting.GREEN);
+
+        return trackingText;
     }
 
     private void activatePortal(PendingPortal pending) {
@@ -172,10 +176,11 @@ public class PortalManager {
         return portalPos;
     }
 
-    public String getDisplayText() {
-        if (!isActive()) return "";
-        String typeText = activeType == PortalType.HIDEOUT ? "Hideout" : "Raid";
-        return "Tier " + activeTier + " " + typeText + " Spawned";
+    public Component getDisplayText() {
+        if (!isActive()) return Component.literal("");
+        Component typeText = activeType == PortalType.HIDEOUT ? Component.translatable("text.saa.hideouts") : Component.translatable("text.saa.raids");
+
+        return Component.translatable("text.saa.portal_display_name", activeTier, typeText);
     }
 
     public double getFullDistance() {

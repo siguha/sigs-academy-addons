@@ -1,6 +1,8 @@
 package com.siguha.sigsacademyaddons.handler;
 
 import com.siguha.sigsacademyaddons.SigsAcademyAddons;
+
+import net.minecraft.ChatFormatting;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.core.particles.ParticleOptions;
@@ -51,10 +53,10 @@ public class ParticleCapture {
             if (player != null) {
                 int secondsElapsed = elapsed / 20;
                 int secondsRemaining = remainingTicks / 20;
-                player.sendSystemMessage(Component.literal(
-                        "\u00A7e[SAA] Capturing... " + entries.size() +
-                                " particles so far (" + secondsElapsed + "s elapsed, " +
-                                secondsRemaining + "s remaining)"));
+                player.sendSystemMessage(Component.translatable(
+                    "text.saa.particle_capture.progress",
+                    entries.size(), secondsElapsed, secondsRemaining)
+                        .withStyle(ChatFormatting.YELLOW));
             }
         }
 
@@ -64,12 +66,13 @@ public class ParticleCapture {
             LocalPlayer player = Minecraft.getInstance().player;
             if (player != null) {
                 if (path != null) {
-                    player.sendSystemMessage(Component.literal(
-                            "\u00A7a[SAA] Particle capture complete! " + entries.size() +
-                                    " particles captured.\n\u00A77Saved to: \u00A7f" + path));
+                        player.sendSystemMessage(Component.translatable(
+                            "text.saa.particle_capture.complete",
+                            entries.size(), path)
+                                .withStyle(ChatFormatting.GREEN));
                 } else {
-                    player.sendSystemMessage(Component.literal(
-                            "\u00A7c[SAA] Particle capture failed to save."));
+                        player.sendSystemMessage(Component.translatable("text.saa.particle_capture.failed")
+                                .withStyle(ChatFormatting.RED));
                 }
             }
         }

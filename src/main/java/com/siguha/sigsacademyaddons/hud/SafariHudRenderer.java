@@ -9,6 +9,7 @@ import net.minecraft.client.DeltaTracker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.network.chat.Component;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -383,7 +384,7 @@ public class SafariHudRenderer implements HudPanel {
     private void renderHuntSection(GuiGraphics graphics, Font font, int startY, int panelWidth) {
         int y = startY;
 
-        graphics.drawString(font, "Active Hunts", PADDING, y, COLOR_HEADER, true);
+        graphics.drawString(font, Component.translatable("text.saa.active_hunts"), PADDING, y, COLOR_HEADER, true);
         y += LINE_HEIGHT + 2;
 
         List<SafariHuntData> hunts = safariHuntManager.getActiveHunts();

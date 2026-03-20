@@ -2,6 +2,7 @@ package com.siguha.sigsacademyaddons.hud;
 
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.network.chat.Component;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -63,7 +64,7 @@ public class HudTextUtil {
     }
 
     public static int renderStatLine(GuiGraphics graphics, Font font,
-                                      String name, String value,
+                                      String name, Component value,
                                       int nameColor, int valueColor,
                                       int y, int panelWidth, int padding, int lineHeight) {
         int available = panelWidth - padding * 2 - 2;
@@ -82,7 +83,7 @@ public class HudTextUtil {
         }
     }
 
-    public static int statLineHeight(Font font, String name, String value,
+    public static int statLineHeight(Font font, String name, Component value,
                                       int panelWidth, int padding, int lineHeight) {
         int available = panelWidth - padding * 2 - 2;
         int nameWidth = font.width(name);

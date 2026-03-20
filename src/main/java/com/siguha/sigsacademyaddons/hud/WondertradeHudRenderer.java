@@ -6,6 +6,7 @@ import net.minecraft.client.DeltaTracker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.network.chat.Component;
 
 public class WondertradeHudRenderer implements HudPanel {
 
@@ -142,11 +143,12 @@ public class WondertradeHudRenderer implements HudPanel {
         currentY += SECTION_SPACING;
 
         if (!wondertradeManager.hasTimer()) {
-            String unsetText = "Please use WT once to set menu.";
-            currentY = HudTextUtil.renderWrappedCentered(graphics, font, unsetText, panelWidth, currentY, COLOR_TEXT_UNSET, LINE_HEIGHT);
+            Component unsetText = Component.translatable("text.saa.wt_unset");
+            int unsetWidth = font.width(unsetText);
+            graphics.drawString(font, unsetText, (panelWidth - unsetWidth) / 2, currentY, COLOR_TEXT_UNSET, true);
 
         } else if (wondertradeManager.isCooldownOver()) {
-            String doneText = "Cooldown Over!";
+            Component doneText = Component.translatable("text.saa.wt_done");
             int doneWidth = font.width(doneText);
             graphics.drawString(font, doneText, (panelWidth - doneWidth) / 2, currentY, COLOR_TIMER, true);
             currentY += LINE_HEIGHT;
@@ -207,7 +209,7 @@ public class WondertradeHudRenderer implements HudPanel {
     private int calculatePanelWidth(Font font) {
         int maxWidth = PANEL_MIN_WIDTH;
         maxWidth = Math.max(maxWidth, font.width("SAA Wondertrade Helper") + PADDING * 2);
-        maxWidth = Math.max(maxWidth, font.width("Please use WT once to set menu.") + PADDING * 2);
+        maxWidth = Math.max(maxWidth, font.width(Component.translatable("text.saa.wt_unset")) + PADDING * 2);
 
         return maxWidth + PADDING * 2;
     }

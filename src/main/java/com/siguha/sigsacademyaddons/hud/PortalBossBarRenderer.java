@@ -6,6 +6,7 @@ import net.minecraft.client.DeltaTracker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 
 public class PortalBossBarRenderer {
@@ -49,19 +50,22 @@ public class PortalBossBarRenderer {
         int screenCenterX = screenWidth / 2;
         int barX = screenCenterX - BAR_WIDTH / 2;
 
-        String titleText = portalManager.getDisplayText();
+        Component titleText = portalManager.getDisplayText();
         drawScaledCenteredString(graphics, font, titleText, screenCenterX, TITLE_Y,
                 TITLE_TEXT_SCALE, COLOR_TITLE);
 
         int horizontalDist = (int) portalManager.getHorizontalDistance();
         double verticalDelta = portalManager.getVerticalDelta();
-        String distText;
+        Component distText;
         if (Math.abs(verticalDelta) > 2.0) {
             int vertDist = (int) verticalDelta;
-            String vertLabel = vertDist > 0 ? vertDist + " Above" : Math.abs(vertDist) + " Below";
-            distText = horizontalDist + " Blocks Away (" + vertLabel + ")";
+            Component vertLabel = vertDist > 0 ? 
+                Component.literal(Integer.toString(vertDist)).append(Component.translatable("text.saa.above")).append(")") :
+                Component.literal(Integer.toString( Math.abs(vertDist))).append(Component.translatable("text.saa.below")).append(")");
+                
+            distText = Component.translatable("text.saa.blocks_away").append(" (").append(vertLabel).append(")");
         } else {
-            distText = horizontalDist + " Blocks Away";
+            distText = Component.translatable("text.saa.blocks_away", horizontalDist);
         }
         drawScaledCenteredString(graphics, font, distText, screenCenterX, DISTANCE_Y,
                 DISTANCE_TEXT_SCALE, COLOR_DISTANCE);
@@ -87,7 +91,7 @@ public class PortalBossBarRenderer {
         }
     }
 
-    private void drawScaledCenteredString(GuiGraphics graphics, Font font, String text,
+    private void drawScaledCenteredString(GuiGraphics graphics, Font font, Component text,
                                           int centerX, int y, float scale, int color) {
         float textWidth = font.width(text);
         float scaledHalfWidth = (textWidth * scale) / 2.0f;

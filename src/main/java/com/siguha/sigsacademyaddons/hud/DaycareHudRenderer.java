@@ -7,6 +7,7 @@ import net.minecraft.client.DeltaTracker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
@@ -210,7 +211,7 @@ public class DaycareHudRenderer implements HudPanel {
 
         boolean hasAnyPen = !displayPens.isEmpty();
         if (hasAnyPen) {
-            graphics.drawString(font, "Breeding", PADDING, currentY, COLOR_SECTION_HEADER, true);
+            graphics.drawString(font, Component.translatable("text.saa.breeding"), PADDING, currentY, COLOR_SECTION_HEADER, true);
             currentY += LINE_HEIGHT;
 
             for (DaycareState.PenState pen : displayPens) {
@@ -219,7 +220,7 @@ public class DaycareHudRenderer implements HudPanel {
         }
 
         if (maxDisplayEggs > 0 && !displayEggs.isEmpty()) {
-            graphics.drawString(font, "Hatching", PADDING, currentY, COLOR_SECTION_HEADER, true);
+            graphics.drawString(font, Component.translatable("text.saa.hatching"), PADDING, currentY, COLOR_SECTION_HEADER, true);
 
             int eggsHatched = daycareManager.getEggsHatchedSinceMenuOpen();
             if (eggsHatched > 0) {
@@ -329,7 +330,8 @@ public class DaycareHudRenderer implements HudPanel {
                                        int startY, int panelWidth) {
         int y = startY;
         String label = egg.getDisplayLabel();
-        String timerText = egg.getRemainingFormatted();
+        graphics.drawString(font, label, PADDING + 2, y, COLOR_TEXT_PRIMARY, true);
+        Component timerText = egg.getRemainingFormatted();
         int timerColor = getTimerColor(egg.getProgress());
         return HudTextUtil.renderStatLine(graphics, font, label, timerText,
                 COLOR_TEXT_PRIMARY, timerColor, y, panelWidth, PADDING, LINE_HEIGHT);
@@ -350,7 +352,7 @@ public class DaycareHudRenderer implements HudPanel {
             graphics.fill(PADDING, currentY, panelWidth - PADDING, currentY + 1, 0xFF555555);
             currentY += SECTION_SPACING;
 
-            graphics.drawString(font, "Breeding", PADDING, currentY, COLOR_SECTION_HEADER, true);
+            graphics.drawString(font, Component.translatable("text.saa.breeding"), PADDING, currentY, COLOR_SECTION_HEADER, true);
             currentY += LINE_HEIGHT;
 
             for (DaycareState.PenState pen : displayPens) {
@@ -363,7 +365,7 @@ public class DaycareHudRenderer implements HudPanel {
             graphics.fill(PADDING, currentY, panelWidth - PADDING, currentY + 1, 0xFF555555);
             currentY += SECTION_SPACING;
 
-            graphics.drawString(font, "Hatching", PADDING, currentY, COLOR_SECTION_HEADER, true);
+            graphics.drawString(font, Component.translatable("text.saa.hatching"), PADDING, currentY, COLOR_SECTION_HEADER, true);
 
             int eggsHatched = daycareManager.getEggsHatchedSinceMenuOpen();
             if (eggsHatched > 0) {
@@ -448,7 +450,7 @@ public class DaycareHudRenderer implements HudPanel {
 
             case NEEDS_RESET -> {
                 String species = getPenSpeciesLabel(pen);
-                String resetText = "Parents Need Reset!";
+                Component resetText = Component.translatable("text.saa.parent_reset");
 
                 graphics.drawString(font, penLabel, PADDING + 2, y, COLOR_PEN_LABEL, true);
                 graphics.drawString(font, species, textX, y, COLOR_TEXT_PRIMARY, true);
@@ -473,7 +475,10 @@ public class DaycareHudRenderer implements HudPanel {
 
             case INCOMPATIBLE -> {
                 graphics.drawString(font, penLabel, PADDING + 2, y, COLOR_PEN_LABEL, true);
-                graphics.drawString(font, "Incompatible Setup", textX, y, COLOR_INCOMPATIBLE, true);
+                textX = PADDING + 2 + font.width(penLabel) + 4;
+
+                Component incompatText = Component.translatable("text.saa.parent_incomp");
+                graphics.drawString(font, incompatText, textX, y, COLOR_INCOMPATIBLE, true);
                 y += LINE_HEIGHT;
 
                 int barX = PADDING + 2;
@@ -491,7 +496,9 @@ public class DaycareHudRenderer implements HudPanel {
         int y = startY;
 
         String label = egg.getDisplayLabel();
-        String timerText = egg.getRemainingFormatted();
+        graphics.drawString(font, label, PADDING + 2, y, COLOR_TEXT_PRIMARY, true);
+
+        Component timerText = egg.getRemainingFormatted();
         int timerColor = getTimerColor(egg.getProgress());
 
         y = HudTextUtil.renderStatLine(graphics, font, label, timerText,
@@ -539,7 +546,7 @@ public class DaycareHudRenderer implements HudPanel {
 
         for (DaycareState.ClaimedEgg egg : eggs) {
             String label = egg.getDisplayLabel();
-            String timer = egg.getRemainingFormatted();
+            Component timer = egg.getRemainingFormatted();
             int lineWidth = font.width(label) + font.width(timer) + PADDING * 2 + 8;
             maxWidth = Math.max(maxWidth, lineWidth);
         }
@@ -548,7 +555,7 @@ public class DaycareHudRenderer implements HudPanel {
             int eggsHatched = daycareManager.getEggsHatchedSinceMenuOpen();
             if (eggsHatched > 0) {
                 String hatchedText = eggsHatched + " Hatched";
-                int headerLineWidth = font.width("Hatching") + 8 + font.width(hatchedText) + PADDING * 2;
+                int headerLineWidth = font.width(Component.translatable("text.saa.hatching")) + 8 + font.width(hatchedText) + PADDING * 2;
                 maxWidth = Math.max(maxWidth, headerLineWidth);
             }
         }
@@ -612,7 +619,7 @@ public class DaycareHudRenderer implements HudPanel {
 
         for (DaycareState.ClaimedEgg egg : eggs) {
             String label = egg.getDisplayLabel();
-            String timer = egg.getRemainingFormatted();
+            Component timer = egg.getRemainingFormatted();
             int lineWidth = font.width(label) + font.width(timer) + PADDING * 2 + 8;
             maxWidth = Math.max(maxWidth, lineWidth);
         }
@@ -622,7 +629,7 @@ public class DaycareHudRenderer implements HudPanel {
 
             if (eggsHatched > 0) {
                 String hatchedText = eggsHatched + " Egg" + (eggsHatched != 1 ? "s" : "") + " Hatched";
-                int headerLineWidth = font.width("Hatching") + 8 + font.width(hatchedText) + PADDING * 2;
+                int headerLineWidth = font.width(Component.translatable("text.saa.hatching")) + 8 + font.width(hatchedText) + PADDING * 2;
                 maxWidth = Math.max(maxWidth, headerLineWidth);
             }
         }
