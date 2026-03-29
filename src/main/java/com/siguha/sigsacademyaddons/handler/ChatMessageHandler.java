@@ -55,8 +55,8 @@ public class ChatMessageHandler {
 
     public ChatMessageHandler(SafariManager safariManager, SafariHuntManager safariHuntManager,
                               CatchDetector catchDetector, DaycareManager daycareManager,
-                              WondertradeManager wondertradeManager, PortalManager portalManager,
-                              HudConfig hudConfig) {
+                              WondertradeManager wondertradeManager,
+                              PortalManager portalManager, HudConfig hudConfig) {
         this.safariManager = safariManager;
         this.safariHuntManager = safariHuntManager;
         this.catchDetector = catchDetector;

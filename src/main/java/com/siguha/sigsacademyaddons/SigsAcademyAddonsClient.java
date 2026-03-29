@@ -5,10 +5,13 @@ import com.mojang.brigadier.arguments.BoolArgumentType;
 import com.mojang.brigadier.arguments.FloatArgumentType;
 import com.mojang.brigadier.arguments.IntegerArgumentType;
 import com.siguha.sigsacademyaddons.config.HudConfig;
+import com.siguha.sigsacademyaddons.data.CardGradingDataStore;
 import com.siguha.sigsacademyaddons.data.DaycareDataStore;
 import com.siguha.sigsacademyaddons.data.HuntDataStore;
 import com.siguha.sigsacademyaddons.data.WondertradeDataStore;
 import com.siguha.sigsacademyaddons.feature.cardalbum.CardAlbumQuickOpen;
+import com.siguha.sigsacademyaddons.feature.cardgrading.CardGradingManager;
+import com.siguha.sigsacademyaddons.feature.cardgrading.CardGradingSoundPlayer;
 import com.siguha.sigsacademyaddons.feature.cardstats.CardStatsManager;
 import com.siguha.sigsacademyaddons.feature.daycare.DaycareManager;
 import com.siguha.sigsacademyaddons.feature.daycare.DaycareSoundPlayer;
@@ -36,6 +39,7 @@ import com.siguha.sigsacademyaddons.hud.HudGroupRenderer;
 import com.siguha.sigsacademyaddons.hud.PortalBossBarRenderer;
 import com.siguha.sigsacademyaddons.hud.SafariHudRenderer;
 import com.siguha.sigsacademyaddons.hud.CardStatsHudRenderer;
+import com.siguha.sigsacademyaddons.hud.CardGradingHudRenderer;
 import com.siguha.sigsacademyaddons.hud.WondertradeHudRenderer;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.command.v2.ClientCommandManager;
@@ -74,6 +78,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
     private static DaycareSoundPlayer daycareSoundPlayer;
     private static WondertradeManager wondertradeManager;
     private static WondertradeSoundPlayer wondertradeSoundPlayer;
+    private static CardGradingManager cardGradingManager;
     private static PortalManager portalManager;
     private static DriflootDetector driflootDetector;
     private static GruntFinderTracker gruntFinderTracker;
@@ -106,6 +111,8 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
         WondertradeDataStore wtDataStore = new WondertradeDataStore();
         wondertradeSoundPlayer = new WondertradeSoundPlayer(hudConfig);
         wondertradeManager = new WondertradeManager(wtDataStore, wondertradeSoundPlayer, hudConfig);
+        CardGradingSoundPlayer cardGradingSoundPlayer = new CardGradingSoundPlayer(hudConfig);
+        cardGradingManager = new CardGradingManager(new CardGradingDataStore(), cardGradingSoundPlayer);
 
         portalManager = new PortalManager();
         driflootDetector = new DriflootDetector(hudConfig);
@@ -130,6 +137,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
         DaycareHudRenderer daycareHudRenderer = new DaycareHudRenderer(daycareManager, hudConfig);
         WondertradeHudRenderer wtHudRenderer = new WondertradeHudRenderer(wondertradeManager, hudConfig);
         CardStatsHudRenderer cardStatsHudRenderer = new CardStatsHudRenderer(cardStatsManager, hudConfig);
+        CardGradingHudRenderer cardGradingHudRenderer = new CardGradingHudRenderer(cardGradingManager, hudConfig);
         PortalBossBarRenderer portalBossBarRenderer = new PortalBossBarRenderer(portalManager, suppressionManager);
 
         ClientReceiveMessageEvents.MODIFY_GAME.register(chatHandler::modifyGameMessage);
@@ -159,6 +167,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
             daycareSoundPlayer.tick();
             wondertradeManager.tick();
             wondertradeSoundPlayer.tick();
+            cardGradingManager.tick();
             portalManager.tick();
             driflootDetector.tick();
             dungeonManager.tick();
@@ -194,6 +203,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
         groupRenderer.registerPanel(hudRenderer);
         groupRenderer.registerPanel(daycareHudRenderer);
         groupRenderer.registerPanel(wtHudRenderer);
+        groupRenderer.registerPanel(cardGradingHudRenderer);
         groupRenderer.registerPanel(cardStatsHudRenderer);
         HudRenderCallback.EVENT.register(groupRenderer::onHudRender);
         HudRenderCallback.EVENT.register(portalBossBarRenderer::onHudRender);
@@ -211,11 +221,13 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
         ClientPlayConnectionEvents.JOIN.register((handler, sender, client) -> {
             daycareManager.onServerJoined();
             wondertradeManager.onServerJoined();
+            cardGradingManager.onServerJoined();
             welcomeDelayTicks = 60;
         });
         ClientPlayConnectionEvents.DISCONNECT.register((handler, client) -> {
             daycareManager.onServerDisconnected();
             wondertradeManager.onServerDisconnected();
+            cardGradingManager.onServerDisconnected();
             portalManager.clear();
             welcomeDelayTicks = -1;
             UpdateChecker.resetForNewSession();
@@ -303,6 +315,9 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                             hudConfig.setWtScale(1.0f);
                                             hudConfig.setWtPositionFromAbsolute(
                                                     sw - 145, sh - 80, 140, 70, sw, sh);
+                                            hudConfig.setCardGradingScale(1.0f);
+                                            hudConfig.setCardGradingPositionFromAbsolute(
+                                                    sw - 145, sh - 150, 140, 70, sw, sh);
                                             hudConfig.setCardStatsScale(1.0f);
                                             hudConfig.setCardStatsPositionFromAbsolute(
                                                     5, sh - 100, 120, 80, sw, sh);
@@ -454,6 +469,44 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                     sb.append("\n\u00A77Chat reminders: \u00A7f").append(hudConfig.isWtShowChatReminders());
                                     sb.append("\n\u00A77Sounds enabled: \u00A7f").append(hudConfig.isWtSoundsEnabled());
                                     sb.append("\n\u00A77WT scale: \u00A7f").append(String.format("%.0f%%", hudConfig.getWtScale() * 100));
+
+                                    context.getSource().sendFeedback(Component.literal(sb.toString()));
+                                    return 1;
+                                })
+                        )
+                        .then(ClientCommandManager.literal("grading")
+                                .then(ClientCommandManager.literal("testSound")
+                                        .executes(context -> {
+                                            cardGradingManager.playTestSound();
+                                            context.getSource().sendFeedback(
+                                                    Component.literal("\u00A7aPlayed card grading ding."));
+                                            return 1;
+                                        })
+                                )
+                                .then(ClientCommandManager.literal("clear")
+                                        .executes(context -> {
+                                            cardGradingManager.clearAll();
+                                            context.getSource().sendFeedback(
+                                                    Component.literal("\u00A7aCleared card grading timer data."));
+                                            return 1;
+                                        })
+                                )
+                                .executes(context -> {
+                                    StringBuilder sb = new StringBuilder();
+                                    sb.append("\u00A76Card Grading Status:\n");
+                                    if (!cardGradingManager.hasTimer()) {
+                                        sb.append("\u00A77Timer: \u00A7cNot set");
+                                    } else if (cardGradingManager.isReadyToClaim()) {
+                                        sb.append("\u00A77Timer: \u00A7aReady to claim!");
+                                    } else {
+                                        sb.append("\u00A77Timer: \u00A7f")
+                                                .append(cardGradingManager.getRemainingFormatted())
+                                                .append(" remaining");
+                                    }
+                                    sb.append("\n\u00A77Menu enabled: \u00A7f").append(hudConfig.isCardGradingMenuEnabled());
+                                    sb.append("\n\u00A77Sounds enabled: \u00A7f").append(hudConfig.isCardGradingSoundsEnabled());
+                                    sb.append("\n\u00A77Grading scale: \u00A7f")
+                                            .append(String.format("%.0f%%", hudConfig.getCardGradingScale() * 100));
 
                                     context.getSource().sendFeedback(Component.literal(sb.toString()));
                                     return 1;
@@ -785,6 +838,55 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                                     "\u00A77menuEnabled = \u00A7f" + hudConfig.isWtMenuEnabled() +
                                                     "\n\u00A77showChatReminders = \u00A7f" + hudConfig.isWtShowChatReminders() +
                                                     "\n\u00A77soundsEnabled = \u00A7f" + hudConfig.isWtSoundsEnabled()));
+                                            return 1;
+                                        })
+                                )
+                                .then(ClientCommandManager.literal("grading")
+                                        .then(ClientCommandManager.literal("menuEnabled")
+                                                .then(ClientCommandManager.argument("value", BoolArgumentType.bool())
+                                                        .executes(context -> {
+                                                            boolean value = BoolArgumentType.getBool(context, "value");
+                                                            hudConfig.setCardGradingMenuEnabled(value);
+                                                            String msg = value
+                                                                    ? "\u00A7aCard grading HUD enabled."
+                                                                    : "\u00A7aCard grading HUD disabled.";
+                                                            context.getSource().sendFeedback(Component.literal(msg));
+                                                            return 1;
+                                                        })
+                                                )
+                                                .executes(context -> {
+                                                    boolean current = hudConfig.isCardGradingMenuEnabled();
+                                                    context.getSource().sendFeedback(Component.literal(
+                                                            "\u00A77menuEnabled = \u00A7f" + current +
+                                                            "\n\u00A77Usage: \u00A7e/saa config grading menuEnabled <true|false>"));
+                                                    return 1;
+                                                })
+                                        )
+                                        .then(ClientCommandManager.literal("soundsEnabled")
+                                                .then(ClientCommandManager.argument("value", BoolArgumentType.bool())
+                                                        .executes(context -> {
+                                                            boolean value = BoolArgumentType.getBool(context, "value");
+                                                            hudConfig.setCardGradingSoundsEnabled(value);
+                                                            String msg = value
+                                                                    ? "\u00A7aCard grading sounds enabled."
+                                                                    : "\u00A7aCard grading sounds disabled.";
+                                                            context.getSource().sendFeedback(Component.literal(msg));
+                                                            return 1;
+                                                        })
+                                                )
+                                                .executes(context -> {
+                                                    boolean current = hudConfig.isCardGradingSoundsEnabled();
+                                                    context.getSource().sendFeedback(Component.literal(
+                                                            "\u00A77soundsEnabled = \u00A7f" + current +
+                                                            "\n\u00A77Usage: \u00A7e/saa config grading soundsEnabled <true|false>"));
+                                                    return 1;
+                                                })
+                                        )
+                                        .executes(context -> {
+                                            context.getSource().sendFeedback(Component.literal(
+                                                    "\u00A76Card Grading Config:\n" +
+                                                    "\u00A77menuEnabled = \u00A7f" + hudConfig.isCardGradingMenuEnabled() +
+                                                    "\n\u00A77soundsEnabled = \u00A7f" + hudConfig.isCardGradingSoundsEnabled()));
                                             return 1;
                                         })
                                 )
@@ -1127,6 +1229,9 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                             "\n\u00A77menuEnabled = \u00A7f" + hudConfig.isWtMenuEnabled() +
                                             "\n\u00A77showChatReminders = \u00A7f" + hudConfig.isWtShowChatReminders() +
                                             "\n\u00A77soundsEnabled = \u00A7f" + hudConfig.isWtSoundsEnabled() +
+                                            "\n\n\u00A7e[Card Grading] \u00A77(/saa config grading)" +
+                                            "\n\u00A77menuEnabled = \u00A7f" + hudConfig.isCardGradingMenuEnabled() +
+                                            "\n\u00A77soundsEnabled = \u00A7f" + hudConfig.isCardGradingSoundsEnabled() +
                                             "\n\n\u00A7e[Stats] \u00A77(/saa config stats)" +
                                             "\n\u00A77menuEnabled = \u00A7f" + hudConfig.isCardStatsMenuEnabled() +
                                             "\n\u00A77displayAlways = \u00A7f" + hudConfig.isCardStatsDisplayAlways() +
@@ -1140,6 +1245,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                             "\n\u00A77safariScale = \u00A7f" + String.format("%.0f%%", hudConfig.getHudScale() * 100) +
                                             "\n\u00A77daycareScale = \u00A7f" + String.format("%.0f%%", hudConfig.getDaycareScale() * 100) +
                                             "\n\u00A77wtScale = \u00A7f" + String.format("%.0f%%", hudConfig.getWtScale() * 100) +
+                                            "\n\u00A77gradingScale = \u00A7f" + String.format("%.0f%%", hudConfig.getCardGradingScale() * 100) +
                                             "\n\u00A77cardStatsScale = \u00A7f" + String.format("%.0f%%", hudConfig.getCardStatsScale() * 100)
                                     ));
                                     return 1;
@@ -1267,6 +1373,9 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                     "\u00A7e/saa manualHatchMultiplier <0|2.0>\u00A77 — Override hatch speed (0=auto)\n" +
                                     "\u00A7e/saa wt\u00A77 — View wondertrade status\n" +
                                     "\u00A7e/saa wt clear\u00A77 — Clear wondertrade timer\n" +
+                                    "\u00A7e/saa grading\u00A77 — View card grading timer\n" +
+                                    "\u00A7e/saa grading testSound\u00A77 — Play the card grading ding\n" +
+                                    "\u00A7e/saa grading clear\u00A77 — Clear card grading timer\n" +
                                     "\u00A7e/saa portal\u00A77 — View portal tracking status\n" +
                                     "\u00A7e/saa portal clear\u00A77 — Clear portal tracking data\n" +
                                     "\n\u00A76Config Commands:\n" +
@@ -1281,6 +1390,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                     "\u00A7e/saa config safari\u00A77 — Safari config (menuEnabled, timerAlways, questMonGlow)\n" +
                                     "\u00A7e/saa config daycare\u00A77 — Daycare config (menuEnabled, soundsEnabled, eggsHatchingSlots, babyGuards, ivPercentPreference)\n" +
                                     "\u00A7e/saa config wt\u00A77 — Wondertrade config (menuEnabled, showChatReminders, soundsEnabled)\n" +
+                                    "\u00A7e/saa config grading\u00A77 — Card grading config (menuEnabled, soundsEnabled)\n" +
                                     "\u00A7e/saa config suppress\u00A77 — Suppress config (inRaids, inHideouts, inDungeons, inBattles)\n" +
                                     "\u00A7e/saa config cardstats\u00A77 — Card Stats config (menuEnabled)"
                             ));

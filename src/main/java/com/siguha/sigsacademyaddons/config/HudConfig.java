@@ -103,6 +103,15 @@ public class HudConfig {
     private float cardStatsScale = 1.0f;
     private int cardStatsWidthOverride = 0;
 
+    private boolean cardGradingMenuEnabled = true;
+    private boolean cardGradingSoundsEnabled = true;
+    private Anchor cardGradingAnchor = Anchor.BOTTOM_RIGHT;
+    private int cardGradingOffsetX = 5;
+    private int cardGradingOffsetY = 110;
+    private int cardGradingRefScreenWidth = 0;
+    private float cardGradingScale = 1.0f;
+    private int cardGradingWidthOverride = 0;
+
     public HudConfig() {
         load();
     }
@@ -685,6 +694,90 @@ public class HudConfig {
         save();
     }
 
+    public boolean isCardGradingMenuEnabled() { return cardGradingMenuEnabled; }
+
+    public void setCardGradingMenuEnabled(boolean cardGradingMenuEnabled) {
+        this.cardGradingMenuEnabled = cardGradingMenuEnabled;
+        save();
+    }
+
+    public boolean isCardGradingSoundsEnabled() { return cardGradingSoundsEnabled; }
+
+    public void setCardGradingSoundsEnabled(boolean cardGradingSoundsEnabled) {
+        this.cardGradingSoundsEnabled = cardGradingSoundsEnabled;
+        save();
+    }
+
+    public Anchor getCardGradingAnchor() { return cardGradingAnchor; }
+
+    public int getCardGradingPanelX(int screenWidth, int panelWidth) {
+        if (cardGradingRefScreenWidth > 0) {
+            int refPanelX = switch (cardGradingAnchor) {
+                case TOP_LEFT, BOTTOM_LEFT -> cardGradingOffsetX;
+                case TOP_RIGHT, BOTTOM_RIGHT -> cardGradingRefScreenWidth - panelWidth - cardGradingOffsetX;
+            };
+            return (screenWidth - cardGradingRefScreenWidth) / 2 + refPanelX;
+        }
+        return switch (cardGradingAnchor) {
+            case TOP_LEFT, BOTTOM_LEFT -> cardGradingOffsetX;
+            case TOP_RIGHT, BOTTOM_RIGHT -> screenWidth - panelWidth - cardGradingOffsetX;
+        };
+    }
+
+    public int getCardGradingPanelY(int screenHeight, int panelHeight) {
+        return switch (cardGradingAnchor) {
+            case TOP_LEFT, TOP_RIGHT -> cardGradingOffsetY;
+            case BOTTOM_LEFT, BOTTOM_RIGHT -> screenHeight - cardGradingOffsetY;
+        };
+    }
+
+    public float getCardGradingScale() { return cardGradingScale; }
+
+    public void setCardGradingScale(float cardGradingScale) {
+        this.cardGradingScale = Math.max(0.15f, Math.min(2.0f, cardGradingScale));
+        save();
+    }
+
+    public int getCardGradingWidthOverride() { return cardGradingWidthOverride; }
+
+    public void setCardGradingWidthOverride(int w) {
+        this.cardGradingWidthOverride = w <= 0 ? 0 : Math.max(40, w);
+        save();
+    }
+
+    public void setCardGradingPositionFromAbsolute(int panelX, int panelY, int panelWidth, int panelHeight,
+                                                    int screenWidth, int screenHeight) {
+        int centerX = panelX + panelWidth / 2;
+        int centerY = panelY + panelHeight / 2;
+
+        boolean leftHalf = centerX < screenWidth / 2;
+        boolean topHalf = centerY < screenHeight / 2;
+
+        if (topHalf && leftHalf) {
+            cardGradingAnchor = Anchor.TOP_LEFT;
+            cardGradingOffsetX = panelX;
+            cardGradingOffsetY = panelY;
+        } else if (topHalf) {
+            cardGradingAnchor = Anchor.TOP_RIGHT;
+            cardGradingOffsetX = screenWidth - panelX - panelWidth;
+            cardGradingOffsetY = panelY;
+        } else if (leftHalf) {
+            cardGradingAnchor = Anchor.BOTTOM_LEFT;
+            cardGradingOffsetX = panelX;
+            cardGradingOffsetY = screenHeight - panelY;
+        } else {
+            cardGradingAnchor = Anchor.BOTTOM_RIGHT;
+            cardGradingOffsetX = screenWidth - panelX - panelWidth;
+            cardGradingOffsetY = screenHeight - panelY;
+        }
+
+        cardGradingOffsetX = Math.max(0, cardGradingOffsetX);
+        cardGradingOffsetY = Math.max(0, cardGradingOffsetY);
+        this.cardGradingRefScreenWidth = screenWidth;
+
+        save();
+    }
+
     public void setGroupPositionFromAbsolute(int panelX, int panelY, int panelWidth, int panelHeight,
                                               int screenWidth, int screenHeight) {
         int centerY = panelY + panelHeight / 2;
@@ -735,10 +828,14 @@ public class HudConfig {
                     cardStatsMenuEnabled, cardStatsDisplayAlways, cardStatsDisplayInInventory,
                     cardStatsAnchor.name(), cardStatsOffsetX, cardStatsOffsetY,
                     cardStatsScale, cardStatsRefScreenWidth,
+                    cardGradingMenuEnabled, cardGradingSoundsEnabled,
+                    cardGradingAnchor.name(), cardGradingOffsetX, cardGradingOffsetY,
+                    cardGradingScale, cardGradingRefScreenWidth,
                     hudWidthOverride > 0 ? hudWidthOverride : null,
                     daycareWidthOverride > 0 ? daycareWidthOverride : null,
                     wtWidthOverride > 0 ? wtWidthOverride : null,
                     groupWidthOverride > 0 ? groupWidthOverride : null,
+                    cardGradingWidthOverride > 0 ? cardGradingWidthOverride : null,
                     cardStatsWidthOverride > 0 ? cardStatsWidthOverride : null,
                     autoAcceptPartyInvites);
             try (Writer writer = Files.newBufferedWriter(filePath)) {
@@ -824,10 +921,19 @@ public class HudConfig {
                     this.cardStatsScale = data.cardStatsScale != null && data.cardStatsScale > 0 ? data.cardStatsScale : 1.0f;
                     this.cardStatsRefScreenWidth = data.cardStatsRefScreenWidth != null ? data.cardStatsRefScreenWidth : 0;
 
+                    this.cardGradingMenuEnabled = data.cardGradingMenuEnabled != null ? data.cardGradingMenuEnabled : true;
+                    this.cardGradingSoundsEnabled = data.cardGradingSoundsEnabled != null ? data.cardGradingSoundsEnabled : true;
+                    this.cardGradingAnchor = data.cardGradingAnchor != null ? Anchor.valueOf(data.cardGradingAnchor) : Anchor.BOTTOM_RIGHT;
+                    this.cardGradingOffsetX = data.cardGradingOffsetX != null ? data.cardGradingOffsetX : 5;
+                    this.cardGradingOffsetY = data.cardGradingOffsetY != null ? data.cardGradingOffsetY : 110;
+                    this.cardGradingScale = data.cardGradingScale != null && data.cardGradingScale > 0 ? data.cardGradingScale : 1.0f;
+                    this.cardGradingRefScreenWidth = data.cardGradingRefScreenWidth != null ? data.cardGradingRefScreenWidth : 0;
+
                     this.hudWidthOverride = data.hudWidthOverride != null && data.hudWidthOverride > 0 ? data.hudWidthOverride : 0;
                     this.daycareWidthOverride = data.daycareWidthOverride != null && data.daycareWidthOverride > 0 ? data.daycareWidthOverride : 0;
                     this.wtWidthOverride = data.wtWidthOverride != null && data.wtWidthOverride > 0 ? data.wtWidthOverride : 0;
                     this.groupWidthOverride = data.groupWidthOverride != null && data.groupWidthOverride > 0 ? data.groupWidthOverride : 0;
+                    this.cardGradingWidthOverride = data.cardGradingWidthOverride != null && data.cardGradingWidthOverride > 0 ? data.cardGradingWidthOverride : 0;
                     this.cardStatsWidthOverride = data.cardStatsWidthOverride != null && data.cardStatsWidthOverride > 0 ? data.cardStatsWidthOverride : 0;
 
                     this.autoAcceptPartyInvites = data.autoAcceptPartyInvites != null ? data.autoAcceptPartyInvites : false;
@@ -866,8 +972,12 @@ public class HudConfig {
             Boolean cardStatsMenuEnabled, Boolean cardStatsDisplayAlways, Boolean cardStatsDisplayInInventory,
             String cardStatsAnchor, Integer cardStatsOffsetX, Integer cardStatsOffsetY,
             Float cardStatsScale, Integer cardStatsRefScreenWidth,
+            Boolean cardGradingMenuEnabled, Boolean cardGradingSoundsEnabled, String cardGradingAnchor,
+            Integer cardGradingOffsetX, Integer cardGradingOffsetY,
+            Float cardGradingScale, Integer cardGradingRefScreenWidth,
             Integer hudWidthOverride, Integer daycareWidthOverride,
             Integer wtWidthOverride, Integer groupWidthOverride,
+            Integer cardGradingWidthOverride,
             Integer cardStatsWidthOverride,
             Boolean autoAcceptPartyInvites) {
     }

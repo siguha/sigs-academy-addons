@@ -58,6 +58,7 @@ public class HudConfigScreen extends Screen {
     private static final String NO_QUESTS_MESSAGE = "Please visit the Safari Hunt NPC and load your hunt menu.";
 
     private static final int COLOR_OUTLINE_WT = 0xFF55FF55;
+    private static final int COLOR_OUTLINE_GRADING = 0xFF55FF55;
     private static final int COLOR_OUTLINE_CARDSTATS = 0xFFFFCC00;
     private static final int COLOR_JOIN_HIGHLIGHT = 0x4455FF55;
     private static final int COLOR_UNJOIN_X = 0xFFFF5555;
@@ -129,6 +130,7 @@ public class HudConfigScreen extends Screen {
     private PanelState safariPanel;
     private PanelState daycarePanel;
     private PanelState wtPanel;
+    private PanelState gradingPanel;
     private PanelState cardStatsPanel;
     private GroupState groupState;
 
@@ -175,7 +177,7 @@ public class HudConfigScreen extends Screen {
             int deltaX = (this.width - previousWidth) / 2;
             int deltaY = (this.height - previousHeight) / 2;
 
-            for (PanelState panel : new PanelState[]{safariPanel, daycarePanel, wtPanel, cardStatsPanel}) {
+            for (PanelState panel : new PanelState[]{safariPanel, daycarePanel, wtPanel, gradingPanel, cardStatsPanel}) {
                 if (!isInGroup(panel)) {
                     panel.panelX = Math.clamp(panel.panelX + deltaX, 0,
                             Math.max(0, this.width - panel.scaledWidth));
@@ -224,6 +226,15 @@ public class HudConfigScreen extends Screen {
         wtPanel.updateScaledDimensions();
         wtPanel.panelX = hudConfig.getWtPanelX(this.width, wtPanel.scaledWidth);
         wtPanel.panelY = hudConfig.getWtPanelY(this.height, wtPanel.scaledHeight);
+
+        gradingPanel = new PanelState("grading", "Card Grading");
+        gradingPanel.scale = hudConfig.getCardGradingScale();
+        gradingPanel.widthOverride = hudConfig.getCardGradingWidthOverride();
+        gradingPanel.unscaledWidth = gradingPanel.widthOverride > 0 ? gradingPanel.widthOverride : placeholderGradingWidth(compact);
+        gradingPanel.unscaledHeight = gradingPanel.widthOverride > 0 ? placeholderHeightForWidth(gradingPanel, gradingPanel.widthOverride) : placeholderGradingHeight(compact);
+        gradingPanel.updateScaledDimensions();
+        gradingPanel.panelX = hudConfig.getCardGradingPanelX(this.width, gradingPanel.scaledWidth);
+        gradingPanel.panelY = hudConfig.getCardGradingPanelY(this.height, gradingPanel.scaledHeight);
 
         cardStatsPanel = new PanelState("cardstats", "Card Stats");
         cardStatsPanel.scale = hudConfig.getCardStatsScale();
@@ -289,6 +300,9 @@ public class HudConfigScreen extends Screen {
         }
         if (!isInGroup(wtPanel)) {
             renderPanel(graphics, wtPanel, mouseX, mouseY, COLOR_OUTLINE_WT);
+        }
+        if (!isInGroup(gradingPanel)) {
+            renderPanel(graphics, gradingPanel, mouseX, mouseY, COLOR_OUTLINE_GRADING);
         }
         if (!isInGroup(cardStatsPanel)) {
             renderPanel(graphics, cardStatsPanel, mouseX, mouseY, COLOR_OUTLINE_CARDSTATS);
@@ -388,6 +402,8 @@ public class HudConfigScreen extends Screen {
             renderDaycarePreview(graphics, panel);
         } else if (panel == wtPanel) {
             renderWtPreview(graphics, panel);
+        } else if (panel == gradingPanel) {
+            renderGradingPreview(graphics, panel);
         } else if (panel == cardStatsPanel) {
             renderCardStatsPreview(graphics, panel);
         }
@@ -547,6 +563,9 @@ public class HudConfigScreen extends Screen {
         } else if (panel == wtPanel) {
             if (hudConfig.isCompact()) renderCompactWtPreview(graphics, panel);
             else renderFullWtPreview(graphics, panel);
+        } else if (panel == gradingPanel) {
+            if (hudConfig.isCompact()) renderCompactGradingPreview(graphics, panel);
+            else renderFullGradingPreview(graphics, panel);
         } else if (panel == cardStatsPanel) {
             if (hudConfig.isCompact()) renderCompactCardStatsPreview(graphics, panel);
             else renderFullCardStatsPreview(graphics, panel);
@@ -1044,6 +1063,46 @@ public class HudConfigScreen extends Screen {
         graphics.fill(barX, y, barX + (int) (barWidth * 0.3f), y + 6, 0xFF55FF55);
     }
 
+    private void renderGradingPreview(GuiGraphics graphics, PanelState panel) {
+        boolean transparent = hudConfig.getHudStyle() == HudConfig.HudStyle.TRANSPARENT;
+
+        if (!transparent) {
+            graphics.fill(0, 0, panel.unscaledWidth, panel.unscaledHeight, COLOR_BG);
+        }
+
+        if (hudConfig.isCompact()) {
+            renderCompactGradingPreview(graphics, panel);
+        } else {
+            renderFullGradingPreview(graphics, panel);
+        }
+    }
+
+    private void renderCompactGradingPreview(GuiGraphics graphics, PanelState panel) {
+        int y = PADDING;
+        HudTextUtil.renderStatLine(graphics, this.font, "Grading Time:", "42:15",
+                COLOR_HEADER, 0xFF55FF55, y, panel.unscaledWidth, PADDING, LINE_HEIGHT);
+    }
+
+    private void renderFullGradingPreview(GuiGraphics graphics, PanelState panel) {
+        int y = PADDING;
+
+        y = HudTextUtil.renderWrappedCentered(graphics, this.font, "SAA Card Grading", panel.unscaledWidth, y, COLOR_HEADER, LINE_HEIGHT);
+
+        y += 2;
+        graphics.fill(PADDING, y, panel.unscaledWidth - PADDING, y + 1, 0xFF555555);
+        y += SECTION_SPACING;
+
+        String timerText = "42:15";
+        int timerW = this.font.width(timerText);
+        graphics.drawString(this.font, timerText, (panel.unscaledWidth - timerW) / 2, y, 0xFF55FF55, true);
+        y += LINE_HEIGHT;
+
+        int barX = PADDING + 2;
+        int barWidth = panel.unscaledWidth - barX - PADDING;
+        graphics.fill(barX, y, barX + barWidth, y + 6, COLOR_TIMER_BAR_BG);
+        graphics.fill(barX, y, barX + (int) (barWidth * 0.3f), y + 6, 0xFF55FF55);
+    }
+
     @Override
     public boolean mouseClicked(double mouseX, double mouseY, int button) {
         if (button != 0) return super.mouseClicked(mouseX, mouseY, button);
@@ -1322,6 +1381,13 @@ public class HudConfigScreen extends Screen {
                     wtPanel.scaledWidth, wtPanel.scaledHeight, this.width, this.height);
         }
 
+        if (!isInGroup(gradingPanel)) {
+            hudConfig.setCardGradingScale(gradingPanel.scale);
+            hudConfig.setCardGradingWidthOverride(gradingPanel.widthOverride);
+            hudConfig.setCardGradingPositionFromAbsolute(gradingPanel.panelX, gradingPanel.panelY,
+                    gradingPanel.scaledWidth, gradingPanel.scaledHeight, this.width, this.height);
+        }
+
         if (!isInGroup(cardStatsPanel)) {
             hudConfig.setCardStatsScale(cardStatsPanel.scale);
             hudConfig.setCardStatsWidthOverride(cardStatsPanel.widthOverride);
@@ -1417,6 +1483,7 @@ public class HudConfigScreen extends Screen {
             case "safari" -> safariPanel;
             case "daycare" -> daycarePanel;
             case "wondertrade" -> wtPanel;
+            case "grading" -> gradingPanel;
             case "cardstats" -> cardStatsPanel;
             default -> null;
         };
@@ -1427,6 +1494,7 @@ public class HudConfigScreen extends Screen {
         if (!isInGroup(safariPanel)) result.add(safariPanel);
         if (!isInGroup(daycarePanel)) result.add(daycarePanel);
         if (!isInGroup(wtPanel)) result.add(wtPanel);
+        if (!isInGroup(gradingPanel)) result.add(gradingPanel);
         if (!isInGroup(cardStatsPanel)) result.add(cardStatsPanel);
         return result.toArray(new PanelState[0]);
     }
@@ -1632,6 +1700,14 @@ public class HudConfigScreen extends Screen {
         wtPanel.panelX = this.width - wtPanel.scaledWidth - 5;
         wtPanel.panelY = this.height - wtPanel.scaledHeight - 5;
 
+        gradingPanel.scale = 1.0f;
+        gradingPanel.widthOverride = 0;
+        gradingPanel.unscaledWidth = placeholderGradingWidth(compact);
+        gradingPanel.unscaledHeight = placeholderGradingHeight(compact);
+        gradingPanel.updateScaledDimensions();
+        gradingPanel.panelX = this.width - gradingPanel.scaledWidth - 5;
+        gradingPanel.panelY = Math.max(5, wtPanel.panelY - gradingPanel.scaledHeight - 10);
+
         cardStatsPanel.scale = 1.0f;
         cardStatsPanel.widthOverride = 0;
         cardStatsPanel.unscaledWidth = placeholderCardStatsWidth(compact);
@@ -1655,7 +1731,7 @@ public class HudConfigScreen extends Screen {
             groupState.recalculate();
         }
 
-        for (PanelState panel : new PanelState[]{safariPanel, daycarePanel, wtPanel, cardStatsPanel}) {
+        for (PanelState panel : new PanelState[]{safariPanel, daycarePanel, wtPanel, gradingPanel, cardStatsPanel}) {
             if (!isInGroup(panel)) {
                 panel.scale = 1.0f;
                 panel.widthOverride = 0;
@@ -1764,6 +1840,7 @@ public class HudConfigScreen extends Screen {
         if (panel == safariPanel) return placeholderSafariWidth(compact);
         if (panel == daycarePanel) return placeholderDaycareWidth(compact);
         if (panel == wtPanel) return placeholderWtWidth(compact);
+        if (panel == gradingPanel) return placeholderGradingWidth(compact);
         if (panel == cardStatsPanel) return placeholderCardStatsWidth(compact);
         return PANEL_MIN_WIDTH;
     }
@@ -1772,6 +1849,7 @@ public class HudConfigScreen extends Screen {
         if (panel == safariPanel) return placeholderSafariHeight(compact);
         if (panel == daycarePanel) return placeholderDaycareHeight(compact);
         if (panel == wtPanel) return placeholderWtHeight(compact);
+        if (panel == gradingPanel) return placeholderGradingHeight(compact);
         if (panel == cardStatsPanel) return placeholderCardStatsHeight(compact);
         return PADDING * 2 + LINE_HEIGHT;
     }
@@ -1792,6 +1870,8 @@ public class HudConfigScreen extends Screen {
             return placeholderDaycareHeightForWidth(compact, width);
         } else if (panel == wtPanel) {
             return placeholderWtHeightForWidth(compact, width);
+        } else if (panel == gradingPanel) {
+            return placeholderGradingHeightForWidth(compact, width);
         } else if (panel == cardStatsPanel) {
             return placeholderCardStatsHeightForWidth(compact, width);
         }
@@ -1857,6 +1937,19 @@ public class HudConfigScreen extends Screen {
             height += HudTextUtil.wrappedCenteredHeight(this.font, "SAA Wondertrade Helper", width, LINE_HEIGHT);
             height += 2 + SECTION_SPACING;
             height += HudTextUtil.wrappedCenteredHeight(this.font, "Please use WT once to set menu.", width, LINE_HEIGHT);
+            height += 6 + PADDING;
+            return height;
+        }
+    }
+
+    private int placeholderGradingHeightForWidth(boolean compact, int width) {
+        if (compact) {
+            return PADDING + LINE_HEIGHT + PADDING;
+        } else {
+            int height = PADDING;
+            height += HudTextUtil.wrappedCenteredHeight(this.font, "SAA Card Grading", width, LINE_HEIGHT);
+            height += 2 + SECTION_SPACING;
+            height += HudTextUtil.wrappedCenteredHeight(this.font, "Please use grading once to set menu.", width, LINE_HEIGHT);
             height += 6 + PADDING;
             return height;
         }
@@ -1988,6 +2081,26 @@ public class HudConfigScreen extends Screen {
     }
 
     private int placeholderWtHeight(boolean compact) {
+        if (compact) {
+            return PADDING + LINE_HEIGHT + PADDING;
+        } else {
+            return PADDING + LINE_HEIGHT + 2 + SECTION_SPACING + LINE_HEIGHT + 6 + PADDING;
+        }
+    }
+
+    private int placeholderGradingWidth(boolean compact) {
+        if (compact) {
+            return this.font.width("Grading Time:") + 8 + this.font.width("42:15") + PADDING * 2 + 2;
+        } else {
+            int maxWidth = PANEL_MIN_WIDTH;
+            maxWidth = Math.max(maxWidth, this.font.width("SAA Card Grading") + PADDING * 2);
+            maxWidth = Math.max(maxWidth, this.font.width("Please use grading once to set menu.") + PADDING * 2);
+            maxWidth = Math.max(maxWidth, this.font.width("Ready to Claim!") + PADDING * 2);
+            return maxWidth + PADDING * 2;
+        }
+    }
+
+    private int placeholderGradingHeight(boolean compact) {
         if (compact) {
             return PADDING + LINE_HEIGHT + PADDING;
         } else {
