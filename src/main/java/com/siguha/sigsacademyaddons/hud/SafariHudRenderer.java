@@ -218,8 +218,8 @@ public class SafariHudRenderer implements HudPanel {
 
     private int renderCompactTimerLine(GuiGraphics graphics, Font font, int startY, int panelWidth) {
         int y = startY;
-        String prefix = safariManager.isInSafariZone() ? "Safari:" : "Safari (away):";
-        String timerText = safariManager.getRemainingTimeFormatted();
+        Component prefix = safariManager.isInSafariZone() ? Component.translatable("text.saa.safari") : Component.translatable("text.saa.safari_way");
+        Component timerText = Component.literal(safariManager.getRemainingTimeFormatted());
         float progress = safariManager.getTimerProgress();
         int timerColor = getTimerColor(progress);
         return HudTextUtil.renderStatLine(graphics, font, prefix, timerText,
@@ -248,7 +248,7 @@ public class SafariHudRenderer implements HudPanel {
             if (!resetText.isEmpty()) {
                 String timerSuffix = " - " + resetText;
                 int resetColor = hunt.isResetExpired() ? COLOR_TIMER_DANGER : COLOR_RESET_TIMER;
-                y = HudTextUtil.renderStatLine(graphics, font, nameAndCount, timerSuffix,
+                y = HudTextUtil.renderStatLine(graphics, font, Component.literal(nameAndCount), Component.literal(timerSuffix),
                         nameColor, resetColor, y, panelWidth, PADDING, LINE_HEIGHT);
             } else {
                 graphics.drawString(font, nameAndCount, PADDING, y, nameColor, true);
@@ -261,7 +261,7 @@ public class SafariHudRenderer implements HudPanel {
         int maxWidth = PANEL_MIN_WIDTH;
 
         if (showTimer) {
-            String prefix = safariManager.isInSafariZone() ? "Safari: " : "Safari (away): ";
+            Component prefix = safariManager.isInSafariZone() ? Component.translatable("text.saa.safari") : Component.translatable("text.saa.safari_way");
             maxWidth = Math.max(maxWidth,
                     font.width(prefix) + font.width(safariManager.getRemainingTimeFormatted()) + PADDING * 2);
         }
@@ -287,9 +287,9 @@ public class SafariHudRenderer implements HudPanel {
     private int calculateCompactPanelHeight(Font font, int panelWidth, boolean showTimer, boolean showHunts) {
         int height = PADDING;
         if (showTimer) {
-            String prefix = safariManager.isInSafariZone() ? "Safari:" : "Safari (away):";
+            Component prefix = safariManager.isInSafariZone() ? Component.translatable("text.saa.safari") : Component.translatable("text.saa.safari_way");
             String timerText = safariManager.getRemainingTimeFormatted();
-            height += HudTextUtil.statLineHeight(font, prefix, timerText, panelWidth, PADDING, LINE_HEIGHT);
+            height += HudTextUtil.statLineHeight(font, prefix, Component.literal(timerText), panelWidth, PADDING, LINE_HEIGHT);
         }
         if (showHunts) {
             List<SafariHuntData> hunts = safariHuntManager.getActiveHunts();
@@ -297,7 +297,7 @@ public class SafariHudRenderer implements HudPanel {
                 String nameAndCount = hunt.getDisplayName() + " [" + hunt.getCaught() + "/" + hunt.getTotal() + "]";
                 String resetText = hunt.getResetCountdownFormatted();
                 if (!resetText.isEmpty()) {
-                    height += HudTextUtil.statLineHeight(font, nameAndCount, " - " + resetText, panelWidth, PADDING, LINE_HEIGHT);
+                    height += HudTextUtil.statLineHeight(font, Component.literal(nameAndCount), Component.literal(" - " + resetText), panelWidth, PADDING, LINE_HEIGHT);
                 } else {
                     height += LINE_HEIGHT;
                 }
@@ -481,7 +481,7 @@ public class SafariHudRenderer implements HudPanel {
         }
 
         if (showTimer) {
-            String header = safariManager.isInSafariZone() ? "SAA Safari Helper" : "SAA Safari Helper (away)";
+            Component header = safariManager.isInSafariZone() ? Component.translatable("interface.saa.safari.helper") : Component.translatable("interface.saa.safari.helper_away");
             maxWidth = Math.max(maxWidth, font.width(header) + PADDING * 2);
         }
 

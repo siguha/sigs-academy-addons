@@ -88,13 +88,13 @@ public class ChatMessageHandler {
             String command = penNumber > 0 ? "/saa daycare goto pen " + penNumber : "/daycare";
             daycareManager.onEggCreated();
             if (species != null) {
-                return injectSpeciesAndAppendClick(text, species, command);
+                return injectSpeciesAndAppendClick(text, Component.literal(species), command);
             }
             return message.copy().append(buildClickSuffix(command));
         }
 
         if (text.contains(EGG_HATCHED_MESSAGE)) {
-            String species = daycareManager.getClosestHatchingEggSpecies();
+            Component species = daycareManager.getClosestHatchingEggSpecies();
             String command = "/saa daycare goto backpack";
             daycareManager.onEggHatched();
             if (species != null) {
@@ -163,7 +163,7 @@ public class ChatMessageHandler {
                         .withStyle(ChatFormatting.RED));
     }
 
-    private static Component injectSpeciesAndAppendClick(String text, String species, String command) {
+    private static Component injectSpeciesAndAppendClick(String text, Component species, String command) {
         int eggIdx = text.indexOf("egg ");
         if (eggIdx < 0) {
             return Component.literal(text).withStyle(ChatFormatting.GREEN)
@@ -172,7 +172,7 @@ public class ChatMessageHandler {
         String before = text.substring(0, eggIdx + 4);
         String after = text.substring(eggIdx + 4);
         return Component.literal(before).withStyle(ChatFormatting.GREEN)
-                .append(Component.literal("(" + species + ") ").withStyle(ChatFormatting.GOLD))
+                .append(Component.literal("(").append(species).append(") ").withStyle(ChatFormatting.GOLD))
                 .append(Component.literal(after).withStyle(ChatFormatting.GREEN))
                 .append(buildClickSuffix(command));
     }

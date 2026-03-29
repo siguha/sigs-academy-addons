@@ -128,7 +128,7 @@ public class WondertradeHudRenderer implements HudPanel {
             timerText = wondertradeManager.getRemainingFormatted();
             timerColor = COLOR_TIMER;
         }
-        HudTextUtil.renderStatLine(graphics, font, prefix, timerText,
+        HudTextUtil.renderStatLine(graphics, font, Component.literal(prefix), Component.literal(timerText),
                 COLOR_HEADER, timerColor, y, panelWidth, PADDING, LINE_HEIGHT);
     }
 
@@ -200,7 +200,7 @@ public class WondertradeHudRenderer implements HudPanel {
         } else {
             timerText = wondertradeManager.getRemainingFormatted();
         }
-        return PADDING + HudTextUtil.statLineHeight(font, prefix, timerText, panelWidth, PADDING, LINE_HEIGHT) + PADDING;
+        return PADDING + HudTextUtil.statLineHeight(font, Component.literal(prefix), Component.literal(timerText), panelWidth, PADDING, LINE_HEIGHT) + PADDING;
     }
 
     private int calculatePanelWidth(Font font) {

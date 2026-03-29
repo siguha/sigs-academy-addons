@@ -162,8 +162,6 @@
     "interface.saa.wondertrade.helper": "SAA Wondertrade Helper.",
     "interface.saa.wondertrade.unset": "Please use WT once to set menu.",
 
-
-
     "title.saa.hud_position": "HUD Position",
     
     "text.saa.resize": "Drag to reposition | Drag corners to resize | Overlap to join",
@@ -192,6 +190,8 @@
     "text.saa.failed_tracking": "Portal could not be located.",
     "text.saa.portal_display_name": "Tier %1$s %2$s Spawned",
     "text.saa.blocks_away": "%1$s Blocks away",
+    "text.saa.safari": "Safari:",
+    "text.saa.safari_away": "Safari (away):",
 
     "text.saa.enabled": "enabled",
     "text.saa.disabled": "disabled",

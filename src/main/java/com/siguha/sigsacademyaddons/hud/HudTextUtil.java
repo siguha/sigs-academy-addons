@@ -51,7 +51,7 @@ public class HudTextUtil {
     }
 
     public static int renderStatLine(GuiGraphics graphics, Font font,
-                                      String name, String value,
+                                      Component name, Component value,
                                       int nameColor, int valueColor,
                                       int y, int panelWidth, int padding, int lineHeight) {
         int available = panelWidth - padding * 2 - 2;
@@ -70,7 +70,7 @@ public class HudTextUtil {
         }
     }
 
-    public static int statLineHeight(Font font, String name, String value,
+    public static int statLineHeight(Font font, Component name, Component value,
                                       int panelWidth, int padding, int lineHeight) {
         int available = panelWidth - padding * 2 - 2;
         int nameWidth = font.width(name);

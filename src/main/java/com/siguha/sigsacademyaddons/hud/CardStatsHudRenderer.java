@@ -201,7 +201,7 @@ public class CardStatsHudRenderer implements HudPanel {
     private int renderStatLine(GuiGraphics graphics, Font font, int y, int panelWidth, StatEntry entry) {
         String valueStr = CardStatsManager.formatValue(entry);
         return HudTextUtil.renderStatLine(graphics, font,
-                entry.displayName(), valueStr,
+                Component.literal(entry.displayName()), Component.literal(valueStr),
                 COLOR_STAT_NAME, COLOR_STAT_VALUE,
                 y, panelWidth, PADDING, LINE_HEIGHT);
     }
@@ -305,8 +305,8 @@ public class CardStatsHudRenderer implements HudPanel {
             height += 2 + SECTION_SPACING;
             height += LINE_HEIGHT;
             for (StatEntry entry : playerStats) {
-                height += HudTextUtil.statLineHeight(font, entry.displayName(),
-                        CardStatsManager.formatValue(entry), panelWidth, PADDING, LINE_HEIGHT);
+                height += HudTextUtil.statLineHeight(font, Component.literal(entry.displayName()),
+                        Component.literal(CardStatsManager.formatValue(entry)), panelWidth, PADDING, LINE_HEIGHT);
             }
         }
 
@@ -314,8 +314,8 @@ public class CardStatsHudRenderer implements HudPanel {
             height += 2 + SECTION_SPACING;
             height += LINE_HEIGHT;
             for (StatEntry entry : cardStatsList) {
-                height += HudTextUtil.statLineHeight(font, entry.displayName(),
-                        CardStatsManager.formatValue(entry), panelWidth, PADDING, LINE_HEIGHT);
+                height += HudTextUtil.statLineHeight(font, Component.literal(entry.displayName()),
+                        Component.literal(CardStatsManager.formatValue(entry)), panelWidth, PADDING, LINE_HEIGHT);
             }
         }
 
@@ -332,15 +332,15 @@ public class CardStatsHudRenderer implements HudPanel {
         if (!playerStats.isEmpty()) {
             height += LINE_HEIGHT;
             for (StatEntry entry : playerStats) {
-                height += HudTextUtil.statLineHeight(font, entry.displayName(),
-                        CardStatsManager.formatValue(entry), panelWidth, PADDING, LINE_HEIGHT);
+                height += HudTextUtil.statLineHeight(font, Component.literal(entry.displayName()),
+                        Component.literal(CardStatsManager.formatValue(entry)), panelWidth, PADDING, LINE_HEIGHT);
             }
         }
         if (!cardStatsList.isEmpty()) {
             height += LINE_HEIGHT;
             for (StatEntry entry : cardStatsList) {
-                height += HudTextUtil.statLineHeight(font, entry.displayName(),
-                        CardStatsManager.formatValue(entry), panelWidth, PADDING, LINE_HEIGHT);
+                height += HudTextUtil.statLineHeight(font, Component.literal(entry.displayName()),
+                        Component.literal(CardStatsManager.formatValue(entry)), panelWidth, PADDING, LINE_HEIGHT);
             }
         }
         height += PADDING;

@@ -328,8 +328,8 @@ public class DaycareHudRenderer implements HudPanel {
     private int renderCompactEggTimer(GuiGraphics graphics, Font font, DaycareState.ClaimedEgg egg,
                                        int startY, int panelWidth) {
         int y = startY;
-        String label = egg.getDisplayLabel();
-        String timerText = egg.getRemainingFormatted();
+        Component label = egg.getDisplayLabel();
+        Component timerText = egg.getRemainingFormatted();
         int timerColor = getTimerColor(egg.getProgress());
         return HudTextUtil.renderStatLine(graphics, font, label, timerText,
                 COLOR_TEXT_PRIMARY, timerColor, y, panelWidth, PADDING, LINE_HEIGHT);
@@ -489,8 +489,8 @@ public class DaycareHudRenderer implements HudPanel {
                                 int startY, int panelWidth) {
         int y = startY;
 
-        String label = egg.getDisplayLabel();
-        String timerText = egg.getRemainingFormatted();
+        Component label = egg.getDisplayLabel();
+        Component timerText = egg.getRemainingFormatted();
         int timerColor = getTimerColor(egg.getProgress());
 
         y = HudTextUtil.renderStatLine(graphics, font, label, timerText,
@@ -537,8 +537,8 @@ public class DaycareHudRenderer implements HudPanel {
         }
 
         for (DaycareState.ClaimedEgg egg : eggs) {
-            String label = egg.getDisplayLabel();
-            String timer = egg.getRemainingFormatted();
+            Component label = egg.getDisplayLabel();
+            Component timer = egg.getRemainingFormatted();
             int lineWidth = font.width(label) + font.width(timer) + PADDING * 2 + 8;
             maxWidth = Math.max(maxWidth, lineWidth);
         }
@@ -610,8 +610,8 @@ public class DaycareHudRenderer implements HudPanel {
         }
 
         for (DaycareState.ClaimedEgg egg : eggs) {
-            String label = egg.getDisplayLabel();
-            String timer = egg.getRemainingFormatted();
+            Component label = egg.getDisplayLabel();
+            Component timer = egg.getRemainingFormatted();
             int lineWidth = font.width(label) + font.width(timer) + PADDING * 2 + 8;
             maxWidth = Math.max(maxWidth, lineWidth);
         }
