@@ -7,7 +7,6 @@ import com.siguha.sigsacademyaddons.feature.daycare.DaycareManager;
 import com.siguha.sigsacademyaddons.feature.safari.SafariHuntManager;
 import com.siguha.sigsacademyaddons.feature.safari.SafariManager;
 import com.siguha.sigsacademyaddons.feature.wondertrade.WondertradeManager;
-import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
@@ -848,7 +847,7 @@ public class HudConfigScreen extends Screen {
     private void renderFullSafariPreview(GuiGraphics graphics, PanelState panel) {
         int y = PADDING;
 
-        y = HudTextUtil.renderWrappedCentered(graphics, this.font, "SAA Safari Helper", panel.unscaledWidth, y, COLOR_HEADER, LINE_HEIGHT);
+        y = HudTextUtil.renderWrappedCentered(graphics, this.font, Component.translatable("interface.saa.safari.helper"), panel.unscaledWidth, y, COLOR_HEADER, LINE_HEIGHT);
 
         int barWidth = panel.unscaledWidth - (PADDING * 2);
         graphics.fill(PADDING, y, PADDING + barWidth, y + TIMER_BAR_HEIGHT, COLOR_TIMER_BAR_BG);
@@ -955,7 +954,7 @@ public class HudConfigScreen extends Screen {
         int penCount = getPlaceholderPenCount();
         int maxEggs = hudConfig.getDaycareEggsHatchingSlots();
 
-        y = HudTextUtil.renderWrappedCentered(graphics, this.font, "SAA Daycare Helper", panel.unscaledWidth, y, COLOR_HEADER, LINE_HEIGHT);
+        y = HudTextUtil.renderWrappedCentered(graphics, this.font, Component.translatable("interface.saa.daycare.helper"), panel.unscaledWidth, y, COLOR_HEADER, LINE_HEIGHT);
 
         int barX = PADDING + 2;
         int barWidth = panel.unscaledWidth - barX - PADDING;
@@ -1027,7 +1026,7 @@ public class HudConfigScreen extends Screen {
     private void renderFullWtPreview(GuiGraphics graphics, PanelState panel) {
         int y = PADDING;
 
-        y = HudTextUtil.renderWrappedCentered(graphics, this.font, "SAA Wondertrade Helper", panel.unscaledWidth, y, COLOR_HEADER, LINE_HEIGHT);
+        y = HudTextUtil.renderWrappedCentered(graphics, this.font, Component.translatable("interface.saa.wondertrade.helper"), panel.unscaledWidth, y, COLOR_HEADER, LINE_HEIGHT);
 
         y += 2;
         graphics.fill(PADDING, y, panel.unscaledWidth - PADDING, y + 1, 0xFF555555);
@@ -1717,8 +1716,7 @@ public class HudConfigScreen extends Screen {
     private void renderFullCardStatsPreview(GuiGraphics graphics, PanelState panel) {
         int y = PADDING;
 
-        String header = "SAA Stats";
-        y = HudTextUtil.renderWrappedCentered(graphics, this.font, header, panel.unscaledWidth, y, COLOR_HEADER, LINE_HEIGHT);
+        y = HudTextUtil.renderWrappedCentered(graphics, this.font, Component.translatable("interface.saa.text.saa_stats"), panel.unscaledWidth, y, COLOR_HEADER, LINE_HEIGHT);
 
         y += 2;
         graphics.fill(PADDING, y, panel.unscaledWidth - PADDING, y + 1, 0xFF555555);
@@ -1801,7 +1799,7 @@ public class HudConfigScreen extends Screen {
     private int placeholderSafariHeightForWidth(boolean compact, int width) {
         if (compact) {
             int height = PADDING;
-            height += HudTextUtil.wrappedCenteredHeight(this.font, "Safari: 24:31", width, LINE_HEIGHT);
+            height += HudTextUtil.wrappedCenteredHeight(this.font, Component.literal("Safari: 24:31"), width, LINE_HEIGHT);
             for (int i = 0; i < SAFARI_MAX_HUNTS; i++) {
                 height += HudTextUtil.statLineHeight(this.font, "Electric Type", "[12/25] - 3h 20m", width, PADDING, LINE_HEIGHT);
             }
@@ -1809,7 +1807,7 @@ public class HudConfigScreen extends Screen {
             return height;
         } else {
             int height = PADDING;
-            height += HudTextUtil.wrappedCenteredHeight(this.font, "SAA Safari Helper", width, LINE_HEIGHT);
+            height += HudTextUtil.wrappedCenteredHeight(this.font, Component.translatable("interface.saa.safari.helper"), width, LINE_HEIGHT);
             height += TIMER_BAR_HEIGHT;
             height += SECTION_SPACING * 2 + 1;
             height += LINE_HEIGHT + 2;
@@ -1825,7 +1823,7 @@ public class HudConfigScreen extends Screen {
 
         if (compact) {
             int height = PADDING;
-            height += HudTextUtil.wrappedCenteredHeight(this.font, "Daycare", width, LINE_HEIGHT);
+            height += HudTextUtil.wrappedCenteredHeight(this.font, Component.literal("Daycare"), width, LINE_HEIGHT);
             height += LINE_HEIGHT;            height += penCount * LINE_HEIGHT;
             if (maxEggs > 0) {
                 height += LINE_HEIGHT;                height += maxEggs * LINE_HEIGHT;
@@ -1835,7 +1833,7 @@ public class HudConfigScreen extends Screen {
             return height;
         } else {
             int height = PADDING;
-            height += HudTextUtil.wrappedCenteredHeight(this.font, "SAA Daycare Helper", width, LINE_HEIGHT);
+            height += HudTextUtil.wrappedCenteredHeight(this.font, Component.translatable("interface.saa.daycare.helper"), width, LINE_HEIGHT);
             height += 2 + SECTION_SPACING;
             height += LINE_HEIGHT;            height += penCount * (LINE_HEIGHT + 8);
             if (maxEggs > 0) {
@@ -1854,9 +1852,9 @@ public class HudConfigScreen extends Screen {
             return PADDING + LINE_HEIGHT + PADDING;
         } else {
             int height = PADDING;
-            height += HudTextUtil.wrappedCenteredHeight(this.font, "SAA Wondertrade Helper", width, LINE_HEIGHT);
+            height += HudTextUtil.wrappedCenteredHeight(this.font, Component.translatable("interface.saa.wondertrade.helper"), width, LINE_HEIGHT);
             height += 2 + SECTION_SPACING;
-            height += HudTextUtil.wrappedCenteredHeight(this.font, "Please use WT once to set menu.", width, LINE_HEIGHT);
+            height += HudTextUtil.wrappedCenteredHeight(this.font, Component.translatable("interface.saa.wondertrade.unset"), width, LINE_HEIGHT);
             height += 6 + PADDING;
             return height;
         }
@@ -1879,7 +1877,7 @@ public class HudConfigScreen extends Screen {
             return height;
         } else {
             int height = PADDING;
-            height += HudTextUtil.wrappedCenteredHeight(this.font, "SAA Stats", width, LINE_HEIGHT);
+            height += HudTextUtil.wrappedCenteredHeight(this.font, Component.translatable("interface.saa.text.saa_stats"), width, LINE_HEIGHT);
             height += 2 + SECTION_SPACING;
             height += LINE_HEIGHT;            for (String[] stat : playerStats) {
                 height += HudTextUtil.statLineHeight(this.font, stat[0], stat[1], width, PADDING, LINE_HEIGHT);

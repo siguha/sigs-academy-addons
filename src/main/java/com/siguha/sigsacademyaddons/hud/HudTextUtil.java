@@ -2,43 +2,31 @@ package com.siguha.sigsacademyaddons.hud;
 
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.network.chat.Component;
+import net.minecraft.util.FormattedCharSequence;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class HudTextUtil {
 
-    public static List<String> wrapText(Font font, String text, int maxWidth) {
+    public static List<String> wrapText(Font font, Component text, int maxWidth) {
         List<String> lines = new ArrayList<>();
-        if (maxWidth <= 0 || text == null || text.isEmpty()) {
-            if (text != null && !text.isEmpty()) lines.add(text);
+
+        if (font == null || text == null || maxWidth <= 0 || text.getString().isEmpty()) {
             return lines;
         }
 
-        String[] words = text.split(" ");
-        StringBuilder current = new StringBuilder();
+        List<FormattedCharSequence> wrapped = font.split(text, maxWidth);
 
-        for (String word : words) {
-            if (current.isEmpty()) {
-                current.append(word);
-            } else {
-                String test = current + " " + word;
-                if (font.width(test) > maxWidth) {
-                    lines.add(current.toString());
-                    current = new StringBuilder(word);
-                } else {
-                    current.append(" ").append(word);
-                }
-            }
+        for (FormattedCharSequence seq : wrapped) {
+            lines.add(seq.toString());
         }
-        if (!current.isEmpty()) {
-            lines.add(current.toString());
-        }
+
         return lines;
     }
 
-    public static int renderWrappedCentered(GuiGraphics graphics, Font font, String text,
-                                             int panelWidth, int y, int color, int lineHeight) {
+    public static int renderWrappedCentered(GuiGraphics graphics, Font font, Component text, int panelWidth, int y, int color, int lineHeight) {
         int maxTextWidth = panelWidth - 8;
         if (font.width(text) <= maxTextWidth) {
             int textWidth = font.width(text);
@@ -54,7 +42,7 @@ public class HudTextUtil {
         return y;
     }
 
-    public static int wrappedCenteredHeight(Font font, String text, int panelWidth, int lineHeight) {
+    public static int wrappedCenteredHeight(Font font, Component text, int panelWidth, int lineHeight) {
         int maxTextWidth = panelWidth - 8;
         if (font.width(text) <= maxTextWidth) {
             return lineHeight;

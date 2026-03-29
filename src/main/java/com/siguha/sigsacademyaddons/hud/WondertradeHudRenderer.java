@@ -6,6 +6,7 @@ import net.minecraft.client.DeltaTracker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.network.chat.Component;
 
 public class WondertradeHudRenderer implements HudPanel {
 
@@ -134,16 +135,14 @@ public class WondertradeHudRenderer implements HudPanel {
     private void renderFull(GuiGraphics graphics, Font font, int panelWidth) {
         int currentY = PADDING;
 
-        String header = "SAA Wondertrade Helper";
-        currentY = HudTextUtil.renderWrappedCentered(graphics, font, header, panelWidth, currentY, COLOR_HEADER, LINE_HEIGHT);
+        currentY = HudTextUtil.renderWrappedCentered(graphics, font, Component.translatable("interface.saa.wondertrade.helper"), panelWidth, currentY, COLOR_HEADER, LINE_HEIGHT);
 
         currentY += 2;
         graphics.fill(PADDING, currentY, panelWidth - PADDING, currentY + 1, 0xFF555555);
         currentY += SECTION_SPACING;
 
         if (!wondertradeManager.hasTimer()) {
-            String unsetText = "Please use WT once to set menu.";
-            currentY = HudTextUtil.renderWrappedCentered(graphics, font, unsetText, panelWidth, currentY, COLOR_TEXT_UNSET, LINE_HEIGHT);
+            currentY = HudTextUtil.renderWrappedCentered(graphics, font, Component.translatable("interface.saa.wondertrade.unset"), panelWidth, currentY, COLOR_TEXT_UNSET, LINE_HEIGHT);
 
         } else if (wondertradeManager.isCooldownOver()) {
             String doneText = "Cooldown Over!";
@@ -230,11 +229,11 @@ public class WondertradeHudRenderer implements HudPanel {
 
     private int calculatePanelHeightForWidth(Font font, int panelWidth) {
         int height = PADDING;
-        height += HudTextUtil.wrappedCenteredHeight(font, "SAA Wondertrade Helper", panelWidth, LINE_HEIGHT);
+        height += HudTextUtil.wrappedCenteredHeight(font, Component.translatable("interface.saa.wondertrade.helper"), panelWidth, LINE_HEIGHT);
         height += 2 + SECTION_SPACING;
 
         if (!wondertradeManager.hasTimer()) {
-            height += HudTextUtil.wrappedCenteredHeight(font, "Please use WT once to set menu.", panelWidth, LINE_HEIGHT);
+            height += HudTextUtil.wrappedCenteredHeight(font, Component.translatable("interface.saa.wondertrade.unset"), panelWidth, LINE_HEIGHT);
         } else {
             height += LINE_HEIGHT;
             height += TIMER_BAR_HEIGHT;

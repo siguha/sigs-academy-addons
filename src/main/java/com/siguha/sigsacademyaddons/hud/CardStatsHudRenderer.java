@@ -7,6 +7,7 @@ import net.minecraft.client.DeltaTracker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
@@ -135,7 +136,7 @@ public class CardStatsHudRenderer implements HudPanel {
     private void renderFull(GuiGraphics graphics, Font font, int panelWidth) {
         int y = PADDING;
 
-        String header = "SAA Stats";
+        Component header = Component.translatable("interface.saa.text.saa_stats");
         y = HudTextUtil.renderWrappedCentered(graphics, font, header, panelWidth, y, COLOR_HEADER, LINE_HEIGHT);
 
         List<StatEntry> playerStats = cardStatsManager.getPlayerStats();
@@ -146,7 +147,7 @@ public class CardStatsHudRenderer implements HudPanel {
             graphics.fill(PADDING, y, panelWidth - PADDING, y + 1, 0xFF555555);
             y += SECTION_SPACING;
 
-            graphics.drawString(font, "Player", PADDING, y, COLOR_SECTION_HEADER, true);
+            graphics.drawString(font, Component.translatable("interface.saa.text.player"), PADDING, y, COLOR_SECTION_HEADER, true);
             y += LINE_HEIGHT;
 
             for (StatEntry entry : playerStats) {
@@ -159,7 +160,7 @@ public class CardStatsHudRenderer implements HudPanel {
             graphics.fill(PADDING, y, panelWidth - PADDING, y + 1, 0xFF555555);
             y += SECTION_SPACING;
 
-            graphics.drawString(font, "Cards", PADDING, y, COLOR_SECTION_HEADER, true);
+            graphics.drawString(font, Component.translatable("interface.saa.text.cards"), PADDING, y, COLOR_SECTION_HEADER, true);
             y += LINE_HEIGHT;
 
             for (StatEntry entry : cardStatsList) {
@@ -171,7 +172,7 @@ public class CardStatsHudRenderer implements HudPanel {
     private void renderCompact(GuiGraphics graphics, Font font, int panelWidth) {
         int y = PADDING;
 
-        String title = "Stats";
+        Component title = Component.translatable("interface.saa.text.stats");
         graphics.drawString(font, title, PADDING, y, COLOR_HEADER, true);
         y += LINE_HEIGHT;
 
@@ -179,7 +180,7 @@ public class CardStatsHudRenderer implements HudPanel {
         List<StatEntry> cardStatsList = cardStatsManager.getCardStats();
 
         if (!playerStats.isEmpty()) {
-            graphics.drawString(font, "Player", PADDING, y, COLOR_SECTION_HEADER, true);
+            graphics.drawString(font, Component.translatable("interface.saa.text.player"), PADDING, y, COLOR_SECTION_HEADER, true);
             y += LINE_HEIGHT;
 
             for (StatEntry entry : playerStats) {
@@ -188,7 +189,7 @@ public class CardStatsHudRenderer implements HudPanel {
         }
 
         if (!cardStatsList.isEmpty()) {
-            graphics.drawString(font, "Cards", PADDING, y, COLOR_SECTION_HEADER, true);
+            graphics.drawString(font, Component.translatable("interface.saa.text.cards"), PADDING, y, COLOR_SECTION_HEADER, true);
             y += LINE_HEIGHT;
 
             for (StatEntry entry : cardStatsList) {
@@ -221,10 +222,10 @@ public class CardStatsHudRenderer implements HudPanel {
             maxWidth = Math.max(maxWidth, lineWidth + PADDING * 2 + 2);
         }
 
-        String header = "SAA Stats";
+        Component header = Component.translatable("interface.saa.text.saa_stats");
         maxWidth = Math.max(maxWidth, font.width(header) + PADDING * 2);
-        maxWidth = Math.max(maxWidth, font.width("Player") + PADDING * 2);
-        maxWidth = Math.max(maxWidth, font.width("Cards") + PADDING * 2);
+        maxWidth = Math.max(maxWidth, font.width(Component.translatable("interface.saa.text.player")) + PADDING * 2);
+        maxWidth = Math.max(maxWidth, font.width(Component.translatable("interface.saa.text.cards")) + PADDING * 2);
 
         return maxWidth;
     }
@@ -258,9 +259,9 @@ public class CardStatsHudRenderer implements HudPanel {
         List<StatEntry> playerStats = cardStatsManager.getPlayerStats();
         List<StatEntry> cardStatsList = cardStatsManager.getCardStats();
 
-        maxWidth = Math.max(maxWidth, font.width("Stats") + PADDING * 2);
-        maxWidth = Math.max(maxWidth, font.width("Player") + PADDING * 2);
-        maxWidth = Math.max(maxWidth, font.width("Cards") + PADDING * 2);
+        maxWidth = Math.max(maxWidth, font.width(Component.translatable("interface.saa.text.stats")) + PADDING * 2);
+        maxWidth = Math.max(maxWidth, font.width(Component.translatable("interface.saa.text.player")) + PADDING * 2);
+        maxWidth = Math.max(maxWidth, font.width(Component.translatable("interface.saa.text.cards")) + PADDING * 2);
 
         for (StatEntry entry : playerStats) {
             int lineWidth = font.width(entry.displayName()) + 8 + font.width(CardStatsManager.formatValue(entry));
@@ -298,7 +299,7 @@ public class CardStatsHudRenderer implements HudPanel {
         List<StatEntry> cardStatsList = cardStatsManager.getCardStats();
 
         int height = PADDING;
-        height += HudTextUtil.wrappedCenteredHeight(font, "SAA Stats", panelWidth, LINE_HEIGHT);
+        height += HudTextUtil.wrappedCenteredHeight(font, Component.translatable("interface.saa.text.saa_stats"), panelWidth, LINE_HEIGHT);
 
         if (!playerStats.isEmpty()) {
             height += 2 + SECTION_SPACING;

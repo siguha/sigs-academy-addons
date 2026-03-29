@@ -9,8 +9,8 @@ import net.minecraft.client.DeltaTracker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.network.chat.Component;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class SafariHudRenderer implements HudPanel {
@@ -36,7 +36,7 @@ public class SafariHudRenderer implements HudPanel {
     private static final int COLOR_RESET_TIMER = 0xFFFF8855;
     private static final int COLOR_QUEST_NUMBER = 0xFFFFFF55;
 
-    private static final String NO_QUESTS_MESSAGE = "Please visit the Safari Hunt NPC and load your hunt menu.";
+    private static final Component NO_QUESTS_MESSAGE = Component.translatable("interface.saa.safari.no_quest");
 
     private final SafariManager safariManager;
     private final SafariHuntManager safariHuntManager;
@@ -335,10 +335,10 @@ public class SafariHudRenderer implements HudPanel {
 
     private int renderTimerSection(GuiGraphics graphics, Font font, int startY, int panelWidth) {
         int y = startY;
-        String header = "SAA Safari Helper";
+        Component header = Component.translatable("interface.saa.safari.helper");
 
         if (!safariManager.isInSafariZone()) {
-            header = "SAA Safari Helper (away)";
+            header = Component.translatable("interface.saa.safari.helper_away");
         }
 
         y = HudTextUtil.renderWrappedCentered(graphics, font, header, panelWidth, y, COLOR_HEADER, LINE_HEIGHT);
@@ -492,7 +492,7 @@ public class SafariHudRenderer implements HudPanel {
         int height = PADDING;
 
         if (showTimer) {
-            String header = safariManager.isInSafariZone() ? "SAA Safari Helper" : "SAA Safari Helper (away)";
+            Component header = safariManager.isInSafariZone() ? Component.translatable("interface.saa.safari.helper") : Component.translatable("interface.saa.safari.helper_away");
             height += HudTextUtil.wrappedCenteredHeight(font, header, panelWidth, LINE_HEIGHT);
             height += TIMER_BAR_HEIGHT;
         }
@@ -537,7 +537,7 @@ public class SafariHudRenderer implements HudPanel {
         return COLOR_TIMER_SAFE;
     }
 
-    private static List<String> wrapText(Font font, String text, int maxWidth) {
+    private static List<String> wrapText(Font font, Component text, int maxWidth) {
         return HudTextUtil.wrapText(font, text, maxWidth);
     }
 }

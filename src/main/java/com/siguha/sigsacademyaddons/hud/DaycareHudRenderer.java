@@ -7,6 +7,7 @@ import net.minecraft.client.DeltaTracker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
@@ -34,8 +35,8 @@ public class DaycareHudRenderer implements HudPanel {
     private static final int COLOR_INCOMPATIBLE = 0xFFFF3333;
     private static final int COLOR_TEXT_UNSET = 0xFF888888;
 
-    private static final String EMPTY_MESSAGE_FULL = "Please load all daycare pens to load data.";
-    private static final String EMPTY_MESSAGE_COMPACT = "Load daycare pens.";
+    private static final Component EMPTY_MESSAGE_FULL = Component.translatable("interface.saa.daycare.empty_full");
+    private static final Component EMPTY_MESSAGE_COMPACT = Component.translatable("interface.saa.daycare.empty_compact");
 
     private final DaycareManager daycareManager;
     private final HudConfig hudConfig;
@@ -116,7 +117,7 @@ public class DaycareHudRenderer implements HudPanel {
                 return PADDING + LINE_HEIGHT + HudTextUtil.wrappedCenteredHeight(font, EMPTY_MESSAGE_COMPACT, panelWidth, LINE_HEIGHT) + PADDING;
             } else {
                 int h = PADDING;
-                h += HudTextUtil.wrappedCenteredHeight(font, "SAA Daycare Helper", panelWidth, LINE_HEIGHT);
+                h += HudTextUtil.wrappedCenteredHeight(font, Component.translatable("interface.saa.daycare.helper"), panelWidth, LINE_HEIGHT);
                 h += 2 + SECTION_SPACING;
                 h += HudTextUtil.wrappedCenteredHeight(font, EMPTY_MESSAGE_FULL, panelWidth, LINE_HEIGHT);
                 h += PADDING;
@@ -251,8 +252,7 @@ public class DaycareHudRenderer implements HudPanel {
 
     private void renderFullEmpty(GuiGraphics graphics, Font font, int panelWidth) {
         int currentY = PADDING;
-        String header = "SAA Daycare Helper";
-        currentY = HudTextUtil.renderWrappedCentered(graphics, font, header, panelWidth, currentY, COLOR_HEADER, LINE_HEIGHT);
+        currentY = HudTextUtil.renderWrappedCentered(graphics, font, Component.translatable("interface.saa.daycare.helper"), panelWidth, currentY, COLOR_HEADER, LINE_HEIGHT);
 
         currentY += 2;
         graphics.fill(PADDING, currentY, panelWidth - PADDING, currentY + 1, 0xFF555555);
@@ -341,8 +341,7 @@ public class DaycareHudRenderer implements HudPanel {
                              int totalActiveEggs, int maxDisplayEggs) {
         int currentY = PADDING;
 
-        String header = "SAA Daycare Helper";
-        currentY = HudTextUtil.renderWrappedCentered(graphics, font, header, panelWidth, currentY, COLOR_HEADER, LINE_HEIGHT);
+        currentY = HudTextUtil.renderWrappedCentered(graphics, font, Component.translatable("interface.saa.daycare.helper"), panelWidth, currentY, COLOR_HEADER, LINE_HEIGHT);
 
         boolean hasAnyPen = !displayPens.isEmpty();
         if (hasAnyPen) {
@@ -766,7 +765,7 @@ public class DaycareHudRenderer implements HudPanel {
                                               List<DaycareState.ClaimedEgg> eggs,
                                               int totalActiveEggs, int maxDisplayEggs) {
         int height = PADDING;
-        height += HudTextUtil.wrappedCenteredHeight(font, "SAA Daycare Helper", panelWidth, LINE_HEIGHT);
+        height += HudTextUtil.wrappedCenteredHeight(font, Component.translatable("interface.saa.daycare.helper"), panelWidth, LINE_HEIGHT);
 
         if (!pens.isEmpty()) {
             height += 2 + SECTION_SPACING;
