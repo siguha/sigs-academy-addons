@@ -193,6 +193,10 @@
     "text.saa.blocks_away": "%1$s Blocs plus loin",
     "text.saa.safari": "Safari:",
     "text.saa.safari_away": "Safari (en dehors):",
+    "text.saa.portal.location": "\\u00A7a Localisation Tier %1$s %2$s à %3$s, %4$s, %5$s",
+    "text.saa.portal.tracker": "A %1$s Blocs",
+    "text.saa.portal.tracker_above": "A %1$s Blocs (%2$s au dessus)",
+    "text.saa.portal.tracker_below": "A %1$s Blocs (%2$s en dessous)",
 
     "text.saa.enabled": "activé",
     "text.saa.disabled": "désactivé",

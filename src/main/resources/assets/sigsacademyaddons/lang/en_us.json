@@ -194,8 +194,8 @@
     "text.saa.safari_away": "Safari (away):",
     "text.saa.portal.location": "\\u00A7aTracking Tier %1$s %2$s at %3$s, %4$s, %5$s",
     "text.saa.portal.tracker": "%1$s Blocks away",
-    "text.saa.portal.tracker_above": "%1$s Blocks away (%2$s)",
-    "text.saa.portal.tracker_below": "%1$s Blocks away (%2$s)",
+    "text.saa.portal.tracker_above": "%1$s Blocks away (%2$s above)",
+    "text.saa.portal.tracker_below": "%1$s Blocks away (%2$s below)",
 
     "text.saa.enabled": "enabled",
     "text.saa.disabled": "disabled",
