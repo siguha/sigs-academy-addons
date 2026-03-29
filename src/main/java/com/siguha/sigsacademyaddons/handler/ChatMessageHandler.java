@@ -32,7 +32,7 @@ public class ChatMessageHandler {
             Pattern.CASE_INSENSITIVE
     );
     private static final Pattern TPA_REQUEST_PATTERN = Pattern.compile(
-            "You have a tpa request from (\\S+)!"
+            "You have a tpa(?:here)? request from (\\S+)!"
     );
     private static final Pattern PARTY_INVITE_PATTERN = Pattern.compile(
             "You have been invited to a party by (\\S+)!"
