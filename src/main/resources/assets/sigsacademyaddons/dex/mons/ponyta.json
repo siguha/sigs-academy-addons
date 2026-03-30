@@ -1,0 +1,244 @@
+{
+  "id": "ponyta",
+  "dexnum": 77,
+  "name": "Ponyta",
+  "primaryType": "fire",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1",
+    "kantonian_form"
+  ],
+  "abilities": [
+    "runaway",
+    "flashfire",
+    "h:flamebody"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 85,
+    "defence": 55,
+    "special_attack": 65,
+    "special_defence": 65,
+    "speed": 90
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species",
+        "biomes": [
+          "#cobblemon:nether/is_overgrowth",
+          "#cobblemon:nether/is_wasteland"
+        ]
+      },
+      {
+        "item": "minecraft:blaze_powder",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species",
+        "biomes": [
+          "#cobblemon:nether/is_overgrowth",
+          "#cobblemon:nether/is_wasteland"
+        ]
+      },
+      {
+        "item": "cobblemon:shuca_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species",
+        "biomes": [
+          "#cobblemon:nether/is_overgrowth",
+          "#cobblemon:nether/is_wasteland"
+        ]
+      }
+    ]
+  },
+  "moves": [
+    "1:growl",
+    "1:tackle",
+    "5:tailwhip",
+    "10:ember",
+    "15:flamecharge",
+    "20:agility",
+    "25:flamewheel",
+    "30:stomp",
+    "35:firespin",
+    "41:takedown",
+    "45:inferno",
+    "50:fireblast",
+    "55:flareblitz",
+    "egg:captivate",
+    "egg:doubleedge",
+    "egg:doublekick",
+    "egg:horndrill",
+    "egg:hypnosis",
+    "egg:morningsun",
+    "egg:thrash",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:captivate",
+    "tm:charm",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:highhorsepower",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:lowkick",
+    "tm:mysticalfire",
+    "tm:overheat",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:wildcharge",
+    "tm:willowisp",
+    "tutor:allyswitch",
+    "tutor:bounce",
+    "tutor:flamethrower",
+    "tutor:heatwave",
+    "tutor:highhorsepower",
+    "tutor:irontail",
+    "tutor:lowkick",
+    "tutor:mysticalfire",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:quickattack",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [
+    "Galar"
+  ],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "ponyta_rapidash",
+      "variant": "level_up",
+      "result": "rapidash",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "furyattack",
+        "smartstrike"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 5.04,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_grassland"
+          ],
+          "exclude": [
+            "#cobblemon:is_floral",
+            "#cobblemon:is_magical"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0077_ponyta.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_overgrowth",
+            "#cobblemon:nether/is_wasteland"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0077_ponyta.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/ponyta.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/ponyta_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/ponyta.json"
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": "maractus",
+  "dexnum": 556,
+  "name": "Maractus",
+  "primaryType": "grass",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "waterabsorb",
+    "chlorophyll",
+    "h:stormdrain"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 86,
+    "defence": 67,
+    "special_attack": 106,
+    "special_defence": 67,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:cactus",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:grassy_seed",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:sticky_barb",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:peck",
+    "1:absorb",
+    "1:needlearm",
+    "1:ingrain",
+    "1:afteryou",
+    "1:spikyshield",
+    "4:growth",
+    "8:megadrain",
+    "12:leechseed",
+    "16:suckerpunch",
+    "20:pinmissile",
+    "24:gigadrain",
+    "28:sweetscent",
+    "32:synthesis",
+    "36:petalblizzard",
+    "40:cottonspore",
+    "44:sunnyday",
+    "48:solarbeam",
+    "52:acupressure",
+    "56:petaldance",
+    "60:cottonguard",
+    "egg:grasswhistle",
+    "egg:leechseed",
+    "egg:woodhammer",
+    "egg:worryseed",
+    "tm:aerialace",
+    "tm:afteryou",
+    "tm:assurance",
+    "tm:bounce",
+    "tm:bulletseed",
+    "tm:drainpunch",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:helpinghand",
+    "tm:hypervoice",
+    "tm:knockoff",
+    "tm:leafstorm",
+    "tm:naturepower",
+    "tm:petalblizzard",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:screech",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spikes",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:synthesis",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:uproar",
+    "tm:weatherball",
+    "tm:worryseed",
+    "tutor:aerialace",
+    "tutor:afteryou",
+    "tutor:bounce",
+    "tutor:drainpunch",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:knockoff",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:suckerpunch",
+    "tutor:synthesis",
+    "tutor:throatchop",
+    "tutor:uproar",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 10.0,
+        "levels": "21-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands",
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0556_maractus.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/maractus.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/maractus_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/maractus.json"
+  ]
+}

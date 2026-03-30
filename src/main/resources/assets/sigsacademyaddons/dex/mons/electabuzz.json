@@ -1,0 +1,254 @@
+{
+  "id": "electabuzz",
+  "dexnum": 125,
+  "name": "Electabuzz",
+  "primaryType": "electric",
+  "secondaryType": "",
+  "maleRatio": 0.75,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "static",
+    "h:vitalspirit"
+  ],
+  "eggGroups": [
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 83,
+    "defence": 57,
+    "special_attack": 95,
+    "special_defence": 85,
+    "speed": 105
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:redstone",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:electirizer",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:quickattack",
+    "1:leer",
+    "1:thundershock",
+    "1:charge",
+    "12:swift",
+    "16:shockwave",
+    "20:thunderwave",
+    "24:screech",
+    "28:thunderpunch",
+    "34:discharge",
+    "40:lowkick",
+    "46:thunderbolt",
+    "52:lightscreen",
+    "58:thunder",
+    "64:gigaimpact",
+    "egg:barrier",
+    "egg:crosschop",
+    "egg:dynamicpunch",
+    "egg:feint",
+    "egg:focuspunch",
+    "egg:followme",
+    "egg:hammerarm",
+    "egg:karatechop",
+    "egg:meditate",
+    "egg:rollingkick",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:covet",
+    "tm:doubleedge",
+    "tm:dualchop",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:flash",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:icepunch",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:magnetrise",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metalsound",
+    "tm:metronome",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychic",
+    "tm:raindance",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:rockclimb",
+    "tm:rocksmash",
+    "tm:screech",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:strength",
+    "tm:substitute",
+    "tm:supercellslam",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:uproar",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:bulkup",
+    "tutor:chargebeam",
+    "tutor:covet",
+    "tutor:dualchop",
+    "tutor:electroweb",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icepunch",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:magnetrise",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:rocksmash",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:uproar",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:curse",
+    "legacy:detect",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:psywave",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:submission",
+    "legacy:swagger",
+    "legacy:teleport",
+    "legacy:toxic",
+    "legacy:zapcannon"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "electabuzz_electivire",
+      "variant": "trade",
+      "result": "electivire",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:electirizer"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.304,
+        "levels": "30-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_hills",
+            "#cobblemon:is_plains"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0125_electabuzz.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/electabuzz.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/electabuzz_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/electabuzz.json"
+  ]
+}

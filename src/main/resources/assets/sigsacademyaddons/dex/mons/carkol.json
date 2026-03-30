@@ -1,0 +1,274 @@
+{
+  "id": "carkol",
+  "dexnum": 838,
+  "name": "Carkol",
+  "primaryType": "rock",
+  "secondaryType": "fire",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "steamengine",
+    "flamebody",
+    "h:flashfire"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 60,
+    "defence": 90,
+    "special_attack": 60,
+    "special_defence": 70,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 120,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:coal",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:black_augurite",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:passho_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:flamecharge",
+    "1:tackle",
+    "1:smokescreen",
+    "1:rapidspin",
+    "1:smackdown",
+    "1:burnup",
+    "15:rockpolish",
+    "20:ancientpower",
+    "27:incinerate",
+    "35:stealthrock",
+    "41:heatcrash",
+    "48:rockblast",
+    "55:stoneedge",
+    "egg:block",
+    "egg:explosion",
+    "egg:mudslap",
+    "tm:ancientpower",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:curse",
+    "tm:dig",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:gyroball",
+    "tm:heatcrash",
+    "tm:heatwave",
+    "tm:heavyslam",
+    "tm:incinerate",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:meteorbeam",
+    "tm:mudslap",
+    "tm:overheat",
+    "tm:powergem",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scald",
+    "tm:scorchingsands",
+    "tm:selfdestruct",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:willowisp",
+    "tutor:ancientpower",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:flamethrower",
+    "tutor:heatwave",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:meteorbeam",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:scorchingsands",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "legacy:attract",
+    "legacy:highhorsepower",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "carkol_coalossal",
+      "variant": "level_up",
+      "result": "coalossal",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "tarshot"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 34
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 10,
+        "levels": "27-31",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_cave",
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0838_carkol.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:coal_ore"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 10,
+        "levels": "27-31",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_cave",
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0838_carkol.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 10,
+        "levels": "27-31",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_cave",
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0838_carkol.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:coal_ore"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 10,
+        "levels": "27-31",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_cave",
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0838_carkol.json"
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/carkol.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/carkol_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/carkol.json"
+  ]
+}

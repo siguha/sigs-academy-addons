@@ -1,0 +1,212 @@
+{
+  "id": "nihilego",
+  "dexnum": 793,
+  "name": "Nihilego",
+  "primaryType": "rock",
+  "secondaryType": "poison",
+  "maleRatio": -1,
+  "labels": [
+    "gen7",
+    "ultra_beast"
+  ],
+  "abilities": [
+    "beastboost",
+    "h:beastboost"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 109,
+    "attack": 53,
+    "defence": 47,
+    "special_attack": 127,
+    "special_defence": 131,
+    "speed": 103
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:echo_shard",
+        "percentage": null,
+        "quantityRange": "1-3",
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:constrict",
+    "1:pound",
+    "1:psywave",
+    "1:wrap",
+    "5:acid",
+    "10:tickle",
+    "15:acidspray",
+    "20:clearsmog",
+    "25:powersplit",
+    "25:guardsplit",
+    "30:venoshock",
+    "35:headbutt",
+    "40:toxicspikes",
+    "45:venomdrench",
+    "50:powergem",
+    "55:stealthrock",
+    "60:mirrorcoat",
+    "65:wonderroom",
+    "70:headsmash",
+    "tm:acidspray",
+    "tm:allyswitch",
+    "tm:bind",
+    "tm:bodyslam",
+    "tm:brutalswing",
+    "tm:chargebeam",
+    "tm:corrosivegas",
+    "tm:crosspoison",
+    "tm:dazzlinggleam",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:foulplay",
+    "tm:grassknot",
+    "tm:gunkshot",
+    "tm:headbutt",
+    "tm:hex",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:meteorbeam",
+    "tm:painsplit",
+    "tm:poisonjab",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:spite",
+    "tm:stealthrock",
+    "tm:substitute",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:toxicspikes",
+    "tm:trickroom",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tm:wonderroom",
+    "tm:worryseed",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:bind",
+    "tutor:chargebeam",
+    "tutor:corrosivegas",
+    "tutor:dazzlinggleam",
+    "tutor:foulplay",
+    "tutor:gunkshot",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:magiccoat",
+    "tutor:meteorbeam",
+    "tutor:painsplit",
+    "tutor:poisonjab",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:roleplay",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spite",
+    "tutor:stealthrock",
+    "tutor:telekinesis",
+    "tutor:thunderbolt",
+    "tutor:wonderroom",
+    "tutor:worryseed",
+    "tutor:zenheadbutt",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.3,
+        "levels": "60-88",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#minecraft:is_end"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/ultra_beasts_spawns/spawn_pool_world/0793_nihilego.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.2,
+        "levels": "60-88",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#minecraft:is_end"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/ub_spawns_ccc/spawn_pool_world/0793_nihilego.json"
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/nihilego.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/nihilego_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/nihilego.json"
+  ]
+}

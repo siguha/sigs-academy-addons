@@ -1,0 +1,218 @@
+{
+  "id": "corviknight",
+  "dexnum": 823,
+  "name": "Corviknight",
+  "primaryType": "flying",
+  "secondaryType": "steel",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "pressure",
+    "unnerve",
+    "h:mirrorarmor"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 98,
+    "attack": 87,
+    "defence": 105,
+    "special_attack": 53,
+    "special_defence": 85,
+    "speed": 67
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:chicken",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:metal_coat",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:wacan_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:steelwing",
+    "1:irondefense",
+    "1:metalsound",
+    "1:peck",
+    "1:leer",
+    "1:powertrip",
+    "1:honeclaws",
+    "1:screech",
+    "12:furyattack",
+    "16:pluck",
+    "22:taunt",
+    "28:scaryface",
+    "34:drillpeck",
+    "42:swagger",
+    "50:bravebird",
+    "egg:defog",
+    "egg:rocksmash",
+    "egg:roost",
+    "egg:sandattack",
+    "egg:skyattack",
+    "egg:spite",
+    "egg:tailwind",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:assurance",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bravebird",
+    "tm:bulkup",
+    "tm:curse",
+    "tm:defog",
+    "tm:doubleedge",
+    "tm:dualwingbeat",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flashcannon",
+    "tm:fly",
+    "tm:focusenergy",
+    "tm:gigaimpact",
+    "tm:heavyslam",
+    "tm:honeclaws",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lightscreen",
+    "tm:metalclaw",
+    "tm:metalsound",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:pluck",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:rocksmash",
+    "tm:roost",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:spite",
+    "tm:steelbeam",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:uturn",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:bulkup",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:flashcannon",
+    "tutor:focusenergy",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:roost",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:steelbeam",
+    "tutor:swift",
+    "tutor:tailwind",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [
+    "Gmax"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "38-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_hills",
+            "#cobblemon:is_sky",
+            "#cobblemon:is_spooky",
+            "#cobblemon:is_taiga"
+          ],
+          "exclude": [
+            "#cobblemon:is_arid"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0823_corviknight.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/corviknight.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/corviknight_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/corviknight.json"
+  ]
+}

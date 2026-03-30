@@ -1,0 +1,307 @@
+{
+  "id": "sliggoo",
+  "dexnum": 705,
+  "name": "Sliggoo",
+  "primaryType": "dragon",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen6",
+    "kalosian_form"
+  ],
+  "abilities": [
+    "sapsipper",
+    "hydration",
+    "h:gooey"
+  ],
+  "eggGroups": [
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 68,
+    "attack": 75,
+    "defence": 53,
+    "special_attack": 83,
+    "special_defence": 113,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:slime_ball",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:shed_shell",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:haban_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:bubble",
+    "1:absorb",
+    "1:bide",
+    "1:dragonbreath",
+    "1:acidspray",
+    "1:watergun",
+    "1:acidarmor",
+    "15:protect",
+    "20:flail",
+    "25:waterpulse",
+    "30:raindance",
+    "35:dragonpulse",
+    "43:curse",
+    "49:bodyslam",
+    "56:muddywater",
+    "egg:counter",
+    "egg:lifedew",
+    "tm:acidspray",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:curse",
+    "tm:dracometeor",
+    "tm:dragonpulse",
+    "tm:endure",
+    "tm:facade",
+    "tm:icebeam",
+    "tm:infestation",
+    "tm:irontail",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:outrage",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:shockwave",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:icebeam",
+    "tutor:irontail",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:shockwave",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:thunderbolt",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:poisontail",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger"
+  ],
+  "forms": [
+    "Hisui"
+  ],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "sliggoo_goodra",
+      "variant": "level_up",
+      "result": "goodra",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "aquatail"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 50
+        },
+        {
+          "variant": "weather",
+          "isRaining": true
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "rare",
+        "weight": 2.25,
+        "levels": "40-45",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0705_sliggoo.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "40-45",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0705_sliggoo.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "rare",
+        "weight": 2.25,
+        "levels": "40-45",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0705_sliggoo.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "40-45",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0705_sliggoo.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 2.25,
+        "levels": "40-45",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0705_sliggoo.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "40-45",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean",
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0705_sliggoo.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/sliggoo.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/sliggoo_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/sliggoo.json"
+  ]
+}

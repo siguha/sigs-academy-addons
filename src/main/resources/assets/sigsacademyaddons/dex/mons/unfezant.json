@@ -1,0 +1,246 @@
+{
+  "id": "unfezant",
+  "dexnum": 521,
+  "name": "Unfezant",
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "bigpecks",
+    "superluck",
+    "h:rivalry"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 115,
+    "defence": 80,
+    "special_attack": 65,
+    "special_defence": 55,
+    "speed": 93
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:chicken",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:sharp_beak",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:razz_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:gust",
+    "1:growl",
+    "1:leer",
+    "1:quickattack",
+    "1:razorwind",
+    "12:taunt",
+    "16:aircutter",
+    "20:swagger",
+    "26:featherdance",
+    "36:detect",
+    "42:airslash",
+    "50:roost",
+    "58:tailwind",
+    "66:skyattack",
+    "egg:bestow",
+    "egg:defog",
+    "egg:hypnosis",
+    "egg:luckychant",
+    "egg:morningsun",
+    "egg:nightslash",
+    "egg:wish",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:bravebird",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:fly",
+    "tm:focusenergy",
+    "tm:gigaimpact",
+    "tm:heatwave",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:pluck",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roost",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:focusenergy",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:hyperbeam",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:uproar",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "32-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain",
+            "#cobblemon:is_sky"
+          ],
+          "exclude": [
+            "#cobblemon:is_volcanic"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0521_unfezant.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "32-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0521_unfezant.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "32-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0521_unfezant.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/unfezant_female.png",
+      "out/sprites/cobblemon/unfezant_male.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/unfezant_female_shiny.png",
+      "out/sprites/cobblemon/unfezant_male_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/unfezant.json"
+  ]
+}

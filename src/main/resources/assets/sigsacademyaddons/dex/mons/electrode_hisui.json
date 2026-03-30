@@ -1,0 +1,201 @@
+{
+  "id": "electrode_hisui",
+  "dexnum": 101,
+  "name": "Electrode Hisui",
+  "primaryType": "electric",
+  "secondaryType": "grass",
+  "maleRatio": -1,
+  "labels": [
+    "gen8a",
+    "hisuian_form"
+  ],
+  "abilities": [
+    "soundproof",
+    "static",
+    "h:aftermath"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 70,
+    "special_attack": 80,
+    "special_defence": 80,
+    "speed": 150
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 60,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:gunpowder",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:red_apricorn",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:chloroblast",
+    "1:charge",
+    "1:tackle",
+    "4:thundershock",
+    "6:stunspore",
+    "9:bulletseed",
+    "11:rollout",
+    "13:screech",
+    "16:chargebeam",
+    "20:swift",
+    "22:electroball",
+    "26:selfdestruct",
+    "29:energyball",
+    "34:seedbomb",
+    "34:discharge",
+    "41:explosion",
+    "46:gyroball",
+    "50:grassyterrain",
+    "egg:leechseed",
+    "egg:recycle",
+    "egg:worryseed",
+    "tm:agility",
+    "tm:bulletseed",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:curse",
+    "tm:doubleedge",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:energyball",
+    "tm:explosion",
+    "tm:facade",
+    "tm:foulplay",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:gyroball",
+    "tm:hyperbeam",
+    "tm:iceball",
+    "tm:leafstorm",
+    "tm:protect",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rollout",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:seedbomb",
+    "tm:selfdestruct",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:supercellslam",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:worryseed",
+    "tutor:chargebeam",
+    "tutor:electroweb",
+    "tutor:energyball",
+    "tutor:foulplay",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grassyglide",
+    "tutor:hyperbeam",
+    "tutor:iceball",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:wildcharge",
+    "tutor:worryseed"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.0,
+        "levels": "30-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0101_electrode.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "#cobblemon:apricorns"
+          ],
+          "resolved": [
+            "cobblemon:black_apricorn",
+            "cobblemon:blue_apricorn",
+            "cobblemon:green_apricorn",
+            "cobblemon:pink_apricorn",
+            "cobblemon:red_apricorn",
+            "cobblemon:white_apricorn",
+            "cobblemon:yellow_apricorn"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/electrode_hisuian.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/electrode_hisuian_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/electrode.json"
+  ]
+}

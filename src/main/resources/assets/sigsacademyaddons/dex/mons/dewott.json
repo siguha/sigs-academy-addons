@@ -1,0 +1,292 @@
+{
+  "id": "dewott",
+  "dexnum": 502,
+  "name": "Dewott",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen5",
+    "unovan_form"
+  ],
+  "abilities": [
+    "torrent",
+    "h:shellarmor"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 75,
+    "defence": 60,
+    "special_attack": 83,
+    "special_defence": 60,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:shell_bell",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "1:watergun",
+    "1:watersport",
+    "1:soak",
+    "13:focusenergy",
+    "18:razorshell",
+    "21:furycutter",
+    "26:waterpulse",
+    "29:aerialace",
+    "34:aquajet",
+    "37:encore",
+    "42:aquatail",
+    "45:retaliate",
+    "50:swordsdance",
+    "53:hydropump",
+    "egg:airslash",
+    "egg:aquacutter",
+    "egg:copycat",
+    "egg:detect",
+    "egg:knockoff",
+    "egg:nightslash",
+    "egg:sacredsword",
+    "egg:screech",
+    "egg:trumpcard",
+    "tm:aerialace",
+    "tm:airslash",
+    "tm:aquatail",
+    "tm:assurance",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:brickbreak",
+    "tm:brine",
+    "tm:chillingwater",
+    "tm:covet",
+    "tm:cut",
+    "tm:dig",
+    "tm:dive",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:flipturn",
+    "tm:focusenergy",
+    "tm:furycutter",
+    "tm:grassknot",
+    "tm:hail",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:protect",
+    "tm:raindance",
+    "tm:razorshell",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:rocksmash",
+    "tm:screech",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:vacuumwave",
+    "tm:waterfall",
+    "tm:waterpledge",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:workup",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:aquatail",
+    "tutor:covet",
+    "tutor:dive",
+    "tutor:falseswipe",
+    "tutor:flipturn",
+    "tutor:focusenergy",
+    "tutor:furycutter",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:liquidation",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:vacuumwave",
+    "tutor:waterpledge",
+    "tutor:waterpulse",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [
+    "Hisui-Bias"
+  ],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "dewott_samurott",
+      "variant": "level_up",
+      "result": "samurott",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "slash"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]
+    },
+    {
+      "id": "dewott_samurotthisui",
+      "variant": "level_up",
+      "result": "samurott hisuian",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "ceaselessedge"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/regional/dewott_hisuibiome"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "17-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_beach"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0502_dewott.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "17-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_beach"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0502_dewott.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "17-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_beach",
+            "#cobblemon:is_ocean",
+            "#cobblemon:is_tropical_island"
+          ],
+          "exclude": [
+            "#cobblemon:is_cold"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0502_dewott.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/dewott.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/dewott_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/dewott.json"
+  ]
+}

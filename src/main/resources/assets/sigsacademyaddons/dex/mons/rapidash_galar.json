@@ -1,0 +1,213 @@
+{
+  "id": "rapidash_galar",
+  "dexnum": 78,
+  "name": "Rapidash Galar",
+  "primaryType": "psychic",
+  "secondaryType": "fairy",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8",
+    "galarian_form"
+  ],
+  "abilities": [
+    "runaway",
+    "pastelveil",
+    "h:anticipation"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 100,
+    "defence": 70,
+    "special_attack": 80,
+    "special_defence": 80,
+    "speed": 105
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 60,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:razz_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:psychocut",
+    "1:megahorn",
+    "1:tackle",
+    "1:quickattack",
+    "1:growl",
+    "1:tailwhip",
+    "1:confusion",
+    "15:fairywind",
+    "20:agility",
+    "25:psybeam",
+    "30:stomp",
+    "35:healpulse",
+    "43:takedown",
+    "49:dazzlinggleam",
+    "56:psychic",
+    "63:healingwish",
+    "egg:doubleedge",
+    "egg:doublekick",
+    "egg:horndrill",
+    "egg:hypnosis",
+    "egg:morningsun",
+    "egg:thrash",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:batonpass",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:dazzlinggleam",
+    "tm:doubleedge",
+    "tm:drillrun",
+    "tm:endure",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:irontail",
+    "tm:lowkick",
+    "tm:magicroom",
+    "tm:megahorn",
+    "tm:mistyterrain",
+    "tm:mysticalfire",
+    "tm:payday",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psychocut",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:smartstrike",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:trickroom",
+    "tm:wildcharge",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:bounce",
+    "tutor:calmmind",
+    "tutor:dazzlinggleam",
+    "tutor:drillrun",
+    "tutor:expandingforce",
+    "tutor:gigaimpact",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:irontail",
+    "tutor:lowkick",
+    "tutor:magicroom",
+    "tutor:megahorn",
+    "tutor:mysticalfire",
+    "tutor:playrough",
+    "tutor:psychic",
+    "tutor:psychocut",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:wildcharge",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "40-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_floral",
+            "#cobblemon:is_magical"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0078_rapidash.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "40-50",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0078_rapidash.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/rapidash_galar.png",
+      "out/sprites/cobblemon/rapidash_galarian.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/rapidash_galar_shiny.png",
+      "out/sprites/cobblemon/rapidash_galarian_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/rapidash.json",
+    "datapacks\\Journey Mounts\\data\\cobblemon\\species\\generation1\\rapidash.json"
+  ]
+}

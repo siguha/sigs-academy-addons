@@ -1,0 +1,128 @@
+{
+  "id": "regieleki",
+  "dexnum": 894,
+  "name": "Regieleki",
+  "primaryType": "electric",
+  "secondaryType": "",
+  "maleRatio": -1,
+  "labels": [
+    "gen8",
+    "legendary"
+  ],
+  "abilities": [
+    "transistor",
+    "h:transistor"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 100,
+    "defence": 50,
+    "special_attack": 100,
+    "special_defence": 50,
+    "speed": 200
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "experienceGroup": "slow",
+  "catchRate": 3,
+  "drops": {
+    "amount": 0,
+    "entries": []
+  },
+  "moves": [
+    "1:thundershock",
+    "1:rapidspin",
+    "6:electroweb",
+    "12:ancientpower",
+    "18:shockwave",
+    "24:thunderwave",
+    "30:extremespeed",
+    "36:thundercage",
+    "42:thunderbolt",
+    "48:magnetrise",
+    "54:thrash",
+    "60:lockon",
+    "66:zapcannon",
+    "72:hyperbeam",
+    "78:explosion",
+    "tm:acrobatics",
+    "tm:agility",
+    "tm:ancientpower",
+    "tm:assurance",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:gigaimpact",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:screech",
+    "tm:selfdestruct",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:supercellslam",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:ancientpower",
+    "tutor:bounce",
+    "tutor:chargebeam",
+    "tutor:electroweb",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:magnetrise",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:wildcharge",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/regieleki.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/regieleki_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/regieleki.json"
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "id": "bayleef",
+  "dexnum": 153,
+  "name": "Bayleef",
+  "primaryType": "grass",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "overgrow",
+    "h:leafguard"
+  ],
+  "eggGroups": [
+    "monster",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 62,
+    "defence": 80,
+    "special_attack": 63,
+    "special_defence": 80,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "1:razorleaf",
+    "1:poisonpowder",
+    "1:naturalgift",
+    "12:synthesis",
+    "18:reflect",
+    "22:magicalleaf",
+    "26:leechseed",
+    "32:sweetscent",
+    "36:lightscreen",
+    "40:bodyslam",
+    "46:safeguard",
+    "50:gigadrain",
+    "54:solarbeam",
+    "egg:ancientpower",
+    "egg:aromatherapy",
+    "egg:counter",
+    "egg:flail",
+    "egg:grasswhistle",
+    "egg:healpulse",
+    "egg:ingrain",
+    "egg:leechseed",
+    "egg:refresh",
+    "egg:vinewhip",
+    "egg:wringout",
+    "tm:ancientpower",
+    "tm:bodyslam",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:curse",
+    "tm:cut",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:leafstorm",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magiccoat",
+    "tm:mudslap",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:workup",
+    "tm:worryseed",
+    "tutor:ancientpower",
+    "tutor:energyball",
+    "tutor:frenzyplant",
+    "tutor:furycutter",
+    "tutor:gigadrain",
+    "tutor:grasspledge",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:laserfocus",
+    "tutor:magicalleaf",
+    "tutor:magiccoat",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:synthesis",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:detect",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:frenzyplant"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "bayleef_meganium",
+      "variant": "level_up",
+      "result": "meganium",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_floral"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0153_bayleef.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:floral_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0153_bayleef.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/bayleef.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/bayleef_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/bayleef.json"
+  ]
+}

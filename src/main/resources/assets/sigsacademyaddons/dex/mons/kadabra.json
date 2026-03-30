@@ -1,0 +1,304 @@
+{
+  "id": "kadabra",
+  "dexnum": 64,
+  "name": "Kadabra",
+  "primaryType": "psychic",
+  "secondaryType": "",
+  "maleRatio": 0.75,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "synchronize",
+    "innerfocus",
+    "h:magicguard"
+  ],
+  "eggGroups": [
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 35,
+    "defence": 30,
+    "special_attack": 120,
+    "special_defence": 70,
+    "speed": 105
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 100,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:ender_pearl",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:twisted_spoon",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:kasib_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:teleport",
+    "1:kinesis",
+    "1:confusion",
+    "1:disable",
+    "1:miracleeye",
+    "5:psybeam",
+    "10:reflect",
+    "15:allyswitch",
+    "20:psychocut",
+    "25:recover",
+    "30:psyshock",
+    "35:psychic",
+    "40:roleplay",
+    "45:futuresight",
+    "50:calmmind",
+    "egg:barrier",
+    "egg:confusion",
+    "egg:guardsplit",
+    "egg:magiccoat",
+    "egg:powertrick",
+    "egg:psychoshift",
+    "tm:allyswitch",
+    "tm:bodyslam",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:dazzlinggleam",
+    "tm:drainpunch",
+    "tm:dreameater",
+    "tm:embargo",
+    "tm:encore",
+    "tm:endure",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:flash",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:foulplay",
+    "tm:futuresight",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:guardswap",
+    "tm:headbutt",
+    "tm:icepunch",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psychocut",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:speedswap",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:triattack",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:dazzlinggleam",
+    "tutor:drainpunch",
+    "tutor:energyball",
+    "tutor:expandingforce",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:foulplay",
+    "tutor:gravity",
+    "tutor:icepunch",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:psychic",
+    "tutor:psychocut",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:thunderpunch",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:curse",
+    "legacy:dig",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:nightshade",
+    "legacy:psywave",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:submission",
+    "legacy:swagger",
+    "legacy:takedown",
+    "legacy:toxic",
+    "legacy:zapcannon"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "kadabra_alakazam",
+      "variant": "trade",
+      "result": "alakazam",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "kinesis"
+      ],
+      "requirements": []
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 2.375,
+        "levels": "16-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_hills",
+            "#cobblemon:is_temperate"
+          ],
+          "exclude": [
+            "#cobblemon:is_magical"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0064_kadabra.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.52,
+        "levels": "16-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_magical"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0064_kadabra.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "mansion"
+        ],
+        "rarity": "common",
+        "weight": 0.19,
+        "levels": "16-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0064_kadabra.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/kadabra.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/kadabra_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/kadabra.json"
+  ]
+}

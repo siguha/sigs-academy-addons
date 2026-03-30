@@ -1,0 +1,240 @@
+{
+  "id": "torterra",
+  "dexnum": 389,
+  "name": "Torterra",
+  "primaryType": "grass",
+  "secondaryType": "ground",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "overgrow",
+    "h:shellarmor"
+  ],
+  "eggGroups": [
+    "monster",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 109,
+    "defence": 105,
+    "special_attack": 75,
+    "special_defence": 85,
+    "speed": 56
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:apple",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:woodhammer",
+    "1:tackle",
+    "1:withdraw",
+    "1:absorb",
+    "1:razorleaf",
+    "1:earthquake",
+    "17:curse",
+    "22:bite",
+    "27:megadrain",
+    "33:leechseed",
+    "39:synthesis",
+    "45:crunch",
+    "51:gigadrain",
+    "57:leafstorm",
+    "63:headlongrush",
+    "egg:doubleedge",
+    "egg:growth",
+    "egg:shellsmash",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:superpower",
+    "egg:swallow",
+    "egg:thrash",
+    "egg:tickle",
+    "egg:wideguard",
+    "egg:worryseed",
+    "tm:amnesia",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:crunch",
+    "tm:curse",
+    "tm:cut",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:frenzyplant",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:hardpress",
+    "tm:headbutt",
+    "tm:heavyslam",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:leafage",
+    "tm:leafstorm",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:naturepower",
+    "tm:outrage",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockblast",
+    "tm:rockclimb",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scaryface",
+    "tm:scorchingsands",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:solarbeam",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:workup",
+    "tm:worryseed",
+    "tm:zenheadbutt",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:energyball",
+    "tutor:frenzyplant",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grasspledge",
+    "tutor:grassyglide",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:magicalleaf",
+    "tutor:mudslap",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:scorchingsands",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:synthesis",
+    "tutor:worryseed",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "32-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest"
+          ],
+          "exclude": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0389_torterra.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/torterra.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/torterra_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/torterra.json"
+  ]
+}

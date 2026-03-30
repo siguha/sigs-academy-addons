@@ -1,0 +1,359 @@
+{
+  "id": "wartortle",
+  "dexnum": 8,
+  "name": "Wartortle",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "torrent",
+    "h:raindish"
+  ],
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "baseStats": {
+    "hp": 59,
+    "attack": 63,
+    "defence": 80,
+    "special_attack": 65,
+    "special_defence": 80,
+    "speed": 58
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:turtle_scute",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "1:bubble",
+    "1:withdraw",
+    "1:watergun",
+    "1:skullbash",
+    "9:rapidspin",
+    "12:bite",
+    "15:waterpulse",
+    "20:protect",
+    "25:raindance",
+    "30:aquatail",
+    "35:shellsmash",
+    "40:irondefense",
+    "45:hydropump",
+    "50:wavecrash",
+    "egg:aquajet",
+    "egg:aquaring",
+    "egg:fakeout",
+    "egg:flail",
+    "egg:foresight",
+    "egg:lifedew",
+    "egg:mirrorcoat",
+    "egg:mist",
+    "egg:mudsport",
+    "egg:refresh",
+    "egg:waterspout",
+    "egg:wavecrash",
+    "egg:yawn",
+    "tm:aquatail",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brine",
+    "tm:chillingwater",
+    "tm:dig",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:flipturn",
+    "tm:focuspunch",
+    "tm:gyroball",
+    "tm:hail",
+    "tm:haze",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icespinner",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:irontail",
+    "tm:liquidation",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:rollout",
+    "tm:sleeptalk",
+    "tm:strength",
+    "tm:substitute",
+    "tm:surf",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:waterpledge",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:aquatail",
+    "tutor:block",
+    "tutor:dive",
+    "tutor:flipturn",
+    "tutor:focuspunch",
+    "tutor:helpinghand",
+    "tutor:hydrocannon",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:irontail",
+    "tutor:liquidation",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:sleeptalk",
+    "tutor:waterpledge",
+    "tutor:waterpulse",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:aurasphere",
+    "legacy:bide",
+    "legacy:bubblebeam",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:confusion",
+    "legacy:counter",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:doubleteam",
+    "legacy:dragonpulse",
+    "legacy:dynamicpunch",
+    "legacy:falseswipe",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:outrage",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:rockslide",
+    "legacy:rocktomb",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:snore",
+    "legacy:submission",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:waterfall",
+    "special:block",
+    "special:celebrate",
+    "special:followme",
+    "special:hydrocannon"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "wartortle_blastoise",
+      "variant": "level_up",
+      "result": "blastoise",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "flashcannon"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "16-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_temperate",
+            "#cobblemon:is_tropical_island"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0008_wartortle.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:water"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "16-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_temperate",
+            "#cobblemon:is_tropical_island"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0008_wartortle.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "16-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_temperate",
+            "#cobblemon:is_tropical_island"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0008_wartortle.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "16-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_temperate",
+            "#cobblemon:is_tropical_island"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0008_wartortle.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "16-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_temperate",
+            "#cobblemon:is_tropical_island"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0008_wartortle.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/wartortle.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/wartortle_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/wartortle.json"
+  ]
+}

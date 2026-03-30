@@ -1,0 +1,4072 @@
+{
+  "abra": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/abra.json"
+  ],
+  "aerodactyl": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/aerodactyl.json"
+  ],
+  "alakazam": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/alakazam.json"
+  ],
+  "arbok": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/arbok.json"
+  ],
+  "arcanine": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/arcanine.json"
+  ],
+  "articuno": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/articuno.json"
+  ],
+  "beedrill": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/beedrill.json"
+  ],
+  "bellsprout": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/bellsprout.json"
+  ],
+  "blastoise": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/blastoise.json"
+  ],
+  "bulbasaur": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/bulbasaur.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation1\\bulbasaur.json"
+  ],
+  "butterfree": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/butterfree.json"
+  ],
+  "caterpie": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/caterpie.json"
+  ],
+  "chansey": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/chansey.json"
+  ],
+  "charizard": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/charizard.json"
+  ],
+  "charmander": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/charmander.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation1\\charmander.json"
+  ],
+  "charmeleon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/charmeleon.json"
+  ],
+  "clefable": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/clefable.json"
+  ],
+  "clefairy": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/clefairy.json"
+  ],
+  "cloyster": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/cloyster.json"
+  ],
+  "cubone": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/cubone.json"
+  ],
+  "dewgong": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/dewgong.json"
+  ],
+  "diglett": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/diglett.json"
+  ],
+  "ditto": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/ditto.json"
+  ],
+  "dodrio": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/dodrio.json"
+  ],
+  "doduo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/doduo.json"
+  ],
+  "dragonair": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/dragonair.json"
+  ],
+  "dragonite": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/dragonite.json"
+  ],
+  "dratini": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/dratini.json"
+  ],
+  "drowzee": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/drowzee.json"
+  ],
+  "dugtrio": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/dugtrio.json"
+  ],
+  "eevee": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/eevee.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation1\\eevee.json"
+  ],
+  "ekans": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/ekans.json"
+  ],
+  "electabuzz": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/electabuzz.json"
+  ],
+  "electrode": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/electrode.json"
+  ],
+  "exeggcute": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/exeggcute.json"
+  ],
+  "exeggutor": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/exeggutor.json"
+  ],
+  "farfetchd": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/farfetchd.json"
+  ],
+  "fearow": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/fearow.json"
+  ],
+  "flareon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/flareon.json"
+  ],
+  "gastly": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/gastly.json"
+  ],
+  "gengar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/gengar.json"
+  ],
+  "geodude": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/geodude.json"
+  ],
+  "gloom": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/gloom.json"
+  ],
+  "golbat": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/golbat.json"
+  ],
+  "goldeen": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/goldeen.json"
+  ],
+  "golduck": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/golduck.json"
+  ],
+  "golem": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/golem.json"
+  ],
+  "graveler": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/graveler.json"
+  ],
+  "grimer": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/grimer.json"
+  ],
+  "growlithe": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/growlithe.json"
+  ],
+  "gyarados": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/gyarados.json"
+  ],
+  "haunter": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/haunter.json"
+  ],
+  "hitmonchan": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/hitmonchan.json"
+  ],
+  "hitmonlee": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/hitmonlee.json"
+  ],
+  "horsea": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/horsea.json"
+  ],
+  "hypno": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/hypno.json"
+  ],
+  "ivysaur": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/ivysaur.json"
+  ],
+  "jigglypuff": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/jigglypuff.json"
+  ],
+  "jolteon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/jolteon.json"
+  ],
+  "jynx": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/jynx.json"
+  ],
+  "kabuto": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/kabuto.json"
+  ],
+  "kabutops": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/kabutops.json"
+  ],
+  "kadabra": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/kadabra.json"
+  ],
+  "kakuna": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/kakuna.json"
+  ],
+  "kangaskhan": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/kangaskhan.json"
+  ],
+  "kingler": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/kingler.json"
+  ],
+  "koffing": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/koffing.json"
+  ],
+  "krabby": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/krabby.json"
+  ],
+  "lapras": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/lapras.json"
+  ],
+  "lickitung": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/lickitung.json"
+  ],
+  "machamp": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/machamp.json"
+  ],
+  "machoke": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/machoke.json"
+  ],
+  "machop": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/machop.json"
+  ],
+  "magikarp": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/magikarp.json"
+  ],
+  "magmar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/magmar.json"
+  ],
+  "magnemite": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/magnemite.json"
+  ],
+  "magneton": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/magneton.json"
+  ],
+  "mankey": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/mankey.json"
+  ],
+  "marowak": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/marowak.json"
+  ],
+  "meowth": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/meowth.json"
+  ],
+  "metapod": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/metapod.json"
+  ],
+  "mew": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/mew.json"
+  ],
+  "mewtwo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/mewtwo.json"
+  ],
+  "moltres": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/moltres.json"
+  ],
+  "mrmime": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/mrmime.json"
+  ],
+  "muk": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/muk.json"
+  ],
+  "nidoking": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/nidoking.json"
+  ],
+  "nidoqueen": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/nidoqueen.json"
+  ],
+  "nidoranf": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/nidoranf.json"
+  ],
+  "nidoranm": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/nidoranm.json"
+  ],
+  "nidorina": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/nidorina.json"
+  ],
+  "nidorino": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/nidorino.json"
+  ],
+  "ninetales": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/ninetales.json"
+  ],
+  "oddish": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/oddish.json"
+  ],
+  "omanyte": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/omanyte.json"
+  ],
+  "omastar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/omastar.json"
+  ],
+  "onix": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/onix.json"
+  ],
+  "paras": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/paras.json"
+  ],
+  "parasect": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/parasect.json"
+  ],
+  "persian": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/persian.json"
+  ],
+  "pidgeot": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/pidgeot.json"
+  ],
+  "pidgeotto": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/pidgeotto.json"
+  ],
+  "pidgey": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/pidgey.json"
+  ],
+  "pikachu": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/pikachu.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation1\\pikachu.json"
+  ],
+  "pinsir": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/pinsir.json",
+    "datapacks\\Journey Mounts\\data\\cobblemon\\species\\generation1\\pinsir.json"
+  ],
+  "poliwag": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/poliwag.json"
+  ],
+  "poliwhirl": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/poliwhirl.json"
+  ],
+  "poliwrath": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/poliwrath.json"
+  ],
+  "ponyta": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/ponyta.json"
+  ],
+  "porygon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/porygon.json"
+  ],
+  "primeape": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/primeape.json"
+  ],
+  "psyduck": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/psyduck.json"
+  ],
+  "raichu": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/raichu.json"
+  ],
+  "rapidash": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/rapidash.json",
+    "datapacks\\Journey Mounts\\data\\cobblemon\\species\\generation1\\rapidash.json"
+  ],
+  "raticate": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/raticate.json"
+  ],
+  "rattata": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/rattata.json"
+  ],
+  "rhydon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/rhydon.json"
+  ],
+  "rhyhorn": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/rhyhorn.json"
+  ],
+  "sandshrew": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/sandshrew.json"
+  ],
+  "sandslash": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/sandslash.json"
+  ],
+  "scyther": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/scyther.json"
+  ],
+  "seadra": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/seadra.json"
+  ],
+  "seaking": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/seaking.json"
+  ],
+  "seel": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/seel.json"
+  ],
+  "shellder": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/shellder.json"
+  ],
+  "slowbro": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/slowbro.json"
+  ],
+  "slowpoke": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/slowpoke.json"
+  ],
+  "snorlax": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/snorlax.json"
+  ],
+  "spearow": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/spearow.json"
+  ],
+  "squirtle": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/squirtle.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation1\\squirtle.json"
+  ],
+  "starmie": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/starmie.json"
+  ],
+  "staryu": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/staryu.json"
+  ],
+  "tangela": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/tangela.json"
+  ],
+  "tauros": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/tauros.json"
+  ],
+  "tentacool": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/tentacool.json"
+  ],
+  "tentacruel": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/tentacruel.json"
+  ],
+  "vaporeon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/vaporeon.json"
+  ],
+  "venomoth": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/venomoth.json"
+  ],
+  "venonat": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/venonat.json"
+  ],
+  "venusaur": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/venusaur.json"
+  ],
+  "victreebel": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/victreebel.json"
+  ],
+  "vileplume": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/vileplume.json"
+  ],
+  "voltorb": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/voltorb.json"
+  ],
+  "vulpix": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/vulpix.json"
+  ],
+  "wartortle": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/wartortle.json"
+  ],
+  "weedle": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/weedle.json"
+  ],
+  "weepinbell": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/weepinbell.json"
+  ],
+  "weezing": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/weezing.json"
+  ],
+  "wigglytuff": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/wigglytuff.json"
+  ],
+  "zapdos": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/zapdos.json"
+  ],
+  "zubat": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/zubat.json"
+  ],
+  "aipom": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/aipom.json"
+  ],
+  "ampharos": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/ampharos.json"
+  ],
+  "ariados": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/ariados.json"
+  ],
+  "azumarill": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/azumarill.json"
+  ],
+  "bayleef": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/bayleef.json"
+  ],
+  "bellossom": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/bellossom.json"
+  ],
+  "blissey": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/blissey.json"
+  ],
+  "celebi": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/celebi.json"
+  ],
+  "chikorita": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/chikorita.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation2\\chikorita.json"
+  ],
+  "chinchou": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/chinchou.json"
+  ],
+  "cleffa": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/cleffa.json"
+  ],
+  "corsola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/corsola.json"
+  ],
+  "crobat": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/crobat.json"
+  ],
+  "croconaw": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/croconaw.json"
+  ],
+  "cyndaquil": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/cyndaquil.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation2\\cyndaquil.json"
+  ],
+  "delibird": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/delibird.json"
+  ],
+  "donphan": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/donphan.json"
+  ],
+  "dunsparce": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/dunsparce.json"
+  ],
+  "elekid": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/elekid.json"
+  ],
+  "entei": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/entei.json"
+  ],
+  "espeon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/espeon.json"
+  ],
+  "feraligatr": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/feraligatr.json"
+  ],
+  "flaaffy": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/flaaffy.json"
+  ],
+  "forretress": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/forretress.json"
+  ],
+  "furret": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/furret.json"
+  ],
+  "girafarig": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/girafarig.json"
+  ],
+  "gligar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/gligar.json"
+  ],
+  "granbull": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/granbull.json"
+  ],
+  "heracross": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/heracross.json"
+  ],
+  "hitmontop": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/hitmontop.json"
+  ],
+  "hooh": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/hooh.json"
+  ],
+  "hoothoot": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/hoothoot.json"
+  ],
+  "hoppip": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/hoppip.json"
+  ],
+  "houndoom": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/houndoom.json"
+  ],
+  "houndour": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/houndour.json"
+  ],
+  "igglybuff": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/igglybuff.json"
+  ],
+  "jumpluff": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/jumpluff.json"
+  ],
+  "kingdra": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/kingdra.json"
+  ],
+  "lanturn": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/lanturn.json"
+  ],
+  "larvitar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/larvitar.json"
+  ],
+  "ledian": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/ledian.json"
+  ],
+  "ledyba": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/ledyba.json"
+  ],
+  "lugia": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/lugia.json"
+  ],
+  "magby": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/magby.json"
+  ],
+  "magcargo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/magcargo.json"
+  ],
+  "mantine": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/mantine.json"
+  ],
+  "mareep": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/mareep.json"
+  ],
+  "marill": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/marill.json"
+  ],
+  "meganium": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/meganium.json"
+  ],
+  "miltank": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/miltank.json"
+  ],
+  "misdreavus": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/misdreavus.json"
+  ],
+  "murkrow": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/murkrow.json"
+  ],
+  "natu": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/natu.json"
+  ],
+  "noctowl": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/noctowl.json"
+  ],
+  "octillery": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/octillery.json"
+  ],
+  "phanpy": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/phanpy.json"
+  ],
+  "pichu": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/pichu.json"
+  ],
+  "piloswine": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/piloswine.json"
+  ],
+  "pineco": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/pineco.json"
+  ],
+  "politoed": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/politoed.json"
+  ],
+  "porygon2": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/porygon2.json"
+  ],
+  "pupitar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/pupitar.json"
+  ],
+  "quagsire": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/quagsire.json"
+  ],
+  "quilava": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/quilava.json"
+  ],
+  "qwilfish": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/qwilfish.json"
+  ],
+  "raikou": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/raikou.json"
+  ],
+  "remoraid": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/remoraid.json"
+  ],
+  "scizor": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/scizor.json"
+  ],
+  "sentret": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/sentret.json"
+  ],
+  "shuckle": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/shuckle.json"
+  ],
+  "skarmory": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/skarmory.json"
+  ],
+  "skiploom": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/skiploom.json"
+  ],
+  "slowking": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/slowking.json"
+  ],
+  "slugma": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/slugma.json"
+  ],
+  "smeargle": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/smeargle.json"
+  ],
+  "smoochum": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/smoochum.json"
+  ],
+  "sneasel": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/sneasel.json"
+  ],
+  "snubbull": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/snubbull.json"
+  ],
+  "spinarak": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/spinarak.json"
+  ],
+  "stantler": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/stantler.json"
+  ],
+  "steelix": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/steelix.json"
+  ],
+  "sudowoodo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/sudowoodo.json"
+  ],
+  "suicune": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/suicune.json"
+  ],
+  "sunflora": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/sunflora.json"
+  ],
+  "sunkern": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/sunkern.json"
+  ],
+  "swinub": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/swinub.json"
+  ],
+  "teddiursa": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/teddiursa.json"
+  ],
+  "togepi": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/togepi.json"
+  ],
+  "togetic": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/togetic.json"
+  ],
+  "totodile": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/totodile.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation2\\totodile.json"
+  ],
+  "typhlosion": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/typhlosion.json"
+  ],
+  "tyranitar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/tyranitar.json"
+  ],
+  "tyrogue": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/tyrogue.json"
+  ],
+  "umbreon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/umbreon.json"
+  ],
+  "unown": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "ursaring": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/ursaring.json"
+  ],
+  "wobbuffet": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/wobbuffet.json"
+  ],
+  "wooper": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/wooper.json"
+  ],
+  "xatu": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/xatu.json"
+  ],
+  "yanma": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/yanma.json"
+  ],
+  "absol": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/absol.json"
+  ],
+  "aggron": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/aggron.json"
+  ],
+  "altaria": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/altaria.json"
+  ],
+  "anorith": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/anorith.json"
+  ],
+  "armaldo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/armaldo.json"
+  ],
+  "aron": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/aron.json"
+  ],
+  "azurill": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/azurill.json"
+  ],
+  "bagon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/bagon.json"
+  ],
+  "baltoy": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/baltoy.json"
+  ],
+  "banette": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/banette.json"
+  ],
+  "barboach": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/barboach.json"
+  ],
+  "beautifly": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/beautifly.json"
+  ],
+  "beldum": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/beldum.json"
+  ],
+  "blaziken": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/blaziken.json"
+  ],
+  "breloom": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/breloom.json"
+  ],
+  "cacnea": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/cacnea.json"
+  ],
+  "cacturne": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/cacturne.json"
+  ],
+  "camerupt": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/camerupt.json"
+  ],
+  "carvanha": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/carvanha.json"
+  ],
+  "cascoon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/cascoon.json"
+  ],
+  "castform": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/castform.json"
+  ],
+  "chimecho": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/chimecho.json"
+  ],
+  "clamperl": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/clamperl.json"
+  ],
+  "claydol": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/claydol.json"
+  ],
+  "combusken": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/combusken.json"
+  ],
+  "corphish": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/corphish.json"
+  ],
+  "cradily": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/cradily.json"
+  ],
+  "crawdaunt": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/crawdaunt.json"
+  ],
+  "delcatty": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/delcatty.json"
+  ],
+  "deoxys": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/deoxys.json"
+  ],
+  "dusclops": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/dusclops.json"
+  ],
+  "duskull": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/duskull.json"
+  ],
+  "dustox": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/dustox.json"
+  ],
+  "electrike": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/electrike.json"
+  ],
+  "exploud": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/exploud.json"
+  ],
+  "feebas": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/feebas.json"
+  ],
+  "flygon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/flygon.json"
+  ],
+  "gardevoir": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/gardevoir.json"
+  ],
+  "glalie": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/glalie.json",
+    "datapacks\\Journey Mounts\\data\\cobblemon\\species\\generation3\\glalie.json"
+  ],
+  "gorebyss": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/gorebyss.json"
+  ],
+  "groudon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/groudon.json"
+  ],
+  "grovyle": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/grovyle.json"
+  ],
+  "grumpig": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/grumpig.json"
+  ],
+  "gulpin": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/gulpin.json"
+  ],
+  "hariyama": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/hariyama.json"
+  ],
+  "huntail": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/huntail.json"
+  ],
+  "illumise": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/illumise.json"
+  ],
+  "jirachi": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/jirachi.json"
+  ],
+  "kecleon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/kecleon.json"
+  ],
+  "kirlia": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/kirlia.json"
+  ],
+  "kyogre": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/kyogre.json"
+  ],
+  "lairon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/lairon.json"
+  ],
+  "latias": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/latias.json"
+  ],
+  "latios": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/latios.json"
+  ],
+  "lileep": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/lileep.json"
+  ],
+  "linoone": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/linoone.json"
+  ],
+  "lombre": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/lombre.json"
+  ],
+  "lotad": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/lotad.json"
+  ],
+  "loudred": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/loudred.json"
+  ],
+  "ludicolo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/ludicolo.json"
+  ],
+  "lunatone": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/lunatone.json"
+  ],
+  "luvdisc": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/luvdisc.json"
+  ],
+  "makuhita": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/makuhita.json"
+  ],
+  "manectric": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/manectric.json"
+  ],
+  "marshtomp": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/marshtomp.json"
+  ],
+  "masquerain": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/masquerain.json"
+  ],
+  "mawile": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/mawile.json"
+  ],
+  "medicham": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/medicham.json"
+  ],
+  "meditite": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/meditite.json"
+  ],
+  "metagross": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/metagross.json"
+  ],
+  "metang": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/metang.json"
+  ],
+  "mightyena": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/mightyena.json"
+  ],
+  "milotic": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/milotic.json"
+  ],
+  "minun": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/minun.json"
+  ],
+  "mudkip": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/mudkip.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation3\\mudkip.json"
+  ],
+  "nincada": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/nincada.json"
+  ],
+  "ninjask": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/ninjask.json"
+  ],
+  "nosepass": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/nosepass.json"
+  ],
+  "numel": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/numel.json"
+  ],
+  "nuzleaf": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/nuzleaf.json"
+  ],
+  "pelipper": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/pelipper.json"
+  ],
+  "plusle": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/plusle.json"
+  ],
+  "poochyena": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/poochyena.json"
+  ],
+  "ralts": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/ralts.json"
+  ],
+  "rayquaza": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/rayquaza.json"
+  ],
+  "regice": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/regice.json"
+  ],
+  "regirock": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/regirock.json"
+  ],
+  "registeel": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/registeel.json"
+  ],
+  "relicanth": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/relicanth.json"
+  ],
+  "roselia": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/roselia.json"
+  ],
+  "sableye": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/sableye.json"
+  ],
+  "salamence": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/salamence.json"
+  ],
+  "sceptile": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/sceptile.json"
+  ],
+  "sealeo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/sealeo.json"
+  ],
+  "seedot": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/seedot.json"
+  ],
+  "seviper": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/seviper.json"
+  ],
+  "sharpedo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/sharpedo.json"
+  ],
+  "shedinja": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/shedinja.json"
+  ],
+  "shelgon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/shelgon.json"
+  ],
+  "shiftry": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/shiftry.json"
+  ],
+  "shroomish": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/shroomish.json"
+  ],
+  "shuppet": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/shuppet.json"
+  ],
+  "silcoon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/silcoon.json"
+  ],
+  "skitty": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/skitty.json"
+  ],
+  "slaking": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/slaking.json"
+  ],
+  "slakoth": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/slakoth.json"
+  ],
+  "snorunt": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/snorunt.json"
+  ],
+  "solrock": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/solrock.json"
+  ],
+  "spheal": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/spheal.json"
+  ],
+  "spinda": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/spinda.json"
+  ],
+  "spoink": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/spoink.json"
+  ],
+  "surskit": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/surskit.json"
+  ],
+  "swablu": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/swablu.json"
+  ],
+  "swalot": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/swalot.json"
+  ],
+  "swampert": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/swampert.json"
+  ],
+  "swellow": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/swellow.json"
+  ],
+  "taillow": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/taillow.json"
+  ],
+  "torchic": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/torchic.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation3\\torchic.json"
+  ],
+  "torkoal": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/torkoal.json"
+  ],
+  "trapinch": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/trapinch.json"
+  ],
+  "treecko": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/treecko.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation3\\treecko.json"
+  ],
+  "tropius": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/tropius.json"
+  ],
+  "vibrava": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/vibrava.json"
+  ],
+  "vigoroth": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/vigoroth.json"
+  ],
+  "volbeat": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/volbeat.json"
+  ],
+  "wailmer": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/wailmer.json"
+  ],
+  "wailord": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/wailord.json"
+  ],
+  "walrein": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/walrein.json"
+  ],
+  "whiscash": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/whiscash.json"
+  ],
+  "whismur": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/whismur.json"
+  ],
+  "wingull": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/wingull.json"
+  ],
+  "wurmple": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/wurmple.json"
+  ],
+  "wynaut": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/wynaut.json"
+  ],
+  "zangoose": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/zangoose.json"
+  ],
+  "zigzagoon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/zigzagoon.json"
+  ],
+  "abomasnow": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/abomasnow.json"
+  ],
+  "ambipom": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/ambipom.json"
+  ],
+  "arceus": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/arceus.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\arceus.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\arceus.json"
+  ],
+  "azelf": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/azelf.json"
+  ],
+  "bastiodon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/bastiodon.json"
+  ],
+  "bibarel": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/bibarel.json"
+  ],
+  "bidoof": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/bidoof.json"
+  ],
+  "bonsly": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/bonsly.json"
+  ],
+  "bronzong": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/bronzong.json"
+  ],
+  "bronzor": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/bronzor.json"
+  ],
+  "budew": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/budew.json"
+  ],
+  "buizel": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/buizel.json"
+  ],
+  "buneary": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/buneary.json"
+  ],
+  "burmy": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/burmy.json"
+  ],
+  "carnivine": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/carnivine.json"
+  ],
+  "chatot": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/chatot.json"
+  ],
+  "cherrim": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/cherrim.json"
+  ],
+  "cherubi": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/cherubi.json"
+  ],
+  "chimchar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/chimchar.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation4\\chimchar.json"
+  ],
+  "chingling": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/chingling.json"
+  ],
+  "combee": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/combee.json"
+  ],
+  "cranidos": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/cranidos.json"
+  ],
+  "cresselia": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/cresselia.json"
+  ],
+  "croagunk": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/croagunk.json"
+  ],
+  "darkrai": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/darkrai.json"
+  ],
+  "dialga": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/dialga.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\dialga.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\dialga.json"
+  ],
+  "drapion": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/drapion.json"
+  ],
+  "drifblim": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/drifblim.json"
+  ],
+  "drifloon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/drifloon.json"
+  ],
+  "dusknoir": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/dusknoir.json"
+  ],
+  "electivire": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/electivire.json"
+  ],
+  "empoleon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/empoleon.json"
+  ],
+  "finneon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/finneon.json"
+  ],
+  "floatzel": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/floatzel.json"
+  ],
+  "froslass": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/froslass.json"
+  ],
+  "gabite": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/gabite.json"
+  ],
+  "gallade": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/gallade.json"
+  ],
+  "garchomp": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/garchomp.json"
+  ],
+  "gastrodon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/gastrodon.json"
+  ],
+  "gible": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/gible.json"
+  ],
+  "giratina": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/giratina.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\giratina.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\giratina.json"
+  ],
+  "glaceon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/glaceon.json"
+  ],
+  "glameow": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/glameow.json"
+  ],
+  "gliscor": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/gliscor.json"
+  ],
+  "grotle": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/grotle.json"
+  ],
+  "happiny": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/happiny.json"
+  ],
+  "heatran": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/heatran.json"
+  ],
+  "hippopotas": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/hippopotas.json"
+  ],
+  "hippowdon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/hippowdon.json"
+  ],
+  "honchkrow": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/honchkrow.json"
+  ],
+  "infernape": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/infernape.json"
+  ],
+  "kricketot": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/kricketot.json"
+  ],
+  "kricketune": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/kricketune.json"
+  ],
+  "leafeon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/leafeon.json"
+  ],
+  "lickilicky": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/lickilicky.json"
+  ],
+  "lopunny": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/lopunny.json"
+  ],
+  "lucario": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/lucario.json"
+  ],
+  "lumineon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/lumineon.json"
+  ],
+  "luxio": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/luxio.json"
+  ],
+  "luxray": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/luxray.json"
+  ],
+  "magmortar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/magmortar.json"
+  ],
+  "magnezone": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/magnezone.json"
+  ],
+  "mamoswine": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/mamoswine.json"
+  ],
+  "manaphy": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/manaphy.json"
+  ],
+  "mantyke": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/mantyke.json"
+  ],
+  "mesprit": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/mesprit.json"
+  ],
+  "mimejr": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/mimejr.json"
+  ],
+  "mismagius": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/mismagius.json"
+  ],
+  "monferno": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/monferno.json"
+  ],
+  "mothim": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/mothim.json"
+  ],
+  "munchlax": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/munchlax.json"
+  ],
+  "pachirisu": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/pachirisu.json"
+  ],
+  "palkia": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/palkia.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\palkia.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\palkia.json"
+  ],
+  "phione": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/phione.json"
+  ],
+  "piplup": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/piplup.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation4\\piplup.json"
+  ],
+  "porygonz": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/porygonz.json"
+  ],
+  "prinplup": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/prinplup.json"
+  ],
+  "probopass": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/probopass.json"
+  ],
+  "purugly": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/purugly.json"
+  ],
+  "rampardos": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/rampardos.json"
+  ],
+  "regigigas": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/regigigas.json"
+  ],
+  "rhyperior": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/rhyperior.json"
+  ],
+  "riolu": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/riolu.json"
+  ],
+  "roserade": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/roserade.json"
+  ],
+  "rotom": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/rotom.json"
+  ],
+  "shaymin": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/shaymin.json"
+  ],
+  "shellos": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/shellos.json"
+  ],
+  "shieldon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/shieldon.json"
+  ],
+  "shinx": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/shinx.json"
+  ],
+  "skorupi": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/skorupi.json"
+  ],
+  "skuntank": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/skuntank.json"
+  ],
+  "snover": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/snover.json"
+  ],
+  "spiritomb": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/spiritomb.json"
+  ],
+  "staraptor": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/staraptor.json"
+  ],
+  "staravia": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/staravia.json"
+  ],
+  "starly": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/starly.json"
+  ],
+  "stunky": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/stunky.json"
+  ],
+  "tangrowth": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/tangrowth.json"
+  ],
+  "togekiss": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/togekiss.json"
+  ],
+  "torterra": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/torterra.json"
+  ],
+  "toxicroak": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/toxicroak.json"
+  ],
+  "turtwig": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/turtwig.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation4\\turtwig.json"
+  ],
+  "uxie": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/uxie.json"
+  ],
+  "vespiquen": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/vespiquen.json"
+  ],
+  "weavile": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/weavile.json"
+  ],
+  "wormadam": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/wormadam.json"
+  ],
+  "yanmega": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/yanmega.json"
+  ],
+  "accelgor": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/accelgor.json"
+  ],
+  "alomomola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/alomomola.json"
+  ],
+  "amoonguss": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/amoonguss.json"
+  ],
+  "archen": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/archen.json"
+  ],
+  "archeops": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/archeops.json"
+  ],
+  "audino": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/audino.json"
+  ],
+  "axew": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/axew.json"
+  ],
+  "basculin": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/basculin.json"
+  ],
+  "beartic": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/beartic.json"
+  ],
+  "beheeyem": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/beheeyem.json"
+  ],
+  "bisharp": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/bisharp.json"
+  ],
+  "blitzle": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/blitzle.json"
+  ],
+  "boldore": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/boldore.json"
+  ],
+  "bouffalant": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/bouffalant.json"
+  ],
+  "braviary": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/braviary.json"
+  ],
+  "carracosta": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/carracosta.json"
+  ],
+  "chandelure": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/chandelure.json"
+  ],
+  "cinccino": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/cinccino.json"
+  ],
+  "cobalion": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/cobalion.json"
+  ],
+  "cofagrigus": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/cofagrigus.json"
+  ],
+  "conkeldurr": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/conkeldurr.json"
+  ],
+  "cottonee": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/cottonee.json"
+  ],
+  "crustle": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/crustle.json"
+  ],
+  "cryogonal": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/cryogonal.json"
+  ],
+  "cubchoo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/cubchoo.json"
+  ],
+  "darmanitan": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/darmanitan.json"
+  ],
+  "darumaka": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/darumaka.json"
+  ],
+  "deerling": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/deerling.json"
+  ],
+  "deino": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/deino.json"
+  ],
+  "dewott": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/dewott.json"
+  ],
+  "drilbur": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/drilbur.json"
+  ],
+  "druddigon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/druddigon.json"
+  ],
+  "ducklett": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/ducklett.json"
+  ],
+  "duosion": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/duosion.json"
+  ],
+  "durant": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/durant.json"
+  ],
+  "dwebble": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/dwebble.json"
+  ],
+  "eelektrik": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/eelektrik.json"
+  ],
+  "eelektross": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/eelektross.json"
+  ],
+  "elgyem": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/elgyem.json"
+  ],
+  "emboar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/emboar.json"
+  ],
+  "emolga": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/emolga.json"
+  ],
+  "escavalier": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/escavalier.json"
+  ],
+  "excadrill": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/excadrill.json"
+  ],
+  "ferroseed": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/ferroseed.json"
+  ],
+  "ferrothorn": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/ferrothorn.json"
+  ],
+  "foongus": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/foongus.json"
+  ],
+  "fraxure": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/fraxure.json"
+  ],
+  "frillish": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/frillish.json"
+  ],
+  "galvantula": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/galvantula.json"
+  ],
+  "garbodor": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/garbodor.json"
+  ],
+  "genesect": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/genesect.json"
+  ],
+  "gigalith": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/gigalith.json"
+  ],
+  "golett": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/golett.json"
+  ],
+  "golurk": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/golurk.json"
+  ],
+  "gothita": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/gothita.json"
+  ],
+  "gothitelle": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/gothitelle.json"
+  ],
+  "gothorita": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/gothorita.json"
+  ],
+  "gurdurr": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/gurdurr.json"
+  ],
+  "haxorus": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/haxorus.json"
+  ],
+  "heatmor": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/heatmor.json"
+  ],
+  "herdier": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/herdier.json"
+  ],
+  "hydreigon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/hydreigon.json"
+  ],
+  "jellicent": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/jellicent.json"
+  ],
+  "joltik": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/joltik.json"
+  ],
+  "karrablast": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/karrablast.json"
+  ],
+  "keldeo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/keldeo.json"
+  ],
+  "klang": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/klang.json"
+  ],
+  "klink": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/klink.json"
+  ],
+  "klinklang": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/klinklang.json"
+  ],
+  "krokorok": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/krokorok.json"
+  ],
+  "krookodile": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/krookodile.json"
+  ],
+  "kyurem": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/kyurem.json"
+  ],
+  "lampent": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/lampent.json"
+  ],
+  "landorus": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/landorus.json"
+  ],
+  "larvesta": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/larvesta.json"
+  ],
+  "leavanny": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/leavanny.json"
+  ],
+  "liepard": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/liepard.json"
+  ],
+  "lilligant": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/lilligant.json"
+  ],
+  "lillipup": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/lillipup.json"
+  ],
+  "litwick": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/litwick.json"
+  ],
+  "mandibuzz": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/mandibuzz.json"
+  ],
+  "maractus": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/maractus.json"
+  ],
+  "meloetta": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/meloetta.json"
+  ],
+  "mienfoo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/mienfoo.json"
+  ],
+  "mienshao": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/mienshao.json"
+  ],
+  "minccino": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/minccino.json"
+  ],
+  "munna": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/munna.json"
+  ],
+  "musharna": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/musharna.json"
+  ],
+  "oshawott": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/oshawott.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation5\\oshawott.json"
+  ],
+  "palpitoad": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/palpitoad.json"
+  ],
+  "panpour": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/panpour.json"
+  ],
+  "pansage": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/pansage.json"
+  ],
+  "pansear": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/pansear.json"
+  ],
+  "patrat": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/patrat.json"
+  ],
+  "pawniard": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/pawniard.json"
+  ],
+  "petilil": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/petilil.json"
+  ],
+  "pidove": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/pidove.json"
+  ],
+  "pignite": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/pignite.json"
+  ],
+  "purrloin": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/purrloin.json"
+  ],
+  "reshiram": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/reshiram.json"
+  ],
+  "reuniclus": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/reuniclus.json"
+  ],
+  "roggenrola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/roggenrola.json"
+  ],
+  "rufflet": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/rufflet.json"
+  ],
+  "samurott": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/samurott.json"
+  ],
+  "sandile": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/sandile.json"
+  ],
+  "sawk": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/sawk.json"
+  ],
+  "sawsbuck": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/sawsbuck.json"
+  ],
+  "scolipede": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/scolipede.json"
+  ],
+  "scrafty": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/scrafty.json"
+  ],
+  "scraggy": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/scraggy.json"
+  ],
+  "seismitoad": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/seismitoad.json"
+  ],
+  "serperior": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/serperior.json"
+  ],
+  "servine": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/servine.json"
+  ],
+  "sewaddle": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/sewaddle.json"
+  ],
+  "shelmet": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/shelmet.json"
+  ],
+  "sigilyph": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/sigilyph.json"
+  ],
+  "simipour": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/simipour.json"
+  ],
+  "simisage": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/simisage.json"
+  ],
+  "simisear": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/simisear.json"
+  ],
+  "snivy": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/snivy.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation5\\snivy.json"
+  ],
+  "solosis": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/solosis.json"
+  ],
+  "stoutland": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/stoutland.json"
+  ],
+  "stunfisk": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/stunfisk.json"
+  ],
+  "swadloon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/swadloon.json"
+  ],
+  "swanna": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/swanna.json"
+  ],
+  "swoobat": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/swoobat.json"
+  ],
+  "tepig": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/tepig.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation5\\tepig.json"
+  ],
+  "terrakion": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/terrakion.json"
+  ],
+  "throh": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/throh.json"
+  ],
+  "thundurus": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/thundurus.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation5\\thundurus.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation5\\thundurus.json"
+  ],
+  "timburr": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/timburr.json"
+  ],
+  "tirtouga": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/tirtouga.json"
+  ],
+  "tornadus": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/tornadus.json"
+  ],
+  "tranquill": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/tranquill.json"
+  ],
+  "trubbish": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/trubbish.json"
+  ],
+  "tympole": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/tympole.json"
+  ],
+  "tynamo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/tynamo.json"
+  ],
+  "unfezant": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/unfezant.json"
+  ],
+  "vanillish": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/vanillish.json"
+  ],
+  "vanillite": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/vanillite.json"
+  ],
+  "vanilluxe": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/vanilluxe.json"
+  ],
+  "venipede": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/venipede.json"
+  ],
+  "victini": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/victini.json"
+  ],
+  "virizion": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/virizion.json"
+  ],
+  "volcarona": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/volcarona.json"
+  ],
+  "vullaby": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/vullaby.json"
+  ],
+  "watchog": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/watchog.json"
+  ],
+  "whimsicott": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/whimsicott.json"
+  ],
+  "whirlipede": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/whirlipede.json"
+  ],
+  "woobat": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/woobat.json"
+  ],
+  "yamask": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/yamask.json"
+  ],
+  "zebstrika": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/zebstrika.json"
+  ],
+  "zekrom": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/zekrom.json"
+  ],
+  "zoroark": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/zoroark.json"
+  ],
+  "zorua": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/zorua.json"
+  ],
+  "zweilous": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/zweilous.json"
+  ],
+  "aegislash": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/aegislash.json"
+  ],
+  "amaura": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/amaura.json"
+  ],
+  "aromatisse": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/aromatisse.json"
+  ],
+  "aurorus": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/aurorus.json"
+  ],
+  "avalugg": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/avalugg.json"
+  ],
+  "barbaracle": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/barbaracle.json"
+  ],
+  "bergmite": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/bergmite.json"
+  ],
+  "binacle": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/binacle.json"
+  ],
+  "braixen": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/braixen.json"
+  ],
+  "bunnelby": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/bunnelby.json"
+  ],
+  "carbink": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/carbink.json"
+  ],
+  "chesnaught": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/chesnaught.json"
+  ],
+  "chespin": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/chespin.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation6\\chespin.json"
+  ],
+  "clauncher": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/clauncher.json"
+  ],
+  "clawitzer": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/clawitzer.json"
+  ],
+  "dedenne": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/dedenne.json"
+  ],
+  "delphox": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/delphox.json"
+  ],
+  "diancie": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/diancie.json"
+  ],
+  "diggersby": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/diggersby.json"
+  ],
+  "doublade": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/doublade.json"
+  ],
+  "dragalge": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/dragalge.json"
+  ],
+  "espurr": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/espurr.json"
+  ],
+  "fennekin": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/fennekin.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation6\\fennekin.json"
+  ],
+  "flabebe": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/flabebe.json"
+  ],
+  "fletchinder": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/fletchinder.json"
+  ],
+  "fletchling": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/fletchling.json"
+  ],
+  "floette": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/floette.json"
+  ],
+  "florges": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/florges.json"
+  ],
+  "froakie": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/froakie.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation6\\froakie.json"
+  ],
+  "frogadier": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/frogadier.json"
+  ],
+  "furfrou": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/furfrou.json"
+  ],
+  "gogoat": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/gogoat.json"
+  ],
+  "goodra": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/goodra.json"
+  ],
+  "goomy": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/goomy.json"
+  ],
+  "gourgeist": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/gourgeist.json"
+  ],
+  "greninja": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/greninja.json"
+  ],
+  "hawlucha": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/hawlucha.json"
+  ],
+  "heliolisk": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/heliolisk.json"
+  ],
+  "helioptile": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/helioptile.json"
+  ],
+  "honedge": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/honedge.json"
+  ],
+  "hoopa": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/hoopa.json"
+  ],
+  "inkay": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/inkay.json"
+  ],
+  "klefki": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/klefki.json"
+  ],
+  "litleo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/litleo.json"
+  ],
+  "malamar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/malamar.json"
+  ],
+  "meowstic": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/meowstic.json"
+  ],
+  "noibat": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/noibat.json"
+  ],
+  "noivern": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/noivern.json"
+  ],
+  "pancham": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/pancham.json"
+  ],
+  "pangoro": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/pangoro.json"
+  ],
+  "phantump": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/phantump.json"
+  ],
+  "pumpkaboo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/pumpkaboo.json"
+  ],
+  "pyroar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/pyroar.json"
+  ],
+  "quilladin": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/quilladin.json"
+  ],
+  "scatterbug": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/scatterbug.json"
+  ],
+  "skiddo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/skiddo.json"
+  ],
+  "skrelp": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/skrelp.json"
+  ],
+  "sliggoo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/sliggoo.json"
+  ],
+  "slurpuff": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/slurpuff.json"
+  ],
+  "spewpa": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/spewpa.json"
+  ],
+  "spritzee": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/spritzee.json"
+  ],
+  "swirlix": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/swirlix.json"
+  ],
+  "sylveon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/sylveon.json"
+  ],
+  "talonflame": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/talonflame.json"
+  ],
+  "trevenant": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/trevenant.json"
+  ],
+  "tyrantrum": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/tyrantrum.json"
+  ],
+  "tyrunt": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/tyrunt.json"
+  ],
+  "vivillon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/vivillon.json"
+  ],
+  "volcanion": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/volcanion.json"
+  ],
+  "xerneas": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/xerneas.json"
+  ],
+  "yveltal": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/yveltal.json"
+  ],
+  "zygarde": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/zygarde.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation6\\zygarde.json"
+  ],
+  "araquanid": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/araquanid.json"
+  ],
+  "bewear": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/bewear.json"
+  ],
+  "blacephalon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/blacephalon.json"
+  ],
+  "bounsweet": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/bounsweet.json"
+  ],
+  "brionne": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/brionne.json"
+  ],
+  "bruxish": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/bruxish.json"
+  ],
+  "buzzwole": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/buzzwole.json"
+  ],
+  "celesteela": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/celesteela.json"
+  ],
+  "charjabug": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/charjabug.json"
+  ],
+  "comfey": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/comfey.json"
+  ],
+  "cosmoem": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/cosmoem.json"
+  ],
+  "cosmog": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/cosmog.json"
+  ],
+  "crabominable": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/crabominable.json"
+  ],
+  "crabrawler": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/crabrawler.json"
+  ],
+  "cutiefly": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/cutiefly.json"
+  ],
+  "dartrix": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/dartrix.json"
+  ],
+  "decidueye": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/decidueye.json"
+  ],
+  "dewpider": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/dewpider.json"
+  ],
+  "dhelmise": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/dhelmise.json"
+  ],
+  "drampa": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/drampa.json"
+  ],
+  "fomantis": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/fomantis.json"
+  ],
+  "golisopod": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/golisopod.json"
+  ],
+  "grubbin": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/grubbin.json"
+  ],
+  "gumshoos": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/gumshoos.json"
+  ],
+  "guzzlord": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/guzzlord.json"
+  ],
+  "hakamoo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/hakamoo.json"
+  ],
+  "incineroar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/incineroar.json"
+  ],
+  "jangmoo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/jangmoo.json"
+  ],
+  "kartana": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/kartana.json"
+  ],
+  "komala": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/komala.json"
+  ],
+  "kommoo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/kommoo.json"
+  ],
+  "litten": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/litten.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation7\\litten.json"
+  ],
+  "lunala": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/lunala.json"
+  ],
+  "lurantis": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/lurantis.json"
+  ],
+  "lycanroc": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/lycanroc.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation7\\lycanroc.json"
+  ],
+  "magearna": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/magearna.json"
+  ],
+  "mareanie": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/mareanie.json"
+  ],
+  "marshadow": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/marshadow.json"
+  ],
+  "mimikyu": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/mimikyu.json"
+  ],
+  "minior": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/minior.json"
+  ],
+  "morelull": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/morelull.json"
+  ],
+  "mudbray": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/mudbray.json"
+  ],
+  "mudsdale": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/mudsdale.json"
+  ],
+  "naganadel": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/naganadel.json"
+  ],
+  "necrozma": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/necrozma.json"
+  ],
+  "nihilego": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/nihilego.json"
+  ],
+  "oranguru": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/oranguru.json"
+  ],
+  "oricorio": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/oricorio.json"
+  ],
+  "palossand": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/palossand.json"
+  ],
+  "passimian": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/passimian.json"
+  ],
+  "pheromosa": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/pheromosa.json"
+  ],
+  "pikipek": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/pikipek.json"
+  ],
+  "poipole": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/poipole.json"
+  ],
+  "popplio": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/popplio.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation7\\popplio.json"
+  ],
+  "primarina": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/primarina.json"
+  ],
+  "pyukumuku": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/pyukumuku.json"
+  ],
+  "ribombee": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/ribombee.json"
+  ],
+  "rockruff": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/rockruff.json"
+  ],
+  "rowlet": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/rowlet.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation7\\rowlet.json"
+  ],
+  "salandit": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/salandit.json"
+  ],
+  "salazzle": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/salazzle.json"
+  ],
+  "sandygast": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/sandygast.json"
+  ],
+  "shiinotic": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/shiinotic.json"
+  ],
+  "silvally": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/silvally.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation7\\silvally.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation7\\silvally.json"
+  ],
+  "solgaleo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/solgaleo.json"
+  ],
+  "stakataka": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/stakataka.json"
+  ],
+  "steenee": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/steenee.json"
+  ],
+  "stufful": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/stufful.json"
+  ],
+  "tapubulu": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/tapubulu.json"
+  ],
+  "tapufini": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/tapufini.json"
+  ],
+  "tapukoko": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/tapukoko.json"
+  ],
+  "tapulele": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/tapulele.json"
+  ],
+  "togedemaru": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/togedemaru.json"
+  ],
+  "torracat": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/torracat.json"
+  ],
+  "toucannon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/toucannon.json"
+  ],
+  "toxapex": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/toxapex.json"
+  ],
+  "trumbeak": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/trumbeak.json"
+  ],
+  "tsareena": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/tsareena.json"
+  ],
+  "turtonator": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/turtonator.json"
+  ],
+  "typenull": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/typenull.json"
+  ],
+  "vikavolt": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/vikavolt.json"
+  ],
+  "wimpod": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/wimpod.json"
+  ],
+  "wishiwashi": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/wishiwashi.json"
+  ],
+  "xurkitree": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/xurkitree.json"
+  ],
+  "yungoos": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/yungoos.json"
+  ],
+  "zeraora": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/zeraora.json"
+  ],
+  "melmetal": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7b/melmetal.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation7b\\melmetal.json"
+  ],
+  "meltan": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7b/meltan.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation7b\\meltan.json"
+  ],
+  "alcremie": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/alcremie.json"
+  ],
+  "appletun": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/appletun.json"
+  ],
+  "applin": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/applin.json"
+  ],
+  "arctovish": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/arctovish.json"
+  ],
+  "arctozolt": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/arctozolt.json"
+  ],
+  "arrokuda": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/arrokuda.json"
+  ],
+  "barraskewda": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/barraskewda.json"
+  ],
+  "blipbug": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/blipbug.json"
+  ],
+  "boltund": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/boltund.json"
+  ],
+  "calyrex": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/calyrex.json"
+  ],
+  "carkol": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/carkol.json"
+  ],
+  "centiskorch": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/centiskorch.json"
+  ],
+  "chewtle": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/chewtle.json"
+  ],
+  "cinderace": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/cinderace.json"
+  ],
+  "clobbopus": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/clobbopus.json"
+  ],
+  "coalossal": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/coalossal.json"
+  ],
+  "copperajah": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/copperajah.json"
+  ],
+  "corviknight": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/corviknight.json"
+  ],
+  "corvisquire": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/corvisquire.json"
+  ],
+  "cramorant": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/cramorant.json"
+  ],
+  "cufant": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/cufant.json"
+  ],
+  "cursola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/cursola.json"
+  ],
+  "dottler": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/dottler.json"
+  ],
+  "dracovish": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/dracovish.json"
+  ],
+  "dracozolt": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/dracozolt.json"
+  ],
+  "dragapult": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/dragapult.json"
+  ],
+  "drakloak": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/drakloak.json"
+  ],
+  "drednaw": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/drednaw.json"
+  ],
+  "dreepy": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/dreepy.json"
+  ],
+  "drizzile": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/drizzile.json"
+  ],
+  "dubwool": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/dubwool.json"
+  ],
+  "duraludon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/duraludon.json"
+  ],
+  "eiscue": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/eiscue.json"
+  ],
+  "eldegoss": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/eldegoss.json"
+  ],
+  "eternatus": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/eternatus.json"
+  ],
+  "falinks": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/falinks.json"
+  ],
+  "flapple": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/flapple.json"
+  ],
+  "frosmoth": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/frosmoth.json"
+  ],
+  "glastrier": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/glastrier.json"
+  ],
+  "gossifleur": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/gossifleur.json"
+  ],
+  "grapploct": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/grapploct.json"
+  ],
+  "greedent": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/greedent.json"
+  ],
+  "grimmsnarl": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/grimmsnarl.json"
+  ],
+  "grookey": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/grookey.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation8\\grookey.json"
+  ],
+  "hatenna": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/hatenna.json"
+  ],
+  "hatterene": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/hatterene.json"
+  ],
+  "hattrem": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/hattrem.json"
+  ],
+  "impidimp": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/impidimp.json"
+  ],
+  "indeedee": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/indeedee.json"
+  ],
+  "inteleon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/inteleon.json"
+  ],
+  "kubfu": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/kubfu.json"
+  ],
+  "milcery": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/milcery.json"
+  ],
+  "morgrem": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/morgrem.json"
+  ],
+  "morpeko": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/morpeko.json"
+  ],
+  "mrrime": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/mrrime.json"
+  ],
+  "nickit": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/nickit.json"
+  ],
+  "obstagoon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/obstagoon.json"
+  ],
+  "orbeetle": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/orbeetle.json"
+  ],
+  "perrserker": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/perrserker.json"
+  ],
+  "pincurchin": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/pincurchin.json"
+  ],
+  "polteageist": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/polteageist.json"
+  ],
+  "raboot": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/raboot.json"
+  ],
+  "regidrago": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/regidrago.json"
+  ],
+  "regieleki": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/regieleki.json"
+  ],
+  "rillaboom": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/rillaboom.json"
+  ],
+  "rolycoly": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/rolycoly.json"
+  ],
+  "rookidee": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/rookidee.json"
+  ],
+  "runerigus": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/runerigus.json"
+  ],
+  "sandaconda": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/sandaconda.json"
+  ],
+  "scorbunny": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/scorbunny.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation8\\scorbunny.json"
+  ],
+  "silicobra": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/silicobra.json"
+  ],
+  "sinistea": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/sinistea.json"
+  ],
+  "sirfetchd": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/sirfetchd.json"
+  ],
+  "sizzlipede": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/sizzlipede.json"
+  ],
+  "skwovet": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/skwovet.json"
+  ],
+  "snom": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/snom.json"
+  ],
+  "sobble": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/sobble.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation8\\sobble.json"
+  ],
+  "spectrier": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/spectrier.json"
+  ],
+  "stonjourner": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/stonjourner.json"
+  ],
+  "thievul": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/thievul.json"
+  ],
+  "thwackey": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/thwackey.json"
+  ],
+  "toxel": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/toxel.json"
+  ],
+  "toxtricity": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/toxtricity.json"
+  ],
+  "urshifu": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/urshifu.json"
+  ],
+  "wooloo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/wooloo.json"
+  ],
+  "yamper": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/yamper.json"
+  ],
+  "zacian": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/zacian.json"
+  ],
+  "zamazenta": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/zamazenta.json"
+  ],
+  "zarude": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/zarude.json"
+  ],
+  "basculegion": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8a/basculegion.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation8a\\basculegion.json"
+  ],
+  "enamorus": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8a/enamorus.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation8a\\enamorus.json"
+  ],
+  "kleavor": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8a/kleavor.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation8a\\kleavor.json"
+  ],
+  "overqwil": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8a/overqwil.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation8a\\overqwil.json"
+  ],
+  "sneasler": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8a/sneasler.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation8a\\sneasler.json"
+  ],
+  "ursaluna": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8a/ursaluna.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation8a\\ursaluna.json"
+  ],
+  "wyrdeer": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8a/wyrdeer.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation8a\\wyrdeer.json"
+  ],
+  "annihilape": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/annihilape.json"
+  ],
+  "arboliva": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/arboliva.json"
+  ],
+  "archaludon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/archaludon.json"
+  ],
+  "arctibax": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/arctibax.json"
+  ],
+  "armarouge": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/armarouge.json"
+  ],
+  "baxcalibur": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/baxcalibur.json"
+  ],
+  "bellibolt": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/bellibolt.json"
+  ],
+  "bombirdier": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/bombirdier.json"
+  ],
+  "brambleghast": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/brambleghast.json"
+  ],
+  "bramblin": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/bramblin.json"
+  ],
+  "brutebonnet": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/brutebonnet.json"
+  ],
+  "capsakid": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/capsakid.json"
+  ],
+  "ceruledge": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ceruledge.json"
+  ],
+  "cetitan": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/cetitan.json"
+  ],
+  "cetoddle": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/cetoddle.json"
+  ],
+  "charcadet": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/charcadet.json"
+  ],
+  "chienpao": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/chienpao.json"
+  ],
+  "chiyu": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/chiyu.json"
+  ],
+  "clodsire": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/clodsire.json"
+  ],
+  "crocalor": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/crocalor.json"
+  ],
+  "cyclizar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/cyclizar.json"
+  ],
+  "dachsbun": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/dachsbun.json"
+  ],
+  "dipplin": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/dipplin.json"
+  ],
+  "dolliv": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/dolliv.json"
+  ],
+  "dondozo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/dondozo.json"
+  ],
+  "dudunsparce": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/dudunsparce.json"
+  ],
+  "espathra": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/espathra.json"
+  ],
+  "farigiraf": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/farigiraf.json"
+  ],
+  "fezandipiti": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/fezandipiti.json"
+  ],
+  "fidough": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/fidough.json"
+  ],
+  "finizen": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/finizen.json"
+  ],
+  "flamigo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/flamigo.json"
+  ],
+  "flittle": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/flittle.json"
+  ],
+  "floragato": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/floragato.json"
+  ],
+  "fluttermane": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/fluttermane.json"
+  ],
+  "frigibax": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/frigibax.json"
+  ],
+  "fuecoco": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/fuecoco.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation9\\fuecoco.json"
+  ],
+  "garganacl": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/garganacl.json"
+  ],
+  "gholdengo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/gholdengo.json"
+  ],
+  "gimmighoul": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/gimmighoul.json"
+  ],
+  "glimmet": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/glimmet.json"
+  ],
+  "glimmora": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/glimmora.json"
+  ],
+  "gougingfire": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/gougingfire.json"
+  ],
+  "grafaiai": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/grafaiai.json"
+  ],
+  "greattusk": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/greattusk.json"
+  ],
+  "greavard": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/greavard.json"
+  ],
+  "houndstone": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/houndstone.json"
+  ],
+  "hydrapple": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/hydrapple.json"
+  ],
+  "ironboulder": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ironboulder.json"
+  ],
+  "ironbundle": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ironbundle.json"
+  ],
+  "ironcrown": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ironcrown.json"
+  ],
+  "ironhands": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ironhands.json"
+  ],
+  "ironjugulis": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ironjugulis.json"
+  ],
+  "ironleaves": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ironleaves.json"
+  ],
+  "ironmoth": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ironmoth.json"
+  ],
+  "ironthorns": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ironthorns.json"
+  ],
+  "irontreads": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/irontreads.json"
+  ],
+  "ironvaliant": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ironvaliant.json"
+  ],
+  "kilowattrel": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/kilowattrel.json"
+  ],
+  "kingambit": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/kingambit.json"
+  ],
+  "klawf": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/klawf.json"
+  ],
+  "koraidon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/koraidon.json"
+  ],
+  "lechonk": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/lechonk.json"
+  ],
+  "lokix": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/lokix.json"
+  ],
+  "mabosstiff": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/mabosstiff.json"
+  ],
+  "maschiff": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/maschiff.json"
+  ],
+  "maushold": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/maushold.json"
+  ],
+  "meowscarada": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/meowscarada.json"
+  ],
+  "miraidon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/miraidon.json"
+  ],
+  "munkidori": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/munkidori.json"
+  ],
+  "nacli": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/nacli.json"
+  ],
+  "naclstack": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/naclstack.json"
+  ],
+  "nymble": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/nymble.json"
+  ],
+  "ogerpon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ogerpon.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation9\\ogerpon.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation9\\ogerpon.json"
+  ],
+  "oinkologne": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/oinkologne.json"
+  ],
+  "okidogi": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/okidogi.json"
+  ],
+  "orthworm": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/orthworm.json"
+  ],
+  "palafin": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/palafin.json"
+  ],
+  "pawmi": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/pawmi.json"
+  ],
+  "pawmo": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/pawmo.json"
+  ],
+  "pawmot": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/pawmot.json"
+  ],
+  "pecharunt": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/pecharunt.json"
+  ],
+  "poltchageist": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/poltchageist.json"
+  ],
+  "quaquaval": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/quaquaval.json"
+  ],
+  "quaxly": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/quaxly.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation9\\quaxly.json"
+  ],
+  "quaxwell": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/quaxwell.json"
+  ],
+  "rabsca": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/rabsca.json"
+  ],
+  "ragingbolt": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ragingbolt.json"
+  ],
+  "rellor": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/rellor.json"
+  ],
+  "revavroom": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/revavroom.json"
+  ],
+  "roaringmoon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/roaringmoon.json"
+  ],
+  "sandyshocks": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/sandyshocks.json"
+  ],
+  "scovillain": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/scovillain.json"
+  ],
+  "screamtail": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/screamtail.json"
+  ],
+  "shroodle": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/shroodle.json"
+  ],
+  "sinistcha": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/sinistcha.json"
+  ],
+  "skeledirge": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/skeledirge.json"
+  ],
+  "slitherwing": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/slitherwing.json"
+  ],
+  "smoliv": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/smoliv.json"
+  ],
+  "spidops": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/spidops.json"
+  ],
+  "sprigatito": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/sprigatito.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation9\\sprigatito.json"
+  ],
+  "squawkabilly": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/squawkabilly.json"
+  ],
+  "tadbulb": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/tadbulb.json"
+  ],
+  "tandemaus": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/tandemaus.json"
+  ],
+  "tarountula": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/tarountula.json"
+  ],
+  "tatsugiri": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/tatsugiri.json"
+  ],
+  "terapagos": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/terapagos.json"
+  ],
+  "tinglu": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/tinglu.json"
+  ],
+  "tinkatink": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/tinkatink.json"
+  ],
+  "tinkaton": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/tinkaton.json"
+  ],
+  "tinkatuff": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/tinkatuff.json"
+  ],
+  "toedscool": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/toedscool.json"
+  ],
+  "toedscruel": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/toedscruel.json"
+  ],
+  "varoom": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/varoom.json"
+  ],
+  "veluza": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/veluza.json"
+  ],
+  "walkingwake": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/walkingwake.json"
+  ],
+  "wattrel": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/wattrel.json"
+  ],
+  "wiglett": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/wiglett.json"
+  ],
+  "wochien": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/wochien.json"
+  ],
+  "wugtrio": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/wugtrio.json"
+  ],
+  "arcanine_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/arcanine.json"
+  ],
+  "articuno_galar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/articuno.json"
+  ],
+  "cubone_alola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/cubone.json"
+  ],
+  "diglett_alola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/diglett.json"
+  ],
+  "dugtrio_alola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/dugtrio.json"
+  ],
+  "electrode_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/electrode.json"
+  ],
+  "exeggcute_alola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/exeggcute.json"
+  ],
+  "exeggutor_alola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/exeggutor.json"
+  ],
+  "farfetchd_galar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/farfetchd.json"
+  ],
+  "geodude_alola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/geodude.json"
+  ],
+  "golem_alola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/golem.json"
+  ],
+  "graveler_alola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/graveler.json"
+  ],
+  "grimer_alola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/grimer.json"
+  ],
+  "growlithe_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/growlithe.json"
+  ],
+  "koffing_galar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/koffing.json"
+  ],
+  "marowak_alola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/marowak.json"
+  ],
+  "meowth_alola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/meowth.json"
+  ],
+  "meowth_galar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/meowth.json"
+  ],
+  "moltres_galar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/moltres.json"
+  ],
+  "mrmime_galar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/mrmime.json"
+  ],
+  "muk_alola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/muk.json"
+  ],
+  "ninetales_alola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/ninetales.json"
+  ],
+  "persian_alola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/persian.json"
+  ],
+  "pikachu_alola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/pikachu.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation1\\pikachu.json"
+  ],
+  "ponyta_galar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/ponyta.json"
+  ],
+  "raichu_alola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/raichu.json"
+  ],
+  "rapidash_galar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/rapidash.json",
+    "datapacks\\Journey Mounts\\data\\cobblemon\\species\\generation1\\rapidash.json"
+  ],
+  "raticate_alola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/raticate.json"
+  ],
+  "rattata_alola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/rattata.json"
+  ],
+  "sandshrew_alola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/sandshrew.json"
+  ],
+  "sandslash_alola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/sandslash.json"
+  ],
+  "slowbro_galar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/slowbro.json"
+  ],
+  "slowpoke_galar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/slowpoke.json"
+  ],
+  "tauros_paldea": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/tauros.json"
+  ],
+  "voltorb_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/voltorb.json"
+  ],
+  "vulpix_alola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/vulpix.json"
+  ],
+  "weezing_galar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/weezing.json"
+  ],
+  "zapdos_galar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/zapdos.json"
+  ],
+  "corsola_galar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/corsola.json"
+  ],
+  "cyndaquil_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/cyndaquil.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation2\\cyndaquil.json"
+  ],
+  "pichu_alola": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/pichu.json"
+  ],
+  "quilava_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/quilava.json"
+  ],
+  "qwilfish_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/qwilfish.json"
+  ],
+  "slowking_galar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/slowking.json"
+  ],
+  "sneasel_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/sneasel.json"
+  ],
+  "typhlosion_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/typhlosion.json"
+  ],
+  "unown_b": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_c": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_d": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_e": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_f": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_g": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_h": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_i": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_j": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_k": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_l": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_m": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_n": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_o": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_p": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_q": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_r": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_s": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_t": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_u": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_v": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_w": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_x": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_y": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_z": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "unown_": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ],
+  "wooper_paldea": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/wooper.json"
+  ],
+  "castform_sunny": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/castform.json"
+  ],
+  "castform_rainy": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/castform.json"
+  ],
+  "castform_snowy": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/castform.json"
+  ],
+  "deoxys_attack": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/deoxys.json"
+  ],
+  "deoxys_defense": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/deoxys.json"
+  ],
+  "deoxys_speed": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/deoxys.json"
+  ],
+  "groudon_primal": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/groudon.json"
+  ],
+  "kyogre_primal": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/kyogre.json"
+  ],
+  "linoone_galar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/linoone.json"
+  ],
+  "zigzagoon_galar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/zigzagoon.json"
+  ],
+  "arceus_fighting": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/arceus.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\arceus.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\arceus.json"
+  ],
+  "arceus_flying": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/arceus.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\arceus.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\arceus.json"
+  ],
+  "arceus_poison": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/arceus.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\arceus.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\arceus.json"
+  ],
+  "arceus_ground": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/arceus.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\arceus.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\arceus.json"
+  ],
+  "arceus_rock": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/arceus.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\arceus.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\arceus.json"
+  ],
+  "arceus_bug": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/arceus.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\arceus.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\arceus.json"
+  ],
+  "arceus_ghost": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/arceus.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\arceus.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\arceus.json"
+  ],
+  "arceus_steel": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/arceus.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\arceus.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\arceus.json"
+  ],
+  "arceus_fire": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/arceus.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\arceus.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\arceus.json"
+  ],
+  "arceus_water": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/arceus.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\arceus.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\arceus.json"
+  ],
+  "arceus_grass": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/arceus.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\arceus.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\arceus.json"
+  ],
+  "arceus_electric": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/arceus.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\arceus.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\arceus.json"
+  ],
+  "arceus_psychic": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/arceus.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\arceus.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\arceus.json"
+  ],
+  "arceus_ice": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/arceus.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\arceus.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\arceus.json"
+  ],
+  "arceus_dragon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/arceus.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\arceus.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\arceus.json"
+  ],
+  "arceus_dark": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/arceus.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\arceus.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\arceus.json"
+  ],
+  "arceus_fairy": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/arceus.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\arceus.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\arceus.json"
+  ],
+  "burmy_sandy": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/burmy.json"
+  ],
+  "burmy_trash": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/burmy.json"
+  ],
+  "cherrim_sunshine": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/cherrim.json"
+  ],
+  "dialga_origin": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/dialga.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\dialga.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\dialga.json"
+  ],
+  "gastrodon_east": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/gastrodon.json"
+  ],
+  "giratina_origin": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/giratina.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\giratina.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\giratina.json"
+  ],
+  "mimejr_galar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/mimejr.json"
+  ],
+  "palkia_origin": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/palkia.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation4\\palkia.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation4\\palkia.json"
+  ],
+  "rotom_heat": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/rotom.json"
+  ],
+  "rotom_wash": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/rotom.json"
+  ],
+  "rotom_frost": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/rotom.json"
+  ],
+  "rotom_fan": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/rotom.json"
+  ],
+  "rotom_mow": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/rotom.json"
+  ],
+  "shaymin_sky": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/shaymin.json"
+  ],
+  "shellos_east": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/shellos.json"
+  ],
+  "wormadam_sandy": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/wormadam.json"
+  ],
+  "wormadam_trash": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/wormadam.json"
+  ],
+  "basculin_blue_striped": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/basculin.json"
+  ],
+  "basculin_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/basculin.json"
+  ],
+  "braviary_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/braviary.json"
+  ],
+  "darmanitan_zen": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/darmanitan.json"
+  ],
+  "darmanitan_galar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/darmanitan.json"
+  ],
+  "darumaka_galar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/darumaka.json"
+  ],
+  "deerling_summer": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/deerling.json"
+  ],
+  "deerling_autumn": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/deerling.json"
+  ],
+  "deerling_winter": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/deerling.json"
+  ],
+  "dewott_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/dewott.json"
+  ],
+  "genesect_douse": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/genesect.json"
+  ],
+  "genesect_shock": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/genesect.json"
+  ],
+  "genesect_burn": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/genesect.json"
+  ],
+  "genesect_chill": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/genesect.json"
+  ],
+  "keldeo_resolute": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/keldeo.json"
+  ],
+  "kyurem_white": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/kyurem.json"
+  ],
+  "kyurem_black": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/kyurem.json"
+  ],
+  "landorus_therian": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/landorus.json"
+  ],
+  "lilligant_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/lilligant.json"
+  ],
+  "meloetta_pirouette": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/meloetta.json"
+  ],
+  "oshawott_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/oshawott.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation5\\oshawott.json"
+  ],
+  "petilil_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/petilil.json"
+  ],
+  "rufflet_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/rufflet.json"
+  ],
+  "samurott_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/samurott.json"
+  ],
+  "sawsbuck_summer": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/sawsbuck.json"
+  ],
+  "sawsbuck_autumn": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/sawsbuck.json"
+  ],
+  "sawsbuck_winter": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/sawsbuck.json"
+  ],
+  "stunfisk_galar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/stunfisk.json"
+  ],
+  "thundurus_therian": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/thundurus.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation5\\thundurus.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation5\\thundurus.json"
+  ],
+  "tornadus_therian": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/tornadus.json"
+  ],
+  "yamask_galar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/yamask.json"
+  ],
+  "zoroark_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/zoroark.json"
+  ],
+  "zorua_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/zorua.json"
+  ],
+  "aegislash_blade": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/aegislash.json"
+  ],
+  "avalugg_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/avalugg.json"
+  ],
+  "flabebe_yellow": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/flabebe.json"
+  ],
+  "flabebe_orange": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/flabebe.json"
+  ],
+  "flabebe_blue": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/flabebe.json"
+  ],
+  "flabebe_white": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/flabebe.json"
+  ],
+  "floette_yellow": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/floette.json"
+  ],
+  "floette_orange": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/floette.json"
+  ],
+  "floette_blue": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/floette.json"
+  ],
+  "floette_white": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/floette.json"
+  ],
+  "floette_eternal": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/floette.json"
+  ],
+  "florges_yellow": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/florges.json"
+  ],
+  "florges_orange": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/florges.json"
+  ],
+  "florges_blue": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/florges.json"
+  ],
+  "florges_white": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/florges.json"
+  ],
+  "furfrou_heart": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/furfrou.json"
+  ],
+  "furfrou_star": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/furfrou.json"
+  ],
+  "furfrou_diamond": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/furfrou.json"
+  ],
+  "furfrou_debutante": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/furfrou.json"
+  ],
+  "furfrou_matron": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/furfrou.json"
+  ],
+  "furfrou_dandy": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/furfrou.json"
+  ],
+  "furfrou_la_reine": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/furfrou.json"
+  ],
+  "furfrou_kabuki": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/furfrou.json"
+  ],
+  "furfrou_pharaoh": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/furfrou.json"
+  ],
+  "furfrou_matcha": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/furfrou.json"
+  ],
+  "furfrou_lavender": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/furfrou.json"
+  ],
+  "furfrou_cinnamon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/furfrou.json"
+  ],
+  "furfrou_crusader": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/furfrou.json"
+  ],
+  "furfrou_rocker": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/furfrou.json"
+  ],
+  "furfrou_mourner": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/furfrou.json"
+  ],
+  "goodra_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/goodra.json"
+  ],
+  "goomy_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/goomy.json"
+  ],
+  "gourgeist_small": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/gourgeist.json"
+  ],
+  "gourgeist_large": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/gourgeist.json"
+  ],
+  "gourgeist_super": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/gourgeist.json"
+  ],
+  "greninja_bond": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/greninja.json"
+  ],
+  "greninja_ash": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/greninja.json"
+  ],
+  "hoopa_unbound": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/hoopa.json"
+  ],
+  "meowstic_f": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/meowstic.json"
+  ],
+  "pumpkaboo_small": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/pumpkaboo.json"
+  ],
+  "pumpkaboo_large": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/pumpkaboo.json"
+  ],
+  "pumpkaboo_super": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/pumpkaboo.json"
+  ],
+  "sliggoo_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/sliggoo.json"
+  ],
+  "vivillon_pokeball": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/vivillon.json"
+  ],
+  "xerneas_active": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/xerneas.json"
+  ],
+  "zygarde_10": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/zygarde.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation6\\zygarde.json"
+  ],
+  "zygarde_10_c": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/zygarde.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation6\\zygarde.json"
+  ],
+  "zygarde_50_c": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/zygarde.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation6\\zygarde.json"
+  ],
+  "zygarde_complete": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/zygarde.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation6\\zygarde.json"
+  ],
+  "dartrix_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/dartrix.json"
+  ],
+  "decidueye_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/decidueye.json"
+  ],
+  "lycanroc_midnight": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/lycanroc.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation7\\lycanroc.json"
+  ],
+  "lycanroc_dusk": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/lycanroc.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation7\\lycanroc.json"
+  ],
+  "magearna_original": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/magearna.json"
+  ],
+  "mimikyu_busted": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/mimikyu.json"
+  ],
+  "minior_meteor": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/minior.json"
+  ],
+  "necrozma_dusk_mane": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/necrozma.json"
+  ],
+  "necrozma_dawn_wings": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/necrozma.json"
+  ],
+  "necrozma_ultra": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/necrozma.json"
+  ],
+  "oricorio_pom_pom": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/oricorio.json"
+  ],
+  "oricorio_pa_u": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/oricorio.json"
+  ],
+  "oricorio_sensu": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/oricorio.json"
+  ],
+  "rockruff_dusk": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/rockruff.json"
+  ],
+  "rowlet_hisui": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/rowlet.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation7\\rowlet.json"
+  ],
+  "silvally_fighting": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/silvally.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation7\\silvally.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation7\\silvally.json"
+  ],
+  "silvally_flying": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/silvally.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation7\\silvally.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation7\\silvally.json"
+  ],
+  "silvally_poison": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/silvally.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation7\\silvally.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation7\\silvally.json"
+  ],
+  "silvally_ground": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/silvally.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation7\\silvally.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation7\\silvally.json"
+  ],
+  "silvally_rock": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/silvally.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation7\\silvally.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation7\\silvally.json"
+  ],
+  "silvally_bug": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/silvally.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation7\\silvally.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation7\\silvally.json"
+  ],
+  "silvally_ghost": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/silvally.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation7\\silvally.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation7\\silvally.json"
+  ],
+  "silvally_steel": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/silvally.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation7\\silvally.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation7\\silvally.json"
+  ],
+  "silvally_fire": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/silvally.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation7\\silvally.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation7\\silvally.json"
+  ],
+  "silvally_water": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/silvally.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation7\\silvally.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation7\\silvally.json"
+  ],
+  "silvally_grass": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/silvally.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation7\\silvally.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation7\\silvally.json"
+  ],
+  "silvally_electric": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/silvally.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation7\\silvally.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation7\\silvally.json"
+  ],
+  "silvally_psychic": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/silvally.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation7\\silvally.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation7\\silvally.json"
+  ],
+  "silvally_ice": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/silvally.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation7\\silvally.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation7\\silvally.json"
+  ],
+  "silvally_dragon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/silvally.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation7\\silvally.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation7\\silvally.json"
+  ],
+  "silvally_dark": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/silvally.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation7\\silvally.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation7\\silvally.json"
+  ],
+  "silvally_fairy": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/silvally.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation7\\silvally.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation7\\silvally.json"
+  ],
+  "wishiwashi_school": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/wishiwashi.json"
+  ],
+  "alcremie_ruby_cream": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/alcremie.json"
+  ],
+  "alcremie_matcha_cream": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/alcremie.json"
+  ],
+  "alcremie_mint_cream": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/alcremie.json"
+  ],
+  "alcremie_lemon_cream": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/alcremie.json"
+  ],
+  "alcremie_salted_cream": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/alcremie.json"
+  ],
+  "alcremie_ruby_swirl": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/alcremie.json"
+  ],
+  "alcremie_caramel_swirl": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/alcremie.json"
+  ],
+  "alcremie_rainbow_swirl": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/alcremie.json"
+  ],
+  "calyrex_ice": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/calyrex.json"
+  ],
+  "calyrex_shadow": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/calyrex.json"
+  ],
+  "cramorant_gulping": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/cramorant.json"
+  ],
+  "cramorant_gorging": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/cramorant.json"
+  ],
+  "eiscue_noice_face": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/eiscue.json"
+  ],
+  "eternatus_eternamax": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/eternatus.json"
+  ],
+  "indeedee_f": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/indeedee.json"
+  ],
+  "morpeko_hangry": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/morpeko.json"
+  ],
+  "polteageist_antique": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/polteageist.json"
+  ],
+  "sinistea_antique": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/sinistea.json"
+  ],
+  "toxtricity_low_key": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/toxtricity.json"
+  ],
+  "urshifu_rapid_strike": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/urshifu.json"
+  ],
+  "zacian_crowned": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/zacian.json"
+  ],
+  "zamazenta_crowned": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/zamazenta.json"
+  ],
+  "zarude_dada": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/zarude.json"
+  ],
+  "basculegion_f": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8a/basculegion.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation8a\\basculegion.json"
+  ],
+  "enamorus_therian": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8a/enamorus.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation8a\\enamorus.json"
+  ],
+  "ursaluna_bloodmoon": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8a/ursaluna.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation8a\\ursaluna.json"
+  ],
+  "dudunsparce_three_segment": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/dudunsparce.json"
+  ],
+  "gimmighoul_roaming": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/gimmighoul.json"
+  ],
+  "maushold_four": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/maushold.json"
+  ],
+  "ogerpon_wellspring": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ogerpon.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation9\\ogerpon.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation9\\ogerpon.json"
+  ],
+  "ogerpon_hearthflame": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ogerpon.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation9\\ogerpon.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation9\\ogerpon.json"
+  ],
+  "ogerpon_cornerstone": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ogerpon.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation9\\ogerpon.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation9\\ogerpon.json"
+  ],
+  "ogerpon_teal_tera": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ogerpon.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation9\\ogerpon.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation9\\ogerpon.json"
+  ],
+  "ogerpon_wellspring_tera": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ogerpon.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation9\\ogerpon.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation9\\ogerpon.json"
+  ],
+  "ogerpon_hearthflame_tera": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ogerpon.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation9\\ogerpon.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation9\\ogerpon.json"
+  ],
+  "ogerpon_cornerstone_tera": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ogerpon.json",
+    "datapacks\\CCC_1.9.2\\data\\cobblemon\\species\\generation9\\ogerpon.json",
+    "datapacks\\CCC_2.0\\data\\cobblemon\\species\\generation9\\ogerpon.json"
+  ],
+  "oinkologne_f": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/oinkologne.json"
+  ],
+  "poltchageist_artisan": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/poltchageist.json"
+  ],
+  "sinistcha_masterpiece": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/sinistcha.json"
+  ],
+  "squawkabilly_blue": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/squawkabilly.json"
+  ],
+  "squawkabilly_yellow": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/squawkabilly.json"
+  ],
+  "squawkabilly_white": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/squawkabilly.json"
+  ],
+  "tatsugiri_droopy": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/tatsugiri.json"
+  ],
+  "tatsugiri_stretchy": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/tatsugiri.json"
+  ],
+  "terapagos_terastal": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/terapagos.json"
+  ],
+  "terapagos_stellar": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/terapagos.json"
+  ]
+}

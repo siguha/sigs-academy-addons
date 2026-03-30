@@ -1,0 +1,336 @@
+{
+  "id": "huntail",
+  "dexnum": 367,
+  "name": "Huntail",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "swiftswim",
+    "h:waterveil"
+  ],
+  "eggGroups": [
+    "water_1"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 104,
+    "defence": 105,
+    "special_attack": 94,
+    "special_defence": 75,
+    "speed": 52
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "erratic",
+  "catchRate": 60,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:deep_sea_tooth",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:whirlpool",
+    "1:bite",
+    "1:irondefense",
+    "1:watergun",
+    "1:shellsmash",
+    "1:clamp",
+    "5:screech",
+    "9:scaryface",
+    "11:feintattack",
+    "14:waterpulse",
+    "16:icefang",
+    "19:brine",
+    "23:suckerpunch",
+    "26:dive",
+    "29:batonpass",
+    "34:crunch",
+    "39:aquatail",
+    "45:coil",
+    "50:hydropump",
+    "egg:aquaring",
+    "egg:barrier",
+    "egg:mudsport",
+    "egg:refresh",
+    "egg:supersonic",
+    "tm:aquatail",
+    "tm:batonpass",
+    "tm:bind",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:brine",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:dive",
+    "tm:endure",
+    "tm:facade",
+    "tm:flipturn",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icywind",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:muddywater",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rocktomb",
+    "tm:scald",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:superfang",
+    "tm:surf",
+    "tm:terablast",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:aquatail",
+    "tutor:bind",
+    "tutor:bounce",
+    "tutor:dive",
+    "tutor:flipturn",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:scaleshot",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:suckerpunch",
+    "tutor:superfang",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:swift",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.4,
+        "levels": "30-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_deep_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0367_huntail.json",
+        "sky": {
+          "canSeeSky": true
+        },
+        "yLevel": {
+          "maxY": 48
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "rare",
+        "weight": 0.625,
+        "levels": "30-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0367_huntail.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 0.375,
+        "levels": "30-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0367_huntail.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.4,
+        "levels": "30-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_deep_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0367_huntail.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "yLevel": {
+          "maxY": 48
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "rare",
+        "weight": 0.625,
+        "levels": "30-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0367_huntail.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 0.375,
+        "levels": "30-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0367_huntail.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.4,
+        "levels": "30-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0367_huntail.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 0.375,
+        "levels": "30-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0367_huntail.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/huntail.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/huntail_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/huntail.json"
+  ]
+}

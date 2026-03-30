@@ -1,0 +1,295 @@
+{
+  "id": "gliscor",
+  "dexnum": 472,
+  "name": "Gliscor",
+  "primaryType": "ground",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "hypercutter",
+    "sandveil",
+    "h:poisonheal"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 95,
+    "defence": 125,
+    "special_attack": 45,
+    "special_defence": 75,
+    "speed": 95
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 30,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:phantom_membrane",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:razor_fang",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:thunderfang",
+    "1:icefang",
+    "1:firefang",
+    "1:poisonjab",
+    "1:sandattack",
+    "1:harden",
+    "1:feintattack",
+    "1:guillotine",
+    "1:skyuppercut",
+    "1:mudbomb",
+    "1:poisonsting",
+    "1:slash",
+    "13:quickattack",
+    "16:furycutter",
+    "19:knockoff",
+    "22:acrobatics",
+    "27:nightslash",
+    "30:uturn",
+    "35:screech",
+    "40:xscissor",
+    "45:crabhammer",
+    "50:swordsdance",
+    "egg:counter",
+    "egg:crabhammer",
+    "egg:crosspoison",
+    "egg:doubleedge",
+    "egg:feint",
+    "egg:mudbomb",
+    "egg:nightslash",
+    "egg:powertrick",
+    "egg:razorwind",
+    "egg:wingattack",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aquatail",
+    "tm:assurance",
+    "tm:batonpass",
+    "tm:breakingswipe",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:crosspoison",
+    "tm:crunch",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:doubleedge",
+    "tm:dualwingbeat",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:firefang",
+    "tm:fling",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:headbutt",
+    "tm:highhorsepower",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:icefang",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lunge",
+    "tm:metalclaw",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:payback",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:poisontail",
+    "tm:powershift",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roost",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:skittersmack",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:steelwing",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunderfang",
+    "tm:torment",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:uturn",
+    "tm:venoshock",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:aquatail",
+    "tutor:bulldoze",
+    "tutor:darkpulse",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:earthpower",
+    "tutor:falseswipe",
+    "tutor:firefang",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:icefang",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:powershift",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roost",
+    "tutor:scaleshot",
+    "tutor:skittersmack",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spikes",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:throatchop",
+    "tutor:thunderfang",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:bugbite",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:detect",
+    "legacy:dig",
+    "legacy:doubleteam",
+    "legacy:dreameater",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:rockclimb",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.48,
+        "levels": "38-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0472_gliscor.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "38-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_mountain"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0472_gliscor.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/gliscor.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/gliscor_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/gliscor.json"
+  ]
+}

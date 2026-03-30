@@ -1,0 +1,236 @@
+{
+  "id": "roserade",
+  "dexnum": 407,
+  "name": "Roserade",
+  "primaryType": "grass",
+  "secondaryType": "poison",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "naturalcure",
+    "poisonpoint",
+    "h:technician"
+  ],
+  "eggGroups": [
+    "fairy",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 70,
+    "defence": 65,
+    "special_attack": 125,
+    "special_defence": 105,
+    "speed": 90
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 75,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:rose_bush",
+        "percentage": null,
+        "quantityRange": "1-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:absorb_bulb",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:poisonsting",
+    "1:megadrain",
+    "1:magicalleaf",
+    "1:sweetscent",
+    "1:gigadrain",
+    "1:synthesis",
+    "1:worryseed",
+    "1:venomdrench",
+    "1:grassyterrain",
+    "1:leechseed",
+    "1:toxicspikes",
+    "1:toxic",
+    "1:petalblizzard",
+    "1:aromatherapy",
+    "1:ingrain",
+    "1:petaldance",
+    "1:absorb",
+    "1:growth",
+    "1:stunspore",
+    "1:grasswhistle",
+    "1:watersport",
+    "egg:cottonspore",
+    "egg:extrasensory",
+    "egg:grasswhistle",
+    "egg:lifedew",
+    "egg:mindreader",
+    "egg:naturalgift",
+    "egg:razorleaf",
+    "egg:sleeppowder",
+    "egg:synthesis",
+    "tm:bodyslam",
+    "tm:bulletseed",
+    "tm:covet",
+    "tm:cut",
+    "tm:dazzlinggleam",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:hyperbeam",
+    "tm:laserfocus",
+    "tm:leafstorm",
+    "tm:magicalleaf",
+    "tm:mudslap",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:petalblizzard",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:solarbeam",
+    "tm:spikes",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:uproar",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tm:weatherball",
+    "tm:worryseed",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:energyball",
+    "tutor:furycutter",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grassyglide",
+    "tutor:hyperbeam",
+    "tutor:laserfocus",
+    "tutor:magicalleaf",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spikes",
+    "tutor:swift",
+    "tutor:synthesis",
+    "tutor:uproar",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:nightmare",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "special:sweetkiss"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.05,
+        "levels": "35-52",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_floral"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0407_roserade.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.05,
+        "levels": "35-52",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:floral_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0407_roserade.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/roserade.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/roserade_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/roserade.json"
+  ]
+}

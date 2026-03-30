@@ -1,0 +1,255 @@
+{
+  "id": "decidueye",
+  "dexnum": 724,
+  "name": "Decidueye",
+  "primaryType": "grass",
+  "secondaryType": "ghost",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen7",
+    "alolan_form"
+  ],
+  "abilities": [
+    "overgrow",
+    "h:longreach"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 78,
+    "attack": 107,
+    "defence": 75,
+    "special_attack": 100,
+    "special_defence": 100,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:chicken",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:spiritshackle",
+    "1:phantomforce",
+    "1:leafstorm",
+    "1:uturn",
+    "1:tackle",
+    "1:leafage",
+    "1:growl",
+    "1:astonish",
+    "1:foresight",
+    "1:furyattack",
+    "1:spite",
+    "9:peck",
+    "12:shadowsneak",
+    "15:razorleaf",
+    "20:synthesis",
+    "25:pluck",
+    "30:nastyplot",
+    "37:suckerpunch",
+    "44:leafblade",
+    "51:featherdance",
+    "58:bravebird",
+    "egg:confuseray",
+    "egg:defog",
+    "egg:doubleteam",
+    "egg:furyattack",
+    "egg:knockoff",
+    "egg:roost",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:batonpass",
+    "tm:bravebird",
+    "tm:bulletseed",
+    "tm:confuseray",
+    "tm:covet",
+    "tm:curse",
+    "tm:defog",
+    "tm:doubleteam",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:featherdance",
+    "tm:frenzyplant",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:haze",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:leafblade",
+    "tm:leafstorm",
+    "tm:lightscreen",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:magicalleaf",
+    "tm:nastyplot",
+    "tm:naturepower",
+    "tm:nightshade",
+    "tm:ominouswind",
+    "tm:phantomforce",
+    "tm:pluck",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psychocut",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roost",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:skittersmack",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:spite",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:uturn",
+    "tm:workup",
+    "tm:worryseed",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:covet",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:energyball",
+    "tutor:falseswipe",
+    "tutor:frenzyplant",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grasspledge",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:knockoff",
+    "tutor:laserfocus",
+    "tutor:lowkick",
+    "tutor:magicalleaf",
+    "tutor:poltergeist",
+    "tutor:psychocut",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:skittersmack",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:synthesis",
+    "tutor:tailwind",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [
+    "Hisui"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "34-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "aether:skyroot_forest",
+            "aether:skyroot_woodland",
+            "#cobblemon:is_taiga"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0724_decidueye.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/decidueye.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/decidueye_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/decidueye.json"
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "id": "masquerain",
+  "dexnum": 284,
+  "name": "Masquerain",
+  "primaryType": "bug",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "intimidate",
+    "h:unnerve"
+  ],
+  "eggGroups": [
+    "water_1",
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 60,
+    "defence": 62,
+    "special_attack": 100,
+    "special_defence": 82,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:silver_powder",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:wacan_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:ominouswind",
+    "1:bubble",
+    "1:quickattack",
+    "1:sweetscent",
+    "1:watersport",
+    "1:whirlwind",
+    "1:watergun",
+    "1:bubblebeam",
+    "1:mist",
+    "1:stickyweb",
+    "1:soak",
+    "17:gust",
+    "22:scaryface",
+    "22:aircutter",
+    "26:stunspore",
+    "32:airslash",
+    "38:gigadrain",
+    "44:bugbuzz",
+    "52:quiverdance",
+    "egg:aquajet",
+    "egg:bugbite",
+    "egg:fellstinger",
+    "egg:foresight",
+    "egg:hydropump",
+    "egg:lunge",
+    "egg:mindreader",
+    "egg:mudshot",
+    "egg:powersplit",
+    "egg:psybeam",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:batonpass",
+    "tm:blizzard",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:chillingwater",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:foulplay",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:haze",
+    "tm:helpinghand",
+    "tm:hurricane",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:infestation",
+    "tm:leechlife",
+    "tm:liquidation",
+    "tm:lunge",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:ominouswind",
+    "tm:pounce",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roost",
+    "tm:scaryface",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:silverwind",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:supersonic",
+    "tm:surf",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:twister",
+    "tm:uturn",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:bugbite",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:energyball",
+    "tutor:foulplay",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:leechlife",
+    "tutor:liquidation",
+    "tutor:mudslap",
+    "tutor:ominouswind",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:shadowball",
+    "tutor:signalbeam",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:stringshot",
+    "tutor:tailwind",
+    "tutor:twister",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:return",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:mudsport"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.96,
+        "levels": "22-45",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0284_masquerain.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "22-45",
+        "biomeTags": {
+          "include": [
+            "#the_bumblezone:the_bumblezone"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0284_masquerain.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/masquerain.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/masquerain_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/masquerain.json"
+  ]
+}

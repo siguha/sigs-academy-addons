@@ -1,0 +1,201 @@
+{
+  "id": "thievul",
+  "dexnum": 828,
+  "name": "Thievul",
+  "primaryType": "dark",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "runaway",
+    "unburden",
+    "h:stakeout"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 58,
+    "defence": 58,
+    "special_attack": 87,
+    "special_defence": 92,
+    "speed": 90
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "experienceGroup": "fast",
+  "catchRate": 127,
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:sweet_berries",
+        "percentage": null,
+        "quantityRange": "2-4",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:emerald",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:roseli_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:thief",
+    "1:quickattack",
+    "1:tailwhip",
+    "1:beatup",
+    "1:honeclaws",
+    "12:snarl",
+    "16:assurance",
+    "22:nastyplot",
+    "28:suckerpunch",
+    "34:nightslash",
+    "40:tailslap",
+    "46:foulplay",
+    "52:partingshot",
+    "egg:howl",
+    "egg:knockoff",
+    "egg:quickguard",
+    "egg:torment",
+    "tm:acrobatics",
+    "tm:agility",
+    "tm:assurance",
+    "tm:batonpass",
+    "tm:beatup",
+    "tm:burningjealousy",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:firefang",
+    "tm:foulplay",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:icefang",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:mudshot",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychic",
+    "tm:rest",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:swift",
+    "tm:tailslap",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderfang",
+    "tm:torment",
+    "tm:uturn",
+    "tutor:burningjealousy",
+    "tutor:darkpulse",
+    "tutor:firefang",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icefang",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:playrough",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:thunderfang",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "18-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0828_thievul.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "18-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_plains"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0828_thievul.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/thievul.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/thievul_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/thievul.json"
+  ]
+}

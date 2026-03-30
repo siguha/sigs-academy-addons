@@ -1,0 +1,188 @@
+{
+  "id": "beldum",
+  "dexnum": 374,
+  "name": "Beldum",
+  "primaryType": "steel",
+  "secondaryType": "psychic",
+  "maleRatio": -1,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "clearbody",
+    "h:lightmetal"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 55,
+    "defence": 80,
+    "special_attack": 35,
+    "special_defence": 60,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 3,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:ender_pearl",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:metal_coat",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "tm:headbutt",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:steelbeam",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:zenheadbutt",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:steelbeam",
+    "tutor:zenheadbutt",
+    "special:holdback"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "beldum_metang",
+      "variant": "level_up",
+      "result": "metang",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "confusion",
+        "metalclaw"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_dripstone",
+            "#cobblemon:is_peak"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0374_beldum.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 7.5,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_end"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0374_beldum.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 7.5,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0374_beldum.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 1.68,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0374_beldum.json",
+        "structures": [
+          "#aether:dungeons"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 7.5,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:howling_constructs"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0374_beldum.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/beldum.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/beldum_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/beldum.json"
+  ]
+}

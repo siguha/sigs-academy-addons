@@ -1,0 +1,223 @@
+{
+  "id": "trapinch",
+  "dexnum": 328,
+  "name": "Trapinch",
+  "primaryType": "ground",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "hypercutter",
+    "arenatrap",
+    "h:sheerforce"
+  ],
+  "eggGroups": [
+    "bug",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 100,
+    "defence": 45,
+    "special_attack": 45,
+    "special_defence": 45,
+    "speed": 10
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 255,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:soft_sand",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:sandattack",
+    "1:feintattack",
+    "1:bide",
+    "1:astonish",
+    "8:bite",
+    "12:mudslap",
+    "16:sandtomb",
+    "20:bulldoze",
+    "24:dig",
+    "28:crunch",
+    "32:sandstorm",
+    "36:earthpower",
+    "40:earthquake",
+    "44:superpower",
+    "48:fissure",
+    "egg:bugbite",
+    "egg:feint",
+    "egg:firstimpression",
+    "egg:flail",
+    "egg:furycutter",
+    "egg:gust",
+    "egg:quickattack",
+    "tm:bodyslam",
+    "tm:bugbite",
+    "tm:bulldoze",
+    "tm:crunch",
+    "tm:dig",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:focusenergy",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:headbutt",
+    "tm:hyperbeam",
+    "tm:laserfocus",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scorchingsands",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:takedown",
+    "tm:terablast",
+    "tutor:bugbite",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:focusenergy",
+    "tutor:furycutter",
+    "tutor:gigadrain",
+    "tutor:hyperbeam",
+    "tutor:laserfocus",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:scorchingsands",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:solarbeam",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "trapinch_vibrava",
+      "variant": "level_up",
+      "result": "vibrava",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "dragonbreath"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "rare",
+        "weight": 7.5,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0328_trapinch.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0328_trapinch.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/trapinch.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/trapinch_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/trapinch.json"
+  ]
+}

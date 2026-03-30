@@ -1,0 +1,312 @@
+{
+  "id": "altaria",
+  "dexnum": 334,
+  "name": "Altaria",
+  "primaryType": "dragon",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "naturalcure",
+    "h:cloudnine"
+  ],
+  "eggGroups": [
+    "flying",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 70,
+    "defence": 90,
+    "special_attack": 70,
+    "special_defence": 105,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "experienceGroup": "erratic",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:white_wool",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:chicken",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:pluck",
+    "1:peck",
+    "1:growl",
+    "1:astonish",
+    "1:mist",
+    "1:refresh",
+    "1:dragonpulse",
+    "1:disarmingvoice",
+    "1:naturalgift",
+    "12:furyattack",
+    "16:round",
+    "20:dragonbreath",
+    "24:safeguard",
+    "28:sing",
+    "32:cottonguard",
+    "38:takedown",
+    "44:moonblast",
+    "50:perishsong",
+    "56:skyattack",
+    "egg:astonish",
+    "egg:defog",
+    "egg:dragonbreath",
+    "egg:dragonrush",
+    "egg:featherdance",
+    "egg:haze",
+    "egg:mirrormove",
+    "egg:pursuit",
+    "egg:rage",
+    "egg:refresh",
+    "egg:roost",
+    "egg:tailwind",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:alluringvoice",
+    "tm:bodyslam",
+    "tm:bravebird",
+    "tm:breakingswipe",
+    "tm:bulldoze",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:disarmingvoice",
+    "tm:doubleedge",
+    "tm:dracometeor",
+    "tm:dragoncheer",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dreameater",
+    "tm:dualwingbeat",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:fireblast",
+    "tm:firespin",
+    "tm:flamethrower",
+    "tm:fly",
+    "tm:gigaimpact",
+    "tm:haze",
+    "tm:healbell",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:naturalgift",
+    "tm:ominouswind",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:pluck",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:roost",
+    "tm:round",
+    "tm:safeguard",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:solarbeam",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:twister",
+    "tm:weatherball",
+    "tm:willowisp",
+    "tm:wonderroom",
+    "tutor:aerialace",
+    "tutor:bulldoze",
+    "tutor:dazzlinggleam",
+    "tutor:defog",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:dualwingbeat",
+    "tutor:endeavor",
+    "tutor:flamethrower",
+    "tutor:gigaimpact",
+    "tutor:healbell",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:irontail",
+    "tutor:ominouswind",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:roost",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:twister",
+    "tutor:wonderroom",
+    "legacy:aircutter",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:falseswipe",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:psychup",
+    "legacy:return",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:uproar"
+  ],
+  "forms": [
+    "Mega"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "35-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_peak",
+            "#cobblemon:is_sky",
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0334_altaria.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        },
+        "yLevel": {
+          "minY": 190
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "35-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_peak",
+            "#cobblemon:is_sky"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_volcanic"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0334_altaria.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "35-49",
+        "biomeTags": {
+          "include": [
+            "aether:skyroot_grove",
+            "aether:skyroot_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0334_altaria.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/altaria.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/altaria_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/altaria.json"
+  ]
+}

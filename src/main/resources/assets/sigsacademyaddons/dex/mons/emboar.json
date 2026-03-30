@@ -1,0 +1,263 @@
+{
+  "id": "emboar",
+  "dexnum": 500,
+  "name": "Emboar",
+  "primaryType": "fire",
+  "secondaryType": "fighting",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "blaze",
+    "h:reckless"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 123,
+    "defence": 65,
+    "special_attack": 100,
+    "special_defence": 65,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:porkchop",
+        "percentage": null,
+        "quantityRange": "2-4",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:hammerarm",
+    "1:tackle",
+    "1:tailwhip",
+    "1:ember",
+    "1:odorsleuth",
+    "1:armthrust",
+    "1:endure",
+    "13:defensecurl",
+    "15:flamecharge",
+    "20:smog",
+    "23:rollout",
+    "28:takedown",
+    "31:heatcrash",
+    "38:assurance",
+    "43:flamethrower",
+    "50:headsmash",
+    "55:roar",
+    "62:flareblitz",
+    "egg:burnup",
+    "egg:magnitude",
+    "egg:suckerpunch",
+    "egg:superpower",
+    "egg:thrash",
+    "egg:yawn",
+    "tm:assurance",
+    "tm:blastburn",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:covet",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:drainpunch",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firepledge",
+    "tm:firepunch",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gyroball",
+    "tm:hardpress",
+    "tm:heatcrash",
+    "tm:heatwave",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:incinerate",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:mudslap",
+    "tm:overheat",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:scald",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:solarbeam",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thunderpunch",
+    "tm:trailblaze",
+    "tm:wildcharge",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:blastburn",
+    "tutor:block",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:coaching",
+    "tutor:covet",
+    "tutor:drainpunch",
+    "tutor:endeavor",
+    "tutor:firepledge",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:suckerpunch",
+    "tutor:superpower",
+    "tutor:thunderpunch",
+    "tutor:wildcharge",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:holdback"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_plains"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0500_emboar.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_crimson",
+            "#cobblemon:nether/is_overgrowth"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0500_emboar.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/emboar.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/emboar_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/emboar.json"
+  ]
+}

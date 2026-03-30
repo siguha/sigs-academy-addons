@@ -1,0 +1,329 @@
+{
+  "id": "shuckle",
+  "dexnum": 213,
+  "name": "Shuckle",
+  "primaryType": "bug",
+  "secondaryType": "rock",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "sturdy",
+    "gluttony",
+    "h:contrary"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 20,
+    "attack": 10,
+    "defence": 230,
+    "special_attack": 10,
+    "special_defence": 230,
+    "speed": 5
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 190,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:berry_juice",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:luminous_moss",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:withdraw",
+    "1:constrict",
+    "1:bide",
+    "1:wrap",
+    "5:rollout",
+    "10:strugglebug",
+    "15:rockthrow",
+    "20:safeguard",
+    "25:rest",
+    "30:bugbite",
+    "35:powersplit",
+    "35:guardsplit",
+    "40:rockslide",
+    "45:gastroacid",
+    "50:stickyweb",
+    "55:powertrick",
+    "60:stoneedge",
+    "65:shellsmash",
+    "egg:acid",
+    "egg:acupressure",
+    "egg:covet",
+    "egg:defensecurl",
+    "egg:finalgambit",
+    "egg:infestation",
+    "egg:knockoff",
+    "egg:sweetscent",
+    "egg:toxic",
+    "tm:afteryou",
+    "tm:ancientpower",
+    "tm:bind",
+    "tm:bodyslam",
+    "tm:bugbite",
+    "tm:bulldoze",
+    "tm:covet",
+    "tm:dig",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:gastroacid",
+    "tm:gyroball",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:knockoff",
+    "tm:meteorbeam",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:rest",
+    "tm:reversal",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:steelroller",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:venoshock",
+    "tutor:afteryou",
+    "tutor:ancientpower",
+    "tutor:bind",
+    "tutor:bugbite",
+    "tutor:bulldoze",
+    "tutor:covet",
+    "tutor:earthpower",
+    "tutor:gastroacid",
+    "tutor:helpinghand",
+    "tutor:irondefense",
+    "tutor:knockoff",
+    "tutor:meteorbeam",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:stealthrock",
+    "tutor:steelroller",
+    "tutor:stoneedge",
+    "tutor:stringshot",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "16-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0213_shuckle.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 6.0,
+        "levels": "16-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0213_shuckle.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 2.0,
+        "levels": "16-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0213_shuckle.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "16-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0213_shuckle.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        },
+        "yLevel": {
+          "minY": -41,
+          "maxY": 9
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 6.0,
+        "levels": "16-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0213_shuckle.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        },
+        "yLevel": {
+          "minY": -41,
+          "maxY": 9
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 2.0,
+        "levels": "16-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0213_shuckle.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        },
+        "yLevel": {
+          "minY": -41,
+          "maxY": 9
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/shuckle.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/shuckle_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/shuckle.json"
+  ]
+}

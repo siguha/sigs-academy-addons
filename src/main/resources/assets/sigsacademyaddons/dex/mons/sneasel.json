@@ -1,0 +1,285 @@
+{
+  "id": "sneasel",
+  "dexnum": 215,
+  "name": "Sneasel",
+  "primaryType": "dark",
+  "secondaryType": "ice",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2",
+    "johtonian_form"
+  ],
+  "abilities": [
+    "innerfocus",
+    "keeneye",
+    "h:pickpocket"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 95,
+    "defence": 55,
+    "special_attack": 35,
+    "special_defence": 75,
+    "speed": 115
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 60,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "cobblemon:razor_claw",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:grip_claw",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:quick_claw",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chople_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:leer",
+    "1:feintattack",
+    "6:taunt",
+    "12:quickattack",
+    "18:metalclaw",
+    "24:icywind",
+    "30:furyswipes",
+    "36:honeclaws",
+    "42:beatup",
+    "48:agility",
+    "54:screech",
+    "60:slash",
+    "egg:assist",
+    "egg:bite",
+    "egg:counter",
+    "egg:crushclaw",
+    "egg:doublehit",
+    "egg:fakeout",
+    "egg:feint",
+    "egg:foresight",
+    "egg:iceshard",
+    "egg:iciclecrash",
+    "egg:punishment",
+    "egg:pursuit",
+    "egg:spite",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:avalanche",
+    "tm:beatup",
+    "tm:blizzard",
+    "tm:brickbreak",
+    "tm:calmmind",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:dreameater",
+    "tm:embargo",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:foulplay",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:lashout",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metalclaw",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychocut",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:reversal",
+    "tm:rocksmash",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:snowscape",
+    "tm:spite",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:torment",
+    "tm:trailblaze",
+    "tm:tripleaxel",
+    "tm:upperhand",
+    "tm:waterpulse",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:calmmind",
+    "tutor:darkpulse",
+    "tutor:falseswipe",
+    "tutor:focuspunch",
+    "tutor:foulplay",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:laserfocus",
+    "tutor:lashout",
+    "tutor:lowkick",
+    "tutor:poisonjab",
+    "tutor:psychocut",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:snatch",
+    "tutor:spite",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:tripleaxel",
+    "tutor:waterpulse",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:detect",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:psychup",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:whirlpool"
+  ],
+  "forms": [
+    "Hisui"
+  ],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "sneasel_weavile",
+      "variant": "level_up",
+      "result": "weavile",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:razor_claw"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 9.2,
+        "levels": "18-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0215_sneasel.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/sneasel.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/sneasel_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/sneasel.json"
+  ]
+}

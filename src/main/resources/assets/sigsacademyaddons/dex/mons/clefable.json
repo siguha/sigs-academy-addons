@@ -1,0 +1,393 @@
+{
+  "id": "clefable",
+  "dexnum": 36,
+  "name": "Clefable",
+  "primaryType": "fairy",
+  "secondaryType": "",
+  "maleRatio": 0.25,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "cutecharm",
+    "magicguard",
+    "h:unaware"
+  ],
+  "eggGroups": [
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 70,
+    "defence": 73,
+    "special_attack": 95,
+    "special_defence": 90,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "fast",
+  "catchRate": 25,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:moon_stone",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:babiri_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:fairy_feather",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:sing",
+    "1:doubleslap",
+    "1:minimize",
+    "1:metronome",
+    "1:gravity",
+    "1:afteryou",
+    "1:disarmingvoice",
+    "1:spotlight",
+    "1:sweetkiss",
+    "1:encore",
+    "1:charm",
+    "1:storedpower",
+    "1:lifedew",
+    "1:moonlight",
+    "1:meteormash",
+    "1:followme",
+    "1:cosmicpower",
+    "1:moonblast",
+    "1:healingwish",
+    "1:splash",
+    "1:pound",
+    "1:copycat",
+    "1:growl",
+    "1:defensecurl",
+    "1:wakeupslap",
+    "1:luckychant",
+    "1:bestow",
+    "egg:aromatherapy",
+    "egg:bellydrum",
+    "egg:healpulse",
+    "egg:mimic",
+    "egg:present",
+    "egg:tickle",
+    "egg:wish",
+    "tm:afteryou",
+    "tm:alluringvoice",
+    "tm:allyswitch",
+    "tm:amnesia",
+    "tm:babydolleyes",
+    "tm:batonpass",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:brickbreak",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:cosmicpower",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:dig",
+    "tm:disarmingvoice",
+    "tm:doubleedge",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:dreameater",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fireblast",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:headbutt",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magiccoat",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:meteorbeam",
+    "tm:metronome",
+    "tm:mistyexplosion",
+    "tm:mistyterrain",
+    "tm:mysticalfire",
+    "tm:nightshade",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:rocksmash",
+    "tm:roleplay",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:solarbeam",
+    "tm:stealthrock",
+    "tm:storedpower",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:triattack",
+    "tm:trick",
+    "tm:uproar",
+    "tm:waterpulse",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:afteryou",
+    "tutor:allyswitch",
+    "tutor:babydolleyes",
+    "tutor:bounce",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:drainpunch",
+    "tutor:dualwingbeat",
+    "tutor:endeavor",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:laserfocus",
+    "tutor:lastresort",
+    "tutor:magicalleaf",
+    "tutor:magiccoat",
+    "tutor:meteorbeam",
+    "tutor:mistyexplosion",
+    "tutor:mysticalfire",
+    "tutor:playrough",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:stealthrock",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:waterpulse",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:bubblebeam",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:detect",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:psywave",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:softboiled",
+    "legacy:submission",
+    "legacy:swagger",
+    "legacy:teleport",
+    "legacy:toxic",
+    "legacy:watergun",
+    "legacy:zapcannon"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.08,
+        "levels": "27-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_dripstone"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0036_clefable.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.08,
+        "levels": "27-48",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_dripstone"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0036_clefable.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.08,
+        "levels": "27-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_hills"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0036_clefable.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.08,
+        "levels": "27-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_magical"
+          ],
+          "exclude": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0036_clefable.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/clefable.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/clefable_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/clefable.json"
+  ]
+}

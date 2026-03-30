@@ -1,0 +1,163 @@
+{
+  "id": "ironbundle",
+  "dexnum": 991,
+  "name": "Iron Bundle",
+  "primaryType": "ice",
+  "secondaryType": "water",
+  "maleRatio": -1,
+  "labels": [
+    "gen9",
+    "paradox"
+  ],
+  "abilities": [
+    "quarkdrive",
+    "h:quarkdrive"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 56,
+    "attack": 80,
+    "defence": 114,
+    "special_attack": 124,
+    "special_defence": 60,
+    "speed": 136
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "experienceGroup": "slow",
+  "catchRate": 50,
+  "drops": {
+    "amount": 0,
+    "entries": []
+  },
+  "moves": [
+    "1:present",
+    "1:electricterrain",
+    "7:powdersnow",
+    "14:whirlpool",
+    "21:takedown",
+    "28:drillpeck",
+    "35:helpinghand",
+    "42:freezedry",
+    "49:flipturn",
+    "56:icebeam",
+    "63:agility",
+    "70:snowscape",
+    "77:hydropump",
+    "84:auroraveil",
+    "91:blizzard",
+    "tm:acrobatics",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:auroraveil",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:chillingwater",
+    "tm:electricterrain",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:flipturn",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icespinner",
+    "tm:icywind",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:substitute",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:uturn",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:aircutter",
+    "tutor:flipturn",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:waterpulse"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.3,
+        "levels": "50-70",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/paradox_spawns/spawn_pool_world/0991_ironbundle.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.3,
+        "levels": "50-70",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/paradox_spawns_ccc/spawn_pool_world/0991_ironbundle.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/ironbundle.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/ironbundle_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ironbundle.json"
+  ]
+}

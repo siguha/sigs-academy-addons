@@ -1,0 +1,302 @@
+{
+  "id": "slowbro_galar",
+  "dexnum": 80,
+  "name": "Slowbro Galar",
+  "primaryType": "poison",
+  "secondaryType": "psychic",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8",
+    "galarian_form"
+  ],
+  "abilities": [
+    "quickdraw",
+    "owntempo",
+    "h:regenerator"
+  ],
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 100,
+    "defence": 95,
+    "special_attack": 100,
+    "special_defence": 70,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:tasty_tail",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:galarica_nuts",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:lagging_tail",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:shellsidearm",
+    "1:withdraw",
+    "1:tackle",
+    "1:curse",
+    "1:growl",
+    "1:acid",
+    "9:yawn",
+    "12:confusion",
+    "15:disable",
+    "18:waterpulse",
+    "21:headbutt",
+    "24:zenheadbutt",
+    "27:amnesia",
+    "30:surf",
+    "33:slackoff",
+    "36:psychic",
+    "39:psychup",
+    "42:raindance",
+    "45:healpulse",
+    "egg:belch",
+    "egg:bellydrum",
+    "egg:block",
+    "egg:stomp",
+    "tm:acidspray",
+    "tm:amnesia",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brine",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:chillingwater",
+    "tm:curse",
+    "tm:dig",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:drainpunch",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:foulplay",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gunkshot",
+    "tm:hail",
+    "tm:haze",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:irondefense",
+    "tm:irontail",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:nastyplot",
+    "tm:payday",
+    "tm:poisonjab",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:razorshell",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:shadowball",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:smackdown",
+    "tm:snowscape",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:venoshock",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:dive",
+    "tutor:drainpunch",
+    "tutor:expandingforce",
+    "tutor:flamethrower",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:irontail",
+    "tutor:liquidation",
+    "tutor:poisonjab",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:swift",
+    "tutor:trick",
+    "tutor:waterpulse",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:futuresight",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:snore",
+    "legacy:watergun"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.45,
+        "levels": "37-49",
+        "biomeTags": {
+          "include": [
+            "minecraft:mushroom_fields",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0080_slowbro.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:water"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.15,
+        "levels": "37-49",
+        "biomeTags": {
+          "include": [
+            "minecraft:mushroom_fields",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0080_slowbro.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.15,
+        "levels": "37-49",
+        "biomeTags": {
+          "include": [
+            "minecraft:mushroom_fields",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0080_slowbro.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/slowbro_galarian.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/slowbro_galarian_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/slowbro.json"
+  ]
+}

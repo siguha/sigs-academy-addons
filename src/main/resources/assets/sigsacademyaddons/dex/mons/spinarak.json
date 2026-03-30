@@ -1,0 +1,422 @@
+{
+  "id": "spinarak",
+  "dexnum": 167,
+  "name": "Spinarak",
+  "primaryType": "bug",
+  "secondaryType": "poison",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "swarm",
+    "insomnia",
+    "h:sniper"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 60,
+    "defence": 40,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:rotten_flesh",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:poisonsting",
+    "1:stringshot",
+    "1:constrict",
+    "5:absorb",
+    "8:infestation",
+    "12:scaryface",
+    "15:nightshade",
+    "19:shadowsneak",
+    "22:furyswipes",
+    "26:suckerpunch",
+    "29:spiderweb",
+    "33:pinmissile",
+    "36:psychic",
+    "40:poisonjab",
+    "44:crosspoison",
+    "47:stickyweb",
+    "51:toxicthread",
+    "egg:disable",
+    "egg:lunge",
+    "egg:megahorn",
+    "egg:nightslash",
+    "egg:pursuit",
+    "egg:ragepowder",
+    "egg:sonicboom",
+    "egg:twineedle",
+    "tm:acidspray",
+    "tm:agility",
+    "tm:assurance",
+    "tm:batonpass",
+    "tm:bounce",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:crosspoison",
+    "tm:dig",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:foulplay",
+    "tm:gigadrain",
+    "tm:hex",
+    "tm:honeclaws",
+    "tm:infestation",
+    "tm:knockoff",
+    "tm:leechlife",
+    "tm:lunge",
+    "tm:megahorn",
+    "tm:nightshade",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:pounce",
+    "tm:protect",
+    "tm:psychic",
+    "tm:rest",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:signalbeam",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:terablast",
+    "tm:thief",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:trailblaze",
+    "tm:venoshock",
+    "tm:xscissor",
+    "tutor:bounce",
+    "tutor:bugbite",
+    "tutor:electroweb",
+    "tutor:foulplay",
+    "tutor:gigadrain",
+    "tutor:knockoff",
+    "tutor:leechlife",
+    "tutor:megahorn",
+    "tutor:poisonjab",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:signalbeam",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spite",
+    "tutor:stringshot",
+    "tutor:suckerpunch",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:bodyslam",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:psybeam",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "special:refresh"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "spinarak_ariados",
+      "variant": "level_up",
+      "result": "ariados",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "swordsdance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 22
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "1-25",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_spooky"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0167_spinarak.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "1-25",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0167_spinarak.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "derelict"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "1-25",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0167_spinarak.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "mansion"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "1-25",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0167_spinarak.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:cobweb"
+          ]
+        },
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "1-25",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_spooky"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0167_spinarak.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "1-25",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld",
+            "#cobblemon:is_end"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0167_spinarak.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "derelict"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "1-25",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0167_spinarak.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "mansion"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "1-25",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0167_spinarak.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:cobweb"
+          ]
+        },
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/spinarak.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/spinarak_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/spinarak.json"
+  ]
+}

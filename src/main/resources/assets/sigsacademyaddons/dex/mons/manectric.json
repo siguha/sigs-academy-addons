@@ -1,0 +1,210 @@
+{
+  "id": "manectric",
+  "dexnum": 310,
+  "name": "Manectric",
+  "primaryType": "electric",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "static",
+    "lightningrod",
+    "h:minus"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 75,
+    "defence": 60,
+    "special_attack": 105,
+    "special_defence": 60,
+    "speed": 105
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:rotten_flesh",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:firefang",
+    "1:tackle",
+    "1:thunderwave",
+    "1:leer",
+    "1:howl",
+    "1:spark",
+    "1:odorsleuth",
+    "12:quickattack",
+    "16:shockwave",
+    "20:bite",
+    "24:thunderfang",
+    "30:roar",
+    "36:discharge",
+    "42:charge",
+    "48:wildcharge",
+    "54:thunder",
+    "60:electricterrain",
+    "egg:curse",
+    "egg:flameburst",
+    "egg:headbutt",
+    "egg:spark",
+    "egg:switcheroo",
+    "tm:agility",
+    "tm:bodyslam",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:crunch",
+    "tm:curse",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:endure",
+    "tm:facade",
+    "tm:firefang",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:mudslap",
+    "tm:overheat",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:roar",
+    "tm:scaryface",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:strength",
+    "tm:substitute",
+    "tm:swift",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderwave",
+    "tm:uproar",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:chargebeam",
+    "tutor:firefang",
+    "tutor:flamethrower",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icefang",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:magnetrise",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:thunderfang",
+    "tutor:uproar",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:refresh"
+  ],
+  "forms": [
+    "Mega"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "26-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_grassland",
+            "#cobblemon:is_hills"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0310_manectric.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/manectric.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/manectric_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/manectric.json"
+  ]
+}

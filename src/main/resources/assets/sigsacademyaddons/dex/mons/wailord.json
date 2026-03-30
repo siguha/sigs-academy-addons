@@ -1,0 +1,292 @@
+{
+  "id": "wailord",
+  "dexnum": 321,
+  "name": "Wailord",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "waterveil",
+    "oblivious",
+    "h:pressure"
+  ],
+  "eggGroups": [
+    "field",
+    "water_2"
+  ],
+  "baseStats": {
+    "hp": 170,
+    "attack": 90,
+    "defence": 45,
+    "special_attack": 90,
+    "special_defence": 45,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "fluctuating",
+  "catchRate": 60,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:bone_block",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:splash",
+    "1:growl",
+    "1:watergun",
+    "1:astonish",
+    "1:soak",
+    "1:nobleroar",
+    "15:mist",
+    "18:waterpulse",
+    "21:heavyslam",
+    "24:brine",
+    "27:whirlpool",
+    "30:dive",
+    "33:bounce",
+    "36:bodyslam",
+    "39:rest",
+    "44:amnesia",
+    "49:hydropump",
+    "54:waterspout",
+    "egg:aquaring",
+    "egg:clearsmog",
+    "egg:curse",
+    "egg:defensecurl",
+    "egg:doubleedge",
+    "egg:fissure",
+    "egg:rollout",
+    "egg:snore",
+    "egg:soak",
+    "egg:swagger",
+    "egg:thrash",
+    "egg:tickle",
+    "tm:amnesia",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:brine",
+    "tm:bulldoze",
+    "tm:curse",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:heavyslam",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:ironhead",
+    "tm:liquidation",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:scald",
+    "tm:selfdestruct",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:steelroller",
+    "tm:strength",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swagger",
+    "tm:terablast",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:zenheadbutt",
+    "tutor:block",
+    "tutor:bounce",
+    "tutor:bulldoze",
+    "tutor:dive",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:ironhead",
+    "tutor:liquidation",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:steelroller",
+    "tutor:waterpulse",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.32,
+        "levels": "40-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_deep_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0321_wailord.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 0.32,
+        "levels": "40-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0321_wailord.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.32,
+        "levels": "40-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0321_wailord.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.32,
+        "levels": "40-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_deep_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0321_wailord.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 0.32,
+        "levels": "40-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0321_wailord.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.32,
+        "levels": "40-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0321_wailord.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/wailord.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/wailord_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/wailord.json"
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "id": "charmeleon",
+  "dexnum": 5,
+  "name": "Charmeleon",
+  "primaryType": "fire",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "blaze",
+    "h:solarpower"
+  ],
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 58,
+    "attack": 64,
+    "defence": 58,
+    "special_attack": 80,
+    "special_defence": 65,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:blaze_powder",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:growl",
+    "1:ember",
+    "1:smokescreen",
+    "1:dragonrage",
+    "1:flameburst",
+    "12:dragonbreath",
+    "19:firefang",
+    "24:slash",
+    "30:flamethrower",
+    "37:scaryface",
+    "48:inferno",
+    "54:flareblitz",
+    "egg:ancientpower",
+    "egg:bellydrum",
+    "egg:bite",
+    "egg:counter",
+    "egg:dragonrage",
+    "egg:dragonrush",
+    "egg:dragontail",
+    "egg:irontail",
+    "egg:metalclaw",
+    "egg:wingattack",
+    "tm:ancientpower",
+    "tm:beatup",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:brickbreak",
+    "tm:crunch",
+    "tm:cut",
+    "tm:dig",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firepledge",
+    "tm:firepunch",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:furycutter",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metalclaw",
+    "tm:outrage",
+    "tm:overheat",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:scaryface",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thunderpunch",
+    "tm:weatherball",
+    "tm:willowisp",
+    "tm:workup",
+    "tutor:ancientpower",
+    "tutor:blastburn",
+    "tutor:block",
+    "tutor:dragonpulse",
+    "tutor:falseswipe",
+    "tutor:firefang",
+    "tutor:firepledge",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focuspunch",
+    "tutor:furycutter",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:thunderpunch",
+    "legacy:acrobatics",
+    "legacy:aerialace",
+    "legacy:aircutter",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:furyswipes",
+    "legacy:hiddenpower",
+    "legacy:leer",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:submission",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:blastburn",
+    "special:block",
+    "special:celebrate",
+    "special:howl",
+    "special:quickattack"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "charmeleon_charizard",
+      "variant": "level_up",
+      "result": "charizard",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "wingattack",
+        "airslash"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "16-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_hills",
+            "#cobblemon:is_volcanic"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0005_charmeleon.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "16-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_basalt"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0005_charmeleon.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/charmeleon.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/charmeleon_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/charmeleon.json"
+  ]
+}

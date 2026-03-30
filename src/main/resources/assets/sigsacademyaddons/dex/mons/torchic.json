@@ -1,0 +1,211 @@
+{
+  "id": "torchic",
+  "dexnum": 255,
+  "name": "Torchic",
+  "primaryType": "fire",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen3",
+    "starter"
+  ],
+  "abilities": [
+    "blaze",
+    "h:speedboost"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 60,
+    "defence": 40,
+    "special_attack": 70,
+    "special_defence": 50,
+    "speed": 45
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:chicken",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:growl",
+    "1:peck",
+    "3:ember",
+    "6:quickattack",
+    "9:flamecharge",
+    "12:detect",
+    "15:sandattack",
+    "18:aerialace",
+    "21:slash",
+    "24:bounce",
+    "27:focusenergy",
+    "30:flamethrower",
+    "33:featherdance",
+    "36:reversal",
+    "39:flareblitz",
+    "egg:counter",
+    "egg:crushclaw",
+    "egg:feint",
+    "egg:flameburst",
+    "egg:lastresort",
+    "egg:mirrormove",
+    "egg:nightslash",
+    "egg:peck",
+    "egg:smellingsalts",
+    "egg:swagger",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:assurance",
+    "tm:batonpass",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:curse",
+    "tm:cut",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:fireblast",
+    "tm:firepledge",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:focusenergy",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:incinerate",
+    "tm:lastresort",
+    "tm:lowkick",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:overheat",
+    "tm:protect",
+    "tm:rest",
+    "tm:reversal",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:uproar",
+    "tm:willowisp",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:bounce",
+    "tutor:firepledge",
+    "tutor:flamethrower",
+    "tutor:focusenergy",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:lastresort",
+    "tutor:lowkick",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:uproar"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "torchic_combusken",
+      "variant": "level_up",
+      "result": "combusken",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "doublekick"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_plains",
+            "aether:skyroot_grove",
+            "aether:skyroot_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0255_torchic.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/torchic.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/torchic_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/torchic.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation3\\torchic.json"
+  ]
+}

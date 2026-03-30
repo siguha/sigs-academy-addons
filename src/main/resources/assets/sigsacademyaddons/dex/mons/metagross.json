@@ -1,0 +1,318 @@
+{
+  "id": "metagross",
+  "dexnum": 376,
+  "name": "Metagross",
+  "primaryType": "steel",
+  "secondaryType": "psychic",
+  "maleRatio": -1,
+  "labels": [
+    "gen3",
+    "powerhouse"
+  ],
+  "abilities": [
+    "clearbody",
+    "h:lightmetal"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 135,
+    "defence": 130,
+    "special_attack": 95,
+    "special_defence": 90,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 3,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:ender_pearl",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:metal_coat",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:metalclaw",
+    "1:confusion",
+    "1:pursuit",
+    "1:bulletpunch",
+    "1:hammerarm",
+    "1:explosion",
+    "1:miracleeye",
+    "1:honeclaws",
+    "1:tackle",
+    "6:zenheadbutt",
+    "12:magnetrise",
+    "16:flashcannon",
+    "26:takedown",
+    "34:psychic",
+    "42:scaryface",
+    "52:meteormash",
+    "62:irondefense",
+    "72:agility",
+    "82:hyperbeam",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:cosmicpower",
+    "tm:cut",
+    "tm:doubleedge",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:expandingforce",
+    "tm:explosion",
+    "tm:facade",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:focuspunch",
+    "tm:furycutter",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:gyroball",
+    "tm:hardpress",
+    "tm:headbutt",
+    "tm:heavyslam",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:metalclaw",
+    "tm:meteorbeam",
+    "tm:mudslap",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:psychicnoise",
+    "tm:psychocut",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:selfdestruct",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:stealthrock",
+    "tm:steelbeam",
+    "tm:steelroller",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thunderpunch",
+    "tm:trailblaze",
+    "tm:trick",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:allyswitch",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:expandingforce",
+    "tutor:flashcannon",
+    "tutor:focuspunch",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:hyperbeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:laserfocus",
+    "tutor:magnetrise",
+    "tutor:meteorbeam",
+    "tutor:psychic",
+    "tutor:psychocut",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:stealthrock",
+    "tutor:steelbeam",
+    "tutor:steelroller",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:thunderpunch",
+    "tutor:trick",
+    "tutor:zenheadbutt",
+    "legacy:confide",
+    "legacy:defensecurl",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:holdback",
+    "special:refresh"
+  ],
+  "forms": [
+    "Mega"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "45-60",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_dripstone",
+            "#cobblemon:is_peak"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0376_metagross.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 0.25,
+        "levels": "45-60",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_end"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0376_metagross.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 0.25,
+        "levels": "45-60",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0376_metagross.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 0.032,
+        "levels": "45-60",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0376_metagross.json",
+        "structures": [
+          "#aether:dungeons"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 0.25,
+        "levels": "45-60",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:howling_constructs"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0376_metagross.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/metagross.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/metagross_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/metagross.json"
+  ]
+}

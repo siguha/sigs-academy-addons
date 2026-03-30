@@ -1,0 +1,218 @@
+{
+  "id": "quaxly",
+  "dexnum": 912,
+  "name": "Quaxly",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen9",
+    "starter"
+  ],
+  "abilities": [
+    "torrent",
+    "h:moxie"
+  ],
+  "eggGroups": [
+    "flying",
+    "water_1"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 65,
+    "defence": 45,
+    "special_attack": 50,
+    "special_defence": 45,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:growl",
+    "1:watergun",
+    "7:workup",
+    "10:wingattack",
+    "13:aquajet",
+    "17:doublehit",
+    "21:aquacutter",
+    "24:airslash",
+    "28:focusenergy",
+    "31:acrobatics",
+    "35:liquidation",
+    "egg:detect",
+    "egg:lastresort",
+    "egg:rapidspin",
+    "egg:roost",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:batonpass",
+    "tm:bravebird",
+    "tm:chillingwater",
+    "tm:disarmingvoice",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:focusenergy",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:lastresort",
+    "tm:liquidation",
+    "tm:lowkick",
+    "tm:mistyterrain",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roost",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:waterpledge",
+    "tm:whirlpool",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:focusenergy",
+    "tutor:helpinghand",
+    "tutor:lastresort",
+    "tutor:liquidation",
+    "tutor:lowkick",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:waterpledge"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "quaxly_quaxwell",
+      "variant": "level_up",
+      "result": "quaxwell",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_grassland",
+            "#cobblemon:is_river"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0912_quaxly.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:water"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_grassland",
+            "#cobblemon:is_river"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0912_quaxly.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_grassland",
+            "#cobblemon:is_jungle"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0912_quaxly.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/quaxly.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/quaxly_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/quaxly.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation9\\quaxly.json"
+  ]
+}

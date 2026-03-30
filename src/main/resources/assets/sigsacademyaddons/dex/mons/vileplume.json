@@ -1,0 +1,227 @@
+{
+  "id": "vileplume",
+  "dexnum": 45,
+  "name": "Vileplume",
+  "primaryType": "grass",
+  "secondaryType": "poison",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "chlorophyll",
+    "h:effectspore"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 80,
+    "defence": 85,
+    "special_attack": 110,
+    "special_defence": 90,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:absorb_bulb",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:megadrain",
+    "1:aromatherapy",
+    "1:stunspore",
+    "1:poisonpowder",
+    "1:petaldance",
+    "1:gigadrain",
+    "1:petalblizzard",
+    "1:sleeppowder",
+    "1:toxic",
+    "1:moonblast",
+    "1:grassyterrain",
+    "1:moonlight",
+    "1:absorb",
+    "1:growth",
+    "1:acid",
+    "1:sweetscent",
+    "1:luckychant",
+    "1:naturalgift",
+    "egg:afteryou",
+    "egg:flail",
+    "egg:ingrain",
+    "egg:leechseed",
+    "egg:luckychant",
+    "egg:naturalgift",
+    "egg:razorleaf",
+    "egg:secretpower",
+    "egg:strengthsap",
+    "egg:synthesis",
+    "egg:teeterdance",
+    "egg:tickle",
+    "tm:acidspray",
+    "tm:afteryou",
+    "tm:bodyslam",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:corrosivegas",
+    "tm:cut",
+    "tm:dazzlinggleam",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:fling",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:infestation",
+    "tm:leafstorm",
+    "tm:magicalleaf",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:petalblizzard",
+    "tm:pollenpuff",
+    "tm:protect",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:secretpower",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:trailblaze",
+    "tm:venoshock",
+    "tm:weatherball",
+    "tm:worryseed",
+    "tutor:afteryou",
+    "tutor:corrosivegas",
+    "tutor:energyball",
+    "tutor:gastroacid",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:magicalleaf",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:synthesis",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:drainpunch",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:takedown"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.05,
+        "levels": "35-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0045_vileplume.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.01,
+        "levels": "35-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_temperate"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0045_vileplume.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/vileplume_female.png",
+      "out/sprites/cobblemon/vileplume_male.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/vileplume_female_shiny.png",
+      "out/sprites/cobblemon/vileplume_male_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/vileplume.json"
+  ]
+}

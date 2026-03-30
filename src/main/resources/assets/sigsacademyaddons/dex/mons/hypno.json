@@ -1,0 +1,292 @@
+{
+  "id": "hypno",
+  "dexnum": 97,
+  "name": "Hypno",
+  "primaryType": "psychic",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "insomnia",
+    "forewarn",
+    "h:innerfocus"
+  ],
+  "eggGroups": [
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 73,
+    "defence": 70,
+    "special_attack": 73,
+    "special_defence": 115,
+    "speed": 67
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:nightmare",
+    "1:switcheroo",
+    "1:pound",
+    "1:hypnosis",
+    "1:disable",
+    "1:confusion",
+    "1:meditate",
+    "1:synchronoise",
+    "1:wakeupslap",
+    "13:headbutt",
+    "17:poisongas",
+    "21:psybeam",
+    "25:psychup",
+    "32:zenheadbutt",
+    "37:swagger",
+    "42:psychic",
+    "47:nastyplot",
+    "51:psyshock",
+    "56:futuresight",
+    "egg:assist",
+    "egg:barrier",
+    "egg:firepunch",
+    "egg:flatter",
+    "egg:guardswap",
+    "egg:icepunch",
+    "egg:powersplit",
+    "egg:psychocut",
+    "egg:roleplay",
+    "egg:secretpower",
+    "egg:thunderpunch",
+    "tm:allyswitch",
+    "tm:batonpass",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:dazzlinggleam",
+    "tm:doubleedge",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:dreameater",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:flash",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:foulplay",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:guardswap",
+    "tm:haze",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:icepunch",
+    "tm:imprison",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:mindreader",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:psychicterrain",
+    "tm:psychocut",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:scaryface",
+    "tm:secretpower",
+    "tm:selfdestruct",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:toxic",
+    "tm:trailblaze",
+    "tm:triattack",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:calmmind",
+    "tutor:dazzlinggleam",
+    "tutor:drainpunch",
+    "tutor:endeavor",
+    "tutor:expandingforce",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icepunch",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:psychic",
+    "tutor:psychocut",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:shadowball",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:thunderpunch",
+    "tutor:trick",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:psywave",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:round",
+    "legacy:seismictoss",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:submission",
+    "legacy:teleport",
+    "legacy:zapcannon",
+    "special:bellydrum",
+    "special:wish"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "26-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0097_hypno.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "26-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0097_hypno.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/hypno.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/hypno_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/hypno.json"
+  ]
+}

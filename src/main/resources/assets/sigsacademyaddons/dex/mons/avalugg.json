@@ -1,0 +1,277 @@
+{
+  "id": "avalugg",
+  "dexnum": 713,
+  "name": "Avalugg",
+  "primaryType": "ice",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen6",
+    "kalosian_form"
+  ],
+  "abilities": [
+    "owntempo",
+    "icebody",
+    "h:sturdy"
+  ],
+  "eggGroups": [
+    "monster",
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 117,
+    "defence": 184,
+    "special_attack": 44,
+    "special_defence": 46,
+    "speed": 28
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 55,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:never_melt_ice",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:aspear_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:skullbash",
+    "1:tackle",
+    "1:harden",
+    "1:powdersnow",
+    "1:sharpen",
+    "1:rapidspin",
+    "1:bodyslam",
+    "1:wideguard",
+    "9:curse",
+    "12:icywind",
+    "15:protect",
+    "18:avalanche",
+    "21:bite",
+    "24:icefang",
+    "27:irondefense",
+    "30:recover",
+    "33:crunch",
+    "36:takedown",
+    "41:blizzard",
+    "46:doubleedge",
+    "51:iciclecrash",
+    "egg:auroraveil",
+    "egg:barrier",
+    "egg:mirrorcoat",
+    "egg:mist",
+    "egg:sharpen",
+    "tm:afteryou",
+    "tm:auroraveil",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:chillingwater",
+    "tm:crunch",
+    "tm:curse",
+    "tm:doubleedge",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:frostbreath",
+    "tm:gigaimpact",
+    "tm:gyroball",
+    "tm:hail",
+    "tm:heavyslam",
+    "tm:highhorsepower",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:iceball",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icespinner",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:surf",
+    "tm:takedown",
+    "tm:terablast",
+    "tutor:afteryou",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:gigaimpact",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:iceball",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:roar",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:waterpulse"
+  ],
+  "forms": [
+    "Hisui"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "37-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0713_avalugg.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "37-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0713_avalugg.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "37-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0713_avalugg.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "37-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_frozen"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0713_avalugg.json"
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "37-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0713_avalugg.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/avalugg.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/avalugg_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/avalugg.json"
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "id": "paras",
+  "dexnum": 46,
+  "name": "Paras",
+  "primaryType": "bug",
+  "secondaryType": "grass",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "effectspore",
+    "dryskin",
+    "h:damp"
+  ],
+  "eggGroups": [
+    "bug",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 70,
+    "defence": 55,
+    "special_attack": 45,
+    "special_defence": 55,
+    "speed": 25
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:red_mushroom",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:coba_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "6:stunspore",
+    "6:poisonpowder",
+    "11:absorb",
+    "17:furycutter",
+    "22:spore",
+    "27:slash",
+    "33:growth",
+    "38:gigadrain",
+    "43:aromatherapy",
+    "49:ragepowder",
+    "54:xscissor",
+    "egg:counter",
+    "egg:fellstinger",
+    "egg:flail",
+    "egg:leechseed",
+    "egg:naturalgift",
+    "egg:pursuit",
+    "egg:rototiller",
+    "egg:sweetscent",
+    "egg:wideguard",
+    "tm:aerialace",
+    "tm:afteryou",
+    "tm:agility",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bugbite",
+    "tm:bulletseed",
+    "tm:crosspoison",
+    "tm:cut",
+    "tm:dig",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:flash",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:honeclaws",
+    "tm:knockoff",
+    "tm:leechlife",
+    "tm:lightscreen",
+    "tm:metalclaw",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:screech",
+    "tm:seedbomb",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:solarbeam",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:venoshock",
+    "tm:worryseed",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:afteryou",
+    "tutor:bugbite",
+    "tutor:falseswipe",
+    "tutor:furycutter",
+    "tutor:gigadrain",
+    "tutor:grassyglide",
+    "tutor:knockoff",
+    "tutor:leechlife",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:seedbomb",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:stringshot",
+    "tutor:synthesis",
+    "tutor:worryseed",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:energyball",
+    "legacy:frustration",
+    "legacy:furyswipes",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:megadrain",
+    "legacy:mimic",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:sleeppowder",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:takedown",
+    "legacy:toxic",
+    "special:refresh"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "paras_parasect",
+      "variant": "level_up",
+      "result": "parasect",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 24
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0046_paras.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mushroom"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0046_paras.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_fungus"
+          ],
+          "exclude": [
+            "#cobblemon:nether/is_warped"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0046_paras.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0046_paras.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        },
+        "yLevel": {
+          "minY": -41,
+          "maxY": 9
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/paras.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/paras_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/paras.json"
+  ]
+}

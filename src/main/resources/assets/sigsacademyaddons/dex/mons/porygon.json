@@ -1,0 +1,211 @@
+{
+  "id": "porygon",
+  "dexnum": 137,
+  "name": "Porygon",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": -1,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "trace",
+    "download",
+    "h:analytic"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 60,
+    "defence": 70,
+    "special_attack": 85,
+    "special_defence": 75,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 0,
+    "entries": []
+  },
+  "moves": [
+    "1:tackle",
+    "1:conversion",
+    "1:sharpen",
+    "5:recycle",
+    "10:magnetrise",
+    "15:thundershock",
+    "20:psybeam",
+    "25:conversion2",
+    "30:agility",
+    "35:recover",
+    "40:discharge",
+    "45:triattack",
+    "50:doubleedge",
+    "55:lockon",
+    "60:zapcannon",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:blizzard",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:doubleedge",
+    "tm:dreameater",
+    "tm:eerieimpulse",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:foulplay",
+    "tm:gigaimpact",
+    "tm:gravity",
+    "tm:guardswap",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:lastresort",
+    "tm:magiccoat",
+    "tm:magnetrise",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:speedswap",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:triattack",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:chargebeam",
+    "tutor:electroweb",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:lastresort",
+    "tutor:magiccoat",
+    "tutor:magnetrise",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:thunderbolt",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:aerialace",
+    "legacy:barrier",
+    "legacy:bide",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:painsplit",
+    "legacy:psychup",
+    "legacy:psywave",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:teleport",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "porygon_porygon2",
+      "variant": "trade",
+      "result": "porygon2",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:upgrade"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 9.2,
+        "levels": "15-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0137_porygon.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "cobblemon:pc"
+          ]
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/porygon.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/porygon_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/porygon.json"
+  ]
+}

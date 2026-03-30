@@ -1,0 +1,194 @@
+{
+  "id": "dwebble",
+  "dexnum": 557,
+  "name": "Dwebble",
+  "primaryType": "bug",
+  "secondaryType": "rock",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "sturdy",
+    "shellarmor",
+    "h:weakarmor"
+  ],
+  "eggGroups": [
+    "bug",
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 85,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:terracotta",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:hard_stone",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:furycutter",
+    "1:sandattack",
+    "1:feintattack",
+    "4:withdraw",
+    "8:smackdown",
+    "12:bugbite",
+    "16:flail",
+    "20:slash",
+    "24:rockslide",
+    "28:stealthrock",
+    "32:rockblast",
+    "36:xscissor",
+    "40:rockpolish",
+    "44:shellsmash",
+    "48:rockwrecker",
+    "egg:block",
+    "egg:counter",
+    "egg:curse",
+    "egg:knockoff",
+    "egg:nightslash",
+    "egg:rototiller",
+    "egg:wideguard",
+    "tm:aerialace",
+    "tm:block",
+    "tm:bugbite",
+    "tm:bulldoze",
+    "tm:curse",
+    "tm:cut",
+    "tm:dig",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:furycutter",
+    "tm:honeclaws",
+    "tm:irondefense",
+    "tm:knockoff",
+    "tm:naturepower",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:shadowclaw",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:solarbeam",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:swordsdance",
+    "tm:terablast",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:block",
+    "tutor:bugbite",
+    "tutor:bulldoze",
+    "tutor:furycutter",
+    "tutor:irondefense",
+    "tutor:knockoff",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:shadowclaw",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "dwebble_crustle",
+      "variant": "level_up",
+      "result": "crustle",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 34
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "8-33",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0557_dwebble.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/dwebble.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/dwebble_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/dwebble.json"
+  ]
+}

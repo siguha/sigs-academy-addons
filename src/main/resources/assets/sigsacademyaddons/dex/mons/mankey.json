@@ -1,0 +1,274 @@
+{
+  "id": "mankey",
+  "dexnum": 56,
+  "name": "Mankey",
+  "primaryType": "fighting",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "vitalspirit",
+    "angerpoint",
+    "h:defiant"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 80,
+    "defence": 35,
+    "special_attack": 35,
+    "special_defence": 45,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:muscle_band",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:payapa_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:covet",
+    "1:scratch",
+    "1:leer",
+    "1:focusenergy",
+    "1:karatechop",
+    "1:pursuit",
+    "5:furyswipes",
+    "8:lowkick",
+    "12:seismictoss",
+    "17:swagger",
+    "22:crosschop",
+    "26:assurance",
+    "29:punishment",
+    "33:closecombat",
+    "36:screech",
+    "40:stompingtantrum",
+    "44:outrage",
+    "48:finalgambit",
+    "egg:beatup",
+    "egg:counter",
+    "egg:curse",
+    "egg:encore",
+    "egg:foresight",
+    "egg:meditate",
+    "egg:nightslash",
+    "egg:powertrip",
+    "egg:smellingsalts",
+    "egg:spite",
+    "egg:thrash",
+    "tm:acrobatics",
+    "tm:assurance",
+    "tm:beatup",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:closecombat",
+    "tm:covet",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:drainpunch",
+    "tm:dualchop",
+    "tm:earthquake",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:gunkshot",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:icepunch",
+    "tm:irontail",
+    "tm:lashout",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:outrage",
+    "tm:overheat",
+    "tm:payback",
+    "tm:payday",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:seedbomb",
+    "tm:shadowclaw",
+    "tm:skullbash",
+    "tm:sleeptalk",
+    "tm:spite",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:workup",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:covet",
+    "tutor:drainpunch",
+    "tutor:dualchop",
+    "tutor:endeavor",
+    "tutor:firepunch",
+    "tutor:focusenergy",
+    "tutor:focuspunch",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:icepunch",
+    "tutor:irontail",
+    "tutor:lashout",
+    "tutor:lowkick",
+    "tutor:outrage",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:seedbomb",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:uproar",
+    "legacy:aerialace",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:defensecurl",
+    "legacy:detect",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:psychup",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:smackdown",
+    "legacy:snore",
+    "legacy:submission",
+    "legacy:thunder",
+    "legacy:toxic",
+    "legacy:vacuumwave"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "mankey_primeape",
+      "variant": "level_up",
+      "result": "primeape",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "rage"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0056_mankey.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/mankey.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/mankey_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/mankey.json"
+  ]
+}

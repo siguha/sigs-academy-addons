@@ -1,0 +1,265 @@
+{
+  "id": "buneary",
+  "dexnum": 427,
+  "name": "Buneary",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "runaway",
+    "klutz",
+    "h:limber"
+  ],
+  "eggGroups": [
+    "field",
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 66,
+    "defence": 44,
+    "special_attack": 44,
+    "special_defence": 56,
+    "speed": 85
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:rabbit",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "minecraft:rabbit_hide",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:rabbit_foot",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "minecraft:carrot",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chople_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:splash",
+    "1:pound",
+    "1:foresight",
+    "1:frustration",
+    "4:defensecurl",
+    "8:babydolleyes",
+    "12:afteryou",
+    "16:quickattack",
+    "20:doublekick",
+    "24:charm",
+    "28:batonpass",
+    "32:headbutt",
+    "36:dizzypunch",
+    "40:entrainment",
+    "44:flatter",
+    "48:bounce",
+    "52:healingwish",
+    "egg:attract",
+    "egg:circlethrow",
+    "egg:copycat",
+    "egg:doublehit",
+    "egg:fakeout",
+    "egg:flail",
+    "egg:focuspunch",
+    "egg:jumpkick",
+    "egg:mudsport",
+    "egg:return",
+    "egg:skyuppercut",
+    "egg:sweetkiss",
+    "egg:switcheroo",
+    "egg:teeterdance",
+    "tm:afteryou",
+    "tm:agility",
+    "tm:assurance",
+    "tm:attract",
+    "tm:babydolleyes",
+    "tm:batonpass",
+    "tm:bounce",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:cosmicpower",
+    "tm:covet",
+    "tm:cut",
+    "tm:dig",
+    "tm:drainpunch",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:grassknot",
+    "tm:headbutt",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:irontail",
+    "tm:lastresort",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:magiccoat",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:mudslap",
+    "tm:payback",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:rocksmash",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:terablast",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:tripleaxel",
+    "tm:uproar",
+    "tm:waterpulse",
+    "tm:workup",
+    "tutor:afteryou",
+    "tutor:babydolleyes",
+    "tutor:bounce",
+    "tutor:chargebeam",
+    "tutor:covet",
+    "tutor:drainpunch",
+    "tutor:endeavor",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:irontail",
+    "tutor:lastresort",
+    "tutor:lowkick",
+    "tutor:magiccoat",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:tripleaxel",
+    "tutor:uproar",
+    "tutor:waterpulse",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:hiddenpower",
+    "legacy:naturalgift",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "buneary_lopunny",
+      "variant": "level_up",
+      "result": "lopunny",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "return"
+      ],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "10-35",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_snowy_forest",
+            "#cobblemon:is_snowy_taiga",
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0427_buneary.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/buneary.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/buneary_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/buneary.json"
+  ]
+}

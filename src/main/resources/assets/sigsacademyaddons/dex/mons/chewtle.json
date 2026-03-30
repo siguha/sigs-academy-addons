@@ -1,0 +1,243 @@
+{
+  "id": "chewtle",
+  "dexnum": 833,
+  "name": "Chewtle",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "strongjaw",
+    "shellarmor",
+    "h:swiftswim"
+  ],
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 64,
+    "defence": 50,
+    "special_attack": 38,
+    "special_defence": 38,
+    "speed": 44
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:turtle_scute",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:rindo_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:watergun",
+    "7:bite",
+    "14:protect",
+    "21:headbutt",
+    "28:counter",
+    "35:jawlock",
+    "42:liquidation",
+    "49:bodyslam",
+    "egg:dragontail",
+    "egg:gastroacid",
+    "egg:shellsmash",
+    "egg:skullbash",
+    "tm:assurance",
+    "tm:bodyslam",
+    "tm:chillingwater",
+    "tm:crunch",
+    "tm:dive",
+    "tm:dragontail",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:gastroacid",
+    "tm:headbutt",
+    "tm:hydropump",
+    "tm:icefang",
+    "tm:liquidation",
+    "tm:mudshot",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:revenge",
+    "tm:scaryface",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:surf",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:dive",
+    "tutor:falseswipe",
+    "tutor:gastroacid",
+    "tutor:icefang",
+    "tutor:liquidation",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:scaleshot",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "chewtle_drednaw",
+      "variant": "level_up",
+      "result": "drednaw",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "rocktomb"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 22
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_temperate"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0833_chewtle.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_temperate"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0833_chewtle.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0833_chewtle.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0833_chewtle.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/chewtle.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/chewtle_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/chewtle.json"
+  ]
+}

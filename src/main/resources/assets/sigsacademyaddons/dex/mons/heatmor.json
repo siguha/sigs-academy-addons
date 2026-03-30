@@ -1,0 +1,243 @@
+{
+  "id": "heatmor",
+  "dexnum": 631,
+  "name": "Heatmor",
+  "primaryType": "fire",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "gluttony",
+    "flashfire",
+    "h:whitesmoke"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 97,
+    "defence": 66,
+    "special_attack": 105,
+    "special_defence": 66,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 90,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:flame_orb",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species",
+        "biomes": [
+          "#cobblemon:nether/is_mountain"
+        ]
+      },
+      {
+        "item": "minecraft:blaze_powder",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species",
+        "biomes": [
+          "#cobblemon:nether/is_mountain"
+        ]
+      },
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species",
+        "biomes": [
+          "#cobblemon:nether/is_mountain"
+        ]
+      }
+    ]
+  },
+  "moves": [
+    "1:lick",
+    "1:odorsleuth",
+    "1:flameburst",
+    "1:tackle",
+    "5:furyswipes",
+    "10:incinerate",
+    "15:bugbite",
+    "20:stockpile",
+    "20:spitup",
+    "20:swallow",
+    "25:slash",
+    "30:bind",
+    "35:firelash",
+    "40:honeclaws",
+    "45:amnesia",
+    "50:firespin",
+    "55:inferno",
+    "60:flareblitz",
+    "egg:belch",
+    "egg:curse",
+    "egg:feintattack",
+    "egg:nightslash",
+    "egg:pursuit",
+    "egg:suckerpunch",
+    "egg:tickle",
+    "egg:wrap",
+    "tm:aerialace",
+    "tm:amnesia",
+    "tm:bind",
+    "tm:bodyslam",
+    "tm:brutalswing",
+    "tm:bugbite",
+    "tm:burningjealousy",
+    "tm:curse",
+    "tm:cut",
+    "tm:dig",
+    "tm:drainpunch",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firepunch",
+    "tm:firespin",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:heatwave",
+    "tm:honeclaws",
+    "tm:incinerate",
+    "tm:knockoff",
+    "tm:lowkick",
+    "tm:overheat",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:scorchingsands",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:solarbeam",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunderpunch",
+    "tm:willowisp",
+    "tutor:aerialace",
+    "tutor:bind",
+    "tutor:bugbite",
+    "tutor:burningjealousy",
+    "tutor:drainpunch",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focuspunch",
+    "tutor:gastroacid",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:scorchingsands",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:stompingtantrum",
+    "tutor:suckerpunch",
+    "tutor:superpower",
+    "tutor:throatchop",
+    "tutor:thunderpunch",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 6.0,
+        "levels": "23-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands",
+            "#cobblemon:is_hills"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0631_heatmor.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 2.0,
+        "levels": "23-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_mountain"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0631_heatmor.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/heatmor.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/heatmor_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/heatmor.json"
+  ]
+}

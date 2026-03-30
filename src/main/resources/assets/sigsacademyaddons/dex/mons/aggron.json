@@ -1,0 +1,329 @@
+{
+  "id": "aggron",
+  "dexnum": 306,
+  "name": "Aggron",
+  "primaryType": "steel",
+  "secondaryType": "rock",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "sturdy",
+    "rockhead",
+    "h:heavymetal"
+  ],
+  "eggGroups": [
+    "monster"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 110,
+    "defence": 180,
+    "special_attack": 60,
+    "special_defence": 60,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:raw_iron",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:hard_stone",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chople_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:harden",
+    "1:metalclaw",
+    "1:rocktomb",
+    "12:roar",
+    "16:headbutt",
+    "20:protect",
+    "24:rockslide",
+    "28:ironhead",
+    "35:metalsound",
+    "40:takedown",
+    "48:autotomize",
+    "56:irontail",
+    "64:irondefense",
+    "72:heavyslam",
+    "80:doubleedge",
+    "88:metalburst",
+    "egg:curse",
+    "egg:dragonrush",
+    "egg:endeavor",
+    "egg:headsmash",
+    "egg:mudslap",
+    "egg:smellingsalts",
+    "egg:stomp",
+    "tm:aerialace",
+    "tm:ancientpower",
+    "tm:aquatail",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:crunch",
+    "tm:curse",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:dragonclaw",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:flashcannon",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:heavyslam",
+    "tm:highhorsepower",
+    "tm:honeclaws",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:incinerate",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:lowkick",
+    "tm:magnetrise",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metalclaw",
+    "tm:metalsound",
+    "tm:meteorbeam",
+    "tm:mudslap",
+    "tm:outrage",
+    "tm:payback",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rockblast",
+    "tm:rockclimb",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:smartstrike",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:stealthrock",
+    "tm:steelbeam",
+    "tm:steelroller",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:surf",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:uproar",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:aerialace",
+    "tutor:ancientpower",
+    "tutor:aquatail",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:darkpulse",
+    "tutor:dragonpulse",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:flashcannon",
+    "tutor:focuspunch",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:lowkick",
+    "tutor:magnetrise",
+    "tutor:meteorbeam",
+    "tutor:mudslap",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:shadowclaw",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:stealthrock",
+    "tutor:steelbeam",
+    "tutor:steelroller",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:uproar",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:defensecurl",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [
+    "Mega"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "42-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0306_aggron.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "#minecraft:iron_ores"
+          ],
+          "resolved": [
+            "#minecraft:iron_ores"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "42-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0306_aggron.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "#minecraft:iron_ores"
+          ],
+          "resolved": [
+            "#minecraft:iron_ores"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/aggron.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/aggron_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/aggron.json"
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "id": "plusle",
+  "dexnum": 311,
+  "name": "Plusle",
+  "primaryType": "electric",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "plus",
+    "h:lightningrod"
+  ],
+  "eggGroups": [
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 40,
+    "special_attack": 85,
+    "special_defence": 75,
+    "speed": 95
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 200,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:magnet",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:cell_battery",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:growl",
+    "1:thunderwave",
+    "1:quickattack",
+    "1:faketears",
+    "1:nuzzle",
+    "1:playnice",
+    "1:bestow",
+    "1:charm",
+    "4:helpinghand",
+    "7:spark",
+    "10:encore",
+    "13:switcheroo",
+    "16:swift",
+    "19:electroball",
+    "22:copycat",
+    "26:charge",
+    "31:discharge",
+    "34:batonpass",
+    "37:agility",
+    "40:lastresort",
+    "43:thunder",
+    "46:nastyplot",
+    "49:entrainment",
+    "egg:charm",
+    "egg:discharge",
+    "egg:luckychant",
+    "egg:sing",
+    "egg:sweetkiss",
+    "egg:tearfullook",
+    "egg:wish",
+    "tm:agility",
+    "tm:alluringvoice",
+    "tm:batonpass",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:covet",
+    "tm:echoedvoice",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:fling",
+    "tm:grassknot",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:irontail",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:mudslap",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:rollout",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:superfang",
+    "tm:swift",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:uproar",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:chargebeam",
+    "tutor:covet",
+    "tutor:electroweb",
+    "tutor:endeavor",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:lastresort",
+    "tutor:magnetrise",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:rollout",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:superfang",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:uproar",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:bodyslam",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:defensecurl",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:metronome",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:watersport"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.0,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_plains"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0311_plusle.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 30.0,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_plains"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0311_plusle.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:lightning_rod"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/plusle.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/plusle_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/plusle.json"
+  ]
+}

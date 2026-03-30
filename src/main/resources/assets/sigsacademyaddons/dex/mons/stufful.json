@@ -1,0 +1,196 @@
+{
+  "id": "stufful",
+  "dexnum": 759,
+  "name": "Stufful",
+  "primaryType": "normal",
+  "secondaryType": "fighting",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "fluffy",
+    "klutz",
+    "h:cutecharm"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 75,
+    "defence": 50,
+    "special_attack": 45,
+    "special_defence": 50,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 140,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:chople_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "1:bide",
+    "4:babydolleyes",
+    "8:payback",
+    "12:brutalswing",
+    "16:endure",
+    "20:strength",
+    "24:takedown",
+    "28:flail",
+    "32:hammerarm",
+    "36:thrash",
+    "40:painsplit",
+    "44:doubleedge",
+    "48:superpower",
+    "egg:defensecurl",
+    "egg:forcepalm",
+    "egg:rollout",
+    "egg:stomp",
+    "egg:wideguard",
+    "tm:aerialace",
+    "tm:babydolleyes",
+    "tm:bind",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:charm",
+    "tm:coaching",
+    "tm:doubleedge",
+    "tm:dualchop",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:icepunch",
+    "tm:ironhead",
+    "tm:lowsweep",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:protect",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:rollout",
+    "tm:sleeptalk",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thunderpunch",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:babydolleyes",
+    "tutor:bind",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:coaching",
+    "tutor:dualchop",
+    "tutor:focuspunch",
+    "tutor:icepunch",
+    "tutor:ironhead",
+    "tutor:painsplit",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:roleplay",
+    "tutor:rollout",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:superpower",
+    "tutor:thunderpunch",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "stufful_bewear",
+      "variant": "level_up",
+      "result": "bewear",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "bind"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 27
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_bamboo"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0759_stufful.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/stufful.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/stufful_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/stufful.json"
+  ]
+}

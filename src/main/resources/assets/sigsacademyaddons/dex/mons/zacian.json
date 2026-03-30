@@ -1,0 +1,162 @@
+{
+  "id": "zacian",
+  "dexnum": 888,
+  "name": "Zacian",
+  "primaryType": "fairy",
+  "secondaryType": "",
+  "maleRatio": -1,
+  "labels": [
+    "gen8",
+    "legendary",
+    "restricted"
+  ],
+  "abilities": [
+    "intrepidsword",
+    "h:intrepidsword"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 92,
+    "attack": 120,
+    "defence": 115,
+    "special_attack": 80,
+    "special_defence": 115,
+    "speed": 138
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "experienceGroup": "slow",
+  "catchRate": 10,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:diamond_sword",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:sacredsword",
+    "1:quickguard",
+    "1:metalclaw",
+    "1:howl",
+    "1:quickattack",
+    "1:bite",
+    "11:slash",
+    "22:swordsdance",
+    "33:ironhead",
+    "44:nobleroar",
+    "55:crunch",
+    "66:moonblast",
+    "77:closecombat",
+    "88:gigaimpact",
+    "tm:agility",
+    "tm:airslash",
+    "tm:assurance",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:closecombat",
+    "tm:crunch",
+    "tm:dazzlinggleam",
+    "tm:dig",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:firefang",
+    "tm:flashcannon",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:imprison",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:metalclaw",
+    "tm:mistyterrain",
+    "tm:playrough",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:psychocut",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:solarblade",
+    "tm:steelbeam",
+    "tm:substitute",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:tailslap",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunderfang",
+    "tm:trailblaze",
+    "tm:wildcharge",
+    "tm:workup",
+    "tutor:dazzlinggleam",
+    "tutor:falseswipe",
+    "tutor:firefang",
+    "tutor:flashcannon",
+    "tutor:focusenergy",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icefang",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:playrough",
+    "tutor:poisonjab",
+    "tutor:psychocut",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:steelbeam",
+    "tutor:swift",
+    "tutor:thunderfang",
+    "tutor:wildcharge",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [
+    "Crowned"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/zacian.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/zacian_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/zacian.json"
+  ]
+}

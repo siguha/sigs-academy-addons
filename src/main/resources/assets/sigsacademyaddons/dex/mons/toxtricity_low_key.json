@@ -1,0 +1,225 @@
+{
+  "id": "toxtricity_low_key",
+  "dexnum": 849,
+  "name": "Toxtricity Low-Key",
+  "primaryType": "electric",
+  "secondaryType": "poison",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "punkrock",
+    "minus",
+    "h:technician"
+  ],
+  "eggGroups": [
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 98,
+    "defence": 70,
+    "special_attack": 114,
+    "special_defence": 70,
+    "speed": 75
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:shuca_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:spark",
+    "1:belch",
+    "1:tearfullook",
+    "1:nuzzle",
+    "1:growl",
+    "1:flail",
+    "1:acid",
+    "1:thundershock",
+    "1:acidspray",
+    "1:leer",
+    "1:nobleroar",
+    "4:charge",
+    "8:shockwave",
+    "12:scaryface",
+    "16:taunt",
+    "24:screech",
+    "28:swagger",
+    "32:toxic",
+    "36:discharge",
+    "40:poisonjab",
+    "44:overdrive",
+    "48:boomburst",
+    "52:magneticflux",
+    "egg:endeavor",
+    "egg:metalsound",
+    "tm:acidspray",
+    "tm:brickbreak",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:drainpunch",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metalsound",
+    "tm:metronome",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:poisontail",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychicnoise",
+    "tm:raindance",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snarl",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:trailblaze",
+    "tm:uproar",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:chargebeam",
+    "tutor:drainpunch",
+    "tutor:electroweb",
+    "tutor:endeavor",
+    "tutor:firepunch",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snarl",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:thunderbolt",
+    "tutor:thunderfang",
+    "tutor:thunderpunch",
+    "tutor:uproar",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.32,
+        "levels": "30-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0849_toxtricity.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "30-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0849_toxtricity.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/toxtricity_low_key.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/toxtricity_low_key_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/toxtricity.json"
+  ]
+}

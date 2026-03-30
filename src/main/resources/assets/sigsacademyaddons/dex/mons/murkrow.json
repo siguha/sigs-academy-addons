@@ -1,0 +1,310 @@
+{
+  "id": "murkrow",
+  "dexnum": 198,
+  "name": "Murkrow",
+  "primaryType": "dark",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "insomnia",
+    "superluck",
+    "h:prankster"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 85,
+    "defence": 42,
+    "special_attack": 85,
+    "special_defence": 42,
+    "speed": 91
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 30,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:chicken",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:bluk_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:peck",
+    "1:astonish",
+    "1:pursuit",
+    "5:gust",
+    "11:haze",
+    "15:wingattack",
+    "21:nightshade",
+    "25:assurance",
+    "31:taunt",
+    "35:feintattack",
+    "40:foulplay",
+    "50:suckerpunch",
+    "55:torment",
+    "60:quash",
+    "egg:bravebird",
+    "egg:confuseray",
+    "egg:drillpeck",
+    "egg:featherdance",
+    "egg:feintattack",
+    "egg:flatter",
+    "egg:meanlook",
+    "egg:mirrormove",
+    "egg:perishsong",
+    "egg:psychoshift",
+    "egg:screech",
+    "egg:skyattack",
+    "egg:whirlwind",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:assurance",
+    "tm:bravebird",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:doubleedge",
+    "tm:dreameater",
+    "tm:dualwingbeat",
+    "tm:embargo",
+    "tm:endure",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:fly",
+    "tm:foulplay",
+    "tm:gigaimpact",
+    "tm:haze",
+    "tm:heatwave",
+    "tm:hex",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:icywind",
+    "tm:lashout",
+    "tm:mudslap",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:ominouswind",
+    "tm:payback",
+    "tm:pluck",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:quash",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:roost",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:spite",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:twister",
+    "tm:uproar",
+    "tm:uturn",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:calmmind",
+    "tutor:darkpulse",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:hyperbeam",
+    "tutor:icywind",
+    "tutor:lashout",
+    "tutor:mudslap",
+    "tutor:ominouswind",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:shadowball",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:snatch",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:tailwind",
+    "tutor:twister",
+    "tutor:uproar",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:detect",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:psychup",
+    "legacy:quickattack",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:swift",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "murkrow_honchkrow",
+      "variant": "item_interact",
+      "result": "honchkrow",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:dusk_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 9.5,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0198_murkrow.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 5.7,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0198_murkrow.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 5.7,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0198_murkrow.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 9.5,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_sky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0198_murkrow.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/murkrow.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/murkrow_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/murkrow.json"
+  ]
+}

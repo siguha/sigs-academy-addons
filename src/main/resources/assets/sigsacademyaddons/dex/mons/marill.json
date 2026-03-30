@@ -1,0 +1,314 @@
+{
+  "id": "marill",
+  "dexnum": 183,
+  "name": "Marill",
+  "primaryType": "water",
+  "secondaryType": "fairy",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "thickfat",
+    "hugepower",
+    "h:sapsipper"
+  ],
+  "eggGroups": [
+    "water_1",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 20,
+    "defence": 50,
+    "special_attack": 20,
+    "special_defence": 50,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:kebia_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:defensecurl",
+    "1:tailwhip",
+    "1:watergun",
+    "1:rollout",
+    "1:helpinghand",
+    "1:bubble",
+    "1:watersport",
+    "1:splash",
+    "6:bubblebeam",
+    "9:charm",
+    "12:slam",
+    "15:bounce",
+    "19:aquatail",
+    "21:playrough",
+    "24:aquaring",
+    "27:raindance",
+    "30:hydropump",
+    "33:doubleedge",
+    "36:superpower",
+    "egg:aquajet",
+    "egg:bellydrum",
+    "egg:camouflage",
+    "egg:copycat",
+    "egg:perishsong",
+    "egg:present",
+    "egg:refresh",
+    "egg:sing",
+    "egg:soak",
+    "egg:supersonic",
+    "egg:tickle",
+    "egg:watersport",
+    "tm:alluringvoice",
+    "tm:amnesia",
+    "tm:aquatail",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:covet",
+    "tm:dig",
+    "tm:disarmingvoice",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:drainingkiss",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:grassknot",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icespinner",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:mistyexplosion",
+    "tm:mistyterrain",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:rollout",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:steelroller",
+    "tm:strength",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:surf",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:workup",
+    "tutor:aquatail",
+    "tutor:bounce",
+    "tutor:bulldoze",
+    "tutor:covet",
+    "tutor:dive",
+    "tutor:focuspunch",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:liquidation",
+    "tutor:mistyexplosion",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:sleeptalk",
+    "tutor:steelroller",
+    "tutor:superpower",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:foresight",
+    "legacy:frustration",
+    "legacy:futuresight",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:uproar"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "marill_azumarill",
+      "variant": "level_up",
+      "result": "azumarill",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.9,
+        "levels": "14-25",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_river"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0183_marill.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.864,
+        "levels": "14-25",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_river"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0183_marill.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.9,
+        "levels": "14-25",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_floral",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_magical",
+            "#cobblemon:is_river",
+            "#cobblemon:is_snowy_forest",
+            "#cobblemon:is_taiga",
+            "#cobblemon:is_temperate"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0183_marill.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.9,
+        "levels": "14-25",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_floral",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_magical",
+            "#cobblemon:is_river",
+            "#cobblemon:is_snowy_forest",
+            "#cobblemon:is_taiga",
+            "#cobblemon:is_temperate"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0183_marill.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/marill.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/marill_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/marill.json"
+  ]
+}

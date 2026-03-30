@@ -1,0 +1,346 @@
+{
+  "id": "blissey",
+  "dexnum": 242,
+  "name": "Blissey",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "naturalcure",
+    "serenegrace",
+    "h:healer"
+  ],
+  "eggGroups": [
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 255,
+    "attack": 10,
+    "defence": 10,
+    "special_attack": 75,
+    "special_defence": 135,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "fast",
+  "catchRate": 30,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:lucky_egg",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:oval_stone",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "minecraft:egg",
+        "percentage": 50.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:growl",
+    "1:refresh",
+    "1:doubleslap",
+    "1:minimize",
+    "1:defensecurl",
+    "1:eggbomb",
+    "1:bestow",
+    "1:covet",
+    "1:sweetkiss",
+    "1:disarmingvoice",
+    "1:charm",
+    "1:copycat",
+    "4:tailwhip",
+    "8:echoedvoice",
+    "12:lifedew",
+    "16:sing",
+    "20:fling",
+    "24:takedown",
+    "28:healpulse",
+    "32:helpinghand",
+    "36:lightscreen",
+    "40:doubleedge",
+    "44:softboiled",
+    "48:lastresort",
+    "52:healingwish",
+    "egg:aromatherapy",
+    "egg:counter",
+    "egg:gravity",
+    "egg:healbell",
+    "egg:mudbomb",
+    "egg:naturalgift",
+    "egg:present",
+    "egg:seismictoss",
+    "tm:alluringvoice",
+    "tm:allyswitch",
+    "tm:avalanche",
+    "tm:babydolleyes",
+    "tm:blizzard",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:disarmingvoice",
+    "tm:doubleedge",
+    "tm:drainpunch",
+    "tm:dreameater",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:electricterrain",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:naturalgift",
+    "tm:powershift",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:snowscape",
+    "tm:solarbeam",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:storedpower",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:triattack",
+    "tm:trick",
+    "tm:waterpulse",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:babydolleyes",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:firepunch",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:lastresort",
+    "tutor:powershift",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:trick",
+    "tutor:wildcharge",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:bubblebeam",
+    "legacy:captivate",
+    "legacy:celebrate",
+    "legacy:chargebeam",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:psywave",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:submission",
+    "legacy:swagger",
+    "legacy:teleport",
+    "legacy:toxic",
+    "legacy:uproar",
+    "legacy:watergun",
+    "legacy:zapcannon",
+    "special:sweetscent",
+    "special:wish"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "rare",
+        "weight": 0.125,
+        "levels": "40-54",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0242_blissey.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 0.125,
+        "levels": "40-54",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0242_blissey.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 0.125,
+        "levels": "40-54",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0242_blissey.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/blissey.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/blissey_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/blissey.json"
+  ]
+}

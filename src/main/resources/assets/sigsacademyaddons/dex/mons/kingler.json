@@ -1,0 +1,321 @@
+{
+  "id": "kingler",
+  "dexnum": 99,
+  "name": "Kingler",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "hypercutter",
+    "shellarmor",
+    "h:sheerforce"
+  ],
+  "eggGroups": [
+    "water_3"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 130,
+    "defence": 115,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 75
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 60,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:kings_rock",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:pinap_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:mudsport",
+    "1:bubble",
+    "1:visegrip",
+    "1:leer",
+    "1:harden",
+    "1:metalclaw",
+    "1:wideguard",
+    "1:hammerarm",
+    "1:watergun",
+    "12:mudshot",
+    "16:protect",
+    "20:bubblebeam",
+    "24:stomp",
+    "31:flail",
+    "36:razorshell",
+    "42:slam",
+    "48:swordsdance",
+    "54:crabhammer",
+    "60:guillotine",
+    "egg:ancientpower",
+    "egg:bide",
+    "egg:chipaway",
+    "egg:hammerarm",
+    "egg:knockoff",
+    "egg:nightslash",
+    "egg:slash",
+    "egg:tickle",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:amnesia",
+    "tm:ancientpower",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brine",
+    "tm:brutalswing",
+    "tm:cut",
+    "tm:dig",
+    "tm:dive",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:haze",
+    "tm:highhorsepower",
+    "tm:honeclaws",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:metalclaw",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:quash",
+    "tm:raindance",
+    "tm:razorshell",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:scald",
+    "tm:sleeptalk",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:surf",
+    "tm:swordsdance",
+    "tm:terablast",
+    "tm:thief",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:xscissor",
+    "tutor:allyswitch",
+    "tutor:ancientpower",
+    "tutor:dive",
+    "tutor:falseswipe",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:knockoff",
+    "tutor:liquidation",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:superpower",
+    "tutor:waterpulse",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:takedown",
+    "legacy:toxic"
+  ],
+  "forms": [
+    "Gmax"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "28-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0099_kingler.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "28-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0099_kingler.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "28-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0099_kingler.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "28-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0099_kingler.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "28-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0099_kingler.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "28-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0099_kingler.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/kingler.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/kingler_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/kingler.json"
+  ]
+}

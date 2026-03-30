@@ -1,0 +1,248 @@
+{
+  "id": "solosis",
+  "dexnum": 577,
+  "name": "Solosis",
+  "primaryType": "psychic",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "overcoat",
+    "magicguard",
+    "h:regenerator"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 30,
+    "defence": 40,
+    "special_attack": 105,
+    "special_defence": 50,
+    "speed": 20
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 200,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:slime_ball",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:psywave",
+    "1:protect",
+    "1:confusion",
+    "4:recover",
+    "8:endeavor",
+    "12:psybeam",
+    "16:charm",
+    "20:psyshock",
+    "24:reflect",
+    "24:lightscreen",
+    "28:allyswitch",
+    "33:painsplit",
+    "36:psychic",
+    "40:skillswap",
+    "44:futuresight",
+    "48:wonderroom",
+    "egg:acidarmor",
+    "egg:astonish",
+    "egg:confuseray",
+    "egg:healblock",
+    "egg:secretpower",
+    "tm:afteryou",
+    "tm:allyswitch",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:dreameater",
+    "tm:embargo",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:explosion",
+    "tm:facade",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:futuresight",
+    "tm:gravity",
+    "tm:guardswap",
+    "tm:gyroball",
+    "tm:helpinghand",
+    "tm:imprison",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:nightshade",
+    "tm:painsplit",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:secretpower",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:steelroller",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderwave",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:afteryou",
+    "tutor:allyswitch",
+    "tutor:calmmind",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:expandingforce",
+    "tutor:flashcannon",
+    "tutor:gravity",
+    "tutor:helpinghand",
+    "tutor:irondefense",
+    "tutor:magiccoat",
+    "tutor:painsplit",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:roleplay",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:steelroller",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "solosis_duosion",
+      "variant": "level_up",
+      "result": "duosion",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.68,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0577_solosis.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.68,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_end"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0577_solosis.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/wavimons/solosis.png",
+      "out/sprites/cobblemon/solosis.png"
+    ],
+    "shiny": [
+      "out/sprites/wavimons/solosis_shiny.png",
+      "out/sprites/cobblemon/solosis_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/solosis.json"
+  ]
+}

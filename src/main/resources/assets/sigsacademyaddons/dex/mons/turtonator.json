@@ -1,0 +1,214 @@
+{
+  "id": "turtonator",
+  "dexnum": 776,
+  "name": "Turtonator",
+  "primaryType": "fire",
+  "secondaryType": "dragon",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "shellarmor",
+    "h:shellarmor"
+  ],
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 78,
+    "defence": 135,
+    "special_attack": 91,
+    "special_defence": 85,
+    "speed": 36
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 70,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:turtle_scute",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:charcoal",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:haban_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:smog",
+    "4:ember",
+    "8:protect",
+    "12:endure",
+    "16:flail",
+    "20:incinerate",
+    "24:irondefense",
+    "28:dragonpulse",
+    "32:bodyslam",
+    "36:flamethrower",
+    "40:shelltrap",
+    "44:shellsmash",
+    "48:overheat",
+    "52:explosion",
+    "egg:curse",
+    "egg:headsmash",
+    "egg:rapidspin",
+    "egg:wideguard",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brutalswing",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:burningjealousy",
+    "tm:chargebeam",
+    "tm:curse",
+    "tm:dracometeor",
+    "tm:dragonclaw",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flashcannon",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:gigaimpact",
+    "tm:heatcrash",
+    "tm:heatwave",
+    "tm:heavyslam",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:incinerate",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:lashout",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:outrage",
+    "tm:overheat",
+    "tm:payback",
+    "tm:protect",
+    "tm:rest",
+    "tm:revenge",
+    "tm:roar",
+    "tm:rocktomb",
+    "tm:scaleshot",
+    "tm:scorchingsands",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:solarbeam",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:uproar",
+    "tm:venoshock",
+    "tm:willowisp",
+    "tm:workup",
+    "tutor:block",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:burningjealousy",
+    "tutor:chargebeam",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:endeavor",
+    "tutor:flamethrower",
+    "tutor:flashcannon",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:lashout",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:scaleshot",
+    "tutor:scorchingsands",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:uproar",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_basalt"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0776_turtonator.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/turtonator.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/turtonator_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/turtonator.json"
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "id": "gogoat",
+  "dexnum": 673,
+  "name": "Gogoat",
+  "primaryType": "grass",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "sapsipper",
+    "h:grasspelt"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 123,
+    "attack": 100,
+    "defence": 62,
+    "special_attack": 97,
+    "special_defence": 81,
+    "speed": 68
+  },
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:mutton",
+        "percentage": null,
+        "quantityRange": "1-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:aerialace",
+    "1:tackle",
+    "1:growth",
+    "1:vinewhip",
+    "1:tailwhip",
+    "1:earthquake",
+    "12:leechseed",
+    "13:razorleaf",
+    "16:worryseed",
+    "20:synthesis",
+    "22:takedown",
+    "26:bulldoze",
+    "30:seedbomb",
+    "34:bulkup",
+    "40:doubleedge",
+    "47:hornleech",
+    "55:leafblade",
+    "58:milkdrink",
+    "egg:defensecurl",
+    "egg:grassyterrain",
+    "egg:milkdrink",
+    "egg:rollout",
+    "tm:aerialace",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:irontail",
+    "tm:leafblade",
+    "tm:leafstorm",
+    "tm:magicalleaf",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:naturepower",
+    "tm:payback",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rollout",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:surf",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:trailblaze",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:worryseed",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:irontail",
+    "tutor:magicalleaf",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:superpower",
+    "tutor:synthesis",
+    "tutor:throatchop",
+    "tutor:wildcharge",
+    "tutor:worryseed",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:bounce",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "32-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ],
+          "exclude": [
+            "#cobblemon:is_volcanic"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0673_gogoat.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/gogoat.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/gogoat_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/gogoat.json"
+  ]
+}

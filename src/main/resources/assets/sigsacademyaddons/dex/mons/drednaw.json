@@ -1,0 +1,282 @@
+{
+  "id": "drednaw",
+  "dexnum": 834,
+  "name": "Drednaw",
+  "primaryType": "water",
+  "secondaryType": "rock",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "strongjaw",
+    "shellarmor",
+    "h:swiftswim"
+  ],
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 115,
+    "defence": 90,
+    "special_attack": 48,
+    "special_defence": 68,
+    "speed": 74
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:turtle_scute",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:rindo_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:rocktomb",
+    "1:razorshell",
+    "1:crunch",
+    "1:rockpolish",
+    "1:tackle",
+    "1:watergun",
+    "1:bite",
+    "1:protect",
+    "21:headbutt",
+    "30:counter",
+    "39:jawlock",
+    "48:liquidation",
+    "57:bodyslam",
+    "66:headsmash",
+    "egg:dragontail",
+    "egg:gastroacid",
+    "egg:shellsmash",
+    "egg:skullbash",
+    "tm:assurance",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:chillingwater",
+    "tm:crunch",
+    "tm:dig",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:dragontail",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:gastroacid",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:highhorsepower",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icespinner",
+    "tm:irondefense",
+    "tm:irontail",
+    "tm:liquidation",
+    "tm:megahorn",
+    "tm:meteorbeam",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:raindance",
+    "tm:razorshell",
+    "tm:rest",
+    "tm:revenge",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scaryface",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:smartstrike",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:superfang",
+    "tm:superpower",
+    "tm:surf",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:bulldoze",
+    "tutor:dive",
+    "tutor:earthpower",
+    "tutor:falseswipe",
+    "tutor:gastroacid",
+    "tutor:gigaimpact",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:irondefense",
+    "tutor:irontail",
+    "tutor:liquidation",
+    "tutor:megahorn",
+    "tutor:meteorbeam",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superfang",
+    "tutor:superpower",
+    "tutor:throatchop",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:scaleshot",
+    "legacy:snore"
+  ],
+  "forms": [
+    "Gmax"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "22-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_temperate"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0834_drednaw.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "22-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_temperate"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0834_drednaw.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "22-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0834_drednaw.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "22-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0834_drednaw.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/drednaw.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/drednaw_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/drednaw.json"
+  ]
+}

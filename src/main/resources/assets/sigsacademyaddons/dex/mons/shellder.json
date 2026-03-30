@@ -1,0 +1,351 @@
+{
+  "id": "shellder",
+  "dexnum": 90,
+  "name": "Shellder",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "shellarmor",
+    "skilllink",
+    "h:overcoat"
+  ],
+  "eggGroups": [
+    "water_3"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 65,
+    "defence": 100,
+    "special_attack": 45,
+    "special_defence": 25,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 190,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:aspear_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:shell_bell",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:watergun",
+    "4:withdraw",
+    "8:iceshard",
+    "12:leer",
+    "16:whirlpool",
+    "20:supersonic",
+    "24:aurorabeam",
+    "28:protect",
+    "32:razorshell",
+    "36:irondefense",
+    "40:icebeam",
+    "44:shellsmash",
+    "48:hydropump",
+    "egg:aquaring",
+    "egg:barrier",
+    "egg:bubblebeam",
+    "egg:clamp",
+    "egg:lifedew",
+    "egg:rapidspin",
+    "egg:twineedle",
+    "egg:waterpulse",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:brine",
+    "tm:chillingwater",
+    "tm:dive",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:hail",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icespinner",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:liquidation",
+    "tm:mudshot",
+    "tm:payback",
+    "tm:protect",
+    "tm:raindance",
+    "tm:razorshell",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:screech",
+    "tm:selfdestruct",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:spikes",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:toxicspikes",
+    "tm:triattack",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:dive",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:liquidation",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:swift",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:teleport",
+    "legacy:toxic",
+    "special:refresh"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "shellder_cloyster",
+      "variant": "item_interact",
+      "result": "cloyster",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "iciclespear"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:water_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 9.5,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0090_shellder.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 5.7,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0090_shellder.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 9.5,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0090_shellder.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.9,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0090_shellder.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 9.5,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0090_shellder.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.9,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0090_shellder.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 5.7,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0090_shellder.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 9.5,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0090_shellder.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/shellder.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/shellder_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/shellder.json"
+  ]
+}

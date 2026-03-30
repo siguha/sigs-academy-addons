@@ -1,0 +1,283 @@
+{
+  "id": "druddigon",
+  "dexnum": 621,
+  "name": "Druddigon",
+  "primaryType": "dragon",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "roughskin",
+    "sheerforce",
+    "h:moldbreaker"
+  ],
+  "eggGroups": [
+    "dragon",
+    "monster"
+  ],
+  "baseStats": {
+    "hp": 77,
+    "attack": 120,
+    "defence": 90,
+    "special_attack": 60,
+    "special_defence": 90,
+    "speed": 48
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:dragon_fang",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:haban_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:leer",
+    "1:scratch",
+    "1:dragonrage",
+    "1:chipaway",
+    "5:bite",
+    "10:dragontail",
+    "15:metalclaw",
+    "20:scaryface",
+    "25:slash",
+    "30:dragonclaw",
+    "35:honeclaws",
+    "40:nightslash",
+    "45:ironhead",
+    "50:outrage",
+    "55:superpower",
+    "egg:crushclaw",
+    "egg:feintattack",
+    "egg:glare",
+    "egg:nightslash",
+    "egg:poisontail",
+    "egg:pursuit",
+    "egg:suckerpunch",
+    "tm:aerialace",
+    "tm:aquatail",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:chargebeam",
+    "tm:crunch",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:dracometeor",
+    "tm:dragonclaw",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:dualwingbeat",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:firefang",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:flashcannon",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:heatwave",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:incinerate",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:lashout",
+    "tm:megapunch",
+    "tm:metalclaw",
+    "tm:outrage",
+    "tm:payback",
+    "tm:poisontail",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:roar",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:smackdown",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:surf",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thunderfang",
+    "tm:thunderpunch",
+    "tm:torment",
+    "tutor:aerialace",
+    "tutor:aquatail",
+    "tutor:bulldoze",
+    "tutor:chargebeam",
+    "tutor:darkpulse",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:dualwingbeat",
+    "tutor:firefang",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:flashcannon",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:heatwave",
+    "tutor:hyperbeam",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:lashout",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:scaleshot",
+    "tutor:shadowclaw",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snarl",
+    "tutor:snatch",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:suckerpunch",
+    "tutor:superpower",
+    "tutor:thunderfang",
+    "tutor:thunderpunch",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 10.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark",
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0621_druddigon.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0621_druddigon.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "rare",
+        "weight": 10.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0621_druddigon.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon_reanimodel/druddigon.png",
+      "out/sprites/cobblemon/druddigon.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon_reanimodel/druddigon_shiny.png",
+      "out/sprites/cobblemon/druddigon_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/druddigon.json"
+  ]
+}

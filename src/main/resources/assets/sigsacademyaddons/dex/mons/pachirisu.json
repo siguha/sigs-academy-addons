@@ -1,0 +1,227 @@
+{
+  "id": "pachirisu",
+  "dexnum": 417,
+  "name": "Pachirisu",
+  "primaryType": "electric",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "runaway",
+    "pickup",
+    "h:voltabsorb"
+  ],
+  "eggGroups": [
+    "field",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 45,
+    "defence": 70,
+    "special_attack": 45,
+    "special_defence": 90,
+    "speed": 95
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 200,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:growl",
+    "1:bide",
+    "1:hyperfang",
+    "1:thundershock",
+    "5:quickattack",
+    "9:charm",
+    "13:spark",
+    "17:endure",
+    "19:nuzzle",
+    "21:swift",
+    "25:electroball",
+    "29:sweetkiss",
+    "33:thunderwave",
+    "37:superfang",
+    "41:discharge",
+    "45:lastresort",
+    "49:thunder",
+    "egg:babydolleyes",
+    "egg:bestow",
+    "egg:bite",
+    "egg:charge",
+    "egg:covet",
+    "egg:defensecurl",
+    "egg:faketears",
+    "egg:flail",
+    "egg:flatter",
+    "egg:followme",
+    "egg:iondeluge",
+    "egg:rollout",
+    "egg:tailwhip",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:alluringvoice",
+    "tm:babydolleyes",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:covet",
+    "tm:cut",
+    "tm:dig",
+    "tm:echoedvoice",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:fling",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gunkshot",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:rollout",
+    "tm:seedbomb",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:aerialace",
+    "tutor:babydolleyes",
+    "tutor:chargebeam",
+    "tutor:covet",
+    "tutor:electroweb",
+    "tutor:endeavor",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:lastresort",
+    "tutor:magnetrise",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:superfang",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:thunderfang",
+    "tutor:thunderpunch",
+    "tutor:uproar",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "aether:skyroot_forest",
+            "aether:skyroot_woodland"
+          ],
+          "exclude": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0417_pachirisu.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/pachirisu.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/pachirisu_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/pachirisu.json"
+  ]
+}

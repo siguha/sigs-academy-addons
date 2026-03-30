@@ -1,0 +1,310 @@
+{
+  "id": "bibarel",
+  "dexnum": 400,
+  "name": "Bibarel",
+  "primaryType": "normal",
+  "secondaryType": "water",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "simple",
+    "unaware",
+    "h:moody"
+  ],
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "baseStats": {
+    "hp": 79,
+    "attack": 85,
+    "defence": 60,
+    "special_attack": 55,
+    "special_defence": 60,
+    "speed": 71
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 127,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:stick",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "1:watergun",
+    "1:rototiller",
+    "1:aquajet",
+    "5:defensecurl",
+    "9:rollout",
+    "13:headbutt",
+    "18:hyperfang",
+    "23:yawn",
+    "28:crunch",
+    "33:takedown",
+    "38:superfang",
+    "43:swordsdance",
+    "48:amnesia",
+    "53:superpower",
+    "58:curse",
+    "egg:defensecurl",
+    "egg:furyswipes",
+    "egg:mudsport",
+    "egg:odorsleuth",
+    "egg:quickattack",
+    "egg:skullbash",
+    "egg:watersport",
+    "tm:amnesia",
+    "tm:aquatail",
+    "tm:blizzard",
+    "tm:bulldoze",
+    "tm:chargebeam",
+    "tm:covet",
+    "tm:crunch",
+    "tm:curse",
+    "tm:cut",
+    "tm:dig",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:headbutt",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:lastresort",
+    "tm:liquidation",
+    "tm:mudslap",
+    "tm:pluck",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:rockclimb",
+    "tm:rocksmash",
+    "tm:rollout",
+    "tm:scald",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:superpower",
+    "tm:surf",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:workup",
+    "tutor:aquatail",
+    "tutor:bulldoze",
+    "tutor:chargebeam",
+    "tutor:covet",
+    "tutor:dive",
+    "tutor:focuspunch",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:lastresort",
+    "tutor:liquidation",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:superfang",
+    "tutor:superpower",
+    "tutor:thunderbolt",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "15-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0400_bibarel.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "15-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0400_bibarel.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:water"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "15-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0400_bibarel.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "15-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_snowy_forest",
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0400_bibarel.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "15-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_snowy_forest",
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0400_bibarel.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/bibarel.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/bibarel_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/bibarel.json"
+  ]
+}

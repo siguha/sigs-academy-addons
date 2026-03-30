@@ -1,0 +1,223 @@
+{
+  "id": "cinderace",
+  "dexnum": 815,
+  "name": "Cinderace",
+  "primaryType": "fire",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "blaze",
+    "h:libero"
+  ],
+  "eggGroups": [
+    "field",
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 116,
+    "defence": 75,
+    "special_attack": 65,
+    "special_defence": 75,
+    "speed": 119
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:rabbit_hide",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:rabbit",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "minecraft:rabbit_foot",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:pyroball",
+    "1:feint",
+    "1:tackle",
+    "1:growl",
+    "1:ember",
+    "1:quickattack",
+    "12:doublekick",
+    "19:flamecharge",
+    "24:agility",
+    "30:headbutt",
+    "38:counter",
+    "46:bounce",
+    "54:doubleedge",
+    "62:courtchange",
+    "egg:highjumpkick",
+    "egg:sandattack",
+    "egg:suckerpunch",
+    "egg:superfang",
+    "tm:acrobatics",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:assurance",
+    "tm:batonpass",
+    "tm:blastburn",
+    "tm:blazekick",
+    "tm:bounce",
+    "tm:bulkup",
+    "tm:burningjealousy",
+    "tm:coaching",
+    "tm:doubleedge",
+    "tm:electroball",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firepledge",
+    "tm:firepunch",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:ironhead",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:megakick",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:overheat",
+    "tm:protect",
+    "tm:rest",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:scorchingsands",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:uturn",
+    "tm:weatherball",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:blastburn",
+    "tutor:bounce",
+    "tutor:bulkup",
+    "tutor:burningjealousy",
+    "tutor:coaching",
+    "tutor:firefang",
+    "tutor:firepledge",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focusenergy",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:ironhead",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:scorchingsands",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:suckerpunch",
+    "tutor:superfang",
+    "tutor:swift",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [
+    "Gmax"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "35-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_grassland",
+            "aether:skyroot_grove",
+            "aether:skyroot_meadow",
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0815_cinderace.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/cinderace.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/cinderace_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/cinderace.json"
+  ]
+}

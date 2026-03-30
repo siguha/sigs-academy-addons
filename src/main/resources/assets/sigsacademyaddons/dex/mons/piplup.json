@@ -1,0 +1,298 @@
+{
+  "id": "piplup",
+  "dexnum": 393,
+  "name": "Piplup",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen4",
+    "starter"
+  ],
+  "abilities": [
+    "torrent",
+    "h:competitive"
+  ],
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "baseStats": {
+    "hp": 53,
+    "attack": 51,
+    "defence": 53,
+    "special_attack": 61,
+    "special_defence": 56,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:chicken",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:bubble",
+    "1:watersport",
+    "4:growl",
+    "8:watergun",
+    "11:charm",
+    "15:peck",
+    "18:bubblebeam",
+    "22:bide",
+    "25:furyattack",
+    "29:brine",
+    "32:whirlpool",
+    "36:mist",
+    "39:drillpeck",
+    "43:hydropump",
+    "egg:aquaring",
+    "egg:bide",
+    "egg:doublehit",
+    "egg:featherdance",
+    "egg:flail",
+    "egg:mudsport",
+    "egg:powertrip",
+    "egg:roost",
+    "egg:snore",
+    "egg:supersonic",
+    "egg:swagger",
+    "egg:yawn",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:babydolleyes",
+    "tm:blizzard",
+    "tm:brickbreak",
+    "tm:brine",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:covet",
+    "tm:cut",
+    "tm:defog",
+    "tm:disarmingvoice",
+    "tm:dive",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:fling",
+    "tm:flipturn",
+    "tm:grassknot",
+    "tm:hail",
+    "tm:haze",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icespinner",
+    "tm:icywind",
+    "tm:liquidation",
+    "tm:pluck",
+    "tm:protect",
+    "tm:psychup",
+    "tm:quash",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rocktomb",
+    "tm:roost",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:snowscape",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swagger",
+    "tm:swift",
+    "tm:terablast",
+    "tm:tripleaxel",
+    "tm:waterfall",
+    "tm:waterpledge",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:babydolleyes",
+    "tutor:covet",
+    "tutor:defog",
+    "tutor:dive",
+    "tutor:flipturn",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:liquidation",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:swift",
+    "tutor:tripleaxel",
+    "tutor:waterpledge",
+    "tutor:waterpulse"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "piplup_prinplup",
+      "variant": "level_up",
+      "result": "prinplup",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "metalclaw"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0393_piplup.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0393_piplup.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean",
+            "minecraft:frozen_river",
+            "#cobblemon:is_glacial",
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0393_piplup.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0393_piplup.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean",
+            "minecraft:frozen_river",
+            "#cobblemon:is_glacial",
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0393_piplup.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/piplup.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/piplup_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/piplup.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation4\\piplup.json"
+  ]
+}

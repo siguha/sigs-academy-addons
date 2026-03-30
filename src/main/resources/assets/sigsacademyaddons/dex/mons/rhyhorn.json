@@ -1,0 +1,264 @@
+{
+  "id": "rhyhorn",
+  "dexnum": 111,
+  "name": "Rhyhorn",
+  "primaryType": "ground",
+  "secondaryType": "rock",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "lightningrod",
+    "rockhead",
+    "h:reckless"
+  ],
+  "eggGroups": [
+    "monster",
+    "field"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 85,
+    "defence": 95,
+    "special_attack": 30,
+    "special_defence": 30,
+    "speed": 25
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 120,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:protector",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:passho_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tailwhip",
+    "1:furyattack",
+    "1:tackle",
+    "5:smackdown",
+    "10:bulldoze",
+    "15:hornattack",
+    "20:scaryface",
+    "25:chipaway",
+    "30:rockblast",
+    "35:drillrun",
+    "40:takedown",
+    "45:earthquake",
+    "50:stoneedge",
+    "55:megahorn",
+    "60:horndrill",
+    "egg:counter",
+    "egg:crushclaw",
+    "egg:curse",
+    "egg:dragonrush",
+    "egg:guardsplit",
+    "egg:magnitude",
+    "egg:metalburst",
+    "egg:rockpolish",
+    "egg:rototiller",
+    "egg:skullbash",
+    "egg:stomp",
+    "tm:ancientpower",
+    "tm:aquatail",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:crunch",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:dragonpulse",
+    "tm:drillrun",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:flamethrower",
+    "tm:headbutt",
+    "tm:heavyslam",
+    "tm:highhorsepower",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icywind",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:megahorn",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rockblast",
+    "tm:rockclimb",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:scorchingsands",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:smartstrike",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:supercellslam",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:uproar",
+    "tutor:ancientpower",
+    "tutor:aquatail",
+    "tutor:bulldoze",
+    "tutor:dragonpulse",
+    "tutor:drillrun",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:firefang",
+    "tutor:flamethrower",
+    "tutor:highhorsepower",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:megahorn",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:scorchingsands",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:thunderbolt",
+    "tutor:thunderfang",
+    "tutor:uproar",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:fissure",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:leer",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:pursuit",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:rockthrow",
+    "legacy:round",
+    "legacy:sandattack",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:spite",
+    "legacy:swagger",
+    "legacy:thrash",
+    "legacy:toxic",
+    "legacy:zapcannon"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "consumeHeldItem": false,
+      "id": "rhyhorn_rhydon",
+      "learnableMoves": [
+        "hammerarm"
+      ],
+      "requirements": [
+        {
+          "minLevel": 42,
+          "variant": "level"
+        }
+      ],
+      "result": "rhydon",
+      "variant": "level_up"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "10-35",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain",
+            "#cobblemon:is_savanna"
+          ],
+          "exclude": [
+            "#cobblemon:is_cold"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0111_rhyhorn.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/rhyhorn.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/rhyhorn_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/rhyhorn.json"
+  ]
+}

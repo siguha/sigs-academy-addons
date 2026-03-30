@@ -1,0 +1,272 @@
+{
+  "id": "nosepass",
+  "dexnum": 299,
+  "name": "Nosepass",
+  "primaryType": "rock",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "sturdy",
+    "magnetpull",
+    "h:sandforce"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 45,
+    "defence": 135,
+    "special_attack": 45,
+    "special_defence": 90,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:flint",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:hard_stone",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:magnet",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chople_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "4:harden",
+    "7:block",
+    "10:rockthrow",
+    "13:thunderwave",
+    "16:rest",
+    "19:spark",
+    "22:rockslide",
+    "25:powergem",
+    "28:rockblast",
+    "31:discharge",
+    "34:sandstorm",
+    "37:earthpower",
+    "40:stoneedge",
+    "43:zapcannon",
+    "43:lockon",
+    "egg:doubleedge",
+    "egg:headsmash",
+    "egg:magnitude",
+    "egg:rollout",
+    "egg:wideguard",
+    "tm:ancientpower",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:curse",
+    "tm:dazzlinggleam",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:flashcannon",
+    "tm:gravity",
+    "tm:headbutt",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:icepunch",
+    "tm:irondefense",
+    "tm:magiccoat",
+    "tm:magnetrise",
+    "tm:meteorbeam",
+    "tm:painsplit",
+    "tm:powergem",
+    "tm:powershift",
+    "tm:protect",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:selfdestruct",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:steelbeam",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:voltswitch",
+    "tutor:ancientpower",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:dazzlinggleam",
+    "tutor:earthpower",
+    "tutor:firepunch",
+    "tutor:flashcannon",
+    "tutor:gravity",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:icepunch",
+    "tutor:irondefense",
+    "tutor:magiccoat",
+    "tutor:magnetrise",
+    "tutor:meteorbeam",
+    "tutor:painsplit",
+    "tutor:powershift",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:steelbeam",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:defensecurl",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "nosepass_probopass",
+      "variant": "item_interact",
+      "result": "probopass",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "triattack"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:thunder_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 5.52,
+        "levels": "13-38",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0299_nosepass.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 5.52,
+        "levels": "13-38",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld",
+            "#cobblemon:is_end"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0299_nosepass.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/nosepass.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/nosepass_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/nosepass.json"
+  ]
+}

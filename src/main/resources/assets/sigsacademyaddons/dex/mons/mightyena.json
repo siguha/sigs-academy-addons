@@ -1,0 +1,247 @@
+{
+  "id": "mightyena",
+  "dexnum": 262,
+  "name": "Mightyena",
+  "primaryType": "dark",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "intimidate",
+    "quickfeet",
+    "h:moxie"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 90,
+    "defence": 70,
+    "special_attack": 60,
+    "special_defence": 60,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 127,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:rotten_flesh",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:sandattack",
+    "1:bite",
+    "1:odorsleuth",
+    "1:thief",
+    "1:snarl",
+    "1:crunch",
+    "1:firefang",
+    "1:thunderfang",
+    "1:icefang",
+    "13:howl",
+    "13:leer",
+    "16:roar",
+    "20:swagger",
+    "24:assurance",
+    "28:scaryface",
+    "36:taunt",
+    "44:yawn",
+    "48:takedown",
+    "52:suckerpunch",
+    "56:playrough",
+    "egg:astonish",
+    "egg:covet",
+    "egg:mefirst",
+    "egg:poisonfang",
+    "tm:assurance",
+    "tm:beatup",
+    "tm:bodyslam",
+    "tm:charm",
+    "tm:covet",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:embargo",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:firefang",
+    "tm:foulplay",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:lashout",
+    "tm:mudslap",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:scaryface",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:spite",
+    "tm:strength",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunderfang",
+    "tm:torment",
+    "tm:trailblaze",
+    "tm:uproar",
+    "tutor:covet",
+    "tutor:darkpulse",
+    "tutor:endeavor",
+    "tutor:firefang",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icefang",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:lashout",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:snatch",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:superfang",
+    "tutor:throatchop",
+    "tutor:thunderfang",
+    "tutor:uproar",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:psychup",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:toxic",
+    "special:healbell"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "18-42",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands",
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0262_mightyena.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "pillager_outpost"
+        ],
+        "rarity": "common",
+        "weight": 10.0,
+        "levels": "18-42",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0262_mightyena.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/mightyena.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/mightyena_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/mightyena.json"
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "poochyena",
+  "dexnum": 261,
+  "name": "Poochyena",
+  "primaryType": "dark",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "runaway",
+    "quickfeet",
+    "h:rattled"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 55,
+    "defence": 35,
+    "special_attack": 30,
+    "special_defence": 30,
+    "speed": 35
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:rotten_flesh",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:odorsleuth",
+    "4:howl",
+    "7:sandattack",
+    "10:bite",
+    "13:leer",
+    "16:roar",
+    "19:swagger",
+    "22:assurance",
+    "25:scaryface",
+    "28:taunt",
+    "31:crunch",
+    "34:yawn",
+    "36:takedown",
+    "40:suckerpunch",
+    "44:playrough",
+    "egg:astonish",
+    "egg:covet",
+    "egg:mefirst",
+    "egg:poisonfang",
+    "tm:assurance",
+    "tm:beatup",
+    "tm:charm",
+    "tm:covet",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:embargo",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:firefang",
+    "tm:foulplay",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:lashout",
+    "tm:mudslap",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:scaryface",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:spite",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderfang",
+    "tm:torment",
+    "tm:trailblaze",
+    "tm:uproar",
+    "tutor:covet",
+    "tutor:darkpulse",
+    "tutor:endeavor",
+    "tutor:firefang",
+    "tutor:foulplay",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:icefang",
+    "tutor:irontail",
+    "tutor:lashout",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:snatch",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:superfang",
+    "tutor:thunderfang",
+    "tutor:uproar",
+    "legacy:attract",
+    "legacy:bodyslam",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:psychup",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:toxic",
+    "special:healbell"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "poochyena_mightyena",
+      "variant": "level_up",
+      "result": "mightyena",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "snarl"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "1-22",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands",
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0261_poochyena.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "pillager_outpost"
+        ],
+        "rarity": "common",
+        "weight": 90.0,
+        "levels": "1-22",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0261_poochyena.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/poochyena.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/poochyena_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/poochyena.json"
+  ]
+}

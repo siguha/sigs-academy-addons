@@ -1,0 +1,218 @@
+{
+  "id": "nidoranm",
+  "dexnum": 32,
+  "name": "Nidoran-M",
+  "primaryType": "poison",
+  "secondaryType": "",
+  "maleRatio": 1,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "poisonpoint",
+    "rivalry",
+    "h:hustle"
+  ],
+  "eggGroups": [
+    "monster",
+    "field"
+  ],
+  "baseStats": {
+    "hp": 46,
+    "attack": 57,
+    "defence": 40,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 235,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:leer",
+    "1:poisonsting",
+    "5:peck",
+    "10:focusenergy",
+    "15:furyattack",
+    "20:toxicspikes",
+    "25:doublekick",
+    "30:hornattack",
+    "35:helpinghand",
+    "40:toxic",
+    "45:flatter",
+    "50:poisonjab",
+    "55:earthpower",
+    "egg:captivate",
+    "egg:chipaway",
+    "egg:confusion",
+    "egg:counter",
+    "egg:disable",
+    "egg:headsmash",
+    "egg:horndrill",
+    "egg:poisontail",
+    "egg:suckerpunch",
+    "egg:supersonic",
+    "egg:takedown",
+    "egg:thrash",
+    "tm:amnesia",
+    "tm:beatup",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:captivate",
+    "tm:cut",
+    "tm:dig",
+    "tm:drillrun",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:focusenergy",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:icebeam",
+    "tm:irontail",
+    "tm:mudslap",
+    "tm:poisonjab",
+    "tm:poisontail",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:smartstrike",
+    "tm:strength",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tm:waterpulse",
+    "tutor:drillrun",
+    "tutor:earthpower",
+    "tutor:focusenergy",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:irontail",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:shadowclaw",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:suckerpunch",
+    "tutor:superfang",
+    "tutor:thunderbolt",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:detect",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:tackle"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "nidoranm_nidorino",
+      "variant": "level_up",
+      "result": "nidorino",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0032_nidoranm.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/nidoranm.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/nidoranm_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/nidoranm.json"
+  ]
+}

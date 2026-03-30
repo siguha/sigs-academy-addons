@@ -1,0 +1,254 @@
+{
+  "id": "stunky",
+  "dexnum": 434,
+  "name": "Stunky",
+  "primaryType": "poison",
+  "secondaryType": "dark",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "stench",
+    "aftermath",
+    "h:keeneye"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 63,
+    "attack": 63,
+    "defence": 47,
+    "special_attack": 41,
+    "special_defence": 41,
+    "speed": 74
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 225,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:poisongas",
+    "3:feint",
+    "6:smokescreen",
+    "9:acidspray",
+    "12:furyswipes",
+    "15:focusenergy",
+    "18:bite",
+    "21:venoshock",
+    "24:screech",
+    "27:toxic",
+    "30:suckerpunch",
+    "33:memento",
+    "36:nightslash",
+    "39:belch",
+    "42:explosion",
+    "egg:astonish",
+    "egg:doubleedge",
+    "egg:flameburst",
+    "egg:haze",
+    "egg:leer",
+    "egg:punishment",
+    "egg:pursuit",
+    "egg:slash",
+    "egg:smog",
+    "tm:acidspray",
+    "tm:assurance",
+    "tm:bodyslam",
+    "tm:corrosivegas",
+    "tm:crunch",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:focusenergy",
+    "tm:foulplay",
+    "tm:furycutter",
+    "tm:gunkshot",
+    "tm:haze",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:honeclaws",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:playrough",
+    "tm:poisonjab",
+    "tm:poisontail",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:tailslap",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:torment",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:trailblaze",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tutor:corrosivegas",
+    "tutor:darkpulse",
+    "tutor:defog",
+    "tutor:flamethrower",
+    "tutor:focusenergy",
+    "tutor:foulplay",
+    "tutor:furycutter",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:playrough",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snarl",
+    "tutor:snatch",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:throatchop",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "stunky_skuntank",
+      "variant": "level_up",
+      "result": "skuntank",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "flamethrower"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 34
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 8.0,
+        "levels": "1-35",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0434_stunky.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 8.0,
+        "levels": "1-35",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0434_stunky.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/stunky.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/stunky_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/stunky.json"
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "id": "drakloak",
+  "dexnum": 886,
+  "name": "Drakloak",
+  "primaryType": "dragon",
+  "secondaryType": "ghost",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "clearbody",
+    "infiltrator",
+    "h:cursedbody"
+  ],
+  "eggGroups": [
+    "amorphous",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 68,
+    "attack": 80,
+    "defence": 50,
+    "special_attack": 60,
+    "special_defence": 50,
+    "speed": 102
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:phantom_membrane",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:haban_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:dragonpulse",
+    "1:astonish",
+    "1:infestation",
+    "1:quickattack",
+    "1:bite",
+    "6:lockon",
+    "12:assurance",
+    "18:hex",
+    "24:agility",
+    "30:doublehit",
+    "36:uturn",
+    "42:dragondance",
+    "48:phantomforce",
+    "54:takedown",
+    "61:dragonrush",
+    "66:doubleedge",
+    "72:lastresort",
+    "egg:confuseray",
+    "egg:curse",
+    "egg:disable",
+    "egg:doubleteam",
+    "egg:dragontail",
+    "egg:grudge",
+    "egg:suckerpunch",
+    "tm:acrobatics",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:assurance",
+    "tm:batonpass",
+    "tm:beatup",
+    "tm:breakingswipe",
+    "tm:brine",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:doubleteam",
+    "tm:dracometeor",
+    "tm:dragoncheer",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:hydropump",
+    "tm:infestation",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:nightshade",
+    "tm:outrage",
+    "tm:phantomforce",
+    "tm:pounce",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:reflect",
+    "tm:rest",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:uturn",
+    "tm:willowisp",
+    "tutor:allyswitch",
+    "tutor:dive",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:flamethrower",
+    "tutor:helpinghand",
+    "tutor:lastresort",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "drakloak_dragapult",
+      "variant": "level_up",
+      "result": "dragapult",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "dragondarts"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 60
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 2.16,
+        "levels": "50-55",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0886_drakloak.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 2.16,
+        "levels": "50-55",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0886_drakloak.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 2.16,
+        "levels": "50-55",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0886_drakloak.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 2.16,
+        "levels": "50-55",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0886_drakloak.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 2.16,
+        "levels": "50-55",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0886_drakloak.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/drakloak.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/drakloak_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/drakloak.json"
+  ]
+}

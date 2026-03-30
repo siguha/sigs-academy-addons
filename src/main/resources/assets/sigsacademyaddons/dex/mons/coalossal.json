@@ -1,0 +1,275 @@
+{
+  "id": "coalossal",
+  "dexnum": 839,
+  "name": "Coalossal",
+  "primaryType": "rock",
+  "secondaryType": "fire",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "steamengine",
+    "flamebody",
+    "h:flashfire"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 80,
+    "defence": 120,
+    "special_attack": 80,
+    "special_defence": 90,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:coal",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:black_augurite",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:passho_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tarshot",
+    "1:flamecharge",
+    "1:tackle",
+    "1:smokescreen",
+    "1:rapidspin",
+    "1:smackdown",
+    "1:burnup",
+    "15:rockpolish",
+    "20:ancientpower",
+    "27:incinerate",
+    "37:stealthrock",
+    "45:heatcrash",
+    "54:rockblast",
+    "63:stoneedge",
+    "egg:block",
+    "egg:explosion",
+    "egg:mudslap",
+    "tm:ancientpower",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:curse",
+    "tm:dig",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firepunch",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:gigaimpact",
+    "tm:gyroball",
+    "tm:heatcrash",
+    "tm:heatwave",
+    "tm:heavyslam",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:incinerate",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:meteorbeam",
+    "tm:mudslap",
+    "tm:overheat",
+    "tm:powergem",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scald",
+    "tm:scorchingsands",
+    "tm:selfdestruct",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:solarbeam",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:willowisp",
+    "tutor:ancientpower",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:meteorbeam",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:scorchingsands",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [
+    "Gmax"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "rare",
+        "weight": 2,
+        "levels": "36-47",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_cave",
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0839_coalossal.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:coal_ore"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 2,
+        "levels": "36-47",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_cave",
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0839_coalossal.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "rare",
+        "weight": 2,
+        "levels": "36-47",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_cave",
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0839_coalossal.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:coal_ore"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 2,
+        "levels": "36-47",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_cave",
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0839_coalossal.json"
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon_reanimodel/coalossal.png",
+      "out/sprites/cobblemon/coalossal.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon_reanimodel/coalossal_shiny.png",
+      "out/sprites/cobblemon/coalossal_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/coalossal.json"
+  ]
+}

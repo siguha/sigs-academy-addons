@@ -1,0 +1,387 @@
+{
+  "id": "purrloin",
+  "dexnum": 509,
+  "name": "Purrloin",
+  "primaryType": "dark",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "limber",
+    "unburden",
+    "h:prankster"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 41,
+    "attack": 50,
+    "defence": 37,
+    "special_attack": 50,
+    "special_defence": 37,
+    "speed": 66
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:rotten_flesh",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:bluk_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:growl",
+    "1:assist",
+    "4:sandattack",
+    "5:fakeout",
+    "12:furyswipes",
+    "16:torment",
+    "21:assurance",
+    "24:honeclaws",
+    "28:suckerpunch",
+    "32:nastyplot",
+    "36:nightslash",
+    "40:playrough",
+    "egg:captivate",
+    "egg:copycat",
+    "egg:covet",
+    "egg:doubleteam",
+    "egg:feintattack",
+    "egg:pursuit",
+    "egg:quickattack",
+    "egg:slash",
+    "egg:yawn",
+    "tm:aerialace",
+    "tm:assurance",
+    "tm:batonpass",
+    "tm:captivate",
+    "tm:charm",
+    "tm:covet",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:doubleteam",
+    "tm:dreameater",
+    "tm:echoedvoice",
+    "tm:embargo",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:foulplay",
+    "tm:grassknot",
+    "tm:gunkshot",
+    "tm:honeclaws",
+    "tm:hypervoice",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:payday",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roleplay",
+    "tm:screech",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:spite",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:trick",
+    "tm:uturn",
+    "tutor:aerialace",
+    "tutor:covet",
+    "tutor:darkpulse",
+    "tutor:foulplay",
+    "tutor:gunkshot",
+    "tutor:hypervoice",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:snatch",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:trick",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "purrloin_liepard",
+      "variant": "level_up",
+      "result": "liepard",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_swamp",
+            "#cobblemon:is_temperate"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0509_purrloin.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0509_purrloin.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "common",
+        "weight": 10.0,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0509_purrloin.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 10.0,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0509_purrloin.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "common",
+        "weight": 10.0,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0509_purrloin.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 10.0,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0509_purrloin.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "mansion"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0509_purrloin.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 54.0,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0509_purrloin.json",
+        "structures": [
+          "minecraft:swamp_hut"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/purrloin.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/purrloin_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/purrloin.json"
+  ]
+}

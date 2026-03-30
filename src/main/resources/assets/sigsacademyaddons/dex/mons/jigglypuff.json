@@ -1,0 +1,368 @@
+{
+  "id": "jigglypuff",
+  "dexnum": 39,
+  "name": "Jigglypuff",
+  "primaryType": "normal",
+  "secondaryType": "fairy",
+  "maleRatio": 0.25,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "cutecharm",
+    "competitive",
+    "h:friendguard"
+  ],
+  "eggGroups": [
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 115,
+    "attack": 45,
+    "defence": 20,
+    "special_attack": 45,
+    "special_defence": 25,
+    "speed": 20
+  },
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "fast",
+  "catchRate": 170,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:moon_stone",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:air_balloon",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:sing",
+    "1:defensecurl",
+    "1:pound",
+    "1:disable",
+    "1:doubleslap",
+    "1:wakeupslap",
+    "1:playnice",
+    "1:disarmingvoice",
+    "1:sweetkiss",
+    "1:charm",
+    "1:copycat",
+    "4:echoedvoice",
+    "8:covet",
+    "12:stockpile",
+    "12:swallow",
+    "12:spitup",
+    "16:round",
+    "20:rest",
+    "24:bodyslam",
+    "28:mimic",
+    "32:gyroball",
+    "36:hypervoice",
+    "44:doubleedge",
+    "egg:captivate",
+    "egg:covet",
+    "egg:feintattack",
+    "egg:gravity",
+    "egg:healpulse",
+    "egg:lastresort",
+    "egg:perishsong",
+    "egg:present",
+    "egg:punishment",
+    "egg:rollout",
+    "egg:wish",
+    "tm:alluringvoice",
+    "tm:allyswitch",
+    "tm:amnesia",
+    "tm:batonpass",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:brickbreak",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:covet",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:dig",
+    "tm:disarmingvoice",
+    "tm:doubleedge",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:dreameater",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fireblast",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:gyroball",
+    "tm:headbutt",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icespinner",
+    "tm:icywind",
+    "tm:incinerate",
+    "tm:knockoff",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magiccoat",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:mistyexplosion",
+    "tm:mistyterrain",
+    "tm:nastyplot",
+    "tm:painsplit",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:roleplay",
+    "tm:rollout",
+    "tm:round",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:screech",
+    "tm:selfdestruct",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:solarbeam",
+    "tm:stealthrock",
+    "tm:steelroller",
+    "tm:storedpower",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:triattack",
+    "tm:uproar",
+    "tm:waterpulse",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:bounce",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:darkpulse",
+    "tutor:dazzlinggleam",
+    "tutor:drainpunch",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focuspunch",
+    "tutor:gravity",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:knockoff",
+    "tutor:lastresort",
+    "tutor:magicalleaf",
+    "tutor:magiccoat",
+    "tutor:mistyexplosion",
+    "tutor:painsplit",
+    "tutor:playrough",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:stealthrock",
+    "tutor:steelroller",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:wildcharge",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:bubblebeam",
+    "legacy:chargebeam",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:curse",
+    "legacy:detect",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:psywave",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:submission",
+    "legacy:swagger",
+    "legacy:teleport",
+    "legacy:toxic",
+    "legacy:watergun",
+    "legacy:zapcannon",
+    "special:tickle"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "jigglypuff_wigglytuff",
+      "variant": "item_interact",
+      "result": "wigglytuff",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:moon_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.95,
+        "levels": "16-27",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_floral"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0039_jigglypuff.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.19,
+        "levels": "16-27",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_plains"
+          ],
+          "exclude": [
+            "#cobblemon:is_floral"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0039_jigglypuff.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.95,
+        "levels": "16-27",
+        "biomeTags": {
+          "include": [
+            "aether:skyroot_grove",
+            "aether:skyroot_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0039_jigglypuff.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/jigglypuff.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/jigglypuff_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/jigglypuff.json"
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "id": "tarountula",
+  "dexnum": 917,
+  "name": "Tarountula",
+  "primaryType": "bug",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "insomnia",
+    "h:stakeout"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 41,
+    "defence": 45,
+    "special_attack": 29,
+    "special_defence": 40,
+    "speed": 20
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "erratic",
+  "catchRate": 255,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:stringshot",
+    "5:strugglebug",
+    "8:assurance",
+    "11:feint",
+    "14:bugbite",
+    "18:block",
+    "22:counter",
+    "25:headbutt",
+    "29:stickyweb",
+    "33:gastroacid",
+    "36:circlethrow",
+    "40:throatchop",
+    "44:skittersmack",
+    "egg:firstimpression",
+    "egg:lunge",
+    "egg:memento",
+    "egg:suckerpunch",
+    "tm:assurance",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:bulletseed",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:headbutt",
+    "tm:knockoff",
+    "tm:leechlife",
+    "tm:lunge",
+    "tm:poisonjab",
+    "tm:pounce",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:shadowclaw",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:spikes",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:toxicspikes",
+    "tm:trailblaze",
+    "tm:xscissor",
+    "tutor:block",
+    "tutor:bugbite",
+    "tutor:falseswipe",
+    "tutor:gastroacid",
+    "tutor:gigadrain",
+    "tutor:knockoff",
+    "tutor:leechlife",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:shadowclaw",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:stringshot",
+    "tutor:suckerpunch",
+    "tutor:throatchop",
+    "tutor:xscissor"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "tarountula_spidops",
+      "variant": "level_up",
+      "result": "spidops",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "silktrap"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 15
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "1-21",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_spooky",
+            "#cobblemon:is_swamp"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0917_tarountula.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/tarountula.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/tarountula_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/tarountula.json"
+  ]
+}

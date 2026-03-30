@@ -1,0 +1,202 @@
+{
+  "id": "cetoddle",
+  "dexnum": 974,
+  "name": "Cetoddle",
+  "primaryType": "ice",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "thickfat",
+    "snowcloak",
+    "h:sheerforce"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 108,
+    "attack": 68,
+    "defence": 45,
+    "special_attack": 30,
+    "special_defence": 40,
+    "speed": 43
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 150,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:bone_block",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:aspear_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:powdersnow",
+    "6:growl",
+    "9:echoedvoice",
+    "12:iceshard",
+    "15:rest",
+    "19:takedown",
+    "25:flail",
+    "27:avalanche",
+    "31:bounce",
+    "36:bodyslam",
+    "40:amnesia",
+    "44:icespinner",
+    "49:doubleedge",
+    "53:blizzard",
+    "egg:bellydrum",
+    "egg:entrainment",
+    "egg:iciclecrash",
+    "egg:superpower",
+    "egg:yawn",
+    "tm:amnesia",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bulldoze",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:curse",
+    "tm:doubleedge",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icespinner",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:waterpulse",
+    "tutor:bounce",
+    "tutor:bulldoze",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:icywind",
+    "tutor:knockoff",
+    "tutor:liquidation",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:superpower",
+    "tutor:waterpulse"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "cetoddle_cetitan",
+      "variant": "item_interact",
+      "result": "cetitan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:ice_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 5.52,
+        "levels": "8-33",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0974_cetoddle.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 9.2,
+        "levels": "8-33",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_glacial",
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0974_cetoddle.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/cetoddle.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/cetoddle_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/cetoddle.json"
+  ]
+}

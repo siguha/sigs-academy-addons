@@ -1,0 +1,205 @@
+{
+  "id": "tsareena",
+  "dexnum": 763,
+  "name": "Tsareena",
+  "primaryType": "grass",
+  "secondaryType": "",
+  "maleRatio": 0,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "leafguard",
+    "queenlymajesty",
+    "h:sweetveil"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 120,
+    "defence": 98,
+    "special_attack": 50,
+    "special_defence": 98,
+    "speed": 72
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:grassy_seed",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tropkick",
+    "1:punishment",
+    "1:doubleslap",
+    "1:splash",
+    "1:swagger",
+    "1:rapidspin",
+    "1:razorleaf",
+    "1:captivate",
+    "1:aromatherapy",
+    "1:powerwhip",
+    "1:flail",
+    "1:playnice",
+    "16:sweetscent",
+    "22:magicalleaf",
+    "28:stomp",
+    "34:teeterdance",
+    "40:aromaticmist",
+    "46:leafstorm",
+    "58:highjumpkick",
+    "egg:acupressure",
+    "egg:aromatherapy",
+    "egg:endeavor",
+    "egg:feint",
+    "egg:grasswhistle",
+    "egg:synthesis",
+    "tm:acrobatics",
+    "tm:bounce",
+    "tm:bulletseed",
+    "tm:captivate",
+    "tm:charm",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:fling",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:leafstorm",
+    "tm:lightscreen",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:magicalleaf",
+    "tm:megakick",
+    "tm:naturepower",
+    "tm:payback",
+    "tm:petalblizzard",
+    "tm:playrough",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:tripleaxel",
+    "tm:uturn",
+    "tm:worryseed",
+    "tm:zenheadbutt",
+    "tutor:bounce",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:laserfocus",
+    "tutor:lowkick",
+    "tutor:magicalleaf",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:synthesis",
+    "tutor:tripleaxel",
+    "tutor:worryseed",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:toxic",
+    "special:celebrate"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.02,
+        "levels": "28-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0763_tsareena.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/tsareena.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/tsareena_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/tsareena.json"
+  ]
+}

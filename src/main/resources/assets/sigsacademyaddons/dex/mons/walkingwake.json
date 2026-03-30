@@ -1,0 +1,179 @@
+{
+  "id": "walkingwake",
+  "dexnum": 1009,
+  "name": "Walking Wake",
+  "primaryType": "water",
+  "secondaryType": "dragon",
+  "maleRatio": -1,
+  "labels": [
+    "gen9",
+    "paradox"
+  ],
+  "abilities": [
+    "protosynthesis",
+    "h:protosynthesis"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 99,
+    "attack": 83,
+    "defence": 91,
+    "special_attack": 125,
+    "special_defence": 83,
+    "speed": 109
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 5,
+  "drops": {
+    "amount": 0,
+    "entries": []
+  },
+  "moves": [
+    "1:leer",
+    "1:roar",
+    "1:twister",
+    "1:aquajet",
+    "1:sunnyday",
+    "1:honeclaws",
+    "7:bite",
+    "14:waterpulse",
+    "21:nobleroar",
+    "28:dragonbreath",
+    "35:breakingswipe",
+    "42:dragonrush",
+    "56:hydrosteam",
+    "63:dragonpulse",
+    "70:outrage",
+    "77:flamethrower",
+    "84:hydropump",
+    "tm:agility",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:chillingwater",
+    "tm:crunch",
+    "tm:doubleedge",
+    "tm:dracometeor",
+    "tm:dragoncheer",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:endure",
+    "tm:facade",
+    "tm:firefang",
+    "tm:flamethrower",
+    "tm:flipturn",
+    "tm:gigaimpact",
+    "tm:honeclaws",
+    "tm:hurricane",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:lowkick",
+    "tm:mudshot",
+    "tm:outrage",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:scald",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:twister",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:firefang",
+    "tutor:flamethrower",
+    "tutor:flipturn",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:knockoff",
+    "tutor:liquidation",
+    "tutor:lowkick",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:swift",
+    "tutor:twister",
+    "tutor:waterpulse"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "deep_dark"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.2,
+        "levels": "65-80",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/paradox_spawns/spawn_pool_world/1009_walkingwake.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.3,
+        "levels": "65-80",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/paradox_spawns_ccc/spawn_pool_world/1009_walkingwake.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/walkingwake.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/walkingwake_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/walkingwake.json"
+  ]
+}

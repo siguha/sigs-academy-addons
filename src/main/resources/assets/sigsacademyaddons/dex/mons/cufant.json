@@ -1,0 +1,211 @@
+{
+  "id": "cufant",
+  "dexnum": 878,
+  "name": "Cufant",
+  "primaryType": "steel",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "sheerforce",
+    "h:heavymetal"
+  ],
+  "eggGroups": [
+    "field",
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 80,
+    "defence": 49,
+    "special_attack": 40,
+    "special_defence": 49,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:raw_copper",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:lagging_tail",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:nanab_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "5:rollout",
+    "10:rocksmash",
+    "15:bulldoze",
+    "20:stomp",
+    "25:irondefense",
+    "30:dig",
+    "35:strength",
+    "40:ironhead",
+    "45:playrough",
+    "50:highhorsepower",
+    "55:superpower",
+    "egg:belch",
+    "egg:curse",
+    "egg:defensecurl",
+    "egg:doubleedge",
+    "egg:fissure",
+    "egg:slam",
+    "egg:swagger",
+    "egg:whirlwind",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:fling",
+    "tm:heavyslam",
+    "tm:highhorsepower",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:megakick",
+    "tm:mudshot",
+    "tm:playrough",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sandstorm",
+    "tm:screech",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:steelbeam",
+    "tm:steelroller",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:flashcannon",
+    "tutor:highhorsepower",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:steelbeam",
+    "tutor:steelroller",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "cufant_copperajah",
+      "variant": "level_up",
+      "result": "copperajah",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "heavyslam"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 34
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 5.04,
+        "levels": "8-33",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_savanna"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0878_cufant.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/cufant.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/cufant_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/cufant.json"
+  ]
+}

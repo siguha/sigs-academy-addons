@@ -1,0 +1,220 @@
+{
+  "id": "sewaddle",
+  "dexnum": 540,
+  "name": "Sewaddle",
+  "primaryType": "bug",
+  "secondaryType": "grass",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "swarm",
+    "chlorophyll",
+    "h:overcoat"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 53,
+    "defence": 70,
+    "special_attack": 40,
+    "special_defence": 60,
+    "speed": 42
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 255,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:mental_herb",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:revival_herb",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:coba_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:stringshot",
+    "8:bugbite",
+    "15:razorleaf",
+    "22:strugglebug",
+    "29:endure",
+    "31:stickyweb",
+    "36:bugbuzz",
+    "43:flail",
+    "egg:camouflage",
+    "egg:mefirst",
+    "egg:mindreader",
+    "egg:razorwind",
+    "egg:screech",
+    "egg:snore",
+    "egg:switcheroo",
+    "egg:synthesis",
+    "egg:worryseed",
+    "tm:batonpass",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:charm",
+    "tm:cut",
+    "tm:dreameater",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:irondefense",
+    "tm:lunge",
+    "tm:magicalleaf",
+    "tm:magiccoat",
+    "tm:naturepower",
+    "tm:payback",
+    "tm:pounce",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:screech",
+    "tm:seedbomb",
+    "tm:signalbeam",
+    "tm:silverwind",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:worryseed",
+    "tutor:bugbite",
+    "tutor:electroweb",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:grassyglide",
+    "tutor:irondefense",
+    "tutor:magicalleaf",
+    "tutor:magiccoat",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:signalbeam",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:stringshot",
+    "tutor:synthesis",
+    "tutor:worryseed",
+    "legacy:agility",
+    "legacy:airslash",
+    "legacy:attract",
+    "legacy:calmmind",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:lightscreen",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "sewaddle_swadloon",
+      "variant": "level_up",
+      "result": "swadloon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "protect"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0540_sewaddle.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/wavimons/sewaddle.png",
+      "out/sprites/cobblemon/sewaddle.png"
+    ],
+    "shiny": [
+      "out/sprites/wavimons/sewaddle_shiny.png",
+      "out/sprites/cobblemon/sewaddle_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/sewaddle.json"
+  ]
+}

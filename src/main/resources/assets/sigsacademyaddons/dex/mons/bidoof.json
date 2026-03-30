@@ -1,0 +1,301 @@
+{
+  "id": "bidoof",
+  "dexnum": 399,
+  "name": "Bidoof",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "simple",
+    "unaware",
+    "h:moody"
+  ],
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "baseStats": {
+    "hp": 59,
+    "attack": 45,
+    "defence": 40,
+    "special_attack": 35,
+    "special_defence": 40,
+    "speed": 31
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:stick",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "5:defensecurl",
+    "9:rollout",
+    "13:headbutt",
+    "17:hyperfang",
+    "21:yawn",
+    "25:crunch",
+    "29:takedown",
+    "33:superfang",
+    "37:swordsdance",
+    "41:amnesia",
+    "45:superpower",
+    "49:curse",
+    "egg:defensecurl",
+    "egg:furyswipes",
+    "egg:mudsport",
+    "egg:odorsleuth",
+    "egg:quickattack",
+    "egg:skullbash",
+    "egg:watersport",
+    "tm:amnesia",
+    "tm:aquatail",
+    "tm:blizzard",
+    "tm:chargebeam",
+    "tm:covet",
+    "tm:crunch",
+    "tm:curse",
+    "tm:cut",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:furycutter",
+    "tm:grassknot",
+    "tm:headbutt",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:lastresort",
+    "tm:mudslap",
+    "tm:pluck",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:rocksmash",
+    "tm:rollout",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:workup",
+    "tutor:aquatail",
+    "tutor:chargebeam",
+    "tutor:covet",
+    "tutor:furycutter",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:lastresort",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:superfang",
+    "tutor:superpower",
+    "tutor:thunderbolt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:rockclimb",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:swift",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "bidoof_bibarel",
+      "variant": "level_up",
+      "result": "bibarel",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "watergun"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 15
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "1-25",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0399_bidoof.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "1-25",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0399_bidoof.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:water"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "1-25",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0399_bidoof.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "1-25",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_snowy_forest",
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0399_bidoof.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "1-25",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_snowy_forest",
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0399_bidoof.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/bidoof.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/bidoof_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/bidoof.json"
+  ]
+}

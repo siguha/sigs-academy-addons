@@ -1,0 +1,276 @@
+{
+  "id": "numel",
+  "dexnum": 322,
+  "name": "Numel",
+  "primaryType": "fire",
+  "secondaryType": "ground",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "oblivious",
+    "simple",
+    "h:owntempo"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 40,
+    "special_attack": 65,
+    "special_defence": 45,
+    "speed": 35
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:magma_cream",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:growl",
+    "1:tackle",
+    "1:magnitude",
+    "5:ember",
+    "8:focusenergy",
+    "12:bulldoze",
+    "15:flameburst",
+    "19:amnesia",
+    "22:lavaplume",
+    "26:earthpower",
+    "29:curse",
+    "31:takedown",
+    "40:earthquake",
+    "43:flamethrower",
+    "47:doubleedge",
+    "egg:ancientpower",
+    "egg:bodyslam",
+    "egg:defensecurl",
+    "egg:growth",
+    "egg:heatwave",
+    "egg:heavyslam",
+    "egg:howl",
+    "egg:ironhead",
+    "egg:mudbomb",
+    "egg:rollout",
+    "egg:scaryface",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:stomp",
+    "egg:swallow",
+    "egg:yawn",
+    "tm:afteryou",
+    "tm:amnesia",
+    "tm:ancientpower",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:charm",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flamewheel",
+    "tm:flareblitz",
+    "tm:flashcannon",
+    "tm:focusenergy",
+    "tm:headbutt",
+    "tm:heatcrash",
+    "tm:heatwave",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:incinerate",
+    "tm:ironhead",
+    "tm:lashout",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:naturepower",
+    "tm:overheat",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:willowisp",
+    "tm:zenheadbutt",
+    "tutor:afteryou",
+    "tutor:ancientpower",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:flamethrower",
+    "tutor:flashcannon",
+    "tutor:focusenergy",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:ironhead",
+    "tutor:lashout",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:scorchingsands",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "numel_camerupt",
+      "variant": "level_up",
+      "result": "camerupt",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "rockslide"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0322_numel.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_volcanic"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0322_numel.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_overgrowth",
+            "#cobblemon:nether/is_wasteland"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0322_numel.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/numel.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/numel_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/numel.json"
+  ]
+}

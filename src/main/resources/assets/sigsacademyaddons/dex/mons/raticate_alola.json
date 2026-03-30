@@ -1,0 +1,385 @@
+{
+  "id": "raticate_alola",
+  "dexnum": 20,
+  "name": "Raticate Alola",
+  "primaryType": "dark",
+  "secondaryType": "normal",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7",
+    "alolan_form"
+  ],
+  "abilities": [
+    "gluttony",
+    "hustle",
+    "h:thickfat"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 71,
+    "defence": 70,
+    "special_attack": 40,
+    "special_defence": 80,
+    "speed": 77
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 127,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:rotten_flesh",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scaryface",
+    "1:swordsdance",
+    "1:tackle",
+    "1:tailwhip",
+    "1:quickattack",
+    "1:focusenergy",
+    "10:bite",
+    "13:pursuit",
+    "16:hyperfang",
+    "19:assurance",
+    "24:crunch",
+    "29:suckerpunch",
+    "34:superfang",
+    "39:doubleedge",
+    "44:endeavor",
+    "egg:counter",
+    "egg:finalgambit",
+    "egg:furyswipes",
+    "egg:mefirst",
+    "egg:revenge",
+    "egg:reversal",
+    "egg:snatch",
+    "egg:stockpile",
+    "egg:swallow",
+    "egg:switcheroo",
+    "egg:uproar",
+    "tm:assurance",
+    "tm:beatup",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bulkup",
+    "tm:burningjealousy",
+    "tm:closecombat",
+    "tm:covet",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:embargo",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:focusenergy",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lastresort",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:quash",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:roar",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:uproar",
+    "tm:venoshock",
+    "tm:zenheadbutt",
+    "tutor:bulkup",
+    "tutor:burningjealousy",
+    "tutor:covet",
+    "tutor:darkpulse",
+    "tutor:endeavor",
+    "tutor:focusenergy",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:lastresort",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snarl",
+    "tutor:snatch",
+    "tutor:stompingtantrum",
+    "tutor:suckerpunch",
+    "tutor:superfang",
+    "tutor:throatchop",
+    "tutor:thunderbolt",
+    "tutor:uproar",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:shadowclaw",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:uturn"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "20-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0020_raticate.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "derelict"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "20-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0020_raticate.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "20-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0020_raticate.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "derelict"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "20-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_spooky"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0020_raticate.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "20-41",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0020_raticate.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "derelict"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "20-41",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0020_raticate.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "20-41",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0020_raticate.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "derelict"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "20-41",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0020_raticate.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/raticate_alolan.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/raticate_alolan_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/raticate.json"
+  ]
+}

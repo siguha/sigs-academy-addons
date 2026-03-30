@@ -1,0 +1,151 @@
+{
+  "id": "dracovish",
+  "dexnum": 882,
+  "name": "Dracovish",
+  "primaryType": "water",
+  "secondaryType": "dragon",
+  "maleRatio": -1,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "waterabsorb",
+    "strongjaw",
+    "h:sandrush"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 90,
+    "defence": 100,
+    "special_attack": 70,
+    "special_defence": 80,
+    "speed": 75
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:cod",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:watergun",
+    "7:protect",
+    "14:brutalswing",
+    "21:ancientpower",
+    "28:bite",
+    "35:dragonbreath",
+    "42:stomp",
+    "49:superfang",
+    "56:crunch",
+    "63:fishiousrend",
+    "70:dragonpulse",
+    "77:dragonrush",
+    "tm:ancientpower",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:crunch",
+    "tm:dive",
+    "tm:dracometeor",
+    "tm:dragonpulse",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:gigaimpact",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icefang",
+    "tm:ironhead",
+    "tm:leechlife",
+    "tm:liquidation",
+    "tm:lowkick",
+    "tm:megakick",
+    "tm:meteorbeam",
+    "tm:outrage",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:scald",
+    "tm:sleeptalk",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:superfang",
+    "tm:surf",
+    "tm:terablast",
+    "tm:waterfall",
+    "tm:whirlpool",
+    "tm:zenheadbutt",
+    "tutor:ancientpower",
+    "tutor:bulldoze",
+    "tutor:dive",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:earthpower",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icefang",
+    "tutor:ironhead",
+    "tutor:leechlife",
+    "tutor:liquidation",
+    "tutor:lowkick",
+    "tutor:meteorbeam",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superfang",
+    "tutor:zenheadbutt",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/dracovish.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/dracovish_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/dracovish.json"
+  ]
+}

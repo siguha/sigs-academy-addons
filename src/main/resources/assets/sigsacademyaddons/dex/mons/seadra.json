@@ -1,0 +1,331 @@
+{
+  "id": "seadra",
+  "dexnum": 117,
+  "name": "Seadra",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "poisonpoint",
+    "sniper",
+    "h:damp"
+  ],
+  "eggGroups": [
+    "water_1",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 65,
+    "defence": 95,
+    "special_attack": 95,
+    "special_defence": 45,
+    "speed": 85
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:ink_sac",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:prismarine_shard",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:dragon_scale",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:bubble",
+    "1:smokescreen",
+    "1:leer",
+    "1:watergun",
+    "1:twister",
+    "15:focusenergy",
+    "20:dragonbreath",
+    "25:bubblebeam",
+    "30:agility",
+    "37:waterpulse",
+    "44:dragonpulse",
+    "51:hydropump",
+    "58:dragondance",
+    "65:raindance",
+    "egg:aurorabeam",
+    "egg:clearsmog",
+    "egg:disable",
+    "egg:dragonrage",
+    "egg:flail",
+    "egg:octazooka",
+    "egg:razorwind",
+    "egg:splash",
+    "tm:agility",
+    "tm:blizzard",
+    "tm:bounce",
+    "tm:brine",
+    "tm:chillingwater",
+    "tm:dive",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:endure",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:flipturn",
+    "tm:focusenergy",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:laserfocus",
+    "tm:liquidation",
+    "tm:muddywater",
+    "tm:outrage",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:terablast",
+    "tm:twister",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tutor:bounce",
+    "tutor:dive",
+    "tutor:dragonpulse",
+    "tutor:flashcannon",
+    "tutor:flipturn",
+    "tutor:focusenergy",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:laserfocus",
+    "tutor:liquidation",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:scaleshot",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:twister",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:takedown",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "seadra_kingdra",
+      "variant": "trade",
+      "result": "kingdra",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:dragon_scale"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.19,
+        "levels": "32-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lukewarm_ocean",
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0117_seadra.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.19,
+        "levels": "32-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0117_seadra.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.19,
+        "levels": "32-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lukewarm_ocean",
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0117_seadra.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.19,
+        "levels": "32-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0117_seadra.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.19,
+        "levels": "32-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0117_seadra.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.19,
+        "levels": "32-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0117_seadra.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/seadra.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/seadra_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/seadra.json"
+  ]
+}

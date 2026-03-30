@@ -1,0 +1,179 @@
+{
+  "id": "sandaconda",
+  "dexnum": 844,
+  "name": "Sandaconda",
+  "primaryType": "ground",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "sandspit",
+    "shedskin",
+    "h:sandveil"
+  ],
+  "eggGroups": [
+    "field",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 107,
+    "defence": 125,
+    "special_attack": 65,
+    "special_defence": 70,
+    "speed": 71
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 120,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:soft_sand",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:skullbash",
+    "1:wrap",
+    "1:sandattack",
+    "1:minimize",
+    "1:brutalswing",
+    "15:bulldoze",
+    "20:headbutt",
+    "25:glare",
+    "30:dig",
+    "35:sandstorm",
+    "42:slam",
+    "49:coil",
+    "51:sandtomb",
+    "egg:belch",
+    "egg:dragonrush",
+    "egg:lastresort",
+    "egg:mudslap",
+    "egg:poisontail",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:dig",
+    "tm:drillrun",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:firefang",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:highhorsepower",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lastresort",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:outrage",
+    "tm:poisontail",
+    "tm:protect",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:scorchingsands",
+    "tm:screech",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunderfang",
+    "tm:zenheadbutt",
+    "tutor:bulldoze",
+    "tutor:drillrun",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:firefang",
+    "tutor:gigaimpact",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:lastresort",
+    "tutor:mudslap",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:scaleshot",
+    "tutor:scorchingsands",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:thunderfang",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [
+    "Gmax"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "36-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0844_sandaconda.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/sandaconda.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/sandaconda_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/sandaconda.json"
+  ]
+}

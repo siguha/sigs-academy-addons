@@ -1,0 +1,245 @@
+{
+  "id": "kabuto",
+  "dexnum": 140,
+  "name": "Kabuto",
+  "primaryType": "rock",
+  "secondaryType": "water",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen1",
+    "fossil"
+  ],
+  "abilities": [
+    "swiftswim",
+    "battlearmor",
+    "h:weakarmor"
+  ],
+  "eggGroups": [
+    "water_1",
+    "water_3"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 80,
+    "defence": 90,
+    "special_attack": 55,
+    "special_defence": 45,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:razor_claw",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:harden",
+    "1:absorb",
+    "5:scratch",
+    "10:sandattack",
+    "15:aquajet",
+    "20:leer",
+    "25:mudshot",
+    "30:ancientpower",
+    "35:brine",
+    "41:protect",
+    "45:leechlife",
+    "50:wringout",
+    "55:metalsound",
+    "60:stoneedge",
+    "egg:aurorabeam",
+    "egg:bubblebeam",
+    "egg:confuseray",
+    "egg:flail",
+    "egg:foresight",
+    "egg:knockoff",
+    "egg:megadrain",
+    "egg:rapidspin",
+    "egg:takedown",
+    "tm:aerialace",
+    "tm:ancientpower",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:confuseray",
+    "tm:dig",
+    "tm:earthpower",
+    "tm:endure",
+    "tm:facade",
+    "tm:gigadrain",
+    "tm:hail",
+    "tm:honeclaws",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:knockoff",
+    "tm:leechlife",
+    "tm:liquidation",
+    "tm:metalsound",
+    "tm:meteorbeam",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sandstorm",
+    "tm:scald",
+    "tm:screech",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:surf",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:aerialace",
+    "tutor:ancientpower",
+    "tutor:earthpower",
+    "tutor:gigadrain",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:knockoff",
+    "tutor:leechlife",
+    "tutor:liquidation",
+    "tutor:meteorbeam",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:rockthrow",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:slash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:watergun"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "kabuto_kabutops",
+      "variant": "level_up",
+      "result": "kabutops",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "slash"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "11-36",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0140_kabuto.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "11-36",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0140_kabuto.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/kabuto.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/kabuto_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/kabuto.json"
+  ]
+}

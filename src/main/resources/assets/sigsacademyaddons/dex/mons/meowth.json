@@ -1,0 +1,355 @@
+{
+  "id": "meowth",
+  "dexnum": 52,
+  "name": "Meowth",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1",
+    "kantonian_form"
+  ],
+  "abilities": [
+    "pickup",
+    "technician",
+    "h:unnerve"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 45,
+    "defence": 35,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 90
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:gold_nugget",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:quick_claw",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:pinap_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:growl",
+    "1:fakeout",
+    "4:feint",
+    "8:scratch",
+    "12:payday",
+    "16:bite",
+    "20:taunt",
+    "24:assurance",
+    "29:furyswipes",
+    "32:screech",
+    "36:slash",
+    "40:nastyplot",
+    "44:playrough",
+    "egg:assist",
+    "egg:captivate",
+    "egg:covet",
+    "egg:feintattack",
+    "egg:flail",
+    "egg:hypnosis",
+    "egg:lastresort",
+    "egg:nightslash",
+    "egg:odorsleuth",
+    "egg:punishment",
+    "egg:spite",
+    "egg:tailwhip",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:amnesia",
+    "tm:assurance",
+    "tm:bodyslam",
+    "tm:captivate",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:covet",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:dreameater",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:falseswipe",
+    "tm:flash",
+    "tm:foulplay",
+    "tm:gunkshot",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hypervoice",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lastresort",
+    "tm:metalclaw",
+    "tm:nastyplot",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:payday",
+    "tm:playrough",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:screech",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:spite",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:trailblaze",
+    "tm:uturn",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:covet",
+    "tutor:darkpulse",
+    "tutor:endeavor",
+    "tutor:falseswipe",
+    "tutor:foulplay",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:lastresort",
+    "tutor:painsplit",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:snatch",
+    "tutor:spite",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:thunderbolt",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:bubblebeam",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:detect",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:uproar",
+    "legacy:watergun",
+    "legacy:waterpulse",
+    "legacy:zapcannon",
+    "special:happyhour",
+    "special:petaldance",
+    "special:sing"
+  ],
+  "forms": [
+    "Alola",
+    "Galar",
+    "Gmax"
+  ],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "meowth_persian",
+      "variant": "level_up",
+      "result": "persian",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "swift",
+        "powergem"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0052_meowth.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0052_meowth.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0052_meowth.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0052_meowth.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/meowth.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/meowth_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/meowth.json"
+  ]
+}

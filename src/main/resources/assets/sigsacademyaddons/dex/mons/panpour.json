@@ -1,0 +1,254 @@
+{
+  "id": "panpour",
+  "dexnum": 515,
+  "name": "Panpour",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "gluttony",
+    "h:torrent"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 53,
+    "defence": 48,
+    "special_attack": 53,
+    "special_defence": 48,
+    "speed": 64
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:water_stone",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:rindo_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:playnice",
+    "4:leer",
+    "7:lick",
+    "10:watergun",
+    "13:furyswipes",
+    "16:watersport",
+    "19:bite",
+    "22:scald",
+    "25:taunt",
+    "28:fling",
+    "31:acrobatics",
+    "34:brine",
+    "37:recycle",
+    "40:naturalgift",
+    "43:crunch",
+    "egg:aquaring",
+    "egg:aquatail",
+    "egg:astonish",
+    "egg:covet",
+    "egg:disarmingvoice",
+    "egg:hydropump",
+    "egg:lowkick",
+    "egg:mudsport",
+    "egg:nastyplot",
+    "egg:roleplay",
+    "egg:tickle",
+    "tm:acrobatics",
+    "tm:aquatail",
+    "tm:blizzard",
+    "tm:brine",
+    "tm:covet",
+    "tm:crunch",
+    "tm:cut",
+    "tm:dig",
+    "tm:disarmingvoice",
+    "tm:dive",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:flipturn",
+    "tm:focuspunch",
+    "tm:gastroacid",
+    "tm:grassknot",
+    "tm:gunkshot",
+    "tm:hail",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:nastyplot",
+    "tm:naturalgift",
+    "tm:payback",
+    "tm:protect",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:scald",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:torment",
+    "tm:uproar",
+    "tm:waterfall",
+    "tm:waterpledge",
+    "tm:waterpulse",
+    "tm:workup",
+    "tutor:aquatail",
+    "tutor:covet",
+    "tutor:dive",
+    "tutor:endeavor",
+    "tutor:flipturn",
+    "tutor:focuspunch",
+    "tutor:gastroacid",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:uproar",
+    "tutor:waterpledge",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "panpour_simipour",
+      "variant": "item_interact",
+      "result": "simipour",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:water_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0515_panpour.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.68,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_river"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0515_panpour.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/panpour.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/panpour_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/panpour.json"
+  ]
+}

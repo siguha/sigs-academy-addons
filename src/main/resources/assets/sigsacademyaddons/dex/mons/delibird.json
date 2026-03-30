@@ -1,0 +1,260 @@
+{
+  "id": "delibird",
+  "dexnum": 225,
+  "name": "Delibird",
+  "primaryType": "ice",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "vitalspirit",
+    "hustle",
+    "h:insomnia"
+  ],
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 55,
+    "defence": 45,
+    "special_attack": 65,
+    "special_defence": 45,
+    "speed": 75
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:chicken",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:charti_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:present",
+    "25:drillpeck",
+    "egg:aurorabeam",
+    "egg:auroraveil",
+    "egg:bestow",
+    "egg:counter",
+    "egg:destinybond",
+    "egg:fakeout",
+    "egg:freezedry",
+    "egg:iceshard",
+    "egg:memento",
+    "egg:quickattack",
+    "egg:rapidspin",
+    "egg:splash",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:assurance",
+    "tm:auroraveil",
+    "tm:avalanche",
+    "tm:batonpass",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bravebird",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:chillingwater",
+    "tm:defog",
+    "tm:drillrun",
+    "tm:dualwingbeat",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:fling",
+    "tm:fly",
+    "tm:focuspunch",
+    "tm:foulplay",
+    "tm:frostbreath",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:hail",
+    "tm:haze",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:iceball",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icespinner",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:pluck",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:reversal",
+    "tm:rollout",
+    "tm:seedbomb",
+    "tm:signalbeam",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:spikes",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:tripleaxel",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:bounce",
+    "tutor:defog",
+    "tutor:drillrun",
+    "tutor:dualwingbeat",
+    "tutor:endeavor",
+    "tutor:focuspunch",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:iceball",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:signalbeam",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:tripleaxel",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:detect",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:futuresight",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:happyhour"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "8-33",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_peak"
+          ],
+          "exclude": [
+            "#cobblemon:is_volcanic"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0225_delibird.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 100.0,
+        "levels": "8-33",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0225_delibird.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "aether:present"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/delibird.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/delibird_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/delibird.json"
+  ]
+}

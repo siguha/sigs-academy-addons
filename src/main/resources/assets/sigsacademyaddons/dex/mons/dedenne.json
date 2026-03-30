@@ -1,0 +1,201 @@
+{
+  "id": "dedenne",
+  "dexnum": 702,
+  "name": "Dedenne",
+  "primaryType": "electric",
+  "secondaryType": "fairy",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "cheekpouch",
+    "pickup",
+    "h:plus"
+  ],
+  "eggGroups": [
+    "field",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 67,
+    "attack": 58,
+    "defence": 57,
+    "special_attack": 81,
+    "special_defence": 67,
+    "speed": 101
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 180,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tailwhip",
+    "1:nuzzle",
+    "5:tackle",
+    "10:charge",
+    "15:thundershock",
+    "20:charm",
+    "25:paraboliccharge",
+    "30:voltswitch",
+    "35:rest",
+    "35:snore",
+    "40:discharge",
+    "45:playrough",
+    "50:superfang",
+    "55:entrainment",
+    "60:thunder",
+    "egg:covet",
+    "egg:magnetrise",
+    "egg:naturalgift",
+    "egg:tearfullook",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:covet",
+    "tm:cut",
+    "tm:dazzlinggleam",
+    "tm:dig",
+    "tm:drainingkiss",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:fling",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:irontail",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:mistyterrain",
+    "tm:naturalgift",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:risingvoltage",
+    "tm:seedbomb",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:uturn",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:allyswitch",
+    "tutor:chargebeam",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:electroweb",
+    "tutor:endeavor",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:irontail",
+    "tutor:lastresort",
+    "tutor:magnetrise",
+    "tutor:playrough",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:seedbomb",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:superfang",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:wildcharge",
+    "legacy:aerialace",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "18-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_savanna",
+            "#cobblemon:is_shrubland"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0702_dedenne.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/dedenne.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/dedenne_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/dedenne.json"
+  ]
+}

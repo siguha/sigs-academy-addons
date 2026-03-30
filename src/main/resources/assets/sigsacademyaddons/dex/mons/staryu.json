@@ -1,0 +1,384 @@
+{
+  "id": "staryu",
+  "dexnum": 120,
+  "name": "Staryu",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": -1,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "illuminate",
+    "naturalcure",
+    "h:analytic"
+  ],
+  "eggGroups": [
+    "water_3"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 45,
+    "defence": 55,
+    "special_attack": 70,
+    "special_defence": 55,
+    "speed": 85
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "slow",
+  "catchRate": 225,
+  "drops": {
+    "amount": 0,
+    "entries": []
+  },
+  "moves": [
+    "1:tackle",
+    "1:harden",
+    "1:psywave",
+    "4:watergun",
+    "8:confuseray",
+    "12:rapidspin",
+    "16:minimize",
+    "20:swift",
+    "24:psybeam",
+    "28:brine",
+    "32:lightscreen",
+    "36:powergem",
+    "40:psychic",
+    "44:surf",
+    "48:recover",
+    "52:cosmicpower",
+    "56:hydropump",
+    "egg:bubblebeam",
+    "egg:camouflage",
+    "egg:reflecttype",
+    "tm:blizzard",
+    "tm:brine",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:dive",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:flipturn",
+    "tm:gravity",
+    "tm:gyroball",
+    "tm:hail",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:painsplit",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rollout",
+    "tm:scald",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:triattack",
+    "tm:twister",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:dazzlinggleam",
+    "tutor:dive",
+    "tutor:flashcannon",
+    "tutor:flipturn",
+    "tutor:gravity",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:magiccoat",
+    "tutor:painsplit",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rollout",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:twister",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:takedown",
+    "legacy:teleport",
+    "legacy:toxic",
+    "legacy:zapcannon"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "staryu_starmie",
+      "variant": "item_interact",
+      "result": "starmie",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:water_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 9.2,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0120_staryu.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 5.52,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0120_staryu.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 5.52,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0120_staryu.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.84,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0120_staryu.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 5.52,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0120_staryu.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 5.52,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0120_staryu.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.84,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0120_staryu.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 5.52,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0120_staryu.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 5.52,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0120_staryu.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.84,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0120_staryu.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/staryu.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/staryu_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/staryu.json"
+  ]
+}

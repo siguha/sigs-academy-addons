@@ -1,0 +1,251 @@
+{
+  "id": "magnezone",
+  "dexnum": 462,
+  "name": "Magnezone",
+  "primaryType": "electric",
+  "secondaryType": "steel",
+  "maleRatio": -1,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "magnetpull",
+    "sturdy",
+    "h:analytic"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 70,
+    "defence": 115,
+    "special_attack": 130,
+    "special_defence": 90,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 30,
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:raw_iron",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:magnet",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:metal_coat",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:shuca_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:mirrorcoat",
+    "1:barrier",
+    "1:tackle",
+    "1:thundershock",
+    "1:supersonic",
+    "1:sonicboom",
+    "1:thunderwave",
+    "1:magnetbomb",
+    "1:mirrorshot",
+    "1:magneticflux",
+    "1:electricterrain",
+    "1:triattack",
+    "12:electroball",
+    "16:gyroball",
+    "20:spark",
+    "24:screech",
+    "28:magnetrise",
+    "34:flashcannon",
+    "40:discharge",
+    "46:metalsound",
+    "52:lightscreen",
+    "58:lockon",
+    "64:zapcannon",
+    "egg:electroweb",
+    "egg:explosion",
+    "egg:mirrorshot",
+    "egg:sonicboom",
+    "tm:allyswitch",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:doubleedge",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:gigaimpact",
+    "tm:gravity",
+    "tm:gyroball",
+    "tm:hardpress",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:magnetrise",
+    "tm:metalsound",
+    "tm:protect",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:rollout",
+    "tm:sandstorm",
+    "tm:screech",
+    "tm:selfdestruct",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:steelbeam",
+    "tm:steelroller",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:supercellslam",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:triattack",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:allyswitch",
+    "tutor:chargebeam",
+    "tutor:electroweb",
+    "tutor:flashcannon",
+    "tutor:gravity",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:magiccoat",
+    "tutor:magnetrise",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:rollout",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:steelbeam",
+    "tutor:steelroller",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:wildcharge",
+    "legacy:bide",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:psychup",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:teleport",
+    "legacy:toxic",
+    "special:refresh"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "redstone"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.8,
+        "levels": "42-54",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0462_magnezone.json"
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.01,
+        "levels": "42-54",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0462_magnezone.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:lightning_rod"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/magnezone.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/magnezone_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/magnezone.json"
+  ]
+}

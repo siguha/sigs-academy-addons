@@ -1,0 +1,291 @@
+{
+  "id": "slurpuff",
+  "dexnum": 685,
+  "name": "Slurpuff",
+  "primaryType": "fairy",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "sweetveil",
+    "h:unburden"
+  ],
+  "eggGroups": [
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 82,
+    "attack": 80,
+    "defence": 86,
+    "special_attack": 85,
+    "special_defence": 75,
+    "speed": 72
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 140,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:sugar",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:cake",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:babiri_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:sweetscent",
+    "1:tackle",
+    "1:fairywind",
+    "1:playnice",
+    "9:aromatherapy",
+    "12:drainingkiss",
+    "15:faketears",
+    "18:round",
+    "21:stringshot",
+    "24:cottonspore",
+    "27:energyball",
+    "30:wish",
+    "33:playrough",
+    "36:cottonguard",
+    "39:endeavor",
+    "42:stickyweb",
+    "egg:afteryou",
+    "egg:bellydrum",
+    "egg:copycat",
+    "egg:stickyweb",
+    "egg:yawn",
+    "tm:afteryou",
+    "tm:amnesia",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:dreameater",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:gastroacid",
+    "tm:gigaimpact",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:metronome",
+    "tm:mistyexplosion",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:round",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:stringshot",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tutor:afteryou",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:drainpunch",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:flamethrower",
+    "tutor:gastroacid",
+    "tutor:gigaimpact",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:magiccoat",
+    "tutor:mistyexplosion",
+    "tutor:playrough",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:stringshot",
+    "tutor:thunderbolt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "mansion_dining"
+        ],
+        "rarity": "common",
+        "weight": 0.3,
+        "levels": "29-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0685_slurpuff.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.5,
+        "levels": "29-48",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0685_slurpuff.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:cake"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.48,
+        "levels": "29-48",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0685_slurpuff.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:sugar_cane"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.3,
+        "levels": "29-48",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0685_slurpuff.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "#cobblemon:saccharine_trees"
+          ],
+          "resolved": [
+            "cobblemon:saccharine_leaves",
+            "cobblemon:saccharine_log",
+            "cobblemon:saccharine_wood",
+            "cobblemon:stripped_saccharine_log",
+            "cobblemon:stripped_saccharine_wood"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.05,
+        "levels": "25-50",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_magical"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0685_slurpuff.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/slurpuff.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/slurpuff_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/slurpuff.json"
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "id": "totodile",
+  "dexnum": 158,
+  "name": "Totodile",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen2",
+    "starter"
+  ],
+  "abilities": [
+    "torrent",
+    "h:sheerforce"
+  ],
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 64,
+    "special_attack": 44,
+    "special_defence": 48,
+    "speed": 43
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:leer",
+    "1:rage",
+    "6:watergun",
+    "9:bite",
+    "13:scaryface",
+    "19:icefang",
+    "22:flail",
+    "27:crunch",
+    "30:slash",
+    "33:screech",
+    "37:thrash",
+    "41:aquatail",
+    "45:superpower",
+    "50:hydropump",
+    "egg:ancientpower",
+    "egg:aquajet",
+    "egg:block",
+    "egg:chipaway",
+    "egg:counter",
+    "egg:flatter",
+    "egg:mudsport",
+    "egg:watersport",
+    "tm:aerialace",
+    "tm:ancientpower",
+    "tm:aquatail",
+    "tm:blizzard",
+    "tm:block",
+    "tm:breakingswipe",
+    "tm:brickbreak",
+    "tm:chillingwater",
+    "tm:crunch",
+    "tm:curse",
+    "tm:cut",
+    "tm:dig",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fling",
+    "tm:flipturn",
+    "tm:focuspunch",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:honeclaws",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:liquidation",
+    "tm:lowkick",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metalclaw",
+    "tm:muddywater",
+    "tm:mudslap",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:spite",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:surf",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:uproar",
+    "tm:waterfall",
+    "tm:waterpledge",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:ancientpower",
+    "tutor:aquatail",
+    "tutor:block",
+    "tutor:dive",
+    "tutor:endeavor",
+    "tutor:flipturn",
+    "tutor:focuspunch",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:liquidation",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:superpower",
+    "tutor:uproar",
+    "tutor:waterpledge",
+    "tutor:waterpulse"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "totodile_croconaw",
+      "variant": "level_up",
+      "result": "croconaw",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0158_totodile.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0158_totodile.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0158_totodile.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0158_totodile.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0158_totodile.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/totodile.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/totodile_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/totodile.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation2\\totodile.json"
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "id": "audino",
+  "dexnum": 531,
+  "name": "Audino",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "healer",
+    "regenerator",
+    "h:klutz"
+  ],
+  "eggGroups": [
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 103,
+    "attack": 60,
+    "defence": 86,
+    "special_attack": 60,
+    "special_defence": 86,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:fairy_feather",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:refresh",
+    "1:doubleslap",
+    "1:playnice",
+    "1:attract",
+    "1:secretpower",
+    "4:disarmingvoice",
+    "9:babydolleyes",
+    "12:helpinghand",
+    "16:growl",
+    "20:zenheadbutt",
+    "24:lifedew",
+    "28:afteryou",
+    "32:takedown",
+    "36:simplebeam",
+    "40:hypervoice",
+    "44:healpulse",
+    "48:doubleedge",
+    "52:entrainment",
+    "56:mistyterrain",
+    "60:lastresort",
+    "egg:bestow",
+    "egg:healingwish",
+    "egg:luckychant",
+    "egg:sweetkiss",
+    "egg:wish",
+    "egg:yawn",
+    "tm:afteryou",
+    "tm:allyswitch",
+    "tm:amnesia",
+    "tm:attract",
+    "tm:babydolleyes",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:dig",
+    "tm:disarmingvoice",
+    "tm:doubleedge",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:dreameater",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:lowkick",
+    "tm:magiccoat",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:mistyterrain",
+    "tm:painsplit",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:secretpower",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:solarbeam",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:takedown",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:trickroom",
+    "tm:uproar",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:afteryou",
+    "tutor:allyswitch",
+    "tutor:babydolleyes",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:drainpunch",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:laserfocus",
+    "tutor:lastresort",
+    "tutor:lowkick",
+    "tutor:magiccoat",
+    "tutor:painsplit",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:shadowball",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:stompingtantrum",
+    "tutor:telekinesis",
+    "tutor:throatchop",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:uproar",
+    "tutor:wildcharge",
+    "tutor:zenheadbutt",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:present"
+  ],
+  "forms": [
+    "Mega"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 5.0,
+        "levels": "19-47",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_plains",
+            "#cobblemon:is_highlands",
+            "#cobblemon:is_forest"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0531_audino.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 5.0,
+        "levels": "19-47",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_plains",
+            "#cobblemon:is_highlands",
+            "#cobblemon:is_forest"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0531_audino.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/audino.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/audino_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/audino.json"
+  ]
+}

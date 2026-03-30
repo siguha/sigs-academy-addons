@@ -1,0 +1,213 @@
+{
+  "id": "budew",
+  "dexnum": 406,
+  "name": "Budew",
+  "primaryType": "grass",
+  "secondaryType": "poison",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4",
+    "baby"
+  ],
+  "abilities": [
+    "naturalcure",
+    "poisonpoint",
+    "h:leafguard"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 30,
+    "defence": 35,
+    "special_attack": 50,
+    "special_defence": 70,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 255,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:absorb_bulb",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:absorb",
+    "1:growth",
+    "1:watersport",
+    "1:stunspore",
+    "1:megadrain",
+    "1:worryseed",
+    "egg:cottonspore",
+    "egg:extrasensory",
+    "egg:grasswhistle",
+    "egg:lifedew",
+    "egg:mindreader",
+    "egg:naturalgift",
+    "egg:razorleaf",
+    "egg:sleeppowder",
+    "egg:synthesis",
+    "tm:bulletseed",
+    "tm:covet",
+    "tm:cut",
+    "tm:dazzlinggleam",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:leafstorm",
+    "tm:mudslap",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:pinmissile",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:solarbeam",
+    "tm:spikes",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:terablast",
+    "tm:uproar",
+    "tm:venoshock",
+    "tm:weatherball",
+    "tm:worryseed",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:grassyglide",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spikes",
+    "tutor:swift",
+    "tutor:synthesis",
+    "tutor:uproar",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "budew_roselia",
+      "variant": "level_up",
+      "result": "roselia",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "poisonsting"
+      ],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_floral"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0406_budew.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:floral_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0406_budew.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/budew.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/budew_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/budew.json"
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "id": "chespin",
+  "dexnum": 650,
+  "name": "Chespin",
+  "primaryType": "grass",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen6",
+    "starter"
+  ],
+  "abilities": [
+    "overgrow",
+    "h:bulletproof"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 56,
+    "attack": 61,
+    "defence": 65,
+    "special_attack": 48,
+    "special_defence": 45,
+    "speed": 38
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "1:vinewhip",
+    "8:rollout",
+    "11:bite",
+    "15:leechseed",
+    "18:pinmissile",
+    "27:takedown",
+    "32:seedbomb",
+    "35:mudshot",
+    "42:bodyslam",
+    "45:painsplit",
+    "48:woodhammer",
+    "egg:bellydrum",
+    "egg:curse",
+    "egg:defensecurl",
+    "egg:quickguard",
+    "egg:spikes",
+    "egg:superfang",
+    "egg:synthesis",
+    "egg:wideguard",
+    "tm:aerialace",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:curse",
+    "tm:cut",
+    "tm:dig",
+    "tm:drainpunch",
+    "tm:dualchop",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:helpinghand",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:leafstorm",
+    "tm:lowkick",
+    "tm:magicalleaf",
+    "tm:metalclaw",
+    "tm:mudshot",
+    "tm:naturepower",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:seedbomb",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spikes",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:superpower",
+    "tm:swift",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunderpunch",
+    "tm:trailblaze",
+    "tm:workup",
+    "tm:worryseed",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:bulldoze",
+    "tutor:drainpunch",
+    "tutor:dualchop",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:focuspunch",
+    "tutor:gigadrain",
+    "tutor:grasspledge",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:lowkick",
+    "tutor:magicalleaf",
+    "tutor:painsplit",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:stompingtantrum",
+    "tutor:superfang",
+    "tutor:superpower",
+    "tutor:swift",
+    "tutor:synthesis",
+    "tutor:thunderpunch",
+    "tutor:worryseed",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "chespin_quilladin",
+      "variant": "level_up",
+      "result": "quilladin",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "needlearm"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest"
+          ],
+          "exclude": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0650_chespin.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/chespin.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/chespin_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/chespin.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation6\\chespin.json"
+  ]
+}

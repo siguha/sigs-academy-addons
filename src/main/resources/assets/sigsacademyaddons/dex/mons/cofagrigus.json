@@ -1,0 +1,232 @@
+{
+  "id": "cofagrigus",
+  "dexnum": 563,
+  "name": "Cofagrigus",
+  "primaryType": "ghost",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "mummy",
+    "h:mummy"
+  ],
+  "eggGroups": [
+    "mineral",
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 58,
+    "attack": 50,
+    "defence": 145,
+    "special_attack": 95,
+    "special_defence": 105,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 90,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:spell_tag",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:astonish",
+    "1:protect",
+    "1:haze",
+    "1:nightshade",
+    "1:scaryface",
+    "1:shadowclaw",
+    "12:disable",
+    "16:willowisp",
+    "20:craftyshield",
+    "24:hex",
+    "28:meanlook",
+    "32:grudge",
+    "38:curse",
+    "44:shadowball",
+    "50:darkpulse",
+    "56:powersplit",
+    "56:guardsplit",
+    "62:destinybond",
+    "egg:healblock",
+    "egg:memento",
+    "egg:nightmare",
+    "tm:afteryou",
+    "tm:allyswitch",
+    "tm:block",
+    "tm:bodypress",
+    "tm:calmmind",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dreameater",
+    "tm:embargo",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:guardswap",
+    "tm:haze",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:knockoff",
+    "tm:magiccoat",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:ominouswind",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:revenge",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:scaryface",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:spite",
+    "tm:substitute",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:toxicspikes",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:afteryou",
+    "tutor:allyswitch",
+    "tutor:block",
+    "tutor:calmmind",
+    "tutor:darkpulse",
+    "tutor:energyball",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:knockoff",
+    "tutor:magiccoat",
+    "tutor:ominouswind",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:shockwave",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:spite",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.32,
+        "levels": "34-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_desert"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0563_cofagrigus.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "desert_pyramid"
+        ],
+        "rarity": "common",
+        "weight": 10.0,
+        "levels": "34-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0563_cofagrigus.json",
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": 48
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/cofagrigus.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/cofagrigus_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/cofagrigus.json"
+  ]
+}

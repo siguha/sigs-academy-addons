@@ -1,0 +1,204 @@
+{
+  "id": "morgrem",
+  "dexnum": 860,
+  "name": "Morgrem",
+  "primaryType": "dark",
+  "secondaryType": "fairy",
+  "maleRatio": 1,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "prankster",
+    "frisk",
+    "h:pickpocket"
+  ],
+  "eggGroups": [
+    "fairy",
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 60,
+    "defence": 45,
+    "special_attack": 75,
+    "special_defence": 55,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 120,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:roseli_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:falsesurrender",
+    "1:fakeout",
+    "1:confide",
+    "1:bite",
+    "1:flatter",
+    "12:faketears",
+    "16:assurance",
+    "20:swagger",
+    "24:suckerpunch",
+    "28:torment",
+    "35:darkpulse",
+    "40:nastyplot",
+    "46:playrough",
+    "52:foulplay",
+    "egg:partingshot",
+    "tm:assurance",
+    "tm:burningjealousy",
+    "tm:chillingwater",
+    "tm:confide",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fling",
+    "tm:foulplay",
+    "tm:imprison",
+    "tm:lashout",
+    "tm:leechlife",
+    "tm:lightscreen",
+    "tm:lowkick",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:mistyterrain",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:scaryface",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:trailblaze",
+    "tm:trick",
+    "tutor:burningjealousy",
+    "tutor:darkpulse",
+    "tutor:dazzlinggleam",
+    "tutor:drainpunch",
+    "tutor:foulplay",
+    "tutor:lashout",
+    "tutor:leechlife",
+    "tutor:lowkick",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:suckerpunch",
+    "tutor:throatchop",
+    "tutor:trick",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:uproar"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "morgrem_grimmsnarl",
+      "variant": "level_up",
+      "result": "grimmsnarl",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "spiritbreak"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.54,
+        "levels": "32-37",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_magical"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0860_morgrem.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.54,
+        "levels": "32-37",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_forest",
+            "#cobblemon:nether/is_warped"
+          ],
+          "exclude": [
+            "#cobblemon:nether/is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0860_morgrem.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/morgrem.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/morgrem_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/morgrem.json"
+  ]
+}

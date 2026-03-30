@@ -1,0 +1,237 @@
+{
+  "id": "quilava",
+  "dexnum": 156,
+  "name": "Quilava",
+  "primaryType": "fire",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen2",
+    "johtonian_form"
+  ],
+  "abilities": [
+    "blaze",
+    "h:flashfire"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 58,
+    "attack": 64,
+    "defence": 58,
+    "special_attack": 80,
+    "special_defence": 65,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "1:smokescreen",
+    "10:ember",
+    "13:quickattack",
+    "20:flamewheel",
+    "24:defensecurl",
+    "31:swift",
+    "35:flamecharge",
+    "42:lavaplume",
+    "46:flamethrower",
+    "53:inferno",
+    "57:rollout",
+    "64:doubleedge",
+    "68:overheat",
+    "75:eruption",
+    "egg:covet",
+    "egg:crushclaw",
+    "egg:curse",
+    "egg:doublekick",
+    "egg:extrasensory",
+    "egg:flameburst",
+    "egg:foresight",
+    "egg:furyswipes",
+    "egg:howl",
+    "egg:reversal",
+    "egg:thrash",
+    "tm:aerialace",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:burningjealousy",
+    "tm:burnup",
+    "tm:covet",
+    "tm:curse",
+    "tm:cut",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firepledge",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:furycutter",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:incinerate",
+    "tm:ironhead",
+    "tm:naturepower",
+    "tm:overheat",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:rollout",
+    "tm:sleeptalk",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:wildcharge",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:blastburn",
+    "tutor:burningjealousy",
+    "tutor:covet",
+    "tutor:endeavor",
+    "tutor:firefang",
+    "tutor:firepledge",
+    "tutor:flamethrower",
+    "tutor:furycutter",
+    "tutor:heatwave",
+    "tutor:ironhead",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:wildcharge",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:detect",
+    "legacy:doubleteam",
+    "legacy:focuspunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:irontail",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:submission",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:blastburn"
+  ],
+  "forms": [
+    "Hisui-Bias"
+  ],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "quilava_typhlosion",
+      "variant": "level_up",
+      "result": "typhlosion",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]
+    },
+    {
+      "id": "quilava_typhlosionhisui",
+      "variant": "level_up",
+      "result": "typhlosion hisuian",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "infernalparade"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/regional/quilava_hisuibiome"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "17-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_temperate"
+          ],
+          "exclude": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0156_quilava.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/quilava.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/quilava_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/quilava.json"
+  ]
+}

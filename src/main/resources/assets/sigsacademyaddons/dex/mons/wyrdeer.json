@@ -1,0 +1,216 @@
+{
+  "id": "wyrdeer",
+  "dexnum": 899,
+  "name": "Wyrdeer",
+  "primaryType": "normal",
+  "secondaryType": "psychic",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8a"
+  ],
+  "abilities": [
+    "intimidate",
+    "frisk",
+    "h:sapsipper"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 103,
+    "attack": 105,
+    "defence": 72,
+    "special_attack": 105,
+    "special_defence": 75,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:psyshieldbash",
+    "1:tackle",
+    "1:mefirst",
+    "1:jumpkick",
+    "1:captivate",
+    "3:leer",
+    "7:astonish",
+    "10:hypnosis",
+    "13:stomp",
+    "16:sandattack",
+    "21:takedown",
+    "23:confuseray",
+    "27:calmmind",
+    "32:roleplay",
+    "37:zenheadbutt",
+    "49:imprison",
+    "55:doubleedge",
+    "62:megahorn",
+    "egg:bite",
+    "egg:disable",
+    "egg:doublekick",
+    "egg:extrasensory",
+    "egg:mefirst",
+    "egg:megahorn",
+    "egg:mudsport",
+    "egg:psyshieldbash",
+    "egg:rage",
+    "egg:spite",
+    "egg:swagger",
+    "egg:thrash",
+    "tm:agility",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:gravity",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:irontail",
+    "tm:lightscreen",
+    "tm:lunge",
+    "tm:megahorn",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:roar",
+    "tm:roleplay",
+    "tm:scaryface",
+    "tm:shadowball",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:uproar",
+    "tm:wildcharge",
+    "tm:zenheadbutt",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:earthpower",
+    "tutor:energyball",
+    "tutor:expandingforce",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:irontail",
+    "tutor:megahorn",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:thunderbolt",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:wildcharge",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "42-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_snowy_forest",
+            "#cobblemon:is_snowy_taiga",
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0899_wyrdeer.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/wyrdeer.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/wyrdeer_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8a/wyrdeer.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation8a\\wyrdeer.json"
+  ]
+}

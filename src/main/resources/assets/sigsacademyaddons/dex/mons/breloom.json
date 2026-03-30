@@ -1,0 +1,270 @@
+{
+  "id": "breloom",
+  "dexnum": 286,
+  "name": "Breloom",
+  "primaryType": "grass",
+  "secondaryType": "fighting",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "effectspore",
+    "poisonheal",
+    "h:technician"
+  ],
+  "eggGroups": [
+    "fairy",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 130,
+    "defence": 80,
+    "special_attack": 60,
+    "special_defence": 60,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "fluctuating",
+  "catchRate": 90,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:brown_mushroom",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:kebia_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:absorb",
+    "1:tackle",
+    "1:stunspore",
+    "1:leechseed",
+    "1:machpunch",
+    "1:skyuppercut",
+    "1:mindreader",
+    "1:gigadrain",
+    "1:poisonpowder",
+    "1:growth",
+    "1:toxic",
+    "1:spore",
+    "12:megadrain",
+    "15:headbutt",
+    "19:feint",
+    "22:counter",
+    "28:forcepalm",
+    "33:worryseed",
+    "39:brickbreak",
+    "44:seedbomb",
+    "50:dynamicpunch",
+    "55:focuspunch",
+    "egg:charm",
+    "egg:faketears",
+    "egg:helpinghand",
+    "egg:naturalgift",
+    "egg:swagger",
+    "egg:wakeupslap",
+    "egg:worryseed",
+    "tm:aerialace",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:closecombat",
+    "tm:cut",
+    "tm:dig",
+    "tm:drainpunch",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:falseswipe",
+    "tm:flash",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyterrain",
+    "tm:gunkshot",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:leafstorm",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:magicalleaf",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:naturalgift",
+    "tm:poisonjab",
+    "tm:pounce",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:snatch",
+    "tm:solarbeam",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:swagger",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:venoshock",
+    "tm:workup",
+    "tm:worryseed",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:drainpunch",
+    "tutor:energyball",
+    "tutor:falseswipe",
+    "tutor:furycutter",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:lowkick",
+    "tutor:magicalleaf",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snatch",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:swift",
+    "tutor:synthesis",
+    "tutor:thunderpunch",
+    "tutor:worryseed",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:snore",
+    "legacy:vacuumwave",
+    "special:refresh"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "23-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "aether:skyroot_forest",
+            "aether:skyroot_woodland"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0286_breloom.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "23-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mushroom"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0286_breloom.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/breloom.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/breloom_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/breloom.json"
+  ]
+}

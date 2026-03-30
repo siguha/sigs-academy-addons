@@ -1,0 +1,248 @@
+{
+  "id": "growlithe",
+  "dexnum": 58,
+  "name": "Growlithe",
+  "primaryType": "fire",
+  "secondaryType": "",
+  "maleRatio": 0.75,
+  "labels": [
+    "gen1",
+    "kantonian_form"
+  ],
+  "abilities": [
+    "intimidate",
+    "flashfire",
+    "h:justified"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 70,
+    "defence": 45,
+    "special_attack": 70,
+    "special_defence": 50,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 190,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:ember",
+    "1:leer",
+    "1:odorsleuth",
+    "4:howl",
+    "8:bite",
+    "12:flamewheel",
+    "16:helpinghand",
+    "20:agility",
+    "24:firefang",
+    "28:flameburst",
+    "32:crunch",
+    "36:takedown",
+    "40:flamethrower",
+    "44:roar",
+    "48:playrough",
+    "52:reversal",
+    "56:flareblitz",
+    "egg:burnup",
+    "egg:covet",
+    "egg:doubleedge",
+    "egg:doublekick",
+    "egg:morningsun",
+    "egg:ragingfury",
+    "egg:thrash",
+    "tm:agility",
+    "tm:bodyslam",
+    "tm:charm",
+    "tm:closecombat",
+    "tm:covet",
+    "tm:crunch",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:outrage",
+    "tm:overheat",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:safeguard",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderfang",
+    "tm:wildcharge",
+    "tm:willowisp",
+    "tutor:covet",
+    "tutor:firefang",
+    "tutor:flamethrower",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:outrage",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:swift",
+    "tutor:thunderfang",
+    "tutor:wildcharge",
+    "legacy:aerialace",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:dragonbreath",
+    "legacy:dragonrage",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [
+    "Hisui"
+  ],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "growlithe_arcanine",
+      "variant": "item_interact",
+      "result": "arcanine",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "extremespeed"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:fire_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "uncommon",
+        "weight": 9.2,
+        "levels": "10-35",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0058_growlithe.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 9.2,
+        "levels": "10-35",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0058_growlithe.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/genomons/growlithe.png",
+      "out/sprites/cobblemon/growlithe.png"
+    ],
+    "shiny": [
+      "out/sprites/genomons/growlithe_shiny.png",
+      "out/sprites/cobblemon/growlithe_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/growlithe.json"
+  ]
+}

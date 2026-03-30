@@ -1,0 +1,218 @@
+{
+  "id": "indeedee",
+  "dexnum": 876,
+  "name": "Indeedee",
+  "primaryType": "psychic",
+  "secondaryType": "normal",
+  "maleRatio": 1,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "innerfocus",
+    "synchronize",
+    "h:psychicsurge"
+  ],
+  "eggGroups": [
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 65,
+    "defence": 55,
+    "special_attack": 105,
+    "special_defence": 95,
+    "speed": 95
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "fast",
+  "catchRate": 30,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:room_service",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:bluk_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:storedpower",
+    "1:playnice",
+    "5:encore",
+    "10:disarmingvoice",
+    "15:psybeam",
+    "20:helpinghand",
+    "25:afteryou",
+    "30:healingwish",
+    "35:psychic",
+    "40:calmmind",
+    "45:powersplit",
+    "50:psychicterrain",
+    "55:lastresort",
+    "egg:aromatherapy",
+    "egg:extrasensory",
+    "egg:fakeout",
+    "egg:psychup",
+    "tm:afteryou",
+    "tm:allyswitch",
+    "tm:bodyslam",
+    "tm:calmmind",
+    "tm:dazzlinggleam",
+    "tm:disarmingvoice",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:encore",
+    "tm:endure",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:gravity",
+    "tm:helpinghand",
+    "tm:hypervoice",
+    "tm:imprison",
+    "tm:lastresort",
+    "tm:magicalleaf",
+    "tm:magicroom",
+    "tm:metronome",
+    "tm:mysticalfire",
+    "tm:payday",
+    "tm:playrough",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:psychicterrain",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:rest",
+    "tm:shadowball",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:terrainpulse",
+    "tm:triattack",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:afteryou",
+    "tutor:allyswitch",
+    "tutor:calmmind",
+    "tutor:dazzlinggleam",
+    "tutor:drainpunch",
+    "tutor:energyball",
+    "tutor:expandingforce",
+    "tutor:gravity",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:lastresort",
+    "tutor:magicalleaf",
+    "tutor:magicroom",
+    "tutor:mysticalfire",
+    "tutor:playrough",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:terrainpulse",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:futuresight",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [
+    "F"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 1.0,
+        "levels": "28-46",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_magical"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0876_indeedee.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 1.0,
+        "levels": "28-46",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_magical"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0876_indeedee.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/wavimons/indeedee.png",
+      "out/sprites/wavimons/indeedee_female.png",
+      "out/sprites/cobblemon/indeedee.png",
+      "out/sprites/cobblemon/indeedee_female.png"
+    ],
+    "shiny": [
+      "out/sprites/wavimons/indeedee_female_shiny.png",
+      "out/sprites/wavimons/indeedee_shiny.png",
+      "out/sprites/cobblemon/indeedee_female_shiny.png",
+      "out/sprites/cobblemon/indeedee_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/indeedee.json"
+  ]
+}

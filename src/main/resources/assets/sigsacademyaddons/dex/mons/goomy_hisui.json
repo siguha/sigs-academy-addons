@@ -1,0 +1,315 @@
+{
+  "id": "goomy_hisui",
+  "dexnum": 704,
+  "name": "Goomy Hisui-Bias",
+  "primaryType": "dragon",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8a",
+    "customized_official",
+    "hisuian_form"
+  ],
+  "abilities": [
+    "sapsipper",
+    "hydration",
+    "h:gooey"
+  ],
+  "eggGroups": [
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 50,
+    "defence": 35,
+    "special_attack": 55,
+    "special_defence": 75,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:slime_ball",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:shed_shell",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:haban_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:bubble",
+    "1:absorb",
+    "1:bide",
+    "5:watergun",
+    "10:dragonbreath",
+    "15:protect",
+    "20:flail",
+    "25:waterpulse",
+    "30:raindance",
+    "35:dragonpulse",
+    "41:curse",
+    "45:bodyslam",
+    "50:muddywater",
+    "egg:counter",
+    "egg:lifedew",
+    "tm:acidarmor",
+    "tm:bodyslam",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:curse",
+    "tm:dracometeor",
+    "tm:dragonpulse",
+    "tm:endure",
+    "tm:facade",
+    "tm:infestation",
+    "tm:irontail",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:outrage",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:shockwave",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunderbolt",
+    "tm:waterpulse",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:irontail",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:shockwave",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:thunderbolt",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:poisontail",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "goomy_sliggoo",
+      "variant": "level_up",
+      "result": "sliggoo",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "acidspray"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/regional/goomy_kalosbiome"
+        }
+      ]
+    },
+    {
+      "id": "goomy_sliggoohisui",
+      "variant": "level_up",
+      "result": "sliggoo hisuian",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "shelter"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "rare",
+        "weight": 7.5,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0704_goomy.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0704_goomy.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "rare",
+        "weight": 7.5,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0704_goomy.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0704_goomy.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 7.5,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0704_goomy.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean",
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0704_goomy.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/goomy_hisui_bias.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/goomy_hisui_bias_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/goomy.json"
+  ]
+}

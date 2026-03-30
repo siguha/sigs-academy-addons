@@ -1,0 +1,187 @@
+{
+  "id": "ironhands",
+  "dexnum": 992,
+  "name": "Iron Hands",
+  "primaryType": "fighting",
+  "secondaryType": "electric",
+  "maleRatio": -1,
+  "labels": [
+    "gen9",
+    "paradox"
+  ],
+  "abilities": [
+    "quarkdrive",
+    "h:quarkdrive"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 154,
+    "attack": 140,
+    "defence": 108,
+    "special_attack": 50,
+    "special_defence": 68,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 50,
+  "drops": {
+    "amount": 0,
+    "entries": []
+  },
+  "moves": [
+    "1:sandattack",
+    "1:tackle",
+    "1:focusenergy",
+    "1:armthrust",
+    "1:electricterrain",
+    "7:fakeout",
+    "14:whirlwind",
+    "21:thunderpunch",
+    "28:slam",
+    "35:forcepalm",
+    "42:seismictoss",
+    "49:charge",
+    "56:wildcharge",
+    "63:closecombat",
+    "70:detect",
+    "77:heavyslam",
+    "84:bellydrum",
+    "91:focuspunch",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:charge",
+    "tm:closecombat",
+    "tm:doubleedge",
+    "tm:drainpunch",
+    "tm:earthquake",
+    "tm:electricterrain",
+    "tm:endure",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:gigaimpact",
+    "tm:hardpress",
+    "tm:heavyslam",
+    "tm:hyperbeam",
+    "tm:icepunch",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:metronome",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:reversal",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:supercellslam",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:bulldoze",
+    "tutor:drainpunch",
+    "tutor:firepunch",
+    "tutor:focusenergy",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icepunch",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:lowkick",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:wildcharge"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.2,
+        "levels": "30-50",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/paradox_spawns/spawn_pool_world/0992_ironhands.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.2,
+        "levels": "30-50",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/paradox_spawns_ccc/spawn_pool_world/0992_ironhands.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/ironhands.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/ironhands_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ironhands.json"
+  ]
+}

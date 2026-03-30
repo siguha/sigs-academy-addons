@@ -1,0 +1,202 @@
+{
+  "id": "ponyta_galar",
+  "dexnum": 77,
+  "name": "Ponyta Galar",
+  "primaryType": "psychic",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8",
+    "galarian_form"
+  ],
+  "abilities": [
+    "runaway",
+    "pastelveil",
+    "h:anticipation"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 85,
+    "defence": 55,
+    "special_attack": 65,
+    "special_defence": 65,
+    "speed": 90
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:razz_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "5:tailwhip",
+    "10:confusion",
+    "15:fairywind",
+    "20:agility",
+    "25:psybeam",
+    "30:stomp",
+    "35:healpulse",
+    "41:takedown",
+    "45:dazzlinggleam",
+    "50:psychic",
+    "55:healingwish",
+    "egg:doubleedge",
+    "egg:doublekick",
+    "egg:horndrill",
+    "egg:hypnosis",
+    "egg:morningsun",
+    "egg:thrash",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:dazzlinggleam",
+    "tm:doubleedge",
+    "tm:endure",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:futuresight",
+    "tm:highhorsepower",
+    "tm:imprison",
+    "tm:irontail",
+    "tm:lowkick",
+    "tm:mysticalfire",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:wildcharge",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:bounce",
+    "tutor:calmmind",
+    "tutor:dazzlinggleam",
+    "tutor:expandingforce",
+    "tutor:highhorsepower",
+    "tutor:irontail",
+    "tutor:lowkick",
+    "tutor:mysticalfire",
+    "tutor:playrough",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:wildcharge",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "ponyta_rapidashgalar",
+      "variant": "level_up",
+      "result": "rapidash galarian",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "psychocut"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_floral",
+            "#cobblemon:is_magical"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0077_ponyta.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0077_ponyta.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/ponyta_galar.png",
+      "out/sprites/cobblemon/ponyta_galarian.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/ponyta_galar_shiny.png",
+      "out/sprites/cobblemon/ponyta_galarian_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/ponyta.json"
+  ]
+}

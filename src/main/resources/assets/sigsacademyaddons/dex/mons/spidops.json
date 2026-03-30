@@ -1,0 +1,188 @@
+{
+  "id": "spidops",
+  "dexnum": 918,
+  "name": "Spidops",
+  "primaryType": "bug",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "insomnia",
+    "h:stakeout"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 79,
+    "defence": 92,
+    "special_attack": 52,
+    "special_defence": 86,
+    "speed": 35
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "erratic",
+  "catchRate": 120,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:silktrap",
+    "1:tackle",
+    "1:stringshot",
+    "5:strugglebug",
+    "8:assurance",
+    "11:feint",
+    "14:bugbite",
+    "19:block",
+    "24:counter",
+    "28:headbutt",
+    "33:stickyweb",
+    "37:gastroacid",
+    "41:circlethrow",
+    "45:throatchop",
+    "49:skittersmack",
+    "egg:firstimpression",
+    "egg:lunge",
+    "egg:memento",
+    "egg:suckerpunch",
+    "tm:aerialace",
+    "tm:assurance",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:bulletseed",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:headbutt",
+    "tm:knockoff",
+    "tm:leechlife",
+    "tm:lowkick",
+    "tm:lunge",
+    "tm:painsplit",
+    "tm:poisonjab",
+    "tm:pounce",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:reversal",
+    "tm:rocktomb",
+    "tm:scaryface",
+    "tm:shadowclaw",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:spikes",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:toxicspikes",
+    "tm:trailblaze",
+    "tm:upperhand",
+    "tm:uturn",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:block",
+    "tutor:bugbite",
+    "tutor:electroweb",
+    "tutor:falseswipe",
+    "tutor:gastroacid",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:knockoff",
+    "tutor:leechlife",
+    "tutor:lowkick",
+    "tutor:painsplit",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:shadowclaw",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:stringshot",
+    "tutor:suckerpunch",
+    "tutor:throatchop",
+    "tutor:xscissor"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "15-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_spooky",
+            "#cobblemon:is_swamp"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0918_spidops.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/spidops.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/spidops_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/spidops.json"
+  ]
+}

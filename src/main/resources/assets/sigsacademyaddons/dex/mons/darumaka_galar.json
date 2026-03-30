@@ -1,0 +1,211 @@
+{
+  "id": "darumaka_galar",
+  "dexnum": 554,
+  "name": "Darumaka Galar",
+  "primaryType": "ice",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8",
+    "galarian_form"
+  ],
+  "abilities": [
+    "hustle",
+    "h:innerfocus"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 90,
+    "defence": 45,
+    "special_attack": 15,
+    "special_defence": 45,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 120,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:ice_stone",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:occa_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:powdersnow",
+    "1:tackle",
+    "4:taunt",
+    "8:bite",
+    "12:avalanche",
+    "16:workup",
+    "20:icefang",
+    "24:headbutt",
+    "28:icepunch",
+    "32:uproar",
+    "36:bellydrum",
+    "40:blizzard",
+    "44:thrash",
+    "48:superpower",
+    "egg:flamewheel",
+    "egg:focuspunch",
+    "egg:freezedry",
+    "egg:hammerarm",
+    "egg:incinerate",
+    "egg:poweruppunch",
+    "egg:takedown",
+    "egg:yawn",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:brickbreak",
+    "tm:dig",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firepunch",
+    "tm:firespin",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:fling",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:grassknot",
+    "tm:gyroball",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:incinerate",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:overheat",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:firefang",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focusenergy",
+    "tutor:focuspunch",
+    "tutor:heatwave",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:icepunch",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:sleeptalk",
+    "tutor:superpower",
+    "tutor:uproar",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "darumaka_darmanitangalar",
+      "variant": "item_interact",
+      "result": "darmanitan blazing_mode=standard galarian",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "iciclecrash"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:ice_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 6.0,
+        "levels": "7-32",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_snowy"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0554_darumaka_galarian.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 6.0,
+        "levels": "7-32",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_snowy"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0554_darumaka_galarian.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/genomons/darumaka_galar.png",
+      "out/sprites/cobblemon/darumaka_galarian.png"
+    ],
+    "shiny": [
+      "out/sprites/genomons/darumaka_galar_shiny.png",
+      "out/sprites/cobblemon/darumaka_galarian_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/darumaka.json"
+  ]
+}

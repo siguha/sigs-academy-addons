@@ -1,0 +1,160 @@
+{
+  "id": "typenull",
+  "dexnum": 772,
+  "name": "Type: Null",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": -1,
+  "labels": [
+    "gen7",
+    "legendary"
+  ],
+  "abilities": [
+    "battlearmor",
+    "h:battlearmor"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 95,
+    "defence": 95,
+    "special_attack": 95,
+    "special_defence": 95,
+    "speed": 59
+  },
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 3,
+  "drops": {
+    "amount": 0,
+    "entries": []
+  },
+  "moves": [
+    "1:tackle",
+    "1:rage",
+    "1:pursuit",
+    "1:imprison",
+    "5:aerialace",
+    "10:scaryface",
+    "15:doublehit",
+    "20:metalsound",
+    "25:crushclaw",
+    "30:airslash",
+    "35:triattack",
+    "40:xscissor",
+    "45:ironhead",
+    "50:takedown",
+    "55:doubleedge",
+    "egg:healblock",
+    "egg:punishment",
+    "egg:razorwind",
+    "tm:aerialace",
+    "tm:airslash",
+    "tm:doubleedge",
+    "tm:dragonclaw",
+    "tm:endure",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:hyperbeam",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lastresort",
+    "tm:magiccoat",
+    "tm:metalsound",
+    "tm:payback",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:shadowclaw",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:terrainpulse",
+    "tm:thunderwave",
+    "tm:triattack",
+    "tm:uturn",
+    "tm:workup",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:lastresort",
+    "tutor:magiccoat",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:shadowclaw",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:terrainpulse",
+    "tutor:xscissor",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "typenull_silvally",
+      "variant": "level_up",
+      "result": "silvally",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "multiattack"
+      ],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ]
+    }
+  ],
+  "spawns": [],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/typenull.png",
+      "out/sprites/cobblemon/type_null.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/typenull_shiny.png",
+      "out/sprites/cobblemon/type_null_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/typenull.json"
+  ]
+}

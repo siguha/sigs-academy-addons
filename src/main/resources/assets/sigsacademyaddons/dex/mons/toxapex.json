@@ -1,0 +1,295 @@
+{
+  "id": "toxapex",
+  "dexnum": 748,
+  "name": "Toxapex",
+  "primaryType": "poison",
+  "secondaryType": "water",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "merciless",
+    "limber",
+    "h:regenerator"
+  ],
+  "eggGroups": [
+    "water_1"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 63,
+    "defence": 152,
+    "special_attack": 53,
+    "special_defence": 142,
+    "speed": 35
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:slime_ball",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:banefulbunker",
+    "1:poisonsting",
+    "1:peck",
+    "1:bite",
+    "1:wideguard",
+    "1:spikecannon",
+    "15:venoshock",
+    "20:recover",
+    "25:pinmissile",
+    "30:toxicspikes",
+    "35:liquidation",
+    "42:acidspray",
+    "49:poisonjab",
+    "56:toxic",
+    "egg:haze",
+    "egg:infestation",
+    "egg:spikecannon",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow",
+    "tm:acidspray",
+    "tm:afteryou",
+    "tm:blizzard",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:chillingwater",
+    "tm:covet",
+    "tm:crosspoison",
+    "tm:endure",
+    "tm:facade",
+    "tm:frostbreath",
+    "tm:gastroacid",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:hail",
+    "tm:haze",
+    "tm:hex",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icespinner",
+    "tm:icywind",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:liquidation",
+    "tm:lunge",
+    "tm:magiccoat",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:pounce",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:smackdown",
+    "tm:snatch",
+    "tm:substitute",
+    "tm:surf",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tm:waterpulse",
+    "tutor:afteryou",
+    "tutor:block",
+    "tutor:covet",
+    "tutor:gastroacid",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:liquidation",
+    "tutor:magiccoat",
+    "tutor:painsplit",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snatch",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:knockoff",
+    "legacy:lightscreen",
+    "legacy:return",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:snore",
+    "legacy:spite",
+    "legacy:swagger"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 0.96,
+        "levels": "38-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0748_toxapex.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "38-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_warm_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0748_toxapex.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "38-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0748_toxapex.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "38-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0748_toxapex.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "38-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0748_toxapex.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "38-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0748_toxapex.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/toxapex.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/toxapex_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/toxapex.json"
+  ]
+}

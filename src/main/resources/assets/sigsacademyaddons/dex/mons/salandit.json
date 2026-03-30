@@ -1,0 +1,285 @@
+{
+  "id": "salandit",
+  "dexnum": 757,
+  "name": "Salandit",
+  "primaryType": "poison",
+  "secondaryType": "fire",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "corrosion",
+    "h:oblivious"
+  ],
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 48,
+    "attack": 44,
+    "defence": 40,
+    "special_attack": 71,
+    "special_defence": 40,
+    "speed": 77
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 120,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:rotten_flesh",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:shuca_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:smoke_ball",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:poisongas",
+    "1:dragonrage",
+    "5:smog",
+    "10:ember",
+    "15:poisonfang",
+    "20:sweetscent",
+    "25:nastyplot",
+    "30:incinerate",
+    "35:venoshock",
+    "40:dragonpulse",
+    "45:flamethrower",
+    "50:toxic",
+    "55:endeavor",
+    "egg:belch",
+    "egg:doubleslap",
+    "egg:fakeout",
+    "egg:flameburst",
+    "egg:mudslap",
+    "egg:sandattack",
+    "tm:acidspray",
+    "tm:agility",
+    "tm:beatup",
+    "tm:burningjealousy",
+    "tm:covet",
+    "tm:dragonclaw",
+    "tm:dragonpulse",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:fling",
+    "tm:foulplay",
+    "tm:gunkshot",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:leechlife",
+    "tm:mudslap",
+    "tm:nastyplot",
+    "tm:overheat",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:poisontail",
+    "tm:protect",
+    "tm:rest",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:shadowclaw",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snatch",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:trailblaze",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tm:willowisp",
+    "tutor:burningjealousy",
+    "tutor:covet",
+    "tutor:dragonpulse",
+    "tutor:endeavor",
+    "tutor:firefang",
+    "tutor:flamethrower",
+    "tutor:foulplay",
+    "tutor:gunkshot",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:leechlife",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:scaleshot",
+    "tutor:shadowclaw",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snatch",
+    "tutor:swift",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "salandit_salazzle",
+      "variant": "level_up",
+      "result": "salazzle",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "captivate",
+        "firelash"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        },
+        {
+          "variant": "properties",
+          "target": "gender=female"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.9,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_volcanic"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0757_salandit.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.9,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands",
+            "#cobblemon:is_mountain"
+          ],
+          "exclude": [
+            "#cobblemon:is_volcanic"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0757_salandit.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:lava"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.9,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_basalt"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0757_salandit.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.94,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0757_salandit.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/salandit.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/salandit_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/salandit.json"
+  ]
+}

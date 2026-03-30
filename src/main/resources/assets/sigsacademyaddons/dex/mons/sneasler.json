@@ -1,0 +1,220 @@
+{
+  "id": "sneasler",
+  "dexnum": 903,
+  "name": "Sneasler",
+  "primaryType": "fighting",
+  "secondaryType": "poison",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8a"
+  ],
+  "abilities": [
+    "pressure",
+    "unburden",
+    "h:poisontouch"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 130,
+    "defence": 60,
+    "special_attack": 40,
+    "special_defence": 80,
+    "speed": 120
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 20,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:razor_claw",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:payapa_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:rocksmash",
+    "1:direclaw",
+    "1:scratch",
+    "1:leer",
+    "1:fling",
+    "6:taunt",
+    "12:quickattack",
+    "18:metalclaw",
+    "24:poisonjab",
+    "30:brickbreak",
+    "36:honeclaws",
+    "42:slash",
+    "48:agility",
+    "54:screech",
+    "60:closecombat",
+    "egg:counter",
+    "egg:doublehit",
+    "egg:fakeout",
+    "egg:feint",
+    "egg:nightslash",
+    "egg:quickguard",
+    "egg:switcheroo",
+    "tm:acidspray",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:calmmind",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:dig",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gunkshot",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:irontail",
+    "tm:lashout",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:metalclaw",
+    "tm:nastyplot",
+    "tm:poisonjab",
+    "tm:poisontail",
+    "tm:powershift",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:reversal",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:spite",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:trailblaze",
+    "tm:upperhand",
+    "tm:uturn",
+    "tm:vacuumwave",
+    "tm:venoshock",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:bulkup",
+    "tutor:calmmind",
+    "tutor:coaching",
+    "tutor:falseswipe",
+    "tutor:firepunch",
+    "tutor:focusenergy",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:hyperbeam",
+    "tutor:irontail",
+    "tutor:lashout",
+    "tutor:lowkick",
+    "tutor:poisonjab",
+    "tutor:powershift",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spikes",
+    "tutor:spite",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:vacuumwave",
+    "tutor:xscissor"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.8,
+        "levels": "38-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ],
+          "exclude": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_taiga",
+            "#cobblemon:is_volcanic"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0903_sneasler.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/sneasler.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/sneasler_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8a/sneasler.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation8a\\sneasler.json"
+  ]
+}

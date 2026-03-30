@@ -1,0 +1,291 @@
+{
+  "id": "crawdaunt",
+  "dexnum": 342,
+  "name": "Crawdaunt",
+  "primaryType": "water",
+  "secondaryType": "dark",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "hypercutter",
+    "shellarmor",
+    "h:adaptability"
+  ],
+  "eggGroups": [
+    "water_1",
+    "water_3"
+  ],
+  "baseStats": {
+    "hp": 63,
+    "attack": 120,
+    "defence": 85,
+    "special_attack": 90,
+    "special_defence": 55,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "fluctuating",
+  "catchRate": 155,
+  "drops": {
+    "amount": 0,
+    "entries": []
+  },
+  "moves": [
+    "1:bubble",
+    "1:harden",
+    "1:visegrip",
+    "1:leer",
+    "1:swift",
+    "1:taunt",
+    "1:watergun",
+    "12:bubblebeam",
+    "16:knockoff",
+    "20:doublehit",
+    "24:protect",
+    "28:nightslash",
+    "34:razorshell",
+    "40:swordsdance",
+    "46:crunch",
+    "52:crabhammer",
+    "58:endeavor",
+    "64:guillotine",
+    "egg:ancientpower",
+    "egg:aquajet",
+    "egg:chipaway",
+    "egg:doubleedge",
+    "egg:metalclaw",
+    "egg:mudsport",
+    "egg:slash",
+    "egg:switcheroo",
+    "egg:trumpcard",
+    "tm:ancientpower",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:chillingwater",
+    "tm:closecombat",
+    "tm:crunch",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:dragondance",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:hardpress",
+    "tm:honeclaws",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:liquidation",
+    "tm:metalclaw",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:nastyplot",
+    "tm:naturepower",
+    "tm:payback",
+    "tm:protect",
+    "tm:raindance",
+    "tm:razorshell",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snarl",
+    "tm:spite",
+    "tm:strength",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:surf",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:xscissor",
+    "tutor:ancientpower",
+    "tutor:darkpulse",
+    "tutor:dive",
+    "tutor:endeavor",
+    "tutor:falseswipe",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:liquidation",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snarl",
+    "tutor:superpower",
+    "tutor:swift",
+    "tutor:waterpulse",
+    "tutor:xscissor",
+    "legacy:aerialace",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:watersport"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "30-47",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0342_crawdaunt.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "30-47",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0342_crawdaunt.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "30-47",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_temperate"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0342_crawdaunt.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "30-47",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_temperate"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0342_crawdaunt.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/crawdaunt.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/crawdaunt_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/crawdaunt.json"
+  ]
+}

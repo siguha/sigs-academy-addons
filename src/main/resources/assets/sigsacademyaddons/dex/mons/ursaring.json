@@ -1,0 +1,344 @@
+{
+  "id": "ursaring",
+  "dexnum": 217,
+  "name": "Ursaring",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "guts",
+    "quickfeet",
+    "h:unnerve"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 130,
+    "defence": 75,
+    "special_attack": 75,
+    "special_defence": 75,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 60,
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "minecraft:sweet_berries",
+        "percentage": null,
+        "quantityRange": "2-4",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:honey_bottle",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:peat_block",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:covet",
+    "1:scratch",
+    "1:leer",
+    "1:lick",
+    "1:faketears",
+    "1:feintattack",
+    "8:furyswipes",
+    "13:payback",
+    "17:sweetscent",
+    "22:slash",
+    "25:playnice",
+    "29:playrough",
+    "35:scaryface",
+    "41:rest",
+    "41:snore",
+    "48:highhorsepower",
+    "56:thrash",
+    "64:hammerarm",
+    "egg:bellydrum",
+    "egg:chipaway",
+    "egg:closecombat",
+    "egg:counter",
+    "egg:crosschop",
+    "egg:crunch",
+    "egg:doubleedge",
+    "egg:faketears",
+    "egg:feintattack",
+    "egg:furycutter",
+    "egg:metalclaw",
+    "egg:nightslash",
+    "egg:seismictoss",
+    "egg:yawn",
+    "tm:aerialace",
+    "tm:avalanche",
+    "tm:babydolleyes",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:charm",
+    "tm:closecombat",
+    "tm:covet",
+    "tm:crunch",
+    "tm:cut",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icepunch",
+    "tm:laserfocus",
+    "tm:lastresort",
+    "tm:lowkick",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metalclaw",
+    "tm:metronome",
+    "tm:payback",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:scaryface",
+    "tm:seedbomb",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:snore",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunderpunch",
+    "tm:torment",
+    "tm:trailblaze",
+    "tm:uproar",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:babydolleyes",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:covet",
+    "tutor:firepunch",
+    "tutor:focusenergy",
+    "tutor:focuspunch",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icepunch",
+    "tutor:laserfocus",
+    "tutor:lastresort",
+    "tutor:lowkick",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:thunderpunch",
+    "tutor:uproar",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:focusblast",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:roar",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:zapcannon",
+    "special:refresh"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "consumeHeldItem": false,
+      "id": "ursaring_ursaluna",
+      "learnableMoves": [
+        "headlongrush"
+      ],
+      "requiredContext": "cobblemon:peat_block",
+      "requirements": [
+        {
+          "moonPhase": "FULL_MOON",
+          "variant": "moon_phase"
+        },
+        {
+          "range": "night",
+          "variant": "time_range"
+        }
+      ],
+      "result": "ursaluna",
+      "variant": "item_interact"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.19,
+        "levels": "30-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_mountain",
+            "aether:skyroot_forest",
+            "aether:skyroot_woodland",
+            "#cobblemon:is_taiga"
+          ],
+          "exclude": [
+            "#cobblemon:is_volcanic"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0217_ursaring.json",
+        "yLevel": {
+          "minY": 48
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.57,
+        "levels": "30-50",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0217_ursaring.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "#cobblemon:saccharine_trees"
+          ],
+          "resolved": [
+            "cobblemon:saccharine_leaves",
+            "cobblemon:saccharine_log",
+            "cobblemon:saccharine_wood",
+            "cobblemon:stripped_saccharine_log",
+            "cobblemon:stripped_saccharine_wood"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.19,
+        "levels": "30-50",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:crystal_canyon",
+            "the_bumblezone:floral_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0217_ursaring.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/ursaring.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/ursaring_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/ursaring.json"
+  ]
+}

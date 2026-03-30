@@ -1,0 +1,258 @@
+{
+  "id": "shiinotic",
+  "dexnum": 756,
+  "name": "Shiinotic",
+  "primaryType": "grass",
+  "secondaryType": "fairy",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "illuminate",
+    "effectspore",
+    "h:raindish"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 45,
+    "defence": 80,
+    "special_attack": 90,
+    "special_defence": 100,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:brown_mushroom",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:luminous_moss",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:bright_powder",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:kebia_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:absorb",
+    "1:astonish",
+    "1:ingrain",
+    "1:flash",
+    "1:confuseray",
+    "1:spotlight",
+    "12:megadrain",
+    "16:sleeppowder",
+    "20:moonlight",
+    "27:strengthsap",
+    "32:gigadrain",
+    "38:dazzlinggleam",
+    "44:spore",
+    "50:moonblast",
+    "56:dreameater",
+    "egg:growth",
+    "egg:leechseed",
+    "egg:poisonpowder",
+    "egg:spotlight",
+    "egg:stunspore",
+    "tm:afteryou",
+    "tm:amnesia",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:dreameater",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:naturepower",
+    "tm:pollenpuff",
+    "tm:protect",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:synthesis",
+    "tm:terablast",
+    "tm:thunderwave",
+    "tm:weatherball",
+    "tm:wonderroom",
+    "tm:worryseed",
+    "tutor:afteryou",
+    "tutor:chargebeam",
+    "tutor:dazzlinggleam",
+    "tutor:drainpunch",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:synthesis",
+    "tutor:wonderroom",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "24-41",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_magical",
+            "#cobblemon:is_mushroom"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0756_shiinotic.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "24-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0756_shiinotic.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "24-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_fungus"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0756_shiinotic.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "24-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0756_shiinotic.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        },
+        "yLevel": {
+          "minY": -41,
+          "maxY": 9
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/shiinotic.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/shiinotic_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/shiinotic.json"
+  ]
+}

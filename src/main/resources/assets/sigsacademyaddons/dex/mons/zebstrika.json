@@ -1,0 +1,203 @@
+{
+  "id": "zebstrika",
+  "dexnum": 523,
+  "name": "Zebstrika",
+  "primaryType": "electric",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "lightningrod",
+    "motordrive",
+    "h:sapsipper"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 100,
+    "defence": 63,
+    "special_attack": 80,
+    "special_defence": 63,
+    "speed": 116
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:quickattack",
+    "1:tailwhip",
+    "1:charge",
+    "1:thunderwave",
+    "1:pursuit",
+    "1:iondeluge",
+    "11:shockwave",
+    "18:flamecharge",
+    "25:spark",
+    "31:stomp",
+    "36:discharge",
+    "42:agility",
+    "47:wildcharge",
+    "53:thrash",
+    "egg:doublekick",
+    "egg:feint",
+    "egg:mefirst",
+    "egg:rage",
+    "egg:sandattack",
+    "egg:screech",
+    "egg:spark",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:batonpass",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bulldoze",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:doubleedge",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:flash",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:laserfocus",
+    "tm:lightscreen",
+    "tm:lowkick",
+    "tm:magnetrise",
+    "tm:overheat",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:screech",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:smartstrike",
+    "tm:snatch",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:supercellslam",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:uproar",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:allyswitch",
+    "tutor:bounce",
+    "tutor:bulldoze",
+    "tutor:chargebeam",
+    "tutor:electroweb",
+    "tutor:endeavor",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:laserfocus",
+    "tutor:lowkick",
+    "tutor:magnetrise",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:rocksmash",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:uproar",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "27-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0523_zebstrika.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/zebstrika.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/zebstrika_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/zebstrika.json"
+  ]
+}

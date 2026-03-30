@@ -1,0 +1,231 @@
+{
+  "id": "ivysaur",
+  "dexnum": 2,
+  "name": "Ivysaur",
+  "primaryType": "grass",
+  "secondaryType": "poison",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "overgrow",
+    "h:chlorophyll"
+  ],
+  "eggGroups": [
+    "monster",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 62,
+    "defence": 63,
+    "special_attack": 80,
+    "special_defence": 80,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:melon_seeds",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "1:vinewhip",
+    "1:growth",
+    "9:leechseed",
+    "12:razorleaf",
+    "15:poisonpowder",
+    "15:sleeppowder",
+    "20:seedbomb",
+    "25:takedown",
+    "30:sweetscent",
+    "35:synthesis",
+    "40:worryseed",
+    "45:powerwhip",
+    "50:solarbeam",
+    "egg:curse",
+    "egg:grasswhistle",
+    "egg:ingrain",
+    "egg:petaldance",
+    "egg:skullbash",
+    "egg:sludge",
+    "egg:toxic",
+    "tm:acidspray",
+    "tm:bind",
+    "tm:bodyslam",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:curse",
+    "tm:cut",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:flash",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:knockoff",
+    "tm:leafstorm",
+    "tm:magicalleaf",
+    "tm:naturepower",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:rest",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:solarbeam",
+    "tm:strength",
+    "tm:stringshot",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:trailblaze",
+    "tm:venoshock",
+    "tm:weatherball",
+    "tm:workup",
+    "tm:worryseed",
+    "tutor:bind",
+    "tutor:block",
+    "tutor:energyball",
+    "tutor:falseswipe",
+    "tutor:frenzyplant",
+    "tutor:furycutter",
+    "tutor:gigadrain",
+    "tutor:grasspledge",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:knockoff",
+    "tutor:magicalleaf",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:stringshot",
+    "tutor:synthesis",
+    "tutor:worryseed",
+    "legacy:amnesia",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:defensecurl",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:lightscreen",
+    "legacy:megadrain",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:outrage",
+    "legacy:rage",
+    "legacy:razorwind",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "special:block",
+    "special:celebrate",
+    "special:frenzyplant"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "ivysaur_venusaur",
+      "variant": "level_up",
+      "result": "venusaur",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "petaldance",
+        "petalblizzard"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "16-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0002_ivysaur.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/ivysaur.png",
+      "out/sprites/cobblemon/ivysaur_female.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/ivysaur_female_shiny.png",
+      "out/sprites/cobblemon/ivysaur_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/ivysaur.json"
+  ]
+}

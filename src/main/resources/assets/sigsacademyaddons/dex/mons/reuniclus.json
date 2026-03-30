@@ -1,0 +1,268 @@
+{
+  "id": "reuniclus",
+  "dexnum": 579,
+  "name": "Reuniclus",
+  "primaryType": "psychic",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "overcoat",
+    "magicguard",
+    "h:regenerator"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 65,
+    "defence": 75,
+    "special_attack": 125,
+    "special_defence": 85,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 50,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:slime_ball",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:psywave",
+    "1:snatch",
+    "1:recover",
+    "1:endeavor",
+    "1:dizzypunch",
+    "1:healblock",
+    "1:protect",
+    "1:hammerarm",
+    "1:confusion",
+    "12:psybeam",
+    "16:charm",
+    "20:psyshock",
+    "24:reflect",
+    "24:lightscreen",
+    "28:allyswitch",
+    "35:painsplit",
+    "40:psychic",
+    "48:skillswap",
+    "56:futuresight",
+    "64:wonderroom",
+    "egg:acidarmor",
+    "egg:astonish",
+    "egg:confuseray",
+    "egg:healblock",
+    "egg:secretpower",
+    "tm:afteryou",
+    "tm:allyswitch",
+    "tm:bodyslam",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:drainpunch",
+    "tm:dreameater",
+    "tm:embargo",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:explosion",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:guardswap",
+    "tm:gyroball",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:icepunch",
+    "tm:imprison",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:megapunch",
+    "tm:nightshade",
+    "tm:painsplit",
+    "tm:powerswap",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:psychicterrain",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:secretpower",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:steelroller",
+    "tm:storedpower",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:swift",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:afteryou",
+    "tutor:allyswitch",
+    "tutor:calmmind",
+    "tutor:drainpunch",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:expandingforce",
+    "tutor:firepunch",
+    "tutor:flashcannon",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icepunch",
+    "tutor:irondefense",
+    "tutor:knockoff",
+    "tutor:laserfocus",
+    "tutor:magiccoat",
+    "tutor:painsplit",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:steelroller",
+    "tutor:superpower",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:thunderpunch",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.032,
+        "levels": "41-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0579_reuniclus.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.032,
+        "levels": "41-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_end"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0579_reuniclus.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/wavimons/reuniclus.png",
+      "out/sprites/cobblemon/reuniclus.png"
+    ],
+    "shiny": [
+      "out/sprites/wavimons/reuniclus_shiny.png",
+      "out/sprites/cobblemon/reuniclus_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/reuniclus.json"
+  ]
+}

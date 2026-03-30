@@ -1,0 +1,274 @@
+{
+  "id": "lairon",
+  "dexnum": 305,
+  "name": "Lairon",
+  "primaryType": "steel",
+  "secondaryType": "rock",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "sturdy",
+    "rockhead",
+    "h:heavymetal"
+  ],
+  "eggGroups": [
+    "monster"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 90,
+    "defence": 140,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 90,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:raw_iron",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:hard_stone",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chople_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:harden",
+    "1:metalclaw",
+    "1:rocktomb",
+    "12:roar",
+    "16:headbutt",
+    "20:protect",
+    "24:rockslide",
+    "28:ironhead",
+    "35:metalsound",
+    "40:takedown",
+    "46:autotomize",
+    "52:irontail",
+    "58:irondefense",
+    "64:heavyslam",
+    "70:doubleedge",
+    "76:metalburst",
+    "egg:curse",
+    "egg:dragonrush",
+    "egg:endeavor",
+    "egg:headsmash",
+    "egg:mudslap",
+    "egg:smellingsalts",
+    "egg:stomp",
+    "tm:aerialace",
+    "tm:ancientpower",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:curse",
+    "tm:cut",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:furycutter",
+    "tm:headbutt",
+    "tm:heavyslam",
+    "tm:honeclaws",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:magnetrise",
+    "tm:metalclaw",
+    "tm:metalsound",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:screech",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:spite",
+    "tm:stealthrock",
+    "tm:steelbeam",
+    "tm:steelroller",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:uproar",
+    "tm:waterpulse",
+    "tutor:aerialace",
+    "tutor:ancientpower",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:furycutter",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:magnetrise",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:shadowclaw",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:stealthrock",
+    "tutor:steelbeam",
+    "tutor:steelroller",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:uproar",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:defensecurl",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "lairon_aggron",
+      "variant": "level_up",
+      "result": "aggron",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.9,
+        "levels": "32-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0305_lairon.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "#minecraft:iron_ores"
+          ],
+          "resolved": [
+            "#minecraft:iron_ores"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.9,
+        "levels": "32-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0305_lairon.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "#minecraft:iron_ores"
+          ],
+          "resolved": [
+            "#minecraft:iron_ores"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/lairon.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/lairon_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/lairon.json"
+  ]
+}

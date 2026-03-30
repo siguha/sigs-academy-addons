@@ -1,0 +1,234 @@
+{
+  "id": "fomantis",
+  "dexnum": 753,
+  "name": "Fomantis",
+  "primaryType": "grass",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "leafguard",
+    "h:contrary"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 55,
+    "defence": 35,
+    "special_attack": 50,
+    "special_defence": 35,
+    "speed": 35
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:tanga_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:furycutter",
+    "1:leafage",
+    "5:growth",
+    "10:ingrain",
+    "15:razorleaf",
+    "20:sweetscent",
+    "25:slash",
+    "30:xscissor",
+    "35:synthesis",
+    "40:leafblade",
+    "45:sunnyday",
+    "50:solarbeam",
+    "egg:aromatherapy",
+    "egg:defog",
+    "egg:superpower",
+    "egg:worryseed",
+    "tm:bugbite",
+    "tm:bulletseed",
+    "tm:defog",
+    "tm:dualchop",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:leafblade",
+    "tm:leafstorm",
+    "tm:leechlife",
+    "tm:magicalleaf",
+    "tm:naturepower",
+    "tm:payback",
+    "tm:petalblizzard",
+    "tm:protect",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:signalbeam",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:weatherball",
+    "tm:worryseed",
+    "tm:xscissor",
+    "tutor:bugbite",
+    "tutor:defog",
+    "tutor:dualchop",
+    "tutor:energyball",
+    "tutor:falseswipe",
+    "tutor:furycutter",
+    "tutor:gigadrain",
+    "tutor:grassyglide",
+    "tutor:leechlife",
+    "tutor:magicalleaf",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:signalbeam",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:superpower",
+    "tutor:synthesis",
+    "tutor:worryseed",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:poisonjab",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "fomantis_lurantis",
+      "variant": "level_up",
+      "result": "lurantis",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "petalblizzard"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 34
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "1-25",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_floral"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0753_fomantis.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "1-25",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0753_fomantis.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "1-25",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:floral_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0753_fomantis.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/fomantis.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/fomantis_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/fomantis.json"
+  ]
+}

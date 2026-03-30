@@ -1,0 +1,228 @@
+{
+  "id": "trubbish",
+  "dexnum": 568,
+  "name": "Trubbish",
+  "primaryType": "poison",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "stench",
+    "stickyhold",
+    "h:aftermath"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 50,
+    "defence": 62,
+    "special_attack": 40,
+    "special_defence": 62,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "cobblemon:black_sludge",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:leftovers",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:silk_scarf",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:poisongas",
+    "1:doubleslap",
+    "3:recycle",
+    "6:acidspray",
+    "9:amnesia",
+    "12:clearsmog",
+    "15:toxicspikes",
+    "18:sludge",
+    "21:stockpile",
+    "21:swallow",
+    "24:takedown",
+    "27:sludgebomb",
+    "30:toxic",
+    "33:belch",
+    "37:painsplit",
+    "39:gunkshot",
+    "42:explosion",
+    "egg:autotomize",
+    "egg:curse",
+    "egg:haze",
+    "egg:mudsport",
+    "egg:rollout",
+    "egg:sandattack",
+    "tm:acidspray",
+    "tm:amnesia",
+    "tm:corrosivegas",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:drainpunch",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:gigadrain",
+    "tm:gunkshot",
+    "tm:haze",
+    "tm:infestation",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:protect",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rollout",
+    "tm:seedbomb",
+    "tm:selfdestruct",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:spikes",
+    "tm:spite",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tutor:corrosivegas",
+    "tutor:darkpulse",
+    "tutor:drainpunch",
+    "tutor:gigadrain",
+    "tutor:gunkshot",
+    "tutor:painsplit",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spikes",
+    "tutor:spite",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "trubbish_garbodor",
+      "variant": "level_up",
+      "result": "garbodor",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "8-33",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0568_trubbish.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "8-33",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0568_trubbish.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/trubbish.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/trubbish_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/trubbish.json"
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "id": "wugtrio",
+  "dexnum": 961,
+  "name": "Wugtrio",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "gooey",
+    "rattled",
+    "h:sandveil"
+  ],
+  "eggGroups": [
+    "water_3"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 100,
+    "defence": 50,
+    "special_attack": 50,
+    "special_defence": 70,
+    "speed": 120
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 50,
+  "drops": {
+    "amount": 0,
+    "entries": []
+  },
+  "moves": [
+    "1:sandattack",
+    "1:wrap",
+    "1:watergun",
+    "1:mudslap",
+    "12:aquajet",
+    "16:slam",
+    "20:waterpulse",
+    "24:headbutt",
+    "30:tripledive",
+    "36:dig",
+    "42:suckerpunch",
+    "48:throatchop",
+    "54:liquidation",
+    "egg:finalgambit",
+    "egg:memento",
+    "tm:agility",
+    "tm:blizzard",
+    "tm:bulldoze",
+    "tm:chillingwater",
+    "tm:dig",
+    "tm:earthpower",
+    "tm:endure",
+    "tm:facade",
+    "tm:foulplay",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:liquidation",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:painsplit",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:sandstorm",
+    "tm:sleeptalk",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:surf",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:liquidation",
+    "tutor:mudslap",
+    "tutor:painsplit",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:waterpulse"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "26-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_beach"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0961_wugtrio.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "26-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lukewarm_ocean",
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0961_wugtrio.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/wugtrio.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/wugtrio_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/wugtrio.json"
+  ]
+}

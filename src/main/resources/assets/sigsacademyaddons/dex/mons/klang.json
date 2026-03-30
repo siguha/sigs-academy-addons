@@ -1,0 +1,240 @@
+{
+  "id": "klang",
+  "dexnum": 600,
+  "name": "Klang",
+  "primaryType": "steel",
+  "secondaryType": "",
+  "maleRatio": -1,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "plus",
+    "minus",
+    "h:clearbody"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 80,
+    "defence": 95,
+    "special_attack": 70,
+    "special_defence": 85,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 60,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:raw_iron",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:visegrip",
+    "1:charge",
+    "1:thundershock",
+    "1:bind",
+    "1:mirrorshot",
+    "12:chargebeam",
+    "16:metalsound",
+    "20:autotomize",
+    "24:discharge",
+    "28:screech",
+    "32:geargrind",
+    "36:lockon",
+    "42:shiftgear",
+    "48:zapcannon",
+    "54:hyperbeam",
+    "tm:allyswitch",
+    "tm:assurance",
+    "tm:bind",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:endure",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:gravity",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:magiccoat",
+    "tm:magnetrise",
+    "tm:metalsound",
+    "tm:powergem",
+    "tm:protect",
+    "tm:recycle",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:rockpolish",
+    "tm:rocksmash",
+    "tm:sandstorm",
+    "tm:screech",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:steelbeam",
+    "tm:steelroller",
+    "tm:substitute",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:uproar",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:allyswitch",
+    "tutor:bind",
+    "tutor:chargebeam",
+    "tutor:flashcannon",
+    "tutor:gravity",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:magiccoat",
+    "tutor:magnetrise",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:rocksmash",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:steelbeam",
+    "tutor:steelroller",
+    "tutor:telekinesis",
+    "tutor:thunderbolt",
+    "tutor:uproar",
+    "tutor:wildcharge",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "klang_klinklang",
+      "variant": "level_up",
+      "result": "klinklang",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "magneticflux"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 49
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.9,
+        "levels": "38-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0600_klang.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "#minecraft:redstone_ores",
+            "#c:redstone_ores"
+          ],
+          "resolved": [
+            "#c:redstone_ores",
+            "#minecraft:redstone_ores"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "redstone"
+        ],
+        "rarity": "common",
+        "weight": 0.18,
+        "levels": "38-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0600_klang.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.18,
+        "levels": "38-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0600_klang.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "create:cogwheel",
+            "create:large_cogwheel",
+            "create:gearbox",
+            "create:vertical_gearbox"
+          ]
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/klang.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/klang_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/klang.json"
+  ]
+}

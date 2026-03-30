@@ -1,0 +1,134 @@
+{
+  "id": "gholdengo",
+  "dexnum": 1000,
+  "name": "Gholdengo",
+  "primaryType": "steel",
+  "secondaryType": "ghost",
+  "maleRatio": -1,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "goodasgold",
+    "h:goodasgold"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 87,
+    "attack": 60,
+    "defence": 95,
+    "special_attack": 133,
+    "special_defence": 91,
+    "speed": 84
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 48,
+    "entries": [
+      {
+        "item": "cobblemon:relic_coin",
+        "percentage": null,
+        "quantityRange": "24-48",
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:astonish",
+    "7:nightshade",
+    "14:confuseray",
+    "21:substitute",
+    "28:metalsound",
+    "35:shadowball",
+    "42:recover",
+    "49:powergem",
+    "56:makeitrain",
+    "63:nastyplot",
+    "70:memento",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:dazzlinggleam",
+    "tm:electroball",
+    "tm:endure",
+    "tm:flashcannon",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:gigaimpact",
+    "tm:heavyslam",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:ironhead",
+    "tm:lightscreen",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:metalsound",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:poltergeist",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:reflect",
+    "tm:rest",
+    "tm:sandstorm",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:steelbeam",
+    "tm:substitute",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:trick",
+    "tutor:chargebeam",
+    "tutor:dazzlinggleam",
+    "tutor:flashcannon",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:ironhead",
+    "tutor:lowkick",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:steelbeam",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:trick"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/gholdengo.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/gholdengo_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/gholdengo.json"
+  ]
+}

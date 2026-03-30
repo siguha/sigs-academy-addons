@@ -1,0 +1,389 @@
+{
+  "id": "slowpoke",
+  "dexnum": 79,
+  "name": "Slowpoke",
+  "primaryType": "water",
+  "secondaryType": "psychic",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1",
+    "kantonian_form"
+  ],
+  "abilities": [
+    "oblivious",
+    "owntempo",
+    "h:regenerator"
+  ],
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 65,
+    "defence": 65,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 15
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "cobblemon:tasty_tail",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:kings_rock",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:lagging_tail",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:curse",
+    "1:tackle",
+    "3:growl",
+    "6:watergun",
+    "9:yawn",
+    "12:confusion",
+    "15:disable",
+    "18:waterpulse",
+    "21:headbutt",
+    "24:zenheadbutt",
+    "27:amnesia",
+    "30:surf",
+    "33:slackoff",
+    "36:psychic",
+    "39:psychup",
+    "42:raindance",
+    "45:healpulse",
+    "egg:belch",
+    "egg:bellydrum",
+    "egg:block",
+    "egg:mefirst",
+    "egg:mudsport",
+    "egg:snore",
+    "egg:stomp",
+    "tm:afteryou",
+    "tm:amnesia",
+    "tm:aquatail",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:chillingwater",
+    "tm:curse",
+    "tm:dig",
+    "tm:dive",
+    "tm:dreameater",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:foulplay",
+    "tm:grassknot",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:magiccoat",
+    "tm:mudshot",
+    "tm:payday",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:snowscape",
+    "tm:storedpower",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:swift",
+    "tm:takedown",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thunderwave",
+    "tm:triattack",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:afteryou",
+    "tutor:aquatail",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:dive",
+    "tutor:expandingforce",
+    "tutor:flamethrower",
+    "tutor:foulplay",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:liquidation",
+    "tutor:magiccoat",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:waterpulse",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:bubblebeam",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:fissure",
+    "legacy:frustration",
+    "legacy:futuresight",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:psywave",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:swagger",
+    "legacy:teleport",
+    "legacy:toxic",
+    "legacy:zapcannon"
+  ],
+  "forms": [
+    "Galar"
+  ],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "slowpoke_slowbro",
+      "variant": "level_up",
+      "result": "slowbro",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "withdraw"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 37
+        }
+      ]
+    },
+    {
+      "id": "slowpoke_slowking",
+      "variant": "trade",
+      "result": "slowking",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:kings_rock"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_beach"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0079_slowpoke.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 6.0,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_river"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0079_slowpoke.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_beach"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0079_slowpoke.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 2.0,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0079_slowpoke.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_beach"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0079_slowpoke.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 2.0,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0079_slowpoke.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/slowpoke.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/slowpoke_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/slowpoke.json"
+  ]
+}

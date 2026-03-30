@@ -1,0 +1,244 @@
+{
+  "id": "gourgeist",
+  "dexnum": 711,
+  "name": "Gourgeist",
+  "primaryType": "ghost",
+  "secondaryType": "grass",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "pickup",
+    "frisk",
+    "h:insomnia"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 90,
+    "defence": 122,
+    "special_attack": 58,
+    "special_defence": 75,
+    "speed": 84
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 60,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:pumpkin_seeds",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:kasib_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:explosion",
+    "1:astonish",
+    "1:confuseray",
+    "1:trickortreat",
+    "1:shadowsneak",
+    "1:moonblast",
+    "12:razorleaf",
+    "16:leechseed",
+    "20:bulletseed",
+    "24:scaryface",
+    "28:worryseed",
+    "32:seedbomb",
+    "36:shadowball",
+    "40:trick",
+    "44:painsplit",
+    "48:phantomforce",
+    "egg:bestow",
+    "egg:curse",
+    "egg:destinybond",
+    "egg:disable",
+    "tm:allyswitch",
+    "tm:brutalswing",
+    "tm:bulletseed",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dreameater",
+    "tm:endure",
+    "tm:energyball",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:focusblast",
+    "tm:foulplay",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:gyroball",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:incinerate",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:naturepower",
+    "tm:painsplit",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:psychic",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:scaryface",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:skillswap",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:synthesis",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tm:worryseed",
+    "tutor:allyswitch",
+    "tutor:chargebeam",
+    "tutor:darkpulse",
+    "tutor:energyball",
+    "tutor:flamethrower",
+    "tutor:foulplay",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grassyglide",
+    "tutor:hyperbeam",
+    "tutor:magiccoat",
+    "tutor:mysticalfire",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spite",
+    "tutor:synthesis",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [
+    "Small",
+    "Large",
+    "Super"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.3,
+        "levels": "29-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0711_gourgeist.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:pumpkin",
+            "minecraft:carved_pumpkin"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.8,
+        "levels": "29-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_overgrowth"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0711_gourgeist.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/gourgeist.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/gourgeist_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/gourgeist.json"
+  ]
+}

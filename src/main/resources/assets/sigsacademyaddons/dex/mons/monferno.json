@@ -1,0 +1,279 @@
+{
+  "id": "monferno",
+  "dexnum": 391,
+  "name": "Monferno",
+  "primaryType": "fire",
+  "secondaryType": "fighting",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "blaze",
+    "h:ironfist"
+  ],
+  "eggGroups": [
+    "field",
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 64,
+    "attack": 78,
+    "defence": 52,
+    "special_attack": 78,
+    "special_defence": 52,
+    "speed": 81
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:leer",
+    "1:ember",
+    "1:machpunch",
+    "9:taunt",
+    "16:furyswipes",
+    "19:flamewheel",
+    "26:feint",
+    "29:torment",
+    "36:closecombat",
+    "39:firespin",
+    "46:acrobatics",
+    "49:slackoff",
+    "56:flareblitz",
+    "egg:assist",
+    "egg:counter",
+    "egg:doublekick",
+    "egg:encore",
+    "egg:fakeout",
+    "egg:firepunch",
+    "egg:focusenergy",
+    "egg:heatwave",
+    "egg:helpinghand",
+    "egg:quickguard",
+    "egg:submission",
+    "egg:switcheroo",
+    "egg:thunderpunch",
+    "tm:acrobatics",
+    "tm:agility",
+    "tm:blazekick",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:burningjealousy",
+    "tm:closecombat",
+    "tm:covet",
+    "tm:cut",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:drainpunch",
+    "tm:dualchop",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fireblast",
+    "tm:firepledge",
+    "tm:firepunch",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:grassknot",
+    "tm:gunkshot",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:metronome",
+    "tm:mudslap",
+    "tm:nastyplot",
+    "tm:overheat",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychup",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:reversal",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:rollout",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderpunch",
+    "tm:torment",
+    "tm:upperhand",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:vacuumwave",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:bulkup",
+    "tutor:burningjealousy",
+    "tutor:covet",
+    "tutor:drainpunch",
+    "tutor:dualchop",
+    "tutor:endeavor",
+    "tutor:firepledge",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focusenergy",
+    "tutor:focuspunch",
+    "tutor:gunkshot",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:rollout",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:swift",
+    "tutor:thunderpunch",
+    "tutor:uproar",
+    "tutor:vacuumwave",
+    "tutor:zenheadbutt",
+    "legacy:aerialace",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "monferno_infernape",
+      "variant": "level_up",
+      "result": "infernape",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "closecombat"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "14-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0391_monferno.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "14-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_forest"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0391_monferno.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/monferno.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/monferno_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/monferno.json"
+  ]
+}

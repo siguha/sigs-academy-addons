@@ -1,0 +1,207 @@
+{
+  "id": "mudbray",
+  "dexnum": 749,
+  "name": "Mudbray",
+  "primaryType": "ground",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "owntempo",
+    "stamina",
+    "h:innerfocus"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 100,
+    "defence": 70,
+    "special_attack": 45,
+    "special_defence": 55,
+    "speed": 45
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:clay_ball",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:light_clay",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:passho_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:mudslap",
+    "1:mudsport",
+    "1:rototiller",
+    "1:rocksmash",
+    "4:irondefense",
+    "8:doublekick",
+    "12:bulldoze",
+    "16:stomp",
+    "20:strength",
+    "24:counter",
+    "28:highhorsepower",
+    "32:heavyslam",
+    "36:earthquake",
+    "40:megakick",
+    "44:superpower",
+    "egg:bide",
+    "egg:doubleedge",
+    "egg:endeavor",
+    "egg:fissure",
+    "egg:magnitude",
+    "egg:mudbomb",
+    "egg:roar",
+    "egg:smackdown",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:closecombat",
+    "tm:curse",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:heavyslam",
+    "tm:highhorsepower",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:megakick",
+    "tm:mudslap",
+    "tm:payback",
+    "tm:protect",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:takedown",
+    "tm:terablast",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:highhorsepower",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "mudbray_mudsdale",
+      "variant": "level_up",
+      "result": "mudsdale",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "14-39",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands",
+            "#cobblemon:is_grassland"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0749_mudbray.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/mudbray.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/mudbray_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/mudbray.json"
+  ]
+}

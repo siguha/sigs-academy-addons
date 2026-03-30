@@ -1,0 +1,251 @@
+{
+  "id": "simipour",
+  "dexnum": 516,
+  "name": "Simipour",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "gluttony",
+    "h:torrent"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 98,
+    "defence": 63,
+    "special_attack": 98,
+    "special_defence": 63,
+    "speed": 101
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:water_stone",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:rindo_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:leer",
+    "1:lick",
+    "1:furyswipes",
+    "1:scald",
+    "1:scratch",
+    "1:watergun",
+    "1:watersport",
+    "1:bite",
+    "1:playnice",
+    "1:naturalgift",
+    "egg:aquaring",
+    "egg:aquatail",
+    "egg:astonish",
+    "egg:covet",
+    "egg:disarmingvoice",
+    "egg:hydropump",
+    "egg:lowkick",
+    "egg:mudsport",
+    "egg:nastyplot",
+    "egg:roleplay",
+    "egg:tickle",
+    "tm:acrobatics",
+    "tm:aquatail",
+    "tm:blizzard",
+    "tm:brickbreak",
+    "tm:brine",
+    "tm:covet",
+    "tm:crunch",
+    "tm:cut",
+    "tm:dig",
+    "tm:disarmingvoice",
+    "tm:dive",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:gastroacid",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gunkshot",
+    "tm:hail",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:nastyplot",
+    "tm:naturalgift",
+    "tm:payback",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:scald",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:surf",
+    "tm:swift",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:torment",
+    "tm:uproar",
+    "tm:waterfall",
+    "tm:waterpledge",
+    "tm:waterpulse",
+    "tm:workup",
+    "tutor:aquatail",
+    "tutor:covet",
+    "tutor:dive",
+    "tutor:endeavor",
+    "tutor:flipturn",
+    "tutor:focuspunch",
+    "tutor:gastroacid",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:superpower",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:uproar",
+    "tutor:waterpledge",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "27-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0516_simipour.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.32,
+        "levels": "27-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_river"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0516_simipour.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/simipour.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/simipour_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/simipour.json"
+  ]
+}

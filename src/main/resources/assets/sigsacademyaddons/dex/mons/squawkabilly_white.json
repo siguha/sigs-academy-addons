@@ -1,0 +1,250 @@
+{
+  "id": "squawkabilly_white",
+  "dexnum": 931,
+  "name": "Squawkabilly White",
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "intimidate",
+    "hustle",
+    "h:sheerforce"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 82,
+    "attack": 96,
+    "defence": 51,
+    "special_attack": 45,
+    "special_defence": 51,
+    "speed": 92
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "erratic",
+  "catchRate": 190,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:chicken",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chilan_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:growl",
+    "1:peck",
+    "1:mimic",
+    "6:quickattack",
+    "10:torment",
+    "13:aerialace",
+    "17:furyattack",
+    "20:taunt",
+    "24:uproar",
+    "27:copycat",
+    "30:fly",
+    "34:facade",
+    "38:swagger",
+    "42:bravebird",
+    "47:roost",
+    "52:reversal",
+    "egg:doubleedge",
+    "egg:finalgambit",
+    "egg:flatter",
+    "egg:partingshot",
+    "tm:aerialace",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:bravebird",
+    "tm:doubleedge",
+    "tm:dualwingbeat",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:featherdance",
+    "tm:fly",
+    "tm:foulplay",
+    "tm:gigaimpact",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:lashout",
+    "tm:pounce",
+    "tm:protect",
+    "tm:rest",
+    "tm:reversal",
+    "tm:roost",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:torment",
+    "tm:uproar",
+    "tm:uturn",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:dualwingbeat",
+    "tutor:endeavor",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:lashout",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:sleeptalk",
+    "tutor:tailwind",
+    "tutor:uproar"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 2.0,
+        "levels": "17-42",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_savanna",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0931_squawkabilly.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "urban",
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 6.0,
+        "levels": "17-42",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_sandy"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0931_squawkabilly.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 6.0,
+        "levels": "17-42",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_sandy"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0931_squawkabilly.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 10.0,
+        "levels": "17-42",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_sky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0931_squawkabilly.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {},
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/squawkabilly.json"
+  ]
+}

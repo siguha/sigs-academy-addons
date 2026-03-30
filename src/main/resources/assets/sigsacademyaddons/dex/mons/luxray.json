@@ -1,0 +1,212 @@
+{
+  "id": "luxray",
+  "dexnum": 405,
+  "name": "Luxray",
+  "primaryType": "electric",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "rivalry",
+    "intimidate",
+    "h:guts"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 120,
+    "defence": 79,
+    "special_attack": 95,
+    "special_defence": 79,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:quick_claw",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:shuca_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "1:charge",
+    "1:electricterrain",
+    "1:thundershock",
+    "12:bite",
+    "18:spark",
+    "24:roar",
+    "33:voltswitch",
+    "40:scaryface",
+    "48:thunderwave",
+    "56:crunch",
+    "64:discharge",
+    "72:swagger",
+    "80:wildcharge",
+    "egg:babydolleyes",
+    "egg:doublekick",
+    "egg:howl",
+    "egg:nightslash",
+    "egg:quickattack",
+    "egg:shockwave",
+    "egg:takedown",
+    "tm:agility",
+    "tm:babydolleyes",
+    "tm:bodyslam",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:doubleedge",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:firefang",
+    "tm:flash",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:icefang",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:roar",
+    "tm:scaryface",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:supercellslam",
+    "tm:superpower",
+    "tm:swagger",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:babydolleyes",
+    "tutor:chargebeam",
+    "tutor:electroweb",
+    "tutor:firefang",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icefang",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:magnetrise",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:superpower",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:thunderbolt",
+    "tutor:thunderfang",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.16,
+        "levels": "30-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_desert",
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0405_luxray.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/luxray.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/luxray_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/luxray.json"
+  ]
+}

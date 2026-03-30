@@ -1,0 +1,216 @@
+{
+  "id": "victreebel",
+  "dexnum": 71,
+  "name": "Victreebel",
+  "primaryType": "grass",
+  "secondaryType": "poison",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "chlorophyll",
+    "h:gluttony"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 105,
+    "defence": 65,
+    "special_attack": 100,
+    "special_defence": 70,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:big_root",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:pinap_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:stockpile",
+    "1:swallow",
+    "1:spitup",
+    "1:vinewhip",
+    "1:sleeppowder",
+    "1:sweetscent",
+    "1:razorleaf",
+    "1:leafstorm",
+    "1:knockoff",
+    "1:gastroacid",
+    "1:leaftornado",
+    "1:powerwhip",
+    "1:poisonjab",
+    "1:growth",
+    "1:wrap",
+    "1:poisonpowder",
+    "1:stunspore",
+    "1:acid",
+    "1:slam",
+    "1:wringout",
+    "44:leafblade",
+    "egg:belch",
+    "egg:clearsmog",
+    "egg:ingrain",
+    "egg:naturalgift",
+    "egg:strengthsap",
+    "egg:suckerpunch",
+    "egg:synthesis",
+    "egg:tickle",
+    "egg:worryseed",
+    "egg:wringout",
+    "tm:acidspray",
+    "tm:bind",
+    "tm:bodyslam",
+    "tm:bugbite",
+    "tm:bulletseed",
+    "tm:cut",
+    "tm:encore",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:hyperbeam",
+    "tm:infestation",
+    "tm:knockoff",
+    "tm:leafblade",
+    "tm:leafstorm",
+    "tm:leechlife",
+    "tm:lunge",
+    "tm:magicalleaf",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:poisonjab",
+    "tm:pounce",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:scaryface",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:toxic",
+    "tm:trailblaze",
+    "tm:venoshock",
+    "tm:weatherball",
+    "tm:worryseed",
+    "tutor:bind",
+    "tutor:bugbite",
+    "tutor:energyball",
+    "tutor:gastroacid",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grassyglide",
+    "tutor:hyperbeam",
+    "tutor:knockoff",
+    "tutor:leechlife",
+    "tutor:magicalleaf",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:synthesis",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:megadrain",
+    "legacy:mimic",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:takedown",
+    "special:morningsun",
+    "special:teeterdance"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.05,
+        "levels": "34-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0071_victreebel.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/victreebel.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/victreebel_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/victreebel.json"
+  ]
+}

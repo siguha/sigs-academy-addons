@@ -1,0 +1,346 @@
+{
+  "id": "sigilyph",
+  "dexnum": 561,
+  "name": "Sigilyph",
+  "primaryType": "psychic",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "wonderskin",
+    "magicguard",
+    "h:tintedlens"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 58,
+    "defence": 80,
+    "special_attack": 103,
+    "special_defence": 80,
+    "speed": 97
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:ender_pearl",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:light_clay",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:colbur_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:gust",
+    "1:miracleeye",
+    "1:psywave",
+    "1:synchronoise",
+    "1:mirrormove",
+    "1:confusion",
+    "5:gravity",
+    "10:hypnosis",
+    "15:aircutter",
+    "20:psybeam",
+    "25:whirlwind",
+    "30:cosmicpower",
+    "35:airslash",
+    "40:psychic",
+    "45:tailwind",
+    "50:lightscreen",
+    "50:reflect",
+    "55:skyattack",
+    "60:skillswap",
+    "egg:ancientpower",
+    "egg:psychoshift",
+    "egg:roost",
+    "tm:aerialace",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:ancientpower",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:cosmicpower",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:dreameater",
+    "tm:dualwingbeat",
+    "tm:endure",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:fly",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:gravity",
+    "tm:heatwave",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:pluck",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychocut",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:roost",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:solarbeam",
+    "tm:speedswap",
+    "tm:steelwing",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderwave",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:ancientpower",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:darkpulse",
+    "tutor:dazzlinggleam",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:energyball",
+    "tutor:expandingforce",
+    "tutor:flashcannon",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:heatwave",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:psychic",
+    "tutor:psychocut",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 60.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands",
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0561_sigilyph.json",
+        "structures": [
+          "#cobblemon:ruin"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "desert_pyramid"
+        ],
+        "rarity": "common",
+        "weight": 60.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0561_sigilyph.json",
+        "structures": [
+          "minecraft:desert_well"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "jungle_pyramid"
+        ],
+        "rarity": "common",
+        "weight": 60.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0561_sigilyph.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "trail_ruins"
+        ],
+        "rarity": "common",
+        "weight": 60.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0561_sigilyph.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "end_city"
+        ],
+        "rarity": "uncommon",
+        "weight": 6.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_end"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0561_sigilyph.json"
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0561_sigilyph.json",
+        "structures": [
+          "#aether:dungeons"
+        ]
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 6.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:howling_constructs"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0561_sigilyph.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/sigilyph.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/sigilyph_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/sigilyph.json"
+  ]
+}

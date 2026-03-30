@@ -1,0 +1,193 @@
+{
+  "id": "scovillain",
+  "dexnum": 952,
+  "name": "Scovillain",
+  "primaryType": "grass",
+  "secondaryType": "fire",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "chlorophyll",
+    "insomnia",
+    "h:moody"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 108,
+    "defence": 65,
+    "special_attack": 108,
+    "special_defence": 65,
+    "speed": 75
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:roasted_leek",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:spicyextract",
+    "1:flamethrower",
+    "1:leer",
+    "1:firefang",
+    "1:leafage",
+    "4:bite",
+    "10:growth",
+    "13:razorleaf",
+    "17:sunnyday",
+    "21:bulletseed",
+    "24:headbutt",
+    "28:zenheadbutt",
+    "33:worryseed",
+    "38:crunch",
+    "44:seedbomb",
+    "48:solarbeam",
+    "48:overheat",
+    "egg:ingrain",
+    "egg:leechseed",
+    "egg:ragepowder",
+    "egg:rollout",
+    "egg:worryseed",
+    "tm:bulletseed",
+    "tm:burningjealousy",
+    "tm:crunch",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:flamethrower",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:lashout",
+    "tm:leafstorm",
+    "tm:magicalleaf",
+    "tm:overheat",
+    "tm:protect",
+    "tm:rest",
+    "tm:rollout",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:willowisp",
+    "tm:worryseed",
+    "tm:zenheadbutt",
+    "tutor:burningjealousy",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:firefang",
+    "tutor:flamethrower",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:lashout",
+    "tutor:magicalleaf",
+    "tutor:rest",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:superfang",
+    "tutor:worryseed",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.3,
+        "levels": "25-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_overgrowth"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0952_scovillain.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "25-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0952_scovillain.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/scovillain.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/scovillain_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/scovillain.json"
+  ]
+}

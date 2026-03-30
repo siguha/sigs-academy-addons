@@ -1,0 +1,261 @@
+{
+  "id": "abomasnow",
+  "dexnum": 460,
+  "name": "Abomasnow",
+  "primaryType": "grass",
+  "secondaryType": "ice",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "snowwarning",
+    "h:soundproof"
+  ],
+  "eggGroups": [
+    "monster",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 92,
+    "defence": 75,
+    "special_attack": 92,
+    "special_defence": 85,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 60,
+  "drops": {
+    "amount": 8,
+    "entries": [
+      {
+        "item": "minecraft:snowball",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:sweet_berries",
+        "percentage": null,
+        "quantityRange": "2-4",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:never_melt_ice",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:occa_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:icepunch",
+    "1:powdersnow",
+    "1:leer",
+    "1:grasswhistle",
+    "1:mist",
+    "1:auroraveil",
+    "1:leafage",
+    "15:iceshard",
+    "20:razorleaf",
+    "25:icywind",
+    "30:swagger",
+    "35:ingrain",
+    "43:woodhammer",
+    "49:blizzard",
+    "56:sheercold",
+    "egg:doubleedge",
+    "egg:growth",
+    "egg:leechseed",
+    "egg:naturalgift",
+    "egg:skullbash",
+    "egg:stomp",
+    "egg:weatherball",
+    "tm:auroraveil",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:chillingwater",
+    "tm:curse",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:frostbreath",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:hail",
+    "tm:hardpress",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icespinner",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:leafstorm",
+    "tm:lowkick",
+    "tm:magicalleaf",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:mudslap",
+    "tm:naturalgift",
+    "tm:outrage",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:scaryface",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:solarbeam",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:worryseed",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:energyball",
+    "tutor:focuspunch",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:lowkick",
+    "tutor:magicalleaf",
+    "tutor:mudslap",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:synthesis",
+    "tutor:waterpulse",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:lightscreen",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:shadowball",
+    "legacy:snore",
+    "legacy:toxic"
+  ],
+  "forms": [
+    "Mega"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 7.0,
+        "levels": "42-55",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_snowy_taiga",
+            "#cobblemon:is_snowy_forest"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0460_abomasnow.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 7.0,
+        "levels": "42-55",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_snowy_taiga",
+            "#cobblemon:is_snowy_forest"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0460_abomasnow.json"
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/abomasnow.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/abomasnow_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/abomasnow.json"
+  ]
+}

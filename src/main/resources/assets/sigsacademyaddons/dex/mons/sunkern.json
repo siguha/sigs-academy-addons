@@ -1,0 +1,258 @@
+{
+  "id": "sunkern",
+  "dexnum": 191,
+  "name": "Sunkern",
+  "primaryType": "grass",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "chlorophyll",
+    "solarpower",
+    "h:earlybird"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 30,
+    "defence": 30,
+    "special_attack": 30,
+    "special_defence": 30,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 235,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:wheat_seeds",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:coba_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:growth",
+    "1:grasswhistle",
+    "1:tackle",
+    "7:absorb",
+    "10:megadrain",
+    "16:razorleaf",
+    "19:worryseed",
+    "22:gigadrain",
+    "25:endeavor",
+    "28:synthesis",
+    "31:naturalgift",
+    "34:doubleedge",
+    "36:sunnyday",
+    "39:seedbomb",
+    "egg:bide",
+    "egg:curse",
+    "egg:encore",
+    "egg:grasswhistle",
+    "egg:grassyterrain",
+    "egg:ingrain",
+    "egg:leechseed",
+    "egg:morningsun",
+    "egg:naturalgift",
+    "egg:sweetscent",
+    "tm:afteryou",
+    "tm:bulletseed",
+    "tm:curse",
+    "tm:cut",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyterrain",
+    "tm:helpinghand",
+    "tm:leafstorm",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:weatherball",
+    "tm:worryseed",
+    "tutor:afteryou",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:helpinghand",
+    "tutor:magicalleaf",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:synthesis",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:sludgebomb",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:swordsdance",
+    "legacy:toxic",
+    "legacy:uproar"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "sunkern_sunflora",
+      "variant": "item_interact",
+      "result": "sunflora",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:sun_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.5,
+        "levels": "1-18",
+        "biomeTags": {
+          "include": [
+            "minecraft:sunflower_plains"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0191_sunkern.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:sunflower"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.5,
+        "levels": "1-18",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "minecraft:sunflower_plains"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0191_sunkern.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:sunflower"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.7,
+        "levels": "1-18",
+        "biomeTags": {
+          "include": [
+            "aether:skyroot_grove",
+            "aether:skyroot_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0191_sunkern.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 9.5,
+        "levels": "1-18",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:floral_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0191_sunkern.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/sunkern.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/sunkern_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/sunkern.json"
+  ]
+}

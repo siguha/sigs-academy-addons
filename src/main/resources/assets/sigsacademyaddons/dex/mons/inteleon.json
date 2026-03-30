@@ -1,0 +1,258 @@
+{
+  "id": "inteleon",
+  "dexnum": 818,
+  "name": "Inteleon",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "torrent",
+    "h:sniper"
+  ],
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 85,
+    "defence": 65,
+    "special_attack": 125,
+    "special_defence": 65,
+    "speed": 120
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:snipeshot",
+    "1:acrobatics",
+    "1:pound",
+    "1:growl",
+    "1:watergun",
+    "1:bind",
+    "12:waterpulse",
+    "19:tearfullook",
+    "24:suckerpunch",
+    "30:uturn",
+    "38:liquidation",
+    "46:soak",
+    "54:raindance",
+    "62:hydropump",
+    "egg:aquajet",
+    "egg:aquaring",
+    "egg:doubleteam",
+    "egg:fellstinger",
+    "egg:haze",
+    "egg:iceshard",
+    "egg:mist",
+    "tm:acrobatics",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:batonpass",
+    "tm:bind",
+    "tm:blizzard",
+    "tm:bounce",
+    "tm:breakingswipe",
+    "tm:chillingwater",
+    "tm:darkpulse",
+    "tm:dive",
+    "tm:doubleteam",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:flipturn",
+    "tm:focusenergy",
+    "tm:gigaimpact",
+    "tm:haze",
+    "tm:hydrocannon",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:metronome",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:scald",
+    "tm:shadowball",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:snowscape",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:surf",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:uturn",
+    "tm:vacuumwave",
+    "tm:waterfall",
+    "tm:waterpledge",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:workup",
+    "tutor:aircutter",
+    "tutor:bind",
+    "tutor:bounce",
+    "tutor:darkpulse",
+    "tutor:dive",
+    "tutor:flipturn",
+    "tutor:focusenergy",
+    "tutor:gigaimpact",
+    "tutor:hydrocannon",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:liquidation",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:vacuumwave",
+    "tutor:waterpledge",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:scaleshot",
+    "legacy:snore"
+  ],
+  "forms": [
+    "Gmax"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "35-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0818_inteleon.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "35-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0818_inteleon.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:water"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "35-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0818_inteleon.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "35-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0818_inteleon.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/inteleon.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/inteleon_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/inteleon.json"
+  ]
+}

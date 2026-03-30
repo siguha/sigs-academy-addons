@@ -1,0 +1,255 @@
+{
+  "id": "tinkatink",
+  "dexnum": 957,
+  "name": "Tinkatink",
+  "primaryType": "fairy",
+  "secondaryType": "steel",
+  "maleRatio": 0,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "moldbreaker",
+    "owntempo",
+    "h:pickpocket"
+  ],
+  "eggGroups": [
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 45,
+    "defence": 45,
+    "special_attack": 35,
+    "special_defence": 64,
+    "speed": 58
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 190,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:raw_iron",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:razz_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:astonish",
+    "1:fairywind",
+    "5:babydolleyes",
+    "8:metalclaw",
+    "11:covet",
+    "14:rocksmash",
+    "17:drainingkiss",
+    "21:sweetkiss",
+    "24:brutalswing",
+    "27:slam",
+    "31:flashcannon",
+    "35:playrough",
+    "39:fakeout",
+    "43:flatter",
+    "47:skittersmack",
+    "52:knockoff",
+    "egg:feint",
+    "egg:icehammer",
+    "egg:quash",
+    "tm:babydolleyes",
+    "tm:brutalswing",
+    "tm:covet",
+    "tm:drainingkiss",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flashcannon",
+    "tm:fling",
+    "tm:foulplay",
+    "tm:helpinghand",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:metalclaw",
+    "tm:metalsound",
+    "tm:metronome",
+    "tm:playrough",
+    "tm:pounce",
+    "tm:protect",
+    "tm:quash",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:skillswap",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:steelbeam",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:swordsdance",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderwave",
+    "tutor:babydolleyes",
+    "tutor:covet",
+    "tutor:endeavor",
+    "tutor:flashcannon",
+    "tutor:foulplay",
+    "tutor:helpinghand",
+    "tutor:knockoff",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:skillswap",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:steelbeam",
+    "tutor:stoneedge"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "tinkatink_tinkatuff",
+      "variant": "level_up",
+      "result": "tinkatuff",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 24
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 18.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0957_tinkatink.json",
+        "structures": [
+          "#cobblemon:ruin"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0957_tinkatink.json",
+        "structures": [
+          "#aether:dungeons"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "rare",
+        "weight": 18.0,
+        "levels": "5-30",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0957_tinkatink.json",
+        "structures": [
+          "#cobblemon:ruin"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "5-30",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0957_tinkatink.json",
+        "structures": [
+          "#aether:dungeons"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/tinkatink.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/tinkatink_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/tinkatink.json"
+  ]
+}

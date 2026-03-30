@@ -1,0 +1,266 @@
+{
+  "id": "kabutops",
+  "dexnum": 141,
+  "name": "Kabutops",
+  "primaryType": "rock",
+  "secondaryType": "water",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen1",
+    "fossil"
+  ],
+  "abilities": [
+    "swiftswim",
+    "battlearmor",
+    "h:weakarmor"
+  ],
+  "eggGroups": [
+    "water_1",
+    "water_3"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 115,
+    "defence": 105,
+    "special_attack": 65,
+    "special_defence": 70,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:razor_claw",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:feint",
+    "1:scratch",
+    "1:harden",
+    "1:absorb",
+    "1:sandattack",
+    "1:megadrain",
+    "1:slash",
+    "1:wringout",
+    "1:nightslash",
+    "15:aquajet",
+    "20:leer",
+    "25:mudshot",
+    "30:ancientpower",
+    "35:brine",
+    "43:protect",
+    "49:leechlife",
+    "56:liquidation",
+    "63:metalsound",
+    "70:stoneedge",
+    "egg:aurorabeam",
+    "egg:bubblebeam",
+    "egg:confuseray",
+    "egg:flail",
+    "egg:foresight",
+    "egg:knockoff",
+    "egg:megadrain",
+    "egg:rapidspin",
+    "egg:takedown",
+    "tm:aerialace",
+    "tm:ancientpower",
+    "tm:aquatail",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brine",
+    "tm:confuseray",
+    "tm:crosspoison",
+    "tm:cut",
+    "tm:dig",
+    "tm:dive",
+    "tm:earthpower",
+    "tm:endure",
+    "tm:facade",
+    "tm:flipturn",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:honeclaws",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:knockoff",
+    "tm:leechlife",
+    "tm:liquidation",
+    "tm:lowkick",
+    "tm:megakick",
+    "tm:metalsound",
+    "tm:meteorbeam",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:naturepower",
+    "tm:protect",
+    "tm:psychocut",
+    "tm:raindance",
+    "tm:razorshell",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rockclimb",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sandstorm",
+    "tm:scald",
+    "tm:screech",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:surf",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:ancientpower",
+    "tutor:aquatail",
+    "tutor:dive",
+    "tutor:earthpower",
+    "tutor:flipturn",
+    "tutor:furycutter",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:knockoff",
+    "tutor:leechlife",
+    "tutor:liquidation",
+    "tutor:lowkick",
+    "tutor:meteorbeam",
+    "tutor:mudslap",
+    "tutor:psychocut",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:waterpulse",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:razorwind",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:rockthrow",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:skullbash",
+    "legacy:slash",
+    "legacy:snore",
+    "legacy:submission",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:watergun"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 4.0,
+        "levels": "40-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0141_kabutops.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 4.0,
+        "levels": "40-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0141_kabutops.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/kabutops.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/kabutops_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/kabutops.json"
+  ]
+}

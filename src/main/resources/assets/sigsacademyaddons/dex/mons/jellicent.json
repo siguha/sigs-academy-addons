@@ -1,0 +1,335 @@
+{
+  "id": "jellicent",
+  "dexnum": 593,
+  "name": "Jellicent",
+  "primaryType": "water",
+  "secondaryType": "ghost",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "waterabsorb",
+    "cursedbody",
+    "h:damp"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 60,
+    "defence": 70,
+    "special_attack": 85,
+    "special_defence": 105,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 60,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:glow_ink_sac",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:kasib_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:bubble",
+    "1:watersport",
+    "1:absorb",
+    "1:nightshade",
+    "1:bubblebeam",
+    "1:wringout",
+    "1:acidarmor",
+    "1:watergun",
+    "1:poisonsting",
+    "12:waterpulse",
+    "16:raindance",
+    "20:hex",
+    "24:brine",
+    "28:recover",
+    "32:shadowball",
+    "36:whirlpool",
+    "43:hydropump",
+    "48:destinybond",
+    "54:waterspout",
+    "egg:acidarmor",
+    "egg:bubblebeam",
+    "egg:confuseray",
+    "egg:constrict",
+    "egg:mist",
+    "egg:painsplit",
+    "egg:strengthsap",
+    "egg:wringout",
+    "tm:bind",
+    "tm:blizzard",
+    "tm:brine",
+    "tm:confuseray",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:dive",
+    "tm:dreameater",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:hex",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:magiccoat",
+    "tm:muddywater",
+    "tm:nightshade",
+    "tm:ominouswind",
+    "tm:painsplit",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:scald",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:spite",
+    "tm:substitute",
+    "tm:surf",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:willowisp",
+    "tutor:bind",
+    "tutor:darkpulse",
+    "tutor:dazzlinggleam",
+    "tutor:dive",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:magiccoat",
+    "tutor:ominouswind",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spite",
+    "tutor:trick",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "40-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0593_jellicent.json",
+        "sky": {
+          "canSeeSky": true
+        },
+        "yLevel": {
+          "maxY": 48
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "40-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0593_jellicent.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "40-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0593_jellicent.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "40-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0593_jellicent.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "yLevel": {
+          "maxY": 48
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "40-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0593_jellicent.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 6.0,
+        "levels": "40-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0593_jellicent.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 6.0,
+        "levels": "40-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0593_jellicent.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/jellicent_female.png",
+      "out/sprites/cobblemon/jellicent_male.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/jellicent_female_shiny.png",
+      "out/sprites/cobblemon/jellicent_male_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/jellicent.json"
+  ]
+}

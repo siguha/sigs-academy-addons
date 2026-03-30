@@ -1,0 +1,251 @@
+{
+  "id": "skuntank",
+  "dexnum": 435,
+  "name": "Skuntank",
+  "primaryType": "poison",
+  "secondaryType": "dark",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "stench",
+    "aftermath",
+    "h:keeneye"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 103,
+    "attack": 93,
+    "defence": 67,
+    "special_attack": 71,
+    "special_defence": 61,
+    "speed": 84
+  },
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 60,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:poisongas",
+    "1:smokescreen",
+    "1:feint",
+    "1:slash",
+    "1:flamethrower",
+    "12:furyswipes",
+    "15:focusenergy",
+    "18:bite",
+    "21:venoshock",
+    "24:screech",
+    "27:toxic",
+    "30:suckerpunch",
+    "33:memento",
+    "38:nightslash",
+    "43:belch",
+    "48:explosion",
+    "egg:astonish",
+    "egg:doubleedge",
+    "egg:flameburst",
+    "egg:haze",
+    "egg:leer",
+    "egg:punishment",
+    "egg:pursuit",
+    "egg:slash",
+    "egg:smog",
+    "tm:acidspray",
+    "tm:assurance",
+    "tm:bodyslam",
+    "tm:burningjealousy",
+    "tm:corrosivegas",
+    "tm:crunch",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firespin",
+    "tm:flamethrower",
+    "tm:focusenergy",
+    "tm:foulplay",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:haze",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:playrough",
+    "tm:poisonjab",
+    "tm:poisontail",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:strength",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:swift",
+    "tm:tailslap",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:torment",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:trailblaze",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tutor:burningjealousy",
+    "tutor:corrosivegas",
+    "tutor:darkpulse",
+    "tutor:defog",
+    "tutor:endeavor",
+    "tutor:flamethrower",
+    "tutor:focusenergy",
+    "tutor:foulplay",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:playrough",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snarl",
+    "tutor:snatch",
+    "tutor:suckerpunch",
+    "tutor:superfang",
+    "tutor:swift",
+    "tutor:throatchop",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.0,
+        "levels": "20-55",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0435_skuntank.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.0,
+        "levels": "20-55",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0435_skuntank.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/skuntank.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/skuntank_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/skuntank.json"
+  ]
+}

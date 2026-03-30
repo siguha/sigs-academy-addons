@@ -1,0 +1,302 @@
+{
+  "id": "floatzel",
+  "dexnum": 419,
+  "name": "Floatzel",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "swiftswim",
+    "h:waterveil"
+  ],
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 105,
+    "defence": 55,
+    "special_attack": 85,
+    "special_defence": 50,
+    "speed": 115
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:salmon",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:wacan_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:icefang",
+    "1:sonicboom",
+    "1:growl",
+    "1:watersport",
+    "1:quickattack",
+    "1:pursuit",
+    "1:crunch",
+    "1:razorwind",
+    "1:tackle",
+    "1:soak",
+    "15:watergun",
+    "18:bite",
+    "21:swift",
+    "24:aquajet",
+    "29:doublehit",
+    "35:whirlpool",
+    "41:liquidation",
+    "46:aquatail",
+    "51:agility",
+    "57:hydropump",
+    "62:wavecrash",
+    "egg:aquaring",
+    "egg:batonpass",
+    "egg:bite",
+    "egg:doubleslap",
+    "egg:furycutter",
+    "egg:furyswipes",
+    "egg:headbutt",
+    "egg:helpinghand",
+    "egg:mefirst",
+    "egg:mudslap",
+    "egg:odorsleuth",
+    "egg:slash",
+    "egg:switcheroo",
+    "tm:agility",
+    "tm:aquatail",
+    "tm:batonpass",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brine",
+    "tm:bulkup",
+    "tm:chillingwater",
+    "tm:crunch",
+    "tm:dig",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:icespinner",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:liquidation",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:metronome",
+    "tm:muddywater",
+    "tm:mudslap",
+    "tm:payback",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:strength",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:tailslap",
+    "tm:tailwhip",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:torment",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:aquatail",
+    "tutor:bulkup",
+    "tutor:dive",
+    "tutor:flipturn",
+    "tutor:focuspunch",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:liquidation",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:swift",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "26-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0419_floatzel.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "26-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0419_floatzel.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.32,
+        "levels": "26-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0419_floatzel.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "26-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_grassland",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_taiga"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0419_floatzel.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/floatzel.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/floatzel_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/floatzel.json"
+  ]
+}

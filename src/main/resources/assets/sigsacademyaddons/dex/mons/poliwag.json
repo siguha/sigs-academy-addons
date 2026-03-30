@@ -1,0 +1,554 @@
+{
+  "id": "poliwag",
+  "dexnum": 60,
+  "name": "Poliwag",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "waterabsorb",
+    "damp",
+    "h:swiftswim"
+  ],
+  "eggGroups": [
+    "water_1"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 50,
+    "defence": 40,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 90
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 255,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:kings_rock",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:watersport",
+    "1:bubble",
+    "1:hypnosis",
+    "1:watergun",
+    "6:pound",
+    "12:mudshot",
+    "18:bubblebeam",
+    "24:raindance",
+    "30:bodyslam",
+    "36:earthpower",
+    "42:hydropump",
+    "48:bellydrum",
+    "54:doubleedge",
+    "egg:doubleslap",
+    "egg:endeavor",
+    "egg:mindreader",
+    "egg:mist",
+    "egg:mudbomb",
+    "egg:muddywater",
+    "egg:refresh",
+    "egg:splash",
+    "egg:wakeupslap",
+    "egg:waterpulse",
+    "egg:watersport",
+    "tm:amnesia",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:chillingwater",
+    "tm:dig",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:focuspunch",
+    "tm:hail",
+    "tm:haze",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:iceball",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:liquidation",
+    "tm:lowkick",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:psychic",
+    "tm:raindance",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tutor:bulldoze",
+    "tutor:dive",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:focuspunch",
+    "tutor:helpinghand",
+    "tutor:iceball",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:liquidation",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:psywave",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:sweetkiss"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "poliwag_poliwhirl",
+      "variant": "level_up",
+      "result": "poliwhirl",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0060_poliwag.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0060_poliwag.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:lily_pad"
+          ]
+        },
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_magical",
+            "#cobblemon:is_mushroom",
+            "#cobblemon:is_temperate"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0060_poliwag.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:water"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_magical",
+            "#cobblemon:is_mushroom",
+            "#cobblemon:is_temperate"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0060_poliwag.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0060_poliwag.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0060_poliwag.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_magical",
+            "#cobblemon:is_mushroom",
+            "#cobblemon:is_temperate"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0060_poliwag.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0060_poliwag.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0060_poliwag.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:lily_pad"
+          ]
+        },
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_magical",
+            "#cobblemon:is_mushroom",
+            "#cobblemon:is_temperate"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0060_poliwag.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_magical",
+            "#cobblemon:is_mushroom",
+            "#cobblemon:is_temperate"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0060_poliwag.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0060_poliwag.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        },
+        "yLevel": {
+          "minY": -41,
+          "maxY": 9
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0060_poliwag.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        },
+        "yLevel": {
+          "minY": -41,
+          "maxY": 9
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0060_poliwag.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        },
+        "yLevel": {
+          "minY": -41,
+          "maxY": 9
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/poliwag.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/poliwag_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/poliwag.json"
+  ]
+}

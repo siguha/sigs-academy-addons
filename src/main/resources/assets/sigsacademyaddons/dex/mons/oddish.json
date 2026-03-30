@@ -1,0 +1,220 @@
+{
+  "id": "oddish",
+  "dexnum": 43,
+  "name": "Oddish",
+  "primaryType": "grass",
+  "secondaryType": "poison",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "chlorophyll",
+    "h:runaway"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 50,
+    "defence": 55,
+    "special_attack": 75,
+    "special_defence": 65,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 255,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:absorb_bulb",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:absorb",
+    "1:growth",
+    "4:acid",
+    "8:sweetscent",
+    "12:megadrain",
+    "14:poisonpowder",
+    "16:stunspore",
+    "18:sleeppowder",
+    "20:gigadrain",
+    "24:toxic",
+    "28:moonblast",
+    "32:grassyterrain",
+    "36:moonlight",
+    "40:petaldance",
+    "egg:afteryou",
+    "egg:flail",
+    "egg:ingrain",
+    "egg:leechseed",
+    "egg:luckychant",
+    "egg:naturalgift",
+    "egg:razorleaf",
+    "egg:secretpower",
+    "egg:strengthsap",
+    "egg:synthesis",
+    "egg:teeterdance",
+    "egg:tickle",
+    "tm:acidspray",
+    "tm:afteryou",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:cut",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:helpinghand",
+    "tm:infestation",
+    "tm:leafstorm",
+    "tm:magicalleaf",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:protect",
+    "tm:rest",
+    "tm:secretpower",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:trailblaze",
+    "tm:venoshock",
+    "tm:worryseed",
+    "tutor:afteryou",
+    "tutor:energyball",
+    "tutor:gastroacid",
+    "tutor:gigadrain",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:magicalleaf",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:synthesis",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:dazzlinggleam",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:takedown"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "oddish_gloom",
+      "variant": "level_up",
+      "result": "gloom",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 21
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0043_oddish.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_temperate"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0043_oddish.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/oddish.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/oddish_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/oddish.json"
+  ]
+}

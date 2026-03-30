@@ -1,0 +1,206 @@
+{
+  "id": "celesteela",
+  "dexnum": 797,
+  "name": "Celesteela",
+  "primaryType": "steel",
+  "secondaryType": "flying",
+  "maleRatio": -1,
+  "labels": [
+    "gen7",
+    "ultra_beast"
+  ],
+  "abilities": [
+    "beastboost",
+    "h:beastboost"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 97,
+    "attack": 101,
+    "defence": 103,
+    "special_attack": 107,
+    "special_defence": 101,
+    "speed": 61
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:echo_shard",
+        "percentage": null,
+        "quantityRange": "1-3",
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:absorb",
+    "1:tackle",
+    "5:harden",
+    "10:wideguard",
+    "15:megadrain",
+    "20:smackdown",
+    "25:ingrain",
+    "30:autotomize",
+    "35:gigadrain",
+    "40:flashcannon",
+    "45:metalsound",
+    "50:irondefense",
+    "55:leechseed",
+    "60:heavyslam",
+    "65:doubleedge",
+    "70:skullbash",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:doubleedge",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:energyball",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flashcannon",
+    "tm:fly",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:gyroball",
+    "tm:heavyslam",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:magnetrise",
+    "tm:megahorn",
+    "tm:metalsound",
+    "tm:meteorbeam",
+    "tm:protect",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:seedbomb",
+    "tm:selfdestruct",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:smartstrike",
+    "tm:solarbeam",
+    "tm:steelbeam",
+    "tm:steelroller",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:terablast",
+    "tm:zenheadbutt",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:energyball",
+    "tutor:flamethrower",
+    "tutor:flashcannon",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:magnetrise",
+    "tutor:megahorn",
+    "tutor:meteorbeam",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:seedbomb",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:steelbeam",
+    "tutor:steelroller",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:zenheadbutt",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.05,
+        "levels": "70-100",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#minecraft:is_end"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/ultra_beasts_spawns/spawn_pool_world/0797_celesteela.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.2,
+        "levels": "70-100",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#minecraft:is_end"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/ub_spawns_ccc/spawn_pool_world/0797_celesteela.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/celesteela.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/celesteela_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/celesteela.json"
+  ]
+}

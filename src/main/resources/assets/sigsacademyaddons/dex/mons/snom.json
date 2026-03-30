@@ -1,0 +1,164 @@
+{
+  "id": "snom",
+  "dexnum": 872,
+  "name": "Snom",
+  "primaryType": "ice",
+  "secondaryType": "bug",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "shielddust",
+    "h:icescales"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 25,
+    "defence": 35,
+    "special_attack": 45,
+    "special_defence": 30,
+    "speed": 20
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:snowball",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:silver_powder",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:charti_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:powdersnow",
+    "1:strugglebug",
+    "egg:bugbite",
+    "egg:fairywind",
+    "egg:mirrorcoat",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:facade",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:lunge",
+    "tm:pounce",
+    "tm:protect",
+    "tm:rest",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:terablast",
+    "tutor:bugbite",
+    "tutor:icywind",
+    "tutor:rest",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "legacy:attract",
+    "legacy:endure",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "snom_frosmoth",
+      "variant": "level_up",
+      "result": "frosmoth",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "icywind"
+      ],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 4.0,
+        "levels": "13-23",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0872_snom.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 4.0,
+        "levels": "13-23",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0872_snom.json"
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/snom.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/snom_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/snom.json"
+  ]
+}

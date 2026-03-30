@@ -1,0 +1,226 @@
+{
+  "id": "grimmsnarl",
+  "dexnum": 861,
+  "name": "Grimmsnarl",
+  "primaryType": "dark",
+  "secondaryType": "fairy",
+  "maleRatio": 1,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "prankster",
+    "frisk",
+    "h:pickpocket"
+  ],
+  "eggGroups": [
+    "fairy",
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 120,
+    "defence": 65,
+    "special_attack": 95,
+    "special_defence": 75,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:roseli_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:spiritbreak",
+    "1:falsesurrender",
+    "1:bulkup",
+    "1:poweruppunch",
+    "1:fakeout",
+    "1:confide",
+    "1:bite",
+    "1:flatter",
+    "12:faketears",
+    "16:assurance",
+    "20:swagger",
+    "24:suckerpunch",
+    "28:torment",
+    "35:darkpulse",
+    "40:nastyplot",
+    "48:playrough",
+    "56:foulplay",
+    "64:hammerarm",
+    "egg:partingshot",
+    "tm:assurance",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:burningjealousy",
+    "tm:chillingwater",
+    "tm:confide",
+    "tm:crunch",
+    "tm:darkestlariat",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:foulplay",
+    "tm:gigaimpact",
+    "tm:hyperbeam",
+    "tm:icepunch",
+    "tm:imprison",
+    "tm:lashout",
+    "tm:leechlife",
+    "tm:lightscreen",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:mistyterrain",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:powerswap",
+    "tm:poweruppunch",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:scaryface",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:superpower",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:trailblaze",
+    "tm:trick",
+    "tm:wonderroom",
+    "tutor:bulkup",
+    "tutor:burningjealousy",
+    "tutor:darkpulse",
+    "tutor:dazzlinggleam",
+    "tutor:drainpunch",
+    "tutor:firepunch",
+    "tutor:focusenergy",
+    "tutor:focuspunch",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icepunch",
+    "tutor:lashout",
+    "tutor:leechlife",
+    "tutor:lowkick",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:suckerpunch",
+    "tutor:superpower",
+    "tutor:throatchop",
+    "tutor:thunderpunch",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:uproar"
+  ],
+  "forms": [
+    "Gmax"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.06,
+        "levels": "42-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_magical"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0861_grimmsnarl.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.06,
+        "levels": "42-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_forest",
+            "#cobblemon:nether/is_warped"
+          ],
+          "exclude": [
+            "#cobblemon:nether/is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0861_grimmsnarl.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/grimmsnarl.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/grimmsnarl_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/grimmsnarl.json"
+  ]
+}

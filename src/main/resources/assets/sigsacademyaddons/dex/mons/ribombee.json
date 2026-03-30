@@ -1,0 +1,275 @@
+{
+  "id": "ribombee",
+  "dexnum": 743,
+  "name": "Ribombee",
+  "primaryType": "bug",
+  "secondaryType": "fairy",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "honeygather",
+    "shielddust",
+    "h:sweetveil"
+  ],
+  "eggGroups": [
+    "bug",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 55,
+    "defence": 60,
+    "special_attack": 95,
+    "special_defence": 70,
+    "speed": 124
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:honey_bottle",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:pollenpuff",
+    "1:absorb",
+    "1:fairywind",
+    "1:stunspore",
+    "1:sweetscent",
+    "1:aromatherapy",
+    "18:drainingkiss",
+    "24:strugglebug",
+    "32:covet",
+    "40:switcheroo",
+    "48:dazzlinggleam",
+    "56:bugbuzz",
+    "64:quiverdance",
+    "egg:aromaticmist",
+    "egg:bestow",
+    "egg:moonblast",
+    "egg:powder",
+    "egg:stickyweb",
+    "tm:acrobatics",
+    "tm:afteryou",
+    "tm:agility",
+    "tm:alluringvoice",
+    "tm:allyswitch",
+    "tm:batonpass",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:drainingkiss",
+    "tm:dreameater",
+    "tm:dualwingbeat",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:infestation",
+    "tm:lastresort",
+    "tm:leechlife",
+    "tm:lightscreen",
+    "tm:lunge",
+    "tm:magicalleaf",
+    "tm:magicroom",
+    "tm:naturepower",
+    "tm:playrough",
+    "tm:pollenpuff",
+    "tm:pounce",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:psychup",
+    "tm:reflect",
+    "tm:rest",
+    "tm:roost",
+    "tm:safeguard",
+    "tm:signalbeam",
+    "tm:silverwind",
+    "tm:skillswap",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:speedswap",
+    "tm:storedpower",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:trick",
+    "tm:uturn",
+    "tm:wonderroom",
+    "tutor:afteryou",
+    "tutor:allyswitch",
+    "tutor:bugbite",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:defog",
+    "tutor:energyball",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:lastresort",
+    "tutor:leechlife",
+    "tutor:magicalleaf",
+    "tutor:magicroom",
+    "tutor:playrough",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "legacy:aerialace",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "25-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_floral"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0743_ribombee.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "25-46",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_floral"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0743_ribombee.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "#cobblemon:flowers",
+            "#cobblemon:saccharine_trees"
+          ],
+          "resolved": [
+            "cobblemon:pep_up_flower",
+            "cobblemon:saccharine_leaves",
+            "cobblemon:saccharine_log",
+            "cobblemon:saccharine_wood",
+            "cobblemon:stripped_saccharine_log",
+            "cobblemon:stripped_saccharine_wood",
+            "minecraft:chorus_flower"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 18.0,
+        "levels": "25-46",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:floral_meadow",
+            "the_bumblezone:pollinated_fields"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0743_ribombee.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/ribombee.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/ribombee_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/ribombee.json"
+  ]
+}

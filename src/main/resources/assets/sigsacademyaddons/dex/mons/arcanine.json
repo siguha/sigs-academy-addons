@@ -1,0 +1,260 @@
+{
+  "id": "arcanine",
+  "dexnum": 59,
+  "name": "Arcanine",
+  "primaryType": "fire",
+  "secondaryType": "",
+  "maleRatio": 0.75,
+  "labels": [
+    "gen1",
+    "kantonian_form"
+  ],
+  "abilities": [
+    "intimidate",
+    "flashfire",
+    "h:justified"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 110,
+    "defence": 80,
+    "special_attack": 100,
+    "special_defence": 80,
+    "speed": 95
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 75,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:bite",
+    "1:roar",
+    "1:firefang",
+    "1:odorsleuth",
+    "1:extremespeed",
+    "1:helpinghand",
+    "1:retaliate",
+    "1:burnup",
+    "1:flamewheel",
+    "1:agility",
+    "1:crunch",
+    "1:takedown",
+    "1:playrough",
+    "1:reversal",
+    "1:flareblitz",
+    "1:ember",
+    "1:leer",
+    "1:howl",
+    "1:flameburst",
+    "5:flamethrower",
+    "egg:burnup",
+    "egg:covet",
+    "egg:doubleedge",
+    "egg:doublekick",
+    "egg:morningsun",
+    "egg:ragingfury",
+    "egg:thrash",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:charm",
+    "tm:closecombat",
+    "tm:covet",
+    "tm:crunch",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:dragonpulse",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:heatcrash",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:incinerate",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:outrage",
+    "tm:overheat",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rockclimb",
+    "tm:rocksmash",
+    "tm:safeguard",
+    "tm:scaryface",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:solarbeam",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderfang",
+    "tm:wildcharge",
+    "tm:willowisp",
+    "tutor:bulldoze",
+    "tutor:covet",
+    "tutor:dragonpulse",
+    "tutor:firefang",
+    "tutor:flamethrower",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:outrage",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:scorchingsands",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:swift",
+    "tutor:thunderfang",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:dragonbreath",
+    "legacy:dragonrage",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:superpower",
+    "legacy:swagger",
+    "legacy:teleport",
+    "legacy:toxic"
+  ],
+  "forms": [
+    "Hisui"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.8,
+        "levels": "30-56",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0059_arcanine.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.8,
+        "levels": "30-56",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0059_arcanine.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/genomons/arcanine.png",
+      "out/sprites/cobblemon/arcanine.png"
+    ],
+    "shiny": [
+      "out/sprites/genomons/arcanine_shiny.png",
+      "out/sprites/cobblemon/arcanine_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/arcanine.json"
+  ]
+}

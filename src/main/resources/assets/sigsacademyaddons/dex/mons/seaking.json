@@ -1,0 +1,285 @@
+{
+  "id": "seaking",
+  "dexnum": 119,
+  "name": "Seaking",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "swiftswim",
+    "waterveil",
+    "h:lightningrod"
+  ],
+  "eggGroups": [
+    "water_2"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 92,
+    "defence": 65,
+    "special_attack": 65,
+    "special_defence": 80,
+    "speed": 68
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 60,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:salmon",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:wacan_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:peck",
+    "1:tailwhip",
+    "1:watersport",
+    "1:supersonic",
+    "1:waterpulse",
+    "1:furyattack",
+    "15:hornattack",
+    "20:agility",
+    "25:aquaring",
+    "30:flail",
+    "37:waterfall",
+    "44:soak",
+    "51:megahorn",
+    "58:horndrill",
+    "egg:acupressure",
+    "egg:aquatail",
+    "egg:furyattack",
+    "egg:haze",
+    "egg:mudslap",
+    "egg:mudsport",
+    "egg:psybeam",
+    "egg:skullbash",
+    "tm:agility",
+    "tm:aquatail",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:dive",
+    "tm:drillrun",
+    "tm:endure",
+    "tm:facade",
+    "tm:flipturn",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:haze",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:megahorn",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:raindance",
+    "tm:rest",
+    "tm:scald",
+    "tm:scaleshot",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:smartstrike",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:aquatail",
+    "tutor:bounce",
+    "tutor:dive",
+    "tutor:drillrun",
+    "tutor:flipturn",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:knockoff",
+    "tutor:megahorn",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:scaleshot",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:bubblebeam",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:quickattack",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:takedown",
+    "legacy:toxic",
+    "legacy:watergun"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "33-45",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_river"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0119_seaking.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "33-45",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_bamboo",
+            "#cobblemon:is_floral",
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_magical",
+            "#cobblemon:is_mountain",
+            "#cobblemon:is_taiga",
+            "#cobblemon:is_temperate"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0119_seaking.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "33-45",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_river"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0119_seaking.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "33-45",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_bamboo",
+            "#cobblemon:is_floral",
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_magical",
+            "#cobblemon:is_mountain",
+            "#cobblemon:is_taiga",
+            "#cobblemon:is_temperate"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0119_seaking.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/seaking.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/seaking_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/seaking.json"
+  ]
+}

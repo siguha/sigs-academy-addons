@@ -1,0 +1,265 @@
+{
+  "id": "mrrime",
+  "dexnum": 866,
+  "name": "Mr. Rime",
+  "primaryType": "ice",
+  "secondaryType": "psychic",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "tangledfeet",
+    "screencleaner",
+    "h:icebody"
+  ],
+  "eggGroups": [
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 85,
+    "defence": 75,
+    "special_attack": 110,
+    "special_defence": 100,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:aspear_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:faketears",
+    "1:slackoff",
+    "1:afteryou",
+    "1:block",
+    "1:copycat",
+    "1:encore",
+    "1:roleplay",
+    "1:protect",
+    "1:recycle",
+    "1:mimic",
+    "1:lightscreen",
+    "1:reflect",
+    "1:safeguard",
+    "1:dazzlinggleam",
+    "1:mistyterrain",
+    "1:pound",
+    "1:rapidspin",
+    "1:batonpass",
+    "1:iceshard",
+    "1:tickle",
+    "1:barrier",
+    "1:meditate",
+    "1:doubleslap",
+    "12:confusion",
+    "16:allyswitch",
+    "20:icywind",
+    "24:doublekick",
+    "28:psybeam",
+    "32:hypnosis",
+    "36:mirrorcoat",
+    "40:suckerpunch",
+    "44:freezedry",
+    "48:psychic",
+    "52:teeterdance",
+    "egg:confuseray",
+    "egg:fakeout",
+    "egg:healingwish",
+    "egg:hypnosis",
+    "egg:powersplit",
+    "egg:tickle",
+    "egg:wakeupslap",
+    "tm:afteryou",
+    "tm:allyswitch",
+    "tm:avalanche",
+    "tm:batonpass",
+    "tm:blizzard",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:dazzlinggleam",
+    "tm:drainpunch",
+    "tm:encore",
+    "tm:endure",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:foulplay",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:guardswap",
+    "tm:hail",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:mistyterrain",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:stompingtantrum",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:tripleaxel",
+    "tm:uproar",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:afteryou",
+    "tutor:allyswitch",
+    "tutor:block",
+    "tutor:calmmind",
+    "tutor:dazzlinggleam",
+    "tutor:drainpunch",
+    "tutor:energyball",
+    "tutor:expandingforce",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:magicroom",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:suckerpunch",
+    "tutor:thunderbolt",
+    "tutor:trick",
+    "tutor:tripleaxel",
+    "tutor:uproar",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.032,
+        "levels": "42-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0866_mrrime.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.032,
+        "levels": "42-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0866_mrrime.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/mrrime.png",
+      "out/sprites/cobblemon/mr_rime.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/mrrime_shiny.png",
+      "out/sprites/cobblemon/mr_rime_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/mrrime.json"
+  ]
+}

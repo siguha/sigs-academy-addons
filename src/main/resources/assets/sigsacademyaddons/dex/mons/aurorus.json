@@ -1,0 +1,215 @@
+{
+  "id": "aurorus",
+  "dexnum": 699,
+  "name": "Aurorus",
+  "primaryType": "rock",
+  "secondaryType": "ice",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen6",
+    "fossil"
+  ],
+  "abilities": [
+    "refrigerate",
+    "h:snowwarning"
+  ],
+  "eggGroups": [
+    "monster"
+  ],
+  "baseStats": {
+    "hp": 123,
+    "attack": 77,
+    "defence": 72,
+    "special_attack": 99,
+    "special_defence": 92,
+    "speed": 58
+  },
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:never_melt_ice",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:growl",
+    "1:powdersnow",
+    "1:rockthrow",
+    "1:ancientpower",
+    "1:encore",
+    "12:icywind",
+    "16:round",
+    "20:mist",
+    "24:aurorabeam",
+    "28:thunderwave",
+    "32:naturepower",
+    "36:freezedry",
+    "42:icebeam",
+    "48:lightscreen",
+    "54:hail",
+    "60:blizzard",
+    "66:hyperbeam",
+    "egg:auroraveil",
+    "egg:barrier",
+    "egg:discharge",
+    "egg:haze",
+    "egg:mirrorcoat",
+    "egg:rockthrow",
+    "egg:takedown",
+    "tm:ancientpower",
+    "tm:aquatail",
+    "tm:auroraveil",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:darkpulse",
+    "tm:dragontail",
+    "tm:dreameater",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:frostbreath",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:haze",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:meteorbeam",
+    "tm:mudshot",
+    "tm:naturepower",
+    "tm:outrage",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:round",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:zenheadbutt",
+    "tutor:ancientpower",
+    "tutor:aquatail",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:darkpulse",
+    "tutor:earthpower",
+    "tutor:flashcannon",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:magnetrise",
+    "tutor:meteorbeam",
+    "tutor:outrage",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:thunderbolt",
+    "tutor:waterpulse",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 4.0,
+        "levels": "39-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0699_aurorus.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/aurorus.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/aurorus_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/aurorus.json"
+  ]
+}

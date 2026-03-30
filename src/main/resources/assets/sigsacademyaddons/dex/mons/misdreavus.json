@@ -1,0 +1,374 @@
+{
+  "id": "misdreavus",
+  "dexnum": 200,
+  "name": "Misdreavus",
+  "primaryType": "ghost",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "levitate",
+    "h:levitate"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 60,
+    "special_attack": 85,
+    "special_defence": 85,
+    "speed": 85
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:phantom_membrane",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:spell_tag",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:kasib_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:growl",
+    "1:psywave",
+    "1:confusion",
+    "10:astonish",
+    "14:confuseray",
+    "19:meanlook",
+    "23:hex",
+    "28:psybeam",
+    "32:painsplit",
+    "37:payback",
+    "41:shadowball",
+    "46:perishsong",
+    "50:powergem",
+    "egg:curse",
+    "egg:destinybond",
+    "egg:imprison",
+    "egg:mefirst",
+    "egg:memento",
+    "egg:screech",
+    "egg:shadowsneak",
+    "egg:spite",
+    "egg:suckerpunch",
+    "egg:wonderroom",
+    "tm:allyswitch",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:dreameater",
+    "tm:echoedvoice",
+    "tm:embargo",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:foulplay",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grudge",
+    "tm:headbutt",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:magicalleaf",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:ominouswind",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:rest",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:snowscape",
+    "tm:spite",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tm:wonderroom",
+    "tutor:allyswitch",
+    "tutor:burningjealousy",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:darkpulse",
+    "tutor:dazzlinggleam",
+    "tutor:energyball",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icywind",
+    "tutor:magicalleaf",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:ominouswind",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:thunderbolt",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "legacy:aerialace",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:defensecurl",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:inferno",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:uproar",
+    "legacy:zapcannon"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "misdreavus_mismagius",
+      "variant": "item_interact",
+      "result": "mismagius",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:dusk_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.7,
+        "levels": "19-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_spooky"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0200_misdreavus.json",
+        "sky": {
+          "minSkyLight": 1,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.9,
+        "levels": "19-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_spooky",
+            "#cobblemon:is_swamp"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0200_misdreavus.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "derelict"
+        ],
+        "rarity": "common",
+        "weight": 5.7,
+        "levels": "19-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_spooky",
+            "#cobblemon:is_swamp"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0200_misdreavus.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.7,
+        "levels": "19-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0200_misdreavus.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.7,
+        "levels": "19-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_warped"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0200_misdreavus.json"
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 5.7,
+        "levels": "19-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0200_misdreavus.json",
+        "structures": [
+          "#cobblemon:shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -41,
+          "maxY": 9
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/misdreavus.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/misdreavus_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/misdreavus.json"
+  ]
+}

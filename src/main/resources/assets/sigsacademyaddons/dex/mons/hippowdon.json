@@ -1,0 +1,211 @@
+{
+  "id": "hippowdon",
+  "dexnum": 450,
+  "name": "Hippowdon",
+  "primaryType": "ground",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "sandstream",
+    "h:sandforce"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 108,
+    "attack": 112,
+    "defence": 118,
+    "special_attack": 68,
+    "special_defence": 72,
+    "speed": 47
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 60,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:sand",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:soft_sand",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:icefang",
+    "1:firefang",
+    "1:thunderfang",
+    "1:tackle",
+    "1:sandattack",
+    "1:bite",
+    "1:yawn",
+    "1:mudbomb",
+    "12:sandtomb",
+    "16:dig",
+    "20:crunch",
+    "24:sandstorm",
+    "28:takedown",
+    "32:roar",
+    "38:rest",
+    "44:earthquake",
+    "50:doubleedge",
+    "56:fissure",
+    "62:slackoff",
+    "egg:curse",
+    "egg:mudbomb",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow",
+    "egg:whirlwind",
+    "tm:amnesia",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:crunch",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:firefang",
+    "tm:gigaimpact",
+    "tm:hardpress",
+    "tm:headbutt",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:rest",
+    "tm:revenge",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunderfang",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:firefang",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icefang",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:scorchingsands",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:thunderfang",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:waterpulse",
+    "legacy:weatherball"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "34-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0450_hippowdon.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/hippowdon_female.png",
+      "out/sprites/cobblemon/hippowdon_male.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/hippowdon_female_shiny.png",
+      "out/sprites/cobblemon/hippowdon_male_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/hippowdon.json"
+  ]
+}

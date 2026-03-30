@@ -1,0 +1,208 @@
+{
+  "id": "starly",
+  "dexnum": 396,
+  "name": "Starly",
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "keeneye",
+    "h:reckless"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 55,
+    "defence": 30,
+    "special_attack": 30,
+    "special_defence": 30,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 255,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:chicken",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "5:quickattack",
+    "9:wingattack",
+    "13:doubleteam",
+    "17:endeavor",
+    "21:whirlwind",
+    "25:aerialace",
+    "29:takedown",
+    "33:agility",
+    "37:bravebird",
+    "41:finalgambit",
+    "egg:astonish",
+    "egg:detect",
+    "egg:doubleedge",
+    "egg:featherdance",
+    "egg:foresight",
+    "egg:furyattack",
+    "egg:mirrormove",
+    "egg:pursuit",
+    "egg:sandattack",
+    "egg:uproar",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:bravebird",
+    "tm:defog",
+    "tm:doubleedge",
+    "tm:doubleteam",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:fly",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:hurricane",
+    "tm:ominouswind",
+    "tm:pluck",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:revenge",
+    "tm:roost",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:twister",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:endeavor",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:ominouswind",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:twister",
+    "tutor:uproar",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "starly_staravia",
+      "variant": "level_up",
+      "result": "staravia",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 14
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "1-25",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_hills",
+            "#cobblemon:is_sky",
+            "#cobblemon:is_snowy_forest",
+            "#cobblemon:is_taiga"
+          ],
+          "exclude": [
+            "#cobblemon:is_arid"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0396_starly.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/starly.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/starly_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/starly.json"
+  ]
+}

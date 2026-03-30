@@ -1,0 +1,242 @@
+{
+  "id": "doduo",
+  "dexnum": 84,
+  "name": "Doduo",
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "runaway",
+    "earlybird",
+    "h:tangledfeet"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 85,
+    "defence": 45,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 75
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:chicken",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:sharp_beak",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:wacan_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:peck",
+    "1:growl",
+    "1:rage",
+    "5:quickattack",
+    "9:furyattack",
+    "14:pluck",
+    "19:doublehit",
+    "23:agility",
+    "27:uproar",
+    "30:acupressure",
+    "33:swordsdance",
+    "36:drillpeck",
+    "39:endeavor",
+    "43:thrash",
+    "egg:assurance",
+    "egg:feintattack",
+    "egg:flail",
+    "egg:jumpkick",
+    "egg:mirrormove",
+    "egg:naturalgift",
+    "egg:pursuit",
+    "egg:skyattack",
+    "egg:supersonic",
+    "egg:whirlwind",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:assurance",
+    "tm:batonpass",
+    "tm:bodyslam",
+    "tm:bravebird",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:helpinghand",
+    "tm:knockoff",
+    "tm:leer",
+    "tm:lowkick",
+    "tm:lunge",
+    "tm:mudslap",
+    "tm:naturalgift",
+    "tm:pluck",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roost",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:triattack",
+    "tm:uproar",
+    "tm:wingattack",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:endeavor",
+    "tutor:helpinghand",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:throatchop",
+    "tutor:uproar",
+    "legacy:aircutter",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleteam",
+    "legacy:fly",
+    "legacy:frustration",
+    "legacy:haze",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "doduo_dodrio",
+      "variant": "level_up",
+      "result": "dodrio",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "triattack"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 31
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0084_doduo.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "aether:skyroot_grove",
+            "aether:skyroot_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0084_doduo.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/doduo.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/doduo_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/doduo.json"
+  ]
+}

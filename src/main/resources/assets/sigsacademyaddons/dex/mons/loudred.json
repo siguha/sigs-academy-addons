@@ -1,0 +1,256 @@
+{
+  "id": "loudred",
+  "dexnum": 294,
+  "name": "Loudred",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "soundproof",
+    "h:scrappy"
+  ],
+  "eggGroups": [
+    "monster",
+    "field"
+  ],
+  "baseStats": {
+    "hp": 84,
+    "attack": 71,
+    "defence": 43,
+    "special_attack": 71,
+    "special_defence": 43,
+    "speed": 48
+  },
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 120,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:throat_spray",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:astonish",
+    "1:howl",
+    "1:bite",
+    "1:echoedvoice",
+    "15:rest",
+    "15:sleeptalk",
+    "23:stomp",
+    "29:roar",
+    "36:supersonic",
+    "43:uproar",
+    "50:synchronoise",
+    "57:hypervoice",
+    "egg:circlethrow",
+    "egg:disarmingvoice",
+    "egg:endeavor",
+    "egg:extrasensory",
+    "egg:hammerarm",
+    "egg:smellingsalts",
+    "egg:smokescreen",
+    "egg:snore",
+    "egg:swagger",
+    "egg:synchronoise",
+    "egg:takedown",
+    "egg:whirlwind",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:disarmingvoice",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fireblast",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:fling",
+    "tm:headbutt",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:incinerate",
+    "tm:lowkick",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:mudslap",
+    "tm:overheat",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thunderpunch",
+    "tm:torment",
+    "tm:uproar",
+    "tm:waterpulse",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:bulldoze",
+    "tutor:endeavor",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:stompingtantrum",
+    "tutor:thunderpunch",
+    "tutor:uproar",
+    "tutor:waterpulse",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:defensecurl",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:psychup",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:toxic",
+    "special:teeterdance"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "loudred_exploud",
+      "variant": "level_up",
+      "result": "exploud",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "crunch"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.44,
+        "levels": "20-39",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0294_loudred.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.18,
+        "levels": "20-39",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0294_loudred.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/loudred.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/loudred_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/loudred.json"
+  ]
+}

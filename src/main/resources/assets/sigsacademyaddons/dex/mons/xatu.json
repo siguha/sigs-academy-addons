@@ -1,0 +1,274 @@
+{
+  "id": "xatu",
+  "dexnum": 178,
+  "name": "Xatu",
+  "primaryType": "psychic",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "synchronize",
+    "earlybird",
+    "h:magicbounce"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 75,
+    "defence": 70,
+    "special_attack": 95,
+    "special_defence": 70,
+    "speed": 95
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:chicken",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:wise_glasses",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:peck",
+    "1:leer",
+    "1:teleport",
+    "1:luckychant",
+    "1:miracleeye",
+    "1:mefirst",
+    "1:tailwind",
+    "1:storedpower",
+    "1:airslash",
+    "15:confuseray",
+    "20:nightshade",
+    "28:psychoshift",
+    "34:powerswap",
+    "34:guardswap",
+    "41:psychic",
+    "48:wish",
+    "55:futuresight",
+    "egg:drillpeck",
+    "egg:featherdance",
+    "egg:feintattack",
+    "egg:mefirst",
+    "egg:miracleeye",
+    "egg:quickattack",
+    "egg:refresh",
+    "egg:roost",
+    "egg:simplebeam",
+    "egg:suckerpunch",
+    "egg:synchronoise",
+    "tm:aerialace",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:allyswitch",
+    "tm:batonpass",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:dreameater",
+    "tm:dualwingbeat",
+    "tm:endure",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:flash",
+    "tm:fly",
+    "tm:foulplay",
+    "tm:futuresight",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:guardswap",
+    "tm:haze",
+    "tm:heatwave",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:laserfocus",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:nightshade",
+    "tm:ominouswind",
+    "tm:painsplit",
+    "tm:pluck",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:roost",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:silverwind",
+    "tm:skillswap",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:steelwing",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderwave",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:twister",
+    "tm:uturn",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:allyswitch",
+    "tutor:calmmind",
+    "tutor:dazzlinggleam",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:expandingforce",
+    "tutor:foulplay",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:hyperbeam",
+    "tutor:laserfocus",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:ominouswind",
+    "tutor:painsplit",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:shadowball",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:twister",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:detect",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "25-47",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands",
+            "#cobblemon:is_plateau"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0178_xatu.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "trail_ruins"
+        ],
+        "rarity": "common",
+        "weight": 10.0,
+        "levels": "25-47",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0178_xatu.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/xatu.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/xatu_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/xatu.json"
+  ]
+}

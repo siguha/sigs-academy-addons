@@ -1,0 +1,247 @@
+{
+  "id": "happiny",
+  "dexnum": 440,
+  "name": "Happiny",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0,
+  "labels": [
+    "gen4",
+    "baby"
+  ],
+  "abilities": [
+    "naturalcure",
+    "serenegrace",
+    "h:friendguard"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 5,
+    "defence": 5,
+    "special_attack": 15,
+    "special_defence": 65,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "fast",
+  "catchRate": 130,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:oval_stone",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:copycat",
+    "1:refresh",
+    "1:minimize",
+    "4:defensecurl",
+    "8:sweetkiss",
+    "12:disarmingvoice",
+    "16:covet",
+    "20:charm",
+    "egg:aromatherapy",
+    "egg:counter",
+    "egg:gravity",
+    "egg:healbell",
+    "egg:mudbomb",
+    "egg:naturalgift",
+    "egg:present",
+    "egg:seismictoss",
+    "tm:babydolleyes",
+    "tm:charm",
+    "tm:covet",
+    "tm:disarmingvoice",
+    "tm:dreameater",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:fling",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hypervoice",
+    "tm:icywind",
+    "tm:incinerate",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:metronome",
+    "tm:naturalgift",
+    "tm:protect",
+    "tm:psychic",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:solarbeam",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunderwave",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:babydolleyes",
+    "tutor:covet",
+    "tutor:gravity",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:icywind",
+    "tutor:lastresort",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:drainpunch",
+    "legacy:endeavor",
+    "legacy:fireblast",
+    "legacy:flamethrower",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mudslap",
+    "legacy:psychup",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:uproar",
+    "legacy:waterpulse"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "happiny_chansey",
+      "variant": "level_up",
+      "result": "chansey",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:oval_stone"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "rare",
+        "weight": 8.75,
+        "levels": "1-22",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0440_happiny.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 8.75,
+        "levels": "1-22",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0440_happiny.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 8.75,
+        "levels": "1-22",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0440_happiny.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/happiny.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/happiny_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/happiny.json"
+  ]
+}

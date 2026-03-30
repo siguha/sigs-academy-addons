@@ -1,0 +1,338 @@
+{
+  "id": "goodra",
+  "dexnum": 706,
+  "name": "Goodra",
+  "primaryType": "dragon",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen6",
+    "powerhouse",
+    "kalosian_form"
+  ],
+  "abilities": [
+    "sapsipper",
+    "hydration",
+    "h:gooey"
+  ],
+  "eggGroups": [
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 100,
+    "defence": 70,
+    "special_attack": 110,
+    "special_defence": 150,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:slime_ball",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:shed_shell",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:haban_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:feint",
+    "1:tackle",
+    "1:bubble",
+    "1:absorb",
+    "1:bide",
+    "1:dragonbreath",
+    "1:aquatail",
+    "1:acidspray",
+    "1:poisontail",
+    "1:tearfullook",
+    "1:watergun",
+    "1:acidarmor",
+    "15:protect",
+    "20:flail",
+    "25:waterpulse",
+    "30:raindance",
+    "43:curse",
+    "49:bodyslam",
+    "58:muddywater",
+    "67:powerwhip",
+    "egg:counter",
+    "egg:lifedew",
+    "tm:acidspray",
+    "tm:aquatail",
+    "tm:assurance",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:curse",
+    "tm:dracometeor",
+    "tm:dragoncheer",
+    "tm:dragonclaw",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:incinerate",
+    "tm:infestation",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:outrage",
+    "tm:poisontail",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:scald",
+    "tm:shockwave",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:surf",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tutor:aquatail",
+    "tutor:bulldoze",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:laserfocus",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:shockwave",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:stompingtantrum",
+    "tutor:superpower",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger"
+  ],
+  "forms": [
+    "Hisui"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "rare",
+        "weight": 0.25,
+        "levels": "50-60",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0706_goodra.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "50-60",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0706_goodra.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "rare",
+        "weight": 0.25,
+        "levels": "50-60",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0706_goodra.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "50-60",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0706_goodra.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 0.25,
+        "levels": "50-60",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0706_goodra.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "50-60",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean",
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0706_goodra.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/goodra.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/goodra_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/goodra.json"
+  ]
+}

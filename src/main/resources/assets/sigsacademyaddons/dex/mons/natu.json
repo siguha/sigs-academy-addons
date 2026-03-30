@@ -1,0 +1,275 @@
+{
+  "id": "natu",
+  "dexnum": 177,
+  "name": "Natu",
+  "primaryType": "psychic",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "synchronize",
+    "earlybird",
+    "h:magicbounce"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 50,
+    "defence": 45,
+    "special_attack": 70,
+    "special_defence": 45,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:chicken",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:wise_glasses",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:peck",
+    "1:leer",
+    "1:luckychant",
+    "5:storedpower",
+    "10:teleport",
+    "15:confuseray",
+    "20:nightshade",
+    "26:psychoshift",
+    "30:powerswap",
+    "35:guardswap",
+    "35:psychic",
+    "40:wish",
+    "45:futuresight",
+    "egg:drillpeck",
+    "egg:featherdance",
+    "egg:feintattack",
+    "egg:mefirst",
+    "egg:miracleeye",
+    "egg:quickattack",
+    "egg:refresh",
+    "egg:roost",
+    "egg:simplebeam",
+    "egg:suckerpunch",
+    "egg:synchronoise",
+    "tm:aerialace",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:allyswitch",
+    "tm:batonpass",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:dreameater",
+    "tm:dualwingbeat",
+    "tm:endure",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:flash",
+    "tm:futuresight",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:guardswap",
+    "tm:haze",
+    "tm:heatwave",
+    "tm:imprison",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:nightshade",
+    "tm:ominouswind",
+    "tm:painsplit",
+    "tm:pluck",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:roost",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:silverwind",
+    "tm:skillswap",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:steelwing",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderwave",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:twister",
+    "tm:uturn",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:allyswitch",
+    "tutor:calmmind",
+    "tutor:dazzlinggleam",
+    "tutor:dualwingbeat",
+    "tutor:expandingforce",
+    "tutor:gigadrain",
+    "tutor:heatwave",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:ominouswind",
+    "tutor:painsplit",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:shadowball",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:twister",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:detect",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "natu_xatu",
+      "variant": "level_up",
+      "result": "xatu",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "airslash"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands",
+            "#cobblemon:is_plateau"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0177_natu.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "trail_ruins"
+        ],
+        "rarity": "common",
+        "weight": 90.0,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0177_natu.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/natu.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/natu_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/natu.json"
+  ]
+}

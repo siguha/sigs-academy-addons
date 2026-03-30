@@ -1,0 +1,276 @@
+{
+  "id": "girafarig",
+  "dexnum": 203,
+  "name": "Girafarig",
+  "primaryType": "normal",
+  "secondaryType": "psychic",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "innerfocus",
+    "earlybird",
+    "h:sapsipper"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 80,
+    "defence": 65,
+    "special_attack": 90,
+    "special_defence": 65,
+    "speed": 85
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 60,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:razor_fang",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:powerswap",
+    "1:guardswap",
+    "1:astonish",
+    "1:tackle",
+    "1:growl",
+    "1:odorsleuth",
+    "5:confusion",
+    "10:assurance",
+    "14:stomp",
+    "19:psybeam",
+    "23:agility",
+    "28:doublehit",
+    "32:twinbeam",
+    "37:crunch",
+    "41:batonpass",
+    "46:nastyplot",
+    "50:psychic",
+    "egg:allyswitch",
+    "egg:beatup",
+    "egg:doublekick",
+    "egg:foresight",
+    "egg:futuresight",
+    "egg:meanlook",
+    "egg:mirrorcoat",
+    "egg:razorwind",
+    "egg:secretpower",
+    "egg:takedown",
+    "egg:uproar",
+    "egg:wish",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:amnesia",
+    "tm:assurance",
+    "tm:batonpass",
+    "tm:beatup",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:dazzlinggleam",
+    "tm:doubleedge",
+    "tm:dreameater",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:flash",
+    "tm:foulplay",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:guardswap",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:imprison",
+    "tm:irontail",
+    "tm:lightscreen",
+    "tm:lowkick",
+    "tm:magiccoat",
+    "tm:nastyplot",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:psychicnoise",
+    "tm:psychicterrain",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:rocksmash",
+    "tm:secretpower",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:stompingtantrum",
+    "tm:storedpower",
+    "tm:strength",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:uproar",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:dazzlinggleam",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:expandingforce",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:irontail",
+    "tutor:lowkick",
+    "tutor:magiccoat",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:thunderbolt",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:zapcannon"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "consumeHeldItem": false,
+      "id": "girafarig_farigiraf",
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "move": "twinbeam",
+          "variant": "has_move"
+        }
+      ],
+      "result": "farigiraf",
+      "variant": "level_up"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "21-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0203_girafarig.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/girafarig.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/girafarig_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/girafarig.json"
+  ]
+}

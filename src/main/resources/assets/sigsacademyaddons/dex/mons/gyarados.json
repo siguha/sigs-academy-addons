@@ -1,0 +1,323 @@
+{
+  "id": "gyarados",
+  "dexnum": 130,
+  "name": "Gyarados",
+  "primaryType": "water",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "intimidate",
+    "h:moxie"
+  ],
+  "eggGroups": [
+    "water_2",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 125,
+    "defence": 79,
+    "special_attack": 60,
+    "special_defence": 100,
+    "speed": 81
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:salmon",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:wacan_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:bite",
+    "1:dragonrage",
+    "1:leer",
+    "1:twister",
+    "1:flail",
+    "1:splash",
+    "1:tackle",
+    "4:whirlpool",
+    "8:icefang",
+    "12:brine",
+    "16:scaryface",
+    "21:waterfall",
+    "24:crunch",
+    "28:raindance",
+    "32:aquatail",
+    "36:dragondance",
+    "40:hydropump",
+    "44:hurricane",
+    "48:thrash",
+    "52:hyperbeam",
+    "tm:aquatail",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:brine",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:chillingwater",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:dragoncheer",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hurricane",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icywind",
+    "tm:incinerate",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:lashout",
+    "tm:muddywater",
+    "tm:outrage",
+    "tm:payback",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:sandstorm",
+    "tm:scald",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:spite",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:twister",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:aquatail",
+    "tutor:bounce",
+    "tutor:bulldoze",
+    "tutor:darkpulse",
+    "tutor:dive",
+    "tutor:dragonpulse",
+    "tutor:endeavor",
+    "tutor:flamethrower",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:icywind",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:lashout",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:scaleshot",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:stoneedge",
+    "tutor:thunderbolt",
+    "tutor:twister",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:bind",
+    "legacy:bubblebeam",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleteam",
+    "legacy:dragonbreath",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:uproar",
+    "legacy:watergun",
+    "legacy:zapcannon",
+    "special:celebrate",
+    "special:happyhour"
+  ],
+  "forms": [
+    "Mega"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "20-54",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0130_gyarados.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.16,
+        "levels": "20-54",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0130_gyarados.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "20-54",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0130_gyarados.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "20-54",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0130_gyarados.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "20-54",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0130_gyarados.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/gyarados.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/gyarados_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/gyarados.json"
+  ]
+}

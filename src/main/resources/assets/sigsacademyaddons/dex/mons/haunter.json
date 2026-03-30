@@ -1,0 +1,423 @@
+{
+  "id": "haunter",
+  "dexnum": 93,
+  "name": "Haunter",
+  "primaryType": "ghost",
+  "secondaryType": "poison",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "levitate",
+    "h:levitate"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 50,
+    "defence": 45,
+    "special_attack": 115,
+    "special_defence": 55,
+    "speed": 95
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 90,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:spell_tag",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species",
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
+      },
+      {
+        "item": "cobblemon:payapa_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species",
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
+      },
+      {
+        "item": "minecraft:ghast_tear",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "spawn_pool_world",
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
+      }
+    ]
+  },
+  "moves": [
+    "1:hypnosis",
+    "1:lick",
+    "1:meanlook",
+    "1:confuseray",
+    "1:shadowpunch",
+    "1:nightmare",
+    "12:payback",
+    "16:spite",
+    "20:curse",
+    "24:hex",
+    "30:nightshade",
+    "36:suckerpunch",
+    "42:darkpulse",
+    "48:shadowball",
+    "54:destinybond",
+    "60:dreameater",
+    "egg:astonish",
+    "egg:clearsmog",
+    "egg:disable",
+    "egg:grudge",
+    "egg:haze",
+    "egg:nightmare",
+    "egg:perishsong",
+    "egg:psywave",
+    "egg:reflecttype",
+    "egg:smog",
+    "egg:toxic",
+    "tm:acidspray",
+    "tm:allyswitch",
+    "tm:confuseray",
+    "tm:corrosivegas",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:dreameater",
+    "tm:embargo",
+    "tm:encore",
+    "tm:endure",
+    "tm:energyball",
+    "tm:explosion",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:foulplay",
+    "tm:gigadrain",
+    "tm:gunkshot",
+    "tm:haze",
+    "tm:hex",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:infestation",
+    "tm:metronome",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:ominouswind",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:phantomforce",
+    "tm:poisonjab",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:scaryface",
+    "tm:selfdestruct",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:skillswap",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snatch",
+    "tm:spite",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:torment",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:venoshock",
+    "tm:willowisp",
+    "tm:wonderroom",
+    "tutor:allyswitch",
+    "tutor:corrosivegas",
+    "tutor:darkpulse",
+    "tutor:dazzlinggleam",
+    "tutor:energyball",
+    "tutor:firepunch",
+    "tutor:foulplay",
+    "tutor:gigadrain",
+    "tutor:gunkshot",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:ominouswind",
+    "tutor:painsplit",
+    "tutor:poisonjab",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:skillswap",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snatch",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:telekinesis",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:knockoff",
+    "legacy:megadrain",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:poisongas",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:uproar",
+    "legacy:zapcannon"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "haunter_gengar",
+      "variant": "trade",
+      "result": "gengar",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "shadowpunch"
+      ],
+      "requirements": []
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.95,
+        "levels": "25-41",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0093_haunter.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 0
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "derelict"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.712,
+        "levels": "25-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0093_haunter.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.95,
+        "levels": "25-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0093_haunter.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.95,
+        "levels": "25-41",
+        "biomeTags": {
+          "include": [
+            "#minecraft:is_nether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0093_haunter.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.95,
+        "levels": "25-41",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_overworld",
+            "#cobblemon:is_end"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0093_haunter.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 0
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "derelict"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.712,
+        "levels": "25-41",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0093_haunter.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.95,
+        "levels": "25-41",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0093_haunter.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.95,
+        "levels": "25-41",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#minecraft:is_nether"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0093_haunter.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/haunter.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/haunter_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/haunter.json"
+  ]
+}

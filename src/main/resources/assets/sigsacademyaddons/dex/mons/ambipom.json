@@ -1,0 +1,283 @@
+{
+  "id": "ambipom",
+  "dexnum": 424,
+  "name": "Ambipom",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "technician",
+    "pickup",
+    "h:skilllink"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 100,
+    "defence": 66,
+    "special_attack": 60,
+    "special_defence": 66,
+    "speed": 115
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:nanab_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:tailwhip",
+    "1:sandattack",
+    "1:astonish",
+    "1:dualchop",
+    "1:mudbomb",
+    "11:batonpass",
+    "15:tickle",
+    "18:furyswipes",
+    "22:swift",
+    "25:screech",
+    "29:agility",
+    "32:doublehit",
+    "36:fling",
+    "39:nastyplot",
+    "43:lastresort",
+    "egg:beatup",
+    "egg:bounce",
+    "egg:counter",
+    "egg:covet",
+    "egg:doubleslap",
+    "egg:fakeout",
+    "egg:furyswipes",
+    "egg:irontail",
+    "egg:pursuit",
+    "egg:quickguard",
+    "egg:slam",
+    "egg:switcheroo",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:assurance",
+    "tm:batonpass",
+    "tm:beatup",
+    "tm:bounce",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:chillingwater",
+    "tm:covet",
+    "tm:cut",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:dreameater",
+    "tm:dualchop",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:foulplay",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gunkshot",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:icepunch",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:lastresort",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:rocksmash",
+    "tm:roleplay",
+    "tm:screech",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:snatch",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:tailslap",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:tripleaxel",
+    "tm:upperhand",
+    "tm:uturn",
+    "tm:waterpulse",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:bounce",
+    "tutor:covet",
+    "tutor:dualchop",
+    "tutor:endeavor",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:foulplay",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icepunch",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:laserfocus",
+    "tutor:lastresort",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:spite",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:tripleaxel",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:bodyslam",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:detect",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:uproar",
+    "legacy:zapcannon"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "32-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0424_ambipom.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "32-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0424_ambipom.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        },
+        "yLevel": {
+          "minY": -41,
+          "maxY": 9
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/ambipom.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/ambipom_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/ambipom.json"
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "id": "varoom",
+  "dexnum": 965,
+  "name": "Varoom",
+  "primaryType": "steel",
+  "secondaryType": "poison",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "overcoat",
+    "h:slowstart"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 70,
+    "defence": 63,
+    "special_attack": 30,
+    "special_defence": 45,
+    "speed": 47
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:iron_nugget",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:black_sludge",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:shuca_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:lick",
+    "1:poisongas",
+    "4:smog",
+    "7:taunt",
+    "10:assurance",
+    "13:sludge",
+    "17:gyroball",
+    "21:headbutt",
+    "25:screech",
+    "28:ironhead",
+    "32:swagger",
+    "36:poisonjab",
+    "41:uproar",
+    "46:spinout",
+    "50:gunkshot",
+    "egg:haze",
+    "egg:partingshot",
+    "egg:selfdestruct",
+    "egg:torment",
+    "egg:toxic",
+    "tm:acidspray",
+    "tm:assurance",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:curse",
+    "tm:doubleedge",
+    "tm:endure",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:gunkshot",
+    "tm:gyroball",
+    "tm:haze",
+    "tm:headbutt",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:metalsound",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:selfdestruct",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:steelbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:torment",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:uproar",
+    "tm:venoshock",
+    "tm:zenheadbutt",
+    "tutor:bulldoze",
+    "tutor:flashcannon",
+    "tutor:gunkshot",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:steelbeam",
+    "tutor:uproar",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "varoom_revavroom",
+      "variant": "level_up",
+      "result": "revavroom",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "shiftgear"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 5.04,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0965_varoom.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 5.04,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0965_varoom.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/varoom.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/varoom_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/varoom.json"
+  ]
+}

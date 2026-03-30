@@ -1,0 +1,336 @@
+{
+  "id": "steelix",
+  "dexnum": 208,
+  "name": "Steelix",
+  "primaryType": "steel",
+  "secondaryType": "ground",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "rockhead",
+    "sturdy",
+    "h:sheerforce"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 85,
+    "defence": 200,
+    "special_attack": 55,
+    "special_defence": 65,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 25,
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "minecraft:raw_iron",
+        "percentage": null,
+        "quantityRange": "2-4",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:lagging_tail",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:metal_coat",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:passho_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:thunderfang",
+    "1:icefang",
+    "1:firefang",
+    "1:mudsport",
+    "1:tackle",
+    "1:harden",
+    "1:bind",
+    "1:rockthrow",
+    "1:rage",
+    "1:rockpolish",
+    "1:crunch",
+    "4:smackdown",
+    "8:autotomize",
+    "12:dragonbreath",
+    "16:curse",
+    "20:rockslide",
+    "24:screech",
+    "28:sandtomb",
+    "32:stealthrock",
+    "36:slam",
+    "40:sandstorm",
+    "44:dig",
+    "48:irontail",
+    "52:stoneedge",
+    "56:doubleedge",
+    "60:magnetrise",
+    "egg:block",
+    "egg:defensecurl",
+    "egg:dragontail",
+    "egg:flail",
+    "egg:headsmash",
+    "egg:rollout",
+    "egg:rototiller",
+    "egg:wideguard",
+    "tm:ancientpower",
+    "tm:aquatail",
+    "tm:bind",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:crunch",
+    "tm:curse",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:drillrun",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:firefang",
+    "tm:flashcannon",
+    "tm:gigaimpact",
+    "tm:gyroball",
+    "tm:headbutt",
+    "tm:heavyslam",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:iceball",
+    "tm:icefang",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:magnetrise",
+    "tm:meteorbeam",
+    "tm:mudslap",
+    "tm:naturepower",
+    "tm:payback",
+    "tm:powershift",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:psychup",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockblast",
+    "tm:rockclimb",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scaryface",
+    "tm:scorchingsands",
+    "tm:screech",
+    "tm:selfdestruct",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:steelbeam",
+    "tm:steelroller",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thunderfang",
+    "tm:torment",
+    "tm:twister",
+    "tutor:ancientpower",
+    "tutor:aquatail",
+    "tutor:bind",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:darkpulse",
+    "tutor:dragonpulse",
+    "tutor:drillrun",
+    "tutor:earthpower",
+    "tutor:firefang",
+    "tutor:flashcannon",
+    "tutor:gigaimpact",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:iceball",
+    "tutor:icefang",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:magnetrise",
+    "tutor:meteorbeam",
+    "tutor:mudslap",
+    "tutor:powershift",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:scorchingsands",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:steelbeam",
+    "tutor:steelroller",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:thunderfang",
+    "tutor:twister",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:fissure",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:takedown",
+    "legacy:toxic"
+  ],
+  "forms": [
+    "Mega"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.48,
+        "levels": "34-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0208_steelix.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.16,
+        "levels": "34-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_basalt"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0208_steelix.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.48,
+        "levels": "34-51",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld",
+            "#cobblemon:is_end"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0208_steelix.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.16,
+        "levels": "34-51",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_basalt"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0208_steelix.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/steelix.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/steelix_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/steelix.json"
+  ]
+}

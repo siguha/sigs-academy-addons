@@ -1,0 +1,226 @@
+{
+  "id": "glimmora",
+  "dexnum": 970,
+  "name": "Glimmora",
+  "primaryType": "rock",
+  "secondaryType": "poison",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "toxicdebris",
+    "h:corrosion"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 83,
+    "attack": 55,
+    "defence": 90,
+    "special_attack": 130,
+    "special_defence": 81,
+    "speed": 86
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 25,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:amethyst_shard",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:shuca_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:float_stone",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:mortalspin",
+    "1:smackdown",
+    "1:spikyshield",
+    "1:toxicspikes",
+    "1:rockthrow",
+    "1:harden",
+    "7:acidspray",
+    "11:ancientpower",
+    "15:rockpolish",
+    "18:stealthrock",
+    "22:venoshock",
+    "26:sandstorm",
+    "29:selfdestruct",
+    "33:rockslide",
+    "39:powergem",
+    "44:acidarmor",
+    "50:sludgewave",
+    "egg:explosion",
+    "egg:memento",
+    "egg:toxic",
+    "tm:acidspray",
+    "tm:ancientpower",
+    "tm:confuseray",
+    "tm:dazzlinggleam",
+    "tm:earthpower",
+    "tm:endure",
+    "tm:energyball",
+    "tm:explosion",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:lightscreen",
+    "tm:meteorbeam",
+    "tm:mudshot",
+    "tm:powergem",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:selfdestruct",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:smackdown",
+    "tm:solarbeam",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:venoshock",
+    "tutor:ancientpower",
+    "tutor:dazzlinggleam",
+    "tutor:earthpower",
+    "tutor:energyball",
+    "tutor:flashcannon",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:meteorbeam",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spikes",
+    "tutor:stealthrock",
+    "tutor:stoneedge"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "35-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0970_glimmora.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "#cobblemon:gemstones"
+          ],
+          "resolved": [
+            "#c:amethyst_ores",
+            "#c:diamond_ores",
+            "#c:emerald_ores",
+            "#c:peridot_ores",
+            "#c:ruby_ores",
+            "#c:sapphire_ores",
+            "#c:topaz_ores",
+            "#minecraft:diamond_ores",
+            "#minecraft:emerald_ores",
+            "minecraft:amethyst_block",
+            "minecraft:budding_amethyst",
+            "regions_unexplored:hanging_prismarite",
+            "regions_unexplored:large_prismarite_cluster",
+            "regions_unexplored:prismarite_cluster"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "35-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_quartz"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0970_glimmora.json"
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "35-53",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:crystal_canyon",
+            "biomesoplenty:crystalline_chasm"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0970_glimmora.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/glimmora.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/glimmora_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/glimmora.json"
+  ]
+}

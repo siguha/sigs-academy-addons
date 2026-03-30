@@ -1,0 +1,306 @@
+{
+  "id": "heracross",
+  "dexnum": 214,
+  "name": "Heracross",
+  "primaryType": "bug",
+  "secondaryType": "fighting",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "swarm",
+    "guts",
+    "h:moxie"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 125,
+    "defence": 75,
+    "special_attack": 40,
+    "special_defence": 95,
+    "speed": 85
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:coba_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:nightslash",
+    "1:tackle",
+    "1:leer",
+    "1:feint",
+    "1:chipaway",
+    "1:armthrust",
+    "5:furyattack",
+    "10:endure",
+    "15:aerialace",
+    "20:hornattack",
+    "25:counter",
+    "30:brickbreak",
+    "35:pinmissile",
+    "40:throatchop",
+    "45:thrash",
+    "50:swordsdance",
+    "55:megahorn",
+    "60:closecombat",
+    "egg:bide",
+    "egg:doubleedge",
+    "egg:feint",
+    "egg:flail",
+    "egg:harden",
+    "egg:nightslash",
+    "egg:pursuit",
+    "egg:seismictoss",
+    "tm:aerialace",
+    "tm:assurance",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:curse",
+    "tm:cut",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:knockoff",
+    "tm:lowkick",
+    "tm:lunge",
+    "tm:megahorn",
+    "tm:pinmissile",
+    "tm:pounce",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:shadowclaw",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:smartstrike",
+    "tm:spikes",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:trailblaze",
+    "tm:upperhand",
+    "tm:vacuumwave",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:bugbite",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:coaching",
+    "tutor:endeavor",
+    "tutor:falseswipe",
+    "tutor:focuspunch",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:megahorn",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:shadowclaw",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:stoneedge",
+    "tutor:throatchop",
+    "tutor:vacuumwave",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:detect",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:venoshock"
+  ],
+  "forms": [
+    "Mega"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop",
+          "wild"
+        ],
+        "rarity": "rare",
+        "weight": 2.0,
+        "levels": "25-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0214_heracross.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 2.0,
+        "levels": "25-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle",
+            "aether:skyroot_forest",
+            "aether:skyroot_woodland",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0214_heracross.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "uncommon",
+        "weight": 2.0,
+        "levels": "25-50",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0214_heracross.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "#cobblemon:saccharine_trees"
+          ],
+          "resolved": [
+            "cobblemon:saccharine_leaves",
+            "cobblemon:saccharine_log",
+            "cobblemon:saccharine_wood",
+            "cobblemon:stripped_saccharine_log",
+            "cobblemon:stripped_saccharine_wood"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "25-50",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:crystal_canyon"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0214_heracross.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/heracross.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/heracross_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/heracross.json"
+  ]
+}

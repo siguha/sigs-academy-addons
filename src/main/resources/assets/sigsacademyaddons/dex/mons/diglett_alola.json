@@ -1,0 +1,263 @@
+{
+  "id": "diglett_alola",
+  "dexnum": 50,
+  "name": "Diglett Alola",
+  "primaryType": "ground",
+  "secondaryType": "steel",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7",
+    "alolan_form"
+  ],
+  "abilities": [
+    "sandveil",
+    "tanglinghair",
+    "h:sandforce"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 10,
+    "attack": 55,
+    "defence": 30,
+    "special_attack": 35,
+    "special_defence": 45,
+    "speed": 90
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:coarse_dirt",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:potato",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:big_root",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:soft_sand",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:sandattack",
+    "1:metalclaw",
+    "1:magnitude",
+    "4:growl",
+    "8:astonish",
+    "12:mudslap",
+    "16:bulldoze",
+    "20:suckerpunch",
+    "24:ironhead",
+    "28:sandstorm",
+    "32:dig",
+    "36:earthpower",
+    "40:earthquake",
+    "44:fissure",
+    "egg:ancientpower",
+    "egg:feintattack",
+    "egg:finalgambit",
+    "egg:headbutt",
+    "egg:honeclaws",
+    "egg:memento",
+    "egg:metalsound",
+    "egg:mudbomb",
+    "egg:pursuit",
+    "egg:thrash",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:ancientpower",
+    "tm:assurance",
+    "tm:beatup",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:charm",
+    "tm:dig",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:foulplay",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:metalclaw",
+    "tm:metalsound",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:rest",
+    "tm:reversal",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scaryface",
+    "tm:scorchingsands",
+    "tm:screech",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:steelbeam",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:workup",
+    "tutor:allyswitch",
+    "tutor:ancientpower",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:flashcannon",
+    "tutor:foulplay",
+    "tutor:helpinghand",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:scorchingsands",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:stealthrock",
+    "tutor:steelbeam",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:suckerpunch",
+    "legacy:aerialace",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:furyswipes",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:scratch",
+    "legacy:slash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:uproar"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "diglett_dugtrioalola",
+      "variant": "level_up",
+      "result": "dugtrio alolan",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "sandtomb"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 26
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "2-27",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0050_diglett.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "2-27",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0050_diglett.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/diglett_alolan.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/diglett_alolan_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/diglett.json"
+  ]
+}

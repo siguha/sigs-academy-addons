@@ -1,0 +1,249 @@
+{
+  "id": "jumpluff",
+  "dexnum": 189,
+  "name": "Jumpluff",
+  "primaryType": "grass",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "chlorophyll",
+    "leafguard",
+    "h:infiltrator"
+  ],
+  "eggGroups": [
+    "fairy",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 55,
+    "defence": 70,
+    "special_attack": 55,
+    "special_defence": 95,
+    "speed": 110
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:white_wool",
+        "percentage": null,
+        "quantityRange": "1-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:splash",
+    "1:synthesis",
+    "1:tailwhip",
+    "1:absorb",
+    "8:tackle",
+    "10:fairywind",
+    "12:poisonpowder",
+    "12:stunspore",
+    "12:sleeppowder",
+    "15:bulletseed",
+    "20:leechseed",
+    "24:megadrain",
+    "30:acrobatics",
+    "35:cottonspore",
+    "39:uturn",
+    "43:gigadrain",
+    "49:bounce",
+    "55:memento",
+    "egg:aromatherapy",
+    "egg:confusion",
+    "egg:cottonguard",
+    "egg:encore",
+    "egg:grassyterrain",
+    "egg:ragepowder",
+    "egg:seedbomb",
+    "egg:strengthsap",
+    "egg:switcheroo",
+    "egg:worryseed",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:batonpass",
+    "tm:bounce",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:dazzlinggleam",
+    "tm:doubleedge",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:fling",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyterrain",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:infestation",
+    "tm:leafstorm",
+    "tm:lightscreen",
+    "tm:lunge",
+    "tm:magicalleaf",
+    "tm:payday",
+    "tm:pollenpuff",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:seedbomb",
+    "tm:silverwind",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:uturn",
+    "tm:worryseed",
+    "tutor:aerialace",
+    "tutor:bounce",
+    "tutor:dazzlinggleam",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:falseswipe",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:magicalleaf",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:synthesis",
+    "tutor:tailwind",
+    "tutor:worryseed",
+    "legacy:amnesia",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:growl",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:psychup",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:sweetscent",
+    "legacy:toxic",
+    "special:falseswipe"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "27-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_plains"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0189_jumpluff.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "27-46",
+        "biomeTags": {
+          "include": [
+            "aether:skyroot_grove",
+            "aether:skyroot_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0189_jumpluff.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "27-46",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:floral_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0189_jumpluff.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/wavimons/jumpluff.png",
+      "out/sprites/cobblemon/jumpluff.png"
+    ],
+    "shiny": [
+      "out/sprites/wavimons/jumpluff_shiny.png",
+      "out/sprites/cobblemon/jumpluff_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/jumpluff.json"
+  ]
+}

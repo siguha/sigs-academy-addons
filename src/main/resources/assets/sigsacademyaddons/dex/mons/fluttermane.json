@@ -1,0 +1,193 @@
+{
+  "id": "fluttermane",
+  "dexnum": 987,
+  "name": "Flutter Mane",
+  "primaryType": "ghost",
+  "secondaryType": "fairy",
+  "maleRatio": -1,
+  "labels": [
+    "gen9",
+    "paradox"
+  ],
+  "abilities": [
+    "protosynthesis",
+    "h:protosynthesis"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 55,
+    "defence": 55,
+    "special_attack": 135,
+    "special_defence": 135,
+    "speed": 135
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 1
+  },
+  "experienceGroup": "slow",
+  "catchRate": 30,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:phantom_membrane",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:fairy_feather",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:confuseray",
+    "1:spite",
+    "1:astonish",
+    "1:sunnyday",
+    "7:psybeam",
+    "14:meanlook",
+    "21:memento",
+    "28:wish",
+    "35:dazzlinggleam",
+    "42:shadowball",
+    "49:mysticalfire",
+    "56:powergem",
+    "63:psyshock",
+    "70:phantomforce",
+    "77:painsplit",
+    "84:moonblast",
+    "91:perishsong",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:disarmingvoice",
+    "tm:drainingkiss",
+    "tm:endure",
+    "tm:energyball",
+    "tm:faketears",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:magicalleaf",
+    "tm:mistyterrain",
+    "tm:mysticalfire",
+    "tm:nightshade",
+    "tm:painsplit",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psyshock",
+    "tm:rest",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:spite",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:trickroom",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:darkpulse",
+    "tutor:dazzlinggleam",
+    "tutor:energyball",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icywind",
+    "tutor:magicalleaf",
+    "tutor:mysticalfire",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:swift",
+    "tutor:thunderbolt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "deep_dark"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.3,
+        "levels": "48-80",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_dripstone"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/paradox_spawns/spawn_pool_world/0987_fluttermane.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "deep_dark"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.3,
+        "levels": "48-80",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_dripstone"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/paradox_spawns_ccc/spawn_pool_world/0987_fluttermane.json"
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/fluttermane.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/fluttermane_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/fluttermane.json"
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "id": "blastoise",
+  "dexnum": 9,
+  "name": "Blastoise",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "torrent",
+    "h:raindish"
+  ],
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "baseStats": {
+    "hp": 79,
+    "attack": 83,
+    "defence": 100,
+    "special_attack": 85,
+    "special_defence": 105,
+    "speed": 78
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:turtle_scute",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:flashcannon",
+    "1:tackle",
+    "1:tailwhip",
+    "1:bubble",
+    "1:withdraw",
+    "1:watergun",
+    "1:skullbash",
+    "9:rapidspin",
+    "12:bite",
+    "15:waterpulse",
+    "20:protect",
+    "25:raindance",
+    "30:aquatail",
+    "35:shellsmash",
+    "42:irondefense",
+    "49:hydropump",
+    "56:wavecrash",
+    "egg:aquajet",
+    "egg:aquaring",
+    "egg:fakeout",
+    "egg:flail",
+    "egg:foresight",
+    "egg:lifedew",
+    "egg:mirrorcoat",
+    "egg:mist",
+    "egg:mudsport",
+    "egg:refresh",
+    "egg:waterspout",
+    "egg:wavecrash",
+    "egg:yawn",
+    "tm:aquatail",
+    "tm:aurasphere",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brine",
+    "tm:chillingwater",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:dragonpulse",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:fling",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:gigaimpact",
+    "tm:gyroball",
+    "tm:hail",
+    "tm:haze",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hydrocannon",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icespinner",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:irontail",
+    "tm:liquidation",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:scaryface",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:strength",
+    "tm:substitute",
+    "tm:surf",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:terrainpulse",
+    "tm:waterpledge",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:aquatail",
+    "tutor:block",
+    "tutor:darkpulse",
+    "tutor:dive",
+    "tutor:flashcannon",
+    "tutor:flipturn",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hydrocannon",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:irontail",
+    "tutor:liquidation",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:terrainpulse",
+    "tutor:waterpledge",
+    "tutor:waterpulse",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:bubblebeam",
+    "legacy:bulldoze",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:confusion",
+    "legacy:counter",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:doubleteam",
+    "legacy:dragontail",
+    "legacy:dynamicpunch",
+    "legacy:falseswipe",
+    "legacy:fissure",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:outrage",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:snore",
+    "legacy:submission",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:waterfall",
+    "special:block",
+    "special:celebrate",
+    "special:followme",
+    "special:hydrocannon"
+  ],
+  "forms": [
+    "Mega",
+    "Gmax"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_temperate",
+            "#cobblemon:is_tropical_island"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0009_blastoise.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:water"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_temperate",
+            "#cobblemon:is_tropical_island"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0009_blastoise.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_temperate",
+            "#cobblemon:is_tropical_island"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0009_blastoise.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_temperate",
+            "#cobblemon:is_tropical_island"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0009_blastoise.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_temperate",
+            "#cobblemon:is_tropical_island"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0009_blastoise.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/blastoise.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/blastoise_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/blastoise.json"
+  ]
+}

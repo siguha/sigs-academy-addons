@@ -1,0 +1,200 @@
+{
+  "id": "snivy",
+  "dexnum": 495,
+  "name": "Snivy",
+  "primaryType": "grass",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen5",
+    "starter"
+  ],
+  "abilities": [
+    "overgrow",
+    "h:contrary"
+  ],
+  "eggGroups": [
+    "field",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 45,
+    "defence": 55,
+    "special_attack": 45,
+    "special_defence": 55,
+    "speed": 63
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "4:leer",
+    "7:vinewhip",
+    "10:wrap",
+    "13:growth",
+    "16:leaftornado",
+    "19:leechseed",
+    "22:megadrain",
+    "25:slam",
+    "28:leafblade",
+    "31:coil",
+    "34:gigadrain",
+    "37:wringout",
+    "40:leafstorm",
+    "egg:captivate",
+    "egg:glare",
+    "egg:irontail",
+    "egg:meanlook",
+    "egg:mirrorcoat",
+    "egg:naturalgift",
+    "egg:pursuit",
+    "egg:sweetscent",
+    "egg:synthesis",
+    "egg:twister",
+    "tm:aerialace",
+    "tm:aquatail",
+    "tm:bind",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:cut",
+    "tm:defog",
+    "tm:doubleedge",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:helpinghand",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:leafblade",
+    "tm:leafstorm",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:petalblizzard",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:torment",
+    "tm:trailblaze",
+    "tm:twister",
+    "tm:workup",
+    "tm:worryseed",
+    "tutor:aerialace",
+    "tutor:aquatail",
+    "tutor:bind",
+    "tutor:calmmind",
+    "tutor:defog",
+    "tutor:energyball",
+    "tutor:gastroacid",
+    "tutor:gigadrain",
+    "tutor:grasspledge",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:magicalleaf",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:swift",
+    "tutor:synthesis",
+    "tutor:twister",
+    "tutor:worryseed"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "snivy_servine",
+      "variant": "level_up",
+      "result": "servine",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 17
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0495_snivy.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/snivy.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/snivy_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/snivy.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation5\\snivy.json"
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "id": "pansage",
+  "dexnum": 511,
+  "name": "Pansage",
+  "primaryType": "grass",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "gluttony",
+    "h:overgrow"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 53,
+    "defence": 48,
+    "special_attack": 53,
+    "special_defence": 48,
+    "speed": 64
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:leaf_stone",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:occa_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:playnice",
+    "4:leer",
+    "7:lick",
+    "10:vinewhip",
+    "13:furyswipes",
+    "16:leechseed",
+    "19:bite",
+    "22:seedbomb",
+    "25:torment",
+    "28:fling",
+    "31:acrobatics",
+    "34:grassknot",
+    "37:recycle",
+    "40:naturalgift",
+    "43:crunch",
+    "egg:astonish",
+    "egg:bulletseed",
+    "egg:covet",
+    "egg:disarmingvoice",
+    "egg:grasswhistle",
+    "egg:leafstorm",
+    "egg:lowkick",
+    "egg:magicalleaf",
+    "egg:nastyplot",
+    "egg:roleplay",
+    "egg:spikyshield",
+    "egg:tickle",
+    "tm:acrobatics",
+    "tm:bulletseed",
+    "tm:covet",
+    "tm:crunch",
+    "tm:cut",
+    "tm:dig",
+    "tm:disarmingvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:gunkshot",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:leafstorm",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:magicalleaf",
+    "tm:nastyplot",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:payback",
+    "tm:protect",
+    "tm:recycle",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:seedbomb",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:synthesis",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:torment",
+    "tm:uproar",
+    "tm:workup",
+    "tm:worryseed",
+    "tutor:covet",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:focuspunch",
+    "tutor:gastroacid",
+    "tutor:gigadrain",
+    "tutor:grasspledge",
+    "tutor:grassyglide",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:magicalleaf",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:seedbomb",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:synthesis",
+    "tutor:uproar",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "pansage_simisage",
+      "variant": "item_interact",
+      "result": "simisage",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:leaf_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0511_pansage.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.68,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0511_pansage.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.68,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "aether:skyroot_forest",
+            "aether:skyroot_woodland"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0511_pansage.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/pansage.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/pansage_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/pansage.json"
+  ]
+}

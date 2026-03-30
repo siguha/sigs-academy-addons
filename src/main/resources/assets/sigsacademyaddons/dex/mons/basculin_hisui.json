@@ -1,0 +1,154 @@
+{
+  "id": "basculin_hisui",
+  "dexnum": 550,
+  "name": "Basculin White-Striped",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8a",
+    "hisuian_form"
+  ],
+  "abilities": [
+    "rattled",
+    "adaptability",
+    "h:moldbreaker"
+  ],
+  "eggGroups": [
+    "water_2"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 92,
+    "defence": 65,
+    "special_attack": 80,
+    "special_defence": 55,
+    "speed": 98
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:salmon",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:deep_sea_tooth",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tailwhip",
+    "1:watergun",
+    "4:tackle",
+    "8:flail",
+    "12:aquajet",
+    "16:bite",
+    "20:scaryface",
+    "24:headbutt",
+    "28:soak",
+    "32:crunch",
+    "36:takedown",
+    "40:uproar",
+    "44:wavecrash",
+    "48:thrash",
+    "52:doubleedge",
+    "56:headsmash",
+    "egg:endeavor",
+    "egg:lastrespects",
+    "tm:agility",
+    "tm:aquatail",
+    "tm:blizzard",
+    "tm:chillingwater",
+    "tm:crunch",
+    "tm:doubleedge",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:flipturn",
+    "tm:headbutt",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icywind",
+    "tm:liquidation",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:uproar",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:zenheadbutt",
+    "tutor:aquatail",
+    "tutor:endeavor",
+    "tutor:flipturn",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:icywind",
+    "tutor:liquidation",
+    "tutor:rest",
+    "tutor:scaleshot",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:uproar",
+    "tutor:waterpulse",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "basculin_basculegion",
+      "variant": "level_up",
+      "result": "basculegion",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "recoil",
+          "amount": 294
+        }
+      ]
+    }
+  ],
+  "spawns": [],
+  "implemented": true,
+  "images": {},
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/basculin.json"
+  ]
+}

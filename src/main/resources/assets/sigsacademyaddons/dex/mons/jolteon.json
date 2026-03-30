@@ -1,0 +1,306 @@
+{
+  "id": "jolteon",
+  "dexnum": 135,
+  "name": "Jolteon",
+  "primaryType": "electric",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "voltabsorb",
+    "h:quickfeet"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 65,
+    "defence": 60,
+    "special_attack": 110,
+    "special_defence": 95,
+    "speed": 130
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:thunder_stone",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:magnet",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tailwhip",
+    "1:tackle",
+    "1:helpinghand",
+    "1:thundershock",
+    "1:swift",
+    "1:covet",
+    "1:bite",
+    "1:copycat",
+    "1:batonpass",
+    "1:takedown",
+    "1:charm",
+    "1:doubleedge",
+    "1:growl",
+    "1:trumpcard",
+    "1:refresh",
+    "5:sandattack",
+    "10:quickattack",
+    "15:babydolleyes",
+    "20:thunderwave",
+    "25:doublekick",
+    "30:thunderfang",
+    "35:pinmissile",
+    "40:discharge",
+    "45:agility",
+    "50:thunder",
+    "55:lastresort",
+    "egg:captivate",
+    "egg:curse",
+    "egg:detect",
+    "egg:doublekick",
+    "egg:flail",
+    "egg:mudslap",
+    "egg:naturalgift",
+    "egg:synchronoise",
+    "egg:tickle",
+    "egg:wish",
+    "egg:yawn",
+    "tm:agility",
+    "tm:alluringvoice",
+    "tm:babydolleyes",
+    "tm:batonpass",
+    "tm:bodyslam",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:charge",
+    "tm:charm",
+    "tm:covet",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:falseswipe",
+    "tm:flash",
+    "tm:focusenergy",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:metalsound",
+    "tm:mudslap",
+    "tm:naturalgift",
+    "tm:payday",
+    "tm:pinmissile",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:risingvoltage",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:storedpower",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:voltswitch",
+    "tm:weatherball",
+    "tm:wildcharge",
+    "tm:workup",
+    "tutor:babydolleyes",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:electroweb",
+    "tutor:falseswipe",
+    "tutor:focusenergy",
+    "tutor:gigaimpact",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:lastresort",
+    "tutor:magnetrise",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:rocksmash",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:thunderfang",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:chargebeam",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:zapcannon",
+    "special:celebrate",
+    "special:sing"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 1.2,
+        "levels": "28-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_grassland"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0135_jolteon.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.02,
+        "levels": "28-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0135_jolteon.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.02,
+        "levels": "28-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0135_jolteon.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "mansion"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.1,
+        "levels": "28-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0135_jolteon.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/jolteon.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/jolteon_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/jolteon.json"
+  ]
+}

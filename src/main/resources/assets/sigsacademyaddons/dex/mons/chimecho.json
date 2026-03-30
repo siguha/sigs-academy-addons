@@ -1,0 +1,286 @@
+{
+  "id": "chimecho",
+  "dexnum": 358,
+  "name": "Chimecho",
+  "primaryType": "psychic",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "levitate",
+    "h:levitate"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 50,
+    "defence": 80,
+    "special_attack": 95,
+    "special_defence": 90,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:colbur_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:cleanse_tag",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:soothe_bell",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:wrap",
+    "1:growl",
+    "1:astonish",
+    "1:confusion",
+    "1:psywave",
+    "1:healingwish",
+    "1:synchronoise",
+    "1:entrainment",
+    "13:yawn",
+    "16:storedpower",
+    "19:takedown",
+    "22:extrasensory",
+    "27:healbell",
+    "32:uproar",
+    "37:safeguard",
+    "42:doubleedge",
+    "47:healpulse",
+    "egg:allyswitch",
+    "egg:cosmicpower",
+    "egg:craftyshield",
+    "egg:curse",
+    "egg:disable",
+    "egg:hypnosis",
+    "egg:perishsong",
+    "egg:recover",
+    "egg:recycle",
+    "egg:wish",
+    "tm:allyswitch",
+    "tm:batonpass",
+    "tm:bind",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:cosmicpower",
+    "tm:curse",
+    "tm:dazzlinggleam",
+    "tm:disarmingvoice",
+    "tm:doubleedge",
+    "tm:drainingkiss",
+    "tm:dreameater",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endure",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:futuresight",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hypervoice",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:ominouswind",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:uproar",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:bind",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:dazzlinggleam",
+    "tutor:energyball",
+    "tutor:expandingforce",
+    "tutor:gravity",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:icywind",
+    "tutor:knockoff",
+    "tutor:laserfocus",
+    "tutor:lastresort",
+    "tutor:magiccoat",
+    "tutor:ominouswind",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:snatch",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:defensecurl",
+    "legacy:defog",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.32,
+        "levels": "24-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_mountain",
+            "#cobblemon:is_spooky",
+            "#cobblemon:is_taiga"
+          ],
+          "exclude": [
+            "#cobblemon:is_volcanic"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0358_chimecho.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.96,
+        "levels": "24-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_magical"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0358_chimecho.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 16.0,
+        "levels": "24-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0358_chimecho.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:bell"
+          ]
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/chimecho.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/chimecho_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/chimecho.json"
+  ]
+}

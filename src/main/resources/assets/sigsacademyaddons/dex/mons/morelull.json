@@ -1,0 +1,260 @@
+{
+  "id": "morelull",
+  "dexnum": 755,
+  "name": "Morelull",
+  "primaryType": "grass",
+  "secondaryType": "fairy",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "illuminate",
+    "effectspore",
+    "h:raindish"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 35,
+    "defence": 55,
+    "special_attack": 65,
+    "special_defence": 75,
+    "speed": 15
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:brown_mushroom",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:luminous_moss",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:bright_powder",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:kebia_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:absorb",
+    "1:astonish",
+    "4:confuseray",
+    "8:ingrain",
+    "12:megadrain",
+    "16:sleeppowder",
+    "20:moonlight",
+    "25:strengthsap",
+    "28:gigadrain",
+    "32:dazzlinggleam",
+    "36:spore",
+    "40:moonblast",
+    "44:dreameater",
+    "egg:growth",
+    "egg:leechseed",
+    "egg:poisonpowder",
+    "egg:spotlight",
+    "egg:stunspore",
+    "tm:afteryou",
+    "tm:amnesia",
+    "tm:confuseray",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:dreameater",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:naturepower",
+    "tm:pollenpuff",
+    "tm:protect",
+    "tm:recycle",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:synthesis",
+    "tm:terablast",
+    "tm:thunderwave",
+    "tm:wonderroom",
+    "tm:worryseed",
+    "tutor:afteryou",
+    "tutor:dazzlinggleam",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:synthesis",
+    "tutor:wonderroom",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "morelull_shiinotic",
+      "variant": "level_up",
+      "result": "shiinotic",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 24
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_magical",
+            "#cobblemon:is_mushroom"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0755_morelull.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0755_morelull.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_fungus"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0755_morelull.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0755_morelull.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        },
+        "yLevel": {
+          "minY": -41,
+          "maxY": 9
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/morelull.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/morelull_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/morelull.json"
+  ]
+}

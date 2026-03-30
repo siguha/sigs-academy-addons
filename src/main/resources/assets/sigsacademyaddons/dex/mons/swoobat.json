@@ -1,0 +1,264 @@
+{
+  "id": "swoobat",
+  "dexnum": 528,
+  "name": "Swoobat",
+  "primaryType": "psychic",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "unaware",
+    "klutz",
+    "h:simple"
+  ],
+  "eggGroups": [
+    "field",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 67,
+    "attack": 57,
+    "defence": 55,
+    "special_attack": 77,
+    "special_defence": 55,
+    "speed": 114
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:light_blue_wool",
+        "percentage": null,
+        "quantityRange": "1-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:colbur_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:confusion",
+    "1:odorsleuth",
+    "1:gust",
+    "1:heartstamp",
+    "1:endeavor",
+    "1:attract",
+    "15:aircutter",
+    "20:imprison",
+    "25:assurance",
+    "30:amnesia",
+    "35:airslash",
+    "40:psychic",
+    "45:calmmind",
+    "50:futuresight",
+    "55:simplebeam",
+    "egg:captivate",
+    "egg:flatter",
+    "egg:knockoff",
+    "egg:psychoshift",
+    "egg:roost",
+    "egg:supersonic",
+    "egg:synchronoise",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:afteryou",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:allyswitch",
+    "tm:amnesia",
+    "tm:assurance",
+    "tm:attract",
+    "tm:batonpass",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:defog",
+    "tm:dreameater",
+    "tm:dualwingbeat",
+    "tm:embargo",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:fly",
+    "tm:futuresight",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:gyroball",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:nastyplot",
+    "tm:pluck",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:psychocut",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:roost",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:speedswap",
+    "tm:steelwing",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:superfang",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:venomdrench",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:afteryou",
+    "tutor:aircutter",
+    "tutor:allyswitch",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:expandingforce",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:knockoff",
+    "tutor:laserfocus",
+    "tutor:magiccoat",
+    "tutor:psychic",
+    "tutor:psychocut",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:superfang",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:zenheadbutt",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "27-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0528_swoobat.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "27-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0528_swoobat.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/swoobat.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/swoobat_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/swoobat.json"
+  ]
+}

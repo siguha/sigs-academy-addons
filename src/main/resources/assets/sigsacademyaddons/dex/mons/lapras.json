@@ -1,0 +1,388 @@
+{
+  "id": "lapras",
+  "dexnum": 131,
+  "name": "Lapras",
+  "primaryType": "water",
+  "secondaryType": "ice",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "waterabsorb",
+    "shellarmor",
+    "h:hydration"
+  ],
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "baseStats": {
+    "hp": 130,
+    "attack": 85,
+    "defence": 80,
+    "special_attack": 85,
+    "special_defence": 95,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:never_melt_ice",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "minecraft:heart_of_the_sea",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:aspear_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:growl",
+    "1:watergun",
+    "5:sing",
+    "10:mist",
+    "15:lifedew",
+    "20:iceshard",
+    "25:confuseray",
+    "30:waterpulse",
+    "35:brine",
+    "40:bodyslam",
+    "45:icebeam",
+    "50:raindance",
+    "55:hydropump",
+    "60:perishsong",
+    "65:sheercold",
+    "egg:ancientpower",
+    "egg:curse",
+    "egg:fissure",
+    "egg:foresight",
+    "egg:freezedry",
+    "egg:horndrill",
+    "egg:refresh",
+    "egg:sparklingaria",
+    "egg:tickle",
+    "tm:alluringvoice",
+    "tm:ancientpower",
+    "tm:aquatail",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:bulldoze",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:disarmingvoice",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:dragoncheer",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dreameater",
+    "tm:drillrun",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:frostbreath",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:haze",
+    "tm:headbutt",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:liquidation",
+    "tm:megahorn",
+    "tm:muddywater",
+    "tm:outrage",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:safeguard",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:smartstrike",
+    "tm:snowscape",
+    "tm:strength",
+    "tm:substitute",
+    "tm:surf",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:zenheadbutt",
+    "tutor:ancientpower",
+    "tutor:aquatail",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:dive",
+    "tutor:dragonpulse",
+    "tutor:drillrun",
+    "tutor:gigaimpact",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:liquidation",
+    "tutor:megahorn",
+    "tutor:outrage",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:thunderbolt",
+    "tutor:waterpulse",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:aurorabeam",
+    "legacy:bide",
+    "legacy:bubblebeam",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:dragonbreath",
+    "legacy:dragonrage",
+    "legacy:frustration",
+    "legacy:futuresight",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:psywave",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:roar",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:solarbeam",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:zapcannon"
+  ],
+  "forms": [
+    "Gmax"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 2.0,
+        "levels": "29-54",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0131_lapras.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 10.0,
+        "levels": "29-54",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0131_lapras.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 2.0,
+        "levels": "29-54",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0131_lapras.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 2.0,
+        "levels": "29-54",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0131_lapras.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 10.0,
+        "levels": "29-54",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0131_lapras.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 2.0,
+        "levels": "29-54",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0131_lapras.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 2.0,
+        "levels": "29-54",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0131_lapras.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 10.0,
+        "levels": "29-54",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0131_lapras.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/lapras.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/lapras_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/lapras.json"
+  ]
+}

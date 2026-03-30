@@ -1,0 +1,242 @@
+{
+  "id": "aerodactyl",
+  "dexnum": 142,
+  "name": "Aerodactyl",
+  "primaryType": "rock",
+  "secondaryType": "flying",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen1",
+    "fossil"
+  ],
+  "abilities": [
+    "rockhead",
+    "pressure",
+    "h:unnerve"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 105,
+    "defence": 65,
+    "special_attack": 60,
+    "special_defence": 75,
+    "speed": 130
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:rocky_helmet",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:bite",
+    "1:ancientpower",
+    "5:supersonic",
+    "10:wingattack",
+    "15:scaryface",
+    "20:rockslide",
+    "25:roar",
+    "30:crunch",
+    "35:ironhead",
+    "40:takedown",
+    "45:stoneedge",
+    "50:agility",
+    "55:hyperbeam",
+    "60:gigaimpact",
+    "egg:curse",
+    "egg:dragonbreath",
+    "egg:foresight",
+    "egg:pursuit",
+    "egg:roost",
+    "egg:tailwind",
+    "egg:whirlwind",
+    "egg:wideguard",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:ancientpower",
+    "tm:aquatail",
+    "tm:assurance",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:crunch",
+    "tm:curse",
+    "tm:defog",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dualwingbeat",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:flamethrower",
+    "tm:fly",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:honeclaws",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:icefang",
+    "tm:incinerate",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:meteorbeam",
+    "tm:ominouswind",
+    "tm:payback",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roost",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:skyattack",
+    "tm:skydrop",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:steelwing",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderfang",
+    "tm:torment",
+    "tm:twister",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:ancientpower",
+    "tutor:aquatail",
+    "tutor:bulldoze",
+    "tutor:defog",
+    "tutor:dragonpulse",
+    "tutor:dualwingbeat",
+    "tutor:earthpower",
+    "tutor:firefang",
+    "tutor:flamethrower",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:hyperbeam",
+    "tutor:icefang",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:meteorbeam",
+    "tutor:ominouswind",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roost",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:thunderfang",
+    "tutor:twister",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:detect",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:dragonrage",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:razorwind",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:rockthrow",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:celebrate"
+  ],
+  "forms": [
+    "Mega"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 10.0,
+        "levels": "27-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0142_aerodactyl.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/aerodactyl.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/aerodactyl_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/aerodactyl.json"
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "id": "machop",
+  "dexnum": 66,
+  "name": "Machop",
+  "primaryType": "fighting",
+  "secondaryType": "",
+  "maleRatio": 0.75,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "guts",
+    "noguard",
+    "h:steadfast"
+  ],
+  "eggGroups": [
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 80,
+    "defence": 50,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 35
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 180,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:focus_band",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:muscle_band",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:wepear_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:lowkick",
+    "1:leer",
+    "1:karatechop",
+    "1:foresight",
+    "4:focusenergy",
+    "8:revenge",
+    "12:lowsweep",
+    "16:knockoff",
+    "20:scaryface",
+    "24:vitalthrow",
+    "29:strength",
+    "32:dualchop",
+    "36:bulkup",
+    "40:seismictoss",
+    "44:dynamicpunch",
+    "48:crosschop",
+    "52:doubleedge",
+    "egg:bulletpunch",
+    "egg:counter",
+    "egg:meditate",
+    "egg:powertrick",
+    "egg:quickguard",
+    "egg:rollingkick",
+    "egg:smellingsalts",
+    "egg:submission",
+    "egg:tickle",
+    "egg:wakeupslap",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:dualchop",
+    "tm:earthquake",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:headbutt",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:icepunch",
+    "tm:incinerate",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:mudslap",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderpunch",
+    "tm:vacuumwave",
+    "tm:workup",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:coaching",
+    "tutor:dualchop",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focusenergy",
+    "tutor:focuspunch",
+    "tutor:helpinghand",
+    "tutor:icepunch",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:sleeptalk",
+    "tutor:superpower",
+    "tutor:thunderpunch",
+    "tutor:vacuumwave",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:detect",
+    "legacy:doubleteam",
+    "legacy:fissure",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:takedown",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "machop_machoke",
+      "variant": "level_up",
+      "result": "machoke",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_hills"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0066_machop.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/machop.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/machop_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/machop.json"
+  ]
+}

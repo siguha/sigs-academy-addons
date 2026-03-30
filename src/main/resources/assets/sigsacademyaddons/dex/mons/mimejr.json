@@ -1,0 +1,310 @@
+{
+  "id": "mimejr",
+  "dexnum": 439,
+  "name": "Mime Jr.",
+  "primaryType": "psychic",
+  "secondaryType": "fairy",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4",
+    "baby",
+    "sinnohan_form"
+  ],
+  "abilities": [
+    "soundproof",
+    "filter",
+    "h:technician"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 20,
+    "attack": 25,
+    "defence": 45,
+    "special_attack": 70,
+    "special_defence": 90,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 145,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:light_clay",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:babiri_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tickle",
+    "1:barrier",
+    "1:copycat",
+    "1:meditate",
+    "1:doubleslap",
+    "1:pound",
+    "4:batonpass",
+    "8:encore",
+    "12:confusion",
+    "16:roleplay",
+    "20:protect",
+    "24:recycle",
+    "28:psybeam",
+    "32:mimic",
+    "36:lightscreen",
+    "36:reflect",
+    "36:safeguard",
+    "40:suckerpunch",
+    "44:dazzlinggleam",
+    "48:psychic",
+    "52:teeterdance",
+    "egg:confuseray",
+    "egg:fakeout",
+    "egg:healingwish",
+    "egg:hypnosis",
+    "egg:powersplit",
+    "egg:tickle",
+    "egg:wakeupslap",
+    "tm:allyswitch",
+    "tm:batonpass",
+    "tm:brickbreak",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:drainpunch",
+    "tm:dreameater",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:futuresight",
+    "tm:grassknot",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:icywind",
+    "tm:infestation",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:mistyterrain",
+    "tm:mudslap",
+    "tm:nastyplot",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:solarbeam",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:uproar",
+    "tm:wonderroom",
+    "tutor:allyswitch",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:drainpunch",
+    "tutor:focuspunch",
+    "tutor:helpinghand",
+    "tutor:icywind",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:mudslap",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:suckerpunch",
+    "tutor:telekinesis",
+    "tutor:thunderbolt",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:wonderroom",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [
+    "Galar-Bias"
+  ],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "mimejr_mrmime",
+      "variant": "level_up",
+      "result": "mrmime",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "mimic"
+        }
+      ]
+    },
+    {
+      "id": "mimejr_mrmimegalar",
+      "variant": "level_up",
+      "result": "mrmime galarian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "mimic"
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/regional/mimejr_galarbiome"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.68,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0439_mimejr.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.68,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0439_mimejr.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "mansion"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0439_mimejr.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/mimejr.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/mimejr_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/mimejr.json"
+  ]
+}

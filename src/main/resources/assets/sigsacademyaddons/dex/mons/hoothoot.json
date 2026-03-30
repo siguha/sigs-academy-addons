@@ -1,0 +1,246 @@
+{
+  "id": "hoothoot",
+  "dexnum": 163,
+  "name": "Hoothoot",
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "insomnia",
+    "keeneye",
+    "h:tintedlens"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 30,
+    "defence": 30,
+    "special_attack": 36,
+    "special_defence": 56,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:chicken",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:wise_glasses",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chilan_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:growl",
+    "1:foresight",
+    "1:peck",
+    "3:tackle",
+    "6:echoedvoice",
+    "9:confusion",
+    "12:reflect",
+    "15:psychoshift",
+    "18:airslash",
+    "21:extrasensory",
+    "24:takedown",
+    "27:uproar",
+    "30:roost",
+    "33:moonblast",
+    "36:hypnosis",
+    "39:dreameater",
+    "egg:featherdance",
+    "egg:feintattack",
+    "egg:meanlook",
+    "egg:mirrormove",
+    "egg:nightshade",
+    "egg:supersonic",
+    "egg:synchronoise",
+    "egg:whirlwind",
+    "egg:wingattack",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:amnesia",
+    "tm:bravebird",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:defog",
+    "tm:dreameater",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:fly",
+    "tm:haze",
+    "tm:heatwave",
+    "tm:hurricane",
+    "tm:hypervoice",
+    "tm:imprison",
+    "tm:magiccoat",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:ominouswind",
+    "tm:pluck",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:roost",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:silverwind",
+    "tm:skillswap",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:spite",
+    "tm:steelwing",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:twister",
+    "tm:uproar",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:calmmind",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:heatwave",
+    "tutor:hypervoice",
+    "tutor:magiccoat",
+    "tutor:ominouswind",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:twister",
+    "tutor:uproar",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:detect",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:flash",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "hoothoot_noctowl",
+      "variant": "level_up",
+      "result": "noctowl",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "1-26",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_sky",
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0163_hoothoot.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/hoothoot.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/hoothoot_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/hoothoot.json"
+  ]
+}

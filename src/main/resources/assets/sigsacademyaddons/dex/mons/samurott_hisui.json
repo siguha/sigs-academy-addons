@@ -1,0 +1,316 @@
+{
+  "id": "samurott_hisui",
+  "dexnum": 503,
+  "name": "Samurott Hisui",
+  "primaryType": "water",
+  "secondaryType": "dark",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen8a",
+    "hisuian_form"
+  ],
+  "abilities": [
+    "torrent",
+    "h:sharpness"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 108,
+    "defence": 80,
+    "special_attack": 100,
+    "special_defence": 65,
+    "speed": 85
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:shell_bell",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:megahorn",
+    "1:ceaselessedge",
+    "1:slash",
+    "1:suckerpunch",
+    "1:tailwhip",
+    "1:tackle",
+    "1:watergun",
+    "1:watersport",
+    "1:soak",
+    "13:focusenergy",
+    "18:razorshell",
+    "21:furycutter",
+    "25:waterpulse",
+    "29:aerialace",
+    "34:aquajet",
+    "39:encore",
+    "46:aquatail",
+    "51:retaliate",
+    "58:swordsdance",
+    "63:hydropump",
+    "egg:airslash",
+    "egg:aquacutter",
+    "egg:copycat",
+    "egg:detect",
+    "egg:knockoff",
+    "egg:nightslash",
+    "egg:sacredsword",
+    "egg:screech",
+    "egg:trumpcard",
+    "tm:aerialace",
+    "tm:airslash",
+    "tm:aquatail",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:chillingwater",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:drillrun",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:flipturn",
+    "tm:focusenergy",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:helpinghand",
+    "tm:hydrocannon",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:liquidation",
+    "tm:megahorn",
+    "tm:protect",
+    "tm:psychocut",
+    "tm:raindance",
+    "tm:razorshell",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:rocksmash",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:sleeptalk",
+    "tm:smartstrike",
+    "tm:snarl",
+    "tm:snowscape",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:surf",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:upperhand",
+    "tm:vacuumwave",
+    "tm:waterfall",
+    "tm:waterpledge",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:aquatail",
+    "tutor:bulldoze",
+    "tutor:darkpulse",
+    "tutor:drillrun",
+    "tutor:falseswipe",
+    "tutor:flipturn",
+    "tutor:focusenergy",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hydrocannon",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:liquidation",
+    "tutor:megahorn",
+    "tutor:psychocut",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:vacuumwave",
+    "tutor:waterpledge",
+    "tutor:waterpulse",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast"
+          ],
+          "exclude": [
+            "#cobblemon:is_beach"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0503_samurott.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast"
+          ],
+          "exclude": [
+            "#cobblemon:is_beach"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0503_samurott.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "minecraft:snowy_beach"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0503_samurott.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "minecraft:snowy_beach"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0503_samurott.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_cold_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_beach"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0503_samurott.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/samurott_hisuian.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/samurott_hisuian_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/samurott.json"
+  ]
+}

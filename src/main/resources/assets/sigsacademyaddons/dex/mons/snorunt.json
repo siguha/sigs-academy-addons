@@ -1,0 +1,286 @@
+{
+  "id": "snorunt",
+  "dexnum": 361,
+  "name": "Snorunt",
+  "primaryType": "ice",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "innerfocus",
+    "icebody",
+    "h:moody"
+  ],
+  "eggGroups": [
+    "fairy",
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:snowball",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:dawn_stone",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:never_melt_ice",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:babiri_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:powdersnow",
+    "1:headbutt",
+    "1:astonish",
+    "5:leer",
+    "10:doubleteam",
+    "15:iceshard",
+    "20:protect",
+    "25:icywind",
+    "30:frostbreath",
+    "35:bite",
+    "40:icefang",
+    "45:snowscape",
+    "50:weatherball",
+    "55:crunch",
+    "60:blizzard",
+    "egg:bide",
+    "egg:block",
+    "egg:disable",
+    "egg:iciclecrash",
+    "egg:rollout",
+    "egg:switcheroo",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:chillingwater",
+    "tm:crunch",
+    "tm:doubleteam",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:frostbreath",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icespinner",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:spikes",
+    "tm:spite",
+    "tm:substitute",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tutor:block",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:icywind",
+    "tutor:rest",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:spite",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:sing"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "snorunt_glalie",
+      "variant": "level_up",
+      "result": "glalie",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "freezedry"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        }
+      ]
+    },
+    {
+      "id": "snorunt_froslass",
+      "variant": "item_interact",
+      "result": "froslass",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "ominouswind",
+        "hex"
+      ],
+      "requirements": [
+        {
+          "variant": "properties",
+          "target": "gender=female"
+        }
+      ],
+      "requiredContext": "cobblemon:dawn_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.68,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_glacial"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0361_snorunt.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_snowy",
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0361_snorunt.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.2,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0361_snorunt.json",
+        "structures": [
+          "minecraft:igloo"
+        ],
+        "sky": {
+          "minSkyLight": 1,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_frozen"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0361_snorunt.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/snorunt.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/snorunt_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/snorunt.json"
+  ]
+}

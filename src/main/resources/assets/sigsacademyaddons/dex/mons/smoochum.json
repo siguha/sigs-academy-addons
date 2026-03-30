@@ -1,0 +1,249 @@
+{
+  "id": "smoochum",
+  "dexnum": 238,
+  "name": "Smoochum",
+  "primaryType": "ice",
+  "secondaryType": "psychic",
+  "maleRatio": 0,
+  "labels": [
+    "gen2",
+    "baby"
+  ],
+  "abilities": [
+    "oblivious",
+    "forewarn",
+    "h:hydration"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 30,
+    "defence": 15,
+    "special_attack": 85,
+    "special_defence": 65,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:aspear_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:lick",
+    "4:powdersnow",
+    "8:copycat",
+    "12:confusion",
+    "16:covet",
+    "20:sing",
+    "24:faketears",
+    "28:icepunch",
+    "32:psychic",
+    "36:sweetkiss",
+    "40:meanlook",
+    "44:perishsong",
+    "48:blizzard",
+    "egg:captivate",
+    "egg:fakeout",
+    "egg:heartstamp",
+    "egg:luckychant",
+    "egg:meditate",
+    "egg:miracleeye",
+    "egg:roleplay",
+    "egg:wakeupslap",
+    "egg:wish",
+    "tm:auroraveil",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:charm",
+    "tm:covet",
+    "tm:drainingkiss",
+    "tm:dreameater",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:fling",
+    "tm:frostbreath",
+    "tm:grassknot",
+    "tm:hail",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:mudslap",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:roleplay",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:uproar",
+    "tm:waterpulse",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:mudslap",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:shadowball",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:waterpulse",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:curse",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:sweetscent",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "smoochum_jynx",
+      "variant": "level_up",
+      "result": "jynx",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.68,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0238_smoochum.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.68,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0238_smoochum.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/smoochum.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/smoochum_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/smoochum.json"
+  ]
+}

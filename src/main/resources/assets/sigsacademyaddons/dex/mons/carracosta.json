@@ -1,0 +1,229 @@
+{
+  "id": "carracosta",
+  "dexnum": 565,
+  "name": "Carracosta",
+  "primaryType": "water",
+  "secondaryType": "rock",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen5",
+    "fossil"
+  ],
+  "abilities": [
+    "solidrock",
+    "sturdy",
+    "h:swiftswim"
+  ],
+  "eggGroups": [
+    "water_1",
+    "water_3"
+  ],
+  "baseStats": {
+    "hp": 74,
+    "attack": 108,
+    "defence": 133,
+    "special_attack": 83,
+    "special_defence": 65,
+    "speed": 32
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:turtle_scute",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:bide",
+    "1:withdraw",
+    "1:watergun",
+    "1:protect",
+    "1:aquajet",
+    "9:smackdown",
+    "12:ancientpower",
+    "15:bite",
+    "18:wideguard",
+    "21:brine",
+    "24:rockslide",
+    "27:crunch",
+    "30:curse",
+    "33:irondefense",
+    "36:aquatail",
+    "41:raindance",
+    "46:hydropump",
+    "51:shellsmash",
+    "egg:bide",
+    "egg:block",
+    "egg:flail",
+    "egg:knockoff",
+    "egg:rockthrow",
+    "egg:rollout",
+    "egg:slam",
+    "egg:waterpulse",
+    "tm:ancientpower",
+    "tm:aquatail",
+    "tm:blizzard",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:bulldoze",
+    "tm:crunch",
+    "tm:curse",
+    "tm:dig",
+    "tm:dive",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:focusblast",
+    "tm:gigaimpact",
+    "tm:guardswap",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:lowkick",
+    "tm:meteorbeam",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:protect",
+    "tm:raindance",
+    "tm:razorshell",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sandstorm",
+    "tm:scald",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:surf",
+    "tm:terablast",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:zenheadbutt",
+    "tutor:ancientpower",
+    "tutor:aquatail",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:dive",
+    "tutor:earthpower",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:liquidation",
+    "tutor:lowkick",
+    "tutor:meteorbeam",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:waterpulse",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 4.0,
+        "levels": "37-57",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0565_carracosta.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 4.0,
+        "levels": "37-57",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0565_carracosta.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/carracosta.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/carracosta_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/carracosta.json"
+  ]
+}

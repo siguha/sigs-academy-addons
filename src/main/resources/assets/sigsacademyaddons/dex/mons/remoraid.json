@@ -1,0 +1,324 @@
+{
+  "id": "remoraid",
+  "dexnum": 223,
+  "name": "Remoraid",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "hustle",
+    "sniper",
+    "h:moody"
+  ],
+  "eggGroups": [
+    "water_1",
+    "water_2"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 65,
+    "defence": 35,
+    "special_attack": 65,
+    "special_defence": 35,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:cod",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:aspear_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:watergun",
+    "1:bubble",
+    "1:helpinghand",
+    "4:waterpulse",
+    "8:focusenergy",
+    "12:psybeam",
+    "16:aurorabeam",
+    "20:bubblebeam",
+    "24:lockon",
+    "28:bulletseed",
+    "32:icebeam",
+    "36:hydropump",
+    "40:soak",
+    "44:hyperbeam",
+    "egg:acidspray",
+    "egg:entrainment",
+    "egg:flail",
+    "egg:haze",
+    "egg:octazooka",
+    "egg:snore",
+    "egg:supersonic",
+    "egg:waterspout",
+    "tm:acidspray",
+    "tm:assurance",
+    "tm:blizzard",
+    "tm:bounce",
+    "tm:brine",
+    "tm:bulletseed",
+    "tm:chargebeam",
+    "tm:dive",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:focusenergy",
+    "tm:gunkshot",
+    "tm:haze",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:incinerate",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:scald",
+    "tm:screech",
+    "tm:seedbomb",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:snore",
+    "tm:stringshot",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:swift",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderwave",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:bounce",
+    "tutor:chargebeam",
+    "tutor:dive",
+    "tutor:flamethrower",
+    "tutor:focusenergy",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:mudslap",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:stringshot",
+    "tutor:swift",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "remoraid_octillery",
+      "variant": "level_up",
+      "result": "octillery",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "octazooka"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0223_remoraid.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0223_remoraid.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0223_remoraid.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0223_remoraid.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0223_remoraid.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0223_remoraid.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/remoraid.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/remoraid_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/remoraid.json"
+  ]
+}

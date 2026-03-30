@@ -1,0 +1,198 @@
+{
+  "id": "kricketune",
+  "dexnum": 402,
+  "name": "Kricketune",
+  "primaryType": "bug",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "swarm",
+    "h:technician"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 77,
+    "attack": 85,
+    "defence": 51,
+    "special_attack": 55,
+    "special_defence": 51,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:metronome",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:coba_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:growl",
+    "1:bide",
+    "1:furycutter",
+    "1:tackle",
+    "14:absorb",
+    "18:sing",
+    "22:focusenergy",
+    "26:slash",
+    "30:xscissor",
+    "34:screech",
+    "36:fellstinger",
+    "38:taunt",
+    "42:nightslash",
+    "44:stickyweb",
+    "46:bugbuzz",
+    "50:perishsong",
+    "tm:aerialace",
+    "tm:batonpass",
+    "tm:brickbreak",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:cut",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:flash",
+    "tm:focusenergy",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:infestation",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:leechlife",
+    "tm:lunge",
+    "tm:pounce",
+    "tm:pound",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:screech",
+    "tm:silverwind",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:strength",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:trailblaze",
+    "tm:uproar",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:bugbite",
+    "tutor:endeavor",
+    "tutor:falseswipe",
+    "tutor:focusenergy",
+    "tutor:furycutter",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:knockoff",
+    "tutor:laserfocus",
+    "tutor:leechlife",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:stringshot",
+    "tutor:throatchop",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "10-38",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_swamp"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0402_kricketune.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/kricketune.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/kricketune_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/kricketune.json"
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "id": "ferrothorn",
+  "dexnum": 598,
+  "name": "Ferrothorn",
+  "primaryType": "grass",
+  "secondaryType": "steel",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "ironbarbs",
+    "h:anticipation"
+  ],
+  "eggGroups": [
+    "grass",
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 74,
+    "attack": 94,
+    "defence": 131,
+    "special_attack": 54,
+    "special_defence": 116,
+    "speed": 20
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 90,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:raw_iron",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:occa_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:sticky_barb",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:rockclimb",
+    "1:tackle",
+    "1:harden",
+    "1:metalclaw",
+    "1:pinmissile",
+    "1:mirrorshot",
+    "1:powerwhip",
+    "15:ingrain",
+    "20:flashcannon",
+    "25:ironhead",
+    "30:selfdestruct",
+    "35:irondefense",
+    "43:curse",
+    "49:gyroball",
+    "56:explosion",
+    "egg:acidspray",
+    "egg:gravity",
+    "egg:knockoff",
+    "egg:leechseed",
+    "egg:toxic",
+    "tm:acidspray",
+    "tm:aerialace",
+    "tm:assurance",
+    "tm:block",
+    "tm:bodypress",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:curse",
+    "tm:cut",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:explosion",
+    "tm:facade",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:gyroball",
+    "tm:heavyslam",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:magnetrise",
+    "tm:metalclaw",
+    "tm:naturepower",
+    "tm:payback",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:rest",
+    "tm:revenge",
+    "tm:rockclimb",
+    "tm:rockpolish",
+    "tm:rocksmash",
+    "tm:rollout",
+    "tm:sandstorm",
+    "tm:seedbomb",
+    "tm:selfdestruct",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:steelbeam",
+    "tm:steelroller",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:worryseed",
+    "tutor:aerialace",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:flashcannon",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:magnetrise",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:stealthrock",
+    "tutor:steelbeam",
+    "tutor:steelroller",
+    "tutor:thunderbolt",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "40-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0598_ferrothorn.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "40-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0598_ferrothorn.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        },
+        "yLevel": {
+          "minY": -41,
+          "maxY": 9
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/ferrothorn.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/ferrothorn_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/ferrothorn.json"
+  ]
+}

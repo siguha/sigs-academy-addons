@@ -1,0 +1,283 @@
+{
+  "id": "stantler",
+  "dexnum": 234,
+  "name": "Stantler",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "intimidate",
+    "frisk",
+    "h:sapsipper"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 73,
+    "attack": 95,
+    "defence": 62,
+    "special_attack": 85,
+    "special_defence": 65,
+    "speed": 85
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:mefirst",
+    "1:jumpkick",
+    "1:captivate",
+    "3:leer",
+    "7:astonish",
+    "10:hypnosis",
+    "13:stomp",
+    "16:sandattack",
+    "21:psyshieldbash",
+    "23:confuseray",
+    "27:calmmind",
+    "32:roleplay",
+    "37:zenheadbutt",
+    "49:imprison",
+    "55:doubleedge",
+    "egg:bite",
+    "egg:disable",
+    "egg:doublekick",
+    "egg:extrasensory",
+    "egg:mefirst",
+    "egg:megahorn",
+    "egg:mudsport",
+    "egg:psyshieldbash",
+    "egg:rage",
+    "egg:spite",
+    "egg:swagger",
+    "egg:thrash",
+    "tm:agility",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:dreameater",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:energyball",
+    "tm:entrainment",
+    "tm:facade",
+    "tm:flash",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:gravity",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:irontail",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:lunge",
+    "tm:magicroom",
+    "tm:megahorn",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:roar",
+    "tm:roleplay",
+    "tm:scaryface",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:uproar",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:bounce",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:earthpower",
+    "tutor:energyball",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:irontail",
+    "tutor:lastresort",
+    "tutor:magicroom",
+    "tutor:megahorn",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:thunderbolt",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:wildcharge",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:detect",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "stantler_wyrdeer",
+      "variant": "level_up",
+      "result": "wyrdeer",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "psyshieldbash"
+      ],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "psyshieldbash"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "22-47",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_snowy_forest",
+            "#cobblemon:is_snowy_taiga",
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0234_stantler.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 100.0,
+        "levels": "22-47",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0234_stantler.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "aether:holiday_leaves",
+            "aether:decorated_holiday_leaves"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/stantler.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/stantler_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/stantler.json"
+  ]
+}

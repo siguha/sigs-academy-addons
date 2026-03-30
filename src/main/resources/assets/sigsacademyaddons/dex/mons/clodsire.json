@@ -1,0 +1,408 @@
+{
+  "id": "clodsire",
+  "dexnum": 980,
+  "name": "Clodsire",
+  "primaryType": "poison",
+  "secondaryType": "ground",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "poisonpoint",
+    "waterabsorb",
+    "h:unaware"
+  ],
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "baseStats": {
+    "hp": 130,
+    "attack": 75,
+    "defence": 60,
+    "special_attack": 45,
+    "special_defence": 100,
+    "speed": 20
+  },
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 90,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:clay_ball",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:amnesia",
+    "1:tailwhip",
+    "1:poisonsting",
+    "1:tackle",
+    "4:toxicspikes",
+    "8:mudshot",
+    "12:poisontail",
+    "16:slam",
+    "21:yawn",
+    "24:poisonjab",
+    "30:sludgewave",
+    "36:megahorn",
+    "40:toxic",
+    "48:earthquake",
+    "egg:acidspray",
+    "egg:afteryou",
+    "egg:ancientpower",
+    "egg:counter",
+    "egg:curse",
+    "egg:doublekick",
+    "egg:haze",
+    "egg:mist",
+    "egg:recover",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow",
+    "tm:acidspray",
+    "tm:afteryou",
+    "tm:amnesia",
+    "tm:ancientpower",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:chillingwater",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:haze",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:ironhead",
+    "tm:liquidation",
+    "tm:lowkick",
+    "tm:megahorn",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:poisonjab",
+    "tm:poisontail",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:surf",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:trailblaze",
+    "tm:venoshock",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:zenheadbutt",
+    "tutor:afteryou",
+    "tutor:ancientpower",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:ironhead",
+    "tutor:liquidation",
+    "tutor:lowkick",
+    "tutor:megahorn",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spikes",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:waterpulse",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "20-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:has_block/mud"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0980_clodsire.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "20-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:has_block/mud"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0980_clodsire.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "20-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0980_clodsire.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "20-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0980_clodsire.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:water"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "20-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:has_block/mud"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0980_clodsire.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "20-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0980_clodsire.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "20-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0980_clodsire.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "20-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:has_block/mud"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0980_clodsire.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "20-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0980_clodsire.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "20-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:has_block/mud"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0980_clodsire.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "20-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0980_clodsire.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "20-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0980_clodsire.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/clodsire.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/clodsire_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/clodsire.json"
+  ]
+}

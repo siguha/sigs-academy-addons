@@ -1,0 +1,448 @@
+{
+  "id": "dragonite",
+  "dexnum": 149,
+  "name": "Dragonite",
+  "primaryType": "dragon",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1",
+    "powerhouse"
+  ],
+  "abilities": [
+    "innerfocus",
+    "h:multiscale"
+  ],
+  "eggGroups": [
+    "water_1",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 91,
+    "attack": 134,
+    "defence": 95,
+    "special_attack": 100,
+    "special_defence": 100,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:dragon_breath",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:dragon_fang",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:dragon_scale",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:firepunch",
+    "1:thunderpunch",
+    "1:roost",
+    "1:wrap",
+    "1:leer",
+    "1:thunderwave",
+    "1:twister",
+    "1:dragonrage",
+    "1:wingattack",
+    "1:hurricane",
+    "1:extremespeed",
+    "15:dragontail",
+    "20:agility",
+    "25:slam",
+    "33:aquatail",
+    "39:dragonrush",
+    "41:outrage",
+    "46:safeguard",
+    "53:raindance",
+    "62:dragondance",
+    "80:hyperbeam",
+    "egg:aquajet",
+    "egg:dragonbreath",
+    "egg:extremespeed",
+    "egg:mist",
+    "egg:supersonic",
+    "egg:waterpulse",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:aquatail",
+    "tm:bind",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:chillingwater",
+    "tm:cut",
+    "tm:defog",
+    "tm:dive",
+    "tm:dracometeor",
+    "tm:dragoncheer",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:earthquake",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firepunch",
+    "tm:firespin",
+    "tm:flamethrower",
+    "tm:fling",
+    "tm:fly",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:haze",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hurricane",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icespinner",
+    "tm:icywind",
+    "tm:incinerate",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:lightscreen",
+    "tm:lowkick",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:ominouswind",
+    "tm:outrage",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roost",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:shockwave",
+    "tm:skydrop",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:steelwing",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:surf",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:twister",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:aquatail",
+    "tutor:bind",
+    "tutor:bulldoze",
+    "tutor:defog",
+    "tutor:dive",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focuspunch",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:healbell",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:lowkick",
+    "tutor:ominouswind",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roost",
+    "tutor:scaleshot",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:twister",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:bubblebeam",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:detect",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:dualwingbeat",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:horndrill",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:razorwind",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:watergun",
+    "legacy:whirlpool",
+    "legacy:zapcannon",
+    "special:barrier",
+    "special:healbell"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 0.25,
+        "levels": "55-60",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0149_dragonite.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:water"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        },
+        "yLevel": {
+          "maxY": 32
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water",
+          "ocean_ruins"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "55-60",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0149_dragonite.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "55-60",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_sky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0149_dragonite.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 0.05,
+        "levels": "55-60",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0149_dragonite.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        },
+        "yLevel": {
+          "maxY": 32
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "55-60",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_magical",
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0149_dragonite.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water",
+          "ocean_ruins"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "55-60",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0149_dragonite.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "55-60",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_magical",
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0149_dragonite.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/dragonite.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/dragonite_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/dragonite.json"
+  ]
+}

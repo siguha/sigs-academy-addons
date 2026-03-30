@@ -1,0 +1,237 @@
+{
+  "id": "hatterene",
+  "dexnum": 858,
+  "name": "Hatterene",
+  "primaryType": "psychic",
+  "secondaryType": "fairy",
+  "maleRatio": 0,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "healer",
+    "anticipation",
+    "h:magicbounce"
+  ],
+  "eggGroups": [
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 57,
+    "attack": 90,
+    "defence": 95,
+    "special_attack": 136,
+    "special_defence": 103,
+    "speed": 29
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:babiri_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:psychocut",
+    "1:brutalswing",
+    "1:confusion",
+    "1:playnice",
+    "1:lifedew",
+    "1:disarmingvoice",
+    "1:aromatherapy",
+    "15:aromaticmist",
+    "20:psybeam",
+    "25:healpulse",
+    "30:dazzlinggleam",
+    "37:calmmind",
+    "46:psychic",
+    "55:healingwish",
+    "64:magicpowder",
+    "egg:afteryou",
+    "egg:aromaticmist",
+    "egg:mysticalfire",
+    "egg:nuzzle",
+    "egg:quash",
+    "tm:afteryou",
+    "tm:agility",
+    "tm:batonpass",
+    "tm:brutalswing",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:disarmingvoice",
+    "tm:drainingkiss",
+    "tm:endure",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:futuresight",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:gravity",
+    "tm:guardswap",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magicroom",
+    "tm:metronome",
+    "tm:mistyexplosion",
+    "tm:mistyterrain",
+    "tm:mysticalfire",
+    "tm:painsplit",
+    "tm:playrough",
+    "tm:powerswap",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:psychicterrain",
+    "tm:psychocut",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:quash",
+    "tm:reflect",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:terablast",
+    "tm:thunderwave",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:wonderroom",
+    "tutor:afteryou",
+    "tutor:calmmind",
+    "tutor:darkpulse",
+    "tutor:dazzlinggleam",
+    "tutor:expandingforce",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:magicalleaf",
+    "tutor:magicroom",
+    "tutor:mistyexplosion",
+    "tutor:mysticalfire",
+    "tutor:painsplit",
+    "tutor:playrough",
+    "tutor:psychic",
+    "tutor:psychocut",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [
+    "Gmax"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.16,
+        "levels": "42-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_magical",
+            "aether:skyroot_forest",
+            "aether:skyroot_woodland"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0858_hatterene.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.02,
+        "levels": "42-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0858_hatterene.json",
+        "structures": [
+          "minecraft:swamp_hut"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "mansion"
+        ],
+        "rarity": "common",
+        "weight": 0.02,
+        "levels": "42-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0858_hatterene.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/hatterene.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/hatterene_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/hatterene.json"
+  ]
+}

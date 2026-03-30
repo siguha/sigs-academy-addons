@@ -1,0 +1,331 @@
+{
+  "id": "joltik",
+  "dexnum": 595,
+  "name": "Joltik",
+  "primaryType": "bug",
+  "secondaryType": "electric",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "compoundeyes",
+    "unnerve",
+    "h:swarm"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 47,
+    "defence": 50,
+    "special_attack": 57,
+    "special_defence": 50,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:rotten_flesh",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:nanab_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:spiderweb",
+    "1:furycutter",
+    "1:absorb",
+    "4:electroweb",
+    "8:bugbite",
+    "12:stringshot",
+    "16:thunderwave",
+    "20:electroball",
+    "24:agility",
+    "28:suckerpunch",
+    "32:slash",
+    "37:discharge",
+    "40:screech",
+    "44:gastroacid",
+    "48:bugbuzz",
+    "egg:camouflage",
+    "egg:disable",
+    "egg:doubleteam",
+    "egg:feintattack",
+    "egg:infestation",
+    "egg:lunge",
+    "egg:poisonsting",
+    "egg:pursuit",
+    "egg:strugglebug",
+    "tm:agility",
+    "tm:bounce",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:chargebeam",
+    "tm:crosspoison",
+    "tm:cut",
+    "tm:doubleteam",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:furycutter",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:helpinghand",
+    "tm:infestation",
+    "tm:leechlife",
+    "tm:lightscreen",
+    "tm:lunge",
+    "tm:magnetrise",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:pounce",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:rockclimb",
+    "tm:screech",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:speedswap",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:swift",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:xscissor",
+    "tutor:bounce",
+    "tutor:bugbite",
+    "tutor:chargebeam",
+    "tutor:electroweb",
+    "tutor:energyball",
+    "tutor:furycutter",
+    "tutor:gastroacid",
+    "tutor:gigadrain",
+    "tutor:helpinghand",
+    "tutor:leechlife",
+    "tutor:magnetrise",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:stringshot",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:wildcharge",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "joltik_galvantula",
+      "variant": "level_up",
+      "result": "galvantula",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "stickyweb"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0595_joltik.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0595_joltik.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0595_joltik.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:lightning_rod"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "7-32",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0595_joltik.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "7-32",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld",
+            "#cobblemon:is_end"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0595_joltik.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/joltik.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/joltik_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/joltik.json"
+  ]
+}

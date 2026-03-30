@@ -1,0 +1,246 @@
+{
+  "id": "vulpix_alola",
+  "dexnum": 37,
+  "name": "Vulpix Alola",
+  "primaryType": "ice",
+  "secondaryType": "",
+  "maleRatio": 0.25,
+  "labels": [
+    "gen7",
+    "alolan_form"
+  ],
+  "abilities": [
+    "snowcloak",
+    "h:snowwarning"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 38,
+    "attack": 41,
+    "defence": 40,
+    "special_attack": 50,
+    "special_defence": 65,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:sweet_berries",
+        "percentage": null,
+        "quantityRange": "1-3",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:snowball",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:babiri_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:powdersnow",
+    "1:tailwhip",
+    "4:disable",
+    "8:iceshard",
+    "12:spite",
+    "16:icywind",
+    "20:confuseray",
+    "24:aurorabeam",
+    "28:extrasensory",
+    "32:icebeam",
+    "36:imprison",
+    "40:mist",
+    "44:auroraveil",
+    "48:freezedry",
+    "52:grudge",
+    "egg:babydolleyes",
+    "egg:captivate",
+    "egg:disable",
+    "egg:extrasensory",
+    "egg:feintattack",
+    "egg:flail",
+    "egg:freezedry",
+    "egg:howl",
+    "egg:hypnosis",
+    "egg:moonblast",
+    "egg:roar",
+    "egg:secretpower",
+    "egg:sheercold",
+    "tm:agility",
+    "tm:auroraveil",
+    "tm:babydolleyes",
+    "tm:batonpass",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:captivate",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:confuseray",
+    "tm:covet",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:dig",
+    "tm:disarmingvoice",
+    "tm:doubleedge",
+    "tm:drainingkiss",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:foulplay",
+    "tm:frostbreath",
+    "tm:hail",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:irontail",
+    "tm:mistyterrain",
+    "tm:nastyplot",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:playrough",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:secretpower",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:spite",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailslap",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:weatherball",
+    "tm:zenheadbutt",
+    "tutor:babydolleyes",
+    "tutor:covet",
+    "tutor:darkpulse",
+    "tutor:dazzlinggleam",
+    "tutor:foulplay",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:painsplit",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:swift",
+    "tutor:zenheadbutt",
+    "legacy:aquatail",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:tackle",
+    "legacy:toxic",
+    "special:celebrate"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "vulpix_ninetalesalola",
+      "variant": "item_interact",
+      "result": "ninetales alolan",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "dazzlinggleam"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:ice_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 5.52,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_snowy_forest",
+            "#cobblemon:is_snowy_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0037_vulpix.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.9,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_frozen"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0037_vulpix.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/vulpix_alolan.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/vulpix_alolan_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/vulpix.json"
+  ]
+}

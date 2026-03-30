@@ -1,0 +1,241 @@
+{
+  "id": "barraskewda",
+  "dexnum": 847,
+  "name": "Barraskewda",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "swiftswim",
+    "h:propellertail"
+  ],
+  "eggGroups": [
+    "water_2"
+  ],
+  "baseStats": {
+    "hp": 61,
+    "attack": 123,
+    "defence": 60,
+    "special_attack": 60,
+    "special_defence": 50,
+    "speed": 136
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "slow",
+  "catchRate": 60,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:salmon",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:throatchop",
+    "1:peck",
+    "1:aquajet",
+    "1:furyattack",
+    "1:bite",
+    "18:agility",
+    "24:dive",
+    "32:focusenergy",
+    "40:crunch",
+    "48:liquidation",
+    "56:doubleedge",
+    "egg:acupressure",
+    "egg:nightslash",
+    "egg:slash",
+    "egg:thrash",
+    "tm:agility",
+    "tm:assurance",
+    "tm:blizzard",
+    "tm:bounce",
+    "tm:brickbreak",
+    "tm:chillingwater",
+    "tm:closecombat",
+    "tm:crunch",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:drillrun",
+    "tm:endure",
+    "tm:facade",
+    "tm:flipturn",
+    "tm:focusenergy",
+    "tm:gigaimpact",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:laserfocus",
+    "tm:liquidation",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:bounce",
+    "tutor:dive",
+    "tutor:drillrun",
+    "tutor:flipturn",
+    "tutor:focusenergy",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:laserfocus",
+    "tutor:liquidation",
+    "tutor:rest",
+    "tutor:scaleshot",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "26-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean",
+            "#cobblemon:is_swamp"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0847_barraskewda.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "26-49",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean",
+            "#cobblemon:is_swamp"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0847_barraskewda.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "26-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean",
+            "#cobblemon:is_swamp"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0847_barraskewda.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "26-49",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean",
+            "#cobblemon:is_swamp"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0847_barraskewda.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/barraskewda.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/barraskewda_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/barraskewda.json"
+  ]
+}

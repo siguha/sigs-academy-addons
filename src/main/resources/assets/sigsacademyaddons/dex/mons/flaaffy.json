@@ -1,0 +1,241 @@
+{
+  "id": "flaaffy",
+  "dexnum": 180,
+  "name": "Flaaffy",
+  "primaryType": "electric",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "static",
+    "h:plus"
+  ],
+  "eggGroups": [
+    "monster",
+    "field"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 55,
+    "defence": 55,
+    "special_attack": 80,
+    "special_defence": 60,
+    "speed": 45
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 120,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:mutton",
+        "percentage": null,
+        "quantityRange": "1-3",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:white_wool",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "6:thundershock",
+    "9:thunderwave",
+    "11:cottonspore",
+    "16:charge",
+    "20:takedown",
+    "25:electroball",
+    "29:confuseray",
+    "34:powergem",
+    "38:discharge",
+    "43:cottonguard",
+    "47:dazzlinggleam",
+    "52:lightscreen",
+    "56:thunder",
+    "egg:afteryou",
+    "egg:agility",
+    "egg:eerieimpulse",
+    "egg:electricterrain",
+    "egg:electroweb",
+    "egg:flatter",
+    "egg:odorsleuth",
+    "egg:sandattack",
+    "tm:afteryou",
+    "tm:agility",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:dazzlinggleam",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:flash",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:headbutt",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:icepunch",
+    "tm:irontail",
+    "tm:lightscreen",
+    "tm:lowkick",
+    "tm:magnetrise",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:powergem",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:safeguard",
+    "tm:screech",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:afteryou",
+    "tutor:chargebeam",
+    "tutor:dazzlinggleam",
+    "tutor:electroweb",
+    "tutor:endeavor",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:icepunch",
+    "tutor:irontail",
+    "tutor:lowkick",
+    "tutor:magnetrise",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:rocksmash",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:zapcannon",
+    "special:holdback"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "flaaffy_ampharos",
+      "variant": "level_up",
+      "result": "ampharos",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "thunderpunch"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.9,
+        "levels": "15-37",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_highlands",
+            "#cobblemon:is_plains"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0180_flaaffy.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/flaaffy.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/flaaffy_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/flaaffy.json"
+  ]
+}

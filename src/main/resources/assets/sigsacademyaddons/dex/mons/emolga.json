@@ -1,0 +1,187 @@
+{
+  "id": "emolga",
+  "dexnum": 587,
+  "name": "Emolga",
+  "primaryType": "electric",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "static",
+    "h:motordrive"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 75,
+    "defence": 60,
+    "special_attack": 75,
+    "special_defence": 60,
+    "speed": 103
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 200,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tailwhip",
+    "1:pursuit",
+    "1:nuzzle",
+    "5:doubleteam",
+    "10:quickattack",
+    "15:thundershock",
+    "20:charge",
+    "25:acrobatics",
+    "30:spark",
+    "35:encore",
+    "40:voltswitch",
+    "45:lightscreen",
+    "50:discharge",
+    "55:agility",
+    "egg:astonish",
+    "egg:covet",
+    "egg:defog",
+    "egg:iondeluge",
+    "egg:roost",
+    "egg:shockwave",
+    "egg:tickle",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:airslash",
+    "tm:batonpass",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:covet",
+    "tm:cut",
+    "tm:defog",
+    "tm:doubleteam",
+    "tm:dualwingbeat",
+    "tm:eerieimpulse",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:encore",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:fling",
+    "tm:helpinghand",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:roost",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:speedswap",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:uturn",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:aerialace",
+    "tutor:chargebeam",
+    "tutor:covet",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:electroweb",
+    "tutor:energyball",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lastresort",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:roost",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:thunderbolt",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "18-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0587_emolga.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/emolga.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/emolga_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/emolga.json"
+  ]
+}

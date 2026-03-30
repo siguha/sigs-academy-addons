@@ -1,0 +1,251 @@
+{
+  "id": "typhlosion_hisui",
+  "dexnum": 157,
+  "name": "Typhlosion Hisui",
+  "primaryType": "fire",
+  "secondaryType": "ghost",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen8a",
+    "hisuian_form"
+  ],
+  "abilities": [
+    "blaze",
+    "h:frisk"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 73,
+    "attack": 84,
+    "defence": 78,
+    "special_attack": 119,
+    "special_defence": 85,
+    "speed": 95
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:infernalparade",
+    "1:gyroball",
+    "1:eruption",
+    "1:smokescreen",
+    "1:tackle",
+    "1:ember",
+    "1:leer",
+    "1:doubleedge",
+    "13:quickattack",
+    "20:flamewheel",
+    "24:defensecurl",
+    "31:swift",
+    "35:flamecharge",
+    "43:lavaplume",
+    "48:flamethrower",
+    "56:inferno",
+    "61:rollout",
+    "74:overheat",
+    "egg:covet",
+    "egg:crushclaw",
+    "egg:curse",
+    "egg:doublekick",
+    "egg:extrasensory",
+    "egg:flameburst",
+    "egg:foresight",
+    "egg:furyswipes",
+    "egg:howl",
+    "egg:reversal",
+    "egg:thrash",
+    "tm:aerialace",
+    "tm:blastburn",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:covet",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firepledge",
+    "tm:firepunch",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:gigaimpact",
+    "tm:gyroball",
+    "tm:heatwave",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:lowkick",
+    "tm:mysticalfire",
+    "tm:nightshade",
+    "tm:ominouswind",
+    "tm:overheat",
+    "tm:playrough",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:rest",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rollout",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thunderpunch",
+    "tm:wildcharge",
+    "tm:willowisp",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:blastburn",
+    "tutor:bulldoze",
+    "tutor:burningjealousy",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:endeavor",
+    "tutor:firefang",
+    "tutor:firepledge",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:hyperbeam",
+    "tutor:ironhead",
+    "tutor:lowkick",
+    "tutor:mysticalfire",
+    "tutor:ominouswind",
+    "tutor:playrough",
+    "tutor:poltergeist",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:stompingtantrum",
+    "tutor:swift",
+    "tutor:thunderpunch",
+    "tutor:wildcharge",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:detect",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:submission",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:blastburn"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0157_typhlosion.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_crimson",
+            "#cobblemon:nether/is_forest",
+            "#cobblemon:nether/is_overgrowth"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0157_typhlosion.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/typhlosion_hisuian.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/typhlosion_hisuian_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/typhlosion.json"
+  ]
+}

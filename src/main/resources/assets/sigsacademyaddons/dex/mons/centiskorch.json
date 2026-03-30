@@ -1,0 +1,211 @@
+{
+  "id": "centiskorch",
+  "dexnum": 851,
+  "name": "Centiskorch",
+  "primaryType": "fire",
+  "secondaryType": "bug",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "flashfire",
+    "whitesmoke",
+    "h:flamebody"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 115,
+    "defence": 65,
+    "special_attack": 90,
+    "special_defence": 90,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:blaze_powder",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species",
+        "biomes": [
+          "#cobblemon:nether/is_basalt"
+        ]
+      },
+      {
+        "item": "cobblemon:charti_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species",
+        "biomes": [
+          "#cobblemon:nether/is_basalt"
+        ]
+      }
+    ]
+  },
+  "moves": [
+    "1:inferno",
+    "1:ember",
+    "1:smokescreen",
+    "1:wrap",
+    "1:bite",
+    "15:flamewheel",
+    "20:bugbite",
+    "25:coil",
+    "32:slam",
+    "39:firespin",
+    "46:crunch",
+    "53:firelash",
+    "60:lunge",
+    "67:burnup",
+    "egg:defensecurl",
+    "egg:knockoff",
+    "egg:rollout",
+    "egg:strugglebug",
+    "tm:brutalswing",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:crunch",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firespin",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:gigaimpact",
+    "tm:heatcrash",
+    "tm:heatwave",
+    "tm:hyperbeam",
+    "tm:knockoff",
+    "tm:leechlife",
+    "tm:lunge",
+    "tm:mysticalfire",
+    "tm:overheat",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:rest",
+    "tm:rollout",
+    "tm:scald",
+    "tm:scorchingsands",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:terablast",
+    "tm:thunderfang",
+    "tm:venoshock",
+    "tm:willowisp",
+    "tm:xscissor",
+    "tutor:bugbite",
+    "tutor:firefang",
+    "tutor:flamethrower",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:hyperbeam",
+    "tutor:knockoff",
+    "tutor:leechlife",
+    "tutor:mysticalfire",
+    "tutor:rest",
+    "tutor:rollout",
+    "tutor:scorchingsands",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:thunderfang",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [
+    "Gmax"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "28-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands",
+            "#cobblemon:is_volcanic"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0851_centiskorch.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "28-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_basalt"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0851_centiskorch.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "28-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_wasteland"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0851_centiskorch.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/centiskorch.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/centiskorch_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/centiskorch.json"
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "id": "conkeldurr",
+  "dexnum": 534,
+  "name": "Conkeldurr",
+  "primaryType": "fighting",
+  "secondaryType": "",
+  "maleRatio": 0.75,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "guts",
+    "sheerforce",
+    "h:ironfist"
+  ],
+  "eggGroups": [
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 140,
+    "defence": 95,
+    "special_attack": 55,
+    "special_defence": 65,
+    "speed": 45
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:muscle_band",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:razz_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:leer",
+    "1:bide",
+    "1:lowkick",
+    "1:rockthrow",
+    "1:wakeupslap",
+    "1:chipaway",
+    "12:focusenergy",
+    "16:bulkup",
+    "20:rockslide",
+    "24:slam",
+    "30:scaryface",
+    "36:dynamicpunch",
+    "42:hammerarm",
+    "48:stoneedge",
+    "54:superpower",
+    "60:focuspunch",
+    "egg:cometpunch",
+    "egg:counter",
+    "egg:defog",
+    "egg:detect",
+    "egg:forcepalm",
+    "egg:foresight",
+    "egg:machpunch",
+    "egg:slam",
+    "egg:smellingsalts",
+    "egg:wideguard",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:curse",
+    "tm:defog",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:drainpunch",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:hardpress",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:icepunch",
+    "tm:knockoff",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderpunch",
+    "tm:upperhand",
+    "tm:workup",
+    "tutor:block",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:coaching",
+    "tutor:defog",
+    "tutor:drainpunch",
+    "tutor:firepunch",
+    "tutor:focusenergy",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:icepunch",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:thunderpunch",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "common",
+        "weight": 0.03,
+        "levels": "36-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_sandy",
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0534_conkeldurr.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.03,
+        "levels": "36-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_sandy",
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0534_conkeldurr.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/conkeldurr.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/conkeldurr_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/conkeldurr.json"
+  ]
+}

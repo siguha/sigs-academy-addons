@@ -1,0 +1,292 @@
+{
+  "id": "lucario",
+  "dexnum": 448,
+  "name": "Lucario",
+  "primaryType": "fighting",
+  "secondaryType": "steel",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "steadfast",
+    "innerfocus",
+    "h:justified"
+  ],
+  "eggGroups": [
+    "field",
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 110,
+    "defence": 70,
+    "special_attack": 115,
+    "special_defence": 70,
+    "speed": 90
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:chople_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:expert_belt",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:quickattack",
+    "1:foresight",
+    "1:detect",
+    "1:metalclaw",
+    "1:feint",
+    "1:mefirst",
+    "1:aurasphere",
+    "1:helpinghand",
+    "1:vacuumwave",
+    "1:rocksmash",
+    "1:laserfocus",
+    "1:lifedew",
+    "1:screech",
+    "1:copycat",
+    "1:finalgambit",
+    "1:reversal",
+    "12:counter",
+    "16:workup",
+    "20:forcepalm",
+    "24:calmmind",
+    "28:metalsound",
+    "32:quickguard",
+    "36:bonerush",
+    "40:swordsdance",
+    "44:healpulse",
+    "48:meteormash",
+    "52:dragonpulse",
+    "56:extremespeed",
+    "60:closecombat",
+    "egg:bite",
+    "egg:bulletpunch",
+    "egg:circlethrow",
+    "egg:crosschop",
+    "egg:detect",
+    "egg:followme",
+    "egg:highjumpkick",
+    "egg:howl",
+    "egg:mindreader",
+    "egg:skyuppercut",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aurasphere",
+    "tm:blazekick",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:dragonpulse",
+    "tm:drainpunch",
+    "tm:dualchop",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:icepunch",
+    "tm:irondefense",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:magnetrise",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metalclaw",
+    "tm:metalsound",
+    "tm:metronome",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:steelbeam",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:terrainpulse",
+    "tm:thunderpunch",
+    "tm:trailblaze",
+    "tm:upperhand",
+    "tm:vacuumwave",
+    "tm:waterpulse",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:coaching",
+    "tutor:darkpulse",
+    "tutor:dragonpulse",
+    "tutor:drainpunch",
+    "tutor:dualchop",
+    "tutor:flashcannon",
+    "tutor:focusenergy",
+    "tutor:focuspunch",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icepunch",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:lowkick",
+    "tutor:magnetrise",
+    "tutor:poisonjab",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:steelbeam",
+    "tutor:stoneedge",
+    "tutor:swift",
+    "tutor:terrainpulse",
+    "tutor:thunderpunch",
+    "tutor:vacuumwave",
+    "tutor:waterpulse",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:aurasphere"
+  ],
+  "forms": [
+    "Mega"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "rare",
+        "weight": 2.5,
+        "levels": "24-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0448_lucario.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 2.5,
+        "levels": "24-53",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0448_lucario.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/lucario.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/lucario_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/lucario.json"
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "id": "armarouge",
+  "dexnum": 936,
+  "name": "Armarouge",
+  "primaryType": "fire",
+  "secondaryType": "psychic",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "flashfire",
+    "h:weakarmor"
+  ],
+  "eggGroups": [
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 60,
+    "defence": 100,
+    "special_attack": 125,
+    "special_defence": 80,
+    "speed": 75
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 25,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:charcoal",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species",
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
+      },
+      {
+        "item": "cobblemon:auspicious_armor",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species",
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
+      },
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species",
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
+      },
+      {
+        "item": "minecraft:blaze_rod",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "spawn_pool_world",
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
+      }
+    ]
+  },
+  "moves": [
+    "1:psyshock",
+    "1:leer",
+    "1:ember",
+    "1:mysticalfire",
+    "1:astonish",
+    "1:wideguard",
+    "8:clearsmog",
+    "12:firespin",
+    "16:willowisp",
+    "20:nightshade",
+    "24:flamecharge",
+    "28:incinerate",
+    "32:lavaplume",
+    "37:calmmind",
+    "42:allyswitch",
+    "48:flamethrower",
+    "56:expandingforce",
+    "62:armorcannon",
+    "egg:destinybond",
+    "egg:disable",
+    "egg:spite",
+    "tm:acidspray",
+    "tm:allyswitch",
+    "tm:aurasphere",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:darkpulse",
+    "tm:dragonpulse",
+    "tm:endure",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:flashcannon",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:incinerate",
+    "tm:irondefense",
+    "tm:lightscreen",
+    "tm:meteorbeam",
+    "tm:mysticalfire",
+    "tm:nightshade",
+    "tm:overheat",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:reflect",
+    "tm:rest",
+    "tm:scorchingsands",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:weatherball",
+    "tm:willowisp",
+    "tutor:allyswitch",
+    "tutor:calmmind",
+    "tutor:darkpulse",
+    "tutor:dragonpulse",
+    "tutor:energyball",
+    "tutor:expandingforce",
+    "tutor:flamethrower",
+    "tutor:flashcannon",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:irondefense",
+    "tutor:meteorbeam",
+    "tutor:mysticalfire",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:scorchingsands",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:trick",
+    "special:celebrate"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "nether_structures"
+        ],
+        "rarity": "uncommon",
+        "weight": 4.0,
+        "levels": "21-53",
+        "biomeTags": {
+          "include": [
+            "#minecraft:is_nether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0936_armarouge.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "ruined_portal"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.8,
+        "levels": "21-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0936_armarouge.json"
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 0.4,
+        "levels": "21-53",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0936_armarouge.json",
+        "structures": [
+          "#aether:dungeons"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {},
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/armarouge.json"
+  ]
+}

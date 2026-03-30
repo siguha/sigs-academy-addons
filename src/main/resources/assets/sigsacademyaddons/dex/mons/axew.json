@@ -1,0 +1,227 @@
+{
+  "id": "axew",
+  "dexnum": 610,
+  "name": "Axew",
+  "primaryType": "dragon",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "rivalry",
+    "moldbreaker",
+    "h:unnerve"
+  ],
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 46,
+    "attack": 87,
+    "defence": 60,
+    "special_attack": 30,
+    "special_defence": 40,
+    "speed": 57
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 75,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:dragon_fang",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:haban_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:leer",
+    "1:dragonrage",
+    "3:bite",
+    "6:falseswipe",
+    "9:assurance",
+    "12:taunt",
+    "15:slash",
+    "18:dragonclaw",
+    "21:scaryface",
+    "24:crunch",
+    "27:dragondance",
+    "30:breakingswipe",
+    "33:focusenergy",
+    "36:dragonpulse",
+    "39:swordsdance",
+    "42:outrage",
+    "45:guillotine",
+    "48:gigaimpact",
+    "egg:aquatail",
+    "egg:counter",
+    "egg:endeavor",
+    "egg:firstimpression",
+    "egg:harden",
+    "egg:irontail",
+    "egg:nightslash",
+    "egg:razorwind",
+    "tm:aerialace",
+    "tm:aquatail",
+    "tm:assurance",
+    "tm:breakingswipe",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:crunch",
+    "tm:cut",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:dracometeor",
+    "tm:dragoncheer",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:dualchop",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:focusenergy",
+    "tm:gigaimpact",
+    "tm:honeclaws",
+    "tm:incinerate",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:outrage",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:surf",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:aquatail",
+    "tutor:bulldoze",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:dualchop",
+    "tutor:endeavor",
+    "tutor:falseswipe",
+    "tutor:focusenergy",
+    "tutor:gigaimpact",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:outrage",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:scaleshot",
+    "tutor:shadowclaw",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:stompingtantrum",
+    "tutor:superpower",
+    "tutor:swift",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "axew_fraxure",
+      "variant": "level_up",
+      "result": "fraxure",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0610_axew.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/axew.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/axew_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/axew.json"
+  ]
+}

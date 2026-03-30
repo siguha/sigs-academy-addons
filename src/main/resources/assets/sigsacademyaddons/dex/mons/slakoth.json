@@ -1,0 +1,239 @@
+{
+  "id": "slakoth",
+  "dexnum": 287,
+  "name": "Slakoth",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "truant",
+    "h:truant"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 60,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 255,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:yawn",
+    "1:feintattack",
+    "6:encore",
+    "9:slackoff",
+    "14:headbutt",
+    "17:amnesia",
+    "22:covet",
+    "25:chipaway",
+    "30:counter",
+    "33:flail",
+    "38:playrough",
+    "egg:afteryou",
+    "egg:bodyslam",
+    "egg:crushclaw",
+    "egg:curse",
+    "egg:hammerarm",
+    "egg:nightslash",
+    "egg:pursuit",
+    "egg:slash",
+    "egg:snore",
+    "egg:tickle",
+    "tm:aerialace",
+    "tm:afteryou",
+    "tm:amnesia",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:chillingwater",
+    "tm:covet",
+    "tm:curse",
+    "tm:cut",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fireblast",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:furycutter",
+    "tm:gunkshot",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:incinerate",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metalclaw",
+    "tm:metronome",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:playrough",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:strength",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:workup",
+    "tm:xscissor",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:afteryou",
+    "tutor:bulkup",
+    "tutor:covet",
+    "tutor:falseswipe",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focuspunch",
+    "tutor:furycutter",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:suckerpunch",
+    "tutor:throatchop",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:xscissor",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:waterpulse"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "slakoth_vigoroth",
+      "variant": "level_up",
+      "result": "vigoroth",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0287_slakoth.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/slakoth.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/slakoth_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/slakoth.json"
+  ]
+}

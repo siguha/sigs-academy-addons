@@ -1,0 +1,257 @@
+{
+  "id": "petilil_hisui",
+  "dexnum": 548,
+  "name": "Petilil Hisui-Bias",
+  "primaryType": "grass",
+  "secondaryType": "",
+  "maleRatio": 0,
+  "labels": [
+    "gen8a",
+    "customized_official",
+    "hisuian_form"
+  ],
+  "abilities": [
+    "chlorophyll",
+    "owntempo",
+    "h:leafguard"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 35,
+    "defence": 50,
+    "special_attack": 70,
+    "special_defence": 50,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:revival_herb",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:absorb_bulb",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:absorb",
+    "1:growth",
+    "1:aromatherapy",
+    "3:helpinghand",
+    "6:stunspore",
+    "9:megadrain",
+    "12:charm",
+    "15:magicalleaf",
+    "18:sleeppowder",
+    "21:gigadrain",
+    "24:leechseed",
+    "27:afteryou",
+    "30:energyball",
+    "33:synthesis",
+    "36:sunnyday",
+    "39:entrainment",
+    "42:leafstorm",
+    "egg:bide",
+    "egg:grasswhistle",
+    "egg:healingwish",
+    "egg:ingrain",
+    "egg:naturalgift",
+    "egg:sweetscent",
+    "egg:worryseed",
+    "tm:afteryou",
+    "tm:babydolleyes",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:covet",
+    "tm:cut",
+    "tm:dreameater",
+    "tm:encore",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:laserfocus",
+    "tm:leafstorm",
+    "tm:magicalleaf",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:pollenpuff",
+    "tm:protect",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:synthesis",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:worryseed",
+    "tutor:afteryou",
+    "tutor:babydolleyes",
+    "tutor:covet",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:grassyglide",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:laserfocus",
+    "tutor:magicalleaf",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:synthesis",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "petilil_lilligant",
+      "variant": "item_interact",
+      "result": "lilligant",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/regional/petilil_unovabiome"
+        }
+      ],
+      "requiredContext": "cobblemon:sun_stone"
+    },
+    {
+      "id": "petilil_lilliganthisui",
+      "variant": "item_interact",
+      "result": "lilligant hisuian",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "victorydance"
+      ],
+      "requiredContext": "cobblemon:sun_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 9.5,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_floral"
+          ],
+          "exclude": [
+            "#cobblemon:is_hills"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0548_petilil.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 1.9,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_tropical_island"
+          ],
+          "exclude": [
+            "#cobblemon:is_hills",
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0548_petilil.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 9.5,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:floral_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0548_petilil.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/petilil_hisui_bias.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/petilil_hisui_bias_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/petilil.json"
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "id": "palafin",
+  "dexnum": 964,
+  "name": "Palafin",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "zerotohero",
+    "h:zerotohero"
+  ],
+  "eggGroups": [
+    "field",
+    "water_2"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 70,
+    "defence": 72,
+    "special_attack": 53,
+    "special_defence": 62,
+    "speed": 100
+  },
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:cod",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:flipturn",
+    "1:jetpunch",
+    "1:supersonic",
+    "1:watergun",
+    "7:astonish",
+    "10:focusenergy",
+    "13:aquajet",
+    "17:doublehit",
+    "21:dive",
+    "25:charm",
+    "29:acrobatics",
+    "34:encore",
+    "39:aquatail",
+    "44:mist",
+    "50:hydropump",
+    "55:focuspunch",
+    "61:wavecrash",
+    "egg:boomburst",
+    "egg:bounce",
+    "egg:counter",
+    "egg:haze",
+    "egg:tickle",
+    "tm:acrobatics",
+    "tm:agility",
+    "tm:aquatail",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bulkup",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:closecombat",
+    "tm:disarmingvoice",
+    "tm:dive",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:hardpress",
+    "tm:haze",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:ironhead",
+    "tm:liquidation",
+    "tm:outrage",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:reversal",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:zenheadbutt",
+    "tutor:aquatail",
+    "tutor:bounce",
+    "tutor:bulkup",
+    "tutor:dive",
+    "tutor:drainpunch",
+    "tutor:endeavor",
+    "tutor:flipturn",
+    "tutor:focusenergy",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:ironhead",
+    "tutor:liquidation",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:waterpulse",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [
+    "Hero"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.96,
+        "levels": "38-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0964_palafin.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 0.96,
+        "levels": "38-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0964_palafin.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "38-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0964_palafin.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.96,
+        "levels": "38-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0964_palafin.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 0.96,
+        "levels": "38-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0964_palafin.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "38-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0964_palafin.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {},
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/palafin.json"
+  ]
+}

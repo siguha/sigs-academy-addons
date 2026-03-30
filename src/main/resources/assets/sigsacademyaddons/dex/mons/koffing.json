@@ -1,0 +1,272 @@
+{
+  "id": "koffing",
+  "dexnum": 109,
+  "name": "Koffing",
+  "primaryType": "poison",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1",
+    "kantonian_form"
+  ],
+  "abilities": [
+    "levitate",
+    "neutralizinggas",
+    "h:stench"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 65,
+    "defence": 95,
+    "special_attack": 60,
+    "special_defence": 45,
+    "speed": 35
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:black_sludge",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:smoke_ball",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:poisongas",
+    "1:tackle",
+    "4:smog",
+    "8:smokescreen",
+    "12:clearsmog",
+    "16:assurance",
+    "20:sludge",
+    "24:haze",
+    "28:selfdestruct",
+    "32:sludgebomb",
+    "36:toxic",
+    "40:belch",
+    "44:explosion",
+    "48:memento",
+    "52:destinybond",
+    "egg:curse",
+    "egg:grudge",
+    "egg:painsplit",
+    "egg:psywave",
+    "egg:spite",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow",
+    "tm:acidspray",
+    "tm:assurance",
+    "tm:bodyslam",
+    "tm:corrosivegas",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:gunkshot",
+    "tm:gyroball",
+    "tm:haze",
+    "tm:incinerate",
+    "tm:infestation",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rollout",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:selfdestruct",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:spite",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:torment",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tm:willowisp",
+    "tutor:corrosivegas",
+    "tutor:darkpulse",
+    "tutor:flamethrower",
+    "tutor:gunkshot",
+    "tutor:painsplit",
+    "tutor:rest",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spite",
+    "tutor:thunderbolt",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:uproar",
+    "legacy:zapcannon"
+  ],
+  "forms": [
+    "Galar-Bias"
+  ],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "koffing_weezing",
+      "variant": "level_up",
+      "result": "weezing",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "doublehit"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]
+    },
+    {
+      "id": "koffing_weezinggalar",
+      "variant": "level_up",
+      "result": "weezing galarian",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "doublehit"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/regional/koffing_galarbiome"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0109_koffing.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0109_koffing.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_toxic"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0109_koffing.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/koffing.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/koffing_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/koffing.json"
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "id": "sandshrew",
+  "dexnum": 27,
+  "name": "Sandshrew",
+  "primaryType": "ground",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1",
+    "kantonian_form"
+  ],
+  "abilities": [
+    "sandveil",
+    "h:sandrush"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 75,
+    "defence": 85,
+    "special_attack": 20,
+    "special_defence": 30,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:armadillo_scute",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:grip_claw",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:quick_claw",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:soft_sand",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:defensecurl",
+    "1:magnitude",
+    "3:poisonsting",
+    "6:sandattack",
+    "9:rollout",
+    "12:furycutter",
+    "15:rapidspin",
+    "18:bulldoze",
+    "21:swift",
+    "24:furyswipes",
+    "27:agility",
+    "30:slash",
+    "33:dig",
+    "36:gyroball",
+    "39:swordsdance",
+    "42:sandstorm",
+    "45:earthquake",
+    "egg:chipaway",
+    "egg:counter",
+    "egg:flail",
+    "egg:honeclaws",
+    "egg:metalclaw",
+    "egg:mudslap",
+    "egg:nightslash",
+    "egg:rototiller",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:amnesia",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:covet",
+    "tm:crushclaw",
+    "tm:curse",
+    "tm:cut",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:furycutter",
+    "tm:gyroball",
+    "tm:headbutt",
+    "tm:highhorsepower",
+    "tm:honeclaws",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:leechlife",
+    "tm:lowkick",
+    "tm:metalclaw",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:rest",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scorchingsands",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:steelroller",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:workup",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:bulldoze",
+    "tutor:covet",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:falseswipe",
+    "tutor:focuspunch",
+    "tutor:furycutter",
+    "tutor:highhorsepower",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:leechlife",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:scorchingsands",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:stealthrock",
+    "tutor:steelroller",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superfang",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:detect",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:fissure",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:submission",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [
+    "Alola"
+  ],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "sandshrew_sandslash",
+      "variant": "level_up",
+      "result": "sandslash",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "crushclaw"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 22
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0027_sandshrew.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/sandshrew.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/sandshrew_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/sandshrew.json"
+  ]
+}

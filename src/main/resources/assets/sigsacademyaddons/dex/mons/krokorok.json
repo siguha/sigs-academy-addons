@@ -1,0 +1,249 @@
+{
+  "id": "krokorok",
+  "dexnum": 552,
+  "name": "Krokorok",
+  "primaryType": "ground",
+  "secondaryType": "dark",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "intimidate",
+    "moxie",
+    "h:angerpoint"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 82,
+    "defence": 45,
+    "special_attack": 45,
+    "special_defence": 45,
+    "speed": 74
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 90,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:black_glasses",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:tanga_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:leer",
+    "1:rage",
+    "1:sandattack",
+    "1:honeclaws",
+    "1:powertrip",
+    "9:sandtomb",
+    "12:scaryface",
+    "15:bite",
+    "18:torment",
+    "21:dig",
+    "24:swagger",
+    "27:crunch",
+    "32:sandstorm",
+    "35:foulplay",
+    "42:earthquake",
+    "47:thrash",
+    "egg:aquatail",
+    "egg:counter",
+    "egg:doubleedge",
+    "egg:meanlook",
+    "egg:mefirst",
+    "egg:pursuit",
+    "egg:spite",
+    "tm:aerialace",
+    "tm:aquatail",
+    "tm:assurance",
+    "tm:beatup",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:crunch",
+    "tm:curse",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:dragonclaw",
+    "tm:dragontail",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:embargo",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:firefang",
+    "tm:fling",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:foulplay",
+    "tm:grassknot",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:payback",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:scorchingsands",
+    "tm:shadowclaw",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:spite",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderfang",
+    "tm:torment",
+    "tutor:aerialace",
+    "tutor:aquatail",
+    "tutor:bulldoze",
+    "tutor:darkpulse",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:firefang",
+    "tutor:focusenergy",
+    "tutor:focuspunch",
+    "tutor:foulplay",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:scaleshot",
+    "tutor:scorchingsands",
+    "tutor:shadowclaw",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snarl",
+    "tutor:snatch",
+    "tutor:spite",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:thunderfang",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:toxic",
+    "legacy:uproar"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "krokorok_krookodile",
+      "variant": "level_up",
+      "result": "krookodile",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.18,
+        "levels": "29-35",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0552_krokorok.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/krokorok.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/krokorok_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/krokorok.json"
+  ]
+}

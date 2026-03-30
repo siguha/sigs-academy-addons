@@ -1,0 +1,299 @@
+{
+  "id": "ursaluna",
+  "dexnum": 901,
+  "name": "Ursaluna",
+  "primaryType": "ground",
+  "secondaryType": "normal",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8a"
+  ],
+  "abilities": [
+    "guts",
+    "bulletproof",
+    "h:unnerve"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 130,
+    "attack": 140,
+    "defence": 105,
+    "special_attack": 45,
+    "special_defence": 80,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 20,
+  "drops": {
+    "amount": 8,
+    "entries": [
+      {
+        "item": "minecraft:sweet_berries",
+        "percentage": null,
+        "quantityRange": "3-5",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:honey_bottle",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:peat_block",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:headlongrush",
+    "1:faketears",
+    "1:covet",
+    "1:scratch",
+    "1:leer",
+    "1:lick",
+    "1:feintattack",
+    "8:furyswipes",
+    "13:payback",
+    "17:sweetscent",
+    "22:slash",
+    "25:playnice",
+    "29:playrough",
+    "35:scaryface",
+    "41:rest",
+    "41:snore",
+    "48:highhorsepower",
+    "56:thrash",
+    "64:hammerarm",
+    "egg:bellydrum",
+    "egg:chipaway",
+    "egg:closecombat",
+    "egg:counter",
+    "egg:crosschop",
+    "egg:crunch",
+    "egg:doubleedge",
+    "egg:faketears",
+    "egg:feintattack",
+    "egg:furycutter",
+    "egg:metalclaw",
+    "egg:nightslash",
+    "egg:seismictoss",
+    "egg:yawn",
+    "tm:aerialace",
+    "tm:avalanche",
+    "tm:babydolleyes",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:charm",
+    "tm:closecombat",
+    "tm:covet",
+    "tm:crunch",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:hardpress",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icepunch",
+    "tm:lowkick",
+    "tm:metalclaw",
+    "tm:metronome",
+    "tm:payback",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:scaryface",
+    "tm:seedbomb",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:snore",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:supercellslam",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunderpunch",
+    "tm:trailblaze",
+    "tm:uproar",
+    "tutor:aerialace",
+    "tutor:babydolleyes",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:covet",
+    "tutor:drainpunch",
+    "tutor:earthpower",
+    "tutor:firepunch",
+    "tutor:focusenergy",
+    "tutor:focuspunch",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icepunch",
+    "tutor:lowkick",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:seedbomb",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:thunderpunch",
+    "tutor:uproar"
+  ],
+  "forms": [
+    "Bloodmoon"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.01,
+        "levels": "45-55",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_mountain",
+            "aether:skyroot_forest",
+            "aether:skyroot_woodland",
+            "#cobblemon:is_taiga"
+          ],
+          "exclude": [
+            "#cobblemon:is_volcanic"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0901_ursaluna.json",
+        "yLevel": {
+          "minY": 48
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.03,
+        "levels": "45-55",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0901_ursaluna.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "#cobblemon:saccharine_trees"
+          ],
+          "resolved": [
+            "cobblemon:saccharine_leaves",
+            "cobblemon:saccharine_log",
+            "cobblemon:saccharine_wood",
+            "cobblemon:stripped_saccharine_log",
+            "cobblemon:stripped_saccharine_wood"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.01,
+        "levels": "45-55",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:crystal_canyon",
+            "the_bumblezone:floral_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0901_ursaluna.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/genomons/ursaluna.png",
+      "out/sprites/cobblemon/ursaluna.png"
+    ],
+    "shiny": [
+      "out/sprites/genomons/ursaluna_shiny.png",
+      "out/sprites/cobblemon/ursaluna_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8a/ursaluna.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation8a\\ursaluna.json"
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "id": "zoroark_hisui",
+  "dexnum": 571,
+  "name": "Zoroark Hisui",
+  "primaryType": "normal",
+  "secondaryType": "ghost",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen8a",
+    "hisuian_form"
+  ],
+  "abilities": [
+    "illusion",
+    "h:illusion"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 100,
+    "defence": 60,
+    "special_attack": 125,
+    "special_defence": 60,
+    "speed": 110
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:sweet_berries",
+        "percentage": null,
+        "quantityRange": "2-4",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:colbur_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:shadowclaw",
+    "1:scratch",
+    "1:leer",
+    "1:torment",
+    "1:uturn",
+    "1:honeclaws",
+    "12:shadowsneak",
+    "16:curse",
+    "20:taunt",
+    "24:knockoff",
+    "28:spite",
+    "34:agility",
+    "40:shadowball",
+    "46:bittermalice",
+    "52:nastyplot",
+    "58:foulplay",
+    "egg:comeuppance",
+    "egg:detect",
+    "egg:extrasensory",
+    "egg:memento",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flamethrower",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:foulplay",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:ominouswind",
+    "tm:painsplit",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:scaryface",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:snarl",
+    "tm:snowscape",
+    "tm:spite",
+    "tm:substitute",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:torment",
+    "tm:trick",
+    "tm:uturn",
+    "tm:willowisp",
+    "tutor:aerialace",
+    "tutor:burningjealousy",
+    "tutor:calmmind",
+    "tutor:darkpulse",
+    "tutor:flamethrower",
+    "tutor:focuspunch",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icywind",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:lowkick",
+    "tutor:ominouswind",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snarl",
+    "tutor:spite",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:trick",
+    "special:happyhour"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.96,
+        "levels": "30-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_snowy_forest",
+            "#cobblemon:is_snowy_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0571_zoroark.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "nether_fossil"
+        ],
+        "rarity": "uncommon",
+        "weight": 16.0,
+        "levels": "30-51",
+        "biomeTags": {
+          "include": [
+            "#minecraft:is_nether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0571_zoroark.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/zoroark_hisuian.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/zoroark_hisuian_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/zoroark.json"
+  ]
+}

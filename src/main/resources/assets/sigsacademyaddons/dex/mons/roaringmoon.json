@@ -1,0 +1,210 @@
+{
+  "id": "roaringmoon",
+  "dexnum": 1005,
+  "name": "Roaring Moon",
+  "primaryType": "dragon",
+  "secondaryType": "dark",
+  "maleRatio": -1,
+  "labels": [
+    "gen9",
+    "paradox"
+  ],
+  "abilities": [
+    "protosynthesis",
+    "h:protosynthesis"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 139,
+    "defence": 71,
+    "special_attack": 55,
+    "special_defence": 101,
+    "speed": 119
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 10,
+  "drops": {
+    "amount": 0,
+    "entries": []
+  },
+  "moves": [
+    "1:dragonbreath",
+    "1:leer",
+    "1:bite",
+    "1:focusenergy",
+    "1:sunnyday",
+    "1:jawlock",
+    "1:breakingswipe",
+    "1:scaleshot",
+    "7:incinerate",
+    "14:headbutt",
+    "21:scaryface",
+    "28:dragonclaw",
+    "35:zenheadbutt",
+    "42:flamethrower",
+    "49:nightslash",
+    "56:dragondance",
+    "63:dragonrush",
+    "70:fly",
+    "77:throatchop",
+    "84:roost",
+    "91:doubleedge",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:airslash",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:brickbreak",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:dracometeor",
+    "tm:dragoncheer",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firespin",
+    "tm:flamethrower",
+    "tm:fly",
+    "tm:focusenergy",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:hurricane",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:incinerate",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:metalclaw",
+    "tm:outrage",
+    "tm:protect",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:roost",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:thunderfang",
+    "tm:uturn",
+    "tm:xscissor",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:darkpulse",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:firefang",
+    "tutor:flamethrower",
+    "tutor:focusenergy",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:roost",
+    "tutor:scaleshot",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:tailwind",
+    "tutor:throatchop",
+    "tutor:thunderfang",
+    "tutor:xscissor",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.2,
+        "levels": "65-75",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/paradox_spawns/spawn_pool_world/1005_roaringmoon.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.3,
+        "levels": "65-75",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/paradox_spawns_ccc/spawn_pool_world/1005_roaringmoon.json"
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/roaringmoon.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/roaringmoon_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/roaringmoon.json"
+  ]
+}

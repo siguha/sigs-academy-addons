@@ -1,0 +1,206 @@
+{
+  "id": "crabrawler",
+  "dexnum": 739,
+  "name": "Crabrawler",
+  "primaryType": "fighting",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "hypercutter",
+    "ironfist",
+    "h:angerpoint"
+  ],
+  "eggGroups": [
+    "water_3"
+  ],
+  "baseStats": {
+    "hp": 47,
+    "attack": 82,
+    "defence": 57,
+    "special_attack": 42,
+    "special_defence": 47,
+    "speed": 63
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 225,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:aspear_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:bubble",
+    "1:pursuit",
+    "1:visegrip",
+    "5:rocksmash",
+    "9:leer",
+    "13:bubblebeam",
+    "17:protect",
+    "22:brickbreak",
+    "25:dizzypunch",
+    "29:payback",
+    "33:reversal",
+    "37:crabhammer",
+    "42:irondefense",
+    "45:dynamicpunch",
+    "49:closecombat",
+    "egg:endeavor",
+    "egg:focuspunch",
+    "egg:slam",
+    "egg:superpower",
+    "egg:wideguard",
+    "tm:amnesia",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:chillingwater",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:dig",
+    "tm:drainpunch",
+    "tm:dualchop",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:frostbreath",
+    "tm:gunkshot",
+    "tm:helpinghand",
+    "tm:icepunch",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:payback",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:reversal",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:sleeptalk",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderpunch",
+    "tm:upperhand",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:coaching",
+    "tutor:drainpunch",
+    "tutor:dualchop",
+    "tutor:endeavor",
+    "tutor:focuspunch",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:icepunch",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:liquidation",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:superpower",
+    "tutor:swift",
+    "tutor:thunderpunch",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:snore",
+    "legacy:stoneedge",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "crabrawler_crabominable",
+      "variant": "item_interact",
+      "result": "crabominable",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "icepunch"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:ice_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 6.0,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0739_crabrawler.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/crabrawler.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/crabrawler_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/crabrawler.json"
+  ]
+}

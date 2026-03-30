@@ -1,0 +1,160 @@
+{
+  "id": "maushold",
+  "dexnum": 925,
+  "name": "Maushold",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": -1,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "friendguard",
+    "cheekpouch",
+    "h:technician"
+  ],
+  "eggGroups": [
+    "field",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 74,
+    "attack": 75,
+    "defence": 70,
+    "special_attack": 65,
+    "special_defence": 75,
+    "speed": 111
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:wheat_seeds",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chilan_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:followme",
+    "1:babydolleyes",
+    "1:tidyup",
+    "5:echoedvoice",
+    "8:helpinghand",
+    "11:superfang",
+    "14:doublehit",
+    "18:bulletseed",
+    "22:encore",
+    "29:playrough",
+    "33:hypervoice",
+    "37:charm",
+    "41:beatup",
+    "46:copycat",
+    "53:populationbomb",
+    "egg:afteryou",
+    "egg:batonpass",
+    "egg:bite",
+    "egg:feint",
+    "egg:switcheroo",
+    "egg:tickle",
+    "tm:aerialace",
+    "tm:afteryou",
+    "tm:agility",
+    "tm:babydolleyes",
+    "tm:batonpass",
+    "tm:beatup",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:crunch",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:seedbomb",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:uturn",
+    "tm:waterpulse",
+    "tutor:aerialace",
+    "tutor:afteryou",
+    "tutor:babydolleyes",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:superfang",
+    "tutor:swift",
+    "tutor:waterpulse",
+    "special:celebrate"
+  ],
+  "forms": [
+    "Four"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/maushold.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/maushold_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/maushold.json"
+  ]
+}

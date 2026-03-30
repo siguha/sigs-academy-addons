@@ -1,0 +1,239 @@
+{
+  "id": "snover",
+  "dexnum": 459,
+  "name": "Snover",
+  "primaryType": "grass",
+  "secondaryType": "ice",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "snowwarning",
+    "h:soundproof"
+  ],
+  "eggGroups": [
+    "monster",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 62,
+    "defence": 50,
+    "special_attack": 62,
+    "special_defence": 60,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 120,
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:snowball",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:sweet_berries",
+        "percentage": null,
+        "quantityRange": "1-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:never_melt_ice",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:occa_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:powdersnow",
+    "1:leer",
+    "1:grasswhistle",
+    "5:leafage",
+    "10:mist",
+    "15:iceshard",
+    "20:razorleaf",
+    "25:icywind",
+    "30:swagger",
+    "35:ingrain",
+    "41:woodhammer",
+    "45:blizzard",
+    "50:sheercold",
+    "egg:doubleedge",
+    "egg:growth",
+    "egg:leechseed",
+    "egg:naturalgift",
+    "egg:skullbash",
+    "egg:stomp",
+    "egg:weatherball",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bulletseed",
+    "tm:chillingwater",
+    "tm:curse",
+    "tm:doubleedge",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:frostbreath",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icespinner",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:leafstorm",
+    "tm:magicalleaf",
+    "tm:megapunch",
+    "tm:mudslap",
+    "tm:naturalgift",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:worryseed",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:magicalleaf",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:synthesis",
+    "tutor:waterpulse",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:lightscreen",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:shadowball",
+    "legacy:snore",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "snover_abomasnow",
+      "variant": "level_up",
+      "result": "abomasnow",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "icepunch"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 7.0,
+        "levels": "7-32",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_snowy_taiga",
+            "#cobblemon:is_snowy_forest"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0459_snover.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 7.0,
+        "levels": "7-32",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_snowy_taiga",
+            "#cobblemon:is_snowy_forest"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0459_snover.json"
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/snover.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/snover_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/snover.json"
+  ]
+}

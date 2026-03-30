@@ -1,0 +1,216 @@
+{
+  "id": "houndstone",
+  "dexnum": 972,
+  "name": "Houndstone",
+  "primaryType": "ghost",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "sandrush",
+    "h:fluffy"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 101,
+    "defence": 100,
+    "special_attack": 50,
+    "special_defence": 97,
+    "speed": 68
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 60,
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "percentage": null,
+        "quantityRange": "1-3",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:rotten_flesh",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:kasib_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:lastrespects",
+    "1:tackle",
+    "1:growl",
+    "3:lick",
+    "6:tailwhip",
+    "6:bite",
+    "9:roar",
+    "12:headbutt",
+    "16:dig",
+    "24:rest",
+    "28:crunch",
+    "36:playrough",
+    "41:helpinghand",
+    "46:phantomforce",
+    "51:charm",
+    "58:doubleedge",
+    "egg:allyswitch",
+    "egg:destinybond",
+    "egg:disable",
+    "egg:howl",
+    "egg:memento",
+    "egg:shadowsneak",
+    "egg:yawn",
+    "tm:allyswitch",
+    "tm:bodypress",
+    "tm:bulldoze",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:firefang",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:icefang",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:nightshade",
+    "tm:painsplit",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderfang",
+    "tm:trick",
+    "tm:uproar",
+    "tm:willowisp",
+    "tutor:allyswitch",
+    "tutor:bulldoze",
+    "tutor:endeavor",
+    "tutor:firefang",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icefang",
+    "tutor:mudslap",
+    "tutor:painsplit",
+    "tutor:playrough",
+    "tutor:poltergeist",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:stompingtantrum",
+    "tutor:thunderfang",
+    "tutor:trick",
+    "tutor:uproar"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 1,
+        "levels": "35-53",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "minecraft:soul_sand_valley",
+            "minecraft:basalt_deltas",
+            "terralith:haunted_forest",
+            "terralith:haunted_mire",
+            "regions_unexplored:haunted_forest"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0972_houndstone.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 1,
+        "levels": "35-53",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "minecraft:soul_sand_valley",
+            "minecraft:basalt_deltas",
+            "regions_unexplored:haunted_forest"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0972_houndstone.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/houndstone.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/houndstone_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/houndstone.json"
+  ]
+}

@@ -10,6 +10,7 @@ import com.siguha.sigsacademyaddons.data.HuntDataStore;
 import com.siguha.sigsacademyaddons.data.WondertradeDataStore;
 import com.siguha.sigsacademyaddons.feature.cardalbum.CardAlbumQuickOpen;
 import com.siguha.sigsacademyaddons.feature.cardstats.CardStatsManager;
+import com.siguha.sigsacademyaddons.feature.dex.DexDataManager;
 import com.siguha.sigsacademyaddons.feature.daycare.DaycareManager;
 import com.siguha.sigsacademyaddons.feature.daycare.DaycareSoundPlayer;
 import com.siguha.sigsacademyaddons.feature.drifloot.DriflootDetector;
@@ -23,6 +24,7 @@ import com.siguha.sigsacademyaddons.feature.safari.SafariHuntManager;
 import com.siguha.sigsacademyaddons.feature.safari.SafariManager;
 import com.siguha.sigsacademyaddons.feature.wondertrade.WondertradeManager;
 import com.siguha.sigsacademyaddons.feature.wondertrade.WondertradeSoundPlayer;
+import com.siguha.sigsacademyaddons.gui.DexScreen;
 import com.siguha.sigsacademyaddons.gui.HudConfigScreen;
 import com.siguha.sigsacademyaddons.handler.CatchDetector;
 import com.siguha.sigsacademyaddons.handler.ChatMessageHandler;
@@ -81,9 +83,11 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
     private static DungeonManager dungeonManager;
     private static CardAlbumQuickOpen cardAlbumQuickOpen;
     private static CardStatsManager cardStatsManager;
+        private static DexDataManager dexDataManager;
     private static HudConfig hudConfig;
 
     private static boolean openConfigScreenNextTick = false;
+        private static boolean openDexScreenNextTick = false;
     private static boolean glfwFilterReinstalled = false;
     private static int welcomeDelayTicks = -1;
 
@@ -115,6 +119,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
         dungeonManager = new DungeonManager();
         cardAlbumQuickOpen = new CardAlbumQuickOpen();
         cardStatsManager = new CardStatsManager();
+        dexDataManager = new DexDataManager();
 
         KeyMapping cardAlbumKey = KeyBindingHelper.registerKeyBinding(new KeyMapping(
                 "key.sigsacademyaddons.card_album",
@@ -188,6 +193,11 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                 client.setScreen(new HudConfigScreen(hudConfig, safariManager, safariHuntManager,
                         daycareManager, wondertradeManager, cardStatsManager));
             }
+
+                        if (openDexScreenNextTick && client.player != null) {
+                                openDexScreenNextTick = false;
+                                client.setScreen(new DexScreen(dexDataManager));
+                        }
         });
 
         HudGroupRenderer groupRenderer = new HudGroupRenderer(hudConfig, suppressionManager);
@@ -316,6 +326,14 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                     openConfigScreenNextTick = true;
                                     context.getSource().sendFeedback(
                                             Component.literal("\u00A7aOpening HUD configuration..."));
+                                    return 1;
+                                })
+                        )
+                        .then(ClientCommandManager.literal("dex")
+                                .executes(context -> {
+                                    openDexScreenNextTick = true;
+                                    context.getSource().sendFeedback(
+                                            Component.literal("\u00A7aOpening Dex..."));
                                     return 1;
                                 })
                         )
@@ -1260,6 +1278,7 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                                     "\u00A76Sigs Academy Addons Commands:\n" +
                                     "\u00A7e/saa gui\u00A77 — Reposition HUDs\n" +
                                     "\u00A7e/saa gui reset\u00A77 — Reset HUD positions & scale\n" +
+                                    "\u00A7e/saa dex\u00A77 — Open in-game Dex search\n" +
                                     "\u00A7e/saa safari\u00A77 — View safari status\n" +
                                     "\u00A7e/saa safari clear\u00A77 — Clear all safari/hunt data\n" +
                                     "\u00A7e/saa daycare\u00A77 — View daycare status\n" +

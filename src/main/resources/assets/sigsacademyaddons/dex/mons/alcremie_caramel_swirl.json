@@ -1,0 +1,252 @@
+{
+  "id": "alcremie_caramel_swirl",
+  "dexnum": 869,
+  "name": "Alcremie Caramel-Swirl",
+  "primaryType": "fairy",
+  "secondaryType": "",
+  "maleRatio": 0,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "sweetveil",
+    "h:aromaveil"
+  ],
+  "eggGroups": [
+    "fairy",
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 60,
+    "defence": 75,
+    "special_attack": 110,
+    "special_defence": 121,
+    "speed": 64
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 100,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:sugar",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:cake",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:decorate",
+    "1:tackle",
+    "1:aromaticmist",
+    "1:sweetkiss",
+    "1:sweetscent",
+    "1:aromatherapy",
+    "15:drainingkiss",
+    "20:charm",
+    "25:attract",
+    "30:acidarmor",
+    "35:dazzlinggleam",
+    "40:recover",
+    "45:mistyterrain",
+    "50:entrainment",
+    "egg:babydolleyes",
+    "egg:lastresort",
+    "tm:alluringvoice",
+    "tm:attract",
+    "tm:babydolleyes",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:dazzlinggleam",
+    "tm:disarmingvoice",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fling",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magicroom",
+    "tm:metronome",
+    "tm:mistyexplosion",
+    "tm:mistyterrain",
+    "tm:mysticalfire",
+    "tm:painsplit",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:terablast",
+    "tm:triattack",
+    "tm:wonderroom",
+    "tutor:babydolleyes",
+    "tutor:calmmind",
+    "tutor:dazzlinggleam",
+    "tutor:drainpunch",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:lastresort",
+    "tutor:magicalleaf",
+    "tutor:magicroom",
+    "tutor:mistyexplosion",
+    "tutor:mysticalfire",
+    "tutor:painsplit",
+    "tutor:playrough",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:wonderroom",
+    "legacy:round",
+    "legacy:snore",
+    "special:celebrate"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "rarity": "common",
+        "weight": 0.5,
+        "levels": "22-50",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0869_alcremie.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:cake"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "22-50",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0869_alcremie.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "#cobblemon:saccharine_trees"
+          ],
+          "resolved": [
+            "cobblemon:saccharine_leaves",
+            "cobblemon:saccharine_log",
+            "cobblemon:saccharine_wood",
+            "cobblemon:stripped_saccharine_log",
+            "cobblemon:stripped_saccharine_wood"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.16,
+        "levels": "22-50",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0869_alcremie.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:sugar_cane"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "mansion_dining"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "22-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0869_alcremie.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [],
+    "shiny": [
+      "out/sprites/cobblemon/alcremie_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/alcremie.json"
+  ]
+}

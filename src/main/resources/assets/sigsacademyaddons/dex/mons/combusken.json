@@ -1,0 +1,258 @@
+{
+  "id": "combusken",
+  "dexnum": 256,
+  "name": "Combusken",
+  "primaryType": "fire",
+  "secondaryType": "fighting",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "blaze",
+    "h:speedboost"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 85,
+    "defence": 60,
+    "special_attack": 85,
+    "special_defence": 60,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:chicken",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:growl",
+    "1:ember",
+    "1:doublekick",
+    "1:peck",
+    "1:quickattack",
+    "1:mirrormove",
+    "1:skyuppercut",
+    "1:flamethrower",
+    "1:featherdance",
+    "9:flamecharge",
+    "12:detect",
+    "15:sandattack",
+    "20:aerialace",
+    "25:slash",
+    "30:bounce",
+    "35:focusenergy",
+    "40:blazekick",
+    "45:bulkup",
+    "50:reversal",
+    "55:flareblitz",
+    "egg:counter",
+    "egg:crushclaw",
+    "egg:feint",
+    "egg:flameburst",
+    "egg:lastresort",
+    "egg:mirrormove",
+    "egg:nightslash",
+    "egg:peck",
+    "egg:smellingsalts",
+    "egg:swagger",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:assurance",
+    "tm:batonpass",
+    "tm:blazekick",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:curse",
+    "tm:cut",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:dualchop",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:fireblast",
+    "tm:firepledge",
+    "tm:firepunch",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:furycutter",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:incinerate",
+    "tm:lastresort",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:overheat",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderpunch",
+    "tm:uproar",
+    "tm:vacuumwave",
+    "tm:willowisp",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:bounce",
+    "tutor:bulkup",
+    "tutor:coaching",
+    "tutor:dualchop",
+    "tutor:firepledge",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focusenergy",
+    "tutor:focuspunch",
+    "tutor:furycutter",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:lastresort",
+    "tutor:lowkick",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:thunderpunch",
+    "tutor:uproar",
+    "tutor:vacuumwave",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:defog",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:snore",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "combusken_blaziken",
+      "variant": "level_up",
+      "result": "blaziken",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "blazekick"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_plains",
+            "aether:skyroot_grove",
+            "aether:skyroot_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0256_combusken.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/combusken.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/combusken_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/combusken.json"
+  ]
+}

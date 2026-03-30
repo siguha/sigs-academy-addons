@@ -1,0 +1,245 @@
+{
+  "id": "gulpin",
+  "dexnum": 316,
+  "name": "Gulpin",
+  "primaryType": "poison",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "liquidooze",
+    "stickyhold",
+    "h:gluttony"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 43,
+    "defence": 53,
+    "special_attack": 43,
+    "special_defence": 53,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "fluctuating",
+  "catchRate": 225,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:black_sludge",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "5:yawn",
+    "8:poisongas",
+    "10:sludge",
+    "12:amnesia",
+    "17:acidspray",
+    "20:encore",
+    "25:toxic",
+    "28:stockpile",
+    "28:spitup",
+    "28:swallow",
+    "33:sludgebomb",
+    "36:gastroacid",
+    "41:belch",
+    "44:wringout",
+    "49:gunkshot",
+    "egg:acidarmor",
+    "egg:clearsmog",
+    "egg:curse",
+    "egg:destinybond",
+    "egg:mudslap",
+    "egg:smog",
+    "egg:stuffcheeks",
+    "tm:acidspray",
+    "tm:amnesia",
+    "tm:bodyslam",
+    "tm:bulletseed",
+    "tm:corrosivegas",
+    "tm:curse",
+    "tm:dreameater",
+    "tm:encore",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:gunkshot",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:infestation",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:painsplit",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:rollout",
+    "tm:seedbomb",
+    "tm:selfdestruct",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snatch",
+    "tm:solarbeam",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tm:waterpulse",
+    "tutor:corrosivegas",
+    "tutor:firepunch",
+    "tutor:gastroacid",
+    "tutor:gigadrain",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:mudslap",
+    "tutor:painsplit",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snatch",
+    "tutor:thunderpunch",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:defensecurl",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "special:sing"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "gulpin_swalot",
+      "variant": "level_up",
+      "result": "swalot",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "bodyslam"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 26
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "deep_dark"
+        ],
+        "rarity": "uncommon",
+        "weight": 9.2,
+        "levels": "13-28",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "deeperdarker:blooming_caverns"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0316_gulpin.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 9.2,
+        "levels": "13-28",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0316_gulpin.json"
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/gulpin.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/gulpin_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/gulpin.json"
+  ]
+}

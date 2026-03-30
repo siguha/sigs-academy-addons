@@ -1,0 +1,168 @@
+{
+  "id": "articuno_galar",
+  "dexnum": 144,
+  "name": "Articuno Galar",
+  "primaryType": "psychic",
+  "secondaryType": "flying",
+  "maleRatio": -1,
+  "labels": [
+    "gen8",
+    "legendary",
+    "galarian_form"
+  ],
+  "abilities": [
+    "competitive",
+    "h:competitive"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 85,
+    "defence": 85,
+    "special_attack": 125,
+    "special_defence": 100,
+    "speed": 95
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 3,
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "2-4",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:chicken",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:twisted_spoon",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:gust",
+    "1:psychoshift",
+    "1:mindreader",
+    "5:confusion",
+    "10:reflect",
+    "15:hypnosis",
+    "20:agility",
+    "25:ancientpower",
+    "30:tailwind",
+    "35:psychocut",
+    "40:recover",
+    "45:freezingglare",
+    "50:dreameater",
+    "55:hurricane",
+    "60:doubleteam",
+    "65:futuresight",
+    "70:trickroom",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:allyswitch",
+    "tm:ancientpower",
+    "tm:bravebird",
+    "tm:calmmind",
+    "tm:doubleteam",
+    "tm:dreameater",
+    "tm:dualwingbeat",
+    "tm:endure",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:fly",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:guardswap",
+    "tm:helpinghand",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:imprison",
+    "tm:lightscreen",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:psychocut",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:scaryface",
+    "tm:shadowball",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:steelwing",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:uturn",
+    "tutor:aircutter",
+    "tutor:allyswitch",
+    "tutor:ancientpower",
+    "tutor:calmmind",
+    "tutor:dualwingbeat",
+    "tutor:expandingforce",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:psychic",
+    "tutor:psychocut",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:trick",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/genomons/articuno_galarian.png",
+      "out/sprites/cobblemon/articuno_galarian.png"
+    ],
+    "shiny": [
+      "out/sprites/genomons/articuno_galarian_shiny.png",
+      "out/sprites/cobblemon/articuno_galarian_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/articuno.json"
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "id": "cradily",
+  "dexnum": 346,
+  "name": "Cradily",
+  "primaryType": "rock",
+  "secondaryType": "grass",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen3",
+    "fossil"
+  ],
+  "abilities": [
+    "suctioncups",
+    "h:stormdrain"
+  ],
+  "eggGroups": [
+    "water_3"
+  ],
+  "baseStats": {
+    "hp": 86,
+    "attack": 81,
+    "defence": 97,
+    "special_attack": 81,
+    "special_defence": 107,
+    "speed": 43
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "experienceGroup": "erratic",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:big_root",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:astonish",
+    "1:constrict",
+    "1:acid",
+    "1:confuseray",
+    "1:wringout",
+    "1:leechseed",
+    "1:wrap",
+    "12:ingrain",
+    "16:ancientpower",
+    "20:megadrain",
+    "24:brine",
+    "28:amnesia",
+    "32:gastroacid",
+    "36:gigadrain",
+    "43:stockpile",
+    "43:spitup",
+    "43:swallow",
+    "48:energyball",
+    "egg:barrier",
+    "egg:bind",
+    "egg:curse",
+    "egg:mirrorcoat",
+    "egg:recover",
+    "egg:tickle",
+    "egg:wringout",
+    "tm:amnesia",
+    "tm:ancientpower",
+    "tm:bind",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:dig",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyterrain",
+    "tm:headbutt",
+    "tm:hyperbeam",
+    "tm:infestation",
+    "tm:meteorbeam",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:painsplit",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:smackdown",
+    "tm:solarbeam",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:stringshot",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:terablast",
+    "tm:worryseed",
+    "tutor:ancientpower",
+    "tutor:bind",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:energyball",
+    "tutor:gastroacid",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:meteorbeam",
+    "tutor:mudslap",
+    "tutor:painsplit",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:stringshot",
+    "tutor:synthesis",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:psychup",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 4.0,
+        "levels": "40-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0346_cradily.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/cradily.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/cradily_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/cradily.json"
+  ]
+}

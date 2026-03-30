@@ -1,0 +1,252 @@
+{
+  "id": "diggersby",
+  "dexnum": 660,
+  "name": "Diggersby",
+  "primaryType": "normal",
+  "secondaryType": "ground",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "pickup",
+    "cheekpouch",
+    "h:hugepower"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 56,
+    "defence": 77,
+    "special_attack": 50,
+    "special_defence": 77,
+    "speed": 78
+  },
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 127,
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:rabbit",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "minecraft:rabbit_hide",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:rabbit_foot",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "minecraft:carrot",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chilan_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:rototiller",
+    "1:tackle",
+    "1:leer",
+    "1:mudslap",
+    "1:odorsleuth",
+    "1:doubleslap",
+    "1:laserfocus",
+    "9:quickattack",
+    "12:mudshot",
+    "15:flail",
+    "18:doublekick",
+    "23:bulldoze",
+    "28:dig",
+    "33:bounce",
+    "38:takedown",
+    "43:swordsdance",
+    "48:earthquake",
+    "53:superfang",
+    "58:hammerarm",
+    "egg:defensecurl",
+    "egg:odorsleuth",
+    "egg:rollout",
+    "tm:agility",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:cut",
+    "tm:dig",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:foulplay",
+    "tm:gastroacid",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gunkshot",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:icepunch",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:lastresort",
+    "tm:lowkick",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:naturepower",
+    "tm:payback",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:recycle",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:smackdown",
+    "tm:snatch",
+    "tm:spikes",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:superfang",
+    "tm:superpower",
+    "tm:surf",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderpunch",
+    "tm:torment",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:wildcharge",
+    "tm:workup",
+    "tutor:bounce",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:foulplay",
+    "tutor:gastroacid",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:icepunch",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:laserfocus",
+    "tutor:lastresort",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:scorchingsands",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snatch",
+    "tutor:spikes",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superfang",
+    "tutor:superpower",
+    "tutor:thunderpunch",
+    "tutor:uproar",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "20-42",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_hills",
+            "#cobblemon:is_temperate"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0660_diggersby.json",
+        "yLevel": {
+          "minY": 32
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/diggersby.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/diggersby_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/diggersby.json"
+  ]
+}

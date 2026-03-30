@@ -1,0 +1,182 @@
+{
+  "id": "floette_orange",
+  "dexnum": 670,
+  "name": "Floette Orange",
+  "primaryType": "fairy",
+  "secondaryType": "",
+  "maleRatio": 0,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "flowerveil",
+    "h:symbiosis"
+  ],
+  "eggGroups": [
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 54,
+    "attack": 45,
+    "defence": 47,
+    "special_attack": 75,
+    "special_defence": 98,
+    "speed": 52
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 120,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:poppy",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:kebia_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:vinewhip",
+    "1:fairywind",
+    "1:luckychant",
+    "10:safeguard",
+    "15:razorleaf",
+    "20:wish",
+    "25:magicalleaf",
+    "27:grassyterrain",
+    "33:petalblizzard",
+    "38:aromatherapy",
+    "43:mistyterrain",
+    "46:moonblast",
+    "51:petaldance",
+    "58:solarbeam",
+    "egg:camouflage",
+    "egg:captivate",
+    "egg:copycat",
+    "egg:endeavor",
+    "egg:tearfullook",
+    "tm:afteryou",
+    "tm:alluringvoice",
+    "tm:allyswitch",
+    "tm:batonpass",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:disarmingvoice",
+    "tm:drainingkiss",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyterrain",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magiccoat",
+    "tm:metronome",
+    "tm:mistyterrain",
+    "tm:naturepower",
+    "tm:petalblizzard",
+    "tm:pollenpuff",
+    "tm:protect",
+    "tm:psychic",
+    "tm:raindance",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:synthesis",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:trick",
+    "tm:worryseed",
+    "tutor:afteryou",
+    "tutor:allyswitch",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:magicalleaf",
+    "tutor:magiccoat",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:synthesis",
+    "tutor:trick",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "floette_florges",
+      "variant": "item_interact",
+      "result": "florges",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:shiny_stone"
+    }
+  ],
+  "spawns": [],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/floette_orange.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/floette_orange_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/floette.json"
+  ]
+}

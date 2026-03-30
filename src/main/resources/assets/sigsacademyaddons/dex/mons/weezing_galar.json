@@ -1,0 +1,291 @@
+{
+  "id": "weezing_galar",
+  "dexnum": 110,
+  "name": "Weezing Galar",
+  "primaryType": "poison",
+  "secondaryType": "fairy",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8",
+    "galarian_form"
+  ],
+  "abilities": [
+    "levitate",
+    "neutralizinggas",
+    "h:mistysurge"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 90,
+    "defence": 120,
+    "special_attack": 85,
+    "special_defence": 70,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 60,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:black_sludge",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:payapa_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:smoke_ball",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:aromatherapy",
+    "1:doublehit",
+    "1:strangesteam",
+    "1:defog",
+    "1:heatwave",
+    "1:smog",
+    "1:smokescreen",
+    "1:haze",
+    "1:poisongas",
+    "1:tackle",
+    "1:aromaticmist",
+    "12:clearsmog",
+    "16:assurance",
+    "20:sludge",
+    "24:fairywind",
+    "28:selfdestruct",
+    "32:sludgebomb",
+    "38:toxic",
+    "44:belch",
+    "50:explosion",
+    "56:memento",
+    "62:destinybond",
+    "68:mistyterrain",
+    "egg:curse",
+    "egg:grudge",
+    "egg:painsplit",
+    "egg:psywave",
+    "egg:spite",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow",
+    "tm:acidspray",
+    "tm:assurance",
+    "tm:bodyslam",
+    "tm:brutalswing",
+    "tm:corrosivegas",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:doubleedge",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:gyroball",
+    "tm:haze",
+    "tm:heatwave",
+    "tm:hyperbeam",
+    "tm:mistyexplosion",
+    "tm:mistyterrain",
+    "tm:overheat",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:raindance",
+    "tm:rest",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:selfdestruct",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:spite",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tm:willowisp",
+    "tm:wonderroom",
+    "tutor:corrosivegas",
+    "tutor:darkpulse",
+    "tutor:dazzlinggleam",
+    "tutor:defog",
+    "tutor:flamethrower",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:heatwave",
+    "tutor:hyperbeam",
+    "tutor:mistyexplosion",
+    "tutor:painsplit",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spite",
+    "tutor:thunderbolt",
+    "tutor:wonderroom",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:uproar",
+    "legacy:zapcannon"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "35-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_magical"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0110_weezing.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "35-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0110_weezing.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "illager_structures"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "35-50",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#minecraft:woodland_mansion"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0110_weezing_galarian.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "illager_structures"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "35-50",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#minecraft:woodland_mansion"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0110_weezing_galarian.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/weezing_galarian.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/weezing_galarian_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/weezing.json"
+  ]
+}

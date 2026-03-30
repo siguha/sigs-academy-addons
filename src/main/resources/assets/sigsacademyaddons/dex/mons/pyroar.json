@@ -1,0 +1,267 @@
+{
+  "id": "pyroar",
+  "dexnum": 668,
+  "name": "Pyroar",
+  "primaryType": "fire",
+  "secondaryType": "normal",
+  "maleRatio": 0.125,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "rivalry",
+    "unnerve",
+    "h:moxie"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 86,
+    "attack": 68,
+    "defence": 72,
+    "special_attack": 109,
+    "special_defence": 66,
+    "speed": 106
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 65,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:rotten_flesh",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species",
+        "biomes": [
+          "#cobblemon:nether/is_overgrowth",
+          "#cobblemon:nether/is_wasteland"
+        ]
+      },
+      {
+        "item": "minecraft:blaze_powder",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species",
+        "biomes": [
+          "#cobblemon:nether/is_overgrowth",
+          "#cobblemon:nether/is_wasteland"
+        ]
+      },
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species",
+        "biomes": [
+          "#cobblemon:nether/is_overgrowth",
+          "#cobblemon:nether/is_wasteland"
+        ]
+      }
+    ]
+  },
+  "moves": [
+    "1:hyperbeam",
+    "1:tackle",
+    "1:leer",
+    "1:ember",
+    "1:workup",
+    "11:headbutt",
+    "15:nobleroar",
+    "20:takedown",
+    "23:firefang",
+    "28:endeavor",
+    "33:echoedvoice",
+    "38:flamethrower",
+    "42:crunch",
+    "48:hypervoice",
+    "51:incinerate",
+    "57:overheat",
+    "egg:entrainment",
+    "egg:firespin",
+    "egg:flareblitz",
+    "egg:yawn",
+    "tm:acrobatics",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bulldoze",
+    "tm:burningjealousy",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:mudslap",
+    "tm:overheat",
+    "tm:payback",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:solarbeam",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderfang",
+    "tm:trailblaze",
+    "tm:wildcharge",
+    "tm:willowisp",
+    "tm:workup",
+    "tutor:bounce",
+    "tutor:bulldoze",
+    "tutor:burningjealousy",
+    "tutor:endeavor",
+    "tutor:firefang",
+    "tutor:flamethrower",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:irontail",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:snatch",
+    "tutor:swift",
+    "tutor:thunderfang",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "35-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0668_pyroar.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "35-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_overgrowth",
+            "#cobblemon:nether/is_wasteland"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0668_pyroar.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.0,
+        "levels": "20-55",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands",
+            "#cobblemon:is_savanna",
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0668_pyroar.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/pyroar.png",
+      "out/sprites/cobblemon/pyroar_f.png",
+      "out/sprites/cobblemon/pyroar_m.png",
+      "out/sprites/cobblemon/pyroar_female.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/pyroar_f_shiny.png",
+      "out/sprites/cobblemon/pyroar_m_shiny.png",
+      "out/sprites/cobblemon/pyroar_shiny.png",
+      "out/sprites/cobblemon/pyroar_female_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/pyroar.json"
+  ]
+}

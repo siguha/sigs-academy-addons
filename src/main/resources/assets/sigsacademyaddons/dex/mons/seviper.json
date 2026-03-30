@@ -1,0 +1,284 @@
+{
+  "id": "seviper",
+  "dexnum": 336,
+  "name": "Seviper",
+  "primaryType": "poison",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "shedskin",
+    "h:infiltrator"
+  ],
+  "eggGroups": [
+    "field",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 73,
+    "attack": 100,
+    "defence": 60,
+    "special_attack": 100,
+    "special_defence": 60,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "fluctuating",
+  "catchRate": 90,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "cobblemon:razor_fang",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:shed_shell",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:wrap",
+    "1:wringout",
+    "1:swagger",
+    "4:bite",
+    "6:lick",
+    "9:poisontail",
+    "11:feint",
+    "14:screech",
+    "19:glare",
+    "21:poisonfang",
+    "24:venoshock",
+    "29:gastroacid",
+    "31:poisonjab",
+    "34:haze",
+    "39:crunch",
+    "41:belch",
+    "44:coil",
+    "46:sludgebomb",
+    "egg:assurance",
+    "egg:bodyslam",
+    "egg:finalgambit",
+    "egg:nightslash",
+    "egg:punishment",
+    "egg:scaryface",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow",
+    "egg:switcheroo",
+    "egg:wringout",
+    "tm:acidspray",
+    "tm:aquatail",
+    "tm:assurance",
+    "tm:bind",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:crunch",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:firefang",
+    "tm:flamethrower",
+    "tm:furycutter",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:haze",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:icefang",
+    "tm:infestation",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:poisontail",
+    "tm:pounce",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:reversal",
+    "tm:rocksmash",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:seedbomb",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:strength",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunderfang",
+    "tm:toxic",
+    "tm:trailblaze",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tm:xscissor",
+    "tm:zenheadbutt",
+    "tutor:aquatail",
+    "tutor:bind",
+    "tutor:bulldoze",
+    "tutor:darkpulse",
+    "tutor:endeavor",
+    "tutor:firefang",
+    "tutor:flamethrower",
+    "tutor:furycutter",
+    "tutor:gastroacid",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icefang",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:seedbomb",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snarl",
+    "tutor:snatch",
+    "tutor:suckerpunch",
+    "tutor:throatchop",
+    "tutor:thunderfang",
+    "tutor:xscissor",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:dragontail",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swift"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 3,
+        "levels": "10-45",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_grassland"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0336_seviper.json",
+        "sky": {
+          "canSeeSky": true,
+          "minSkyLight": 3,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 3,
+        "levels": "10-45",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_grassland"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0336_seviper.json",
+        "sky": {
+          "canSeeSky": true,
+          "minSkyLight": 3,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/seviper.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/seviper_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/seviper.json"
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "id": "venomoth",
+  "dexnum": 49,
+  "name": "Venomoth",
+  "primaryType": "bug",
+  "secondaryType": "poison",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "shielddust",
+    "tintedlens",
+    "h:wonderskin"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 65,
+    "defence": 60,
+    "special_attack": 90,
+    "special_defence": 75,
+    "speed": 90
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:silver_powder",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:shed_shell",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:silverwind",
+    "1:tackle",
+    "1:disable",
+    "1:foresight",
+    "1:supersonic",
+    "1:gust",
+    "1:quiverdance",
+    "1:airslash",
+    "11:confusion",
+    "13:poisonpowder",
+    "17:psybeam",
+    "23:stunspore",
+    "25:bugbuzz",
+    "29:sleeppowder",
+    "37:leechlife",
+    "41:zenheadbutt",
+    "47:poisonfang",
+    "55:psychic",
+    "egg:agility",
+    "egg:batonpass",
+    "egg:bugbite",
+    "egg:morningsun",
+    "egg:ragepowder",
+    "egg:screech",
+    "egg:secretpower",
+    "egg:toxicspikes",
+    "egg:venoshock",
+    "tm:acidspray",
+    "tm:acrobatics",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:batonpass",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:confuseray",
+    "tm:defog",
+    "tm:doubleedge",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:hyperbeam",
+    "tm:infestation",
+    "tm:leechlife",
+    "tm:lunge",
+    "tm:megadrain",
+    "tm:nightshade",
+    "tm:ominouswind",
+    "tm:pounce",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:rest",
+    "tm:roost",
+    "tm:screech",
+    "tm:secretpower",
+    "tm:signalbeam",
+    "tm:silverwind",
+    "tm:skillswap",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:solarbeam",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:twister",
+    "tm:uturn",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tm:whirlwind",
+    "tm:zenheadbutt",
+    "tutor:aircutter",
+    "tutor:bugbite",
+    "tutor:defog",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:leechlife",
+    "tutor:ominouswind",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:stringshot",
+    "tutor:swift",
+    "tutor:twister",
+    "tutor:zenheadbutt",
+    "legacy:aerialace",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleteam",
+    "legacy:dreameater",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:psywave",
+    "legacy:rage",
+    "legacy:razorwind",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:sweetscent",
+    "legacy:tailwind",
+    "legacy:teleport",
+    "special:refresh"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "31-45",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_spooky",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0049_venomoth.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/venomoth.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/venomoth_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/venomoth.json"
+  ]
+}

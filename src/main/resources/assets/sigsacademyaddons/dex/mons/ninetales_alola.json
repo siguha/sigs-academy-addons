@@ -1,0 +1,254 @@
+{
+  "id": "ninetales_alola",
+  "dexnum": 38,
+  "name": "Ninetales Alola",
+  "primaryType": "ice",
+  "secondaryType": "fairy",
+  "maleRatio": 0.25,
+  "labels": [
+    "gen7",
+    "alolan_form"
+  ],
+  "abilities": [
+    "snowcloak",
+    "h:snowwarning"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 73,
+    "attack": 67,
+    "defence": 75,
+    "special_attack": 81,
+    "special_defence": 100,
+    "speed": 109
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "minecraft:sweet_berries",
+        "percentage": null,
+        "quantityRange": "2-4",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:snowball",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:babiri_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:dazzlinggleam",
+    "1:imprison",
+    "1:nastyplot",
+    "1:icebeam",
+    "1:iceshard",
+    "1:confuseray",
+    "1:safeguard",
+    "1:blizzard",
+    "1:spite",
+    "1:icywind",
+    "1:auroraveil",
+    "1:aurorabeam",
+    "1:extrasensory",
+    "1:mist",
+    "1:sheercold",
+    "1:grudge",
+    "1:powdersnow",
+    "1:tailwhip",
+    "1:disable",
+    "1:freezedry",
+    "egg:babydolleyes",
+    "egg:captivate",
+    "egg:disable",
+    "egg:extrasensory",
+    "egg:feintattack",
+    "egg:flail",
+    "egg:freezedry",
+    "egg:howl",
+    "egg:hypnosis",
+    "egg:moonblast",
+    "egg:roar",
+    "egg:secretpower",
+    "egg:sheercold",
+    "tm:agility",
+    "tm:auroraveil",
+    "tm:avalanche",
+    "tm:babydolleyes",
+    "tm:batonpass",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:confuseray",
+    "tm:covet",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:dig",
+    "tm:disarmingvoice",
+    "tm:doubleedge",
+    "tm:drainingkiss",
+    "tm:dreameater",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:foulplay",
+    "tm:frostbreath",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:mistyterrain",
+    "tm:nastyplot",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:playrough",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:secretpower",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:spite",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailslap",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:tripleaxel",
+    "tm:weatherball",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:babydolleyes",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:darkpulse",
+    "tutor:dazzlinggleam",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:painsplit",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:swift",
+    "tutor:tripleaxel",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:aquatail",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:solarbeam",
+    "legacy:swagger",
+    "legacy:tackle",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.48,
+        "levels": "25-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_snowy_forest",
+            "#cobblemon:is_snowy_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0038_ninetales.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "25-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_frozen"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0038_ninetales.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/ninetales_alolan.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/ninetales_alolan_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/ninetales.json"
+  ]
+}
