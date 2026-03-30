@@ -132,7 +132,12 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
                 "key.sigsacademyaddons.card_album",
                 InputConstants.Type.KEYSYM,
                 GLFW.GLFW_KEY_G,
-                "Sigs Academy Addons"));
+                "key.category.sigsacademyaddons"));
+        KeyMapping dexKey = KeyBindingHelper.registerKeyBinding(new KeyMapping(
+                "key.sigsacademyaddons.dex",
+                InputConstants.Type.KEYSYM,
+                GLFW.GLFW_KEY_APOSTROPHE,
+                "key.category.sigsacademyaddons"));
 
         ChatMessageHandler chatHandler = new ChatMessageHandler(safariManager, safariHuntManager,
                 catchDetector, daycareManager, wondertradeManager, portalManager, hudConfig);
@@ -160,6 +165,11 @@ public class SigsAcademyAddonsClient implements ClientModInitializer {
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             while (cardAlbumKey.consumeClick()) {
                 cardAlbumQuickOpen.start();
+            }
+            while (dexKey.consumeClick()) {
+                if (client.player != null && client.screen == null) {
+                    openDexScreenNextTick = true;
+                }
             }
             cardAlbumQuickOpen.tick();
 

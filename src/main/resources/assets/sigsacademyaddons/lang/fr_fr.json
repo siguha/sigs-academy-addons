@@ -214,4 +214,8 @@
     "text.saa.particle_capture.complete": "[SAA] Capture terminée ! %1$s particules capturées.\nEnregistré dans : %2$s",
     "text.saa.particle_capture.failed": "[SAA] Échec de l'enregistrement de la capture.",
     "text.saa.wondertrade_timer_over": "Le délai de l'échange miracle (wondertrade) est terminé !"
+    ,
+    "key.category.sigsacademyaddons": "Sigs Academy Addons",
+    "key.sigsacademyaddons.card_album": "Ouverture rapide de l'album de cartes",
+    "key.sigsacademyaddons.dex": "Ouvrir le Dex"
 }

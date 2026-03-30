@@ -220,5 +220,9 @@
     "command.saa.manual_hatch_multiplier.status.values": "0 = auto-detect from rank, 1.5 = force 1.5x hatch speed",
 
     "command.saa.help": "",
-    "command.saa.config.summary": ""
+    "command.saa.config.summary": "",
+
+    "key.category.sigsacademyaddons": "Sigs Academy Addons",
+    "key.sigsacademyaddons.card_album": "Quick Open Card Album",
+    "key.sigsacademyaddons.dex": "Open Dex"
 }
