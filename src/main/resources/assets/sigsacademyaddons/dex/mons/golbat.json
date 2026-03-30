@@ -1,0 +1,564 @@
+{
+  "id": "golbat",
+  "dexnum": 42,
+  "name": "Golbat",
+  "primaryType": "poison",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "innerfocus",
+    "h:infiltrator"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 80,
+    "defence": 70,
+    "special_attack": 65,
+    "special_defence": 75,
+    "speed": 90
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 90,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:phantom_membrane",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:razor_fang",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:screech",
+    "1:supersonic",
+    "1:astonish",
+    "1:wingattack",
+    "1:meanlook",
+    "1:absorb",
+    "15:poisonfang",
+    "20:quickguard",
+    "27:aircutter",
+    "34:bite",
+    "41:haze",
+    "48:venoshock",
+    "55:confuseray",
+    "62:airslash",
+    "69:leechlife",
+    "egg:curse",
+    "egg:defog",
+    "egg:feintattack",
+    "egg:gust",
+    "egg:hypnosis",
+    "egg:pursuit",
+    "egg:quickattack",
+    "egg:whirlwind",
+    "egg:wingattack",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:assurance",
+    "tm:bravebird",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:curse",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:endure",
+    "tm:facade",
+    "tm:fly",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:haze",
+    "tm:heatwave",
+    "tm:hyperbeam",
+    "tm:leechlife",
+    "tm:nastyplot",
+    "tm:ominouswind",
+    "tm:payback",
+    "tm:pluck",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roost",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:snatch",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:torment",
+    "tm:twister",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:hyperbeam",
+    "tutor:leechlife",
+    "tutor:ominouswind",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snatch",
+    "tutor:superfang",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:twister",
+    "tutor:uproar",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:detect",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:megadrain",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:razorwind",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:takedown",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "golbat_crobat",
+      "variant": "level_up",
+      "result": "crobat",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "crosspoison"
+      ],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.18,
+        "levels": "22-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_swamp"
+          ],
+          "exclude": [
+            "#cobblemon:is_spooky",
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0042_golbat.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.18,
+        "levels": "22-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_swamp"
+          ],
+          "exclude": [
+            "#cobblemon:is_spooky",
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0042_golbat.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.9,
+        "levels": "22-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark",
+            "#cobblemon:is_forest",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0042_golbat.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "derelict"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.52,
+        "levels": "22-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark",
+            "#cobblemon:is_forest",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0042_golbat.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.9,
+        "levels": "22-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0042_golbat.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.52,
+        "levels": "22-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0042_golbat.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.9,
+        "levels": "22-46",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0042_golbat.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.18,
+        "levels": "22-46",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_swamp"
+          ],
+          "exclude": [
+            "#cobblemon:is_spooky",
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0042_golbat.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.18,
+        "levels": "22-46",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_swamp"
+          ],
+          "exclude": [
+            "#cobblemon:is_spooky",
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0042_golbat.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.9,
+        "levels": "22-46",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld",
+            "#cobblemon:is_end"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark",
+            "#cobblemon:is_forest",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0042_golbat.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "derelict"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.52,
+        "levels": "22-46",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark",
+            "#cobblemon:is_forest",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0042_golbat.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.9,
+        "levels": "22-46",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0042_golbat.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.52,
+        "levels": "22-46",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0042_golbat.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.9,
+        "levels": "22-46",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0042_golbat.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/golbat.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/golbat_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/golbat.json"
+  ]
+}

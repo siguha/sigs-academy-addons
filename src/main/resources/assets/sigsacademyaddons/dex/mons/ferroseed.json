@@ -1,0 +1,239 @@
+{
+  "id": "ferroseed",
+  "dexnum": 597,
+  "name": "Ferroseed",
+  "primaryType": "grass",
+  "secondaryType": "steel",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "ironbarbs",
+    "h:ironbarbs"
+  ],
+  "eggGroups": [
+    "grass",
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 44,
+    "attack": 50,
+    "defence": 91,
+    "special_attack": 24,
+    "special_defence": 86,
+    "speed": 10
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:raw_iron",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:occa_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:sticky_barb",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:harden",
+    "5:metalclaw",
+    "10:pinmissile",
+    "15:ingrain",
+    "20:flashcannon",
+    "25:ironhead",
+    "30:mirrorshot",
+    "35:irondefense",
+    "41:curse",
+    "45:gyroball",
+    "50:explosion",
+    "egg:acidspray",
+    "egg:gravity",
+    "egg:knockoff",
+    "egg:leechseed",
+    "egg:toxic",
+    "tm:acidspray",
+    "tm:assurance",
+    "tm:bulletseed",
+    "tm:curse",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:explosion",
+    "tm:facade",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:gigadrain",
+    "tm:gravity",
+    "tm:gyroball",
+    "tm:honeclaws",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:magnetrise",
+    "tm:metalclaw",
+    "tm:naturepower",
+    "tm:payback",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:rest",
+    "tm:revenge",
+    "tm:rockclimb",
+    "tm:rockpolish",
+    "tm:rocksmash",
+    "tm:rollout",
+    "tm:seedbomb",
+    "tm:selfdestruct",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:steelbeam",
+    "tm:steelroller",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:terablast",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:worryseed",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:flashcannon",
+    "tutor:gigadrain",
+    "tutor:gravity",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:magnetrise",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:stealthrock",
+    "tutor:steelbeam",
+    "tutor:steelroller",
+    "tutor:thunderbolt",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "ferroseed_ferrothorn",
+      "variant": "level_up",
+      "result": "ferrothorn",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "powerwhip"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0597_ferroseed.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0597_ferroseed.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        },
+        "yLevel": {
+          "minY": -41,
+          "maxY": 9
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/ferroseed.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/ferroseed_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/ferroseed.json"
+  ]
+}

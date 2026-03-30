@@ -1,0 +1,229 @@
+{
+  "id": "pichu",
+  "dexnum": 172,
+  "name": "Pichu",
+  "primaryType": "electric",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2",
+    "baby",
+    "johtonian_form"
+  ],
+  "abilities": [
+    "static",
+    "h:lightningrod"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 20,
+    "attack": 40,
+    "defence": 15,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:light_ball",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:thunder_stone",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:thundershock",
+    "1:tailwhip",
+    "4:playnice",
+    "8:sweetkiss",
+    "12:nuzzle",
+    "16:nastyplot",
+    "20:charm",
+    "egg:bestow",
+    "egg:bide",
+    "egg:charge",
+    "egg:disarmingvoice",
+    "egg:doubleslap",
+    "egg:fakeout",
+    "egg:flail",
+    "egg:luckychant",
+    "egg:present",
+    "egg:tickle",
+    "egg:wish",
+    "tm:babydolleyes",
+    "tm:bodyslam",
+    "tm:charge",
+    "tm:charm",
+    "tm:covet",
+    "tm:disarmingvoice",
+    "tm:echoedvoice",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:fling",
+    "tm:grassknot",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:irontail",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:reversal",
+    "tm:rollout",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:voltswitch",
+    "tm:volttackle",
+    "tm:wildcharge",
+    "tutor:babydolleyes",
+    "tutor:covet",
+    "tutor:electroweb",
+    "tutor:endeavor",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:magnetrise",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rollout",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:volttackle",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:chargebeam",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:detect",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:uproar",
+    "legacy:zapcannon",
+    "special:endeavor",
+    "special:followme",
+    "special:teeterdance"
+  ],
+  "forms": [
+    "Alola-Bias"
+  ],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "pichu_pikachu",
+      "variant": "level_up",
+      "result": "pikachu",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 5.04,
+        "levels": "1-21",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest"
+          ],
+          "exclude": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0172_pichu.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/pichu.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/pichu_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/pichu.json"
+  ]
+}

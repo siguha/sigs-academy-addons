@@ -1,0 +1,305 @@
+{
+  "id": "slowking_galar",
+  "dexnum": 199,
+  "name": "Slowking Galar",
+  "primaryType": "poison",
+  "secondaryType": "psychic",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8",
+    "galarian_form"
+  ],
+  "abilities": [
+    "curiousmedicine",
+    "owntempo",
+    "h:regenerator"
+  ],
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 65,
+    "defence": 80,
+    "special_attack": 110,
+    "special_defence": 110,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 70,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:tasty_tail",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:galarica_nuts",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:eeriespell",
+    "1:powergem",
+    "1:nastyplot",
+    "1:swagger",
+    "1:tackle",
+    "1:curse",
+    "1:growl",
+    "1:acid",
+    "1:futuresight",
+    "1:toxic",
+    "1:chillyreception",
+    "9:yawn",
+    "12:confusion",
+    "15:disable",
+    "18:waterpulse",
+    "21:headbutt",
+    "24:zenheadbutt",
+    "27:amnesia",
+    "30:surf",
+    "33:slackoff",
+    "36:psychic",
+    "39:psychup",
+    "42:raindance",
+    "45:healpulse",
+    "egg:belch",
+    "egg:bellydrum",
+    "egg:block",
+    "egg:stomp",
+    "tm:acidspray",
+    "tm:amnesia",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brine",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:chillingwater",
+    "tm:curse",
+    "tm:dig",
+    "tm:dive",
+    "tm:drainpunch",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:foulplay",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gunkshot",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:irondefense",
+    "tm:irontail",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:lowsweep",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:nastyplot",
+    "tm:payday",
+    "tm:poisonjab",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:psychicterrain",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:razorshell",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:scaryface",
+    "tm:shadowball",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snarl",
+    "tm:snowscape",
+    "tm:stompingtantrum",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:swagger",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:triattack",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:dive",
+    "tutor:drainpunch",
+    "tutor:expandingforce",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:irontail",
+    "tutor:liquidation",
+    "tutor:poisonjab",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snarl",
+    "tutor:stompingtantrum",
+    "tutor:swift",
+    "tutor:thunderpunch",
+    "tutor:trick",
+    "tutor:waterpulse",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:icepunch",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.15,
+        "levels": "37-49",
+        "biomeTags": {
+          "include": [
+            "minecraft:mushroom_fields",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0199_slowking.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:water"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.05,
+        "levels": "37-49",
+        "biomeTags": {
+          "include": [
+            "minecraft:mushroom_fields",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0199_slowking.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.05,
+        "levels": "37-49",
+        "biomeTags": {
+          "include": [
+            "minecraft:mushroom_fields",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0199_slowking.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/slowking_galarian.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/slowking_galarian_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/slowking.json"
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "id": "shroodle",
+  "dexnum": 944,
+  "name": "Shroodle",
+  "primaryType": "poison",
+  "secondaryType": "normal",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "unburden",
+    "pickpocket",
+    "h:prankster"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 65,
+    "defence": 35,
+    "special_attack": 40,
+    "special_defence": 35,
+    "speed": 75
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 190,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:nanab_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:leer",
+    "5:acidspray",
+    "8:bite",
+    "8:furyswipes",
+    "11:switcheroo",
+    "14:poisonfang",
+    "18:flatter",
+    "21:slash",
+    "25:uturn",
+    "29:poisonjab",
+    "33:taunt",
+    "36:substitute",
+    "40:knockoff",
+    "45:gunkshot",
+    "egg:copycat",
+    "egg:crosspoison",
+    "egg:partingshot",
+    "egg:superfang",
+    "egg:swagger",
+    "egg:toxic",
+    "tm:acidspray",
+    "tm:acrobatics",
+    "tm:batonpass",
+    "tm:crosspoison",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:foulplay",
+    "tm:gunkshot",
+    "tm:helpinghand",
+    "tm:knockoff",
+    "tm:metronome",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:nastyplot",
+    "tm:poisonjab",
+    "tm:pounce",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:toxic",
+    "tm:trailblaze",
+    "tm:uturn",
+    "tm:venoshock",
+    "tutor:endeavor",
+    "tutor:foulplay",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:knockoff",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:superfang",
+    "tutor:throatchop"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "shroodle_grafaiai",
+      "variant": "level_up",
+      "result": "grafaiai",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "doodle"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0944_shroodle.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/shroodle.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/shroodle_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/shroodle.json"
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "id": "ledian",
+  "dexnum": 166,
+  "name": "Ledian",
+  "primaryType": "bug",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "swarm",
+    "earlybird",
+    "h:ironfist"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 35,
+    "defence": 50,
+    "special_attack": 55,
+    "special_defence": 110,
+    "speed": 85
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "experienceGroup": "fast",
+  "catchRate": 90,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:charti_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:supersonic",
+    "1:swift",
+    "12:lightscreen",
+    "12:reflect",
+    "12:safeguard",
+    "15:machpunch",
+    "20:roost",
+    "24:cometpunch",
+    "29:batonpass",
+    "33:agility",
+    "38:bugbuzz",
+    "42:airslash",
+    "47:doubleedge",
+    "egg:bide",
+    "egg:counter",
+    "egg:dizzypunch",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:assurance",
+    "tm:batonpass",
+    "tm:brickbreak",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:drainpunch",
+    "tm:dualwingbeat",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:hyperbeam",
+    "tm:icepunch",
+    "tm:infestation",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:ominouswind",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:rollout",
+    "tm:roost",
+    "tm:safeguard",
+    "tm:screech",
+    "tm:silverwind",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:strength",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:tailwind",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderpunch",
+    "tm:uproar",
+    "tm:uturn",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:bugbite",
+    "tutor:drainpunch",
+    "tutor:dualwingbeat",
+    "tutor:focuspunch",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icepunch",
+    "tutor:knockoff",
+    "tutor:ominouswind",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:roost",
+    "tutor:sleeptalk",
+    "tutor:stringshot",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:thunderpunch",
+    "tutor:uproar",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:defog",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:sweetscent",
+    "legacy:toxic",
+    "special:refresh"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 2.0,
+        "levels": "18-39",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_temperate"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0166_ledian.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 3.0,
+        "levels": "18-39",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:floral_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0166_ledian.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 3.0,
+        "levels": "18-39",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0166_ledian.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/ledian.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/ledian_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/ledian.json"
+  ]
+}

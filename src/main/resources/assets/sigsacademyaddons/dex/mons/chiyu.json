@@ -1,0 +1,130 @@
+{
+  "id": "chiyu",
+  "dexnum": 1004,
+  "name": "Chi-Yu",
+  "primaryType": "dark",
+  "secondaryType": "fire",
+  "maleRatio": -1,
+  "labels": [
+    "gen9",
+    "legendary"
+  ],
+  "abilities": [
+    "beadsofruin",
+    "h:beadsofruin"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 80,
+    "defence": 80,
+    "special_attack": 135,
+    "special_defence": 120,
+    "speed": 100
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 6,
+  "drops": {
+    "amount": 0,
+    "entries": []
+  },
+  "moves": [
+    "1:ember",
+    "1:spite",
+    "1:meanlook",
+    "5:flamewheel",
+    "10:payback",
+    "15:willowisp",
+    "20:flamecharge",
+    "25:incinerate",
+    "30:confuseray",
+    "35:nastyplot",
+    "40:darkpulse",
+    "45:lavaplume",
+    "50:ruination",
+    "55:bounce",
+    "60:swagger",
+    "65:inferno",
+    "70:memento",
+    "75:overheat",
+    "tm:bounce",
+    "tm:burningjealousy",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:gigaimpact",
+    "tm:heatwave",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:incinerate",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:nastyplot",
+    "tm:overheat",
+    "tm:payback",
+    "tm:protect",
+    "tm:psychic",
+    "tm:reflect",
+    "tm:rest",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:spite",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:willowisp",
+    "tm:zenheadbutt",
+    "tutor:bounce",
+    "tutor:burningjealousy",
+    "tutor:darkpulse",
+    "tutor:flamethrower",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:hyperbeam",
+    "tutor:lashout",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:spite",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/chi_yu.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/chi_yu_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/chiyu.json"
+  ]
+}

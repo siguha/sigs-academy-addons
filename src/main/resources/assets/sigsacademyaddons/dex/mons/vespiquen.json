@@ -1,0 +1,313 @@
+{
+  "id": "vespiquen",
+  "dexnum": 416,
+  "name": "Vespiquen",
+  "primaryType": "bug",
+  "secondaryType": "flying",
+  "maleRatio": 0,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "pressure",
+    "h:unnerve"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 80,
+    "defence": 102,
+    "special_attack": 80,
+    "special_defence": 102,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 8,
+    "entries": [
+      {
+        "item": "minecraft:honey_bottle",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:honeycomb",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:charti_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:sweetscent",
+    "1:gust",
+    "1:poisonsting",
+    "1:confuseray",
+    "1:pursuit",
+    "1:healorder",
+    "1:slash",
+    "1:bugbite",
+    "1:strugglebug",
+    "1:captivate",
+    "1:aromatherapy",
+    "4:furycutter",
+    "8:aromaticmist",
+    "12:fellstinger",
+    "16:furyswipes",
+    "20:swagger",
+    "24:roost",
+    "28:airslash",
+    "32:powergem",
+    "36:toxic",
+    "40:defendorder",
+    "40:attackorder",
+    "44:destinybond",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:airslash",
+    "tm:assurance",
+    "tm:beatup",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:captivate",
+    "tm:confuseray",
+    "tm:crosspoison",
+    "tm:cut",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:fling",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:honeclaws",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:infestation",
+    "tm:laserfocus",
+    "tm:lunge",
+    "tm:ominouswind",
+    "tm:pinmissile",
+    "tm:pollenpuff",
+    "tm:pounce",
+    "tm:powergem",
+    "tm:powershift",
+    "tm:protect",
+    "tm:psychicnoise",
+    "tm:quash",
+    "tm:raindance",
+    "tm:rest",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:roost",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:signalbeam",
+    "tm:silverwind",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:spikes",
+    "tm:spite",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:uturn",
+    "tm:venoshock",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:bugbite",
+    "tutor:defog",
+    "tutor:endeavor",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:laserfocus",
+    "tutor:ominouswind",
+    "tutor:powershift",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:signalbeam",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spikes",
+    "tutor:spite",
+    "tutor:stringshot",
+    "tutor:xscissor",
+    "legacy:aircutter",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:tailwind",
+    "legacy:uproar"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "21-47",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_temperate"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0416_vespiquen.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "21-47",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0416_vespiquen.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "#cobblemon:flowers",
+            "#cobblemon:saccharine_trees"
+          ],
+          "resolved": [
+            "cobblemon:pep_up_flower",
+            "cobblemon:saccharine_leaves",
+            "cobblemon:saccharine_log",
+            "cobblemon:saccharine_wood",
+            "cobblemon:stripped_saccharine_log",
+            "cobblemon:stripped_saccharine_wood",
+            "minecraft:chorus_flower"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "21-47",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0416_vespiquen.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "21-47",
+        "biomeTags": {
+          "include": [
+            "#the_bumblezone:the_bumblezone"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0416_vespiquen.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/vespiquen.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/vespiquen_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/vespiquen.json"
+  ]
+}

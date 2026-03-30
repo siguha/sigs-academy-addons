@@ -1,0 +1,282 @@
+{
+  "id": "beheeyem",
+  "dexnum": 606,
+  "name": "Beheeyem",
+  "primaryType": "psychic",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "telepathy",
+    "synchronize",
+    "h:analytic"
+  ],
+  "eggGroups": [
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 75,
+    "defence": 75,
+    "special_attack": 125,
+    "special_defence": 95,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 90,
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:ender_pearl",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species",
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      },
+      {
+        "item": "cobblemon:light_clay",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species",
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      },
+      {
+        "item": "cobblemon:colbur_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species",
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      },
+      {
+        "item": "minecraft:chorus_fruit",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "spawn_pool_world",
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      }
+    ]
+  },
+  "moves": [
+    "1:confusion",
+    "1:growl",
+    "1:healblock",
+    "1:miracleeye",
+    "1:imprison",
+    "1:simplebeam",
+    "1:synchronoise",
+    "1:psychicterrain",
+    "1:teleport",
+    "18:psybeam",
+    "24:guardsplit",
+    "24:powersplit",
+    "30:headbutt",
+    "36:zenheadbutt",
+    "45:recover",
+    "52:calmmind",
+    "60:wonderroom",
+    "68:psychic",
+    "egg:astonish",
+    "egg:barrier",
+    "egg:destinybond",
+    "egg:disable",
+    "egg:psychup",
+    "egg:simplebeam",
+    "egg:synchronoise",
+    "tm:afteryou",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:cosmicpower",
+    "tm:darkpulse",
+    "tm:dreameater",
+    "tm:echoedvoice",
+    "tm:embargo",
+    "tm:endure",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:gravity",
+    "tm:guardswap",
+    "tm:headbutt",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:meteorbeam",
+    "tm:nastyplot",
+    "tm:painsplit",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:steelwing",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:triattack",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:uproar",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:afteryou",
+    "tutor:allyswitch",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:darkpulse",
+    "tutor:energyball",
+    "tutor:expandingforce",
+    "tutor:flashcannon",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:hyperbeam",
+    "tutor:magiccoat",
+    "tutor:meteorbeam",
+    "tutor:painsplit",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:roleplay",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:telekinesis",
+    "tutor:thunderbolt",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "42-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_end"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0606_beheeyem.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "42-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0606_beheeyem.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:wheat"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "42-49",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:howling_constructs"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0606_beheeyem.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/beheeyem.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/beheeyem_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/beheeyem.json"
+  ]
+}

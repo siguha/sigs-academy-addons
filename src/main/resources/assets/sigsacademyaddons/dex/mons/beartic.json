@@ -1,0 +1,241 @@
+{
+  "id": "beartic",
+  "dexnum": 614,
+  "name": "Beartic",
+  "primaryType": "ice",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "snowcloak",
+    "slushrush",
+    "h:swiftswim"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 130,
+    "defence": 80,
+    "special_attack": 70,
+    "special_defence": 80,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 60,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:snowball",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:cod",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:aspear_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:aquajet",
+    "1:powdersnow",
+    "1:growl",
+    "1:bide",
+    "1:furyswipes",
+    "1:endure",
+    "1:iciclecrash",
+    "1:charm",
+    "9:icywind",
+    "12:playnice",
+    "15:brine",
+    "18:frostbreath",
+    "21:slash",
+    "24:flail",
+    "27:swagger",
+    "30:snowscape",
+    "33:thrash",
+    "36:rest",
+    "41:blizzard",
+    "46:sheercold",
+    "51:superpower",
+    "egg:focuspunch",
+    "egg:nightslash",
+    "egg:yawn",
+    "tm:aerialace",
+    "tm:assurance",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brine",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:closecombat",
+    "tm:covet",
+    "tm:crunch",
+    "tm:curse",
+    "tm:cut",
+    "tm:dig",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:frostbreath",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:hail",
+    "tm:hardpress",
+    "tm:heavyslam",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:liquidation",
+    "tm:lowkick",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metalclaw",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:scaryface",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:snowscape",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:surf",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:trailblaze",
+    "tm:waterpulse",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:covet",
+    "tutor:dive",
+    "tutor:endeavor",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:liquidation",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:throatchop",
+    "tutor:waterpulse",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "37-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0614_beartic.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/beartic.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/beartic_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/beartic.json"
+  ]
+}

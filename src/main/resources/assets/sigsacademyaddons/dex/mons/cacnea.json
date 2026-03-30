@@ -1,0 +1,260 @@
+{
+  "id": "cacnea",
+  "dexnum": 331,
+  "name": "Cacnea",
+  "primaryType": "grass",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "sandveil",
+    "h:waterabsorb"
+  ],
+  "eggGroups": [
+    "grass",
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 85,
+    "defence": 40,
+    "special_attack": 85,
+    "special_defence": 40,
+    "speed": 35
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 190,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:cactus",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:tanga_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:sticky_barb",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:poisonsting",
+    "1:leer",
+    "4:absorb",
+    "7:growth",
+    "10:leechseed",
+    "13:sandattack",
+    "16:needlearm",
+    "19:feintattack",
+    "22:ingrain",
+    "26:payback",
+    "30:spikes",
+    "34:suckerpunch",
+    "38:pinmissile",
+    "42:energyball",
+    "46:cottonspore",
+    "50:sandstorm",
+    "54:destinybond",
+    "egg:acid",
+    "egg:belch",
+    "egg:block",
+    "egg:counter",
+    "egg:disable",
+    "egg:dynamicpunch",
+    "egg:fellstinger",
+    "egg:grasswhistle",
+    "egg:powertrip",
+    "egg:rototiller",
+    "egg:smellingsalts",
+    "egg:switcheroo",
+    "egg:teeterdance",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:curse",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:drainpunch",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:foulplay",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:leafstorm",
+    "tm:lowkick",
+    "tm:magicalleaf",
+    "tm:megapunch",
+    "tm:nastyplot",
+    "tm:naturepower",
+    "tm:payback",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roleplay",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:seedbomb",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spikes",
+    "tm:spite",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunderpunch",
+    "tm:toxicspikes",
+    "tm:trailblaze",
+    "tm:venoshock",
+    "tm:worryseed",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:darkpulse",
+    "tutor:drainpunch",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:focuspunch",
+    "tutor:foulplay",
+    "tutor:furycutter",
+    "tutor:gigadrain",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:lowkick",
+    "tutor:magicalleaf",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:seedbomb",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:synthesis",
+    "tutor:throatchop",
+    "tutor:thunderpunch",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "cacnea_cacturne",
+      "variant": "level_up",
+      "result": "cacturne",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "spikyshield"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands",
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0331_cacnea.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/cacnea.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/cacnea_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/cacnea.json"
+  ]
+}

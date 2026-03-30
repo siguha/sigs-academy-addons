@@ -1,0 +1,211 @@
+{
+  "id": "hippopotas",
+  "dexnum": 449,
+  "name": "Hippopotas",
+  "primaryType": "ground",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "sandstream",
+    "h:sandforce"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 68,
+    "attack": 72,
+    "defence": 78,
+    "special_attack": 38,
+    "special_defence": 42,
+    "speed": 32
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 140,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:sand",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:soft_sand",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:sandattack",
+    "4:bite",
+    "8:yawn",
+    "12:sandtomb",
+    "16:dig",
+    "20:crunch",
+    "24:sandstorm",
+    "28:takedown",
+    "32:roar",
+    "36:rest",
+    "40:earthquake",
+    "44:doubleedge",
+    "48:fissure",
+    "52:slackoff",
+    "egg:curse",
+    "egg:mudbomb",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow",
+    "egg:whirlwind",
+    "tm:amnesia",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:crunch",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:firefang",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:icefang",
+    "tm:irontail",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:rest",
+    "tm:revenge",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunderfang",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:firefang",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:icefang",
+    "tutor:irontail",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:scorchingsands",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:thunderfang",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:waterpulse",
+    "legacy:weatherball"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "hippopotas_hippowdon",
+      "variant": "level_up",
+      "result": "hippowdon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 34
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "8-33",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0449_hippopotas.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/hippopotas_female.png",
+      "out/sprites/cobblemon/hippopotas_male.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/hippopotas_female_shiny.png",
+      "out/sprites/cobblemon/hippopotas_male_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/hippopotas.json"
+  ]
+}

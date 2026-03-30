@@ -1,0 +1,162 @@
+{
+  "id": "dracozolt",
+  "dexnum": 880,
+  "name": "Dracozolt",
+  "primaryType": "electric",
+  "secondaryType": "dragon",
+  "maleRatio": -1,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "voltabsorb",
+    "hustle",
+    "h:sandrush"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 100,
+    "defence": 90,
+    "special_attack": 80,
+    "special_defence": 70,
+    "speed": 75
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:thundershock",
+    "7:charge",
+    "14:aerialace",
+    "21:ancientpower",
+    "28:pluck",
+    "35:dragontail",
+    "42:stomp",
+    "49:slam",
+    "56:discharge",
+    "63:boltbeak",
+    "70:dragonpulse",
+    "77:dragonrush",
+    "tm:aerialace",
+    "tm:ancientpower",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:charge",
+    "tm:dracometeor",
+    "tm:dragonclaw",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:electroball",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firespin",
+    "tm:flamethrower",
+    "tm:gigaimpact",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:irontail",
+    "tm:lowkick",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:meteorbeam",
+    "tm:outrage",
+    "tm:pluck",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sleeptalk",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:wildcharge",
+    "tutor:aerialace",
+    "tutor:ancientpower",
+    "tutor:bulldoze",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:earthpower",
+    "tutor:firefang",
+    "tutor:flamethrower",
+    "tutor:gigaimpact",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:irontail",
+    "tutor:lowkick",
+    "tutor:meteorbeam",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:rockslide",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:thunderbolt",
+    "tutor:thunderfang",
+    "tutor:thunderpunch",
+    "tutor:wildcharge",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/dracozolt.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/dracozolt_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/dracozolt.json"
+  ]
+}

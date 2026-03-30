@@ -1,0 +1,216 @@
+{
+  "id": "copperajah",
+  "dexnum": 879,
+  "name": "Copperajah",
+  "primaryType": "steel",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "sheerforce",
+    "h:heavymetal"
+  ],
+  "eggGroups": [
+    "field",
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 122,
+    "attack": 130,
+    "defence": 69,
+    "special_attack": 80,
+    "special_defence": 69,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 90,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:raw_copper",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:lagging_tail",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:nanab_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:heavyslam",
+    "1:tackle",
+    "1:growl",
+    "1:rollout",
+    "1:rocksmash",
+    "15:bulldoze",
+    "20:stomp",
+    "25:irondefense",
+    "30:dig",
+    "37:strength",
+    "44:ironhead",
+    "51:playrough",
+    "58:highhorsepower",
+    "65:superpower",
+    "egg:belch",
+    "egg:curse",
+    "egg:defensecurl",
+    "egg:doubleedge",
+    "egg:fissure",
+    "egg:slam",
+    "egg:swagger",
+    "egg:whirlwind",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:fling",
+    "tm:gigaimpact",
+    "tm:hardpress",
+    "tm:heatcrash",
+    "tm:heavyslam",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:megakick",
+    "tm:mudshot",
+    "tm:outrage",
+    "tm:payback",
+    "tm:playrough",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:rest",
+    "tm:revenge",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sandstorm",
+    "tm:screech",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:snarl",
+    "tm:stealthrock",
+    "tm:steelbeam",
+    "tm:steelroller",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:supercellslam",
+    "tm:superpower",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:flashcannon",
+    "tutor:gigaimpact",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:outrage",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:stealthrock",
+    "tutor:steelbeam",
+    "tutor:steelroller",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:scaryface",
+    "legacy:snore"
+  ],
+  "forms": [
+    "Gmax"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.96,
+        "levels": "34-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_savanna"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0879_copperajah.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/copperajah.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/copperajah_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/copperajah.json"
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "id": "quilladin",
+  "dexnum": 651,
+  "name": "Quilladin",
+  "primaryType": "grass",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "overgrow",
+    "h:bulletproof"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 61,
+    "attack": 78,
+    "defence": 95,
+    "special_attack": 56,
+    "special_defence": 58,
+    "speed": 57
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "1:vinewhip",
+    "1:needlearm",
+    "8:rollout",
+    "11:bite",
+    "15:leechseed",
+    "20:seedbomb",
+    "24:pinmissile",
+    "29:takedown",
+    "34:mudshot",
+    "38:bulkup",
+    "43:bodyslam",
+    "47:painsplit",
+    "53:woodhammer",
+    "egg:bellydrum",
+    "egg:curse",
+    "egg:defensecurl",
+    "egg:quickguard",
+    "egg:spikes",
+    "egg:superfang",
+    "egg:synthesis",
+    "egg:wideguard",
+    "tm:aerialace",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:curse",
+    "tm:cut",
+    "tm:dig",
+    "tm:drainpunch",
+    "tm:dualchop",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:gyroball",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:leafstorm",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:magicalleaf",
+    "tm:metalclaw",
+    "tm:mudshot",
+    "tm:naturepower",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:seedbomb",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spikes",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:superpower",
+    "tm:swift",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thunderpunch",
+    "tm:trailblaze",
+    "tm:workup",
+    "tm:worryseed",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:bulldoze",
+    "tutor:drainpunch",
+    "tutor:dualchop",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:focuspunch",
+    "tutor:gigadrain",
+    "tutor:grasspledge",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:lowkick",
+    "tutor:magicalleaf",
+    "tutor:painsplit",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:stompingtantrum",
+    "tutor:superfang",
+    "tutor:superpower",
+    "tutor:swift",
+    "tutor:synthesis",
+    "tutor:thunderpunch",
+    "tutor:worryseed",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:sludgebomb",
+    "legacy:smackdown",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:swordsdance",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "quilladin_chesnaught",
+      "variant": "level_up",
+      "result": "chesnaught",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "spikyshield"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest"
+          ],
+          "exclude": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0651_quilladin.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/quilladin.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/quilladin_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/quilladin.json"
+  ]
+}

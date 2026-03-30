@@ -1,0 +1,297 @@
+{
+  "id": "charizard",
+  "dexnum": 6,
+  "name": "Charizard",
+  "primaryType": "fire",
+  "secondaryType": "flying",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "blaze",
+    "h:solarpower"
+  ],
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 78,
+    "attack": 84,
+    "defence": 78,
+    "special_attack": 109,
+    "special_defence": 85,
+    "speed": 100
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:blaze_powder",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:dragonclaw",
+    "1:airslash",
+    "1:scratch",
+    "1:growl",
+    "1:ember",
+    "1:smokescreen",
+    "1:dragonrage",
+    "1:wingattack",
+    "1:heatwave",
+    "1:flameburst",
+    "12:dragonbreath",
+    "19:firefang",
+    "24:slash",
+    "30:flamethrower",
+    "39:scaryface",
+    "46:firespin",
+    "54:inferno",
+    "62:flareblitz",
+    "egg:ancientpower",
+    "egg:bellydrum",
+    "egg:bite",
+    "egg:counter",
+    "egg:dragonrage",
+    "egg:dragonrush",
+    "egg:dragontail",
+    "egg:irontail",
+    "egg:metalclaw",
+    "egg:wingattack",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:ancientpower",
+    "tm:beatup",
+    "tm:blastburn",
+    "tm:blazekick",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:crunch",
+    "tm:cut",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:dragoncheer",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firepledge",
+    "tm:firepunch",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:fling",
+    "tm:fly",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:heatcrash",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metalclaw",
+    "tm:mysticalfire",
+    "tm:ominouswind",
+    "tm:outrage",
+    "tm:overheat",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roost",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:scorchingsands",
+    "tm:shadowclaw",
+    "tm:skydrop",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:steelwing",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thunderpunch",
+    "tm:twister",
+    "tm:weatherball",
+    "tm:willowisp",
+    "tm:workup",
+    "tutor:ancientpower",
+    "tutor:blastburn",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:dragonpulse",
+    "tutor:firefang",
+    "tutor:firepledge",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focuspunch",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:irontail",
+    "tutor:mysticalfire",
+    "tutor:ominouswind",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roost",
+    "tutor:scorchingsands",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:thunderpunch",
+    "tutor:twister",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:defog",
+    "legacy:doubleteam",
+    "legacy:dualwingbeat",
+    "legacy:dynamicpunch",
+    "legacy:falseswipe",
+    "legacy:fissure",
+    "legacy:frustration",
+    "legacy:furyswipes",
+    "legacy:hiddenpower",
+    "legacy:leer",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:scaleshot",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:submission",
+    "legacy:swagger",
+    "legacy:tailwind",
+    "legacy:toxic",
+    "special:blastburn",
+    "special:block",
+    "special:celebrate",
+    "special:holdhands",
+    "special:howl",
+    "special:quickattack"
+  ],
+  "forms": [
+    "Mega-X",
+    "Mega-Y",
+    "Gmax"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_hills",
+            "#cobblemon:is_volcanic"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0006_charizard.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_basalt"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0006_charizard.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/charizard.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/charizard_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/charizard.json"
+  ]
+}

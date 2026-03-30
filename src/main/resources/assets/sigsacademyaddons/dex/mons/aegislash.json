@@ -1,0 +1,258 @@
+{
+  "id": "aegislash",
+  "dexnum": 681,
+  "name": "Aegislash",
+  "primaryType": "steel",
+  "secondaryType": "ghost",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "stancechange",
+    "h:stancechange"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 140,
+    "special_attack": 50,
+    "special_defence": 140,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:iron_nugget",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:iron_sword",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:dusk_stone",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:ability_shield",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:furycutter",
+    "1:pursuit",
+    "1:autotomize",
+    "1:shadowsneak",
+    "1:slash",
+    "1:irondefense",
+    "1:nightslash",
+    "1:powertrick",
+    "1:ironhead",
+    "1:headsmash",
+    "1:swordsdance",
+    "1:aerialace",
+    "1:kingsshield",
+    "1:sacredsword",
+    "1:retaliate",
+    "1:metalsound",
+    "1:tackle",
+    "egg:block",
+    "egg:destinybond",
+    "egg:wideguard",
+    "tm:aerialace",
+    "tm:afteryou",
+    "tm:airslash",
+    "tm:block",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:closecombat",
+    "tm:cut",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:flashcannon",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:gyroball",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:laserfocus",
+    "tm:magnetrise",
+    "tm:metalsound",
+    "tm:protect",
+    "tm:psychocut",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:reversal",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:solarblade",
+    "tm:spite",
+    "tm:steelbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:terablast",
+    "tutor:aerialace",
+    "tutor:afteryou",
+    "tutor:block",
+    "tutor:falseswipe",
+    "tutor:flashcannon",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:laserfocus",
+    "tutor:magnetrise",
+    "tutor:psychocut",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:steelbeam",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [
+    "Blade"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "nether_structures"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.8,
+        "levels": "40-50",
+        "biomeTags": {
+          "include": [
+            "#minecraft:is_nether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0681_aegislash.json"
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 0.48,
+        "levels": "40-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0681_aegislash.json",
+        "structures": [
+          "#cobblemon:ruin"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "stronghold"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.8,
+        "levels": "40-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0681_aegislash.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 0.048,
+        "levels": "40-50",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0681_aegislash.json",
+        "structures": [
+          "#aether:dungeons"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/aegislash.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/aegislash_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/aegislash.json"
+  ]
+}

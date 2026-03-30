@@ -1,0 +1,510 @@
+{
+  "id": "qwilfish",
+  "dexnum": 211,
+  "name": "Qwilfish",
+  "primaryType": "water",
+  "secondaryType": "poison",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2",
+    "johtonian_form"
+  ],
+  "abilities": [
+    "poisonpoint",
+    "swiftswim",
+    "h:intimidate"
+  ],
+  "eggGroups": [
+    "water_2"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 95,
+    "defence": 85,
+    "special_attack": 55,
+    "special_defence": 55,
+    "speed": 85
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:pufferfish",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "minecraft:prismarine_shard",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:poisonsting",
+    "1:bubble",
+    "4:harden",
+    "8:watergun",
+    "12:fellstinger",
+    "16:minimize",
+    "20:spikes",
+    "24:brine",
+    "28:poisonjab",
+    "32:pinmissile",
+    "36:toxicspikes",
+    "40:stockpile",
+    "40:spitup",
+    "44:toxic",
+    "48:aquatail",
+    "52:acupressure",
+    "56:destinybond",
+    "egg:acidspray",
+    "egg:aquajet",
+    "egg:astonish",
+    "egg:barbbarrage",
+    "egg:bubblebeam",
+    "egg:flail",
+    "egg:haze",
+    "egg:selfdestruct",
+    "egg:supersonic",
+    "egg:waterpulse",
+    "tm:acidspray",
+    "tm:agility",
+    "tm:aquatail",
+    "tm:assurance",
+    "tm:blizzard",
+    "tm:bounce",
+    "tm:brine",
+    "tm:chillingwater",
+    "tm:crunch",
+    "tm:curse",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:flipturn",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:gyroball",
+    "tm:hail",
+    "tm:haze",
+    "tm:headbutt",
+    "tm:hex",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:liquidation",
+    "tm:mudshot",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:poisontail",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:rollout",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:selfdestruct",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:spikes",
+    "tm:spite",
+    "tm:steelroller",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:aquatail",
+    "tutor:bounce",
+    "tutor:dive",
+    "tutor:flipturn",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:liquidation",
+    "tutor:painsplit",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rollout",
+    "tutor:scaleshot",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spikes",
+    "tutor:spite",
+    "tutor:steelroller",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:defensecurl",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger"
+  ],
+  "forms": [
+    "Hisui"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "19-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lukewarm_ocean",
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0211_qwilfish.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water",
+          "ocean_monument"
+        ],
+        "rarity": "common",
+        "weight": 60.0,
+        "levels": "19-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0211_qwilfish.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "19-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lukewarm_ocean",
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0211_qwilfish.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 10.0,
+        "levels": "19-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lukewarm_ocean",
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0211_qwilfish.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 100.0,
+        "levels": "19-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0211_qwilfish.json",
+        "structures": [
+          "minecraft:monument"
+        ],
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "19-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lukewarm_ocean",
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0211_qwilfish.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water",
+          "ocean_monument"
+        ],
+        "rarity": "common",
+        "weight": 60.0,
+        "levels": "19-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0211_qwilfish.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "19-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lukewarm_ocean",
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0211_qwilfish.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 10.0,
+        "levels": "19-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lukewarm_ocean",
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0211_qwilfish.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 100.0,
+        "levels": "19-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0211_qwilfish.json",
+        "structures": [
+          "minecraft:monument"
+        ],
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "19-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_cold"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0211_qwilfish.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "19-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_cold"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0211_qwilfish.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 10.0,
+        "levels": "19-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_cold"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0211_qwilfish.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/qwilfish.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/qwilfish_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/qwilfish.json"
+  ]
+}

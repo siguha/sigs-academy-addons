@@ -1,0 +1,257 @@
+{
+  "id": "finizen",
+  "dexnum": 963,
+  "name": "Finizen",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "waterveil",
+    "h:waterveil"
+  ],
+  "eggGroups": [
+    "field",
+    "water_2"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 45,
+    "defence": 40,
+    "special_attack": 45,
+    "special_defence": 40,
+    "speed": 75
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "slow",
+  "catchRate": 200,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:cod",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:supersonic",
+    "1:watergun",
+    "7:astonish",
+    "10:focusenergy",
+    "13:aquajet",
+    "17:doublehit",
+    "21:dive",
+    "25:charm",
+    "29:acrobatics",
+    "34:encore",
+    "39:aquatail",
+    "44:mist",
+    "50:hydropump",
+    "egg:boomburst",
+    "egg:bounce",
+    "egg:counter",
+    "egg:haze",
+    "egg:tickle",
+    "tm:acrobatics",
+    "tm:agility",
+    "tm:aquatail",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:disarmingvoice",
+    "tm:dive",
+    "tm:drainingkiss",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:focusenergy",
+    "tm:haze",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:liquidation",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:zenheadbutt",
+    "tutor:aquatail",
+    "tutor:bounce",
+    "tutor:dive",
+    "tutor:focusenergy",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:liquidation",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:waterpulse",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "finizen_palafin",
+      "variant": "level_up",
+      "result": "palafin dolphin_form=zero",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "flipturn"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 5.04,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0963_finizen.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 5.04,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0963_finizen.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0963_finizen.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 5.04,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0963_finizen.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 5.04,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0963_finizen.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0963_finizen.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/finizen.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/finizen_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/finizen.json"
+  ]
+}

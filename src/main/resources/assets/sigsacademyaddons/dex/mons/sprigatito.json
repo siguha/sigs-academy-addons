@@ -1,0 +1,176 @@
+{
+  "id": "sprigatito",
+  "dexnum": 906,
+  "name": "Sprigatito",
+  "primaryType": "grass",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen9",
+    "starter"
+  ],
+  "abilities": [
+    "overgrow",
+    "h:protean"
+  ],
+  "eggGroups": [
+    "field",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 61,
+    "defence": 54,
+    "special_attack": 45,
+    "special_defence": 45,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:tailwhip",
+    "1:leafage",
+    "7:bite",
+    "10:honeclaws",
+    "13:magicalleaf",
+    "15:quickattack",
+    "17:seedbomb",
+    "21:uturn",
+    "25:worryseed",
+    "28:slash",
+    "32:energyball",
+    "36:playrough",
+    "egg:allyswitch",
+    "egg:copycat",
+    "egg:leechseed",
+    "egg:petalblizzard",
+    "egg:suckerpunch",
+    "tm:acrobatics",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:disarmingvoice",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:leafstorm",
+    "tm:magicalleaf",
+    "tm:mudslap",
+    "tm:nastyplot",
+    "tm:petalblizzard",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:seedbomb",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:uturn",
+    "tm:worryseed",
+    "tutor:allyswitch",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:grasspledge",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:magicalleaf",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:worryseed"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "sprigatito_floragato",
+      "variant": "level_up",
+      "result": "floragato",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_floral",
+            "#cobblemon:is_magical"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0906_sprigatito.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/sprigatito.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/sprigatito_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/sprigatito.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation9\\sprigatito.json"
+  ]
+}

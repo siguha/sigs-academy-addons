@@ -1,0 +1,192 @@
+{
+  "id": "grookey",
+  "dexnum": 810,
+  "name": "Grookey",
+  "primaryType": "grass",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen8",
+    "starter"
+  ],
+  "abilities": [
+    "overgrow",
+    "h:grassysurge"
+  ],
+  "eggGroups": [
+    "field",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 50,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:stick",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:growl",
+    "6:branchpoke",
+    "8:taunt",
+    "12:razorleaf",
+    "17:screech",
+    "20:knockoff",
+    "24:slam",
+    "28:uproar",
+    "32:woodhammer",
+    "36:endeavor",
+    "egg:fakeout",
+    "egg:growth",
+    "egg:hammerarm",
+    "egg:leechseed",
+    "egg:strength",
+    "egg:worryseed",
+    "tm:acrobatics",
+    "tm:assurance",
+    "tm:bodyslam",
+    "tm:bulletseed",
+    "tm:drainpunch",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:focusenergy",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:knockoff",
+    "tm:leafstorm",
+    "tm:lowkick",
+    "tm:magicalleaf",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:naturepower",
+    "tm:protect",
+    "tm:rest",
+    "tm:screech",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:workup",
+    "tm:worryseed",
+    "tutor:drainpunch",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:falseswipe",
+    "tutor:focusenergy",
+    "tutor:gigadrain",
+    "tutor:grasspledge",
+    "tutor:grassyglide",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:magicalleaf",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:uproar",
+    "tutor:worryseed"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "grookey_thwackey",
+      "variant": "level_up",
+      "result": "thwackey",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "doublehit"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0810_grookey.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/grookey.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/grookey_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/grookey.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation8\\grookey.json"
+  ]
+}

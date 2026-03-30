@@ -1,0 +1,268 @@
+{
+  "id": "exploud",
+  "dexnum": 295,
+  "name": "Exploud",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "soundproof",
+    "h:scrappy"
+  ],
+  "eggGroups": [
+    "monster",
+    "field"
+  ],
+  "baseStats": {
+    "hp": 104,
+    "attack": 91,
+    "defence": 63,
+    "special_attack": 91,
+    "special_defence": 73,
+    "speed": 68
+  },
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:throat_spray",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:icefang",
+    "1:firefang",
+    "1:thunderfang",
+    "1:pound",
+    "1:astonish",
+    "1:howl",
+    "1:bite",
+    "1:crunch",
+    "1:synchronoise",
+    "1:echoedvoice",
+    "15:rest",
+    "15:sleeptalk",
+    "23:stomp",
+    "29:roar",
+    "36:supersonic",
+    "45:uproar",
+    "54:screech",
+    "63:hypervoice",
+    "72:boomburst",
+    "81:hyperbeam",
+    "egg:circlethrow",
+    "egg:disarmingvoice",
+    "egg:endeavor",
+    "egg:extrasensory",
+    "egg:hammerarm",
+    "egg:smellingsalts",
+    "egg:smokescreen",
+    "egg:snore",
+    "egg:swagger",
+    "egg:synchronoise",
+    "egg:takedown",
+    "egg:whirlwind",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:crunch",
+    "tm:disarmingvoice",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:incinerate",
+    "tm:lowkick",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:mudslap",
+    "tm:outrage",
+    "tm:overheat",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:roar",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:terrainpulse",
+    "tm:thunderfang",
+    "tm:thunderpunch",
+    "tm:torment",
+    "tm:uproar",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:bulldoze",
+    "tutor:endeavor",
+    "tutor:firefang",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:stompingtantrum",
+    "tutor:terrainpulse",
+    "tutor:thunderfang",
+    "tutor:thunderpunch",
+    "tutor:uproar",
+    "tutor:waterpulse",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:defensecurl",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:psychup",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:toxic",
+    "special:teeterdance"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.16,
+        "levels": "40-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0295_exploud.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.02,
+        "levels": "40-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0295_exploud.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/exploud.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/exploud_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/exploud.json"
+  ]
+}

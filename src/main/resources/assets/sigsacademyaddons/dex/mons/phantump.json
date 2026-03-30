@@ -1,0 +1,254 @@
+{
+  "id": "phantump",
+  "dexnum": 708,
+  "name": "Phantump",
+  "primaryType": "ghost",
+  "secondaryType": "grass",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "naturalcure",
+    "frisk",
+    "h:harvest"
+  ],
+  "eggGroups": [
+    "grass",
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 43,
+    "attack": 70,
+    "defence": 48,
+    "special_attack": 50,
+    "special_defence": 60,
+    "speed": 38
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 120,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:jack_o_lantern",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:spell_tag",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:astonish",
+    "4:branchpoke",
+    "8:leechseed",
+    "12:confuseray",
+    "16:willowisp",
+    "20:hex",
+    "24:growth",
+    "28:hornleech",
+    "32:curse",
+    "36:phantomforce",
+    "40:ingrain",
+    "44:woodhammer",
+    "48:destinybond",
+    "52:forestscurse",
+    "egg:allyswitch",
+    "egg:bestow",
+    "egg:disable",
+    "egg:feintattack",
+    "egg:grudge",
+    "egg:suckerpunch",
+    "tm:allyswitch",
+    "tm:bulldoze",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:dreameater",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:foulplay",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:hex",
+    "tm:imprison",
+    "tm:lashout",
+    "tm:magicalleaf",
+    "tm:magiccoat",
+    "tm:naturepower",
+    "tm:nightshade",
+    "tm:painsplit",
+    "tm:phantomforce",
+    "tm:poisonjab",
+    "tm:poltergeist",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:skillswap",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:strength",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:venomdrench",
+    "tm:willowisp",
+    "tm:worryseed",
+    "tutor:allyswitch",
+    "tutor:bulldoze",
+    "tutor:darkpulse",
+    "tutor:energyball",
+    "tutor:foulplay",
+    "tutor:gigadrain",
+    "tutor:grassyglide",
+    "tutor:lashout",
+    "tutor:magicalleaf",
+    "tutor:magiccoat",
+    "tutor:painsplit",
+    "tutor:poisonjab",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:skillswap",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "phantump_trevenant",
+      "variant": "trade",
+      "result": "trevenant",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "shadowclaw"
+      ],
+      "requirements": []
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 1.9,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0708_phantump.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 9.5,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0708_phantump.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/phantump.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/phantump_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/phantump.json"
+  ]
+}

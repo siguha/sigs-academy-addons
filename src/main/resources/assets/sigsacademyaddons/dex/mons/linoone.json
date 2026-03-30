@@ -1,0 +1,246 @@
+{
+  "id": "linoone",
+  "dexnum": 264,
+  "name": "Linoone",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3",
+    "hoennian_form"
+  ],
+  "abilities": [
+    "pickup",
+    "gluttony",
+    "h:quickfeet"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 78,
+    "attack": 70,
+    "defence": 61,
+    "special_attack": 50,
+    "special_defence": 61,
+    "speed": 100
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 90,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:switcheroo",
+    "1:tackle",
+    "1:growl",
+    "1:tailwhip",
+    "1:sandattack",
+    "1:odorsleuth",
+    "1:mudsport",
+    "1:slash",
+    "1:bestow",
+    "1:rototiller",
+    "1:pinmissile",
+    "1:babydolleyes",
+    "9:covet",
+    "12:headbutt",
+    "15:honeclaws",
+    "18:furyswipes",
+    "23:rest",
+    "28:takedown",
+    "33:fling",
+    "38:flail",
+    "43:bellydrum",
+    "48:doubleedge",
+    "egg:bestow",
+    "egg:extremespeed",
+    "egg:mudsport",
+    "egg:pursuit",
+    "egg:simplebeam",
+    "egg:tickle",
+    "tm:babydolleyes",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:covet",
+    "tm:cut",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gunkshot",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:lastresort",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:pinmissile",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:rollout",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:surf",
+    "tm:swift",
+    "tm:tailslap",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:trick",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:workup",
+    "tutor:babydolleyes",
+    "tutor:chargebeam",
+    "tutor:covet",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:lastresort",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:superfang",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:thunderbolt",
+    "tutor:trick",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:defensecurl",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:rockclimb",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [
+    "Galar"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "20-42",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_temperate"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0264_linoone.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "20-42",
+        "biomeTags": {
+          "include": [
+            "aether:skyroot_forest",
+            "aether:skyroot_woodland"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0264_linoone.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/linoone.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/linoone_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/linoone.json"
+  ]
+}

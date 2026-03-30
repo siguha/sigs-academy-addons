@@ -1,0 +1,253 @@
+{
+  "id": "voltorb",
+  "dexnum": 100,
+  "name": "Voltorb",
+  "primaryType": "electric",
+  "secondaryType": "",
+  "maleRatio": -1,
+  "labels": [
+    "gen1",
+    "kantonian_form"
+  ],
+  "abilities": [
+    "soundproof",
+    "static",
+    "h:aftermath"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 30,
+    "defence": 50,
+    "special_attack": 55,
+    "special_defence": 55,
+    "speed": 100
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:gunpowder",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:charge",
+    "1:tackle",
+    "1:sonicboom",
+    "4:thundershock",
+    "6:eerieimpulse",
+    "9:spark",
+    "11:rollout",
+    "13:screech",
+    "16:chargebeam",
+    "20:swift",
+    "22:electroball",
+    "26:selfdestruct",
+    "29:lightscreen",
+    "34:magnetrise",
+    "37:discharge",
+    "41:explosion",
+    "46:gyroball",
+    "50:mirrorcoat",
+    "egg:metalsound",
+    "egg:recycle",
+    "tm:agility",
+    "tm:assurance",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:doubleedge",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:flash",
+    "tm:foulplay",
+    "tm:gyroball",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:magnetrise",
+    "tm:metalsound",
+    "tm:protect",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:rollout",
+    "tm:screech",
+    "tm:selfdestruct",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:steelroller",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:chargebeam",
+    "tutor:electroweb",
+    "tutor:foulplay",
+    "tutor:helpinghand",
+    "tutor:magiccoat",
+    "tutor:magnetrise",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:rollout",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:steelroller",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:wildcharge",
+    "legacy:bide",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:teleport",
+    "legacy:toxic",
+    "legacy:zapcannon",
+    "special:refresh"
+  ],
+  "forms": [
+    "Hisui"
+  ],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "voltorb_electrode",
+      "variant": "level_up",
+      "result": "electrode",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "8-33",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0100_voltorb.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "8-33",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0100_voltorb.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 84.0,
+        "levels": "8-33",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0100_voltorb.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:lightning_rod"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/voltorb.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/voltorb_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/voltorb.json"
+  ]
+}

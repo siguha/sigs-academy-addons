@@ -1,0 +1,315 @@
+{
+  "id": "solrock",
+  "dexnum": 338,
+  "name": "Solrock",
+  "primaryType": "rock",
+  "secondaryType": "psychic",
+  "maleRatio": -1,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "levitate",
+    "h:levitate"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 95,
+    "defence": 85,
+    "special_attack": 55,
+    "special_defence": 65,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:sun_stone",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:colbur_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:harden",
+    "1:confusion",
+    "1:rockthrow",
+    "1:psywave",
+    "1:healblock",
+    "1:flareblitz",
+    "1:morningsun",
+    "5:hypnosis",
+    "10:rockpolish",
+    "15:rockslide",
+    "20:zenheadbutt",
+    "25:cosmicpower",
+    "30:psychic",
+    "35:stoneedge",
+    "40:solarbeam",
+    "45:wonderroom",
+    "50:explosion",
+    "tm:acrobatics",
+    "tm:allyswitch",
+    "tm:ancientpower",
+    "tm:batonpass",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:cosmicpower",
+    "tm:dreameater",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:embargo",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firespin",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:flash",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:gyroball",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:incinerate",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:laserfocus",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:meteorbeam",
+    "tm:overheat",
+    "tm:painsplit",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:selfdestruct",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:solarbeam",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:trickroom",
+    "tm:weatherball",
+    "tm:willowisp",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:ancientpower",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:earthpower",
+    "tutor:flamethrower",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:laserfocus",
+    "tutor:magiccoat",
+    "tutor:meteorbeam",
+    "tutor:painsplit",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:confide",
+    "legacy:defensecurl",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "21-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_dripstone"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0338_solrock.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 10.0,
+        "levels": "21-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_dripstone"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0338_solrock.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 2.0,
+        "levels": "21-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0338_solrock.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 20.0,
+        "levels": "21-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0338_solrock.json",
+        "structures": [
+          "cobblemon:ruins/sol_henge_ruins"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 6.0,
+        "levels": "21-46",
+        "biomeTags": {
+          "include": [
+            "aether:skyroot_grove",
+            "aether:skyroot_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0338_solrock.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/solrock.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/solrock_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/solrock.json"
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "id": "jangmoo",
+  "dexnum": 782,
+  "name": "Jangmo-o",
+  "primaryType": "dragon",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "bulletproof",
+    "soundproof",
+    "h:overcoat"
+  ],
+  "eggGroups": [
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 55,
+    "defence": 65,
+    "special_attack": 45,
+    "special_defence": 45,
+    "speed": 45
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:dragon_scale",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:razor_claw",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:roseli_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "1:bide",
+    "4:protect",
+    "8:dragontail",
+    "12:scaryface",
+    "16:headbutt",
+    "20:workup",
+    "24:screech",
+    "28:irondefense",
+    "32:dragonclaw",
+    "36:nobleroar",
+    "40:dragondance",
+    "44:outrage",
+    "egg:counter",
+    "egg:dragonbreath",
+    "egg:focuspunch",
+    "tm:aquatail",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:dracometeor",
+    "tm:dragoncheer",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:dualchop",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:headbutt",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:lowkick",
+    "tm:outrage",
+    "tm:payback",
+    "tm:protect",
+    "tm:rest",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:workup",
+    "tm:xscissor",
+    "tutor:aquatail",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:dualchop",
+    "tutor:falseswipe",
+    "tutor:focuspunch",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:lowkick",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:scaleshot",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:xscissor",
+    "legacy:aerialace",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:fling",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:uproar"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "jangmoo_hakamoo",
+      "variant": "level_up",
+      "result": "hakamoo",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "skyuppercut"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0782_jangmoo.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "rare",
+        "weight": 7.5,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0782_jangmoo.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/jangmo-o.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/jangmo-o_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/jangmoo.json"
+  ]
+}

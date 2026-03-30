@@ -1,0 +1,222 @@
+{
+  "id": "dondozo",
+  "dexnum": 977,
+  "name": "Dondozo",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "unaware",
+    "oblivious",
+    "h:waterveil"
+  ],
+  "eggGroups": [
+    "water_2"
+  ],
+  "baseStats": {
+    "hp": 150,
+    "attack": 100,
+    "defence": 115,
+    "special_attack": 65,
+    "special_defence": 65,
+    "speed": 35
+  },
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 25,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:salmon",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:supersonic",
+    "1:watergun",
+    "5:tickle",
+    "10:flail",
+    "15:rest",
+    "15:sleeptalk",
+    "20:dive",
+    "25:nobleroar",
+    "30:soak",
+    "35:bodyslam",
+    "40:aquatail",
+    "45:raindance",
+    "50:orderup",
+    "55:heavyslam",
+    "60:doubleedge",
+    "65:wavecrash",
+    "egg:curse",
+    "egg:fissure",
+    "egg:thrash",
+    "egg:yawn",
+    "tm:aquatail",
+    "tm:avalanche",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:chillingwater",
+    "tm:crunch",
+    "tm:curse",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:gigaimpact",
+    "tm:heavyslam",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icefang",
+    "tm:liquidation",
+    "tm:outrage",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:surf",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:zenheadbutt",
+    "tutor:aquatail",
+    "tutor:bulldoze",
+    "tutor:dive",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icefang",
+    "tutor:liquidation",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:waterpulse",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "rare",
+        "weight": 10.0,
+        "levels": "28-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0977_dondozo.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 10.0,
+        "levels": "28-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_bamboo",
+            "#cobblemon:is_forest",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0977_dondozo.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "rare",
+        "weight": 10.0,
+        "levels": "28-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0977_dondozo.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 10.0,
+        "levels": "28-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_bamboo",
+            "#cobblemon:is_forest",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0977_dondozo.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/dondozo.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/dondozo_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/dondozo.json"
+  ]
+}

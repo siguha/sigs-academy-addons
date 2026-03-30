@@ -1,0 +1,228 @@
+{
+  "id": "vanillish",
+  "dexnum": 583,
+  "name": "Vanillish",
+  "primaryType": "ice",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "icebody",
+    "snowcloak",
+    "h:weakarmor"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 51,
+    "attack": 65,
+    "defence": 65,
+    "special_attack": 80,
+    "special_defence": 75,
+    "speed": 59
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 120,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:snowball",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:never_melt_ice",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:aspear_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:harden",
+    "1:astonish",
+    "1:mist",
+    "1:taunt",
+    "1:mirrorshot",
+    "12:icywind",
+    "16:avalanche",
+    "20:hail",
+    "24:iciclespear",
+    "28:uproar",
+    "32:acidarmor",
+    "38:mirrorcoat",
+    "44:icebeam",
+    "50:blizzard",
+    "56:sheercold",
+    "egg:auroraveil",
+    "egg:autotomize",
+    "egg:explosion",
+    "egg:iceshard",
+    "egg:iciclecrash",
+    "egg:magnetrise",
+    "egg:mirrorshot",
+    "egg:naturalgift",
+    "egg:powdersnow",
+    "tm:allyswitch",
+    "tm:auroraveil",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:frostbreath",
+    "tm:hail",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:irondefense",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:magnetrise",
+    "tm:naturalgift",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:selfdestruct",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:uproar",
+    "tm:waterpulse",
+    "tutor:allyswitch",
+    "tutor:flashcannon",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:magiccoat",
+    "tutor:magnetrise",
+    "tutor:rest",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:uproar",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "vanillish_vanilluxe",
+      "variant": "level_up",
+      "result": "vanilluxe",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 47
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.18,
+        "levels": "35-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0583_vanillish.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.864,
+        "levels": "35-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0583_vanillish.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.54,
+        "levels": "35-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_frozen"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0583_vanillish.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/vanillish.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/vanillish_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/vanillish.json"
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "id": "bounsweet",
+  "dexnum": 761,
+  "name": "Bounsweet",
+  "primaryType": "grass",
+  "secondaryType": "",
+  "maleRatio": 0,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "leafguard",
+    "oblivious",
+    "h:sweetveil"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 42,
+    "attack": 30,
+    "defence": 38,
+    "special_attack": 30,
+    "special_defence": 38,
+    "speed": 32
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 235,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:grassy_seed",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:splash",
+    "4:playnice",
+    "8:rapidspin",
+    "12:razorleaf",
+    "16:sweetscent",
+    "20:magicalleaf",
+    "24:flail",
+    "28:teeterdance",
+    "32:aromaticmist",
+    "egg:acupressure",
+    "egg:aromatherapy",
+    "egg:endeavor",
+    "egg:feint",
+    "egg:grasswhistle",
+    "egg:synthesis",
+    "tm:bounce",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:helpinghand",
+    "tm:leafstorm",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:naturepower",
+    "tm:playrough",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:worryseed",
+    "tm:zenheadbutt",
+    "tutor:bounce",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:magicalleaf",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:synthesis",
+    "tutor:worryseed",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "bounsweet_steenee",
+      "variant": "level_up",
+      "result": "steenee",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "doubleslap"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "1-21",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0761_bounsweet.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/bounsweet.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/bounsweet_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/bounsweet.json"
+  ]
+}

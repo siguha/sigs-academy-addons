@@ -1,0 +1,325 @@
+{
+  "id": "lanturn",
+  "dexnum": 171,
+  "name": "Lanturn",
+  "primaryType": "water",
+  "secondaryType": "electric",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "voltabsorb",
+    "illuminate",
+    "h:waterabsorb"
+  ],
+  "eggGroups": [
+    "water_2"
+  ],
+  "baseStats": {
+    "hp": 125,
+    "attack": 58,
+    "defence": 58,
+    "special_attack": 76,
+    "special_defence": 76,
+    "speed": 67
+  },
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 75,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:prismarine_crystals",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:deep_sea_scale",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:bubble",
+    "1:supersonic",
+    "1:thunderwave",
+    "1:watergun",
+    "1:stockpile",
+    "1:swallow",
+    "1:spitup",
+    "1:electroball",
+    "1:eerieimpulse",
+    "1:iondeluge",
+    "1:spotlight",
+    "12:bubblebeam",
+    "16:confuseray",
+    "20:spark",
+    "24:charge",
+    "30:discharge",
+    "36:aquaring",
+    "42:flail",
+    "48:takedown",
+    "54:hydropump",
+    "egg:iondeluge",
+    "egg:mist",
+    "egg:psybeam",
+    "egg:soak",
+    "egg:suckerpunch",
+    "egg:waterpulse",
+    "tm:agility",
+    "tm:amnesia",
+    "tm:aquatail",
+    "tm:blizzard",
+    "tm:bounce",
+    "tm:brine",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:chillingwater",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:dazzlinggleam",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:flipturn",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:healbell",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:liquidation",
+    "tm:muddywater",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:raindance",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:scald",
+    "tm:screech",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:surf",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:voltswitch",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:wildcharge",
+    "tutor:aquatail",
+    "tutor:bounce",
+    "tutor:chargebeam",
+    "tutor:dazzlinggleam",
+    "tutor:dive",
+    "tutor:electroweb",
+    "tutor:flipturn",
+    "tutor:gigaimpact",
+    "tutor:healbell",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:liquidation",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:suckerpunch",
+    "tutor:thunderbolt",
+    "tutor:waterpulse",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:zapcannon"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "27-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_deep_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0171_lanturn.json",
+        "sky": {
+          "canSeeSky": true
+        },
+        "yLevel": {
+          "maxY": 48
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "27-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0171_lanturn.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "27-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_deep_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0171_lanturn.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "yLevel": {
+          "maxY": 48
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "27-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0171_lanturn.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "27-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0171_lanturn.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "27-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0171_lanturn.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/lanturn.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/lanturn_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/lanturn.json"
+  ]
+}

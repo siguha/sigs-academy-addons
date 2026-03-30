@@ -1,0 +1,697 @@
+{
+  "id": "spewpa",
+  "dexnum": 665,
+  "name": "Spewpa",
+  "primaryType": "bug",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "shedskin",
+    "h:friendguard"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 22,
+    "defence": 60,
+    "special_attack": 27,
+    "special_defence": 30,
+    "speed": 29
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 120,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:bright_powder",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:harden",
+    "1:protect",
+    "1:stunspore",
+    "1:tackle",
+    "egg:poisonpowder",
+    "egg:ragepowder",
+    "egg:stunspore",
+    "tm:bugbite",
+    "tm:irondefense",
+    "tm:pounce",
+    "tm:protect",
+    "tm:strugglebug",
+    "tm:terablast",
+    "tutor:bugbite",
+    "tutor:irondefense",
+    "legacy:electroweb"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "spewpa_vivillonarchipelago",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=archipelago",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/vivillon/archipelago"
+        },
+        {
+          "variant": "biome",
+          "biomeAnticondition": "#cobblemon:evolution/vivillon/archipelago_anti"
+        },
+        {
+          "variant": "structure",
+          "structureAnticondition": "#minecraft:village"
+        }
+      ]
+    },
+    {
+      "id": "spewpa_vivilloncontinental",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=continental",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/vivillon/continental"
+        },
+        {
+          "variant": "biome",
+          "biomeAnticondition": "#cobblemon:evolution/vivillon/continental_anti"
+        },
+        {
+          "variant": "structure",
+          "structureAnticondition": "#minecraft:village"
+        }
+      ]
+    },
+    {
+      "id": "spewpa_vivillonelegant",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=elegant",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/vivillon/elegant"
+        },
+        {
+          "variant": "biome",
+          "biomeAnticondition": "#cobblemon:evolution/vivillon/elegant_anti"
+        },
+        {
+          "variant": "structure",
+          "structureAnticondition": "#minecraft:village"
+        }
+      ]
+    },
+    {
+      "id": "spewpa_vivillonfancy",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=fancy",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/vivillon/fancy"
+        },
+        {
+          "variant": "structure",
+          "structureAnticondition": "#minecraft:village"
+        }
+      ]
+    },
+    {
+      "id": "spewpa_vivillongarden",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=garden",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/vivillon/garden"
+        },
+        {
+          "variant": "biome",
+          "biomeAnticondition": "#cobblemon:evolution/vivillon/garden_anti"
+        },
+        {
+          "variant": "structure",
+          "structureAnticondition": "#minecraft:village"
+        }
+      ]
+    },
+    {
+      "id": "spewpa_vivillonhighplains",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=high-plains",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/vivillon/high_plains"
+        },
+        {
+          "variant": "structure",
+          "structureAnticondition": "#minecraft:village"
+        }
+      ]
+    },
+    {
+      "id": "spewpa_vivillonicysnow",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=icy-snow",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/vivillon/icy_snow"
+        },
+        {
+          "variant": "biome",
+          "biomeAnticondition": "#cobblemon:evolution/vivillon/icy_snow_anti"
+        },
+        {
+          "variant": "structure",
+          "structureAnticondition": "#minecraft:village"
+        }
+      ]
+    },
+    {
+      "id": "spewpa_vivillonjungle",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=jungle",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/vivillon/jungle"
+        },
+        {
+          "variant": "biome",
+          "biomeAnticondition": "#cobblemon:evolution/vivillon/jungle_anti"
+        },
+        {
+          "variant": "structure",
+          "structureAnticondition": "#minecraft:village"
+        }
+      ]
+    },
+    {
+      "id": "spewpa_vivillonmarine",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=marine",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/vivillon/marine"
+        },
+        {
+          "variant": "biome",
+          "biomeAnticondition": "#cobblemon:evolution/vivillon/marine_anti"
+        },
+        {
+          "variant": "structure",
+          "structureAnticondition": "#minecraft:village"
+        }
+      ]
+    },
+    {
+      "id": "spewpa_vivillonmeadow",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=meadow",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/vivillon/meadow"
+        },
+        {
+          "variant": "biome",
+          "biomeAnticondition": "#cobblemon:evolution/vivillon/meadow_anti"
+        },
+        {
+          "variant": "structure",
+          "structureAnticondition": "#minecraft:village"
+        }
+      ]
+    },
+    {
+      "id": "spewpa_vivillonmodern",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=modern",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "structure",
+          "structureCondition": "#minecraft:village"
+        }
+      ]
+    },
+    {
+      "id": "spewpa_vivillonmonsoon",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=monsoon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/vivillon/monsoon"
+        },
+        {
+          "variant": "biome",
+          "biomeAnticondition": "#cobblemon:evolution/vivillon/monsoon_anti"
+        },
+        {
+          "variant": "structure",
+          "structureAnticondition": "#minecraft:village"
+        }
+      ]
+    },
+    {
+      "id": "spewpa_vivillonocean",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=ocean",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/vivillon/ocean"
+        },
+        {
+          "variant": "biome",
+          "biomeAnticondition": "#cobblemon:evolution/vivillon/ocean_anti"
+        },
+        {
+          "variant": "structure",
+          "structureAnticondition": "#minecraft:village"
+        }
+      ]
+    },
+    {
+      "id": "spewpa_vivillonpolar",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=polar",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/vivillon/polar"
+        },
+        {
+          "variant": "structure",
+          "structureAnticondition": "#minecraft:village"
+        }
+      ]
+    },
+    {
+      "id": "spewpa_vivillonriver",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=river",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/vivillon/river"
+        },
+        {
+          "variant": "biome",
+          "biomeAnticondition": "#cobblemon:evolution/vivillon/river_anti"
+        },
+        {
+          "variant": "structure",
+          "structureAnticondition": "#minecraft:village"
+        }
+      ]
+    },
+    {
+      "id": "spewpa_vivillonsandstorm",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=sandstorm",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/vivillon/sandstorm"
+        },
+        {
+          "variant": "biome",
+          "biomeAnticondition": "#cobblemon:evolution/vivillon/sandstorm_anti"
+        },
+        {
+          "variant": "structure",
+          "structureAnticondition": "#minecraft:village"
+        }
+      ]
+    },
+    {
+      "id": "spewpa_vivillonsavanna",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=savanna",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/vivillon/savanna"
+        },
+        {
+          "variant": "biome",
+          "biomeAnticondition": "#cobblemon:evolution/vivillon/savanna_anti"
+        },
+        {
+          "variant": "structure",
+          "structureAnticondition": "#minecraft:village"
+        }
+      ]
+    },
+    {
+      "id": "spewpa_vivillonsun",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=sun",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/vivillon/sun"
+        },
+        {
+          "variant": "structure",
+          "structureAnticondition": "#minecraft:village"
+        }
+      ]
+    },
+    {
+      "id": "spewpa_vivillontundra",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=tundra",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/vivillon/tundra"
+        },
+        {
+          "variant": "biome",
+          "biomeAnticondition": "#cobblemon:evolution/vivillon/tundra_anti"
+        },
+        {
+          "variant": "structure",
+          "structureAnticondition": "#minecraft:village"
+        }
+      ]
+    },
+    {
+      "id": "spewpa_vivilloninferno",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=inferno",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/vivillon/inferno"
+        }
+      ]
+    },
+    {
+      "id": "spewpa_vivillonvoid",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=void",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/vivillon/void"
+        }
+      ]
+    },
+    {
+      "id": "spewpa_vivillonforsaken",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=forsaken",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/vivillon/forsaken"
+        }
+      ]
+    },
+    {
+      "id": "spewpa_vivillonpokeball",
+      "variant": "level_up",
+      "result": "vivillon vivillon_wings=poke-ball",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        },
+        {
+          "variant": "advancement",
+          "requiredAdvancement": "cobblemon:catch_all_vivillon"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "foliage"
+        ],
+        "rarity": "common",
+        "weight": 3.0,
+        "levels": "9-21",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_floral",
+            "#cobblemon:is_plains",
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0665_spewpa.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "9-21",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:floral_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0665_spewpa.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/spewpa.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/spewpa_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/spewpa.json"
+  ]
+}

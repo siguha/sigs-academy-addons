@@ -1,0 +1,248 @@
+{
+  "id": "maschiff",
+  "dexnum": 942,
+  "name": "Maschiff",
+  "primaryType": "dark",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "intimidate",
+    "runaway",
+    "h:stakeout"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 78,
+    "defence": 60,
+    "special_attack": 40,
+    "special_defence": 51,
+    "speed": 51
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 150,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:rotten_flesh",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:tanga_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "1:scaryface",
+    "4:lick",
+    "7:snarl",
+    "10:honeclaws",
+    "14:bite",
+    "18:roar",
+    "22:headbutt",
+    "26:payback",
+    "31:crunch",
+    "35:swagger",
+    "39:reversal",
+    "43:jawlock",
+    "49:doubleedge",
+    "egg:destinybond",
+    "egg:endeavor",
+    "egg:playrough",
+    "egg:retaliate",
+    "tm:bodyslam",
+    "tm:charm",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:firefang",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:icefang",
+    "tm:lashout",
+    "tm:payback",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:reversal",
+    "tm:roar",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderfang",
+    "tm:trailblaze",
+    "tutor:darkpulse",
+    "tutor:endeavor",
+    "tutor:firefang",
+    "tutor:helpinghand",
+    "tutor:icefang",
+    "tutor:lashout",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:thunderfang"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "maschiff_mabosstiff",
+      "variant": "level_up",
+      "result": "mabosstiff",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "comeuppance"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0942_maschiff.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0942_maschiff.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "pillager_outpost"
+        ],
+        "rarity": "common",
+        "weight": 90.0,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0942_maschiff.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "mansion"
+        ],
+        "rarity": "common",
+        "weight": 90.0,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0942_maschiff.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/maschiff.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/maschiff_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/maschiff.json"
+  ]
+}

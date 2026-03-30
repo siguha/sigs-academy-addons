@@ -1,0 +1,267 @@
+{
+  "id": "croagunk",
+  "dexnum": 453,
+  "name": "Croagunk",
+  "primaryType": "poison",
+  "secondaryType": "fighting",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "anticipation",
+    "dryskin",
+    "h:poisontouch"
+  ],
+  "eggGroups": [
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 48,
+    "attack": 61,
+    "defence": 40,
+    "special_attack": 61,
+    "special_defence": 40,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 140,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:black_sludge",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:payapa_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:mudslap",
+    "1:poisonsting",
+    "1:mudbomb",
+    "4:astonish",
+    "8:taunt",
+    "12:flatter",
+    "16:lowkick",
+    "20:venoshock",
+    "24:suckerpunch",
+    "28:swagger",
+    "32:poisonjab",
+    "36:toxic",
+    "40:nastyplot",
+    "44:sludgebomb",
+    "48:belch",
+    "egg:acupressure",
+    "egg:bulletpunch",
+    "egg:counter",
+    "egg:crosschop",
+    "egg:dynamicpunch",
+    "egg:fakeout",
+    "egg:feint",
+    "egg:feintattack",
+    "egg:headbutt",
+    "egg:meditate",
+    "egg:mefirst",
+    "egg:pursuit",
+    "egg:quickguard",
+    "egg:smellingsalts",
+    "egg:vacuumwave",
+    "egg:wakeupslap",
+    "tm:acidspray",
+    "tm:aerialace",
+    "tm:assurance",
+    "tm:batonpass",
+    "tm:bounce",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:chillingwater",
+    "tm:coaching",
+    "tm:dig",
+    "tm:drainpunch",
+    "tm:dualchop",
+    "tm:earthquake",
+    "tm:embargo",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:foulplay",
+    "tm:furycutter",
+    "tm:gunkshot",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snatch",
+    "tm:spite",
+    "tm:strength",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderpunch",
+    "tm:torment",
+    "tm:toxic",
+    "tm:upperhand",
+    "tm:vacuumwave",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tm:workup",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:bounce",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:coaching",
+    "tutor:drainpunch",
+    "tutor:dualchop",
+    "tutor:focuspunch",
+    "tutor:foulplay",
+    "tutor:furycutter",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snatch",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:superfang",
+    "tutor:thunderpunch",
+    "tutor:vacuumwave",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:darkpulse",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "croagunk_toxicroak",
+      "variant": "level_up",
+      "result": "toxicroak",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 37
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0453_croagunk.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/genomons/croagunk.png",
+      "out/sprites/cobblemon/croagunk.png"
+    ],
+    "shiny": [
+      "out/sprites/genomons/croagunk_shiny.png",
+      "out/sprites/cobblemon/croagunk_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/croagunk.json"
+  ]
+}

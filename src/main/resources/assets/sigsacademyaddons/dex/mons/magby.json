@@ -1,0 +1,285 @@
+{
+  "id": "magby",
+  "dexnum": 240,
+  "name": "Magby",
+  "primaryType": "fire",
+  "secondaryType": "",
+  "maleRatio": 0.75,
+  "labels": [
+    "gen2",
+    "baby"
+  ],
+  "abilities": [
+    "flamebody",
+    "h:vitalspirit"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 75,
+    "defence": 37,
+    "special_attack": 70,
+    "special_defence": 55,
+    "speed": 83
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:blaze_powder",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species",
+        "biomes": [
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:nether/is_wasteland"
+        ]
+      },
+      {
+        "item": "cobblemon:magmarizer",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species",
+        "biomes": [
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:nether/is_wasteland"
+        ]
+      },
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species",
+        "biomes": [
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:nether/is_wasteland"
+        ]
+      }
+    ]
+  },
+  "moves": [
+    "1:smog",
+    "1:leer",
+    "1:feintattack",
+    "4:ember",
+    "8:smokescreen",
+    "12:clearsmog",
+    "16:flamewheel",
+    "20:confuseray",
+    "24:scaryface",
+    "28:firepunch",
+    "32:lavaplume",
+    "36:lowkick",
+    "40:flamethrower",
+    "44:sunnyday",
+    "48:fireblast",
+    "egg:barrier",
+    "egg:belch",
+    "egg:bellydrum",
+    "egg:crosschop",
+    "egg:dynamicpunch",
+    "egg:flameburst",
+    "egg:focuspunch",
+    "egg:followme",
+    "egg:karatechop",
+    "egg:machpunch",
+    "tm:acidspray",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:burningjealousy",
+    "tm:confuseray",
+    "tm:covet",
+    "tm:curse",
+    "tm:doubleedge",
+    "tm:dualchop",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firepunch",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:fling",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:lowkick",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:overheat",
+    "tm:poisonjab",
+    "tm:powerswap",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychic",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderpunch",
+    "tm:willowisp",
+    "tutor:burningjealousy",
+    "tutor:covet",
+    "tutor:dualchop",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focusenergy",
+    "tutor:focuspunch",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:lowkick",
+    "tutor:poisonjab",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:sleeptalk",
+    "tutor:thunderpunch",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:detect",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:uproar"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "magby_magmar",
+      "variant": "level_up",
+      "result": "magmar",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "11-36",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_hills"
+          ],
+          "exclude": [
+            "#cobblemon:is_volcanic"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0240_magby.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:lava",
+            "minecraft:magma_block"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "11-36",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_volcanic"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0240_magby.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "11-36",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_basalt",
+            "#cobblemon:nether/is_wasteland"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0240_magby.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/magby.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/magby_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/magby.json"
+  ]
+}

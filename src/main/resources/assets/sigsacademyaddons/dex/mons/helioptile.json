@@ -1,0 +1,295 @@
+{
+  "id": "helioptile",
+  "dexnum": 694,
+  "name": "Helioptile",
+  "primaryType": "electric",
+  "secondaryType": "normal",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "dryskin",
+    "sandveil",
+    "h:solarpower"
+  ],
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 44,
+    "attack": 38,
+    "defence": 33,
+    "special_attack": 61,
+    "special_defence": 43,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 0,
+    "entries": []
+  },
+  "moves": [
+    "1:tailwhip",
+    "1:mudslap",
+    "4:pound",
+    "8:thundershock",
+    "12:quickattack",
+    "16:charge",
+    "20:bulldoze",
+    "24:voltswitch",
+    "28:paraboliccharge",
+    "32:thunderwave",
+    "36:thunderbolt",
+    "40:electrify",
+    "44:thunder",
+    "egg:camouflage",
+    "egg:dragonrush",
+    "egg:dragontail",
+    "egg:glare",
+    "egg:razorwind",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:bulldoze",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:dragontail",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:grassknot",
+    "tm:irontail",
+    "tm:lightscreen",
+    "tm:lowsweep",
+    "tm:magnetrise",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:scaleshot",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:uturn",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:allyswitch",
+    "tutor:bulldoze",
+    "tutor:chargebeam",
+    "tutor:darkpulse",
+    "tutor:electroweb",
+    "tutor:irontail",
+    "tutor:magnetrise",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:rockslide",
+    "tutor:scaleshot",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "helioptile_heliolisk",
+      "variant": "item_interact",
+      "result": "heliolisk",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:sun_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 7,
+        "levels": "10-30",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "minecraft:desert"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0694_helioptile.json",
+        "sky": {
+          "canSeeSky": true
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 7,
+        "levels": "10-30",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "minecraft:savanna"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0694_helioptile.json",
+        "sky": {
+          "canSeeSky": true
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 7,
+        "levels": "10-30",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "minecraft:badlands"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0694_helioptile.json",
+        "sky": {
+          "canSeeSky": true
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 7,
+        "levels": "10-30",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "minecraft:desert"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0694_helioptile.json",
+        "sky": {
+          "canSeeSky": true
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 7,
+        "levels": "10-30",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "minecraft:savanna"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0694_helioptile.json",
+        "sky": {
+          "canSeeSky": true
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 7,
+        "levels": "10-30",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "minecraft:badlands"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0694_helioptile.json",
+        "sky": {
+          "canSeeSky": true
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/genomons/helioptile.png",
+      "out/sprites/cobblemon/helioptile.png"
+    ],
+    "shiny": [
+      "out/sprites/genomons/helioptile_shiny.png",
+      "out/sprites/cobblemon/helioptile_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/helioptile.json"
+  ]
+}

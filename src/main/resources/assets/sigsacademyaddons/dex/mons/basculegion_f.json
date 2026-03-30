@@ -1,0 +1,255 @@
+{
+  "id": "basculegion_f",
+  "dexnum": 902,
+  "name": "Basculegion F",
+  "primaryType": "water",
+  "secondaryType": "ghost",
+  "maleRatio": 0,
+  "labels": [
+    "gen8a"
+  ],
+  "abilities": [
+    "swiftswim",
+    "adaptability",
+    "h:moldbreaker"
+  ],
+  "eggGroups": [
+    "water_2"
+  ],
+  "baseStats": {
+    "hp": 120,
+    "attack": 92,
+    "defence": 65,
+    "special_attack": 100,
+    "special_defence": 75,
+    "speed": 78
+  },
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:salmon",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:shadowball",
+    "1:tailwhip",
+    "1:watergun",
+    "1:phantomforce",
+    "4:tackle",
+    "8:flail",
+    "12:aquajet",
+    "16:bite",
+    "20:scaryface",
+    "24:headbutt",
+    "28:soak",
+    "32:crunch",
+    "36:takedown",
+    "40:uproar",
+    "44:wavecrash",
+    "48:thrash",
+    "52:doubleedge",
+    "56:headsmash",
+    "egg:endeavor",
+    "egg:lastrespects",
+    "tm:agility",
+    "tm:aquatail",
+    "tm:blizzard",
+    "tm:chillingwater",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:doubleedge",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:flipturn",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:hex",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icywind",
+    "tm:liquidation",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:nightshade",
+    "tm:ominouswind",
+    "tm:outrage",
+    "tm:painsplit",
+    "tm:phantomforce",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:spite",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:uproar",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:zenheadbutt",
+    "tutor:aquatail",
+    "tutor:endeavor",
+    "tutor:flipturn",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:icywind",
+    "tutor:liquidation",
+    "tutor:ominouswind",
+    "tutor:outrage",
+    "tutor:painsplit",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:scaleshot",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:swift",
+    "tutor:uproar",
+    "tutor:waterpulse",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "41-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0902_basculegion.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "41-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_forest",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_grassland",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_mountain",
+            "#cobblemon:is_snowy_forest",
+            "#cobblemon:is_taiga",
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0902_basculegion.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "41-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0902_basculegion.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "41-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_forest",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_grassland",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_mountain",
+            "#cobblemon:is_snowy_forest",
+            "#cobblemon:is_taiga",
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0902_basculegion.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/basculegion_female.png",
+      "out/sprites/cobblemon/basculegion_male.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/basculegion_female_shiny.png",
+      "out/sprites/cobblemon/basculegion_male_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8a/basculegion.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation8a\\basculegion.json"
+  ]
+}

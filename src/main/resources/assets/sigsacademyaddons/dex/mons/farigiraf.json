@@ -1,0 +1,243 @@
+{
+  "id": "farigiraf",
+  "dexnum": 981,
+  "name": "Farigiraf",
+  "primaryType": "normal",
+  "secondaryType": "psychic",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "cudchew",
+    "armortail",
+    "h:sapsipper"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 120,
+    "attack": 90,
+    "defence": 70,
+    "special_attack": 110,
+    "special_defence": 70,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:razor_fang",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "1:astonish",
+    "1:powerswap",
+    "1:guardswap",
+    "1:odorsleuth",
+    "5:confusion",
+    "10:assurance",
+    "14:stomp",
+    "19:psybeam",
+    "23:agility",
+    "28:doublehit",
+    "32:twinbeam",
+    "37:crunch",
+    "41:batonpass",
+    "46:nastyplot",
+    "50:psychic",
+    "egg:allyswitch",
+    "egg:beatup",
+    "egg:doublekick",
+    "egg:foresight",
+    "egg:futuresight",
+    "egg:meanlook",
+    "egg:mirrorcoat",
+    "egg:razorwind",
+    "egg:secretpower",
+    "egg:takedown",
+    "egg:uproar",
+    "egg:wish",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:amnesia",
+    "tm:assurance",
+    "tm:batonpass",
+    "tm:beatup",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:curse",
+    "tm:dazzlinggleam",
+    "tm:doubleedge",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:foulplay",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:guardswap",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:imprison",
+    "tm:ironhead",
+    "tm:lightscreen",
+    "tm:lowkick",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicfangs",
+    "tm:psychicnoise",
+    "tm:psychicterrain",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:roar",
+    "tm:secretpower",
+    "tm:shadowball",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:stompingtantrum",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:uproar",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:dazzlinggleam",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:expandingforce",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:ironhead",
+    "tutor:lowkick",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:zapcannon"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "32-45",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0981_farigiraf.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/farigiraf.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/farigiraf_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/farigiraf.json"
+  ]
+}

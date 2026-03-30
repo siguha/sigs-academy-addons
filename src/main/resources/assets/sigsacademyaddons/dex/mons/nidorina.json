@@ -1,0 +1,218 @@
+{
+  "id": "nidorina",
+  "dexnum": 30,
+  "name": "Nidorina",
+  "primaryType": "poison",
+  "secondaryType": "",
+  "maleRatio": 0,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "poisonpoint",
+    "rivalry",
+    "h:hustle"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 62,
+    "defence": 67,
+    "special_attack": 55,
+    "special_defence": 55,
+    "speed": 56
+  },
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 120,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:growl",
+    "1:scratch",
+    "1:tailwhip",
+    "1:poisonsting",
+    "1:poisonfang",
+    "1:captivate",
+    "15:furyswipes",
+    "22:toxicspikes",
+    "29:doublekick",
+    "36:bite",
+    "43:helpinghand",
+    "50:toxic",
+    "57:flatter",
+    "64:crunch",
+    "71:earthpower",
+    "egg:captivate",
+    "egg:chipaway",
+    "egg:counter",
+    "egg:disable",
+    "egg:poisonfang",
+    "egg:poisontail",
+    "egg:pursuit",
+    "egg:skullbash",
+    "egg:supersonic",
+    "egg:takedown",
+    "tm:aerialace",
+    "tm:beatup",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:captivate",
+    "tm:charm",
+    "tm:crunch",
+    "tm:cut",
+    "tm:dig",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:focusenergy",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:icebeam",
+    "tm:irontail",
+    "tm:mudslap",
+    "tm:poisonjab",
+    "tm:poisontail",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tm:waterpulse",
+    "tutor:aerialace",
+    "tutor:earthpower",
+    "tutor:focusenergy",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:irontail",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:shadowclaw",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:stompingtantrum",
+    "tutor:superfang",
+    "tutor:thunderbolt",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:bubblebeam",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:detect",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:horndrill",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:suckerpunch",
+    "legacy:swagger",
+    "legacy:tackle",
+    "legacy:watergun"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "nidorina_nidoqueen",
+      "variant": "item_interact",
+      "result": "nidoqueen",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "superpower"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:moon_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.52,
+        "levels": "16-37",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0030_nidorina.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/nidorina.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/nidorina_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/nidorina.json"
+  ]
+}

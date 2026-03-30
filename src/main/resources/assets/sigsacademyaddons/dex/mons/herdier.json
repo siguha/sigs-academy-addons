@@ -1,0 +1,242 @@
+{
+  "id": "herdier",
+  "dexnum": 507,
+  "name": "Herdier",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "intimidate",
+    "sandrush",
+    "h:scrappy"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 80,
+    "defence": 65,
+    "special_attack": 35,
+    "special_defence": 65,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 120,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:blue_wool",
+        "percentage": null,
+        "quantityRange": "1-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chilan_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:leer",
+    "1:tackle",
+    "1:odorsleuth",
+    "1:bite",
+    "1:workup",
+    "12:retaliate",
+    "19:babydolleyes",
+    "24:playrough",
+    "30:crunch",
+    "36:takedown",
+    "42:helpinghand",
+    "48:reversal",
+    "54:roar",
+    "60:lastresort",
+    "66:gigaimpact",
+    "egg:afteryou",
+    "egg:covet",
+    "egg:howl",
+    "egg:lick",
+    "egg:mudslap",
+    "egg:pursuit",
+    "egg:sandattack",
+    "egg:yawn",
+    "tm:aerialace",
+    "tm:afteryou",
+    "tm:babydolleyes",
+    "tm:charm",
+    "tm:covet",
+    "tm:crunch",
+    "tm:dig",
+    "tm:endure",
+    "tm:facade",
+    "tm:firefang",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:lastresort",
+    "tm:mudslap",
+    "tm:payback",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderwave",
+    "tm:uproar",
+    "tm:wildcharge",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:afteryou",
+    "tutor:babydolleyes",
+    "tutor:covet",
+    "tutor:firefang",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:icefang",
+    "tutor:lastresort",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:thunderbolt",
+    "tutor:thunderfang",
+    "tutor:uproar",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "herdier_stoutland",
+      "variant": "level_up",
+      "result": "stoutland",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "common",
+        "weight": 0.54,
+        "levels": "16-37",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0507_herdier.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.54,
+        "levels": "16-37",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0507_herdier.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/herdier.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/herdier_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/herdier.json"
+  ]
+}

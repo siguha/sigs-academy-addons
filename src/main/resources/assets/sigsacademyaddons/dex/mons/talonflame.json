@@ -1,0 +1,250 @@
+{
+  "id": "talonflame",
+  "dexnum": 663,
+  "name": "Talonflame",
+  "primaryType": "fire",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "flamebody",
+    "h:galewings"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 78,
+    "attack": 81,
+    "defence": 71,
+    "special_attack": 74,
+    "special_defence": 69,
+    "speed": 126
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:chicken",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:sharp_beak",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:flareblitz",
+    "1:tackle",
+    "1:growl",
+    "1:quickattack",
+    "1:peck",
+    "1:ember",
+    "1:razorwind",
+    "1:flamecharge",
+    "1:mefirst",
+    "1:naturalgift",
+    "1:feint",
+    "15:flail",
+    "22:acrobatics",
+    "29:agility",
+    "38:aerialace",
+    "47:tailwind",
+    "56:steelwing",
+    "65:roost",
+    "74:fly",
+    "83:bravebird",
+    "egg:defog",
+    "egg:flamecharge",
+    "egg:mefirst",
+    "egg:naturalgift",
+    "egg:quickguard",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:bravebird",
+    "tm:bulkup",
+    "tm:defog",
+    "tm:doubleedge",
+    "tm:dualwingbeat",
+    "tm:endure",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:fireblast",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:fly",
+    "tm:gigaimpact",
+    "tm:heatwave",
+    "tm:honeclaws",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:incinerate",
+    "tm:naturalgift",
+    "tm:overheat",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roost",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:solarbeam",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thief",
+    "tm:upperhand",
+    "tm:uturn",
+    "tm:willowisp",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:bulkup",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:flamethrower",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:hyperbeam",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:swift",
+    "tutor:tailwind",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 0.06,
+        "levels": "35-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_sky",
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0663_talonflame.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 0.06,
+        "levels": "35-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_forest",
+            "#cobblemon:nether/is_fungus"
+          ],
+          "exclude": [
+            "#cobblemon:nether/is_warped"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0663_talonflame.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 0.06,
+        "levels": "35-50",
+        "biomeTags": {
+          "include": [
+            "aether:skyroot_forest",
+            "aether:skyroot_woodland"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0663_talonflame.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/talonflame.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/talonflame_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/talonflame.json"
+  ]
+}

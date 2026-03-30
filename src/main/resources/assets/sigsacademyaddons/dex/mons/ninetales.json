@@ -1,0 +1,266 @@
+{
+  "id": "ninetales",
+  "dexnum": 38,
+  "name": "Ninetales",
+  "primaryType": "fire",
+  "secondaryType": "",
+  "maleRatio": 0.25,
+  "labels": [
+    "gen1",
+    "kantonian_form"
+  ],
+  "abilities": [
+    "flashfire",
+    "h:drought"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 73,
+    "attack": 76,
+    "defence": 75,
+    "special_attack": 81,
+    "special_defence": 100,
+    "speed": 100
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:sweet_berries",
+        "percentage": null,
+        "quantityRange": "2-4",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:charcoal",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:nastyplot",
+    "1:ember",
+    "1:quickattack",
+    "1:confuseray",
+    "1:safeguard",
+    "1:flamethrower",
+    "1:fireblast",
+    "1:spite",
+    "1:willowisp",
+    "1:incinerate",
+    "1:imprison",
+    "1:extrasensory",
+    "1:firespin",
+    "1:inferno",
+    "1:grudge",
+    "1:tailwhip",
+    "1:disable",
+    "1:flameburst",
+    "egg:babydolleyes",
+    "egg:captivate",
+    "egg:disable",
+    "egg:extrasensory",
+    "egg:feintattack",
+    "egg:flail",
+    "egg:flamecharge",
+    "egg:healingwish",
+    "egg:howl",
+    "egg:hypnosis",
+    "egg:memento",
+    "egg:roar",
+    "egg:secretpower",
+    "tm:agility",
+    "tm:babydolleyes",
+    "tm:batonpass",
+    "tm:bodyslam",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:covet",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:dreameater",
+    "tm:encore",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fireblast",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:foulplay",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:ominouswind",
+    "tm:overheat",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:rest",
+    "tm:roar",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:scorchingsands",
+    "tm:secretpower",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:tailslap",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:weatherball",
+    "tm:willowisp",
+    "tm:zenheadbutt",
+    "tutor:babydolleyes",
+    "tutor:burningjealousy",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:darkpulse",
+    "tutor:energyball",
+    "tutor:flamethrower",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:mysticalfire",
+    "tutor:ominouswind",
+    "tutor:painsplit",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:scorchingsands",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:spite",
+    "tutor:swift",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:tackle",
+    "legacy:toxic"
+  ],
+  "forms": [
+    "Alola"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.48,
+        "levels": "25-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_taiga"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0038_ninetales.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "25-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_forest"
+          ],
+          "exclude": [
+            "#cobblemon:nether/is_frozen"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0038_ninetales.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/ninetales.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/ninetales_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/ninetales.json"
+  ]
+}

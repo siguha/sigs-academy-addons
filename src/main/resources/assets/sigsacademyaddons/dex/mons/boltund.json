@@ -1,0 +1,197 @@
+{
+  "id": "boltund",
+  "dexnum": 836,
+  "name": "Boltund",
+  "primaryType": "electric",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "strongjaw",
+    "h:competitive"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 69,
+    "attack": 90,
+    "defence": 60,
+    "special_attack": 90,
+    "special_defence": 60,
+    "speed": 121
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:wepear_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:electrify",
+    "1:tackle",
+    "1:tailwhip",
+    "1:nuzzle",
+    "1:bite",
+    "15:roar",
+    "20:spark",
+    "28:charm",
+    "34:crunch",
+    "41:charge",
+    "48:wildcharge",
+    "55:playrough",
+    "62:electricterrain",
+    "egg:discharge",
+    "egg:doubleedge",
+    "egg:flamecharge",
+    "egg:howl",
+    "egg:sandattack",
+    "tm:agility",
+    "tm:bulkup",
+    "tm:charge",
+    "tm:charm",
+    "tm:crunch",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:endure",
+    "tm:facade",
+    "tm:firefang",
+    "tm:flamecharge",
+    "tm:focusenergy",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:roar",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:swift",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderwave",
+    "tm:uproar",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:bulkup",
+    "tutor:firefang",
+    "tutor:focusenergy",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:thunderfang",
+    "tutor:uproar",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "25-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0836_boltund.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "25-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0836_boltund.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/boltund.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/boltund_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/boltund.json"
+  ]
+}

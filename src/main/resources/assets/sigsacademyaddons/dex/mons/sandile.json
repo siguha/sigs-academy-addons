@@ -1,0 +1,226 @@
+{
+  "id": "sandile",
+  "dexnum": 551,
+  "name": "Sandile",
+  "primaryType": "ground",
+  "secondaryType": "dark",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "intimidate",
+    "moxie",
+    "h:angerpoint"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 72,
+    "defence": 35,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 180,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:black_glasses",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:tanga_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:leer",
+    "1:rage",
+    "1:powertrip",
+    "3:sandattack",
+    "6:honeclaws",
+    "9:sandtomb",
+    "12:scaryface",
+    "15:bite",
+    "18:torment",
+    "21:dig",
+    "24:swagger",
+    "27:crunch",
+    "30:sandstorm",
+    "33:foulplay",
+    "36:earthquake",
+    "39:thrash",
+    "egg:aquatail",
+    "egg:counter",
+    "egg:doubleedge",
+    "egg:meanlook",
+    "egg:mefirst",
+    "egg:pursuit",
+    "egg:spite",
+    "tm:aquatail",
+    "tm:assurance",
+    "tm:beatup",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:crunch",
+    "tm:curse",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:embargo",
+    "tm:endure",
+    "tm:facade",
+    "tm:firefang",
+    "tm:fling",
+    "tm:focusenergy",
+    "tm:foulplay",
+    "tm:grassknot",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:lashout",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:payback",
+    "tm:protect",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:roar",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scaryface",
+    "tm:scorchingsands",
+    "tm:shadowclaw",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:spite",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderfang",
+    "tm:torment",
+    "tutor:aquatail",
+    "tutor:bulldoze",
+    "tutor:darkpulse",
+    "tutor:earthpower",
+    "tutor:firefang",
+    "tutor:focusenergy",
+    "tutor:foulplay",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:lashout",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:scorchingsands",
+    "tutor:shadowclaw",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snarl",
+    "tutor:snatch",
+    "tutor:spite",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:thunderfang",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:toxic",
+    "legacy:uproar"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "sandile_krokorok",
+      "variant": "level_up",
+      "result": "krokorok",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 29
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0551_sandile.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/sandile.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/sandile_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/sandile.json"
+  ]
+}

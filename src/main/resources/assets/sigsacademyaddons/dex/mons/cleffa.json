@@ -1,0 +1,319 @@
+{
+  "id": "cleffa",
+  "dexnum": 173,
+  "name": "Cleffa",
+  "primaryType": "fairy",
+  "secondaryType": "",
+  "maleRatio": 0.25,
+  "labels": [
+    "gen2",
+    "baby"
+  ],
+  "abilities": [
+    "cutecharm",
+    "magicguard",
+    "h:friendguard"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 25,
+    "defence": 28,
+    "special_attack": 45,
+    "special_defence": 55,
+    "speed": 15
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "fast",
+  "catchRate": 150,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:moon_stone",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:babiri_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:fairy_feather",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:copycat",
+    "1:splash",
+    "4:sing",
+    "8:sweetkiss",
+    "12:disarmingvoice",
+    "16:encore",
+    "20:charm",
+    "egg:aromatherapy",
+    "egg:bellydrum",
+    "egg:healpulse",
+    "egg:mimic",
+    "egg:present",
+    "egg:tickle",
+    "egg:wish",
+    "tm:afteryou",
+    "tm:alluringvoice",
+    "tm:amnesia",
+    "tm:babydolleyes",
+    "tm:bodyslam",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:dig",
+    "tm:disarmingvoice",
+    "tm:drainingkiss",
+    "tm:dreameater",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:fling",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hypervoice",
+    "tm:icywind",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magiccoat",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:mistyterrain",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:roleplay",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thunderwave",
+    "tm:trick",
+    "tm:uproar",
+    "tm:waterpulse",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:afteryou",
+    "tutor:babydolleyes",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:endeavor",
+    "tutor:flamethrower",
+    "tutor:gravity",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:lastresort",
+    "tutor:magicalleaf",
+    "tutor:magiccoat",
+    "tutor:playrough",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:waterpulse",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:detect",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:psychup",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:snore",
+    "legacy:softboiled",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:zapcannon"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "cleffa_clefairy",
+      "variant": "level_up",
+      "result": "clefairy",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "1-22",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_dripstone"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0173_cleffa.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "1-22",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_dripstone"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0173_cleffa.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "1-22",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_hills"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0173_cleffa.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "1-22",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_magical"
+          ],
+          "exclude": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0173_cleffa.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/cleffa.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/cleffa_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/cleffa.json"
+  ]
+}

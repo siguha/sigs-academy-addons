@@ -1,0 +1,129 @@
+{
+  "id": "chienpao",
+  "dexnum": 1002,
+  "name": "Chien-Pao",
+  "primaryType": "dark",
+  "secondaryType": "ice",
+  "maleRatio": -1,
+  "labels": [
+    "gen9",
+    "legendary"
+  ],
+  "abilities": [
+    "swordofruin",
+    "h:swordofruin"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 120,
+    "defence": 80,
+    "special_attack": 90,
+    "special_defence": 65,
+    "speed": 135
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "experienceGroup": "slow",
+  "catchRate": 6,
+  "drops": {
+    "amount": 0,
+    "entries": []
+  },
+  "moves": [
+    "1:spite",
+    "1:powdersnow",
+    "1:meanlook",
+    "5:icywind",
+    "10:payback",
+    "15:mist",
+    "15:haze",
+    "20:iceshard",
+    "25:swordsdance",
+    "30:snowscape",
+    "35:nightslash",
+    "40:darkpulse",
+    "45:iciclecrash",
+    "50:ruination",
+    "55:suckerpunch",
+    "60:sacredsword",
+    "65:recover",
+    "70:throatchop",
+    "75:sheercold",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:brickbreak",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:gigaimpact",
+    "tm:haze",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:icefang",
+    "tm:icespinner",
+    "tm:icywind",
+    "tm:lashout",
+    "tm:payback",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:snowscape",
+    "tm:spite",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:throatchop",
+    "tutor:aerialace",
+    "tutor:darkpulse",
+    "tutor:falseswipe",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icefang",
+    "tutor:icywind",
+    "tutor:lashout",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:throatchop"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/chienpao.png",
+      "out/sprites/cobblemon/chien_pao.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/chienpao_shiny.png",
+      "out/sprites/cobblemon/chien_pao_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/chienpao.json"
+  ]
+}

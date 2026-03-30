@@ -1,0 +1,197 @@
+{
+  "id": "dachsbun",
+  "dexnum": 927,
+  "name": "Dachsbun",
+  "primaryType": "fairy",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "wellbakedbody",
+    "h:aromaveil"
+  ],
+  "eggGroups": [
+    "field",
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 57,
+    "attack": 80,
+    "defence": 115,
+    "special_attack": 50,
+    "special_defence": 80,
+    "speed": 95
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 90,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:bread",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:nanab_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "3:lick",
+    "6:tailwhip",
+    "8:covet",
+    "11:bite",
+    "15:babydolleyes",
+    "18:playrough",
+    "22:workup",
+    "29:batonpass",
+    "33:roar",
+    "38:doubleedge",
+    "42:charm",
+    "47:crunch",
+    "53:lastresort",
+    "egg:copycat",
+    "egg:howl",
+    "egg:sweetscent",
+    "egg:wish",
+    "egg:yawn",
+    "tm:agility",
+    "tm:alluringvoice",
+    "tm:babydolleyes",
+    "tm:batonpass",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:charm",
+    "tm:covet",
+    "tm:crunch",
+    "tm:dazzlinggleam",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:drainingkiss",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:firefang",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:icefang",
+    "tm:lastresort",
+    "tm:mistyterrain",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunderfang",
+    "tm:trailblaze",
+    "tm:workup",
+    "tutor:babydolleyes",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:endeavor",
+    "tutor:firefang",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icefang",
+    "tutor:lastresort",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:stompingtantrum",
+    "tutor:thunderfang"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "26-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0927_dachsbun.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "26-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0927_dachsbun.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/dachsbun.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/dachsbun_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/dachsbun.json"
+  ]
+}

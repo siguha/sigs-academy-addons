@@ -1,0 +1,337 @@
+{
+  "id": "golett",
+  "dexnum": 622,
+  "name": "Golett",
+  "primaryType": "ground",
+  "secondaryType": "ghost",
+  "maleRatio": -1,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "ironfist",
+    "klutz",
+    "h:noguard"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 59,
+    "attack": 74,
+    "defence": 50,
+    "special_attack": 35,
+    "special_defence": 50,
+    "speed": 35
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:clay_ball",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:light_clay",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:colbur_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:astonish",
+    "1:mudslap",
+    "4:defensecurl",
+    "8:pound",
+    "12:shadowpunch",
+    "16:curse",
+    "20:nightshade",
+    "24:stompingtantrum",
+    "28:irondefense",
+    "32:megapunch",
+    "36:shadowball",
+    "40:heavyslam",
+    "44:phantomforce",
+    "48:hammerarm",
+    "52:earthquake",
+    "56:dynamicpunch",
+    "egg:magnitude",
+    "tm:allyswitch",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:drainpunch",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:flash",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:gyroball",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:irondefense",
+    "tm:knockoff",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:magiccoat",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:mudslap",
+    "tm:nightshade",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:scorchingsands",
+    "tm:selfdestruct",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:takedown",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderpunch",
+    "tutor:allyswitch",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:drainpunch",
+    "tutor:earthpower",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:gravity",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:magiccoat",
+    "tutor:mudslap",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:scorchingsands",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:superpower",
+    "tutor:telekinesis",
+    "tutor:thunderpunch",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "golett_golurk",
+      "variant": "level_up",
+      "result": "golurk",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "heavyslam"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 43
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "ancient_city"
+        ],
+        "rarity": "uncommon",
+        "weight": 84.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0622_golett.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 15.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0622_golett.json",
+        "structures": [
+          "#cobblemon:ruin"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "trail_ruins"
+        ],
+        "rarity": "common",
+        "weight": 18.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0622_golett.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "desert_pyramid"
+        ],
+        "rarity": "common",
+        "weight": 18.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0622_golett.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "jungle_pyramid"
+        ],
+        "rarity": "common",
+        "weight": 18.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0622_golett.json"
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:howling_constructs"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0622_golett.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/golett.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/golett_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/golett.json"
+  ]
+}

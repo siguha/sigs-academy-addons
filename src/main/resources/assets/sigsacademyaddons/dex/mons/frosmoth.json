@@ -1,0 +1,205 @@
+{
+  "id": "frosmoth",
+  "dexnum": 873,
+  "name": "Frosmoth",
+  "primaryType": "ice",
+  "secondaryType": "bug",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "shielddust",
+    "h:icescales"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 65,
+    "defence": 60,
+    "special_attack": 125,
+    "special_defence": 90,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:snowball",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:silver_powder",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:charti_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:icywind",
+    "1:powdersnow",
+    "1:strugglebug",
+    "1:helpinghand",
+    "1:attract",
+    "4:stunspore",
+    "8:infestation",
+    "12:mist",
+    "16:defog",
+    "21:featherdance",
+    "24:aurorabeam",
+    "28:snowscape",
+    "32:bugbuzz",
+    "36:auroraveil",
+    "40:blizzard",
+    "44:tailwind",
+    "48:wideguard",
+    "52:quiverdance",
+    "egg:bugbite",
+    "egg:fairywind",
+    "egg:mirrorcoat",
+    "tm:acrobatics",
+    "tm:airslash",
+    "tm:attract",
+    "tm:auroraveil",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:calmmind",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:endure",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:helpinghand",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icespinner",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:infestation",
+    "tm:leechlife",
+    "tm:lightscreen",
+    "tm:lunge",
+    "tm:playrough",
+    "tm:pounce",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:tripleaxel",
+    "tm:uturn",
+    "tm:weatherball",
+    "tutor:bugbite",
+    "tutor:calmmind",
+    "tutor:dazzlinggleam",
+    "tutor:defog",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:leechlife",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:tripleaxel",
+    "legacy:dualwingbeat",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 2.4,
+        "levels": "15-38",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0873_frosmoth.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 2.4,
+        "levels": "15-38",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0873_frosmoth.json"
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/frosmoth.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/frosmoth_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/frosmoth.json"
+  ]
+}

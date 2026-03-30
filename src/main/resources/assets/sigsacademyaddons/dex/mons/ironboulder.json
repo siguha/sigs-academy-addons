@@ -1,0 +1,173 @@
+{
+  "id": "ironboulder",
+  "dexnum": 1022,
+  "name": "Iron Boulder",
+  "primaryType": "rock",
+  "secondaryType": "psychic",
+  "maleRatio": -1,
+  "labels": [
+    "gen9",
+    "paradox"
+  ],
+  "abilities": [
+    "quarkdrive",
+    "h:quarkdrive"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 120,
+    "defence": 80,
+    "special_attack": 68,
+    "special_defence": 108,
+    "speed": 124
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "experienceGroup": "slow",
+  "catchRate": 10,
+  "drops": {
+    "amount": 0,
+    "entries": []
+  },
+  "moves": [
+    "1:hornattack",
+    "1:leer",
+    "1:rockthrow",
+    "1:electricterrain",
+    "7:quickattack",
+    "14:slash",
+    "21:agility",
+    "28:psychocut",
+    "35:counter",
+    "42:rocktomb",
+    "49:sacredsword",
+    "56:mightycleave",
+    "63:swordsdance",
+    "70:megahorn",
+    "77:quickguard",
+    "84:stoneedge",
+    "91:gigaimpact",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:airslash",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:closecombat",
+    "tm:doubleedge",
+    "tm:earthquake",
+    "tm:electricterrain",
+    "tm:endure",
+    "tm:facade",
+    "tm:gigaimpact",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:megahorn",
+    "tm:meteorbeam",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychocut",
+    "tm:psyshock",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:solarblade",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:wildcharge",
+    "tm:xscissor",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:bulldoze",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:megahorn",
+    "tutor:meteorbeam",
+    "tutor:poisonjab",
+    "tutor:psychic",
+    "tutor:psychocut",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:stoneedge",
+    "tutor:throatchop",
+    "tutor:wildcharge",
+    "tutor:xscissor",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.2,
+        "levels": "65-75",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/paradox_spawns/spawn_pool_world/1022_ironboulder.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.3,
+        "levels": "65-75",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/paradox_spawns_ccc/spawn_pool_world/1022_ironboulder.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/ironboulder.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/ironboulder_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ironboulder.json"
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "id": "spiritomb",
+  "dexnum": 442,
+  "name": "Spiritomb",
+  "primaryType": "ghost",
+  "secondaryType": "dark",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "pressure",
+    "h:infiltrator"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 92,
+    "defence": 108,
+    "special_attack": 92,
+    "special_defence": 108,
+    "speed": 35
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 100,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:spell_tag",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:smoke_ball",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:pursuit",
+    "1:confuseray",
+    "1:feintattack",
+    "1:nightshade",
+    "5:shadowsneak",
+    "10:spite",
+    "15:payback",
+    "20:nastyplot",
+    "25:hex",
+    "30:memento",
+    "35:suckerpunch",
+    "40:curse",
+    "45:shadowball",
+    "50:darkpulse",
+    "55:hypnosis",
+    "60:dreameater",
+    "egg:allyswitch",
+    "egg:captivate",
+    "egg:destinybond",
+    "egg:disable",
+    "egg:grudge",
+    "egg:nightmare",
+    "egg:painsplit",
+    "egg:shadowsneak",
+    "egg:smokescreen",
+    "tm:allyswitch",
+    "tm:bodyslam",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dreameater",
+    "tm:embargo",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:foulplay",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:infestation",
+    "tm:lashout",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:ominouswind",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:quash",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:rocktomb",
+    "tm:scaryface",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:silverwind",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:spite",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:torment",
+    "tm:toxic",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tm:wonderroom",
+    "tutor:allyswitch",
+    "tutor:burningjealousy",
+    "tutor:calmmind",
+    "tutor:darkpulse",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icywind",
+    "tutor:lashout",
+    "tutor:ominouswind",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:snatch",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:naturalgift",
+    "legacy:psychup",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:uproar",
+    "legacy:waterpulse"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "ancient_city"
+        ],
+        "rarity": "uncommon",
+        "weight": 60.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0442_spiritomb.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 100.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0442_spiritomb.json",
+        "structures": [
+          "#cobblemon:ruin"
+        ],
+        "yLevel": {
+          "minY": 48
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 100.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0442_spiritomb.json",
+        "structures": [
+          "#cobblemon:ruins/arch"
+        ],
+        "yLevel": {
+          "minY": -37,
+          "maxY": 10
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "trail_ruins"
+        ],
+        "rarity": "rare",
+        "weight": 100.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0442_spiritomb.json",
+        "yLevel": {
+          "minY": 48
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "desert_pyramid"
+        ],
+        "rarity": "rare",
+        "weight": 100.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0442_spiritomb.json",
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": 48
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "jungle_pyramid"
+        ],
+        "rarity": "rare",
+        "weight": 100.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0442_spiritomb.json",
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": 48
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 10.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:howling_constructs"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0442_spiritomb.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/spiritomb.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/spiritomb_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/spiritomb.json"
+  ]
+}

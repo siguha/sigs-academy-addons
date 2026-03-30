@@ -1,0 +1,207 @@
+{
+  "id": "runerigus",
+  "dexnum": 867,
+  "name": "Runerigus",
+  "primaryType": "ground",
+  "secondaryType": "ghost",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "wanderingspirit",
+    "h:wanderingspirit"
+  ],
+  "eggGroups": [
+    "mineral",
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 58,
+    "attack": 95,
+    "defence": 145,
+    "special_attack": 50,
+    "special_defence": 105,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 90,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:kasib_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:shadowclaw",
+    "1:scaryface",
+    "1:astonish",
+    "1:protect",
+    "1:haze",
+    "1:nightshade",
+    "12:disable",
+    "16:brutalswing",
+    "20:craftyshield",
+    "24:hex",
+    "28:meanlook",
+    "32:slam",
+    "38:curse",
+    "44:shadowball",
+    "50:earthquake",
+    "56:powersplit",
+    "56:guardsplit",
+    "62:destinybond",
+    "egg:memento",
+    "tm:allyswitch",
+    "tm:amnesia",
+    "tm:bodypress",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dragonpulse",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:guardswap",
+    "tm:haze",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:irondefense",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:payback",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psychic",
+    "tm:raindance",
+    "tm:rest",
+    "tm:revenge",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scaryface",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:toxicspikes",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:darkpulse",
+    "tutor:dragonpulse",
+    "tutor:earthpower",
+    "tutor:energyball",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "ruins"
+        ],
+        "rarity": "rare",
+        "weight": 1.0,
+        "levels": "34-43",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0867_runerigus.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "ruins"
+        ],
+        "rarity": "rare",
+        "weight": 1.0,
+        "levels": "34-43",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0867_runerigus.json"
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/runerigus.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/runerigus_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/runerigus.json"
+  ]
+}

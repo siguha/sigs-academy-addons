@@ -1,0 +1,276 @@
+{
+  "id": "baltoy",
+  "dexnum": 343,
+  "name": "Baltoy",
+  "primaryType": "ground",
+  "secondaryType": "psychic",
+  "maleRatio": -1,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "levitate",
+    "h:levitate"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 40,
+    "defence": 55,
+    "special_attack": 40,
+    "special_defence": 70,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:clay_ball",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:light_clay",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:colbur_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:harden",
+    "1:mudslap",
+    "1:healblock",
+    "3:rapidspin",
+    "6:confusion",
+    "9:rocktomb",
+    "12:powertrick",
+    "15:psybeam",
+    "18:ancientpower",
+    "21:imprison",
+    "24:cosmicpower",
+    "27:extrasensory",
+    "30:earthpower",
+    "33:selfdestruct",
+    "36:guardsplit",
+    "36:powersplit",
+    "39:sandstorm",
+    "42:explosion",
+    "tm:allyswitch",
+    "tm:ancientpower",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:dig",
+    "tm:dreameater",
+    "tm:drillrun",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:eerieimpulse",
+    "tm:endure",
+    "tm:expandingforce",
+    "tm:explosion",
+    "tm:facade",
+    "tm:flash",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:guardswap",
+    "tm:gyroball",
+    "tm:headbutt",
+    "tm:hex",
+    "tm:icebeam",
+    "tm:imprison",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:mudslap",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scorchingsands",
+    "tm:selfdestruct",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:solarbeam",
+    "tm:stealthrock",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:ancientpower",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:dazzlinggleam",
+    "tutor:drillrun",
+    "tutor:earthpower",
+    "tutor:expandingforce",
+    "tutor:gravity",
+    "tutor:icebeam",
+    "tutor:magiccoat",
+    "tutor:mudslap",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:scorchingsands",
+    "tutor:shadowball",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:refresh"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "baltoy_claydol",
+      "variant": "level_up",
+      "result": "claydol",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "hyperbeam"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 5.04,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands",
+            "#cobblemon:is_desert"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0343_baltoy.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "desert_pyramid"
+        ],
+        "rarity": "common",
+        "weight": 54.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0343_baltoy.json",
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": 48
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:howling_constructs"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0343_baltoy.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/baltoy.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/baltoy_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/baltoy.json"
+  ]
+}

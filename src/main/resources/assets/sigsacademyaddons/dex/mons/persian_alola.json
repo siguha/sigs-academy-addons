@@ -1,0 +1,298 @@
+{
+  "id": "persian_alola",
+  "dexnum": 53,
+  "name": "Persian Alola",
+  "primaryType": "dark",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7",
+    "alolan_form"
+  ],
+  "abilities": [
+    "furcoat",
+    "technician",
+    "h:rattled"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 60,
+    "defence": 60,
+    "special_attack": 75,
+    "special_defence": 65,
+    "speed": 115
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 90,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:gold_nugget",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:quick_claw",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:bluk_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:quash",
+    "1:switcheroo",
+    "1:scratch",
+    "1:growl",
+    "1:fakeout",
+    "1:feintattack",
+    "1:powergem",
+    "1:slash",
+    "1:captivate",
+    "1:feint",
+    "12:payday",
+    "16:bite",
+    "20:taunt",
+    "24:assurance",
+    "31:furyswipes",
+    "36:screech",
+    "42:nightslash",
+    "48:nastyplot",
+    "54:playrough",
+    "egg:assist",
+    "egg:captivate",
+    "egg:covet",
+    "egg:feintattack",
+    "egg:flail",
+    "egg:flatter",
+    "egg:hypnosis",
+    "egg:partingshot",
+    "egg:punishment",
+    "egg:slash",
+    "egg:spite",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:amnesia",
+    "tm:assurance",
+    "tm:beatup",
+    "tm:bodyslam",
+    "tm:burningjealousy",
+    "tm:captivate",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:confuseray",
+    "tm:covet",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:dreameater",
+    "tm:echoedvoice",
+    "tm:embargo",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:foulplay",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lastresort",
+    "tm:metalclaw",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:payday",
+    "tm:playrough",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychup",
+    "tm:quash",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:roar",
+    "tm:screech",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:spite",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:trailblaze",
+    "tm:uturn",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:burningjealousy",
+    "tutor:covet",
+    "tutor:darkpulse",
+    "tutor:endeavor",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:lastresort",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:shockwave",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:snatch",
+    "tutor:spite",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:thunderbolt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:uproar",
+    "legacy:waterpulse"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "illager_structures"
+        ],
+        "rarity": "common",
+        "weight": 6.0,
+        "levels": "28-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0053_persian.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "illager_structures"
+        ],
+        "rarity": "common",
+        "weight": 6.0,
+        "levels": "28-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0053_persian.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "illager_structures"
+        ],
+        "rarity": "uncommon",
+        "weight": 9.6,
+        "levels": "28-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0053_persian.json",
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": 62
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/persian_alolan.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/persian_alolan_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/persian.json"
+  ]
+}

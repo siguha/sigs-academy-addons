@@ -1,0 +1,249 @@
+{
+  "id": "deerling",
+  "dexnum": 585,
+  "name": "Deerling",
+  "primaryType": "normal",
+  "secondaryType": "grass",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "chlorophyll",
+    "sapsipper",
+    "h:serenegrace"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 50,
+    "special_attack": 40,
+    "special_defence": 50,
+    "speed": 75
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:camouflage",
+    "4:growl",
+    "7:sandattack",
+    "10:doublekick",
+    "13:leechseed",
+    "16:feintattack",
+    "20:takedown",
+    "24:jumpkick",
+    "28:aromatherapy",
+    "32:charm",
+    "37:doubleedge",
+    "42:solarbeam",
+    "egg:agility",
+    "egg:batonpass",
+    "egg:faketears",
+    "egg:grasswhistle",
+    "egg:headbutt",
+    "egg:naturalgift",
+    "egg:odorsleuth",
+    "egg:sleeptalk",
+    "egg:synthesis",
+    "egg:worryseed",
+    "tm:agility",
+    "tm:batonpass",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:lastresort",
+    "tm:leafstorm",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:worryseed",
+    "tm:zenheadbutt",
+    "tutor:bounce",
+    "tutor:bulldoze",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:lastresort",
+    "tutor:magicalleaf",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:synthesis",
+    "tutor:wildcharge",
+    "tutor:worryseed",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [
+    "Summer",
+    "Autumn",
+    "Winter"
+  ],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "deerling_sawsbuck",
+      "variant": "level_up",
+      "result": "sawsbuck",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "hornleech"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 34
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_floral",
+            "#cobblemon:is_forest",
+            "#cobblemon:is_hills",
+            "#cobblemon:is_plains",
+            "#cobblemon:is_snowy_forest",
+            "#cobblemon:is_taiga"
+          ],
+          "exclude": [
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0585_deerling.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0585_deerling.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:floral_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0585_deerling.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {},
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/deerling.json"
+  ]
+}

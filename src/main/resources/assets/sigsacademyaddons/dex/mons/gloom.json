@@ -1,0 +1,242 @@
+{
+  "id": "gloom",
+  "dexnum": 44,
+  "name": "Gloom",
+  "primaryType": "grass",
+  "secondaryType": "poison",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "chlorophyll",
+    "h:stench"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 65,
+    "defence": 70,
+    "special_attack": 85,
+    "special_defence": 75,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 120,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:honey_bottle",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:absorb_bulb",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:absorb",
+    "1:sweetscent",
+    "1:acid",
+    "1:luckychant",
+    "1:growth",
+    "1:naturalgift",
+    "12:megadrain",
+    "14:poisonpowder",
+    "16:stunspore",
+    "18:sleeppowder",
+    "20:gigadrain",
+    "26:toxic",
+    "32:moonblast",
+    "38:grassyterrain",
+    "44:moonlight",
+    "50:petaldance",
+    "egg:afteryou",
+    "egg:flail",
+    "egg:ingrain",
+    "egg:leechseed",
+    "egg:luckychant",
+    "egg:naturalgift",
+    "egg:razorleaf",
+    "egg:secretpower",
+    "egg:strengthsap",
+    "egg:synthesis",
+    "egg:teeterdance",
+    "egg:tickle",
+    "tm:acidspray",
+    "tm:afteryou",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:cut",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:helpinghand",
+    "tm:infestation",
+    "tm:leafstorm",
+    "tm:magicalleaf",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:petalblizzard",
+    "tm:pollenpuff",
+    "tm:protect",
+    "tm:rest",
+    "tm:secretpower",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:trailblaze",
+    "tm:venoshock",
+    "tm:worryseed",
+    "tutor:afteryou",
+    "tutor:energyball",
+    "tutor:gastroacid",
+    "tutor:gigadrain",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:magicalleaf",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:synthesis",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:dazzlinggleam",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:drainpunch",
+    "legacy:fling",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:takedown"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "gloom_vileplume",
+      "variant": "item_interact",
+      "result": "vileplume",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "petalblizzard"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:leaf_stone"
+    },
+    {
+      "id": "gloom_bellossom",
+      "variant": "item_interact",
+      "result": "bellossom",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "magicalleaf",
+        "petalblizzard"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:sun_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.95,
+        "levels": "21-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0044_gloom.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.19,
+        "levels": "21-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_temperate"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0044_gloom.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/gloom.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/gloom_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/gloom.json"
+  ]
+}

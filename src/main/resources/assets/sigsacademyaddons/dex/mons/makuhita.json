@@ -1,0 +1,248 @@
+{
+  "id": "makuhita",
+  "dexnum": 296,
+  "name": "Makuhita",
+  "primaryType": "fighting",
+  "secondaryType": "",
+  "maleRatio": 0.75,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "thickfat",
+    "guts",
+    "h:sheerforce"
+  ],
+  "eggGroups": [
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 60,
+    "defence": 30,
+    "special_attack": 20,
+    "special_defence": 30,
+    "speed": 25
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "fluctuating",
+  "catchRate": 180,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:black_belt",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:kings_rock",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:payapa_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:focusenergy",
+    "4:sandattack",
+    "7:armthrust",
+    "10:fakeout",
+    "13:forcepalm",
+    "16:whirlwind",
+    "19:knockoff",
+    "22:bulkup",
+    "25:bellydrum",
+    "28:smellingsalts",
+    "31:seismictoss",
+    "34:wakeupslap",
+    "37:endure",
+    "40:closecombat",
+    "43:reversal",
+    "46:heavyslam",
+    "egg:bulletpunch",
+    "egg:chipaway",
+    "egg:counter",
+    "egg:crosschop",
+    "egg:detect",
+    "egg:dynamicpunch",
+    "egg:feint",
+    "egg:feintattack",
+    "egg:foresight",
+    "egg:helpinghand",
+    "egg:wakeupslap",
+    "egg:wideguard",
+    "tm:assurance",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:chillingwater",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:drainpunch",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:headbutt",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:icepunch",
+    "tm:knockoff",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:surf",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderpunch",
+    "tm:upperhand",
+    "tm:vacuumwave",
+    "tm:vitalthrow",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:coaching",
+    "tutor:drainpunch",
+    "tutor:firepunch",
+    "tutor:focusenergy",
+    "tutor:focuspunch",
+    "tutor:helpinghand",
+    "tutor:icepunch",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:swift",
+    "tutor:thunderpunch",
+    "tutor:vacuumwave",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:whirlpool",
+    "special:refresh"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "makuhita_hariyama",
+      "variant": "level_up",
+      "result": "hariyama",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 24
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "1-24",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0296_makuhita.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/makuhita.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/makuhita_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/makuhita.json"
+  ]
+}

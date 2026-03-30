@@ -1,0 +1,240 @@
+{
+  "id": "meganium",
+  "dexnum": 154,
+  "name": "Meganium",
+  "primaryType": "grass",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "overgrow",
+    "h:leafguard"
+  ],
+  "eggGroups": [
+    "monster",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 82,
+    "defence": 100,
+    "special_attack": 83,
+    "special_defence": 100,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "1:razorleaf",
+    "1:poisonpowder",
+    "1:petaldance",
+    "1:petalblizzard",
+    "1:naturalgift",
+    "12:synthesis",
+    "18:reflect",
+    "22:magicalleaf",
+    "26:leechseed",
+    "34:sweetscent",
+    "40:lightscreen",
+    "46:bodyslam",
+    "54:safeguard",
+    "60:gigadrain",
+    "65:solarbeam",
+    "egg:ancientpower",
+    "egg:aromatherapy",
+    "egg:counter",
+    "egg:flail",
+    "egg:grasswhistle",
+    "egg:healpulse",
+    "egg:ingrain",
+    "egg:leechseed",
+    "egg:refresh",
+    "egg:vinewhip",
+    "egg:wringout",
+    "tm:ancientpower",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:curse",
+    "tm:cut",
+    "tm:doubleedge",
+    "tm:dragontail",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:frenzyplant",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:leafstorm",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magiccoat",
+    "tm:mudslap",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:outrage",
+    "tm:petalblizzard",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rockclimb",
+    "tm:rocksmash",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:weatherball",
+    "tm:workup",
+    "tm:worryseed",
+    "tm:zenheadbutt",
+    "tutor:ancientpower",
+    "tutor:bulldoze",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:frenzyplant",
+    "tutor:furycutter",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grasspledge",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:laserfocus",
+    "tutor:magicalleaf",
+    "tutor:magiccoat",
+    "tutor:mudslap",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:synthesis",
+    "tutor:worryseed",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:detect",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:frenzyplant"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "32-53",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_floral"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0154_meganium.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "32-53",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:floral_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0154_meganium.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/meganium.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/meganium_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/meganium.json"
+  ]
+}

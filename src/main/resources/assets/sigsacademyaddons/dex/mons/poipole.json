@@ -1,0 +1,191 @@
+{
+  "id": "poipole",
+  "dexnum": 803,
+  "name": "Poipole",
+  "primaryType": "poison",
+  "secondaryType": "",
+  "maleRatio": -1,
+  "labels": [
+    "gen7",
+    "ultra_beast"
+  ],
+  "abilities": [
+    "beastboost",
+    "h:beastboost"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 67,
+    "attack": 73,
+    "defence": 67,
+    "special_attack": 73,
+    "special_defence": 67,
+    "speed": 73
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:echo_shard",
+        "percentage": null,
+        "quantityRange": "1-2",
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:dragonpulse",
+    "1:peck",
+    "1:growl",
+    "1:helpinghand",
+    "1:acid",
+    "7:furyattack",
+    "14:fellstinger",
+    "21:charm",
+    "28:venoshock",
+    "35:venomdrench",
+    "42:nastyplot",
+    "49:poisonjab",
+    "56:gastroacid",
+    "63:toxic",
+    "tm:charm",
+    "tm:covet",
+    "tm:dragonpulse",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:gastroacid",
+    "tm:gunkshot",
+    "tm:helpinghand",
+    "tm:irontail",
+    "tm:nastyplot",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:rest",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snatch",
+    "tm:substitute",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:uproar",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tutor:covet",
+    "tutor:dragonpulse",
+    "tutor:gastroacid",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snatch",
+    "tutor:uproar",
+    "legacy:confide",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "poipole_naganadel",
+      "variant": "level_up",
+      "result": "naganadel",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "aircutter"
+      ],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "dragonpulse"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.2,
+        "levels": "48-60",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#minecraft:is_end"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/ultra_beasts_spawns/spawn_pool_world/0803_poipole.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:purpur_block"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.3,
+        "levels": "48-60",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#minecraft:is_end"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/ub_spawns_ccc/spawn_pool_world/0803_poipole.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:purpur_block"
+          ]
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/poipole.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/poipole_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/poipole.json"
+  ]
+}

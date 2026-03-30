@@ -1,0 +1,222 @@
+{
+  "id": "ironvaliant",
+  "dexnum": 1006,
+  "name": "Iron Valiant",
+  "primaryType": "fairy",
+  "secondaryType": "fighting",
+  "maleRatio": -1,
+  "labels": [
+    "gen9",
+    "paradox"
+  ],
+  "abilities": [
+    "quarkdrive",
+    "h:quarkdrive"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 74,
+    "attack": 130,
+    "defence": 90,
+    "special_attack": 120,
+    "special_defence": 60,
+    "speed": 116
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 10,
+  "drops": {
+    "amount": 0,
+    "entries": []
+  },
+  "moves": [
+    "1:disable",
+    "1:doubleteam",
+    "1:shadowsneak",
+    "1:furycutter",
+    "1:electricterrain",
+    "7:hypnosis",
+    "14:feint",
+    "21:futuresight",
+    "28:dazzlinggleam",
+    "35:psychocut",
+    "42:nightslash",
+    "49:leafblade",
+    "56:moonblast",
+    "63:closecombat",
+    "70:knockoff",
+    "77:destinybond",
+    "84:wideguard",
+    "84:quickguard",
+    "91:spiritbreak",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aurasphere",
+    "tm:brickbreak",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:confuseray",
+    "tm:dazzlinggleam",
+    "tm:doubleteam",
+    "tm:drainpunch",
+    "tm:electricterrain",
+    "tm:encore",
+    "tm:endure",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:falseswipe",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:furycutter",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:knockoff",
+    "tm:leafblade",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:lowkick",
+    "tm:magicalleaf",
+    "tm:metronome",
+    "tm:mistyterrain",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psychocut",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:reflect",
+    "tm:rest",
+    "tm:reversal",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:vacuumwave",
+    "tm:xscissor",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:coaching",
+    "tutor:dazzlinggleam",
+    "tutor:drainpunch",
+    "tutor:energyball",
+    "tutor:expandingforce",
+    "tutor:falseswipe",
+    "tutor:firepunch",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:knockoff",
+    "tutor:liquidation",
+    "tutor:lowkick",
+    "tutor:magicalleaf",
+    "tutor:poisonjab",
+    "tutor:psychic",
+    "tutor:psychocut",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:trick",
+    "tutor:vacuumwave",
+    "tutor:xscissor",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.2,
+        "levels": "40-75",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_plains"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/paradox_spawns/spawn_pool_world/1006_ironvaliant.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.3,
+        "levels": "40-75",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_plains"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/paradox_spawns_ccc/spawn_pool_world/1006_ironvaliant.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/genomons/ironvaliant.png",
+      "out/sprites/cobblemon/ironvaliant.png"
+    ],
+    "shiny": [
+      "out/sprites/genomons/ironvaliant_shiny.png",
+      "out/sprites/cobblemon/ironvaliant_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ironvaliant.json"
+  ]
+}

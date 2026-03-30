@@ -1,0 +1,188 @@
+{
+  "id": "slitherwing",
+  "dexnum": 988,
+  "name": "Slither Wing",
+  "primaryType": "bug",
+  "secondaryType": "fighting",
+  "maleRatio": -1,
+  "labels": [
+    "gen9",
+    "paradox"
+  ],
+  "abilities": [
+    "protosynthesis",
+    "h:protosynthesis"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 135,
+    "defence": 79,
+    "special_attack": 85,
+    "special_defence": 105,
+    "speed": 81
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 30,
+  "drops": {
+    "amount": 0,
+    "entries": []
+  },
+  "moves": [
+    "1:gust",
+    "1:ember",
+    "1:bugbite",
+    "1:sunnyday",
+    "7:poisonpowder",
+    "7:stunspore",
+    "14:flamecharge",
+    "21:stomp",
+    "28:lowsweep",
+    "35:morningsun",
+    "42:lunge",
+    "49:superpower",
+    "56:bulkup",
+    "63:dualwingbeat",
+    "70:firstimpression",
+    "77:whirlwind",
+    "84:leechlife",
+    "91:thrash",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:bulkup",
+    "tm:closecombat",
+    "tm:curse",
+    "tm:doubleedge",
+    "tm:dualwingbeat",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:flareblitz",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:heatcrash",
+    "tm:heatwave",
+    "tm:heavyslam",
+    "tm:highhorsepower",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:leechlife",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:lunge",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:reversal",
+    "tm:sandstorm",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:uturn",
+    "tm:wildcharge",
+    "tm:willowisp",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:bugbite",
+    "tutor:bulkup",
+    "tutor:dualwingbeat",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:leechlife",
+    "tutor:lowkick",
+    "tutor:rest",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:superpower",
+    "tutor:wildcharge",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.2,
+        "levels": "50-60",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/paradox_spawns/spawn_pool_world/0988_slitherwing.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.2,
+        "levels": "50-60",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/paradox_spawns_ccc/spawn_pool_world/0988_slitherwing.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/slitherwing.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/slitherwing_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/slitherwing.json"
+  ]
+}

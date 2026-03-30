@@ -1,0 +1,128 @@
+{
+  "id": "caterpie",
+  "dexnum": 10,
+  "name": "Caterpie",
+  "primaryType": "bug",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "shielddust",
+    "h:runaway"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 30,
+    "defence": 35,
+    "special_attack": 20,
+    "special_defence": 20,
+    "speed": 45
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:wepear_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:stringshot",
+    "9:bugbite",
+    "tm:bugbite",
+    "tm:electroweb",
+    "tm:stringshot",
+    "tm:terablast",
+    "tutor:bugbite",
+    "tutor:electroweb",
+    "tutor:stringshot",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "caterpie_metapod",
+      "variant": "level_up",
+      "result": "metapod",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "harden"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 7
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "foliage",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 7.0,
+        "levels": "1-20",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_plains",
+            "aether:skyroot_forest",
+            "aether:skyroot_woodland"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0010_caterpie.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/caterpie.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/caterpie_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/caterpie.json"
+  ]
+}

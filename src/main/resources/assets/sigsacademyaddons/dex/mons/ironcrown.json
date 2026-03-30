@@ -1,0 +1,175 @@
+{
+  "id": "ironcrown",
+  "dexnum": 1023,
+  "name": "Iron Crown",
+  "primaryType": "steel",
+  "secondaryType": "psychic",
+  "maleRatio": -1,
+  "labels": [
+    "gen9",
+    "paradox"
+  ],
+  "abilities": [
+    "quarkdrive",
+    "h:quarkdrive"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 72,
+    "defence": 100,
+    "special_attack": 122,
+    "special_defence": 108,
+    "speed": 98
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 10,
+  "drops": {
+    "amount": 0,
+    "entries": []
+  },
+  "moves": [
+    "1:leer",
+    "1:electricterrain",
+    "1:confusion",
+    "1:metalclaw",
+    "7:smartstrike",
+    "14:slash",
+    "21:irondefense",
+    "28:psyshock",
+    "35:psychocut",
+    "42:flashcannon",
+    "49:sacredsword",
+    "56:tachyoncutter",
+    "63:futuresight",
+    "70:voltswitch",
+    "77:quickguard",
+    "84:metalburst",
+    "91:hyperbeam",
+    "tm:agility",
+    "tm:airslash",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:doubleedge",
+    "tm:electricterrain",
+    "tm:endure",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:focusblast",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:gravity",
+    "tm:heavyslam",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:metalclaw",
+    "tm:metalsound",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:psychocut",
+    "tm:psyshock",
+    "tm:rest",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:smartstrike",
+    "tm:solarblade",
+    "tm:steelbeam",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:supercellslam",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:voltswitch",
+    "tm:xscissor",
+    "tm:zenheadbutt",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:expandingforce",
+    "tutor:flashcannon",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:psychic",
+    "tutor:psychocut",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:steelbeam",
+    "tutor:xscissor",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "underground"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.3,
+        "levels": "60-88",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "minecraft:lush_caves"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/paradox_spawns/spawn_pool_world/1023_ironcrown.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "underground"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.3,
+        "levels": "60-88",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "minecraft:lush_caves"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/paradox_spawns_ccc/spawn_pool_world/1023_ironcrown.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/ironcrown.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/ironcrown_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/ironcrown.json"
+  ]
+}

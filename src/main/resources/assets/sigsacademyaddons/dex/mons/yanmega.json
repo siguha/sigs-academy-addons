@@ -1,0 +1,303 @@
+{
+  "id": "yanmega",
+  "dexnum": 469,
+  "name": "Yanmega",
+  "primaryType": "bug",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "speedboost",
+    "tintedlens",
+    "h:frisk"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 86,
+    "attack": 76,
+    "defence": 86,
+    "special_attack": 116,
+    "special_defence": 56,
+    "speed": 95
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 30,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:wide_lens",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:charti_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:nightslash",
+    "1:tackle",
+    "1:foresight",
+    "1:doubleteam",
+    "1:sonicboom",
+    "1:pursuit",
+    "1:airslash",
+    "1:bugbuzz",
+    "1:silverwind",
+    "1:gust",
+    "1:hypnosis",
+    "1:wingattack",
+    "14:quickattack",
+    "17:detect",
+    "22:supersonic",
+    "27:uproar",
+    "30:bugbite",
+    "33:ancientpower",
+    "38:feint",
+    "43:slash",
+    "46:screech",
+    "49:uturn",
+    "egg:doubleedge",
+    "egg:feint",
+    "egg:feintattack",
+    "egg:pursuit",
+    "egg:secretpower",
+    "egg:whirlwind",
+    "tm:aerialace",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:ancientpower",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:crunch",
+    "tm:defog",
+    "tm:doubleedge",
+    "tm:doubleteam",
+    "tm:dreameater",
+    "tm:dualwingbeat",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:hyperbeam",
+    "tm:laserfocus",
+    "tm:leechlife",
+    "tm:lunge",
+    "tm:ominouswind",
+    "tm:pounce",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:psychup",
+    "tm:rest",
+    "tm:reversal",
+    "tm:roost",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:secretpower",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:silverwind",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:steelwing",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:uproar",
+    "tm:uturn",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:ancientpower",
+    "tutor:bugbite",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:laserfocus",
+    "tutor:leechlife",
+    "tutor:ominouswind",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:shadowball",
+    "tutor:signalbeam",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:stringshot",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:uproar",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.96,
+        "levels": "33-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0469_yanmega.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.32,
+        "levels": "33-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0469_yanmega.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.32,
+        "levels": "33-52",
+        "biomeTags": {
+          "include": [
+            "#the_bumblezone:the_bumblezone"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0469_yanmega.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.32,
+        "levels": "33-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0469_yanmega.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        },
+        "yLevel": {
+          "minY": -41,
+          "maxY": 9
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.96,
+        "levels": "33-52",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0469_yanmega.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/yanmega.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/yanmega_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/yanmega.json"
+  ]
+}

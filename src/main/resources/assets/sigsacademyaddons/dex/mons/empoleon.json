@@ -1,0 +1,356 @@
+{
+  "id": "empoleon",
+  "dexnum": 395,
+  "name": "Empoleon",
+  "primaryType": "water",
+  "secondaryType": "steel",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "torrent",
+    "h:competitive"
+  ],
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "baseStats": {
+    "hp": 84,
+    "attack": 86,
+    "defence": 88,
+    "special_attack": 111,
+    "special_defence": 101,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:chicken",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "1:bubble",
+    "1:metalclaw",
+    "1:aquajet",
+    "1:pound",
+    "1:watergun",
+    "1:bide",
+    "1:watersport",
+    "11:swordsdance",
+    "15:peck",
+    "19:bubblebeam",
+    "24:swagger",
+    "28:furyattack",
+    "33:brine",
+    "39:whirlpool",
+    "46:mist",
+    "52:drillpeck",
+    "59:hydropump",
+    "66:wavecrash",
+    "egg:aquaring",
+    "egg:bide",
+    "egg:doublehit",
+    "egg:featherdance",
+    "egg:flail",
+    "egg:mudsport",
+    "egg:powertrip",
+    "egg:roost",
+    "egg:snore",
+    "egg:supersonic",
+    "egg:swagger",
+    "egg:yawn",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:avalanche",
+    "tm:babydolleyes",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brine",
+    "tm:bulldoze",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:covet",
+    "tm:cut",
+    "tm:defog",
+    "tm:disarmingvoice",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:dualwingbeat",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:featherdance",
+    "tm:flashcannon",
+    "tm:fling",
+    "tm:flipturn",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:hail",
+    "tm:haze",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hydrocannon",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icespinner",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:lashout",
+    "tm:liquidation",
+    "tm:metalclaw",
+    "tm:metalsound",
+    "tm:mudslap",
+    "tm:pluck",
+    "tm:protect",
+    "tm:psychup",
+    "tm:quash",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roost",
+    "tm:scaryface",
+    "tm:shadowclaw",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:snowscape",
+    "tm:stealthrock",
+    "tm:steelbeam",
+    "tm:steelwing",
+    "tm:strength",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swagger",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:tripleaxel",
+    "tm:uproar",
+    "tm:vacuumwave",
+    "tm:waterfall",
+    "tm:waterpledge",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:babydolleyes",
+    "tutor:bulldoze",
+    "tutor:covet",
+    "tutor:defog",
+    "tutor:dive",
+    "tutor:dualwingbeat",
+    "tutor:falseswipe",
+    "tutor:flashcannon",
+    "tutor:flipturn",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hydrocannon",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:knockoff",
+    "tutor:laserfocus",
+    "tutor:lashout",
+    "tutor:liquidation",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roost",
+    "tutor:shadowclaw",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:steelbeam",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:tripleaxel",
+    "tutor:uproar",
+    "tutor:vacuumwave",
+    "tutor:waterpledge",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:dig",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:secretpower",
+    "legacy:toxic",
+    "special:sing"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0395_empoleon.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0395_empoleon.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean",
+            "minecraft:frozen_river",
+            "#cobblemon:is_glacial",
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0395_empoleon.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0395_empoleon.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean",
+            "minecraft:frozen_river",
+            "#cobblemon:is_glacial",
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0395_empoleon.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/empoleon.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/empoleon_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/empoleon.json"
+  ]
+}

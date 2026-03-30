@@ -1,0 +1,302 @@
+{
+  "id": "togepi",
+  "dexnum": 175,
+  "name": "Togepi",
+  "primaryType": "fairy",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen2",
+    "baby"
+  ],
+  "abilities": [
+    "hustle",
+    "serenegrace",
+    "h:superluck"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 20,
+    "defence": 65,
+    "special_attack": 40,
+    "special_defence": 65,
+    "speed": 20
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:lucky_egg",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:shiny_stone",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:fairy_feather",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:growl",
+    "1:pound",
+    "4:sweetkiss",
+    "8:lifedew",
+    "12:charm",
+    "16:ancientpower",
+    "20:yawn",
+    "24:metronome",
+    "28:afteryou",
+    "32:doubleedge",
+    "36:safeguard",
+    "40:followme",
+    "44:batonpass",
+    "48:lastresort",
+    "52:wish",
+    "egg:aerialace",
+    "egg:bestow",
+    "egg:extrasensory",
+    "egg:foresight",
+    "egg:luckychant",
+    "egg:mirrormove",
+    "egg:morningsun",
+    "egg:peck",
+    "egg:present",
+    "egg:psychoshift",
+    "egg:secretpower",
+    "tm:aerialace",
+    "tm:afteryou",
+    "tm:ancientpower",
+    "tm:babydolleyes",
+    "tm:batonpass",
+    "tm:bodyslam",
+    "tm:charm",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:doubleedge",
+    "tm:drainingkiss",
+    "tm:dreameater",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:fling",
+    "tm:futuresight",
+    "tm:grassknot",
+    "tm:headbutt",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hypervoice",
+    "tm:incinerate",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:mudslap",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:secretpower",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thunderwave",
+    "tm:triattack",
+    "tm:trick",
+    "tm:uproar",
+    "tm:waterpulse",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:afteryou",
+    "tutor:ancientpower",
+    "tutor:babydolleyes",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:endeavor",
+    "tutor:flamethrower",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:lastresort",
+    "tutor:magiccoat",
+    "tutor:mudslap",
+    "tutor:mysticalfire",
+    "tutor:playrough",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:waterpulse",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:detect",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:seismictoss",
+    "legacy:snore",
+    "legacy:softboiled",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:zapcannon"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "togepi_togetic",
+      "variant": "level_up",
+      "result": "togetic",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "fairywind"
+      ],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 7.5,
+        "levels": "1-25",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_floral",
+            "#cobblemon:is_magical",
+            "#cobblemon:is_sky"
+          ],
+          "exclude": [
+            "#cobblemon:is_plains",
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0175_togepi.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 7.5,
+        "levels": "1-25",
+        "biomeTags": {
+          "include": [
+            "aether:skyroot_grove",
+            "aether:skyroot_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0175_togepi.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 7.5,
+        "levels": "1-25",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:floral_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0175_togepi.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/togepi.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/togepi_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/togepi.json"
+  ]
+}

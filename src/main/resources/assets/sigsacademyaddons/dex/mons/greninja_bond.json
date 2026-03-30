@@ -1,0 +1,323 @@
+{
+  "id": "greninja_bond",
+  "dexnum": 658,
+  "name": "Greninja Bond",
+  "primaryType": "water",
+  "secondaryType": "dark",
+  "maleRatio": 1,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "battlebond",
+    "h:battlebond"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 95,
+    "defence": 67,
+    "special_attack": 103,
+    "special_defence": 71,
+    "speed": 122
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:pearlescent_froglight",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:nightslash",
+    "1:roleplay",
+    "1:matblock",
+    "1:pound",
+    "1:growl",
+    "1:bubble",
+    "1:quickattack",
+    "1:feintattack",
+    "1:watershuriken",
+    "1:haze",
+    "1:watergun",
+    "1:round",
+    "10:lick",
+    "14:waterpulse",
+    "19:smokescreen",
+    "23:shadowsneak",
+    "28:spikes",
+    "33:aerialace",
+    "42:substitute",
+    "49:extrasensory",
+    "56:doubleteam",
+    "68:hydropump",
+    "egg:bestow",
+    "egg:camouflage",
+    "egg:counter",
+    "egg:mindreader",
+    "egg:mudsport",
+    "egg:retaliate",
+    "egg:spikes",
+    "egg:switcheroo",
+    "egg:toxicspikes",
+    "egg:watersport",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:blizzard",
+    "tm:bounce",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:chillingwater",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:dive",
+    "tm:doubleteam",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gunkshot",
+    "tm:haze",
+    "tm:helpinghand",
+    "tm:hydrocannon",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:liquidation",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:round",
+    "tm:sleeptalk",
+    "tm:sludgewave",
+    "tm:smackdown",
+    "tm:snatch",
+    "tm:snowscape",
+    "tm:spikes",
+    "tm:strength",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:toxicspikes",
+    "tm:trailblaze",
+    "tm:upperhand",
+    "tm:uturn",
+    "tm:waterfall",
+    "tm:waterpledge",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:bounce",
+    "tutor:dive",
+    "tutor:falseswipe",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hydrocannon",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:liquidation",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:spikes",
+    "tutor:swift",
+    "tutor:waterpledge",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:scald",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:spite",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:happyhour"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0658_greninja.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0658_greninja.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_bamboo",
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0658_greninja.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:water"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_bamboo",
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0658_greninja.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_bamboo",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_jungle"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0658_greninja.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/greninja.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/greninja_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/greninja.json"
+  ]
+}

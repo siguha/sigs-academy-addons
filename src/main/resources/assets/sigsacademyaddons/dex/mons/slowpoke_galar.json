@@ -1,0 +1,282 @@
+{
+  "id": "slowpoke_galar",
+  "dexnum": 79,
+  "name": "Slowpoke Galar",
+  "primaryType": "psychic",
+  "secondaryType": "psychic",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8",
+    "galarian_form"
+  ],
+  "abilities": [
+    "gluttony",
+    "owntempo",
+    "h:regenerator"
+  ],
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 65,
+    "defence": 65,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 15
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "cobblemon:tasty_tail",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:galarica_nuts",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:lagging_tail",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:curse",
+    "3:growl",
+    "6:acid",
+    "9:yawn",
+    "12:confusion",
+    "15:disable",
+    "18:waterpulse",
+    "21:headbutt",
+    "24:zenheadbutt",
+    "27:amnesia",
+    "30:surf",
+    "33:slackoff",
+    "36:psychic",
+    "39:psychup",
+    "42:raindance",
+    "45:healpulse",
+    "egg:belch",
+    "egg:bellydrum",
+    "egg:block",
+    "egg:stomp",
+    "tm:amnesia",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:chillingwater",
+    "tm:curse",
+    "tm:dig",
+    "tm:dive",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:foulplay",
+    "tm:grassknot",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:irontail",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:mudshot",
+    "tm:payday",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunderwave",
+    "tm:triattack",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:dive",
+    "tutor:expandingforce",
+    "tutor:flamethrower",
+    "tutor:foulplay",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:liquidation",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:trick",
+    "tutor:waterpulse",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:futuresight",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "slowpoke_slowbrogalar",
+      "variant": "item_interact",
+      "result": "slowbro galarian",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "shellsidearm"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:galarica_cuff"
+    },
+    {
+      "id": "slowpoke_slowkinggalar",
+      "variant": "item_interact",
+      "result": "slowking galarian",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "eeriespell"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:galarica_wreath"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "minecraft:mushroom_fields",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0079_slowpoke.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:water"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "minecraft:mushroom_fields",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0079_slowpoke.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "minecraft:mushroom_fields",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0079_slowpoke.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/slowpoke_galarian.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/slowpoke_galarian_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/slowpoke.json"
+  ]
+}

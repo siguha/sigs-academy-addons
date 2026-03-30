@@ -1,0 +1,237 @@
+{
+  "id": "pumpkaboo_super",
+  "dexnum": 710,
+  "name": "Pumpkaboo Super",
+  "primaryType": "ghost",
+  "secondaryType": "grass",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "pickup",
+    "frisk",
+    "h:insomnia"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 59,
+    "attack": 66,
+    "defence": 70,
+    "special_attack": 44,
+    "special_defence": 55,
+    "speed": 41
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 120,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:pumpkin_seeds",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:kasib_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:astonish",
+    "1:trickortreat",
+    "4:shadowsneak",
+    "8:confuseray",
+    "12:razorleaf",
+    "16:leechseed",
+    "20:bulletseed",
+    "24:scaryface",
+    "28:worryseed",
+    "32:seedbomb",
+    "36:shadowball",
+    "40:trick",
+    "44:painsplit",
+    "egg:bestow",
+    "egg:curse",
+    "egg:destinybond",
+    "egg:disable",
+    "tm:allyswitch",
+    "tm:bulletseed",
+    "tm:chargebeam",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dreameater",
+    "tm:endure",
+    "tm:energyball",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:foulplay",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:gyroball",
+    "tm:hex",
+    "tm:imprison",
+    "tm:incinerate",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:mysticalfire",
+    "tm:naturepower",
+    "tm:painsplit",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psychic",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:scaryface",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:skillswap",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:synthesis",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tm:worryseed",
+    "tutor:allyswitch",
+    "tutor:chargebeam",
+    "tutor:darkpulse",
+    "tutor:energyball",
+    "tutor:flamethrower",
+    "tutor:foulplay",
+    "tutor:gigadrain",
+    "tutor:grassyglide",
+    "tutor:magiccoat",
+    "tutor:mysticalfire",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spite",
+    "tutor:synthesis",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "pumpkaboo_gourgeist",
+      "variant": "trade",
+      "result": "gourgeist",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": []
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.7,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0710_pumpkaboo.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:pumpkin",
+            "minecraft:carved_pumpkin"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 9.2,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_overgrowth"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0710_pumpkaboo.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/pumpkaboo_super.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/pumpkaboo_super_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/pumpkaboo.json"
+  ]
+}

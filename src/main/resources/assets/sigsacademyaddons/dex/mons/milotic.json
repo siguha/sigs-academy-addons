@@ -1,0 +1,236 @@
+{
+  "id": "milotic",
+  "dexnum": 350,
+  "name": "Milotic",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "marvelscale",
+    "competitive",
+    "h:cutecharm"
+  ],
+  "eggGroups": [
+    "water_1",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 60,
+    "defence": 79,
+    "special_attack": 100,
+    "special_defence": 125,
+    "speed": 81
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "experienceGroup": "erratic",
+  "catchRate": 60,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:bone_meal",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:prism_scale",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:watergun",
+    "1:wrap",
+    "1:watersport",
+    "1:refresh",
+    "1:waterpulse",
+    "1:captivate",
+    "1:flail",
+    "1:splash",
+    "1:tackle",
+    "4:disarmingvoice",
+    "8:twister",
+    "12:aquaring",
+    "16:attract",
+    "20:lifedew",
+    "24:dragontail",
+    "28:recover",
+    "32:aquatail",
+    "36:safeguard",
+    "40:surf",
+    "44:raindance",
+    "48:coil",
+    "52:hydropump",
+    "egg:captivate",
+    "egg:confuseray",
+    "egg:dragonbreath",
+    "egg:haze",
+    "egg:hypnosis",
+    "egg:mirrorcoat",
+    "egg:mist",
+    "egg:mudsport",
+    "egg:tickle",
+    "tm:alluringvoice",
+    "tm:aquatail",
+    "tm:attract",
+    "tm:avalanche",
+    "tm:bind",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:brine",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:captivate",
+    "tm:chillingwater",
+    "tm:confuseray",
+    "tm:disarmingvoice",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:dragoncheer",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:drainingkiss",
+    "tm:endure",
+    "tm:facade",
+    "tm:flipturn",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:haze",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:scald",
+    "tm:scaleshot",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:tripleaxel",
+    "tm:twister",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tutor:aquatail",
+    "tutor:bind",
+    "tutor:bulldoze",
+    "tutor:dive",
+    "tutor:dragonpulse",
+    "tutor:flipturn",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:magiccoat",
+    "tutor:rest",
+    "tutor:scaleshot",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:tripleaxel",
+    "tutor:twister",
+    "tutor:waterpulse",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "rarity": "common",
+        "weight": 0.3,
+        "levels": "15-54",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0350_milotic.json"
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.5,
+        "levels": "15-54",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0350_milotic.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/milotic.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/milotic_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/milotic.json"
+  ]
+}

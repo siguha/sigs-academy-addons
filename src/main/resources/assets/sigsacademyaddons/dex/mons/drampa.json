@@ -1,0 +1,258 @@
+{
+  "id": "drampa",
+  "dexnum": 780,
+  "name": "Drampa",
+  "primaryType": "normal",
+  "secondaryType": "dragon",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "berserk",
+    "sapsipper",
+    "h:cloudnine"
+  ],
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 78,
+    "attack": 60,
+    "defence": 85,
+    "special_attack": 135,
+    "special_defence": 91,
+    "speed": 36
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 70,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:dragon_breath",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:playnice",
+    "1:echoedvoice",
+    "1:dragonrage",
+    "5:twister",
+    "10:protect",
+    "15:glare",
+    "20:safeguard",
+    "25:dragonbreath",
+    "30:extrasensory",
+    "35:dragonpulse",
+    "40:lightscreen",
+    "45:fly",
+    "50:hypervoice",
+    "55:outrage",
+    "egg:dragonrush",
+    "egg:mist",
+    "egg:naturalgift",
+    "egg:razorwind",
+    "egg:tickle",
+    "tm:amnesia",
+    "tm:blizzard",
+    "tm:block",
+    "tm:breakingswipe",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:defog",
+    "tm:dracometeor",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:fling",
+    "tm:fly",
+    "tm:focusblast",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:hurricane",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:lashout",
+    "tm:lightscreen",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:roost",
+    "tm:safeguard",
+    "tm:scaleshot",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:solarbeam",
+    "tm:steelwing",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:surf",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:twister",
+    "tm:uproar",
+    "tm:waterpulse",
+    "tm:workup",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:defog",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:flamethrower",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:lashout",
+    "tutor:outrage",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:roost",
+    "tutor:scaleshot",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:stompingtantrum",
+    "tutor:superpower",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:thunderbolt",
+    "tutor:twister",
+    "tutor:uproar",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_peak"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0780_drampa.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "yLevel": {
+          "minY": 190
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_sky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0780_drampa.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "yLevel": {
+          "minY": 190
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/drampa.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/drampa_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/drampa.json"
+  ]
+}

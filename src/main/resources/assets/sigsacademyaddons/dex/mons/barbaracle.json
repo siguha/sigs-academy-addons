@@ -1,0 +1,271 @@
+{
+  "id": "barbaracle",
+  "dexnum": 689,
+  "name": "Barbaracle",
+  "primaryType": "rock",
+  "secondaryType": "water",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "toughclaws",
+    "sniper",
+    "h:pickpocket"
+  ],
+  "eggGroups": [
+    "water_3"
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 105,
+    "defence": 115,
+    "special_attack": 54,
+    "special_defence": 86,
+    "speed": 68
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:rindo_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:skullbash",
+    "1:scratch",
+    "1:sandattack",
+    "1:watergun",
+    "1:withdraw",
+    "1:mudslap",
+    "1:clamp",
+    "1:nightslash",
+    "12:furycutter",
+    "16:furyswipes",
+    "20:ancientpower",
+    "24:rockpolish",
+    "28:slash",
+    "32:honeclaws",
+    "36:razorshell",
+    "42:shellsmash",
+    "48:crosschop",
+    "54:stoneedge",
+    "egg:nightslash",
+    "egg:sandattack",
+    "egg:switcheroo",
+    "egg:tickle",
+    "egg:watersport",
+    "tm:aerialace",
+    "tm:ancientpower",
+    "tm:assurance",
+    "tm:beatup",
+    "tm:blizzard",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:cut",
+    "tm:dig",
+    "tm:dive",
+    "tm:dragonclaw",
+    "tm:dualchop",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:embargo",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:laserfocus",
+    "tm:liquidation",
+    "tm:lowkick",
+    "tm:meteorbeam",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:naturepower",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:razorshell",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:scald",
+    "tm:screech",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:surf",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:torment",
+    "tm:uproar",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:ancientpower",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:dive",
+    "tutor:dualchop",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:falseswipe",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:laserfocus",
+    "tutor:liquidation",
+    "tutor:lowkick",
+    "tutor:meteorbeam",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:uproar",
+    "tutor:waterpulse",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 0.96,
+        "levels": "39-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0689_barbaracle.json"
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "39-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0689_barbaracle.json"
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "39-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0689_barbaracle.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "39-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0689_barbaracle.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon_reanimodel/barbaracle.png",
+      "out/sprites/cobblemon/barbaracle.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon_reanimodel/barbaracle_shiny.png",
+      "out/sprites/cobblemon/barbaracle_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/barbaracle.json"
+  ]
+}

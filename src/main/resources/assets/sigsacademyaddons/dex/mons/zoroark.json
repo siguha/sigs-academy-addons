@@ -1,0 +1,244 @@
+{
+  "id": "zoroark",
+  "dexnum": 571,
+  "name": "Zoroark",
+  "primaryType": "dark",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen5",
+    "unovan_form"
+  ],
+  "abilities": [
+    "illusion",
+    "h:illusion"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 105,
+    "defence": 60,
+    "special_attack": 120,
+    "special_defence": 60,
+    "speed": 105
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:sweet_berries",
+        "percentage": null,
+        "quantityRange": "2-4",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:roseli_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:uturn",
+    "1:scratch",
+    "1:leer",
+    "1:pursuit",
+    "1:honeclaws",
+    "1:feintattack",
+    "1:nightslash",
+    "1:torment",
+    "1:punishment",
+    "12:furyswipes",
+    "20:taunt",
+    "24:knockoff",
+    "28:faketears",
+    "34:agility",
+    "40:imprison",
+    "46:nightdaze",
+    "52:nastyplot",
+    "58:foulplay",
+    "egg:captivate",
+    "egg:copycat",
+    "egg:counter",
+    "egg:detect",
+    "egg:extrasensory",
+    "egg:feintattack",
+    "egg:memento",
+    "egg:punishment",
+    "egg:suckerpunch",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:assurance",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:brickbreak",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:confuseray",
+    "tm:covet",
+    "tm:crunch",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:embargo",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flamethrower",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:foulplay",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:imprison",
+    "tm:incinerate",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:lashout",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:scaryface",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:spite",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:torment",
+    "tm:toxic",
+    "tm:trick",
+    "tm:uturn",
+    "tutor:bounce",
+    "tutor:burningjealousy",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:darkpulse",
+    "tutor:flamethrower",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:knockoff",
+    "tutor:laserfocus",
+    "tutor:lashout",
+    "tutor:lowkick",
+    "tutor:painsplit",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snarl",
+    "tutor:snatch",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:trick",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:uproar"
+  ],
+  "forms": [
+    "Hisui"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.96,
+        "levels": "30-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0571_zoroark.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/zoroark.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/zoroark_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/zoroark.json"
+  ]
+}

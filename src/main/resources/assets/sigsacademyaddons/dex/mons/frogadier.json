@@ -1,0 +1,318 @@
+{
+  "id": "frogadier",
+  "dexnum": 657,
+  "name": "Frogadier",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "torrent",
+    "h:protean"
+  ],
+  "eggGroups": [
+    "water_1"
+  ],
+  "baseStats": {
+    "hp": 54,
+    "attack": 63,
+    "defence": 52,
+    "special_attack": 83,
+    "special_defence": 56,
+    "speed": 97
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:pearlescent_froglight",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:growl",
+    "1:bubble",
+    "1:watergun",
+    "8:quickattack",
+    "10:lick",
+    "14:waterpulse",
+    "19:smokescreen",
+    "23:round",
+    "28:fling",
+    "33:smackdown",
+    "40:substitute",
+    "45:bounce",
+    "50:doubleteam",
+    "56:hydropump",
+    "egg:bestow",
+    "egg:camouflage",
+    "egg:counter",
+    "egg:mindreader",
+    "egg:mudsport",
+    "egg:retaliate",
+    "egg:spikes",
+    "egg:switcheroo",
+    "egg:toxicspikes",
+    "egg:watersport",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:blizzard",
+    "tm:bounce",
+    "tm:chillingwater",
+    "tm:cut",
+    "tm:dig",
+    "tm:dive",
+    "tm:doubleteam",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:grassknot",
+    "tm:gunkshot",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:liquidation",
+    "tm:lowkick",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:round",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:snatch",
+    "tm:snowscape",
+    "tm:spikes",
+    "tm:strength",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:toxicspikes",
+    "tm:trailblaze",
+    "tm:uturn",
+    "tm:waterfall",
+    "tm:waterpledge",
+    "tm:waterpulse",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:bounce",
+    "tutor:dive",
+    "tutor:falseswipe",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:liquidation",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:spikes",
+    "tutor:swift",
+    "tutor:waterpledge",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:darkpulse",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:scald",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:spite",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "frogadier_greninja",
+      "variant": "level_up",
+      "result": "greninja",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "watershuriken"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0657_frogadier.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0657_frogadier.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_bamboo",
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0657_frogadier.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:water"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_bamboo",
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0657_frogadier.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_bamboo",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_jungle"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0657_frogadier.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/frogadier.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/frogadier_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/frogadier.json"
+  ]
+}

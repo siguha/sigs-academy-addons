@@ -1,0 +1,209 @@
+{
+  "id": "linoone_galar",
+  "dexnum": 264,
+  "name": "Linoone Galar",
+  "primaryType": "dark",
+  "secondaryType": "normal",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8",
+    "galarian_form"
+  ],
+  "abilities": [
+    "pickup",
+    "gluttony",
+    "h:quickfeet"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 78,
+    "attack": 70,
+    "defence": 61,
+    "special_attack": 50,
+    "special_defence": 61,
+    "speed": 100
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 90,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:chople_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:nightslash",
+    "1:switcheroo",
+    "1:pinmissile",
+    "1:babydolleyes",
+    "1:tackle",
+    "1:leer",
+    "1:sandattack",
+    "1:lick",
+    "9:snarl",
+    "12:headbutt",
+    "15:honeclaws",
+    "18:furyswipes",
+    "23:rest",
+    "28:takedown",
+    "33:scaryface",
+    "38:counter",
+    "43:taunt",
+    "48:doubleedge",
+    "egg:knockoff",
+    "egg:partingshot",
+    "egg:quickguard",
+    "tm:assurance",
+    "tm:babydolleyes",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fling",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gunkshot",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:mudshot",
+    "tm:payback",
+    "tm:pinmissile",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:trick",
+    "tm:whirlpool",
+    "tm:workup",
+    "tutor:babydolleyes",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:stompingtantrum",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:thunderbolt",
+    "tutor:trick",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "linoone_obstagoon",
+      "variant": "level_up",
+      "result": "obstagoon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "obstruct"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.9,
+        "levels": "20-42",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0264_linoone.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/linoone_galarian.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/linoone_galarian_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/linoone.json"
+  ]
+}

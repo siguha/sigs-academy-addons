@@ -1,0 +1,314 @@
+{
+  "id": "mantyke",
+  "dexnum": 458,
+  "name": "Mantyke",
+  "primaryType": "water",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4",
+    "baby"
+  ],
+  "abilities": [
+    "swiftswim",
+    "waterabsorb",
+    "h:waterveil"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 20,
+    "defence": 50,
+    "special_attack": 60,
+    "special_defence": 120,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 25,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:cod",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:wacan_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:bubble",
+    "1:watergun",
+    "4:supersonic",
+    "8:wingattack",
+    "12:waterpulse",
+    "16:wideguard",
+    "20:agility",
+    "24:bubblebeam",
+    "28:headbutt",
+    "32:airslash",
+    "36:aquaring",
+    "40:bounce",
+    "44:takedown",
+    "48:hydropump",
+    "egg:confuseray",
+    "egg:haze",
+    "egg:mirrorcoat",
+    "egg:mudsport",
+    "egg:slam",
+    "egg:splash",
+    "egg:tailwind",
+    "egg:twister",
+    "egg:watersport",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:amnesia",
+    "tm:blizzard",
+    "tm:bounce",
+    "tm:bulldoze",
+    "tm:confuseray",
+    "tm:dive",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:hail",
+    "tm:haze",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:scald",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:twister",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:bounce",
+    "tutor:bulldoze",
+    "tutor:dive",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:twister",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "mantyke_mantine",
+      "variant": "level_up",
+      "result": "mantine",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "party_member",
+          "target": "remoraid",
+          "contains": true
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "10-35",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lukewarm_ocean",
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0458_mantyke.json",
+        "sky": {
+          "canSeeSky": true
+        },
+        "yLevel": {
+          "minY": 48
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "10-35",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0458_mantyke.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "10-35",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0458_mantyke.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "10-35",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lukewarm_ocean",
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0458_mantyke.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "yLevel": {
+          "minY": 48
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "10-35",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0458_mantyke.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "10-35",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ],
+          "exclude": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0458_mantyke.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/mantyke.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/mantyke_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/mantyke.json"
+  ]
+}

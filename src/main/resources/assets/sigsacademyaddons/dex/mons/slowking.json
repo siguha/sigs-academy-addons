@@ -1,0 +1,346 @@
+{
+  "id": "slowking",
+  "dexnum": 199,
+  "name": "Slowking",
+  "primaryType": "water",
+  "secondaryType": "psychic",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2",
+    "johtonian_form"
+  ],
+  "abilities": [
+    "oblivious",
+    "owntempo",
+    "h:regenerator"
+  ],
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 75,
+    "defence": 80,
+    "special_attack": 100,
+    "special_defence": 110,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 70,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "cobblemon:tasty_tail",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:kings_rock",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:lagging_tail",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:powergem",
+    "1:curse",
+    "1:tackle",
+    "1:growl",
+    "1:watergun",
+    "1:zenheadbutt",
+    "1:nastyplot",
+    "1:trumpcard",
+    "1:swagger",
+    "1:futuresight",
+    "1:chillyreception",
+    "9:yawn",
+    "12:confusion",
+    "15:disable",
+    "18:waterpulse",
+    "21:headbutt",
+    "27:amnesia",
+    "30:surf",
+    "33:slackoff",
+    "36:psychic",
+    "39:psychup",
+    "42:raindance",
+    "45:healpulse",
+    "egg:belch",
+    "egg:bellydrum",
+    "egg:block",
+    "egg:mefirst",
+    "egg:mudsport",
+    "egg:snore",
+    "egg:stomp",
+    "tm:afteryou",
+    "tm:amnesia",
+    "tm:aquatail",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brine",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:chillingwater",
+    "tm:curse",
+    "tm:dig",
+    "tm:dive",
+    "tm:drainpunch",
+    "tm:dreameater",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:foulplay",
+    "tm:furycutter",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:incinerate",
+    "tm:irondefense",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:magiccoat",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:nastyplot",
+    "tm:payday",
+    "tm:powergem",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:psychicterrain",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:quash",
+    "tm:raindance",
+    "tm:razorshell",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:scald",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:snowscape",
+    "tm:storedpower",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:swagger",
+    "tm:swift",
+    "tm:takedown",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:triattack",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:afteryou",
+    "tutor:aquatail",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:dive",
+    "tutor:drainpunch",
+    "tutor:expandingforce",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focuspunch",
+    "tutor:foulplay",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:liquidation",
+    "tutor:magiccoat",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:shadowball",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:thunderpunch",
+    "tutor:trick",
+    "tutor:waterpulse",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:allyswitch",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:bubblebeam",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:dragontail",
+    "legacy:dynamicpunch",
+    "legacy:fissure",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:psywave",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:skullbash",
+    "legacy:teleport",
+    "legacy:toxic",
+    "legacy:zapcannon"
+  ],
+  "forms": [
+    "Galar"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.15,
+        "levels": "37-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_beach"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0199_slowking.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.05,
+        "levels": "37-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_beach"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0199_slowking.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.05,
+        "levels": "37-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_beach"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0199_slowking.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/slowking.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/slowking_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/slowking.json"
+  ]
+}

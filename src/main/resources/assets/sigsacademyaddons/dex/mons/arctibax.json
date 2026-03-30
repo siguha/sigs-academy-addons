@@ -1,0 +1,190 @@
+{
+  "id": "arctibax",
+  "dexnum": 997,
+  "name": "Arctibax",
+  "primaryType": "dragon",
+  "secondaryType": "ice",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "thermalexchange",
+    "h:icebody"
+  ],
+  "eggGroups": [
+    "dragon",
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 95,
+    "defence": 66,
+    "special_attack": 45,
+    "special_defence": 65,
+    "speed": 62
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 25,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:haban_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "1:dragontail",
+    "6:icywind",
+    "12:dragonbreath",
+    "18:focusenergy",
+    "24:bite",
+    "29:icefang",
+    "40:takedown",
+    "45:icebeam",
+    "50:crunch",
+    "55:iciclecrash",
+    "egg:aquatail",
+    "egg:dragonrush",
+    "egg:freezedry",
+    "egg:iciclespear",
+    "tm:aerialace",
+    "tm:aquatail",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:crunch",
+    "tm:dig",
+    "tm:dracometeor",
+    "tm:dragonclaw",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:endure",
+    "tm:facade",
+    "tm:focusenergy",
+    "tm:helpinghand",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:ironhead",
+    "tm:outrage",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:substitute",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tutor:aerialace",
+    "tutor:aquatail",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:focusenergy",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:icywind",
+    "tutor:ironhead",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:sleeptalk"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "arctibax_baxcalibur",
+      "variant": "level_up",
+      "result": "baxcalibur",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "glaiverush"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 54
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 2.5,
+        "levels": "38-57",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_glacial"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0997_arctibax.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 2.5,
+        "levels": "38-57",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_glacial"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0997_arctibax.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/genomons/arctibax.png",
+      "out/sprites/cobblemon/arctibax.png"
+    ],
+    "shiny": [
+      "out/sprites/genomons/arctibax_shiny.png",
+      "out/sprites/cobblemon/arctibax_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/arctibax.json"
+  ]
+}

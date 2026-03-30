@@ -1,0 +1,298 @@
+{
+  "id": "growlithe_hisui",
+  "dexnum": 58,
+  "name": "Growlithe Hisui",
+  "primaryType": "fire",
+  "secondaryType": "rock",
+  "maleRatio": 0.75,
+  "labels": [
+    "gen8a",
+    "hisuian_form"
+  ],
+  "abilities": [
+    "intimidate",
+    "flashfire",
+    "h:rockhead"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 75,
+    "defence": 45,
+    "special_attack": 65,
+    "special_defence": 50,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 190,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:leer",
+    "1:ember",
+    "4:howl",
+    "8:bite",
+    "12:flamewheel",
+    "16:helpinghand",
+    "24:firefang",
+    "28:retaliate",
+    "32:crunch",
+    "36:takedown",
+    "40:flamethrower",
+    "44:roar",
+    "48:rockslide",
+    "52:reversal",
+    "56:flareblitz",
+    "egg:covet",
+    "egg:doubleedge",
+    "egg:doublekick",
+    "egg:headsmash",
+    "egg:morningsun",
+    "egg:thrash",
+    "tm:agility",
+    "tm:bodyslam",
+    "tm:closecombat",
+    "tm:covet",
+    "tm:crunch",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:irontail",
+    "tm:outrage",
+    "tm:overheat",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:smartstrike",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thunderfang",
+    "tm:wildcharge",
+    "tm:willowisp",
+    "tutor:covet",
+    "tutor:firefang",
+    "tutor:flamethrower",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:scorchingsands",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:thunderfang",
+    "tutor:wildcharge"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "growlithe_arcaninehisui",
+      "variant": "item_interact",
+      "result": "arcanine hisuian",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "extremespeed"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:fire_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 3.5,
+        "levels": "10-35",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0058_growlithe_hisuian.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 4,
+        "levels": "10-40",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_volcanic"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0058_growlithe_hisuian.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 3.5,
+        "levels": "10-35",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#minecraft:is_nether"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0058_growlithe_hisuian.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 3.5,
+        "levels": "10-35",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0058_growlithe_hisuian.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 4,
+        "levels": "10-40",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_volcanic"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0058_growlithe_hisuian.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 3.5,
+        "levels": "10-35",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#minecraft:is_nether"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0058_growlithe_hisuian.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/genomons/growlithe_hisui.png",
+      "out/sprites/cobblemon/growlithe_hisuian.png"
+    ],
+    "shiny": [
+      "out/sprites/genomons/growlithe_hisui_shiny.png",
+      "out/sprites/cobblemon/growlithe_hisuian_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/growlithe.json"
+  ]
+}

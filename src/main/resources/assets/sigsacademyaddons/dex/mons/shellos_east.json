@@ -1,0 +1,188 @@
+{
+  "id": "shellos_east",
+  "dexnum": 422,
+  "name": "Shellos East",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "stickyhold",
+    "stormdrain",
+    "h:sandforce"
+  ],
+  "eggGroups": [
+    "water_1",
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 76,
+    "attack": 48,
+    "defence": 48,
+    "special_attack": 57,
+    "special_defence": 62,
+    "speed": 34
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:clay_ball",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:rindo_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:mudslap",
+    "1:mudsport",
+    "1:watergun",
+    "5:harden",
+    "10:recover",
+    "15:waterpulse",
+    "20:ancientpower",
+    "25:bodyslam",
+    "31:muddywater",
+    "35:earthpower",
+    "40:raindance",
+    "45:memento",
+    "egg:acidarmor",
+    "egg:clearsmog",
+    "egg:counter",
+    "egg:curse",
+    "egg:fissure",
+    "egg:mirrorcoat",
+    "egg:mist",
+    "egg:mudbomb",
+    "egg:sludge",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow",
+    "egg:trumpcard",
+    "egg:yawn",
+    "tm:amnesia",
+    "tm:ancientpower",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:bulldoze",
+    "tm:chillingwater",
+    "tm:curse",
+    "tm:dive",
+    "tm:earthpower",
+    "tm:endure",
+    "tm:facade",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:infestation",
+    "tm:liquidation",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:painsplit",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:stringshot",
+    "tm:substitute",
+    "tm:surf",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:ancientpower",
+    "tutor:bulldoze",
+    "tutor:dive",
+    "tutor:earthpower",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:liquidation",
+    "tutor:mudslap",
+    "tutor:painsplit",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:stringshot",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "shellos_gastrodon",
+      "variant": "level_up",
+      "result": "gastrodon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]
+    }
+  ],
+  "spawns": [],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/shellos_east.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/shellos_east_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/shellos.json"
+  ]
+}

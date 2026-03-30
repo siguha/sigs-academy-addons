@@ -1,0 +1,303 @@
+{
+  "id": "flareon",
+  "dexnum": 136,
+  "name": "Flareon",
+  "primaryType": "fire",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "flashfire",
+    "h:guts"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 130,
+    "defence": 60,
+    "special_attack": 95,
+    "special_defence": 110,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:fire_stone",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tailwhip",
+    "1:tackle",
+    "1:helpinghand",
+    "1:ember",
+    "1:swift",
+    "1:covet",
+    "1:copycat",
+    "1:batonpass",
+    "1:takedown",
+    "1:charm",
+    "1:doubleedge",
+    "1:growl",
+    "1:trumpcard",
+    "1:refresh",
+    "5:sandattack",
+    "10:quickattack",
+    "15:babydolleyes",
+    "20:smog",
+    "25:bite",
+    "30:firefang",
+    "35:firespin",
+    "40:lavaplume",
+    "45:scaryface",
+    "50:flareblitz",
+    "55:lastresort",
+    "egg:captivate",
+    "egg:curse",
+    "egg:detect",
+    "egg:doublekick",
+    "egg:flail",
+    "egg:mudslap",
+    "egg:naturalgift",
+    "egg:synchronoise",
+    "egg:tickle",
+    "egg:wish",
+    "egg:yawn",
+    "tm:alluringvoice",
+    "tm:babydolleyes",
+    "tm:batonpass",
+    "tm:bodyslam",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:charm",
+    "tm:covet",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:focusenergy",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:healbell",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:lastresort",
+    "tm:mudslap",
+    "tm:mysticalfire",
+    "tm:naturalgift",
+    "tm:overheat",
+    "tm:payday",
+    "tm:powershift",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:scaryface",
+    "tm:scorchingsands",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:storedpower",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:swift",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:weatherball",
+    "tm:willowisp",
+    "tm:workup",
+    "tutor:babydolleyes",
+    "tutor:burningjealousy",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:endeavor",
+    "tutor:firefang",
+    "tutor:flamethrower",
+    "tutor:focusenergy",
+    "tutor:gigaimpact",
+    "tutor:healbell",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:lastresort",
+    "tutor:mudslap",
+    "tutor:mysticalfire",
+    "tutor:powershift",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:scorchingsands",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:superpower",
+    "tutor:swift",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:leer",
+    "legacy:mimic",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:zapcannon",
+    "special:celebrate",
+    "special:sing"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 1.2,
+        "levels": "28-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands",
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0136_flareon.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.02,
+        "levels": "28-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0136_flareon.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.02,
+        "levels": "28-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0136_flareon.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "mansion"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.1,
+        "levels": "28-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0136_flareon.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/flareon.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/flareon_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/flareon.json"
+  ]
+}

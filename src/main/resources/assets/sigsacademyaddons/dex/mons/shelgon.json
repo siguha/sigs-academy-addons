@@ -1,0 +1,242 @@
+{
+  "id": "shelgon",
+  "dexnum": 372,
+  "name": "Shelgon",
+  "primaryType": "dragon",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "rockhead",
+    "h:overcoat"
+  ],
+  "eggGroups": [
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 95,
+    "defence": 100,
+    "special_attack": 60,
+    "special_defence": 50,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:dragon_fang",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:dragon_scale",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:rage",
+    "1:bite",
+    "1:leer",
+    "1:ember",
+    "1:protect",
+    "1:dragonbreath",
+    "15:headbutt",
+    "20:scaryface",
+    "25:crunch",
+    "33:dragonclaw",
+    "39:zenheadbutt",
+    "46:focusenergy",
+    "53:flamethrower",
+    "60:outrage",
+    "67:doubleedge",
+    "egg:defensecurl",
+    "egg:dragonrage",
+    "egg:dragonrush",
+    "egg:thrash",
+    "egg:twister",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:crunch",
+    "tm:cut",
+    "tm:doubleedge",
+    "tm:dracometeor",
+    "tm:dragoncheer",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firespin",
+    "tm:flamethrower",
+    "tm:focusenergy",
+    "tm:furycutter",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hydropump",
+    "tm:hypervoice",
+    "tm:incinerate",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:mudslap",
+    "tm:outrage",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:scaryface",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thunderfang",
+    "tm:twister",
+    "tm:zenheadbutt",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:firefang",
+    "tutor:flamethrower",
+    "tutor:focusenergy",
+    "tutor:furycutter",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:mudslap",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:thunderfang",
+    "tutor:twister",
+    "tutor:zenheadbutt",
+    "legacy:aerialace",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:wish"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "shelgon_salamence",
+      "variant": "level_up",
+      "result": "salamence",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "fly"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 50
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "30-42",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_dripstone"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0372_shelgon.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 2.25,
+        "levels": "30-42",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_dripstone"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0372_shelgon.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/shelgon.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/shelgon_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/shelgon.json"
+  ]
+}

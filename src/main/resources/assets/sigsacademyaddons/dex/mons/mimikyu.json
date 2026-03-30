@@ -1,0 +1,235 @@
+{
+  "id": "mimikyu",
+  "dexnum": 778,
+  "name": "Mimikyu",
+  "primaryType": "ghost",
+  "secondaryType": "fairy",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "disguise",
+    "h:disguise"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 90,
+    "defence": 80,
+    "special_attack": 50,
+    "special_defence": 105,
+    "speed": 96
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:spell_tag",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:woodhammer",
+    "1:splash",
+    "1:scratch",
+    "1:astonish",
+    "1:copycat",
+    "1:feintattack",
+    "6:shadowsneak",
+    "12:doubleteam",
+    "18:babydolleyes",
+    "24:mimic",
+    "30:honeclaws",
+    "36:slash",
+    "42:shadowclaw",
+    "48:charm",
+    "54:playrough",
+    "60:painsplit",
+    "egg:curse",
+    "egg:destinybond",
+    "egg:grudge",
+    "egg:nightmare",
+    "tm:afteryou",
+    "tm:babydolleyes",
+    "tm:beatup",
+    "tm:bulkup",
+    "tm:burningjealousy",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:covet",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:doubleteam",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:dreameater",
+    "tm:embargo",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:hex",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:infestation",
+    "tm:lastresort",
+    "tm:leechlife",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:mistyterrain",
+    "tm:nightshade",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:phantomforce",
+    "tm:playrough",
+    "tm:pounce",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:spite",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:xscissor",
+    "tutor:afteryou",
+    "tutor:babydolleyes",
+    "tutor:bulkup",
+    "tutor:burningjealousy",
+    "tutor:covet",
+    "tutor:darkpulse",
+    "tutor:dazzlinggleam",
+    "tutor:drainpunch",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:lastresort",
+    "tutor:leechlife",
+    "tutor:magicroom",
+    "tutor:painsplit",
+    "tutor:playrough",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:spite",
+    "tutor:telekinesis",
+    "tutor:thunderbolt",
+    "tutor:trick",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:chargebeam",
+    "legacy:confide",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [
+    "Busted"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 10.0,
+        "levels": "23-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0778_mimikyu.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "mansion"
+        ],
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "23-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0778_mimikyu.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/mimikyu.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/mimikyu_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/mimikyu.json"
+  ]
+}

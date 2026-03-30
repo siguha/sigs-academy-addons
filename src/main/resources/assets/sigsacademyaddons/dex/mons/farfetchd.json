@@ -1,0 +1,258 @@
+{
+  "id": "farfetchd",
+  "dexnum": 83,
+  "name": "Farfetch’d",
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1",
+    "kantonian_form"
+  ],
+  "abilities": [
+    "keeneye",
+    "innerfocus",
+    "h:defiant"
+  ],
+  "eggGroups": [
+    "flying",
+    "field"
+  ],
+  "baseStats": {
+    "hp": 52,
+    "attack": 90,
+    "defence": 55,
+    "special_attack": 58,
+    "special_defence": 62,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:chicken",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:medicinal_leek",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chilan_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:peck",
+    "1:sandattack",
+    "1:furyattack",
+    "1:nightslash",
+    "1:feint",
+    "5:leer",
+    "10:furycutter",
+    "15:cut",
+    "20:aerialace",
+    "25:aircutter",
+    "30:knockoff",
+    "35:falseswipe",
+    "40:slash",
+    "45:swordsdance",
+    "50:airslash",
+    "55:leafblade",
+    "60:agility",
+    "65:bravebird",
+    "egg:covet",
+    "egg:curse",
+    "egg:featherdance",
+    "egg:feint",
+    "egg:finalgambit",
+    "egg:firstimpression",
+    "egg:flail",
+    "egg:foresight",
+    "egg:gust",
+    "egg:mirrormove",
+    "egg:nightslash",
+    "egg:quickattack",
+    "egg:roost",
+    "egg:simplebeam",
+    "egg:skyattack",
+    "egg:trumpcard",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:batonpass",
+    "tm:bodyslam",
+    "tm:bravebird",
+    "tm:brutalswing",
+    "tm:closecombat",
+    "tm:covet",
+    "tm:curse",
+    "tm:cut",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:featherdance",
+    "tm:fly",
+    "tm:focusenergy",
+    "tm:furycutter",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:lastresort",
+    "tm:leafblade",
+    "tm:mudslap",
+    "tm:ominouswind",
+    "tm:pluck",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:psychup",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:roost",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:solarblade",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:tailwind",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:twister",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:covet",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:falseswipe",
+    "tutor:focusenergy",
+    "tutor:furycutter",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:laserfocus",
+    "tutor:lastresort",
+    "tutor:mudslap",
+    "tutor:ominouswind",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:throatchop",
+    "tutor:twister",
+    "tutor:uproar",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:detect",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:razorleaf",
+    "legacy:razorwind",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:takedown",
+    "legacy:toxic",
+    "legacy:whirlwind",
+    "special:wish",
+    "special:yawn"
+  ],
+  "forms": [
+    "Galar"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 10.0,
+        "levels": "13-38",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0083_farfetchd.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "cobblemon:medicinal_leek"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/farfetchd.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/farfetchd_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/farfetchd.json"
+  ]
+}

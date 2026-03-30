@@ -1,0 +1,224 @@
+{
+  "id": "stonjourner",
+  "dexnum": 874,
+  "name": "Stonjourner",
+  "primaryType": "rock",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "powerspot",
+    "h:powerspot"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 125,
+    "defence": 135,
+    "special_attack": 20,
+    "special_defence": 20,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 60,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:stone",
+        "percentage": null,
+        "quantityRange": "2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:luminous_moss",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:rockthrow",
+    "1:block",
+    "6:rockpolish",
+    "12:rocktomb",
+    "18:gravity",
+    "24:stomp",
+    "30:stealthrock",
+    "36:rockslide",
+    "42:bodyslam",
+    "48:wideguard",
+    "54:heavyslam",
+    "60:stoneedge",
+    "66:megakick",
+    "egg:ancientpower",
+    "egg:curse",
+    "tm:ancientpower",
+    "tm:assurance",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:curse",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:gigaimpact",
+    "tm:gravity",
+    "tm:hardpress",
+    "tm:heatcrash",
+    "tm:heavyslam",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:irondefense",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:megakick",
+    "tm:meteorbeam",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychup",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:selfdestruct",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:wonderroom",
+    "tutor:ancientpower",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:lowkick",
+    "tutor:meteorbeam",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:wonderroom",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "rare",
+        "weight": 2.0,
+        "levels": "22-47",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_plains"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0874_stonjourner.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "22-47",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_plains"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0874_stonjourner.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 20.0,
+        "levels": "22-47",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0874_stonjourner.json",
+        "structures": [
+          "cobblemon:ruins/stonjourner_henge_ruins"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/stonjourner.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/stonjourner_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/stonjourner.json"
+  ]
+}

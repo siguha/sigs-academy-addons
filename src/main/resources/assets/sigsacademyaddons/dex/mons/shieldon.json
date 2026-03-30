@@ -1,0 +1,218 @@
+{
+  "id": "shieldon",
+  "dexnum": 410,
+  "name": "Shieldon",
+  "primaryType": "rock",
+  "secondaryType": "steel",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen4",
+    "fossil"
+  ],
+  "abilities": [
+    "sturdy",
+    "h:soundproof"
+  ],
+  "eggGroups": [
+    "monster"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 42,
+    "defence": 118,
+    "special_attack": 42,
+    "special_defence": 88,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "erratic",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:protect",
+    "6:taunt",
+    "10:metalsound",
+    "15:takedown",
+    "19:irondefense",
+    "24:swagger",
+    "28:ancientpower",
+    "33:endure",
+    "37:metalburst",
+    "42:ironhead",
+    "46:heavyslam",
+    "egg:counter",
+    "egg:fissure",
+    "egg:focusenergy",
+    "egg:guardsplit",
+    "egg:headbutt",
+    "egg:screech",
+    "egg:wideguard",
+    "tm:ancientpower",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:flashcannon",
+    "tm:focusenergy",
+    "tm:hardpress",
+    "tm:headbutt",
+    "tm:heavyslam",
+    "tm:icebeam",
+    "tm:incinerate",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:magnetrise",
+    "tm:metalsound",
+    "tm:mudslap",
+    "tm:powergem",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scaryface",
+    "tm:scorchingsands",
+    "tm:screech",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:steelbeam",
+    "tm:steelroller",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:torment",
+    "tm:trailblaze",
+    "tutor:ancientpower",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:flamethrower",
+    "tutor:flashcannon",
+    "tutor:focusenergy",
+    "tutor:icebeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:magnetrise",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:scorchingsands",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:steelbeam",
+    "tutor:steelroller",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:thunderbolt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "shieldon_bastiodon",
+      "variant": "level_up",
+      "result": "bastiodon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "block"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "10-35",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0410_shieldon.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/shieldon.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/shieldon_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/shieldon.json"
+  ]
+}

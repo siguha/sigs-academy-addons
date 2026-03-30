@@ -1,0 +1,187 @@
+{
+  "id": "karrablast",
+  "dexnum": 588,
+  "name": "Karrablast",
+  "primaryType": "bug",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "swarm",
+    "shedskin",
+    "h:noguard"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 75,
+    "defence": 45,
+    "special_attack": 40,
+    "special_defence": 45,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 200,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:occa_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:peck",
+    "1:leer",
+    "4:furycutter",
+    "8:endure",
+    "12:falseswipe",
+    "16:furyattack",
+    "20:headbutt",
+    "24:flail",
+    "28:scaryface",
+    "32:slash",
+    "36:swordsdance",
+    "40:takedown",
+    "44:bugbuzz",
+    "48:doubleedge",
+    "egg:bugbite",
+    "egg:counter",
+    "egg:feintattack",
+    "egg:hornattack",
+    "egg:knockoff",
+    "egg:nightslash",
+    "egg:pursuit",
+    "egg:slash",
+    "tm:acidspray",
+    "tm:aerialace",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:cut",
+    "tm:doubleedge",
+    "tm:drillrun",
+    "tm:encore",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:headbutt",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:knockoff",
+    "tm:megahorn",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:bugbite",
+    "tutor:drillrun",
+    "tutor:energyball",
+    "tutor:falseswipe",
+    "tutor:furycutter",
+    "tutor:gigadrain",
+    "tutor:irondefense",
+    "tutor:knockoff",
+    "tutor:megahorn",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "karrablast_escavalier",
+      "variant": "trade",
+      "result": "escavalier",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "shelmet"
+    },
+    {
+      "id": "karrablast_escavalier_item",
+      "variant": "item_interact",
+      "result": "escavalier",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:shell_helmet"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.7,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0588_karrablast.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/karrablast.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/karrablast_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/karrablast.json"
+  ]
+}

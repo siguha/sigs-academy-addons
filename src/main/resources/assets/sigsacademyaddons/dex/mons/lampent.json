@@ -1,0 +1,228 @@
+{
+  "id": "lampent",
+  "dexnum": 608,
+  "name": "Lampent",
+  "primaryType": "ghost",
+  "secondaryType": "fire",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "flashfire",
+    "flamebody",
+    "h:infiltrator"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 40,
+    "defence": 60,
+    "special_attack": 95,
+    "special_defence": 60,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 90,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:candle",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:dusk_stone",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:ember",
+    "1:astonish",
+    "1:minimize",
+    "1:smog",
+    "12:confuseray",
+    "16:hex",
+    "20:flameburst",
+    "24:firespin",
+    "28:nightshade",
+    "32:curse",
+    "36:shadowball",
+    "40:inferno",
+    "46:imprison",
+    "52:painsplit",
+    "58:overheat",
+    "64:memento",
+    "egg:acid",
+    "egg:acidarmor",
+    "egg:captivate",
+    "egg:clearsmog",
+    "egg:haze",
+    "egg:powersplit",
+    "tm:allyswitch",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dreameater",
+    "tm:embargo",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:flash",
+    "tm:haze",
+    "tm:heatwave",
+    "tm:hex",
+    "tm:imprison",
+    "tm:incinerate",
+    "tm:lashout",
+    "tm:mysticalfire",
+    "tm:nightshade",
+    "tm:overheat",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tutor:allyswitch",
+    "tutor:burningjealousy",
+    "tutor:calmmind",
+    "tutor:darkpulse",
+    "tutor:energyball",
+    "tutor:flamethrower",
+    "tutor:heatwave",
+    "tutor:lashout",
+    "tutor:mysticalfire",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "lampent_chandelure",
+      "variant": "item_interact",
+      "result": "chandelure",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:dusk_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.19,
+        "levels": "41-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_soul_fire"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0608_lampent.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "mansion"
+        ],
+        "rarity": "common",
+        "weight": 0.95,
+        "levels": "41-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0608_lampent.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/lampent.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/lampent_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/lampent.json"
+  ]
+}

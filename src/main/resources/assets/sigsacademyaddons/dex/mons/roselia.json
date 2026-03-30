@@ -1,0 +1,236 @@
+{
+  "id": "roselia",
+  "dexnum": 315,
+  "name": "Roselia",
+  "primaryType": "grass",
+  "secondaryType": "poison",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "naturalcure",
+    "poisonpoint",
+    "h:leafguard"
+  ],
+  "eggGroups": [
+    "fairy",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 60,
+    "defence": 45,
+    "special_attack": 100,
+    "special_defence": 80,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 150,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:rose_bush",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:absorb_bulb",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:absorb",
+    "1:growth",
+    "1:poisonsting",
+    "1:stunspore",
+    "1:grasswhistle",
+    "1:worryseed",
+    "1:watersport",
+    "5:megadrain",
+    "10:leechseed",
+    "15:magicalleaf",
+    "20:toxicspikes",
+    "25:sweetscent",
+    "30:gigadrain",
+    "35:synthesis",
+    "40:toxic",
+    "45:petalblizzard",
+    "50:aromatherapy",
+    "55:ingrain",
+    "60:petaldance",
+    "egg:cottonspore",
+    "egg:extrasensory",
+    "egg:grasswhistle",
+    "egg:lifedew",
+    "egg:mindreader",
+    "egg:naturalgift",
+    "egg:razorleaf",
+    "egg:sleeppowder",
+    "egg:synthesis",
+    "tm:bodyslam",
+    "tm:bulletseed",
+    "tm:covet",
+    "tm:cut",
+    "tm:dazzlinggleam",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:leafstorm",
+    "tm:magicalleaf",
+    "tm:mudslap",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:petalblizzard",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:solarbeam",
+    "tm:spikes",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:uproar",
+    "tm:venoshock",
+    "tm:weatherball",
+    "tm:worryseed",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:energyball",
+    "tutor:furycutter",
+    "tutor:gigadrain",
+    "tutor:grassyglide",
+    "tutor:magicalleaf",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spikes",
+    "tutor:swift",
+    "tutor:synthesis",
+    "tutor:uproar",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:nightmare",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "special:sweetkiss"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "roselia_roserade",
+      "variant": "item_interact",
+      "result": "roserade",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:shiny_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.95,
+        "levels": "23-40",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_floral"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0315_roselia.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.95,
+        "levels": "23-40",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:floral_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0315_roselia.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/roselia.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/roselia_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/roselia.json"
+  ]
+}

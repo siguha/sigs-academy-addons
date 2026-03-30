@@ -1,0 +1,211 @@
+{
+  "id": "meowscarada",
+  "dexnum": 908,
+  "name": "Meowscarada",
+  "primaryType": "grass",
+  "secondaryType": "dark",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "overgrow",
+    "h:protean"
+  ],
+  "eggGroups": [
+    "field",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 76,
+    "attack": 110,
+    "defence": 70,
+    "special_attack": 81,
+    "special_defence": 70,
+    "speed": 123
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:flowertrick",
+    "1:leafage",
+    "1:scratch",
+    "1:tailwhip",
+    "1:doubleteam",
+    "1:trick",
+    "7:bite",
+    "10:honeclaws",
+    "13:magicalleaf",
+    "15:quickattack",
+    "20:seedbomb",
+    "24:uturn",
+    "29:worryseed",
+    "33:slash",
+    "38:nightslash",
+    "42:energyball",
+    "47:playrough",
+    "52:knockoff",
+    "58:grassyterrain",
+    "64:leafstorm",
+    "egg:allyswitch",
+    "egg:copycat",
+    "egg:leechseed",
+    "egg:petalblizzard",
+    "egg:suckerpunch",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:aurasphere",
+    "tm:brickbreak",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:darkpulse",
+    "tm:disarmingvoice",
+    "tm:doubleteam",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fling",
+    "tm:foulplay",
+    "tm:frenzyplant",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:leafstorm",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:magicalleaf",
+    "tm:mudslap",
+    "tm:nastyplot",
+    "tm:petalblizzard",
+    "tm:playrough",
+    "tm:pollenpuff",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychup",
+    "tm:rest",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spikes",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunderpunch",
+    "tm:toxicspikes",
+    "tm:trailblaze",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:tripleaxel",
+    "tm:uturn",
+    "tm:worryseed",
+    "tutor:aerialace",
+    "tutor:allyswitch",
+    "tutor:darkpulse",
+    "tutor:energyball",
+    "tutor:foulplay",
+    "tutor:frenzyplant",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grasspledge",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:lowkick",
+    "tutor:magicalleaf",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:thunderpunch",
+    "tutor:trick",
+    "tutor:tripleaxel",
+    "tutor:worryseed"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_floral",
+            "#cobblemon:is_magical"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0908_meowscarada.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/meowscarada.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/meowscarada_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/meowscarada.json"
+  ]
+}

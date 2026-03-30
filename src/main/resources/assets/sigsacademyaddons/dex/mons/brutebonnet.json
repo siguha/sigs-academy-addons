@@ -1,0 +1,177 @@
+{
+  "id": "brutebonnet",
+  "dexnum": 986,
+  "name": "Brute Bonnet",
+  "primaryType": "grass",
+  "secondaryType": "dark",
+  "maleRatio": -1,
+  "labels": [
+    "gen9",
+    "paradox"
+  ],
+  "abilities": [
+    "protosynthesis",
+    "h:protosynthesis"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 111,
+    "attack": 127,
+    "defence": 99,
+    "special_attack": 79,
+    "special_defence": 99,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 50,
+  "drops": {
+    "amount": 0,
+    "entries": []
+  },
+  "moves": [
+    "1:absorb",
+    "1:growth",
+    "1:astonish",
+    "1:sunnyday",
+    "7:stunspore",
+    "14:megadrain",
+    "21:synthesis",
+    "28:clearsmog",
+    "35:payback",
+    "42:thrash",
+    "49:gigadrain",
+    "56:suckerpunch",
+    "63:spore",
+    "70:ingrain",
+    "77:ragepowder",
+    "91:solarbeam",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulletseed",
+    "tm:closecombat",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyterrain",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:lashout",
+    "tm:leafstorm",
+    "tm:magicalleaf",
+    "tm:outrage",
+    "tm:payback",
+    "tm:pollenpuff",
+    "tm:protect",
+    "tm:rest",
+    "tm:scaryface",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:synthesis",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:venoshock",
+    "tm:zenheadbutt",
+    "tutor:darkpulse",
+    "tutor:earthpower",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:lashout",
+    "tutor:magicalleaf",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:suckerpunch",
+    "tutor:synthesis",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.3,
+        "levels": "50",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/paradox_spawns/spawn_pool_world/0986_brutebonnet.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.3,
+        "levels": "50",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/paradox_spawns_ccc/spawn_pool_world/0986_brutebonnet.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/brutebonnet.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/brutebonnet_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/brutebonnet.json"
+  ]
+}

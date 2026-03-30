@@ -1,0 +1,343 @@
+{
+  "id": "snorlax",
+  "dexnum": 143,
+  "name": "Snorlax",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "immunity",
+    "thickfat",
+    "h:gluttony"
+  ],
+  "eggGroups": [
+    "monster"
+  ],
+  "baseStats": {
+    "hp": 160,
+    "attack": 110,
+    "defence": 65,
+    "special_attack": 65,
+    "special_defence": 110,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 25,
+  "drops": {
+    "amount": 8,
+    "entries": [
+      {
+        "item": "minecraft:apple",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:leftovers",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:defensecurl",
+    "1:lick",
+    "1:block",
+    "1:recycle",
+    "1:fling",
+    "1:lastresort",
+    "1:chipaway",
+    "1:covet",
+    "1:stockpile",
+    "1:swallow",
+    "1:screech",
+    "1:metronome",
+    "1:flail",
+    "1:odorsleuth",
+    "12:yawn",
+    "16:bite",
+    "20:rest",
+    "20:sleeptalk",
+    "20:snore",
+    "24:crunch",
+    "28:bodyslam",
+    "32:heavyslam",
+    "36:amnesia",
+    "40:highhorsepower",
+    "44:hammerarm",
+    "48:bellydrum",
+    "52:belch",
+    "56:gigaimpact",
+    "egg:belch",
+    "egg:chipaway",
+    "egg:counter",
+    "egg:curse",
+    "egg:doubleedge",
+    "egg:fissure",
+    "egg:lick",
+    "egg:naturalgift",
+    "egg:pursuit",
+    "egg:whirlwind",
+    "tm:afteryou",
+    "tm:amnesia",
+    "tm:blizzard",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:covet",
+    "tm:crunch",
+    "tm:curse",
+    "tm:darkestlariat",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:earthquake",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:gastroacid",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:hardpress",
+    "tm:headbutt",
+    "tm:heatcrash",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:iceball",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:incinerate",
+    "tm:ironhead",
+    "tm:lastresort",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:mudslap",
+    "tm:naturalgift",
+    "tm:outrage",
+    "tm:payday",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sandstorm",
+    "tm:screech",
+    "tm:seedbomb",
+    "tm:selfdestruct",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:snatch",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:steelroller",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:supercellslam",
+    "tm:superpower",
+    "tm:surf",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:terrainpulse",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:trailblaze",
+    "tm:uproar",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:afteryou",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:covet",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focuspunch",
+    "tutor:gastroacid",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:iceball",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:ironhead",
+    "tutor:lastresort",
+    "tutor:mudslap",
+    "tutor:outrage",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:steelroller",
+    "tutor:stompingtantrum",
+    "tutor:superpower",
+    "tutor:terrainpulse",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:uproar",
+    "tutor:wildcharge",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:bubblebeam",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:harden",
+    "legacy:hiddenpower",
+    "legacy:hydropump",
+    "legacy:mimic",
+    "legacy:psychic",
+    "legacy:psychup",
+    "legacy:psywave",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:skullbash",
+    "legacy:submission",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:watergun",
+    "legacy:waterpulse",
+    "legacy:whirlpool",
+    "legacy:zapcannon",
+    "special:celebrate",
+    "special:happyhour",
+    "special:holdback",
+    "special:refresh"
+  ],
+  "forms": [
+    "Gmax"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 2.5,
+        "levels": "34-54",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_snowy_forest",
+            "#cobblemon:is_forest",
+            "#cobblemon:is_hills",
+            "aether:skyroot_forest",
+            "aether:skyroot_woodland"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0143_snorlax.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.32,
+        "levels": "34-54",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0143_snorlax.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "#cobblemon:saccharine_trees"
+          ],
+          "resolved": [
+            "cobblemon:saccharine_leaves",
+            "cobblemon:saccharine_log",
+            "cobblemon:saccharine_wood",
+            "cobblemon:stripped_saccharine_log",
+            "cobblemon:stripped_saccharine_wood"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/snorlax.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/snorlax_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/snorlax.json"
+  ]
+}

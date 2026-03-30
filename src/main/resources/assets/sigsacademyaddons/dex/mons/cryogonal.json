@@ -1,0 +1,203 @@
+{
+  "id": "cryogonal",
+  "dexnum": 615,
+  "name": "Cryogonal",
+  "primaryType": "ice",
+  "secondaryType": "",
+  "maleRatio": -1,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "levitate",
+    "h:levitate"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 95,
+    "special_defence": 135,
+    "speed": 105
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 25,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:never_melt_ice",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:aspear_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:bind",
+    "1:iceshard",
+    "1:sharpen",
+    "4:confuseray",
+    "8:rapidspin",
+    "12:icywind",
+    "16:mist",
+    "16:haze",
+    "20:ancientpower",
+    "24:aurorabeam",
+    "28:slash",
+    "32:nightslash",
+    "36:freezedry",
+    "40:lightscreen",
+    "40:reflect",
+    "44:recover",
+    "48:icebeam",
+    "52:acidarmor",
+    "56:solarbeam",
+    "60:sheercold",
+    "egg:auroraveil",
+    "egg:explosion",
+    "egg:frostbreath",
+    "tm:acrobatics",
+    "tm:ancientpower",
+    "tm:auroraveil",
+    "tm:avalanche",
+    "tm:bind",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:chillingwater",
+    "tm:confuseray",
+    "tm:defog",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:frostbreath",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:haze",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icespinner",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:laserfocus",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:scaryface",
+    "tm:selfdestruct",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:tripleaxel",
+    "tm:waterpulse",
+    "tutor:ancientpower",
+    "tutor:bind",
+    "tutor:defog",
+    "tutor:flashcannon",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:laserfocus",
+    "tutor:magiccoat",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:tripleaxel",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:knockoff",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 2.0,
+        "levels": "27-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0615_cryogonal.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 2.0,
+        "levels": "27-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_frozen"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0615_cryogonal.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/cryogonal.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/cryogonal_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/cryogonal.json"
+  ]
+}

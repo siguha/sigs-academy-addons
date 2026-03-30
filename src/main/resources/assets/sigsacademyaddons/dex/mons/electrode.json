@@ -1,0 +1,249 @@
+{
+  "id": "electrode",
+  "dexnum": 101,
+  "name": "Electrode",
+  "primaryType": "electric",
+  "secondaryType": "",
+  "maleRatio": -1,
+  "labels": [
+    "gen1",
+    "kantonian_form"
+  ],
+  "abilities": [
+    "soundproof",
+    "static",
+    "h:aftermath"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 70,
+    "special_attack": 80,
+    "special_defence": 80,
+    "speed": 150
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 60,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:gunpowder",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:charge",
+    "1:tackle",
+    "1:sonicboom",
+    "1:magneticflux",
+    "1:eerieimpulse",
+    "1:thundershock",
+    "9:spark",
+    "11:rollout",
+    "13:screech",
+    "16:chargebeam",
+    "20:swift",
+    "22:electroball",
+    "26:selfdestruct",
+    "29:lightscreen",
+    "36:magnetrise",
+    "41:discharge",
+    "47:explosion",
+    "54:gyroball",
+    "58:mirrorcoat",
+    "egg:metalsound",
+    "egg:recycle",
+    "tm:agility",
+    "tm:assurance",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:curse",
+    "tm:doubleedge",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:flash",
+    "tm:foulplay",
+    "tm:gigaimpact",
+    "tm:gyroball",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:magnetrise",
+    "tm:metalsound",
+    "tm:protect",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:rollout",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:selfdestruct",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:steelroller",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:supercellslam",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:chargebeam",
+    "tutor:electroweb",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:magiccoat",
+    "tutor:magnetrise",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:rollout",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:steelroller",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:thunderbolt",
+    "tutor:wildcharge",
+    "legacy:bide",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:teleport",
+    "legacy:toxic",
+    "legacy:zapcannon",
+    "special:refresh"
+  ],
+  "forms": [
+    "Hisui"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "30-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0101_electrode.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "30-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0101_electrode.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 16.0,
+        "levels": "30-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0101_electrode.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:lightning_rod"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/electrode.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/electrode_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/electrode.json"
+  ]
+}

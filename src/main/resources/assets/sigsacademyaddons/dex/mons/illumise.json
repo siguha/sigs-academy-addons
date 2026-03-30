@@ -1,0 +1,289 @@
+{
+  "id": "illumise",
+  "dexnum": 314,
+  "name": "Illumise",
+  "primaryType": "bug",
+  "secondaryType": "",
+  "maleRatio": 0,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "oblivious",
+    "tintedlens",
+    "h:prankster"
+  ],
+  "eggGroups": [
+    "bug",
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 47,
+    "defence": 75,
+    "special_attack": 73,
+    "special_defence": 85,
+    "speed": 85
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "fluctuating",
+  "catchRate": 150,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:bright_powder",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:bluk_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:playnice",
+    "5:sweetscent",
+    "9:charm",
+    "12:quickattack",
+    "15:strugglebug",
+    "19:moonlight",
+    "22:wish",
+    "26:encore",
+    "29:flatter",
+    "33:zenheadbutt",
+    "36:helpinghand",
+    "40:bugbuzz",
+    "43:playrough",
+    "47:infestation",
+    "egg:aromatherapy",
+    "egg:attract",
+    "egg:captivate",
+    "egg:growth",
+    "egg:roost",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:attract",
+    "tm:batonpass",
+    "tm:brickbreak",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:captivate",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:disarmingvoice",
+    "tm:doubleedge",
+    "tm:drainingkiss",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:gigadrain",
+    "tm:helpinghand",
+    "tm:icepunch",
+    "tm:infestation",
+    "tm:lightscreen",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:mudslap",
+    "tm:ominouswind",
+    "tm:playrough",
+    "tm:pounce",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roost",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:silverwind",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:trick",
+    "tm:uturn",
+    "tm:waterpulse",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:bugbite",
+    "tutor:chargebeam",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:endeavor",
+    "tutor:focuspunch",
+    "tutor:gigadrain",
+    "tutor:helpinghand",
+    "tutor:icepunch",
+    "tutor:mudslap",
+    "tutor:ominouswind",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:stringshot",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:trick",
+    "tutor:waterpulse",
+    "tutor:zenheadbutt",
+    "legacy:bodyslam",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:defog",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 5.0,
+        "levels": "18-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0314_illumise.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 5.0,
+        "levels": "18-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0314_illumise.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 3.0,
+        "levels": "18-43",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:floral_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0314_illumise.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 3.0,
+        "levels": "18-43",
+        "biomeTags": {
+          "include": [
+            "#the_bumblezone:the_bumblezone"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0314_illumise.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/illumise.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/illumise_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/illumise.json"
+  ]
+}

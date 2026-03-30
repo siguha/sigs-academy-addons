@@ -1,0 +1,252 @@
+{
+  "id": "dottler",
+  "dexnum": 825,
+  "name": "Dottler",
+  "primaryType": "bug",
+  "secondaryType": "psychic",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "swarm",
+    "compoundeyes",
+    "h:telepathy"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 35,
+    "defence": 80,
+    "special_attack": 50,
+    "special_defence": 90,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 120,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:psychic_seed",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:razz_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:reflect",
+    "1:lightscreen",
+    "1:confusion",
+    "1:strugglebug",
+    "egg:infestation",
+    "egg:recover",
+    "egg:stickyweb",
+    "egg:supersonic",
+    "tm:allyswitch",
+    "tm:bodypress",
+    "tm:bugbuzz",
+    "tm:calmmind",
+    "tm:endure",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:futuresight",
+    "tm:guardswap",
+    "tm:helpinghand",
+    "tm:imprison",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:leechlife",
+    "tm:lightscreen",
+    "tm:magicroom",
+    "tm:payback",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psyshock",
+    "tm:reflect",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:storedpower",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:terablast",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:calmmind",
+    "tutor:energyball",
+    "tutor:expandingforce",
+    "tutor:helpinghand",
+    "tutor:irondefense",
+    "tutor:leechlife",
+    "tutor:magicroom",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "dottler_orbeetle",
+      "variant": "level_up",
+      "result": "orbeetle",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "uncommon",
+        "weight": 2.0,
+        "levels": "9-20",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest"
+          ],
+          "exclude": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0825_dottler.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "foliage",
+          "treetop"
+        ],
+        "rarity": "uncommon",
+        "weight": 2.0,
+        "levels": "9-20",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_plains"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0825_dottler.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "uncommon",
+        "weight": 2.0,
+        "levels": "9-20",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest"
+          ],
+          "exclude": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0825_dottler.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "foliage",
+          "treetop"
+        ],
+        "rarity": "uncommon",
+        "weight": 2.0,
+        "levels": "9-20",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_plains"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0825_dottler.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/dottler.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/dottler_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/dottler.json"
+  ]
+}

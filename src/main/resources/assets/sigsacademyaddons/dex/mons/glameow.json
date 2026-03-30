@@ -1,0 +1,306 @@
+{
+  "id": "glameow",
+  "dexnum": 431,
+  "name": "Glameow",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0.25,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "limber",
+    "owntempo",
+    "h:keeneye"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 49,
+    "attack": 55,
+    "defence": 42,
+    "special_attack": 42,
+    "special_defence": 37,
+    "speed": 85
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:fakeout",
+    "5:scratch",
+    "8:growl",
+    "13:hypnosis",
+    "17:feintattack",
+    "20:furyswipes",
+    "25:charm",
+    "29:assist",
+    "32:captivate",
+    "37:slash",
+    "41:suckerpunch",
+    "44:attract",
+    "48:honeclaws",
+    "50:playrough",
+    "egg:bite",
+    "egg:flail",
+    "egg:quickattack",
+    "egg:sandattack",
+    "egg:tailwhip",
+    "egg:wakeupslap",
+    "tm:aerialace",
+    "tm:assurance",
+    "tm:attract",
+    "tm:captivate",
+    "tm:charm",
+    "tm:covet",
+    "tm:cut",
+    "tm:dig",
+    "tm:dreameater",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:foulplay",
+    "tm:furycutter",
+    "tm:headbutt",
+    "tm:honeclaws",
+    "tm:hypervoice",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lastresort",
+    "tm:mudslap",
+    "tm:payback",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:torment",
+    "tm:uturn",
+    "tm:waterpulse",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:covet",
+    "tutor:foulplay",
+    "tutor:furycutter",
+    "tutor:hypervoice",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lastresort",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:suckerpunch",
+    "tutor:superfang",
+    "tutor:thunderbolt",
+    "tutor:waterpulse",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:swift",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "glameow_purugly",
+      "variant": "level_up",
+      "result": "purugly",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "swagger"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0431_glameow.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0431_glameow.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0431_glameow.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0431_glameow.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "mansion"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0431_glameow.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/glameow.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/glameow_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/glameow.json"
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "id": "miltank",
+  "dexnum": 241,
+  "name": "Miltank",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "thickfat",
+    "scrappy",
+    "h:sapsipper"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 80,
+    "defence": 105,
+    "special_attack": 40,
+    "special_defence": 70,
+    "speed": 100
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:beef",
+        "percentage": null,
+        "quantityRange": "1-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "1:bide",
+    "1:wakeupslap",
+    "5:rollout",
+    "10:defensecurl",
+    "15:stomp",
+    "20:healbell",
+    "25:headbutt",
+    "30:zenheadbutt",
+    "35:milkdrink",
+    "40:bodyslam",
+    "45:playrough",
+    "50:charm",
+    "55:highhorsepower",
+    "egg:belch",
+    "egg:captivate",
+    "egg:curse",
+    "egg:dizzypunch",
+    "egg:doubleedge",
+    "egg:focuspunch",
+    "egg:hammerarm",
+    "egg:heartstamp",
+    "egg:naturalgift",
+    "egg:present",
+    "egg:punishment",
+    "egg:seismictoss",
+    "tm:afteryou",
+    "tm:blizzard",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:captivate",
+    "tm:charm",
+    "tm:curse",
+    "tm:doubleedge",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:gigaimpact",
+    "tm:gyroball",
+    "tm:headbutt",
+    "tm:healbell",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:mudslap",
+    "tm:naturalgift",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:reversal",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sandstorm",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:stealthrock",
+    "tm:steelroller",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:afteryou",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:steelroller",
+    "tutor:stompingtantrum",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:waterpulse",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:sweetscent",
+    "legacy:toxic",
+    "legacy:zapcannon"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 6.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_grassland"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0241_miltank.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/miltank.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/miltank_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/miltank.json"
+  ]
+}

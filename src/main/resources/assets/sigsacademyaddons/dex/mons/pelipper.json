@@ -1,0 +1,255 @@
+{
+  "id": "pelipper",
+  "dexnum": 279,
+  "name": "Pelipper",
+  "primaryType": "water",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "keeneye",
+    "drizzle",
+    "h:raindish"
+  ],
+  "eggGroups": [
+    "water_1",
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 100,
+    "special_attack": 95,
+    "special_defence": 70,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:chicken",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:wacan_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:growl",
+    "1:watergun",
+    "1:watersport",
+    "1:supersonic",
+    "1:protect",
+    "1:tailwind",
+    "1:soak",
+    "1:quickattack",
+    "1:agility",
+    "1:airslash",
+    "1:pursuit",
+    "15:wingattack",
+    "20:waterpulse",
+    "28:stockpile",
+    "28:swallow",
+    "28:spitup",
+    "34:fling",
+    "41:mist",
+    "48:roost",
+    "55:hurricane",
+    "62:hydropump",
+    "egg:aerialace",
+    "egg:aircutter",
+    "egg:aquaring",
+    "egg:gust",
+    "egg:knockoff",
+    "egg:soak",
+    "egg:twister",
+    "egg:watersport",
+    "egg:wideguard",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bravebird",
+    "tm:brine",
+    "tm:chillingwater",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:fling",
+    "tm:fly",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:hail",
+    "tm:helpinghand",
+    "tm:hurricane",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:muddywater",
+    "tm:ominouswind",
+    "tm:payback",
+    "tm:pluck",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roost",
+    "tm:seedbomb",
+    "tm:shockwave",
+    "tm:skyattack",
+    "tm:skydrop",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:twister",
+    "tm:uturn",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:knockoff",
+    "tutor:liquidation",
+    "tutor:ominouswind",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:seedbomb",
+    "tutor:shockwave",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:twister",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:uproar"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "25-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean",
+            "#cobblemon:is_sky",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0279_pelipper.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "25-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean",
+            "#cobblemon:is_sky",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0279_pelipper.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/pelipper.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/pelipper_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/pelipper.json"
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "id": "dunsparce",
+  "dexnum": 206,
+  "name": "Dunsparce",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "serenegrace",
+    "runaway",
+    "h:rattled"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 70,
+    "defence": 70,
+    "special_attack": 65,
+    "special_defence": 65,
+    "speed": 45
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:rocky_helmet",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:rage",
+    "1:defensecurl",
+    "1:pursuit",
+    "1:flail",
+    "4:mudslap",
+    "8:rollout",
+    "12:glare",
+    "16:screech",
+    "20:ancientpower",
+    "24:drillrun",
+    "28:yawn",
+    "32:hyperdrill",
+    "36:roost",
+    "40:dragonrush",
+    "44:coil",
+    "48:doubleedge",
+    "52:endeavor",
+    "egg:aquatail",
+    "egg:astonish",
+    "egg:bide",
+    "egg:bite",
+    "egg:curse",
+    "egg:headbutt",
+    "egg:lastresort",
+    "egg:secretpower",
+    "egg:snore",
+    "egg:trumpcard",
+    "tm:agility",
+    "tm:airslash",
+    "tm:amnesia",
+    "tm:ancientpower",
+    "tm:aquatail",
+    "tm:batonpass",
+    "tm:bind",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:chillingwater",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:dreameater",
+    "tm:drillrun",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:gigaimpact",
+    "tm:gyroball",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icespinner",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:lastresort",
+    "tm:lunge",
+    "tm:magiccoat",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:painsplit",
+    "tm:poisonjab",
+    "tm:poisontail",
+    "tm:pounce",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:roost",
+    "tm:sandstorm",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:secretpower",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:smartstrike",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:storedpower",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:terrainpulse",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:toxic",
+    "tm:uproar",
+    "tm:wildcharge",
+    "tm:zenheadbutt",
+    "tutor:ancientpower",
+    "tutor:aquatail",
+    "tutor:bind",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:drillrun",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:flamethrower",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:irontail",
+    "tutor:lastresort",
+    "tutor:magiccoat",
+    "tutor:mudslap",
+    "tutor:painsplit",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:roost",
+    "tutor:scaleshot",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:spite",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:terrainpulse",
+    "tutor:thunderbolt",
+    "tutor:uproar",
+    "tutor:wildcharge",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:chargebeam",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:doubleteam",
+    "legacy:dualwingbeat",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:return",
+    "legacy:round",
+    "legacy:swagger",
+    "legacy:thunderwave",
+    "legacy:waterpulse",
+    "legacy:zapcannon"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "dunsparce_dudunsparce",
+      "variant": "level_up",
+      "result": "dudunsparce",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "hyperdrill"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.68,
+        "levels": "17-42",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0206_dunsparce.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/dunsparce.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/dunsparce_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/dunsparce.json"
+  ]
+}

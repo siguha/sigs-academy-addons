@@ -1,0 +1,211 @@
+{
+  "id": "drilbur",
+  "dexnum": 529,
+  "name": "Drilbur",
+  "primaryType": "ground",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "sandrush",
+    "sandforce",
+    "h:moldbreaker"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 85,
+    "defence": 40,
+    "special_attack": 30,
+    "special_defence": 45,
+    "speed": 68
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 120,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:dirt",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:soft_sand",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:pinap_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:mudsport",
+    "1:rapidspin",
+    "1:mudslap",
+    "4:scratch",
+    "8:honeclaws",
+    "12:furyswipes",
+    "16:metalclaw",
+    "20:sandstorm",
+    "24:crushclaw",
+    "28:rockslide",
+    "32:dig",
+    "36:swordsdance",
+    "40:drillrun",
+    "44:earthquake",
+    "48:fissure",
+    "egg:metalsound",
+    "egg:skullbash",
+    "egg:slash",
+    "egg:submission",
+    "tm:aerialace",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:curse",
+    "tm:cut",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:drillrun",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:honeclaws",
+    "tm:irondefense",
+    "tm:metalclaw",
+    "tm:metalsound",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:rest",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scorchingsands",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:bulldoze",
+    "tutor:drillrun",
+    "tutor:earthpower",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:irondefense",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:scorchingsands",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:sludgebomb",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "drilbur_excadrill",
+      "variant": "level_up",
+      "result": "excadrill",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "horndrill"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 31
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "8-33",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0529_drilbur.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon_reanimodel/drilbur.png",
+      "out/sprites/cobblemon/drilbur.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon_reanimodel/drilbur_shiny.png",
+      "out/sprites/cobblemon/drilbur_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/drilbur.json"
+  ]
+}

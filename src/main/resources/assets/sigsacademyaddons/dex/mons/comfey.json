@@ -1,0 +1,271 @@
+{
+  "id": "comfey",
+  "dexnum": 764,
+  "name": "Comfey",
+  "primaryType": "fairy",
+  "secondaryType": "",
+  "maleRatio": 0.25,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "flowerveil",
+    "triage",
+    "h:naturalcure"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 51,
+    "attack": 52,
+    "defence": 90,
+    "special_attack": 82,
+    "special_defence": 110,
+    "speed": 100
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "experienceGroup": "fast",
+  "catchRate": 60,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:misty_seed",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:kebia_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:flowershield",
+    "1:growth",
+    "1:wrap",
+    "1:naturalgift",
+    "1:aromatherapy",
+    "3:vinewhip",
+    "6:helpinghand",
+    "9:drainingkiss",
+    "12:charm",
+    "15:magicalleaf",
+    "18:synthesis",
+    "21:leechseed",
+    "24:grassknot",
+    "27:sweetkiss",
+    "30:floralhealing",
+    "33:petalblizzard",
+    "36:bind",
+    "39:playrough",
+    "42:sweetscent",
+    "45:petaldance",
+    "48:grassyterrain",
+    "egg:afteryou",
+    "egg:leaftornado",
+    "egg:luckychant",
+    "egg:worryseed",
+    "tm:acrobatics",
+    "tm:afteryou",
+    "tm:alluringvoice",
+    "tm:allyswitch",
+    "tm:amnesia",
+    "tm:bind",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:disarmingvoice",
+    "tm:drainingkiss",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:fling",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:knockoff",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magiccoat",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:painsplit",
+    "tm:petalblizzard",
+    "tm:playrough",
+    "tm:pollenpuff",
+    "tm:protect",
+    "tm:psychup",
+    "tm:rest",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:synthesis",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:uturn",
+    "tm:worryseed",
+    "tutor:afteryou",
+    "tutor:allyswitch",
+    "tutor:bind",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:defog",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:grassyglide",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:knockoff",
+    "tutor:magicalleaf",
+    "tutor:magiccoat",
+    "tutor:painsplit",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:synthesis",
+    "tutor:tailwind",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:celebrate"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_floral",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0764_comfey.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 10.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0764_comfey.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "#cobblemon:flowers"
+          ],
+          "resolved": [
+            "cobblemon:pep_up_flower",
+            "cobblemon:saccharine_leaves",
+            "minecraft:chorus_flower"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 2.0,
+        "levels": "24-49",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:floral_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0764_comfey.json",
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/comfey.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/comfey_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/comfey.json"
+  ]
+}

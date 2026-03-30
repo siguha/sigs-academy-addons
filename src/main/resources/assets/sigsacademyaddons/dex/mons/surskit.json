@@ -1,0 +1,227 @@
+{
+  "id": "surskit",
+  "dexnum": 283,
+  "name": "Surskit",
+  "primaryType": "bug",
+  "secondaryType": "water",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "swiftswim",
+    "h:raindish"
+  ],
+  "eggGroups": [
+    "water_1",
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 30,
+    "defence": 32,
+    "special_attack": 50,
+    "special_defence": 52,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 200,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:honey_bottle",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:wacan_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:bubble",
+    "1:watersport",
+    "1:watergun",
+    "6:quickattack",
+    "9:sweetscent",
+    "14:soak",
+    "17:bubblebeam",
+    "22:agility",
+    "25:mist",
+    "25:haze",
+    "35:batonpass",
+    "38:stickyweb",
+    "egg:aquajet",
+    "egg:bugbite",
+    "egg:fellstinger",
+    "egg:foresight",
+    "egg:hydropump",
+    "egg:lunge",
+    "egg:mindreader",
+    "egg:mudshot",
+    "egg:powersplit",
+    "egg:psybeam",
+    "tm:acrobatics",
+    "tm:agility",
+    "tm:batonpass",
+    "tm:blizzard",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:chillingwater",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:gigadrain",
+    "tm:haze",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:infestation",
+    "tm:leechlife",
+    "tm:liquidation",
+    "tm:lunge",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:pounce",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tutor:bugbite",
+    "tutor:gigadrain",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:leechlife",
+    "tutor:liquidation",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:signalbeam",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:stringshot",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:swift",
+    "legacy:toxic",
+    "special:mudsport"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "surskit_masquerain",
+      "variant": "level_up",
+      "result": "masquerain",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 22
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 5.04,
+        "levels": "2-27",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0283_surskit.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "2-27",
+        "biomeTags": {
+          "include": [
+            "#the_bumblezone:the_bumblezone"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0283_surskit.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/surskit.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/surskit_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/surskit.json"
+  ]
+}

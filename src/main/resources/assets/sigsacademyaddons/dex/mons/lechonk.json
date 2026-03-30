@@ -1,0 +1,240 @@
+{
+  "id": "lechonk",
+  "dexnum": 915,
+  "name": "Lechonk",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "aromaveil",
+    "gluttony",
+    "h:thickfat"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 54,
+    "attack": 45,
+    "defence": 40,
+    "special_attack": 35,
+    "special_defence": 45,
+    "speed": 35
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:porkchop",
+        "percentage": null,
+        "quantityRange": "1-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "5:disarmingvoice",
+    "8:echoedvoice",
+    "12:mudshot",
+    "15:covet",
+    "17:dig",
+    "21:headbutt",
+    "24:yawn",
+    "27:takedown",
+    "30:workup",
+    "32:uproar",
+    "35:doubleedge",
+    "egg:endeavor",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:stuffcheeks",
+    "egg:swallow",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:chillingwater",
+    "tm:covet",
+    "tm:curse",
+    "tm:dig",
+    "tm:disarmingvoice",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hypervoice",
+    "tm:ironhead",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:uproar",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:bulldoze",
+    "tutor:covet",
+    "tutor:endeavor",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:ironhead",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:superfang",
+    "tutor:uproar",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "lechonk_oinkologne",
+      "variant": "level_up",
+      "result": "oinkologne male",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        },
+        {
+          "variant": "properties",
+          "target": "gender=male"
+        }
+      ]
+    },
+    {
+      "id": "lechonk_oinkolognef",
+      "variant": "level_up",
+      "result": "oinkologne female",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        },
+        {
+          "variant": "properties",
+          "target": "gender=female"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "1-25",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mushroom",
+            "#cobblemon:is_temperate"
+          ],
+          "exclude": [
+            "minecraft:mushroom_fields"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0915_lechonk.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "1-25",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0915_lechonk.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "1-25",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_crimson",
+            "#cobblemon:nether/is_fungus",
+            "#cobblemon:nether/is_overgrowth"
+          ],
+          "exclude": [
+            "#cobblemon:nether/is_warped"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0915_lechonk.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/lechonk.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/lechonk_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/lechonk.json"
+  ]
+}

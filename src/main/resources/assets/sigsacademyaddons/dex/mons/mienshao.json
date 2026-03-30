@@ -1,0 +1,228 @@
+{
+  "id": "mienshao",
+  "dexnum": 620,
+  "name": "Mienshao",
+  "primaryType": "fighting",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "innerfocus",
+    "regenerator",
+    "h:reckless"
+  ],
+  "eggGroups": [
+    "field",
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 125,
+    "defence": 60,
+    "special_attack": 95,
+    "special_defence": 60,
+    "speed": 105
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:payapa_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:expert_belt",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:meditate",
+    "1:detect",
+    "1:fakeout",
+    "1:doubleslap",
+    "1:jumpkick",
+    "1:reversal",
+    "1:quickguard",
+    "15:furyswipes",
+    "20:wideguard",
+    "25:forcepalm",
+    "30:uturn",
+    "35:drainpunch",
+    "40:honeclaws",
+    "45:aurasphere",
+    "53:bounce",
+    "59:calmmind",
+    "66:highjumpkick",
+    "egg:doubleslap",
+    "egg:feint",
+    "egg:focuspunch",
+    "egg:jumpkick",
+    "egg:knockoff",
+    "egg:mefirst",
+    "egg:smellingsalts",
+    "egg:vitalthrow",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:assurance",
+    "tm:aurasphere",
+    "tm:batonpass",
+    "tm:blazekick",
+    "tm:bounce",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulkup",
+    "tm:calmmind",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:drainpunch",
+    "tm:dualchop",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:icespinner",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:sleeptalk",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:tripleaxel",
+    "tm:upperhand",
+    "tm:uturn",
+    "tm:vacuumwave",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:allyswitch",
+    "tutor:bounce",
+    "tutor:bulkup",
+    "tutor:calmmind",
+    "tutor:coaching",
+    "tutor:drainpunch",
+    "tutor:dualchop",
+    "tutor:focusenergy",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:knockoff",
+    "tutor:laserfocus",
+    "tutor:lowkick",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:sleeptalk",
+    "tutor:stoneedge",
+    "tutor:swift",
+    "tutor:tripleaxel",
+    "tutor:vacuumwave",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:rockslide",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.6,
+        "levels": "50-51",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ],
+          "exclude": [
+            "#cobblemon:is_hills"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0620_mienshao.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/mienshao.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/mienshao_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/mienshao.json"
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "id": "chimchar",
+  "dexnum": 390,
+  "name": "Chimchar",
+  "primaryType": "fire",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen4",
+    "starter"
+  ],
+  "abilities": [
+    "blaze",
+    "h:ironfist"
+  ],
+  "eggGroups": [
+    "field",
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 44,
+    "attack": 58,
+    "defence": 44,
+    "special_attack": 58,
+    "special_defence": 44,
+    "speed": 61
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:leer",
+    "7:ember",
+    "9:taunt",
+    "15:furyswipes",
+    "17:flamewheel",
+    "23:nastyplot",
+    "25:torment",
+    "31:facade",
+    "33:firespin",
+    "39:acrobatics",
+    "41:slackoff",
+    "47:flamethrower",
+    "egg:assist",
+    "egg:counter",
+    "egg:doublekick",
+    "egg:encore",
+    "egg:fakeout",
+    "egg:firepunch",
+    "egg:focusenergy",
+    "egg:heatwave",
+    "egg:helpinghand",
+    "egg:quickguard",
+    "egg:submission",
+    "egg:switcheroo",
+    "egg:thunderpunch",
+    "tm:acrobatics",
+    "tm:agility",
+    "tm:blazekick",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:burningjealousy",
+    "tm:covet",
+    "tm:cut",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fireblast",
+    "tm:firepledge",
+    "tm:firepunch",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:fling",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:grassknot",
+    "tm:gunkshot",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:metronome",
+    "tm:mudslap",
+    "tm:nastyplot",
+    "tm:overheat",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychup",
+    "tm:rest",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:rollout",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderpunch",
+    "tm:torment",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:vacuumwave",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:bulkup",
+    "tutor:burningjealousy",
+    "tutor:covet",
+    "tutor:endeavor",
+    "tutor:firepledge",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focusenergy",
+    "tutor:focuspunch",
+    "tutor:gunkshot",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:rollout",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:swift",
+    "tutor:thunderpunch",
+    "tutor:uproar",
+    "tutor:vacuumwave",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "chimchar_monferno",
+      "variant": "level_up",
+      "result": "monferno",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "machpunch"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 14
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0390_chimchar.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_forest"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0390_chimchar.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/chimchar.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/chimchar_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/chimchar.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation4\\chimchar.json"
+  ]
+}

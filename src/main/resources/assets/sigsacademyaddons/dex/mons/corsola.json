@@ -1,0 +1,292 @@
+{
+  "id": "corsola",
+  "dexnum": 222,
+  "name": "Corsola",
+  "primaryType": "water",
+  "secondaryType": "rock",
+  "maleRatio": 0.25,
+  "labels": [
+    "gen2",
+    "johtonian_form"
+  ],
+  "abilities": [
+    "hustle",
+    "naturalcure",
+    "h:regenerator"
+  ],
+  "eggGroups": [
+    "water_1",
+    "water_3"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 55,
+    "defence": 95,
+    "special_attack": 65,
+    "special_defence": 95,
+    "speed": 35
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "fast",
+  "catchRate": 60,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:luminous_moss",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:rindo_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:harden",
+    "1:bubble",
+    "1:refresh",
+    "1:luckychant",
+    "1:spikecannon",
+    "5:watergun",
+    "10:aquaring",
+    "15:endure",
+    "20:ancientpower",
+    "25:bubblebeam",
+    "30:flail",
+    "35:lifedew",
+    "40:powergem",
+    "45:earthpower",
+    "50:recover",
+    "55:mirrorcoat",
+    "egg:aquaring",
+    "egg:barrier",
+    "egg:bide",
+    "egg:camouflage",
+    "egg:confuseray",
+    "egg:curse",
+    "egg:headsmash",
+    "egg:ingrain",
+    "egg:mist",
+    "egg:naturepower",
+    "egg:waterpulse",
+    "tm:amnesia",
+    "tm:ancientpower",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:dig",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:magiccoat",
+    "tm:meteorbeam",
+    "tm:mudslap",
+    "tm:naturepower",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychic",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:scald",
+    "tm:screech",
+    "tm:selfdestruct",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:ancientpower",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:liquidation",
+    "tutor:magiccoat",
+    "tutor:meteorbeam",
+    "tutor:mudslap",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:suckerpunch",
+    "tutor:throatchop",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:defensecurl",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:mudsport"
+  ],
+  "forms": [
+    "Galar"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 10.0,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0222_corsola.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0222_corsola.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "#minecraft:corals",
+            "#minecraft:coral_blocks"
+          ],
+          "resolved": [
+            "#minecraft:coral_blocks",
+            "#minecraft:corals"
+          ]
+        },
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 10.0,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0222_corsola.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 10.0,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0222_corsola.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/corsola.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/corsola_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/corsola.json"
+  ]
+}

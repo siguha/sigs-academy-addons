@@ -1,0 +1,201 @@
+{
+  "id": "farfetchd_galar",
+  "dexnum": 83,
+  "name": "Farfetch’d Galar",
+  "primaryType": "fighting",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8",
+    "galarian_form"
+  ],
+  "abilities": [
+    "steadfast",
+    "h:scrappy"
+  ],
+  "eggGroups": [
+    "flying",
+    "field"
+  ],
+  "baseStats": {
+    "hp": 52,
+    "attack": 95,
+    "defence": 55,
+    "special_attack": 58,
+    "special_defence": 62,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:chicken",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:medicinal_leek",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:coba_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:peck",
+    "1:sandattack",
+    "5:leer",
+    "10:furycutter",
+    "15:rocksmash",
+    "20:brutalswing",
+    "25:detect",
+    "30:knockoff",
+    "35:defog",
+    "40:brickbreak",
+    "45:swordsdance",
+    "50:slam",
+    "55:leafblade",
+    "60:finalgambit",
+    "65:bravebird",
+    "egg:counter",
+    "egg:covet",
+    "egg:curse",
+    "egg:doubleedge",
+    "egg:feint",
+    "egg:flail",
+    "egg:nightslash",
+    "egg:quickattack",
+    "egg:quickguard",
+    "egg:simplebeam",
+    "egg:skyattack",
+    "tm:assurance",
+    "tm:bodyslam",
+    "tm:bravebird",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:closecombat",
+    "tm:covet",
+    "tm:curse",
+    "tm:defog",
+    "tm:doubleedge",
+    "tm:dualwingbeat",
+    "tm:endure",
+    "tm:facade",
+    "tm:focusenergy",
+    "tm:furycutter",
+    "tm:helpinghand",
+    "tm:knockoff",
+    "tm:leafblade",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:rocksmash",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:solarblade",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:workup",
+    "tutor:covet",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:focusenergy",
+    "tutor:furycutter",
+    "tutor:helpinghand",
+    "tutor:knockoff",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:superpower",
+    "tutor:throatchop",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "farfetchd_sirfetchd",
+      "variant": "level_up",
+      "result": "sirfetchd",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "irondefense"
+      ],
+      "requirements": [
+        {
+          "variant": "battle_critical_hits",
+          "amount": 3
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "rare",
+        "weight": 8.75,
+        "levels": "13-38",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0083_farfetchd.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/farfetchd_galarian.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/farfetchd_galarian_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/farfetchd.json"
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "id": "tepig",
+  "dexnum": 498,
+  "name": "Tepig",
+  "primaryType": "fire",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen5",
+    "starter"
+  ],
+  "abilities": [
+    "blaze",
+    "h:thickfat"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 63,
+    "defence": 45,
+    "special_attack": 45,
+    "special_defence": 45,
+    "speed": 45
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:porkchop",
+        "percentage": null,
+        "quantityRange": "1-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:odorsleuth",
+    "3:tailwhip",
+    "7:ember",
+    "9:endure",
+    "13:defensecurl",
+    "15:flamecharge",
+    "19:smog",
+    "21:rollout",
+    "25:takedown",
+    "27:heatcrash",
+    "31:assurance",
+    "33:flamethrower",
+    "37:headsmash",
+    "39:roar",
+    "43:flareblitz",
+    "egg:burnup",
+    "egg:magnitude",
+    "egg:suckerpunch",
+    "egg:superpower",
+    "egg:thrash",
+    "egg:yawn",
+    "tm:assurance",
+    "tm:bodyslam",
+    "tm:covet",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firepledge",
+    "tm:firepunch",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:grassknot",
+    "tm:gyroball",
+    "tm:heatcrash",
+    "tm:heatwave",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:mudslap",
+    "tm:overheat",
+    "tm:protect",
+    "tm:rest",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:wildcharge",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:covet",
+    "tutor:endeavor",
+    "tutor:firepledge",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:suckerpunch",
+    "tutor:superpower",
+    "tutor:wildcharge",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "tepig_pignite",
+      "variant": "level_up",
+      "result": "pignite",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "armthrust"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 17
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_plains"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0498_tepig.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_crimson",
+            "#cobblemon:nether/is_overgrowth"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0498_tepig.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/tepig.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/tepig_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/tepig.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation5\\tepig.json"
+  ]
+}

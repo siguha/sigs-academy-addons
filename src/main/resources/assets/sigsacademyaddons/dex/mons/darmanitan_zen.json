@@ -1,0 +1,277 @@
+{
+  "id": "darmanitan_zen",
+  "dexnum": 555,
+  "name": "Darmanitan Zen",
+  "primaryType": "fire",
+  "secondaryType": "psychic",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "sheerforce",
+    "h:zenmode"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 30,
+    "defence": 105,
+    "special_attack": 140,
+    "special_defence": 105,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 60,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:rage",
+    "1:hammerarm",
+    "1:taunt",
+    "1:swagger",
+    "1:ember",
+    "1:bite",
+    "12:incinerate",
+    "16:workup",
+    "20:firefang",
+    "24:headbutt",
+    "28:firepunch",
+    "32:uproar",
+    "38:bellydrum",
+    "44:flareblitz",
+    "50:thrash",
+    "56:superpower",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:burningjealousy",
+    "tm:dig",
+    "tm:earthquake",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firepunch",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flamewheel",
+    "tm:flareblitz",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:freezedry",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:guardswap",
+    "tm:gyroball",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:hyperbeam",
+    "tm:incinerate",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:laserfocus",
+    "tm:lashout",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:mysticalfire",
+    "tm:overheat",
+    "tm:payback",
+    "tm:powerswap",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychic",
+    "tm:rest",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:snatch",
+    "tm:solarbeam",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:torment",
+    "tm:trick",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:yawn",
+    "tm:zenheadbutt",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:burningjealousy",
+    "tutor:endeavor",
+    "tutor:expandingforce",
+    "tutor:firefang",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focusenergy",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:laserfocus",
+    "tutor:lashout",
+    "tutor:mysticalfire",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "35-54",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_desert",
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0555_darmanitan.json",
+        "structures": [
+          "#cobblemon:ruin"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "desert_pyramid"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "35-54",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0555_darmanitan.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "jungle_pyramid"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "35-54",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0555_darmanitan.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "35-54",
+        "biomeTags": {
+          "include": [
+            "#minecraft:is_nether"
+          ],
+          "exclude": [
+            "#cobblemon:nether/is_frozen",
+            "#cobblemon:nether/is_quartz",
+            "#cobblemon:nether/is_toxic"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0555_darmanitan.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/darmanitan_zen.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/darmanitan_zen_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/darmanitan.json"
+  ]
+}

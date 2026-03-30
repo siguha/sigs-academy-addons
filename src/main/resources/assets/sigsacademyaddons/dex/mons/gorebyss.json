@@ -1,0 +1,335 @@
+{
+  "id": "gorebyss",
+  "dexnum": 368,
+  "name": "Gorebyss",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "swiftswim",
+    "h:hydration"
+  ],
+  "eggGroups": [
+    "water_1"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 84,
+    "defence": 105,
+    "special_attack": 114,
+    "special_defence": 75,
+    "speed": 52
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "erratic",
+  "catchRate": 60,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:deep_sea_scale",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:whirlpool",
+    "1:confusion",
+    "1:irondefense",
+    "1:watergun",
+    "1:shellsmash",
+    "1:clamp",
+    "5:watersport",
+    "9:agility",
+    "11:drainingkiss",
+    "14:waterpulse",
+    "16:amnesia",
+    "19:aquaring",
+    "23:captivate",
+    "26:dive",
+    "29:batonpass",
+    "34:psychic",
+    "39:aquatail",
+    "45:coil",
+    "50:hydropump",
+    "egg:aquaring",
+    "egg:barrier",
+    "egg:mudsport",
+    "egg:refresh",
+    "egg:supersonic",
+    "tm:agility",
+    "tm:amnesia",
+    "tm:aquatail",
+    "tm:batonpass",
+    "tm:bind",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:brine",
+    "tm:captivate",
+    "tm:confuseray",
+    "tm:dive",
+    "tm:drainingkiss",
+    "tm:endure",
+    "tm:facade",
+    "tm:flipturn",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:muddywater",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:scald",
+    "tm:scaleshot",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:surf",
+    "tm:terablast",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:aquatail",
+    "tutor:bind",
+    "tutor:bounce",
+    "tutor:dive",
+    "tutor:flipturn",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:mudslap",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:scaleshot",
+    "tutor:shadowball",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:swift",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.4,
+        "levels": "30-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_deep_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0368_gorebyss.json",
+        "sky": {
+          "canSeeSky": true
+        },
+        "yLevel": {
+          "maxY": 48
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "rare",
+        "weight": 0.625,
+        "levels": "30-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0368_gorebyss.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 0.375,
+        "levels": "30-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0368_gorebyss.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.4,
+        "levels": "30-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_deep_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0368_gorebyss.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "yLevel": {
+          "maxY": 48
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "rare",
+        "weight": 0.625,
+        "levels": "30-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_warm_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0368_gorebyss.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 0.375,
+        "levels": "30-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0368_gorebyss.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.4,
+        "levels": "30-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0368_gorebyss.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 0.375,
+        "levels": "30-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0368_gorebyss.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/gorebyss.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/gorebyss_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/gorebyss.json"
+  ]
+}

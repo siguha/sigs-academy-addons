@@ -1,0 +1,294 @@
+{
+  "id": "wailmer",
+  "dexnum": 320,
+  "name": "Wailmer",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "waterveil",
+    "oblivious",
+    "h:pressure"
+  ],
+  "eggGroups": [
+    "field",
+    "water_2"
+  ],
+  "baseStats": {
+    "hp": 130,
+    "attack": 70,
+    "defence": 35,
+    "special_attack": 70,
+    "special_defence": 35,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "fluctuating",
+  "catchRate": 125,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:bone_block",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:splash",
+    "3:growl",
+    "6:astonish",
+    "12:watergun",
+    "15:mist",
+    "18:waterpulse",
+    "21:heavyslam",
+    "24:brine",
+    "27:whirlpool",
+    "30:dive",
+    "33:bounce",
+    "36:bodyslam",
+    "39:rest",
+    "42:amnesia",
+    "45:hydropump",
+    "48:waterspout",
+    "egg:aquaring",
+    "egg:clearsmog",
+    "egg:curse",
+    "egg:defensecurl",
+    "egg:doubleedge",
+    "egg:fissure",
+    "egg:rollout",
+    "egg:snore",
+    "egg:soak",
+    "egg:swagger",
+    "egg:thrash",
+    "egg:tickle",
+    "tm:amnesia",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:brine",
+    "tm:bulldoze",
+    "tm:curse",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:heavyslam",
+    "tm:hydropump",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:scald",
+    "tm:selfdestruct",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:steelroller",
+    "tm:strength",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swagger",
+    "tm:terablast",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:zenheadbutt",
+    "tutor:bounce",
+    "tutor:bulldoze",
+    "tutor:dive",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:steelroller",
+    "tutor:waterpulse",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "consumeHeldItem": false,
+      "id": "wailmer_wailord",
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": 40,
+          "variant": "level"
+        }
+      ],
+      "result": "wailord",
+      "variant": "level_up"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.68,
+        "levels": "15-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_deep_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0320_wailmer.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 1.68,
+        "levels": "15-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0320_wailmer.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.68,
+        "levels": "15-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0320_wailmer.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.68,
+        "levels": "15-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_deep_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0320_wailmer.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 1.68,
+        "levels": "15-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0320_wailmer.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.68,
+        "levels": "15-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0320_wailmer.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/wailmer.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/wailmer_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/wailmer.json"
+  ]
+}

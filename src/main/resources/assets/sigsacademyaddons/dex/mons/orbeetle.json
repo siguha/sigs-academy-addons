@@ -1,0 +1,219 @@
+{
+  "id": "orbeetle",
+  "dexnum": 826,
+  "name": "Orbeetle",
+  "primaryType": "bug",
+  "secondaryType": "psychic",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "swarm",
+    "frisk",
+    "h:telepathy"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 45,
+    "defence": 110,
+    "special_attack": 80,
+    "special_defence": 120,
+    "speed": 90
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:psychic_seed",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:razz_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:reflect",
+    "1:lightscreen",
+    "1:confusion",
+    "1:strugglebug",
+    "4:confuseray",
+    "8:magiccoat",
+    "12:agility",
+    "16:psybeam",
+    "20:hypnosis",
+    "24:allyswitch",
+    "28:bugbuzz",
+    "32:mirrorcoat",
+    "36:psychic",
+    "40:afteryou",
+    "44:calmmind",
+    "48:psychicterrain",
+    "egg:infestation",
+    "egg:recover",
+    "egg:stickyweb",
+    "egg:supersonic",
+    "tm:afteryou",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:batonpass",
+    "tm:bodypress",
+    "tm:bugbuzz",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:endure",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:futuresight",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:guardswap",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:leechlife",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:payback",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psychocut",
+    "tm:psyshock",
+    "tm:reflect",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:storedpower",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:terablast",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:uturn",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:afteryou",
+    "tutor:allyswitch",
+    "tutor:calmmind",
+    "tutor:energyball",
+    "tutor:expandingforce",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:leechlife",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:psychic",
+    "tutor:psychocut",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [
+    "Gmax"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 1.0,
+        "levels": "27-39",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_temperate"
+          ],
+          "exclude": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0826_orbeetle.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 1.0,
+        "levels": "27-39",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_temperate"
+          ],
+          "exclude": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0826_orbeetle.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/orbeetle.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/orbeetle_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/orbeetle.json"
+  ]
+}

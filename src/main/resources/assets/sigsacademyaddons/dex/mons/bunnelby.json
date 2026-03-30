@@ -1,0 +1,222 @@
+{
+  "id": "bunnelby",
+  "dexnum": 659,
+  "name": "Bunnelby",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "pickup",
+    "cheekpouch",
+    "h:hugepower"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 38,
+    "attack": 36,
+    "defence": 38,
+    "special_attack": 32,
+    "special_defence": 36,
+    "speed": 57
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:rabbit",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "minecraft:rabbit_hide",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:rabbit_foot",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "minecraft:carrot",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chilan_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:leer",
+    "1:doubleslap",
+    "1:mudslap",
+    "3:tackle",
+    "6:laserfocus",
+    "9:quickattack",
+    "12:mudshot",
+    "15:flail",
+    "18:doublekick",
+    "21:bulldoze",
+    "24:dig",
+    "27:bounce",
+    "30:takedown",
+    "33:swordsdance",
+    "36:earthquake",
+    "39:superfang",
+    "egg:defensecurl",
+    "egg:odorsleuth",
+    "egg:rollout",
+    "tm:agility",
+    "tm:bounce",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:cut",
+    "tm:dig",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:grassknot",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:lastresort",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:naturepower",
+    "tm:payback",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:recycle",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sandstorm",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:smackdown",
+    "tm:spikes",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:superfang",
+    "tm:surf",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:torment",
+    "tm:uturn",
+    "tm:wildcharge",
+    "tm:workup",
+    "tutor:bounce",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:endeavor",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:lastresort",
+    "tutor:mudslap",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spikes",
+    "tutor:stoneedge",
+    "tutor:superfang",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "bunnelby_diggersby",
+      "variant": "level_up",
+      "result": "diggersby",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "1-24",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_hills",
+            "#cobblemon:is_temperate"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0659_bunnelby.json",
+        "yLevel": {
+          "minY": 32
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/bunnelby.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/bunnelby_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/bunnelby.json"
+  ]
+}

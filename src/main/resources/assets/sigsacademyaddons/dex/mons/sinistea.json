@@ -1,0 +1,147 @@
+{
+  "id": "sinistea",
+  "dexnum": 854,
+  "name": "Sinistea",
+  "primaryType": "ghost",
+  "secondaryType": "",
+  "maleRatio": -1,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "weakarmor",
+    "h:cursedbody"
+  ],
+  "eggGroups": [
+    "mineral",
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 45,
+    "defence": 45,
+    "special_attack": 74,
+    "special_defence": 54,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 120,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:spell_tag",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:astonish",
+    "1:withdraw",
+    "1:aromatherapy",
+    "6:aromaticmist",
+    "12:megadrain",
+    "24:suckerpunch",
+    "30:sweetscent",
+    "36:gigadrain",
+    "42:nastyplot",
+    "48:shadowball",
+    "54:memento",
+    "60:shellsmash",
+    "egg:allyswitch",
+    "tm:allyswitch",
+    "tm:batonpass",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:endure",
+    "tm:facade",
+    "tm:foulplay",
+    "tm:gigadrain",
+    "tm:hex",
+    "tm:imprison",
+    "tm:magicalleaf",
+    "tm:metronome",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:payback",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:rest",
+    "tm:shadowball",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:spite",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:terablast",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tm:wonderroom",
+    "tutor:allyswitch",
+    "tutor:calmmind",
+    "tutor:darkpulse",
+    "tutor:foulplay",
+    "tutor:gigadrain",
+    "tutor:magicalleaf",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [
+    "Antique"
+  ],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "sinistea_polteageist",
+      "variant": "item_interact",
+      "result": "polteageist tea_authenticity=phony",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "teatime"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:cracked_pot"
+    }
+  ],
+  "spawns": [],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/sinistea.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/sinistea_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/sinistea.json"
+  ]
+}

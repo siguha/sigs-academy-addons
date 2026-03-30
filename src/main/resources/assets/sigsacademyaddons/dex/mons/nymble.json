@@ -1,0 +1,172 @@
+{
+  "id": "nymble",
+  "dexnum": 919,
+  "name": "Nymble",
+  "primaryType": "bug",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "swarm",
+    "h:tintedlens"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 33,
+    "attack": 46,
+    "defence": 40,
+    "special_attack": 21,
+    "special_defence": 25,
+    "speed": 45
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:coba_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "4:strugglebug",
+    "6:astonish",
+    "9:assurance",
+    "11:doublekick",
+    "14:screech",
+    "18:endure",
+    "22:bugbite",
+    "26:feint",
+    "30:agility",
+    "38:suckerpunch",
+    "41:firstimpression",
+    "egg:counter",
+    "egg:skittersmack",
+    "tm:agility",
+    "tm:assurance",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:endure",
+    "tm:facade",
+    "tm:leechlife",
+    "tm:pounce",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:screech",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:uturn",
+    "tm:xscissor",
+    "tutor:bugbite",
+    "tutor:leechlife",
+    "tutor:rest",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:suckerpunch",
+    "tutor:xscissor"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "nymble_lokix",
+      "variant": "level_up",
+      "result": "lokix",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "lunge"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 24
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 4,
+        "levels": "5-25",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0919_nymble.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 4,
+        "levels": "5-25",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0919_nymble.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/nymble.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/nymble_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/nymble.json"
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "id": "archen",
+  "dexnum": 566,
+  "name": "Archen",
+  "primaryType": "rock",
+  "secondaryType": "flying",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen5",
+    "fossil"
+  ],
+  "abilities": [
+    "defeatist",
+    "h:defeatist"
+  ],
+  "eggGroups": [
+    "flying",
+    "water_3"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 112,
+    "defence": 45,
+    "special_attack": 74,
+    "special_defence": 45,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:quickattack",
+    "1:leer",
+    "1:doubleteam",
+    "3:rockthrow",
+    "6:wingattack",
+    "9:dragonbreath",
+    "12:ancientpower",
+    "15:pluck",
+    "18:quickguard",
+    "21:uturn",
+    "24:rockslide",
+    "27:scaryface",
+    "30:crunch",
+    "33:agility",
+    "36:tailwind",
+    "39:dragonclaw",
+    "42:thrash",
+    "45:endeavor",
+    "egg:bite",
+    "egg:defog",
+    "egg:doubleteam",
+    "egg:headsmash",
+    "egg:knockoff",
+    "egg:switcheroo",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:ancientpower",
+    "tm:aquatail",
+    "tm:assurance",
+    "tm:bounce",
+    "tm:bulldoze",
+    "tm:crunch",
+    "tm:cut",
+    "tm:defog",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:dragonclaw",
+    "tm:dragonpulse",
+    "tm:dualwingbeat",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:heatwave",
+    "tm:honeclaws",
+    "tm:irondefense",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:meteorbeam",
+    "tm:pluck",
+    "tm:protect",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roost",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:steelwing",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:torment",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:allyswitch",
+    "tutor:ancientpower",
+    "tutor:aquatail",
+    "tutor:bounce",
+    "tutor:bulldoze",
+    "tutor:defog",
+    "tutor:dragonpulse",
+    "tutor:dualwingbeat",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:heatwave",
+    "tutor:irondefense",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:meteorbeam",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roost",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:uproar",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "archen_archeops",
+      "variant": "level_up",
+      "result": "archeops",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 37
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "15-40",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0566_archen.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/archen.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/archen_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/archen.json"
+  ]
+}

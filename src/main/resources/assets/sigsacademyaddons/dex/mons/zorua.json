@@ -1,0 +1,234 @@
+{
+  "id": "zorua",
+  "dexnum": 570,
+  "name": "Zorua",
+  "primaryType": "dark",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen5",
+    "unovan_form"
+  ],
+  "abilities": [
+    "illusion",
+    "h:illusion"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 65,
+    "defence": 40,
+    "special_attack": 80,
+    "special_defence": 40,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 75,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:sweet_berries",
+        "percentage": null,
+        "quantityRange": "1-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:colbur_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:leer",
+    "1:pursuit",
+    "4:torment",
+    "8:honeclaws",
+    "12:furyswipes",
+    "16:scaryface",
+    "20:taunt",
+    "24:knockoff",
+    "28:faketears",
+    "32:agility",
+    "36:imprison",
+    "40:nightdaze",
+    "44:nastyplot",
+    "48:foulplay",
+    "egg:captivate",
+    "egg:copycat",
+    "egg:counter",
+    "egg:detect",
+    "egg:extrasensory",
+    "egg:feintattack",
+    "egg:memento",
+    "egg:punishment",
+    "egg:suckerpunch",
+    "tm:agility",
+    "tm:assurance",
+    "tm:bounce",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:confuseray",
+    "tm:covet",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:embargo",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fling",
+    "tm:foulplay",
+    "tm:grassknot",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:honeclaws",
+    "tm:hypervoice",
+    "tm:imprison",
+    "tm:incinerate",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:roar",
+    "tm:scaryface",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:spite",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:torment",
+    "tm:trick",
+    "tm:uturn",
+    "tutor:bounce",
+    "tutor:burningjealousy",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:darkpulse",
+    "tutor:foulplay",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:painsplit",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snarl",
+    "tutor:snatch",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:trick",
+    "legacy:aerialace",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:uproar"
+  ],
+  "forms": [
+    "Hisui"
+  ],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "zorua_zoroark",
+      "variant": "level_up",
+      "result": "zoroark",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "nightslash"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 5.04,
+        "levels": "8-33",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0570_zorua.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/zorua.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/zorua_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/zorua.json"
+  ]
+}

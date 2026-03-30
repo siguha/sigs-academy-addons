@@ -1,0 +1,285 @@
+{
+  "id": "spheal",
+  "dexnum": 363,
+  "name": "Spheal",
+  "primaryType": "ice",
+  "secondaryType": "water",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "thickfat",
+    "icebody",
+    "h:oblivious"
+  ],
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 40,
+    "defence": 50,
+    "special_attack": 55,
+    "special_defence": 50,
+    "speed": 25
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 255,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:cod",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:defensecurl",
+    "1:rollout",
+    "4:growl",
+    "8:watergun",
+    "12:powdersnow",
+    "16:rest",
+    "20:snore",
+    "24:brine",
+    "28:aurorabeam",
+    "33:encore",
+    "36:bodyslam",
+    "40:surf",
+    "44:blizzard",
+    "48:hail",
+    "52:sheercold",
+    "egg:aquaring",
+    "egg:bellydrum",
+    "egg:curse",
+    "egg:fissure",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow",
+    "egg:waterpulse",
+    "egg:watersport",
+    "egg:yawn",
+    "tm:aquatail",
+    "tm:babydolleyes",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:bulldoze",
+    "tm:curse",
+    "tm:dive",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:frostbreath",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:iceball",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:steelroller",
+    "tm:strength",
+    "tm:substitute",
+    "tm:superfang",
+    "tm:surf",
+    "tm:terablast",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:aquatail",
+    "tutor:babydolleyes",
+    "tutor:bulldoze",
+    "tutor:dive",
+    "tutor:iceball",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:steelroller",
+    "tutor:superfang",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:charm"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "spheal_sealeo",
+      "variant": "level_up",
+      "result": "sealeo",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "swagger"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0363_spheal.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0363_spheal.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0363_spheal.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0363_spheal.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0363_spheal.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/spheal.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/spheal_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/spheal.json"
+  ]
+}

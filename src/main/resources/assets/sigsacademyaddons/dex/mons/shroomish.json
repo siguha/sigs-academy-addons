@@ -1,0 +1,224 @@
+{
+  "id": "shroomish",
+  "dexnum": 285,
+  "name": "Shroomish",
+  "primaryType": "grass",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "effectspore",
+    "poisonheal",
+    "h:quickfeet"
+  ],
+  "eggGroups": [
+    "fairy",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 40,
+    "defence": 60,
+    "special_attack": 40,
+    "special_defence": 60,
+    "speed": 35
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "fluctuating",
+  "catchRate": 255,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:brown_mushroom",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:kebia_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:absorb",
+    "1:tackle",
+    "5:stunspore",
+    "8:leechseed",
+    "12:megadrain",
+    "15:headbutt",
+    "19:poisonpowder",
+    "26:gigadrain",
+    "29:growth",
+    "33:toxic",
+    "36:seedbomb",
+    "40:spore",
+    "egg:charm",
+    "egg:faketears",
+    "egg:helpinghand",
+    "egg:naturalgift",
+    "egg:swagger",
+    "egg:wakeupslap",
+    "egg:worryseed",
+    "tm:bodyslam",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:drainpunch",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:falseswipe",
+    "tm:flash",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyterrain",
+    "tm:gunkshot",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:magicalleaf",
+    "tm:naturalgift",
+    "tm:pounce",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:snatch",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swift",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:venoshock",
+    "tm:worryseed",
+    "tm:zenheadbutt",
+    "tutor:drainpunch",
+    "tutor:energyball",
+    "tutor:falseswipe",
+    "tutor:gigadrain",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:magicalleaf",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snatch",
+    "tutor:swift",
+    "tutor:synthesis",
+    "tutor:worryseed",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:focuspunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swordsdance",
+    "special:refresh"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "shroomish_breloom",
+      "variant": "level_up",
+      "result": "breloom",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "machpunch"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 23
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "aether:skyroot_forest",
+            "aether:skyroot_woodland"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0285_shroomish.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mushroom"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0285_shroomish.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/shroomish.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/shroomish_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/shroomish.json"
+  ]
+}

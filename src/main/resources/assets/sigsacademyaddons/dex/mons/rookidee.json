@@ -1,0 +1,192 @@
+{
+  "id": "rookidee",
+  "dexnum": 821,
+  "name": "Rookidee",
+  "primaryType": "flying",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "keeneye",
+    "unnerve",
+    "h:bigpecks"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 38,
+    "attack": 47,
+    "defence": 35,
+    "special_attack": 33,
+    "special_defence": 35,
+    "speed": 57
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 255,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:chicken",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:wacan_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:peck",
+    "1:leer",
+    "4:powertrip",
+    "8:honeclaws",
+    "12:furyattack",
+    "16:pluck",
+    "20:taunt",
+    "24:scaryface",
+    "28:drillpeck",
+    "32:swagger",
+    "36:bravebird",
+    "egg:defog",
+    "egg:rocksmash",
+    "egg:roost",
+    "egg:sandattack",
+    "egg:skyattack",
+    "egg:spite",
+    "egg:tailwind",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:assurance",
+    "tm:bravebird",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fly",
+    "tm:focusenergy",
+    "tm:honeclaws",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:pluck",
+    "tm:protect",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:rocksmash",
+    "tm:roost",
+    "tm:scaryface",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:spite",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:uturn",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:focusenergy",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:roost",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:swift",
+    "tutor:tailwind",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "rookidee_corvisquire",
+      "variant": "level_up",
+      "result": "corvisquire",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "1-25",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_hills",
+            "#cobblemon:is_sky",
+            "#cobblemon:is_spooky",
+            "#cobblemon:is_taiga"
+          ],
+          "exclude": [
+            "#cobblemon:is_arid"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0821_rookidee.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/rookidee.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/rookidee_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/rookidee.json"
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "id": "pineco",
+  "dexnum": 204,
+  "name": "Pineco",
+  "primaryType": "bug",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "sturdy",
+    "h:overcoat"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 90,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 15
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:occa_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:iron_ball",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:protect",
+    "6:selfdestruct",
+    "9:bugbite",
+    "12:takedown",
+    "17:rapidspin",
+    "20:bide",
+    "23:naturalgift",
+    "28:spikes",
+    "31:payback",
+    "34:explosion",
+    "39:irondefense",
+    "42:gyroball",
+    "45:doubleedge",
+    "egg:counter",
+    "egg:flail",
+    "egg:pinmissile",
+    "egg:powertrick",
+    "egg:sandtomb",
+    "egg:swift",
+    "egg:toxicspikes",
+    "tm:autotomize",
+    "tm:bodyslam",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:bulldoze",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:drillrun",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:gigadrain",
+    "tm:gravity",
+    "tm:gyroball",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:icespinner",
+    "tm:irondefense",
+    "tm:lightscreen",
+    "tm:lunge",
+    "tm:naturalgift",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:pounce",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:seedbomb",
+    "tm:selfdestruct",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:strength",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:toxicspikes",
+    "tm:venoshock",
+    "tutor:bugbite",
+    "tutor:bulldoze",
+    "tutor:drillrun",
+    "tutor:gigadrain",
+    "tutor:gravity",
+    "tutor:helpinghand",
+    "tutor:irondefense",
+    "tutor:painsplit",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:stealthrock",
+    "tutor:stringshot",
+    "tutor:swift",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:defensecurl",
+    "legacy:doubleteam",
+    "legacy:earthquake",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:sweetscent",
+    "legacy:toxic",
+    "special:refresh"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "pineco_forretress",
+      "variant": "level_up",
+      "result": "forretress",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "mirrorshot",
+        "autotomize",
+        "heavyslam"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 31
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "4-29",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0204_pineco.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/pineco.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/pineco_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/pineco.json"
+  ]
+}

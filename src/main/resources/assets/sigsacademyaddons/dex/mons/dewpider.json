@@ -1,0 +1,311 @@
+{
+  "id": "dewpider",
+  "dexnum": 751,
+  "name": "Dewpider",
+  "primaryType": "water",
+  "secondaryType": "bug",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "waterbubble",
+    "h:waterabsorb"
+  ],
+  "eggGroups": [
+    "water_1",
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 38,
+    "attack": 40,
+    "defence": 52,
+    "special_attack": 40,
+    "special_defence": 72,
+    "speed": 27
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 200,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:wepear_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:watersport",
+    "1:bubble",
+    "1:infestation",
+    "1:spiderweb",
+    "1:watergun",
+    "4:bugbite",
+    "8:bite",
+    "12:bubblebeam",
+    "16:aquaring",
+    "20:headbutt",
+    "24:crunch",
+    "28:soak",
+    "32:entrainment",
+    "36:lunge",
+    "40:liquidation",
+    "44:leechlife",
+    "48:mirrorcoat",
+    "egg:aurorabeam",
+    "egg:powersplit",
+    "egg:spitup",
+    "egg:stickyweb",
+    "egg:stockpile",
+    "tm:blizzard",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:chillingwater",
+    "tm:crunch",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:frostbreath",
+    "tm:gigadrain",
+    "tm:headbutt",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:leechlife",
+    "tm:liquidation",
+    "tm:lunge",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:poisonjab",
+    "tm:pounce",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:signalbeam",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:surf",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:wonderroom",
+    "tm:xscissor",
+    "tutor:bugbite",
+    "tutor:endeavor",
+    "tutor:gigadrain",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:leechlife",
+    "tutor:liquidation",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:signalbeam",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:waterpulse",
+    "tutor:wonderroom",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "dewpider_araquanid",
+      "variant": "level_up",
+      "result": "araquanid",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 22
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 5.04,
+        "levels": "2-27",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_grassland",
+            "#cobblemon:is_jungle"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0751_dewpider.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "2-27",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_grassland",
+            "#cobblemon:is_jungle"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0751_dewpider.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 5.04,
+        "levels": "2-27",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_grassland",
+            "#cobblemon:is_jungle"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0751_dewpider.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "2-27",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_grassland",
+            "#cobblemon:is_jungle"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0751_dewpider.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "2-27",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0751_dewpider.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "2-27",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freshwater"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0751_dewpider.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon_reanimodel/dewpider.png",
+      "out/sprites/cobblemon/dewpider.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon_reanimodel/dewpider_shiny.png",
+      "out/sprites/cobblemon/dewpider_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/dewpider.json"
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "id": "popplio",
+  "dexnum": 728,
+  "name": "Popplio",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen7",
+    "starter"
+  ],
+  "abilities": [
+    "torrent",
+    "h:liquidvoice"
+  ],
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 54,
+    "defence": 54,
+    "special_attack": 66,
+    "special_defence": 56,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:growl",
+    "3:watergun",
+    "6:disarmingvoice",
+    "9:aquajet",
+    "12:babydolleyes",
+    "15:icywind",
+    "18:sing",
+    "21:bubblebeam",
+    "24:encore",
+    "27:mistyterrain",
+    "30:hypervoice",
+    "33:moonblast",
+    "36:hydropump",
+    "egg:aquaring",
+    "egg:aromaticmist",
+    "egg:captivate",
+    "egg:doubleslap",
+    "egg:lifedew",
+    "egg:perishsong",
+    "tm:acrobatics",
+    "tm:amnesia",
+    "tm:aquatail",
+    "tm:babydolleyes",
+    "tm:blizzard",
+    "tm:brine",
+    "tm:captivate",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:covet",
+    "tm:disarmingvoice",
+    "tm:dive",
+    "tm:drainingkiss",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:flipturn",
+    "tm:hail",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icespinner",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:mistyterrain",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:terablast",
+    "tm:tripleaxel",
+    "tm:uproar",
+    "tm:waterfall",
+    "tm:waterpledge",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:wonderroom",
+    "tm:workup",
+    "tutor:aquatail",
+    "tutor:babydolleyes",
+    "tutor:covet",
+    "tutor:dive",
+    "tutor:flipturn",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:tripleaxel",
+    "tutor:uproar",
+    "tutor:waterpledge",
+    "tutor:waterpulse",
+    "tutor:wonderroom"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "popplio_brionne",
+      "variant": "level_up",
+      "result": "brionne",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 17
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0728_popplio.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0728_popplio.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean",
+            "#cobblemon:is_tropical_island"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0728_popplio.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0728_popplio.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean",
+            "#cobblemon:is_tropical_island"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0728_popplio.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/popplio.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/popplio_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/popplio.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation7\\popplio.json"
+  ]
+}

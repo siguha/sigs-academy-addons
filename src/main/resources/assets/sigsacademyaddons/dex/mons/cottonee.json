@@ -1,0 +1,219 @@
+{
+  "id": "cottonee",
+  "dexnum": 546,
+  "name": "Cottonee",
+  "primaryType": "grass",
+  "secondaryType": "fairy",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "prankster",
+    "infiltrator",
+    "h:chlorophyll"
+  ],
+  "eggGroups": [
+    "grass",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 27,
+    "defence": 60,
+    "special_attack": 37,
+    "special_defence": 50,
+    "speed": 66
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:white_wool",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:kebia_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:absorb_bulb",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:absorb",
+    "1:helpinghand",
+    "3:fairywind",
+    "6:stunspore",
+    "12:megadrain",
+    "15:razorleaf",
+    "18:growth",
+    "21:poisonpowder",
+    "24:gigadrain",
+    "27:charm",
+    "30:leechseed",
+    "33:cottonspore",
+    "36:energyball",
+    "39:sunnyday",
+    "42:endeavor",
+    "45:cottonguard",
+    "48:solarbeam",
+    "egg:beatup",
+    "egg:captivate",
+    "egg:grasswhistle",
+    "egg:memento",
+    "egg:naturalgift",
+    "egg:switcheroo",
+    "egg:tickle",
+    "egg:worryseed",
+    "tm:beatup",
+    "tm:captivate",
+    "tm:charm",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:dreameater",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:helpinghand",
+    "tm:mistyterrain",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:protect",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:worryseed",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:defog",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:knockoff",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:tailwind",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "cottonee_whimsicott",
+      "variant": "item_interact",
+      "result": "whimsicott",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:sun_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.7,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_plains"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0546_cottonee.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.5,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "aether:skyroot_grove",
+            "aether:skyroot_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0546_cottonee.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/cottonee.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/cottonee_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/cottonee.json"
+  ]
+}

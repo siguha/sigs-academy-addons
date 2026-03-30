@@ -1,0 +1,273 @@
+{
+  "id": "sandslash_alola",
+  "dexnum": 28,
+  "name": "Sandslash Alola",
+  "primaryType": "ice",
+  "secondaryType": "steel",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7",
+    "alolan_form"
+  ],
+  "abilities": [
+    "snowcloak",
+    "h:slushrush"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 100,
+    "defence": 120,
+    "special_attack": 25,
+    "special_defence": 65,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 90,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:armadillo_scute",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:grip_claw",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:quick_claw",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chople_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:iciclespear",
+    "1:metalburst",
+    "1:iciclecrash",
+    "1:slash",
+    "1:defensecurl",
+    "1:iceball",
+    "1:metalclaw",
+    "1:swordsdance",
+    "1:blizzard",
+    "1:hail",
+    "1:irondefense",
+    "1:gyroball",
+    "1:ironhead",
+    "1:rollout",
+    "1:furycutter",
+    "1:rapidspin",
+    "1:swift",
+    "1:furyswipes",
+    "1:scratch",
+    "1:mist",
+    "1:powdersnow",
+    "1:snowscape",
+    "1:bide",
+    "egg:chipaway",
+    "egg:counter",
+    "egg:crushclaw",
+    "egg:curse",
+    "egg:flail",
+    "egg:honeclaws",
+    "egg:iceshard",
+    "egg:mirrorcoat",
+    "egg:nightslash",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:amnesia",
+    "tm:aquatail",
+    "tm:auroraveil",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:covet",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:drillrun",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:flashcannon",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:frostbreath",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:gyroball",
+    "tm:hail",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:iceball",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icespinner",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:leechlife",
+    "tm:lowkick",
+    "tm:metalclaw",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:steelbeam",
+    "tm:steelroller",
+    "tm:substitute",
+    "tm:superfang",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:tripleaxel",
+    "tm:workup",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:aquatail",
+    "tutor:bulldoze",
+    "tutor:covet",
+    "tutor:drillrun",
+    "tutor:endeavor",
+    "tutor:falseswipe",
+    "tutor:flashcannon",
+    "tutor:focuspunch",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:iceball",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:leechlife",
+    "tutor:lowkick",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rollout",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:spikes",
+    "tutor:stealthrock",
+    "tutor:steelbeam",
+    "tutor:steelroller",
+    "tutor:superfang",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:tripleaxel",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:seismictoss",
+    "legacy:snore",
+    "legacy:sunnyday",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.0,
+        "levels": "24-45",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_glacial"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0028_sandslash_alolan.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.0,
+        "levels": "24-45",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_glacial"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0028_sandslash_alolan.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [],
+    "shiny": [
+      "out/sprites/cobblemon/sandslash_alolan_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/sandslash.json"
+  ]
+}

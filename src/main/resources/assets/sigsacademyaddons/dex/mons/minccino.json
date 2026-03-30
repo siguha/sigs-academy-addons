@@ -1,0 +1,286 @@
+{
+  "id": "minccino",
+  "dexnum": 572,
+  "name": "Minccino",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0.25,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "cutecharm",
+    "technician",
+    "h:skilllink"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 50,
+    "defence": 40,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 75
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:silk_scarf",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:growl",
+    "1:doubleslap",
+    "1:babydolleyes",
+    "4:helpinghand",
+    "8:echoedvoice",
+    "12:sing",
+    "16:charm",
+    "20:swift",
+    "24:encore",
+    "28:afteryou",
+    "32:tailslap",
+    "36:tickle",
+    "40:slam",
+    "44:hypervoice",
+    "48:lastresort",
+    "egg:aquatail",
+    "egg:captivate",
+    "egg:flail",
+    "egg:knockoff",
+    "egg:tailwhip",
+    "egg:tidyup",
+    "egg:wakeupslap",
+    "tm:afteryou",
+    "tm:alluringvoice",
+    "tm:aquatail",
+    "tm:babydolleyes",
+    "tm:batonpass",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:dig",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fling",
+    "tm:grassknot",
+    "tm:gunkshot",
+    "tm:helpinghand",
+    "tm:hypervoice",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lastresort",
+    "tm:mudslap",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:swift",
+    "tm:tailslap",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:tripleaxel",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:workup",
+    "tutor:afteryou",
+    "tutor:aquatail",
+    "tutor:babydolleyes",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:endeavor",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lastresort",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:superfang",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:tripleaxel",
+    "tutor:uproar",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "minccino_cinccino",
+      "variant": "item_interact",
+      "result": "cinccino",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "tailslap"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:shiny_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.9,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_magical"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0572_minccino.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "common",
+        "weight": 5.7,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_sandy",
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0572_minccino.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.7,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_sandy",
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0572_minccino.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "mansion"
+        ],
+        "rarity": "common",
+        "weight": 9.5,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0572_minccino.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/minccino.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/minccino_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/minccino.json"
+  ]
+}

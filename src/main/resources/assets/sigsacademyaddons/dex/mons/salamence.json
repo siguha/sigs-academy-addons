@@ -1,0 +1,295 @@
+{
+  "id": "salamence",
+  "dexnum": 373,
+  "name": "Salamence",
+  "primaryType": "dragon",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3",
+    "powerhouse"
+  ],
+  "abilities": [
+    "intimidate",
+    "h:moxie"
+  ],
+  "eggGroups": [
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 135,
+    "defence": 80,
+    "special_attack": 110,
+    "special_defence": 80,
+    "speed": 100
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:dragon_fang",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:dragon_scale",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:rage",
+    "1:bite",
+    "1:leer",
+    "1:ember",
+    "1:protect",
+    "1:dragonbreath",
+    "1:fly",
+    "1:roost",
+    "1:dragontail",
+    "1:dualwingbeat",
+    "15:headbutt",
+    "20:scaryface",
+    "25:crunch",
+    "33:dragonclaw",
+    "39:zenheadbutt",
+    "46:focusenergy",
+    "55:flamethrower",
+    "73:doubleedge",
+    "egg:defensecurl",
+    "egg:dragonrage",
+    "egg:dragonrush",
+    "egg:thrash",
+    "egg:twister",
+    "tm:aerialace",
+    "tm:airslash",
+    "tm:aquatail",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:crunch",
+    "tm:cut",
+    "tm:defog",
+    "tm:doubleedge",
+    "tm:dracometeor",
+    "tm:dragoncheer",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:dualwingbeat",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firespin",
+    "tm:flamethrower",
+    "tm:fly",
+    "tm:focusenergy",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hurricane",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:incinerate",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:mudslap",
+    "tm:ominouswind",
+    "tm:outrage",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:roost",
+    "tm:scaryface",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thunderfang",
+    "tm:twister",
+    "tm:zenheadbutt",
+    "tutor:aquatail",
+    "tutor:bulldoze",
+    "tutor:defog",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:dualwingbeat",
+    "tutor:firefang",
+    "tutor:flamethrower",
+    "tutor:focusenergy",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:mudslap",
+    "tutor:ominouswind",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:roost",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:stoneedge",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:thunderfang",
+    "tutor:twister",
+    "tutor:zenheadbutt",
+    "legacy:aircutter",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:refresh",
+    "special:wish"
+  ],
+  "forms": [
+    "Mega"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "50-60",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_peak",
+            "#cobblemon:is_sky"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0373_salamence.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "50-60",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_dripstone"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0373_salamence.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 0.25,
+        "levels": "50-60",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_dripstone"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0373_salamence.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/salamence.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/salamence_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/salamence.json"
+  ]
+}

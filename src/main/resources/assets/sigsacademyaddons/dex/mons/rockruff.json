@@ -1,0 +1,263 @@
+{
+  "id": "rockruff",
+  "dexnum": 744,
+  "name": "Rockruff",
+  "primaryType": "rock",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "keeneye",
+    "vitalspirit",
+    "h:steadfast"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 65,
+    "defence": 40,
+    "special_attack": 30,
+    "special_defence": 40,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:rotten_flesh",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:hard_stone",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:babiri_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "4:sandattack",
+    "8:doubleteam",
+    "12:rockthrow",
+    "16:howl",
+    "20:bite",
+    "24:rocktomb",
+    "28:roar",
+    "32:rockslide",
+    "36:crunch",
+    "40:scaryface",
+    "44:stealthrock",
+    "48:stoneedge",
+    "egg:crushclaw",
+    "egg:endeavor",
+    "egg:lastresort",
+    "egg:odorsleuth",
+    "egg:suckerpunch",
+    "egg:thrash",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:charm",
+    "tm:covet",
+    "tm:crunch",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:doubleteam",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:firefang",
+    "tm:helpinghand",
+    "tm:hypervoice",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:lastresort",
+    "tm:mudslap",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockclimb",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thunderfang",
+    "tm:trailblaze",
+    "tm:zenheadbutt",
+    "tutor:bulldoze",
+    "tutor:covet",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:firefang",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:lastresort",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:suckerpunch",
+    "tutor:thunderfang",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [
+    "Dusk"
+  ],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "rockruff_lycanroc",
+      "variant": "level_up",
+      "result": "lycanroc wolf_form=midday",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "accelerock",
+        "suckerpunch"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ]
+    },
+    {
+      "id": "rockruff_lycanrocmidnight",
+      "variant": "level_up",
+      "result": "lycanroc wolf_form=midnight",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "counter"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 5.8,
+        "levels": "5-20",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_hills"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0744_rockruff.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 5.8,
+        "levels": "5-20",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_hills"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0744_rockruff.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/rockruff.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/rockruff_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/rockruff.json"
+  ]
+}

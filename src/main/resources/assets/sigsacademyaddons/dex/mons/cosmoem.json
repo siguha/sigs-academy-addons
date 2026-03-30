@@ -1,0 +1,103 @@
+{
+  "id": "cosmoem",
+  "dexnum": 790,
+  "name": "Cosmoem",
+  "primaryType": "psychic",
+  "secondaryType": "",
+  "maleRatio": -1,
+  "labels": [
+    "gen7",
+    "legendary",
+    "restricted"
+  ],
+  "abilities": [
+    "sturdy",
+    "h:sturdy"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 43,
+    "attack": 29,
+    "defence": 131,
+    "special_attack": 29,
+    "special_defence": 131,
+    "speed": 37
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 3,
+  "drops": {
+    "amount": 0,
+    "entries": []
+  },
+  "moves": [
+    "1:cosmicpower",
+    "1:teleport",
+    "1:splash",
+    "tm:cosmicpower"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "cosmoem_solgaleo",
+      "variant": "level_up",
+      "result": "solgaleo",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "sunsteelstrike"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 53
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ]
+    },
+    {
+      "id": "cosmoem_lunala",
+      "variant": "level_up",
+      "result": "lunala",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "moongeistbeam"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 53
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ]
+    }
+  ],
+  "spawns": [],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/cosmoem.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/cosmoem_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/cosmoem.json"
+  ]
+}

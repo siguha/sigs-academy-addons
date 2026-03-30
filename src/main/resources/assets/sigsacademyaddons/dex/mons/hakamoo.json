@@ -1,0 +1,244 @@
+{
+  "id": "hakamoo",
+  "dexnum": 783,
+  "name": "Hakamo-o",
+  "primaryType": "dragon",
+  "secondaryType": "fighting",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "bulletproof",
+    "soundproof",
+    "h:overcoat"
+  ],
+  "eggGroups": [
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 75,
+    "defence": 90,
+    "special_attack": 65,
+    "special_defence": 70,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "cobblemon:dragon_scale",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:razor_claw",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:roseli_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:skyuppercut",
+    "1:autotomize",
+    "1:tackle",
+    "1:leer",
+    "1:bide",
+    "1:protect",
+    "1:dragontail",
+    "12:scaryface",
+    "16:headbutt",
+    "20:workup",
+    "24:screech",
+    "28:irondefense",
+    "32:dragonclaw",
+    "38:nobleroar",
+    "44:dragondance",
+    "50:outrage",
+    "56:closecombat",
+    "egg:counter",
+    "egg:dragonbreath",
+    "egg:focuspunch",
+    "tm:aerialace",
+    "tm:aquatail",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:doubleedge",
+    "tm:dracometeor",
+    "tm:dragoncheer",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:drainpunch",
+    "tm:dualchop",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:headbutt",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:lowkick",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metalclaw",
+    "tm:outrage",
+    "tm:payback",
+    "tm:protect",
+    "tm:rest",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:upperhand",
+    "tm:vacuumwave",
+    "tm:workup",
+    "tm:xscissor",
+    "tutor:aquatail",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:coaching",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:drainpunch",
+    "tutor:dualchop",
+    "tutor:falseswipe",
+    "tutor:focuspunch",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:lowkick",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:scaleshot",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:throatchop",
+    "tutor:vacuumwave",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:uproar"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "hakamoo_kommoo",
+      "variant": "level_up",
+      "result": "kommoo",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "clangingscales"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 45
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "35-42",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0783_hakamoo.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "rare",
+        "weight": 2.25,
+        "levels": "35-42",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0783_hakamoo.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/hakamo-o.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/hakamo-o_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/hakamoo.json"
+  ]
+}

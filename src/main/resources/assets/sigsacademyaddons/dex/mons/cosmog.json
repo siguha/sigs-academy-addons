@@ -1,0 +1,80 @@
+{
+  "id": "cosmog",
+  "dexnum": 789,
+  "name": "Cosmog",
+  "primaryType": "psychic",
+  "secondaryType": "",
+  "maleRatio": -1,
+  "labels": [
+    "gen7",
+    "legendary",
+    "restricted"
+  ],
+  "abilities": [
+    "unaware",
+    "h:unaware"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 43,
+    "attack": 29,
+    "defence": 31,
+    "special_attack": 29,
+    "special_defence": 31,
+    "speed": 37
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 3,
+  "drops": {
+    "amount": 0,
+    "entries": []
+  },
+  "moves": [
+    "1:splash",
+    "1:teleport"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "cosmog_cosmoem",
+      "variant": "level_up",
+      "result": "cosmoem",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "cosmicpower"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 43
+        }
+      ]
+    }
+  ],
+  "spawns": [],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/genomons/cosmog.png",
+      "out/sprites/cobblemon/cosmog.png"
+    ],
+    "shiny": [
+      "out/sprites/genomons/cosmog_shiny.png",
+      "out/sprites/cobblemon/cosmog_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/cosmog.json"
+  ]
+}

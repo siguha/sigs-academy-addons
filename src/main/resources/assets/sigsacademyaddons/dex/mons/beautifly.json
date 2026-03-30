@@ -1,0 +1,233 @@
+{
+  "id": "beautifly",
+  "dexnum": 267,
+  "name": "Beautifly",
+  "primaryType": "bug",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "swarm",
+    "h:rivalry"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 70,
+    "defence": 50,
+    "special_attack": 100,
+    "special_defence": 50,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:bright_powder",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:shed_shell",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:gust",
+    "1:stringshot",
+    "1:bugbite",
+    "1:tackle",
+    "1:harden",
+    "1:poisonsting",
+    "12:absorb",
+    "15:stunspore",
+    "17:morningsun",
+    "20:aircutter",
+    "22:megadrain",
+    "27:attract",
+    "30:whirlwind",
+    "32:gigadrain",
+    "35:bugbuzz",
+    "37:rage",
+    "40:quiverdance",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:hyperbeam",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:laserfocus",
+    "tm:ominouswind",
+    "tm:protect",
+    "tm:psychic",
+    "tm:rest",
+    "tm:roost",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:silverwind",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:tailwind",
+    "tm:terablast",
+    "tm:thief",
+    "tm:twister",
+    "tm:uturn",
+    "tm:venoshock",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:bugbite",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:electroweb",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:laserfocus",
+    "tutor:ominouswind",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:shadowball",
+    "tutor:signalbeam",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:stringshot",
+    "tutor:tailwind",
+    "tutor:twister",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:swift",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 1,
+        "levels": "10-35",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_jungle"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0267_beautifly.json",
+        "sky": {
+          "canSeeSky": true,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 1,
+        "levels": "10-35",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_jungle"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0267_beautifly.json",
+        "sky": {
+          "canSeeSky": true,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/beautifly.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/beautifly_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/beautifly.json"
+  ]
+}

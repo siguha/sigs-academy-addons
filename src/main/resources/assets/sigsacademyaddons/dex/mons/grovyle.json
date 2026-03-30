@@ -1,0 +1,258 @@
+{
+  "id": "grovyle",
+  "dexnum": 253,
+  "name": "Grovyle",
+  "primaryType": "grass",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "overgrow",
+    "h:unburden"
+  ],
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 45,
+    "special_attack": 85,
+    "special_defence": 65,
+    "speed": 95
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:stick",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:leer",
+    "1:absorb",
+    "1:quickattack",
+    "1:furycutter",
+    "1:pursuit",
+    "1:agility",
+    "1:falseswipe",
+    "1:xscissor",
+    "1:energyball",
+    "1:leafage",
+    "9:megadrain",
+    "12:detect",
+    "15:quickguard",
+    "20:assurance",
+    "25:gigadrain",
+    "30:slam",
+    "35:doubleteam",
+    "40:leafblade",
+    "45:screech",
+    "50:endeavor",
+    "55:leafstorm",
+    "egg:absorb",
+    "egg:crushclaw",
+    "egg:doublekick",
+    "egg:dragonbreath",
+    "egg:grasswhistle",
+    "egg:leechseed",
+    "egg:mudsport",
+    "egg:naturalgift",
+    "egg:nightslash",
+    "egg:pursuit",
+    "egg:razorwind",
+    "egg:slash",
+    "egg:synthesis",
+    "egg:worryseed",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:assurance",
+    "tm:breakingswipe",
+    "tm:brickbreak",
+    "tm:bulletseed",
+    "tm:crunch",
+    "tm:cut",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:dragontail",
+    "tm:drainpunch",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:flash",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:irontail",
+    "tm:leafblade",
+    "tm:leafstorm",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:magicalleaf",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:screech",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderpunch",
+    "tm:trailblaze",
+    "tm:upperhand",
+    "tm:vacuumwave",
+    "tm:workup",
+    "tm:worryseed",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:drainpunch",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:falseswipe",
+    "tutor:furycutter",
+    "tutor:gigadrain",
+    "tutor:grasspledge",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:lowkick",
+    "tutor:magicalleaf",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:synthesis",
+    "tutor:thunderpunch",
+    "tutor:vacuumwave",
+    "tutor:worryseed",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:bodyslam",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:doubleedge",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:snore",
+    "legacy:solarblade",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "grovyle_sceptile",
+      "variant": "level_up",
+      "result": "sceptile",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "dualchop",
+        "leafblade"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle",
+            "aether:skyroot_forest",
+            "aether:skyroot_woodland"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0253_grovyle.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/grovyle.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/grovyle_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/grovyle.json"
+  ]
+}

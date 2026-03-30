@@ -1,0 +1,224 @@
+{
+  "id": "oinkologne_f",
+  "dexnum": 916,
+  "name": "Oinkologne F",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "aromaveil",
+    "gluttony",
+    "h:thickfat"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 115,
+    "attack": 90,
+    "defence": 70,
+    "special_attack": 59,
+    "special_defence": 90,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 100,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:porkchop",
+        "percentage": null,
+        "quantityRange": "1-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "3:disarmingvoice",
+    "6:echoedvoice",
+    "9:mudshot",
+    "12:covet",
+    "15:dig",
+    "17:headbutt",
+    "23:yawn",
+    "28:takedown",
+    "30:workup",
+    "34:uproar",
+    "39:doubleedge",
+    "45:earthpower",
+    "51:belch",
+    "egg:endeavor",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:stuffcheeks",
+    "egg:swallow",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:chillingwater",
+    "tm:covet",
+    "tm:curse",
+    "tm:dig",
+    "tm:disarmingvoice",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:ironhead",
+    "tm:lashout",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:uproar",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:bulldoze",
+    "tutor:covet",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:ironhead",
+    "tutor:lashout",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:superfang",
+    "tutor:uproar",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "18-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mushroom",
+            "#cobblemon:is_temperate"
+          ],
+          "exclude": [
+            "minecraft:mushroom_fields"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0916_oinkologne.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "18-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0916_oinkologne.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "18-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_crimson",
+            "#cobblemon:nether/is_fungus",
+            "#cobblemon:nether/is_overgrowth"
+          ],
+          "exclude": [
+            "#cobblemon:nether/is_warped"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0916_oinkologne.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/oinkologne_female.png",
+      "out/sprites/cobblemon/oinkologne_male.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/oinkologne_female_shiny.png",
+      "out/sprites/cobblemon/oinkologne_male_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/oinkologne.json"
+  ]
+}

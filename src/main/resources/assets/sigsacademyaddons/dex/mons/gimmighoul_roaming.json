@@ -1,0 +1,371 @@
+{
+  "id": "gimmighoul_roaming",
+  "dexnum": 999,
+  "name": "Gimmighoul Roaming",
+  "primaryType": "ghost",
+  "secondaryType": "",
+  "maleRatio": -1,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "runaway",
+    "h:runaway"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 30,
+    "defence": 25,
+    "special_attack": 75,
+    "special_defence": 45,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:relic_coin",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:astonish",
+    "1:tackle",
+    "tm:confuseray",
+    "tm:endure",
+    "tm:hex",
+    "tm:lightscreen",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:powergem",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:sleeptalk"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "gimmighoul_gholdengo",
+      "variant": "level_up",
+      "result": "gholdengo",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "properties",
+          "target": "gimmighoul gimmighoul_coins=999"
+        }
+      ]
+    },
+    {
+      "id": "gimmighoul_gholdengonetherite1",
+      "variant": "level_up",
+      "result": "gholdengo netherite_coating=stage1",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "properties",
+          "target": "gimmighoul gimmighoul_coins=999"
+        },
+        {
+          "variant": "property_range",
+          "range": "32-63",
+          "feature": "gimmighoul_netherite"
+        }
+      ]
+    },
+    {
+      "id": "gimmighoul_gholdengonetherite2",
+      "variant": "level_up",
+      "result": "gholdengo netherite_coating=stage2",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "properties",
+          "target": "gimmighoul gimmighoul_coins=999"
+        },
+        {
+          "variant": "property_range",
+          "range": "64-95",
+          "feature": "gimmighoul_netherite"
+        }
+      ]
+    },
+    {
+      "id": "gimmighoul_gholdengonetherite3",
+      "variant": "level_up",
+      "result": "gholdengo netherite_coating=stage3",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "properties",
+          "target": "gimmighoul gimmighoul_coins=999"
+        },
+        {
+          "variant": "property_range",
+          "range": "96-127",
+          "feature": "gimmighoul_netherite"
+        }
+      ]
+    },
+    {
+      "id": "gimmighoul_gholdengonetherite4",
+      "variant": "level_up",
+      "result": "gholdengo netherite_coating=stage4",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "properties",
+          "target": "gimmighoul gimmighoul_coins=999"
+        },
+        {
+          "variant": "property_range",
+          "range": "128-159",
+          "feature": "gimmighoul_netherite"
+        }
+      ]
+    },
+    {
+      "id": "gimmighoul_gholdengonetherite5",
+      "variant": "level_up",
+      "result": "gholdengo netherite_coating=stage5",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "properties",
+          "target": "gimmighoul gimmighoul_coins=999"
+        },
+        {
+          "variant": "property_range",
+          "range": "160-191",
+          "feature": "gimmighoul_netherite"
+        }
+      ]
+    },
+    {
+      "id": "gimmighoul_gholdengonetherite6",
+      "variant": "level_up",
+      "result": "gholdengo netherite_coating=stage6",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "properties",
+          "target": "gimmighoul gimmighoul_coins=999"
+        },
+        {
+          "variant": "property_range",
+          "range": "192-223",
+          "feature": "gimmighoul_netherite"
+        }
+      ]
+    },
+    {
+      "id": "gimmighoul_gholdengonetherite7",
+      "variant": "level_up",
+      "result": "gholdengo netherite_coating=stage7",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "properties",
+          "target": "gimmighoul gimmighoul_coins=999"
+        },
+        {
+          "variant": "property_range",
+          "range": "224-255",
+          "feature": "gimmighoul_netherite"
+        }
+      ]
+    },
+    {
+      "id": "gimmighoul_gholdengonetherite8",
+      "variant": "level_up",
+      "result": "gholdengo netherite_coating=full",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "properties",
+          "target": "gimmighoul gimmighoul_coins=999"
+        },
+        {
+          "variant": "properties",
+          "target": "gimmighoul gimmighoul_netherite=256"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "rarity": "common",
+        "weight": 60.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0999_gimmighoul.json",
+        "structures": [
+          "#cobblemon:ruin"
+        ],
+        "yLevel": {
+          "minY": 48
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 100.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0999_gimmighoul.json",
+        "structures": [
+          "#cobblemon:ruins/arch"
+        ],
+        "yLevel": {
+          "minY": -37,
+          "maxY": 10
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "5-30",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0999_gimmighoul.json",
+        "structures": [
+          "#aether:dungeons"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 60.0,
+        "levels": "5-30",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0999_gimmighoul.json",
+        "structures": [
+          "#cobblemon:ruin"
+        ],
+        "yLevel": {
+          "minY": 48
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 100.0,
+        "levels": "5-30",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0999_gimmighoul.json",
+        "structures": [
+          "#cobblemon:ruins/arch"
+        ],
+        "yLevel": {
+          "minY": -37,
+          "maxY": 10
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "5-30",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0999_gimmighoul.json",
+        "structures": [
+          "#aether:dungeons"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/gimmighoul_roaming.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/gimmighoul_roaming_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/gimmighoul.json"
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "id": "dhelmise",
+  "dexnum": 781,
+  "name": "Dhelmise",
+  "primaryType": "ghost",
+  "secondaryType": "grass",
+  "maleRatio": -1,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "steelworker",
+    "h:steelworker"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 131,
+    "defence": 100,
+    "special_attack": 86,
+    "special_defence": 90,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 25,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:kelp",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:raw_iron",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:absorb",
+    "1:rapidspin",
+    "4:astonish",
+    "8:wrap",
+    "12:megadrain",
+    "16:growth",
+    "20:gyroball",
+    "24:switcheroo",
+    "28:gigadrain",
+    "32:whirlpool",
+    "36:heavyslam",
+    "40:slam",
+    "44:shadowball",
+    "48:metalsound",
+    "52:anchorshot",
+    "56:energyball",
+    "60:phantomforce",
+    "64:powerwhip",
+    "tm:aerialace",
+    "tm:allyswitch",
+    "tm:assurance",
+    "tm:block",
+    "tm:bodypress",
+    "tm:brickbreak",
+    "tm:brine",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:earthquake",
+    "tm:embargo",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:gyroball",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:metalsound",
+    "tm:muddywater",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:roleplay",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:sludgewave",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:spite",
+    "tm:steelroller",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:whirlpool",
+    "tutor:aerialace",
+    "tutor:allyswitch",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:energyball",
+    "tutor:flashcannon",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:liquidation",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:roleplay",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:steelroller",
+    "tutor:synthesis",
+    "tutor:telekinesis",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 10.0,
+        "levels": "27-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0781_dhelmise.json",
+        "structures": [
+          "#minecraft:shipwreck"
+        ],
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 10.0,
+        "levels": "27-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0781_dhelmise.json",
+        "structures": [
+          "#minecraft:shipwreck"
+        ],
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 6.0,
+        "levels": "27-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0781_dhelmise.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 10.0,
+        "levels": "27-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0781_dhelmise.json",
+        "structures": [
+          "#minecraft:shipwreck"
+        ],
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 10.0,
+        "levels": "27-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0781_dhelmise.json",
+        "structures": [
+          "#minecraft:shipwreck"
+        ],
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 6.0,
+        "levels": "27-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0781_dhelmise.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 20.0,
+        "levels": "27-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0781_dhelmise.json",
+        "structures": [
+          "#cobblemon:shipwreck_cove"
+        ],
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 20.0,
+        "levels": "27-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0781_dhelmise.json",
+        "structures": [
+          "#cobblemon:shipwreck_cove"
+        ],
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/dhelmise.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/dhelmise_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/dhelmise.json"
+  ]
+}

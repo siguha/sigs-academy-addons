@@ -1,0 +1,146 @@
+{
+  "id": "polteageist_antique",
+  "dexnum": 855,
+  "name": "Polteageist Antique",
+  "primaryType": "ghost",
+  "secondaryType": "",
+  "maleRatio": -1,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "weakarmor",
+    "h:cursedbody"
+  ],
+  "eggGroups": [
+    "mineral",
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 65,
+    "defence": 65,
+    "special_attack": 134,
+    "special_defence": 114,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 60,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:spell_tag",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:teatime",
+    "1:strengthsap",
+    "1:astonish",
+    "1:withdraw",
+    "1:aromaticmist",
+    "1:megadrain",
+    "1:aromatherapy",
+    "18:protect",
+    "24:suckerpunch",
+    "30:sweetscent",
+    "36:gigadrain",
+    "42:nastyplot",
+    "48:shadowball",
+    "54:memento",
+    "60:shellsmash",
+    "66:curse",
+    "egg:allyswitch",
+    "tm:allyswitch",
+    "tm:batonpass",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:endure",
+    "tm:facade",
+    "tm:foulplay",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:metronome",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:reflect",
+    "tm:rest",
+    "tm:selfdestruct",
+    "tm:shadowball",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:spite",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:terablast",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tm:wonderroom",
+    "tutor:allyswitch",
+    "tutor:calmmind",
+    "tutor:darkpulse",
+    "tutor:foulplay",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:magicalleaf",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/polteageist.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/polteageist_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/polteageist.json"
+  ]
+}

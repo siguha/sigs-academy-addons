@@ -1,0 +1,146 @@
+{
+  "id": "scatterbug",
+  "dexnum": 664,
+  "name": "Scatterbug",
+  "primaryType": "bug",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "shielddust",
+    "compoundeyes",
+    "h:friendguard"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 38,
+    "attack": 35,
+    "defence": 40,
+    "special_attack": 27,
+    "special_defence": 25,
+    "speed": 35
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:bright_powder",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:stringshot",
+    "6:stunspore",
+    "15:bugbite",
+    "egg:poisonpowder",
+    "egg:ragepowder",
+    "egg:stunspore",
+    "tm:bugbite",
+    "tm:pounce",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:terablast",
+    "tutor:bugbite",
+    "tutor:stringshot"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "scatterbug_spewpa",
+      "variant": "level_up",
+      "result": "spewpa",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "protect"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 9
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "foliage"
+        ],
+        "rarity": "common",
+        "weight": 7.0,
+        "levels": "1-20",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_floral",
+            "#cobblemon:is_plains",
+            "#cobblemon:is_savanna"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0664_scatterbug.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 4.5,
+        "levels": "1-20",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:floral_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0664_scatterbug.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/scatterbug.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/scatterbug_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/scatterbug.json"
+  ]
+}

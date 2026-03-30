@@ -1,0 +1,136 @@
+{
+  "id": "poltchageist",
+  "dexnum": 1012,
+  "name": "Poltchageist",
+  "primaryType": "grass",
+  "secondaryType": "ghost",
+  "maleRatio": -1,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "hospitality",
+    "h:heatproof"
+  ],
+  "eggGroups": [
+    "mineral",
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 45,
+    "defence": 45,
+    "special_attack": 74,
+    "special_defence": 54,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 120,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:stunspore",
+    "1:withdraw",
+    "1:astonish",
+    "6:absorb",
+    "12:lifedew",
+    "18:foulplay",
+    "24:megadrain",
+    "30:hex",
+    "36:ragepowder",
+    "42:gigadrain",
+    "48:shadowball",
+    "54:memento",
+    "60:leafstorm",
+    "tm:calmmind",
+    "tm:curse",
+    "tm:endure",
+    "tm:energyball",
+    "tm:foulplay",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:hex",
+    "tm:imprison",
+    "tm:irondefense",
+    "tm:leafstorm",
+    "tm:magicalleaf",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:painsplit",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psychup",
+    "tm:reflect",
+    "tm:rest",
+    "tm:scald",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:substitute",
+    "tm:terablast",
+    "tm:trickroom",
+    "tm:uproar",
+    "tutor:calmmind",
+    "tutor:energyball",
+    "tutor:foulplay",
+    "tutor:gigadrain",
+    "tutor:irondefense",
+    "tutor:magicalleaf",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:uproar"
+  ],
+  "forms": [
+    "Artisan"
+  ],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "poltchageist_sinistcha",
+      "variant": "item_interact",
+      "result": "sinistcha matcha_authenticity=unremarkable",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "matchagotcha"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:unremarkable_teacup"
+    }
+  ],
+  "spawns": [],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/poltchageist.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/poltchageist_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/poltchageist.json"
+  ]
+}

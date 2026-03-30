@@ -1,0 +1,228 @@
+{
+  "id": "amaura",
+  "dexnum": 698,
+  "name": "Amaura",
+  "primaryType": "rock",
+  "secondaryType": "ice",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen6",
+    "fossil"
+  ],
+  "abilities": [
+    "refrigerate",
+    "h:snowwarning"
+  ],
+  "eggGroups": [
+    "monster"
+  ],
+  "baseStats": {
+    "hp": 77,
+    "attack": 59,
+    "defence": 50,
+    "special_attack": 67,
+    "special_defence": 63,
+    "speed": 46
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:never_melt_ice",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:growl",
+    "1:powdersnow",
+    "1:rockthrow",
+    "4:encore",
+    "8:ancientpower",
+    "12:icywind",
+    "16:round",
+    "20:mist",
+    "24:aurorabeam",
+    "28:thunderwave",
+    "32:naturepower",
+    "36:freezedry",
+    "40:icebeam",
+    "44:lightscreen",
+    "48:hail",
+    "52:blizzard",
+    "56:hyperbeam",
+    "egg:auroraveil",
+    "egg:barrier",
+    "egg:discharge",
+    "egg:haze",
+    "egg:mirrorcoat",
+    "egg:rockthrow",
+    "egg:takedown",
+    "tm:ancientpower",
+    "tm:aquatail",
+    "tm:auroraveil",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:darkpulse",
+    "tm:dragontail",
+    "tm:dreameater",
+    "tm:earthpower",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:frostbreath",
+    "tm:hail",
+    "tm:haze",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:lightscreen",
+    "tm:magnetrise",
+    "tm:meteorbeam",
+    "tm:mudshot",
+    "tm:naturepower",
+    "tm:outrage",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:round",
+    "tm:safeguard",
+    "tm:sandstorm",
+    "tm:sleeptalk",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:zenheadbutt",
+    "tutor:ancientpower",
+    "tutor:aquatail",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:darkpulse",
+    "tutor:earthpower",
+    "tutor:flashcannon",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:magnetrise",
+    "tutor:meteorbeam",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:thunderbolt",
+    "tutor:waterpulse",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "consumeHeldItem": false,
+      "id": "amaura_aurorus",
+      "learnableMoves": [
+        "freezedry"
+      ],
+      "requirements": [
+        {
+          "minLevel": 39,
+          "variant": "level"
+        },
+        {
+          "range": "night",
+          "variant": "time_range"
+        }
+      ],
+      "result": "aurorus",
+      "variant": "level_up"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "11-36",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_lush"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0698_amaura.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/amaura.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/amaura_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/amaura.json"
+  ]
+}

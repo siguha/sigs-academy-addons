@@ -1,0 +1,228 @@
+{
+  "id": "ninjask",
+  "dexnum": 291,
+  "name": "Ninjask",
+  "primaryType": "bug",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "speedboost",
+    "h:infiltrator"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 61,
+    "attack": 90,
+    "defence": 45,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 160
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "erratic",
+  "catchRate": 120,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:shed_shell",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:harden",
+    "1:sandattack",
+    "1:furycutter",
+    "1:screech",
+    "1:batonpass",
+    "1:dig",
+    "1:mudslap",
+    "1:falseswipe",
+    "1:aerialace",
+    "1:doubleteam",
+    "1:metalclaw",
+    "15:agility",
+    "23:absorb",
+    "29:bugbite",
+    "36:furyswipes",
+    "43:mindreader",
+    "50:slash",
+    "57:swordsdance",
+    "64:xscissor",
+    "egg:bide",
+    "egg:bugbite",
+    "egg:feintattack",
+    "egg:finalgambit",
+    "egg:flail",
+    "egg:gust",
+    "egg:nightslash",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:batonpass",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:cut",
+    "tm:defog",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:dualwingbeat",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:flash",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:laserfocus",
+    "tm:leechlife",
+    "tm:metalclaw",
+    "tm:mudslap",
+    "tm:ominouswind",
+    "tm:protect",
+    "tm:rest",
+    "tm:roost",
+    "tm:sandstorm",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:silverwind",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:terablast",
+    "tm:thief",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:bugbite",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:falseswipe",
+    "tutor:furycutter",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:laserfocus",
+    "tutor:leechlife",
+    "tutor:mudslap",
+    "tutor:ominouswind",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:shadowball",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:stringshot",
+    "tutor:swift",
+    "tutor:uproar",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 2.0,
+        "levels": "20-46",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_jungle"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0291_ninjask.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 2.0,
+        "levels": "20-46",
+        "biomeTags": {
+          "include": [
+            "aether:skyroot_forest",
+            "aether:skyroot_woodland"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0291_ninjask.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/ninjask.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/ninjask_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/ninjask.json"
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "id": "falinks",
+  "dexnum": 870,
+  "name": "Falinks",
+  "primaryType": "fighting",
+  "secondaryType": "",
+  "maleRatio": -1,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "battlearmor",
+    "h:defiant"
+  ],
+  "eggGroups": [
+    "fairy",
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 100,
+    "defence": 100,
+    "special_attack": 70,
+    "special_defence": 60,
+    "speed": 75
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:golden_helmet",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:nanab_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:protect",
+    "5:rocksmash",
+    "10:focusenergy",
+    "15:headbutt",
+    "20:bulkup",
+    "25:endure",
+    "30:reversal",
+    "35:firstimpression",
+    "40:noretreat",
+    "45:irondefense",
+    "50:closecombat",
+    "55:megahorn",
+    "60:counter",
+    "tm:agility",
+    "tm:assurance",
+    "tm:beatup",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:lunge",
+    "tm:megahorn",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:screech",
+    "tm:sleeptalk",
+    "tm:smartstrike",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:trailblaze",
+    "tm:upperhand",
+    "tm:uproar",
+    "tm:zenheadbutt",
+    "tutor:bulkup",
+    "tutor:coaching",
+    "tutor:endeavor",
+    "tutor:falseswipe",
+    "tutor:focusenergy",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:megahorn",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:sleeptalk",
+    "tutor:superpower",
+    "tutor:throatchop",
+    "tutor:uproar",
+    "tutor:zenheadbutt",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 2.0,
+        "levels": "22-47",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0870_falinks.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "nether_structures"
+        ],
+        "rarity": "uncommon",
+        "weight": 100.0,
+        "levels": "22-47",
+        "biomeTags": {
+          "include": [
+            "#minecraft:is_nether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0870_falinks.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/falinks.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/falinks_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/falinks.json"
+  ]
+}

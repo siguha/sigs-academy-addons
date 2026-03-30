@@ -1,0 +1,258 @@
+{
+  "id": "gothorita",
+  "dexnum": 575,
+  "name": "Gothorita",
+  "primaryType": "psychic",
+  "secondaryType": "",
+  "maleRatio": 0.25,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "frisk",
+    "competitive",
+    "h:shadowtag"
+  ],
+  "eggGroups": [
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 45,
+    "defence": 70,
+    "special_attack": 75,
+    "special_defence": 85,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 100,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:ender_pearl",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:twisted_spoon",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:confusion",
+    "1:tickle",
+    "1:doubleslap",
+    "1:feintattack",
+    "1:healblock",
+    "1:playnice",
+    "12:psybeam",
+    "16:charm",
+    "20:psyshock",
+    "24:hypnosis",
+    "28:faketears",
+    "35:psychup",
+    "46:flatter",
+    "52:futuresight",
+    "58:magicroom",
+    "egg:captivate",
+    "egg:fakeout",
+    "egg:healpulse",
+    "egg:hypnosis",
+    "egg:meanlook",
+    "egg:miracleeye",
+    "egg:mirrorcoat",
+    "egg:torment",
+    "tm:allyswitch",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:charm",
+    "tm:covet",
+    "tm:darkpulse",
+    "tm:dreameater",
+    "tm:embargo",
+    "tm:endure",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:fling",
+    "tm:foulplay",
+    "tm:futuresight",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:guardswap",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:imprison",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:metronome",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:psychicterrain",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:swift",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:darkpulse",
+    "tutor:energyball",
+    "tutor:expandingforce",
+    "tutor:foulplay",
+    "tutor:gravity",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:roleplay",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:thunderbolt",
+    "tutor:trick",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:chargebeam",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:uproar"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "gothorita_gothitelle",
+      "variant": "level_up",
+      "result": "gothitelle",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 41
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "mansion"
+        ],
+        "rarity": "common",
+        "weight": 0.54,
+        "levels": "32-39",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0575_gothorita.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "end_city"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.44,
+        "levels": "32-39",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_end"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0575_gothorita.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/wavimons/gothorita.png",
+      "out/sprites/cobblemon/gothorita.png"
+    ],
+    "shiny": [
+      "out/sprites/wavimons/gothorita_shiny.png",
+      "out/sprites/cobblemon/gothorita_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/gothorita.json"
+  ]
+}

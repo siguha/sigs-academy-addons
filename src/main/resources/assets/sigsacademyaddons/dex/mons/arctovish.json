@@ -1,0 +1,142 @@
+{
+  "id": "arctovish",
+  "dexnum": 883,
+  "name": "Arctovish",
+  "primaryType": "water",
+  "secondaryType": "ice",
+  "maleRatio": -1,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "waterabsorb",
+    "icebody",
+    "h:slushrush"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 90,
+    "defence": 100,
+    "special_attack": 80,
+    "special_defence": 90,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:cod",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:powdersnow",
+    "1:watergun",
+    "7:protect",
+    "14:icywind",
+    "21:ancientpower",
+    "28:bite",
+    "35:auroraveil",
+    "42:freezedry",
+    "49:superfang",
+    "56:crunch",
+    "63:fishiousrend",
+    "70:iciclecrash",
+    "77:blizzard",
+    "tm:ancientpower",
+    "tm:auroraveil",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:crunch",
+    "tm:dive",
+    "tm:endure",
+    "tm:facade",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:liquidation",
+    "tm:meteorbeam",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sleeptalk",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:superfang",
+    "tm:surf",
+    "tm:terablast",
+    "tm:waterfall",
+    "tm:whirlpool",
+    "tm:zenheadbutt",
+    "tutor:ancientpower",
+    "tutor:dive",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:liquidation",
+    "tutor:meteorbeam",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:sleeptalk",
+    "tutor:stoneedge",
+    "tutor:superfang",
+    "tutor:zenheadbutt",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/arctovish.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/arctovish_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/arctovish.json"
+  ]
+}

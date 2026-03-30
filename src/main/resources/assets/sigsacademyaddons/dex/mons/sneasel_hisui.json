@@ -1,0 +1,226 @@
+{
+  "id": "sneasel_hisui",
+  "dexnum": 215,
+  "name": "Sneasel Hisui",
+  "primaryType": "fighting",
+  "secondaryType": "poison",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8a",
+    "hisuian_form"
+  ],
+  "abilities": [
+    "innerfocus",
+    "keeneye",
+    "h:pickpocket"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 95,
+    "defence": 55,
+    "special_attack": 35,
+    "special_defence": 75,
+    "speed": 115
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 60,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:razor_claw",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:payapa_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:rocksmash",
+    "1:scratch",
+    "1:leer",
+    "6:taunt",
+    "12:quickattack",
+    "18:metalclaw",
+    "24:poisonjab",
+    "30:brickbreak",
+    "36:honeclaws",
+    "42:slash",
+    "48:agility",
+    "54:screech",
+    "60:closecombat",
+    "egg:counter",
+    "egg:doublehit",
+    "egg:fakeout",
+    "egg:feint",
+    "egg:nightslash",
+    "egg:quickguard",
+    "egg:switcheroo",
+    "tm:acidspray",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:calmmind",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:dig",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gunkshot",
+    "tm:honeclaws",
+    "tm:irontail",
+    "tm:lashout",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:metalclaw",
+    "tm:nastyplot",
+    "tm:poisonjab",
+    "tm:poisontail",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:reversal",
+    "tm:rocksmash",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:spite",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:trailblaze",
+    "tm:vacuumwave",
+    "tm:venoshock",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:bulkup",
+    "tutor:calmmind",
+    "tutor:coaching",
+    "tutor:falseswipe",
+    "tutor:focusenergy",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:irontail",
+    "tutor:lashout",
+    "tutor:lowkick",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spite",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:vacuumwave",
+    "tutor:xscissor"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "sneasel_sneasler",
+      "variant": "level_up",
+      "result": "sneasler",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "direclaw"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:razor_claw"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 9.2,
+        "levels": "18-43",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ],
+          "exclude": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_taiga",
+            "#cobblemon:is_volcanic"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0215_sneasel.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/sneasel_hisuian.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/sneasel_hisuian_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/sneasel.json"
+  ]
+}

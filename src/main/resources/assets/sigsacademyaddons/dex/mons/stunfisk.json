@@ -1,0 +1,289 @@
+{
+  "id": "stunfisk",
+  "dexnum": 618,
+  "name": "Stunfisk",
+  "primaryType": "ground",
+  "secondaryType": "electric",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5",
+    "unovan_form"
+  ],
+  "abilities": [
+    "static",
+    "limber",
+    "h:sandveil"
+  ],
+  "eggGroups": [
+    "water_1",
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 109,
+    "attack": 66,
+    "defence": 84,
+    "special_attack": 81,
+    "special_defence": 99,
+    "speed": 32
+  },
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:mud",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:passho_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:mudslap",
+    "1:mudsport",
+    "1:bide",
+    "1:thundershock",
+    "1:camouflage",
+    "1:mudbomb",
+    "1:tackle",
+    "1:watergun",
+    "5:endure",
+    "10:mudshot",
+    "15:revenge",
+    "20:charge",
+    "25:suckerpunch",
+    "30:electricterrain",
+    "35:bounce",
+    "40:muddywater",
+    "45:discharge",
+    "50:flail",
+    "55:fissure",
+    "egg:astonish",
+    "egg:curse",
+    "egg:mefirst",
+    "egg:painsplit",
+    "egg:reflecttype",
+    "egg:spark",
+    "egg:spite",
+    "egg:yawn",
+    "tm:aquatail",
+    "tm:bounce",
+    "tm:bulldoze",
+    "tm:charge",
+    "tm:curse",
+    "tm:dig",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroweb",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:foulplay",
+    "tm:infestation",
+    "tm:lashout",
+    "tm:magnetrise",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:revenge",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:scald",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:spite",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:surf",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:uproar",
+    "tm:waterpulse",
+    "tutor:aquatail",
+    "tutor:bounce",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:electroweb",
+    "tutor:endeavor",
+    "tutor:foulplay",
+    "tutor:lashout",
+    "tutor:magnetrise",
+    "tutor:mudslap",
+    "tutor:painsplit",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spite",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:suckerpunch",
+    "tutor:thunderbolt",
+    "tutor:uproar",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [
+    "Galar"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "rarity": "common",
+        "weight": 2.0,
+        "levels": "22-47",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0618_stunfisk.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 2.0,
+        "levels": "22-47",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0618_stunfisk.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 2.0,
+        "levels": "22-47",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0618_stunfisk.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.0,
+        "levels": "23-47",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0618_stunfisk_galarian.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.0,
+        "levels": "23-47",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0618_stunfisk_galarian.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/stunfisk.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/stunfisk_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/stunfisk.json"
+  ]
+}

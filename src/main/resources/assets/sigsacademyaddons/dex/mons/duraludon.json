@@ -1,0 +1,255 @@
+{
+  "id": "duraludon",
+  "dexnum": 884,
+  "name": "Duraludon",
+  "primaryType": "steel",
+  "secondaryType": "dragon",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "lightmetal",
+    "heavymetal",
+    "h:stalwart"
+  ],
+  "eggGroups": [
+    "mineral",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 95,
+    "defence": 115,
+    "special_attack": 120,
+    "special_defence": 50,
+    "speed": 85
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:iron_ingot",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:metalclaw",
+    "1:leer",
+    "6:rocksmash",
+    "12:honeclaws",
+    "18:metalsound",
+    "24:breakingswipe",
+    "30:dragontail",
+    "36:irondefense",
+    "42:focusenergy",
+    "48:dragonclaw",
+    "54:flashcannon",
+    "60:metalburst",
+    "66:hyperbeam",
+    "egg:mirrorcoat",
+    "egg:nightslash",
+    "egg:slash",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:brickbreak",
+    "tm:darkpulse",
+    "tm:doubleedge",
+    "tm:dracometeor",
+    "tm:dragoncheer",
+    "tm:dragonclaw",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:endure",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:focusenergy",
+    "tm:foulplay",
+    "tm:gigaimpact",
+    "tm:gyroball",
+    "tm:heavyslam",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:laserfocus",
+    "tm:lightscreen",
+    "tm:metalclaw",
+    "tm:metalsound",
+    "tm:outrage",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:solarbeam",
+    "tm:stealthrock",
+    "tm:steelbeam",
+    "tm:steelroller",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tutor:darkpulse",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:flashcannon",
+    "tutor:focusenergy",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:laserfocus",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:stealthrock",
+    "tutor:steelbeam",
+    "tutor:steelroller",
+    "tutor:stoneedge",
+    "tutor:thunderbolt",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:stompingtantrum"
+  ],
+  "forms": [
+    "Gmax"
+  ],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "duraludon_archaludon",
+      "variant": "item_interact",
+      "result": "archaludon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "electroshot"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:metal_alloy"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "rarity": "rare",
+        "weight": 8.06,
+        "levels": "38-48",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0884_duraludon.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:iron_block"
+          ]
+        },
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 7.5,
+        "levels": "38-48",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0884_duraludon.json"
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 8.06,
+        "levels": "38-48",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0884_duraludon.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:iron_block"
+          ]
+        },
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 7.5,
+        "levels": "38-48",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0884_duraludon.json"
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/duraludon.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/duraludon_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/duraludon.json"
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "id": "nacli",
+  "dexnum": 932,
+  "name": "Nacli",
+  "primaryType": "rock",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "purifyingsalt",
+    "sturdy",
+    "h:clearbody"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 55,
+    "defence": 75,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 25
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 255,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:calcite",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:passho_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:harden",
+    "5:rockthrow",
+    "7:mudshot",
+    "10:smackdown",
+    "13:rockpolish",
+    "16:headbutt",
+    "20:irondefense",
+    "25:recover",
+    "30:rockslide",
+    "33:stealthrock",
+    "35:heavyslam",
+    "40:earthquake",
+    "45:stoneedge",
+    "egg:ancientpower",
+    "egg:curse",
+    "egg:fissure",
+    "egg:powergem",
+    "tm:ancientpower",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:curse",
+    "tm:dig",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:headbutt",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:meteorbeam",
+    "tm:mudshot",
+    "tm:powergem",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:sandstorm",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:zenheadbutt",
+    "tutor:ancientpower",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:flashcannon",
+    "tutor:helpinghand",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:meteorbeam",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "nacli_naclstack",
+      "variant": "level_up",
+      "result": "naclstack",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "saltcure"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 24
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0932_nacli.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_quartz"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0932_nacli.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/nacli.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/nacli_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/nacli.json"
+  ]
+}

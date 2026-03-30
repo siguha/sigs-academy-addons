@@ -1,0 +1,187 @@
+{
+  "id": "fuecoco",
+  "dexnum": 909,
+  "name": "Fuecoco",
+  "primaryType": "fire",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen9",
+    "starter"
+  ],
+  "abilities": [
+    "blaze",
+    "h:unaware"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 67,
+    "attack": 45,
+    "defence": 59,
+    "special_attack": 63,
+    "special_defence": 40,
+    "speed": 36
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "1:ember",
+    "7:round",
+    "12:bite",
+    "15:incinerate",
+    "17:yawn",
+    "21:snarl",
+    "25:roar",
+    "28:flamethrower",
+    "32:hypervoice",
+    "36:fireblast",
+    "egg:belch",
+    "egg:curse",
+    "egg:encore",
+    "egg:slackoff",
+    "tm:bodyslam",
+    "tm:crunch",
+    "tm:curse",
+    "tm:dig",
+    "tm:disarmingvoice",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firepledge",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:hypervoice",
+    "tm:incinerate",
+    "tm:mudslap",
+    "tm:outrage",
+    "tm:overheat",
+    "tm:protect",
+    "tm:rest",
+    "tm:roar",
+    "tm:round",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thunderfang",
+    "tm:willowisp",
+    "tm:zenheadbutt",
+    "tutor:firefang",
+    "tutor:firepledge",
+    "tutor:flamethrower",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:mudslap",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:stompingtantrum",
+    "tutor:thunderfang",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "fuecoco_crocalor",
+      "variant": "level_up",
+      "result": "crocalor",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0909_fuecoco.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_wasteland"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0909_fuecoco.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/fuecoco.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/fuecoco_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/fuecoco.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation9\\fuecoco.json"
+  ]
+}

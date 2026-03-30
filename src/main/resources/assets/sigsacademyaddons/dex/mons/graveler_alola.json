@@ -1,0 +1,278 @@
+{
+  "id": "graveler_alola",
+  "dexnum": 75,
+  "name": "Graveler Alola",
+  "primaryType": "rock",
+  "secondaryType": "electric",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7",
+    "alolan_form"
+  ],
+  "abilities": [
+    "magnetpull",
+    "sturdy",
+    "h:galvanize"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 95,
+    "defence": 115,
+    "special_attack": 45,
+    "special_defence": 45,
+    "speed": 35
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 120,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:raw_copper",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:cell_battery",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:magnet",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:shuca_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:defensecurl",
+    "1:charge",
+    "1:rockpolish",
+    "10:rollout",
+    "12:spark",
+    "16:rockthrow",
+    "18:smackdown",
+    "22:thunderpunch",
+    "24:selfdestruct",
+    "30:stealthrock",
+    "34:rockblast",
+    "40:discharge",
+    "44:explosion",
+    "50:doubleedge",
+    "54:stoneedge",
+    "egg:autotomize",
+    "egg:block",
+    "egg:counter",
+    "egg:curse",
+    "egg:endure",
+    "egg:flail",
+    "egg:screech",
+    "egg:wideguard",
+    "egg:zapcannon",
+    "tm:allyswitch",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:electricterrain",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:gyroball",
+    "tm:hardpress",
+    "tm:highhorsepower",
+    "tm:irondefense",
+    "tm:magnetrise",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:naturepower",
+    "tm:protect",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:selfdestruct",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:steelroller",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:supercellslam",
+    "tm:superpower",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:allyswitch",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:chargebeam",
+    "tutor:earthpower",
+    "tutor:electroweb",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focuspunch",
+    "tutor:highhorsepower",
+    "tutor:irondefense",
+    "tutor:magnetrise",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:rockslide",
+    "tutor:rollout",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:steelroller",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:seismictoss",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:thundershock",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "graveler_golemalola",
+      "variant": "trade",
+      "result": "golem alolan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": []
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.95,
+        "levels": "25-39",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0075_graveler.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "#minecraft:iron_ores"
+          ],
+          "resolved": [
+            "#minecraft:iron_ores"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.95,
+        "levels": "25-39",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld",
+            "#cobblemon:is_end"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0075_graveler.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "#minecraft:iron_ores"
+          ],
+          "resolved": [
+            "#minecraft:iron_ores"
+          ]
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/graveler_alolan.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/graveler_alolan_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/graveler.json"
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "id": "gardevoir",
+  "dexnum": 282,
+  "name": "Gardevoir",
+  "primaryType": "psychic",
+  "secondaryType": "fairy",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "synchronize",
+    "trace",
+    "h:telepathy"
+  ],
+  "eggGroups": [
+    "human_like",
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 68,
+    "attack": 65,
+    "defence": 65,
+    "special_attack": 125,
+    "special_defence": 115,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:ender_pearl",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:dawn_stone",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:twisted_spoon",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:kasib_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:healingwish",
+    "1:growl",
+    "1:confusion",
+    "1:doubleteam",
+    "1:healpulse",
+    "1:mistyterrain",
+    "1:disarmingvoice",
+    "1:dazzlinggleam",
+    "1:captivate",
+    "1:mysticalfire",
+    "1:charm",
+    "1:luckychant",
+    "9:hypnosis",
+    "12:drainingkiss",
+    "15:teleport",
+    "18:psybeam",
+    "23:lifedew",
+    "28:wish",
+    "35:calmmind",
+    "42:psychic",
+    "49:moonblast",
+    "56:dreameater",
+    "63:futuresight",
+    "egg:confuseray",
+    "egg:destinybond",
+    "egg:disable",
+    "egg:grudge",
+    "egg:knockoff",
+    "egg:meanlook",
+    "egg:memento",
+    "egg:mysticalfire",
+    "egg:shadowsneak",
+    "egg:synchronoise",
+    "tm:alluringvoice",
+    "tm:allyswitch",
+    "tm:aurasphere",
+    "tm:bodyslam",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:dazzlinggleam",
+    "tm:disarmingvoice",
+    "tm:doubleteam",
+    "tm:drainingkiss",
+    "tm:dreameater",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endure",
+    "tm:energyball",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:flash",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:guardswap",
+    "tm:headbutt",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:mistyexplosion",
+    "tm:mistyterrain",
+    "tm:mysticalfire",
+    "tm:nightshade",
+    "tm:painsplit",
+    "tm:powerswap",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:psychicterrain",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:tripleaxel",
+    "tm:vacuumwave",
+    "tm:willowisp",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:dazzlinggleam",
+    "tutor:energyball",
+    "tutor:expandingforce",
+    "tutor:firepunch",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:knockoff",
+    "tutor:laserfocus",
+    "tutor:magicalleaf",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:mistyexplosion",
+    "tutor:mysticalfire",
+    "tutor:painsplit",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:trick",
+    "tutor:tripleaxel",
+    "tutor:vacuumwave",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:defensecurl",
+    "legacy:doubleedge",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:sing",
+    "special:wish"
+  ],
+  "forms": [
+    "Mega"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 0.1875,
+        "levels": "30-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_floral",
+            "#cobblemon:is_magical",
+            "aether:skyroot_grove",
+            "aether:skyroot_meadow",
+            "#cobblemon:is_snowy_forest"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0282_gardevoir.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "rare",
+        "weight": 0.0375,
+        "levels": "30-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0282_gardevoir.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 0.0375,
+        "levels": "30-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0282_gardevoir.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "mansion"
+        ],
+        "rarity": "common",
+        "weight": 0.0075,
+        "levels": "30-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0282_gardevoir.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/gardevoir.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/gardevoir_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/gardevoir.json"
+  ]
+}

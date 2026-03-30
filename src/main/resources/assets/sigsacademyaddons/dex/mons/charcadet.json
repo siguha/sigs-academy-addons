@@ -1,0 +1,204 @@
+{
+  "id": "charcadet",
+  "dexnum": 935,
+  "name": "Charcadet",
+  "primaryType": "fire",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "flashfire",
+    "h:flamebody"
+  ],
+  "eggGroups": [
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 50,
+    "defence": 40,
+    "special_attack": 50,
+    "special_defence": 40,
+    "speed": 35
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 90,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:charcoal",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species",
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
+      },
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species",
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
+      },
+      {
+        "item": "minecraft:blaze_rod",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "spawn_pool_world",
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
+      }
+    ]
+  },
+  "moves": [
+    "1:leer",
+    "1:ember",
+    "1:astonish",
+    "8:clearsmog",
+    "12:firespin",
+    "16:willowisp",
+    "20:nightshade",
+    "24:flamecharge",
+    "28:incinerate",
+    "32:lavaplume",
+    "egg:destinybond",
+    "egg:disable",
+    "egg:spite",
+    "tm:confuseray",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:incinerate",
+    "tm:nightshade",
+    "tm:overheat",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:spite",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:willowisp",
+    "tutor:flamethrower",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "special:celebrate"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "charcadet_armarouge",
+      "variant": "item_interact",
+      "result": "armarouge",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "psyshock"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:auspicious_armor"
+    },
+    {
+      "id": "charcadet_ceruledge",
+      "variant": "item_interact",
+      "result": "ceruledge",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "shadowclaw"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:malicious_armor"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "nether_structures"
+        ],
+        "rarity": "uncommon",
+        "weight": 92.0,
+        "levels": "1-26",
+        "biomeTags": {
+          "include": [
+            "#minecraft:is_nether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0935_charcadet.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "ruined_portal"
+        ],
+        "rarity": "uncommon",
+        "weight": 18.4,
+        "levels": "1-26",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0935_charcadet.json"
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 9.2,
+        "levels": "1-26",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0935_charcadet.json",
+        "structures": [
+          "#aether:dungeons"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {},
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/charcadet.json"
+  ]
+}

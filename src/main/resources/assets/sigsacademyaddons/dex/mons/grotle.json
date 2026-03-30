@@ -1,0 +1,425 @@
+{
+  "id": "grotle",
+  "dexnum": 388,
+  "name": "Grotle",
+  "primaryType": "grass",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "overgrow",
+    "h:shellarmor"
+  ],
+  "eggGroups": [
+    "monster",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 89,
+    "defence": 85,
+    "special_attack": 55,
+    "special_defence": 65,
+    "speed": 36
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:sweet_berries",
+        "percentage": null,
+        "quantityRange": "2-4",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:withdraw",
+    "1:absorb",
+    "13:razorleaf",
+    "17:curse",
+    "22:bite",
+    "27:megadrain",
+    "32:leechseed",
+    "37:synthesis",
+    "42:crunch",
+    "47:gigadrain",
+    "52:leafstorm",
+    "egg:doubleedge",
+    "egg:growth",
+    "egg:shellsmash",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:superpower",
+    "egg:swallow",
+    "egg:thrash",
+    "egg:tickle",
+    "egg:wideguard",
+    "egg:worryseed",
+    "tm:amnesia",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:crunch",
+    "tm:curse",
+    "tm:cut",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:headbutt",
+    "tm:heavyslam",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:leafage",
+    "tm:leafstorm",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:naturepower",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockclimb",
+    "tm:rocksmash",
+    "tm:safeguard",
+    "tm:sandtomb",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:solarbeam",
+    "tm:stealthrock",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:workup",
+    "tm:worryseed",
+    "tm:zenheadbutt",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:grasspledge",
+    "tutor:grassyglide",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:magicalleaf",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:superpower",
+    "tutor:synthesis",
+    "tutor:worryseed",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "grotle_torterra",
+      "variant": "level_up",
+      "result": "torterra",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "earthquake"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ]
+    },
+    {
+      "id": "grotle_torterraoak",
+      "variant": "level_up",
+      "result": "torterra tree=oak",
+      "consumeHeldItem": true,
+      "permanent": true,
+      "learnableMoves": [
+        "earthquake"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:oak_sapling"
+        }
+      ]
+    },
+    {
+      "id": "grotle_torterraswamp",
+      "variant": "level_up",
+      "result": "torterra tree=swamp",
+      "consumeHeldItem": true,
+      "permanent": true,
+      "learnableMoves": [
+        "earthquake"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+        {
+          "variant": "biome",
+          "biomeConditions": "#cobblemon:is_swamp"
+        },
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:oak_sapling"
+        }
+      ]
+    },
+    {
+      "id": "grotle_torterrabirch",
+      "variant": "level_up",
+      "result": "torterra tree=birch",
+      "consumeHeldItem": true,
+      "permanent": true,
+      "learnableMoves": [
+        "earthquake"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:birch_sapling"
+        }
+      ]
+    },
+    {
+      "id": "grotle_torterradarkoak",
+      "variant": "level_up",
+      "result": "torterra tree=darkoak",
+      "consumeHeldItem": true,
+      "permanent": true,
+      "learnableMoves": [
+        "earthquake"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:dark_oak_sapling"
+        }
+      ]
+    },
+    {
+      "id": "grotle_torterraacacia",
+      "variant": "level_up",
+      "result": "torterra tree=acacia",
+      "consumeHeldItem": true,
+      "permanent": true,
+      "learnableMoves": [
+        "earthquake"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:acacia_sapling"
+        }
+      ]
+    },
+    {
+      "id": "grotle_torterraazalea",
+      "variant": "level_up",
+      "result": "torterra tree=azalea",
+      "consumeHeldItem": true,
+      "permanent": true,
+      "learnableMoves": [
+        "earthquake"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+        {
+          "variant": "held_item",
+          "itemCondition": "#cobblemon:azalea_tree"
+        }
+      ]
+    },
+    {
+      "id": "grotle_torterrajungle",
+      "variant": "level_up",
+      "result": "torterra tree=jungle",
+      "consumeHeldItem": true,
+      "permanent": true,
+      "learnableMoves": [
+        "earthquake"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:jungle_sapling"
+        }
+      ]
+    },
+    {
+      "id": "grotle_torterraspruce",
+      "variant": "level_up",
+      "result": "torterra tree=spruce",
+      "consumeHeldItem": true,
+      "permanent": true,
+      "learnableMoves": [
+        "earthquake"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:spruce_sapling"
+        }
+      ]
+    },
+    {
+      "id": "grotle_torterramangrove",
+      "variant": "level_up",
+      "result": "torterra tree=mangrove",
+      "consumeHeldItem": true,
+      "permanent": true,
+      "learnableMoves": [
+        "earthquake"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:mangrove_propagule"
+        }
+      ]
+    },
+    {
+      "id": "grotle_torterracherry",
+      "variant": "level_up",
+      "result": "torterra tree=cherry",
+      "consumeHeldItem": true,
+      "permanent": true,
+      "learnableMoves": [
+        "earthquake"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:cherry_sapling"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "18-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest"
+          ],
+          "exclude": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0388_grotle.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/grotle.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/grotle_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/grotle.json"
+  ]
+}

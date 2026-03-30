@@ -1,0 +1,297 @@
+{
+  "id": "hydreigon",
+  "dexnum": 635,
+  "name": "Hydreigon",
+  "primaryType": "dark",
+  "secondaryType": "dragon",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5",
+    "powerhouse"
+  ],
+  "abilities": [
+    "levitate",
+    "h:levitate"
+  ],
+  "eggGroups": [
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 92,
+    "attack": 105,
+    "defence": 90,
+    "special_attack": 125,
+    "special_defence": 90,
+    "speed": 98
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:dragon_breath",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:roseli_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:triattack",
+    "1:dragonrage",
+    "1:focusenergy",
+    "1:bite",
+    "1:dragonbreath",
+    "1:tackle",
+    "1:doublehit",
+    "12:roar",
+    "16:assurance",
+    "20:headbutt",
+    "24:workup",
+    "28:slam",
+    "32:crunch",
+    "36:scaryface",
+    "40:dragonpulse",
+    "44:bodyslam",
+    "48:hypervoice",
+    "54:dragonrush",
+    "60:nastyplot",
+    "68:outrage",
+    "76:hyperbeam",
+    "egg:astonish",
+    "egg:belch",
+    "egg:doublehit",
+    "egg:headsmash",
+    "tm:acrobatics",
+    "tm:aquatail",
+    "tm:assurance",
+    "tm:beatup",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:dracometeor",
+    "tm:dragoncheer",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:dualwingbeat",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firespin",
+    "tm:flamethrower",
+    "tm:flashcannon",
+    "tm:fly",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:lashout",
+    "tm:nastyplot",
+    "tm:outrage",
+    "tm:payback",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roost",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:spite",
+    "tm:stealthrock",
+    "tm:steelwing",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:surf",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunderfang",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:triattack",
+    "tm:uturn",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:aquatail",
+    "tutor:bulldoze",
+    "tutor:darkpulse",
+    "tutor:defog",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:dualwingbeat",
+    "tutor:earthpower",
+    "tutor:firefang",
+    "tutor:flamethrower",
+    "tutor:flashcannon",
+    "tutor:focusenergy",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icefang",
+    "tutor:irontail",
+    "tutor:lashout",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roost",
+    "tutor:scaleshot",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:spite",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:tailwind",
+    "tutor:throatchop",
+    "tutor:thunderfang",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:chargebeam",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:uproar"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 0.25,
+        "levels": "64-69",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0635_hydreigon.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "64-69",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0635_hydreigon.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 0.25,
+        "levels": "64-69",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0635_hydreigon.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/hydreigon.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/hydreigon_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/hydreigon.json"
+  ]
+}

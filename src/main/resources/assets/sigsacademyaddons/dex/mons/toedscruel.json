@@ -1,0 +1,207 @@
+{
+  "id": "toedscruel",
+  "dexnum": 949,
+  "name": "Toedscruel",
+  "primaryType": "ground",
+  "secondaryType": "grass",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "myceliummight",
+    "h:myceliummight"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 70,
+    "defence": 65,
+    "special_attack": 80,
+    "special_defence": 120,
+    "speed": 100
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 90,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:brown_mushroom",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:reflecttype",
+    "1:wrap",
+    "1:mudslap",
+    "4:absorb",
+    "8:stunspore",
+    "8:poisonpowder",
+    "12:supersonic",
+    "15:tackle",
+    "16:megadrain",
+    "20:screech",
+    "24:mudshot",
+    "28:hex",
+    "34:seedbomb",
+    "40:spore",
+    "44:growth",
+    "48:gigadrain",
+    "54:earthpower",
+    "58:powerwhip",
+    "egg:acupressure",
+    "egg:knockoff",
+    "egg:leechseed",
+    "egg:mirrorcoat",
+    "egg:ragepowder",
+    "egg:rapidspin",
+    "egg:tickle",
+    "egg:toxic",
+    "tm:acidspray",
+    "tm:bulletseed",
+    "tm:confuseray",
+    "tm:dazzlinggleam",
+    "tm:earthpower",
+    "tm:endure",
+    "tm:energyball",
+    "tm:flashcannon",
+    "tm:foulplay",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:knockoff",
+    "tm:leafstorm",
+    "tm:lightscreen",
+    "tm:lunge",
+    "tm:magicalleaf",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:painsplit",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:seedbomb",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:solarbeam",
+    "tm:spikes",
+    "tm:substitute",
+    "tm:swift",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:trailblaze",
+    "tm:trickroom",
+    "tm:venoshock",
+    "tutor:dazzlinggleam",
+    "tutor:earthpower",
+    "tutor:energyball",
+    "tutor:flashcannon",
+    "tutor:foulplay",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grassyglide",
+    "tutor:hyperbeam",
+    "tutor:knockoff",
+    "tutor:magicalleaf",
+    "tutor:mudslap",
+    "tutor:painsplit",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spikes",
+    "tutor:swift"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "30-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mushroom"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0949_toedscruel.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.6,
+        "levels": "30-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_fungus"
+          ],
+          "exclude": [
+            "#cobblemon:nether/is_warped"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0949_toedscruel.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/genomons/toedscruel.png",
+      "out/sprites/cobblemon/toedscruel.png"
+    ],
+    "shiny": [
+      "out/sprites/genomons/toedscruel_shiny.png",
+      "out/sprites/cobblemon/toedscruel_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/toedscruel.json"
+  ]
+}

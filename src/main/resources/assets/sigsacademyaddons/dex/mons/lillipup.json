@@ -1,0 +1,240 @@
+{
+  "id": "lillipup",
+  "dexnum": 506,
+  "name": "Lillipup",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "vitalspirit",
+    "pickup",
+    "h:runaway"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 60,
+    "defence": 45,
+    "special_attack": 25,
+    "special_defence": 45,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 255,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:blue_wool",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chilan_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:leer",
+    "1:tackle",
+    "1:odorsleuth",
+    "4:workup",
+    "8:bite",
+    "12:retaliate",
+    "17:babydolleyes",
+    "20:playrough",
+    "24:crunch",
+    "28:takedown",
+    "32:helpinghand",
+    "36:reversal",
+    "40:roar",
+    "44:lastresort",
+    "48:gigaimpact",
+    "egg:afteryou",
+    "egg:covet",
+    "egg:howl",
+    "egg:lick",
+    "egg:mudslap",
+    "egg:pursuit",
+    "egg:sandattack",
+    "egg:yawn",
+    "tm:aerialace",
+    "tm:afteryou",
+    "tm:babydolleyes",
+    "tm:charm",
+    "tm:covet",
+    "tm:crunch",
+    "tm:dig",
+    "tm:endure",
+    "tm:facade",
+    "tm:firefang",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:lastresort",
+    "tm:mudslap",
+    "tm:payback",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderwave",
+    "tm:uproar",
+    "tm:wildcharge",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:afteryou",
+    "tutor:babydolleyes",
+    "tutor:covet",
+    "tutor:firefang",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:icefang",
+    "tutor:lastresort",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:thunderbolt",
+    "tutor:thunderfang",
+    "tutor:uproar",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "lillipup_herdier",
+      "variant": "level_up",
+      "result": "herdier",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0506_lillipup.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "3-28",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0506_lillipup.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/lillipup.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/lillipup_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/lillipup.json"
+  ]
+}

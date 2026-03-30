@@ -1,0 +1,240 @@
+{
+  "id": "mamoswine",
+  "dexnum": 473,
+  "name": "Mamoswine",
+  "primaryType": "ice",
+  "secondaryType": "ground",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "oblivious",
+    "snowcloak",
+    "h:thickfat"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 130,
+    "defence": 80,
+    "special_attack": 70,
+    "special_defence": 60,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 50,
+  "drops": {
+    "amount": 8,
+    "entries": [
+      {
+        "item": "minecraft:porkchop",
+        "percentage": null,
+        "quantityRange": "2-3",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:brown_wool",
+        "percentage": null,
+        "quantityRange": "2-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:never_melt_ice",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:aspear_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:ancientpower",
+    "1:peck",
+    "1:odorsleuth",
+    "1:mudsport",
+    "1:powdersnow",
+    "1:mudslap",
+    "1:mudbomb",
+    "1:icefang",
+    "1:doublehit",
+    "1:furyattack",
+    "1:tackle",
+    "1:flail",
+    "15:iceshard",
+    "20:mist",
+    "25:endure",
+    "30:icywind",
+    "37:amnesia",
+    "44:takedown",
+    "51:earthquake",
+    "58:blizzard",
+    "65:thrash",
+    "egg:ancientpower",
+    "egg:bite",
+    "egg:curse",
+    "egg:doubleedge",
+    "egg:fissure",
+    "egg:freezedry",
+    "egg:iciclecrash",
+    "egg:mudbomb",
+    "tm:amnesia",
+    "tm:ancientpower",
+    "tm:avalanche",
+    "tm:babydolleyes",
+    "tm:blizzard",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:charm",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:hardpress",
+    "tm:haze",
+    "tm:headbutt",
+    "tm:heavyslam",
+    "tm:highhorsepower",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rockblast",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scaryface",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:snowscape",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:throatchop",
+    "tm:trailblaze",
+    "tutor:ancientpower",
+    "tutor:babydolleyes",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:icywind",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:sleeptalk",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:throatchop",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:defensecurl",
+    "legacy:detect",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:hornattack",
+    "legacy:lightscreen",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "40-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0473_mamoswine.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/mamoswine.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/mamoswine_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/mamoswine.json"
+  ]
+}

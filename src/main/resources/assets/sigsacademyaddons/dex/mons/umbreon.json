@@ -1,0 +1,315 @@
+{
+  "id": "umbreon",
+  "dexnum": 197,
+  "name": "Umbreon",
+  "primaryType": "dark",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "synchronize",
+    "h:innerfocus"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 65,
+    "defence": 110,
+    "special_attack": 60,
+    "special_defence": 130,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:moon_stone",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:black_glasses",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tailwhip",
+    "1:tackle",
+    "1:helpinghand",
+    "1:pursuit",
+    "1:feintattack",
+    "1:swift",
+    "1:covet",
+    "1:snarl",
+    "1:bite",
+    "1:copycat",
+    "1:batonpass",
+    "1:takedown",
+    "1:charm",
+    "1:doubleedge",
+    "1:growl",
+    "1:trumpcard",
+    "1:refresh",
+    "5:sandattack",
+    "10:quickattack",
+    "15:babydolleyes",
+    "20:confuseray",
+    "25:assurance",
+    "30:moonlight",
+    "35:guardswap",
+    "40:darkpulse",
+    "45:screech",
+    "50:meanlook",
+    "55:lastresort",
+    "egg:captivate",
+    "egg:curse",
+    "egg:detect",
+    "egg:doublekick",
+    "egg:flail",
+    "egg:mudslap",
+    "egg:naturalgift",
+    "egg:synchronoise",
+    "egg:tickle",
+    "egg:wish",
+    "egg:yawn",
+    "tm:alluringvoice",
+    "tm:assurance",
+    "tm:babydolleyes",
+    "tm:batonpass",
+    "tm:bodyslam",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:charm",
+    "tm:confuseray",
+    "tm:covet",
+    "tm:crunch",
+    "tm:curse",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:dreameater",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:focusenergy",
+    "tm:foulplay",
+    "tm:gigaimpact",
+    "tm:guardswap",
+    "tm:headbutt",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:lashout",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:mudslap",
+    "tm:naturalgift",
+    "tm:payback",
+    "tm:payday",
+    "tm:powershift",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:roar",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:spite",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:toxic",
+    "tm:trailblaze",
+    "tm:weatherball",
+    "tm:wonderroom",
+    "tm:workup",
+    "tutor:babydolleyes",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:darkpulse",
+    "tutor:focusenergy",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:lashout",
+    "tutor:lastresort",
+    "tutor:mudslap",
+    "tutor:powershift",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:snatch",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:wonderroom",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:nightmare",
+    "legacy:rage",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:zapcannon",
+    "special:celebrate",
+    "special:sing"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 1.2,
+        "levels": "28-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0197_umbreon.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.02,
+        "levels": "28-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0197_umbreon.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.02,
+        "levels": "28-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0197_umbreon.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "mansion"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.1,
+        "levels": "28-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0197_umbreon.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/umbreon.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/umbreon_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/umbreon.json"
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "id": "froslass",
+  "dexnum": 478,
+  "name": "Froslass",
+  "primaryType": "ice",
+  "secondaryType": "ghost",
+  "maleRatio": 0,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "snowcloak",
+    "h:cursedbody"
+  ],
+  "eggGroups": [
+    "fairy",
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 80,
+    "defence": 70,
+    "special_attack": 80,
+    "special_defence": 70,
+    "speed": 110
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:snowball",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:dawn_stone",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:never_melt_ice",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:babiri_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:powdersnow",
+    "1:leer",
+    "1:doubleteam",
+    "1:astonish",
+    "1:ominouswind",
+    "1:wakeupslap",
+    "1:destinybond",
+    "1:headbutt",
+    "1:protect",
+    "1:captivate",
+    "1:icefang",
+    "1:hex",
+    "1:bite",
+    "1:crunch",
+    "15:iceshard",
+    "20:drainingkiss",
+    "25:icywind",
+    "30:frostbreath",
+    "35:confuseray",
+    "40:snowscape",
+    "47:willowisp",
+    "54:auroraveil",
+    "61:shadowball",
+    "68:blizzard",
+    "egg:bide",
+    "egg:block",
+    "egg:disable",
+    "egg:iciclecrash",
+    "egg:rollout",
+    "egg:switcheroo",
+    "tm:allyswitch",
+    "tm:auroraveil",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:captivate",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:confuseray",
+    "tm:crunch",
+    "tm:curse",
+    "tm:doubleteam",
+    "tm:drainingkiss",
+    "tm:dreameater",
+    "tm:embargo",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:fling",
+    "tm:frostbreath",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:haze",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:icespinner",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:laserfocus",
+    "tm:lightscreen",
+    "tm:nightshade",
+    "tm:ominouswind",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:scaryface",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:snowscape",
+    "tm:spikes",
+    "tm:spite",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:trailblaze",
+    "tm:trick",
+    "tm:tripleaxel",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:willowisp",
+    "tutor:allyswitch",
+    "tutor:block",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:laserfocus",
+    "tutor:ominouswind",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:spikes",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:telekinesis",
+    "tutor:thunderbolt",
+    "tutor:trick",
+    "tutor:tripleaxel",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:sing"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.32,
+        "levels": "42-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_glacial"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0478_froslass.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.4,
+        "levels": "42-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_snowy",
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0478_froslass.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.8,
+        "levels": "42-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0478_froslass.json",
+        "structures": [
+          "minecraft:igloo"
+        ],
+        "sky": {
+          "minSkyLight": 1,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 0.4,
+        "levels": "42-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_frozen"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0478_froslass.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/froslass.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/froslass_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/froslass.json"
+  ]
+}

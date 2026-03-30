@@ -1,0 +1,259 @@
+{
+  "id": "sentret",
+  "dexnum": 161,
+  "name": "Sentret",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "runaway",
+    "keeneye",
+    "h:frisk"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 46,
+    "defence": 34,
+    "special_attack": 35,
+    "special_defence": 45,
+    "speed": 20
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:silk_scarf",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:foresight",
+    "4:defensecurl",
+    "7:quickattack",
+    "13:furyswipes",
+    "16:helpinghand",
+    "19:followme",
+    "25:slam",
+    "28:rest",
+    "31:suckerpunch",
+    "36:amnesia",
+    "39:batonpass",
+    "42:mefirst",
+    "47:hypervoice",
+    "egg:assist",
+    "egg:babydolleyes",
+    "egg:captivate",
+    "egg:focusenergy",
+    "egg:lastresort",
+    "egg:naturalgift",
+    "egg:pursuit",
+    "egg:reversal",
+    "egg:slash",
+    "egg:tidyup",
+    "tm:amnesia",
+    "tm:aquatail",
+    "tm:assurance",
+    "tm:babydolleyes",
+    "tm:batonpass",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:captivate",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:covet",
+    "tm:cut",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:flamethrower",
+    "tm:fling",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:furycutter",
+    "tm:grassknot",
+    "tm:growl",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lastresort",
+    "tm:naturalgift",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:reversal",
+    "tm:rollout",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:surf",
+    "tm:swift",
+    "tm:tailslap",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:trailblaze",
+    "tm:trick",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:waterpulse",
+    "tm:workup",
+    "tutor:aquatail",
+    "tutor:babydolleyes",
+    "tutor:chargebeam",
+    "tutor:covet",
+    "tutor:endeavor",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focusenergy",
+    "tutor:focuspunch",
+    "tutor:furycutter",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lastresort",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:suckerpunch",
+    "tutor:superfang",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:detect",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:tackle",
+    "legacy:toxic",
+    "legacy:whirlpool"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "sentret_furret",
+      "variant": "level_up",
+      "result": "furret",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "agility"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 15
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "1-22",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_taiga",
+            "#cobblemon:is_temperate",
+            "#cobblemon:is_tundra"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0161_sentret.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/sentret.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/sentret_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/sentret.json"
+  ]
+}

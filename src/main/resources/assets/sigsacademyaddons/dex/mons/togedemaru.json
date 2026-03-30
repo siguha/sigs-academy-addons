@@ -1,0 +1,208 @@
+{
+  "id": "togedemaru",
+  "dexnum": 777,
+  "name": "Togedemaru",
+  "primaryType": "electric",
+  "secondaryType": "steel",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "ironbarbs",
+    "lightningrod",
+    "h:sturdy"
+  ],
+  "eggGroups": [
+    "field",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 98,
+    "defence": 63,
+    "special_attack": 40,
+    "special_defence": 73,
+    "speed": 96
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 180,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:electric_seed",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:shuca_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:nuzzle",
+    "5:defensecurl",
+    "10:charge",
+    "15:thundershock",
+    "20:fellstinger",
+    "25:spark",
+    "30:pinmissile",
+    "35:magnetrise",
+    "40:zingzap",
+    "45:discharge",
+    "50:electricterrain",
+    "55:wildcharge",
+    "60:spikyshield",
+    "egg:disarmingvoice",
+    "egg:fakeout",
+    "egg:flail",
+    "egg:present",
+    "egg:tickle",
+    "egg:twineedle",
+    "egg:wish",
+    "tm:afteryou",
+    "tm:agility",
+    "tm:assurance",
+    "tm:bounce",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:covet",
+    "tm:disarmingvoice",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:gyroball",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:lastresort",
+    "tm:magnetrise",
+    "tm:payback",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:reversal",
+    "tm:risingvoltage",
+    "tm:roleplay",
+    "tm:rollout",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:steelbeam",
+    "tm:steelroller",
+    "tm:substitute",
+    "tm:superfang",
+    "tm:swift",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:uturn",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:afteryou",
+    "tutor:bounce",
+    "tutor:chargebeam",
+    "tutor:covet",
+    "tutor:electroweb",
+    "tutor:endeavor",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:lastresort",
+    "tutor:magnetrise",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:roleplay",
+    "tutor:rollout",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:steelbeam",
+    "tutor:steelroller",
+    "tutor:superfang",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:wildcharge",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 10.0,
+        "levels": "19-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_hills"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0777_togedemaru.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/togedemaru.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/togedemaru_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/togedemaru.json"
+  ]
+}

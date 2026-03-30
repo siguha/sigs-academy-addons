@@ -1,0 +1,221 @@
+{
+  "id": "swadloon",
+  "dexnum": 541,
+  "name": "Swadloon",
+  "primaryType": "bug",
+  "secondaryType": "grass",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "leafguard",
+    "chlorophyll",
+    "h:overcoat"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 63,
+    "defence": 90,
+    "special_attack": 50,
+    "special_defence": 80,
+    "speed": 42
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 120,
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:mental_herb",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:revival_herb",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:coba_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:grasswhistle",
+    "1:tackle",
+    "1:stringshot",
+    "1:bugbite",
+    "1:razorleaf",
+    "1:protect",
+    "22:strugglebug",
+    "29:endure",
+    "31:stickyweb",
+    "36:bugbuzz",
+    "43:flail",
+    "egg:camouflage",
+    "egg:mefirst",
+    "egg:mindreader",
+    "egg:razorwind",
+    "egg:screech",
+    "egg:snore",
+    "egg:switcheroo",
+    "egg:synthesis",
+    "egg:worryseed",
+    "tm:batonpass",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:charm",
+    "tm:cut",
+    "tm:dreameater",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:irondefense",
+    "tm:lightscreen",
+    "tm:lunge",
+    "tm:magicalleaf",
+    "tm:magiccoat",
+    "tm:naturepower",
+    "tm:payback",
+    "tm:pounce",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:screech",
+    "tm:seedbomb",
+    "tm:signalbeam",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:worryseed",
+    "tutor:bugbite",
+    "tutor:electroweb",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:grassyglide",
+    "tutor:irondefense",
+    "tutor:magicalleaf",
+    "tutor:magiccoat",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:signalbeam",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:stringshot",
+    "tutor:synthesis",
+    "tutor:worryseed",
+    "legacy:agility",
+    "legacy:airslash",
+    "legacy:attract",
+    "legacy:calmmind",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "swadloon_leavanny",
+      "variant": "level_up",
+      "result": "leavanny",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "slash"
+      ],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.9,
+        "levels": "20-38",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0541_swadloon.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/wavimons/swadloon.png",
+      "out/sprites/cobblemon/swadloon.png"
+    ],
+    "shiny": [
+      "out/sprites/wavimons/swadloon_shiny.png",
+      "out/sprites/cobblemon/swadloon_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/swadloon.json"
+  ]
+}

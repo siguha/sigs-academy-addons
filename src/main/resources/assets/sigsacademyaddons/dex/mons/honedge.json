@@ -1,0 +1,254 @@
+{
+  "id": "honedge",
+  "dexnum": 679,
+  "name": "Honedge",
+  "primaryType": "steel",
+  "secondaryType": "ghost",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "noguard",
+    "h:noguard"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 80,
+    "defence": 100,
+    "special_attack": 35,
+    "special_defence": 37,
+    "speed": 28
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 180,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:iron_nugget",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:iron_sword",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:dusk_stone",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:furycutter",
+    "1:pursuit",
+    "4:shadowsneak",
+    "8:autotomize",
+    "12:aerialace",
+    "16:metalsound",
+    "20:slash",
+    "24:nightslash",
+    "28:retaliate",
+    "32:irondefense",
+    "36:ironhead",
+    "40:powertrick",
+    "44:swordsdance",
+    "48:sacredsword",
+    "egg:block",
+    "egg:destinybond",
+    "egg:wideguard",
+    "tm:aerialace",
+    "tm:afteryou",
+    "tm:block",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:closecombat",
+    "tm:cut",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:flashcannon",
+    "tm:furycutter",
+    "tm:gyroball",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:laserfocus",
+    "tm:magnetrise",
+    "tm:metalsound",
+    "tm:protect",
+    "tm:psychocut",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:reversal",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:screech",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:solarblade",
+    "tm:spite",
+    "tm:steelbeam",
+    "tm:substitute",
+    "tm:swordsdance",
+    "tm:terablast",
+    "tutor:aerialace",
+    "tutor:afteryou",
+    "tutor:block",
+    "tutor:falseswipe",
+    "tutor:flashcannon",
+    "tutor:furycutter",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:laserfocus",
+    "tutor:magnetrise",
+    "tutor:psychocut",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:shadowclaw",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:steelbeam",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "honedge_doublade",
+      "variant": "level_up",
+      "result": "doublade",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "nether_structures"
+        ],
+        "rarity": "uncommon",
+        "weight": 84.0,
+        "levels": "8-33",
+        "biomeTags": {
+          "include": [
+            "#minecraft:is_nether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0679_honedge.json"
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 50.4,
+        "levels": "8-33",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0679_honedge.json",
+        "structures": [
+          "#cobblemon:ruin"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "stronghold"
+        ],
+        "rarity": "uncommon",
+        "weight": 84.0,
+        "levels": "8-33",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0679_honedge.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 5.04,
+        "levels": "8-33",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0679_honedge.json",
+        "structures": [
+          "#aether:dungeons"
+        ],
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/honedge.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/honedge_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/honedge.json"
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "id": "cherrim_sunshine",
+  "dexnum": 421,
+  "name": "Cherrim Sunshine",
+  "primaryType": "grass",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "flowergift",
+    "h:flowergift"
+  ],
+  "eggGroups": [
+    "fairy",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 60,
+    "defence": 70,
+    "special_attack": 87,
+    "special_defence": 78,
+    "speed": 85
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:sweet_berries",
+        "percentage": null,
+        "quantityRange": "2-4",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growth",
+    "1:sunnyday",
+    "1:luckychant",
+    "1:morningsun",
+    "1:flowershield",
+    "1:leafage",
+    "15:helpinghand",
+    "20:magicalleaf",
+    "28:leechseed",
+    "34:takedown",
+    "41:petalblizzard",
+    "48:worryseed",
+    "55:solarbeam",
+    "62:petaldance",
+    "tm:aromatherapy",
+    "tm:bulletseed",
+    "tm:dazzlinggleam",
+    "tm:defensecurl",
+    "tm:drainingkiss",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:healingwish",
+    "tm:healpulse",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:laserfocus",
+    "tm:magicalleaf",
+    "tm:naturepower",
+    "tm:petalblizzard",
+    "tm:playrough",
+    "tm:pollenpuff",
+    "tm:protect",
+    "tm:razorleaf",
+    "tm:rest",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:sweetscent",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:tickle",
+    "tm:weatherball",
+    "tm:worryseed",
+    "tutor:dazzlinggleam",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:laserfocus",
+    "tutor:magicalleaf",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:synthesis",
+    "tutor:worryseed"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/cherrim_sunshine.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/cherrim_sunshine_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/cherrim.json"
+  ]
+}

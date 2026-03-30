@@ -1,0 +1,238 @@
+{
+  "id": "noibat",
+  "dexnum": 714,
+  "name": "Noibat",
+  "primaryType": "flying",
+  "secondaryType": "dragon",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "frisk",
+    "infiltrator",
+    "h:telepathy"
+  ],
+  "eggGroups": [
+    "flying",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 30,
+    "defence": 35,
+    "special_attack": 45,
+    "special_defence": 40,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:phantom_membrane",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:absorb",
+    "4:gust",
+    "8:supersonic",
+    "12:doubleteam",
+    "16:wingattack",
+    "20:bite",
+    "24:aircutter",
+    "28:whirlwind",
+    "32:superfang",
+    "36:airslash",
+    "40:screech",
+    "44:roost",
+    "49:tailwind",
+    "52:hurricane",
+    "egg:defog",
+    "egg:dragonrush",
+    "egg:razorwind",
+    "egg:switcheroo",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:brickbreak",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:doubleteam",
+    "tm:dracometeor",
+    "tm:dragonclaw",
+    "tm:dragonpulse",
+    "tm:dreameater",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:fly",
+    "tm:heatwave",
+    "tm:hurricane",
+    "tm:hypervoice",
+    "tm:irontail",
+    "tm:leechlife",
+    "tm:outrage",
+    "tm:protect",
+    "tm:psychic",
+    "tm:rest",
+    "tm:roost",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:solarbeam",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:torment",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:wildcharge",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:darkpulse",
+    "tutor:defog",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:dualwingbeat",
+    "tutor:heatwave",
+    "tutor:hypervoice",
+    "tutor:irontail",
+    "tutor:leechlife",
+    "tutor:outrage",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:superfang",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:uproar",
+    "tutor:wildcharge",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:waterpulse"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "noibat_noivern",
+      "variant": "level_up",
+      "result": "noivern",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "dragonpulse"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 48
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "1-25",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0714_noibat.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 7.5,
+        "levels": "1-25",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0714_noibat.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/noibat.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/noibat_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/noibat.json"
+  ]
+}

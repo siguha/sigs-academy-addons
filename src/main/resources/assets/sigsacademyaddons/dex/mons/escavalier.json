@@ -1,0 +1,205 @@
+{
+  "id": "escavalier",
+  "dexnum": 589,
+  "name": "Escavalier",
+  "primaryType": "bug",
+  "secondaryType": "steel",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "swarm",
+    "shellarmor",
+    "h:overcoat"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 135,
+    "defence": 105,
+    "special_attack": 60,
+    "special_defence": 105,
+    "speed": 20
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:iron_helmet",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:occa_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:peck",
+    "1:leer",
+    "1:quickguard",
+    "1:twineedle",
+    "1:furyattack",
+    "1:slash",
+    "1:doubleedge",
+    "1:fellstinger",
+    "1:endure",
+    "1:flail",
+    "1:scaryface",
+    "1:takedown",
+    "1:furycutter",
+    "12:falseswipe",
+    "16:acidspray",
+    "20:headbutt",
+    "24:reversal",
+    "28:irondefense",
+    "32:xscissor",
+    "36:swordsdance",
+    "40:ironhead",
+    "44:bugbuzz",
+    "48:gigaimpact",
+    "52:metalburst",
+    "egg:bugbite",
+    "egg:counter",
+    "egg:feintattack",
+    "egg:hornattack",
+    "egg:knockoff",
+    "egg:nightslash",
+    "egg:pursuit",
+    "egg:slash",
+    "tm:acidspray",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:brutalswing",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:closecombat",
+    "tm:cut",
+    "tm:doubleedge",
+    "tm:drillrun",
+    "tm:encore",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:focusblast",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:headbutt",
+    "tm:hyperbeam",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:megahorn",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:raindance",
+    "tm:razorshell",
+    "tm:rest",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:rocksmash",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:smartstrike",
+    "tm:steelbeam",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:bugbite",
+    "tutor:drillrun",
+    "tutor:energyball",
+    "tutor:falseswipe",
+    "tutor:furycutter",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:laserfocus",
+    "tutor:megahorn",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:steelbeam",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.3,
+        "levels": "27-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0589_escavalier.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/escavalier.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/escavalier_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/escavalier.json"
+  ]
+}

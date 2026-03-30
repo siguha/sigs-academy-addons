@@ -1,0 +1,213 @@
+{
+  "id": "pawmot",
+  "dexnum": 923,
+  "name": "Pawmot",
+  "primaryType": "electric",
+  "secondaryType": "fighting",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "voltabsorb",
+    "naturalcure",
+    "h:ironfist"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 115,
+    "defence": 70,
+    "special_attack": 70,
+    "special_defence": 60,
+    "speed": 105
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:revivalblessing",
+    "1:scratch",
+    "1:growl",
+    "1:wildcharge",
+    "3:thundershock",
+    "6:quickattack",
+    "8:charge",
+    "12:nuzzle",
+    "15:dig",
+    "19:bite",
+    "23:spark",
+    "25:armthrust",
+    "29:thunderwave",
+    "33:slam",
+    "39:entrainment",
+    "44:closecombat",
+    "49:discharge",
+    "54:agility",
+    "60:doubleshock",
+    "egg:fakeout",
+    "egg:machpunch",
+    "egg:sweetkiss",
+    "egg:wish",
+    "tm:agility",
+    "tm:batonpass",
+    "tm:bodypress",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:crunch",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:icepunch",
+    "tm:knockoff",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:metalclaw",
+    "tm:metronome",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rocktomb",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:supercellslam",
+    "tm:superfang",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:upperhand",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:bulkup",
+    "tutor:chargebeam",
+    "tutor:coaching",
+    "tutor:electroweb",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icepunch",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:superfang",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:thunderbolt",
+    "tutor:thunderfang",
+    "tutor:thunderpunch",
+    "tutor:wildcharge",
+    "special:celebrate"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "rarity": "uncommon",
+        "weight": 1.5,
+        "levels": "35-40",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0923_pawmot.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.5,
+        "levels": "35-40",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_arid"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0923_pawmot.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/pawmot.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/pawmot_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/pawmot.json"
+  ]
+}

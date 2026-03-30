@@ -1,0 +1,331 @@
+{
+  "id": "dragalge",
+  "dexnum": 691,
+  "name": "Dragalge",
+  "primaryType": "poison",
+  "secondaryType": "dragon",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "poisonpoint",
+    "poisontouch",
+    "h:adaptability"
+  ],
+  "eggGroups": [
+    "water_1",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 75,
+    "defence": 90,
+    "special_attack": 97,
+    "special_defence": 123,
+    "speed": 44
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 55,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:kelp",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:smokescreen",
+    "1:watergun",
+    "1:feintattack",
+    "1:bubble",
+    "1:acid",
+    "1:camouflage",
+    "15:tailwhip",
+    "20:doubleteam",
+    "25:poisontail",
+    "30:waterpulse",
+    "35:toxic",
+    "40:dragonpulse",
+    "45:aquatail",
+    "52:sludgebomb",
+    "59:hydropump",
+    "66:outrage",
+    "egg:acidarmor",
+    "egg:camouflage",
+    "egg:dragontail",
+    "egg:haze",
+    "egg:twister",
+    "tm:acidspray",
+    "tm:aquatail",
+    "tm:bounce",
+    "tm:chillingwater",
+    "tm:dive",
+    "tm:doubleteam",
+    "tm:dracometeor",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:endure",
+    "tm:facade",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:hail",
+    "tm:haze",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:liquidation",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:outrage",
+    "tm:playrough",
+    "tm:poisontail",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:scald",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snowscape",
+    "tm:spite",
+    "tm:substitute",
+    "tm:surf",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:twister",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:aquatail",
+    "tutor:bounce",
+    "tutor:dive",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:flipturn",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:hyperbeam",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:liquidation",
+    "tutor:mudslap",
+    "tutor:outrage",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:scaleshot",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spite",
+    "tutor:thunderbolt",
+    "tutor:twister",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "48-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0691_dragalge.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:kelp_plant"
+          ]
+        },
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "48-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0691_dragalge.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:kelp_plant"
+          ]
+        },
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "48-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0691_dragalge.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:kelp_plant"
+          ]
+        },
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "48-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0691_dragalge.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:kelp_plant"
+          ]
+        },
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "48-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0691_dragalge.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "48-49",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0691_dragalge.json",
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ],
+        "sky": {
+          "canSeeSky": false
+        },
+        "yLevel": {
+          "minY": -60,
+          "maxY": 13
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/dragalge.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/dragalge_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/dragalge.json"
+  ]
+}

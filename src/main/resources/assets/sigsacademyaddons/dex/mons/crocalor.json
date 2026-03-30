@@ -1,0 +1,189 @@
+{
+  "id": "crocalor",
+  "dexnum": 910,
+  "name": "Crocalor",
+  "primaryType": "fire",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "blaze",
+    "h:unaware"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 81,
+    "attack": 55,
+    "defence": 78,
+    "special_attack": 90,
+    "special_defence": 58,
+    "speed": 49
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "1:ember",
+    "7:lick",
+    "10:round",
+    "12:bite",
+    "15:yawn",
+    "17:incinerate",
+    "24:snarl",
+    "28:roar",
+    "32:flamethrower",
+    "38:hypervoice",
+    "42:willowisp",
+    "47:fireblast",
+    "egg:belch",
+    "egg:curse",
+    "egg:encore",
+    "egg:slackoff",
+    "tm:bodyslam",
+    "tm:crunch",
+    "tm:curse",
+    "tm:dig",
+    "tm:disarmingvoice",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firepledge",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:hypervoice",
+    "tm:incinerate",
+    "tm:mudslap",
+    "tm:outrage",
+    "tm:overheat",
+    "tm:protect",
+    "tm:rest",
+    "tm:roar",
+    "tm:round",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thunderfang",
+    "tm:willowisp",
+    "tm:zenheadbutt",
+    "tutor:firefang",
+    "tutor:firepledge",
+    "tutor:flamethrower",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:mudslap",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:stompingtantrum",
+    "tutor:thunderfang",
+    "tutor:zenheadbutt"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "crocalor_skeledirge",
+      "variant": "level_up",
+      "result": "skeledirge",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "torchsong"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0910_crocalor.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:nether/is_wasteland"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0910_crocalor.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/crocalor.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/crocalor_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/crocalor.json"
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "id": "braixen",
+  "dexnum": 654,
+  "name": "Braixen",
+  "primaryType": "fire",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "blaze",
+    "h:magician"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 59,
+    "attack": 59,
+    "defence": 58,
+    "special_attack": 90,
+    "special_defence": 70,
+    "speed": 73
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:stick",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "minecraft:blaze_powder",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:tailwhip",
+    "1:ember",
+    "11:howl",
+    "14:flamecharge",
+    "18:psybeam",
+    "22:firespin",
+    "28:luckychant",
+    "36:psyshock",
+    "41:flamethrower",
+    "45:willowisp",
+    "49:psychic",
+    "52:sunnyday",
+    "56:magicroom",
+    "59:fireblast",
+    "egg:copycat",
+    "egg:heatwave",
+    "egg:hypnosis",
+    "egg:magicroom",
+    "egg:wish",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:covet",
+    "tm:cut",
+    "tm:dreameater",
+    "tm:echoedvoice",
+    "tm:embargo",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firepledge",
+    "tm:firepunch",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:foulplay",
+    "tm:grassknot",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:imprison",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:lightscreen",
+    "tm:lowkick",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:overheat",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:shockwave",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:solarbeam",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderpunch",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:willowisp",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:burningjealousy",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:firepledge",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:foulplay",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:lowkick",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:mudslap",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:shockwave",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:swift",
+    "tutor:telekinesis",
+    "tutor:thunderpunch",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:psychup",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "braixen_delphox",
+      "variant": "level_up",
+      "result": "delphox",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "mysticalfire"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "16-41",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0654_braixen.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/braixen.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/braixen_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/braixen.json"
+  ]
+}

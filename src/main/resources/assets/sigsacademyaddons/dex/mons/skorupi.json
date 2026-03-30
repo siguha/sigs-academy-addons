@@ -1,0 +1,219 @@
+{
+  "id": "skorupi",
+  "dexnum": 451,
+  "name": "Skorupi",
+  "primaryType": "poison",
+  "secondaryType": "bug",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "battlearmor",
+    "sniper",
+    "h:keeneye"
+  ],
+  "eggGroups": [
+    "bug",
+    "water_3"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 50,
+    "defence": 90,
+    "special_attack": 30,
+    "special_defence": 55,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 120,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:bluk_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:poisonsting",
+    "1:leer",
+    "3:honeclaws",
+    "6:fellstinger",
+    "9:poisonfang",
+    "12:bite",
+    "15:toxicspikes",
+    "18:bugbite",
+    "21:venoshock",
+    "24:knockoff",
+    "27:scaryface",
+    "30:pinmissile",
+    "33:toxic",
+    "36:nightslash",
+    "39:crosspoison",
+    "42:xscissor",
+    "45:acupressure",
+    "48:crunch",
+    "egg:confuseray",
+    "egg:feintattack",
+    "egg:pursuit",
+    "egg:sandattack",
+    "egg:slash",
+    "egg:twineedle",
+    "egg:whirlwind",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aquatail",
+    "tm:assurance",
+    "tm:brickbreak",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:confuseray",
+    "tm:crosspoison",
+    "tm:crunch",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:flash",
+    "tm:fling",
+    "tm:furycutter",
+    "tm:headbutt",
+    "tm:honeclaws",
+    "tm:infestation",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:mudslap",
+    "tm:payback",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:poisontail",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:strength",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:torment",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:venoshock",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:aquatail",
+    "tutor:bugbite",
+    "tutor:darkpulse",
+    "tutor:falseswipe",
+    "tutor:furycutter",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:shadowball",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "skorupi_drapion",
+      "variant": "level_up",
+      "result": "drapion",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "8-33",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands",
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0451_skorupi.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon_reanimodel/skorupi.png",
+      "out/sprites/cobblemon/skorupi.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon_reanimodel/skorupi_shiny.png",
+      "out/sprites/cobblemon/skorupi_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/skorupi.json"
+  ]
+}

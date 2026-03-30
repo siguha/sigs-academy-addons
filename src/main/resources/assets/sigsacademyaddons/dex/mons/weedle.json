@@ -1,0 +1,140 @@
+{
+  "id": "weedle",
+  "dexnum": 13,
+  "name": "Weedle",
+  "primaryType": "bug",
+  "secondaryType": "poison",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "shielddust",
+    "h:runaway"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 35,
+    "defence": 30,
+    "special_attack": 20,
+    "special_defence": 20,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:pinap_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:poisonsting",
+    "1:stringshot",
+    "9:bugbite",
+    "tm:bugbite",
+    "tm:electroweb",
+    "tm:skittersmack",
+    "tm:stringshot",
+    "tm:terablast",
+    "tutor:bugbite",
+    "tutor:electroweb",
+    "tutor:skittersmack",
+    "tutor:stringshot"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "weedle_kakuna",
+      "variant": "level_up",
+      "result": "kakuna",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "harden"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 7
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "common",
+        "weight": 7.0,
+        "levels": "1-20",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_jungle",
+            "aether:skyroot_forest",
+            "aether:skyroot_woodland"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0013_weedle.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 3.0,
+        "levels": "1-20",
+        "biomeTags": {
+          "include": [
+            "#the_bumblezone:the_bumblezone"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0013_weedle.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/weedle.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/weedle_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/weedle.json"
+  ]
+}

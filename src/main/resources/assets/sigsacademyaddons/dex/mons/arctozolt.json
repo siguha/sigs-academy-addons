@@ -1,0 +1,154 @@
+{
+  "id": "arctozolt",
+  "dexnum": 881,
+  "name": "Arctozolt",
+  "primaryType": "electric",
+  "secondaryType": "ice",
+  "maleRatio": -1,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "voltabsorb",
+    "static",
+    "h:slushrush"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 100,
+    "defence": 90,
+    "special_attack": 90,
+    "special_defence": 80,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:feather",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:powdersnow",
+    "1:thundershock",
+    "7:charge",
+    "14:echoedvoice",
+    "21:ancientpower",
+    "28:pluck",
+    "35:avalanche",
+    "42:freezedry",
+    "49:slam",
+    "56:discharge",
+    "63:boltbeak",
+    "70:iciclecrash",
+    "77:blizzard",
+    "tm:ancientpower",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:charge",
+    "tm:echoedvoice",
+    "tm:electroball",
+    "tm:endure",
+    "tm:facade",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:lowkick",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:meteorbeam",
+    "tm:payback",
+    "tm:pluck",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sleeptalk",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:surf",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:wildcharge",
+    "tutor:ancientpower",
+    "tutor:bulldoze",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:lowkick",
+    "tutor:meteorbeam",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:rockslide",
+    "tutor:sleeptalk",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:thunderbolt",
+    "tutor:thunderfang",
+    "tutor:thunderpunch",
+    "tutor:wildcharge",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/arctozolt.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/arctozolt_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/arctozolt.json"
+  ]
+}

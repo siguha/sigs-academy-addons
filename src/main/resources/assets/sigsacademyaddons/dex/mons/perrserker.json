@@ -1,0 +1,244 @@
+{
+  "id": "perrserker",
+  "dexnum": 863,
+  "name": "Perrserker",
+  "primaryType": "steel",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "battlearmor",
+    "toughclaws",
+    "h:steelyspirit"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 110,
+    "defence": 100,
+    "special_attack": 50,
+    "special_defence": 60,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 90,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:razor_claw",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:wepear_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:ironhead",
+    "1:metalburst",
+    "1:irondefense",
+    "1:fakeout",
+    "1:growl",
+    "1:honeclaws",
+    "1:scratch",
+    "12:payday",
+    "16:metalclaw",
+    "20:taunt",
+    "24:swagger",
+    "31:furyswipes",
+    "36:screech",
+    "42:slash",
+    "48:metalsound",
+    "54:thrash",
+    "egg:covet",
+    "egg:curse",
+    "egg:doubleedge",
+    "egg:flail",
+    "egg:nightslash",
+    "egg:spite",
+    "tm:aerialace",
+    "tm:amnesia",
+    "tm:assurance",
+    "tm:batonpass",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:closecombat",
+    "tm:covet",
+    "tm:crunch",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:falseswipe",
+    "tm:flashcannon",
+    "tm:fling",
+    "tm:foulplay",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:gyroball",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:metalclaw",
+    "tm:metalsound",
+    "tm:metronome",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:payday",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:screech",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:spite",
+    "tm:stealthrock",
+    "tm:steelbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:trailblaze",
+    "tm:uturn",
+    "tm:workup",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:covet",
+    "tutor:darkpulse",
+    "tutor:endeavor",
+    "tutor:falseswipe",
+    "tutor:flashcannon",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:stealthrock",
+    "tutor:steelbeam",
+    "tutor:throatchop",
+    "tutor:thunderbolt",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:uproar"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "28-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0863_perrserker.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.0,
+        "levels": "28-44",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0863_perrserker.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/perrserker.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/perrserker_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/perrserker.json"
+  ]
+}

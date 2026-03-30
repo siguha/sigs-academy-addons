@@ -1,0 +1,230 @@
+{
+  "id": "cubchoo",
+  "dexnum": 613,
+  "name": "Cubchoo",
+  "primaryType": "ice",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "snowcloak",
+    "slushrush",
+    "h:rattled"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 70,
+    "defence": 40,
+    "special_attack": 60,
+    "special_defence": 40,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 120,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:snowball",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "minecraft:cod",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:aspear_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:powdersnow",
+    "1:growl",
+    "1:bide",
+    "3:endure",
+    "6:furyswipes",
+    "9:icywind",
+    "12:playnice",
+    "15:brine",
+    "18:frostbreath",
+    "21:slash",
+    "24:flail",
+    "27:charm",
+    "30:snowscape",
+    "33:thrash",
+    "36:rest",
+    "39:blizzard",
+    "42:sheercold",
+    "egg:focuspunch",
+    "egg:nightslash",
+    "egg:yawn",
+    "tm:aerialace",
+    "tm:assurance",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:bulldoze",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:covet",
+    "tm:crunch",
+    "tm:cut",
+    "tm:dig",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:frostbreath",
+    "tm:grassknot",
+    "tm:hail",
+    "tm:heavyslam",
+    "tm:honeclaws",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icepunch",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:liquidation",
+    "tm:lowkick",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metalclaw",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:snowscape",
+    "tm:strength",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:surf",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:waterpulse",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:bulldoze",
+    "tutor:covet",
+    "tutor:endeavor",
+    "tutor:focuspunch",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:liquidation",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:superpower",
+    "tutor:waterpulse",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "cubchoo_beartic",
+      "variant": "level_up",
+      "result": "beartic",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "iciclecrash"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 37
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0613_cubchoo.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/cubchoo.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/cubchoo_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/cubchoo.json"
+  ]
+}

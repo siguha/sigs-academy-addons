@@ -1,0 +1,213 @@
+{
+  "id": "venonat",
+  "dexnum": 48,
+  "name": "Venonat",
+  "primaryType": "bug",
+  "secondaryType": "poison",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "compoundeyes",
+    "tintedlens",
+    "h:runaway"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 55,
+    "defence": 50,
+    "special_attack": 40,
+    "special_defence": 55,
+    "speed": 45
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:persim_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:disable",
+    "1:foresight",
+    "5:supersonic",
+    "11:confusion",
+    "13:poisonpowder",
+    "17:psybeam",
+    "23:stunspore",
+    "25:bugbuzz",
+    "29:sleeppowder",
+    "35:leechlife",
+    "37:zenheadbutt",
+    "41:poisonfang",
+    "47:psychic",
+    "egg:agility",
+    "egg:batonpass",
+    "egg:bugbite",
+    "egg:morningsun",
+    "egg:ragepowder",
+    "egg:screech",
+    "egg:secretpower",
+    "egg:toxicspikes",
+    "egg:venoshock",
+    "tm:acidspray",
+    "tm:agility",
+    "tm:batonpass",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:confuseray",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:gigadrain",
+    "tm:infestation",
+    "tm:leechlife",
+    "tm:lunge",
+    "tm:megadrain",
+    "tm:nightshade",
+    "tm:pounce",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:rest",
+    "tm:screech",
+    "tm:secretpower",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:solarbeam",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tm:zenheadbutt",
+    "tutor:bugbite",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:leechlife",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:stringshot",
+    "tutor:swift",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:headbutt",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:psywave",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:sweetscent"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "venonat_venomoth",
+      "variant": "level_up",
+      "result": "venomoth",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gust",
+        "airslash"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 31
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "6-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_spooky",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0048_venonat.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/venonat.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/venonat_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/venonat.json"
+  ]
+}

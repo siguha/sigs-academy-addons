@@ -1,0 +1,125 @@
+{
+  "id": "sinistcha_masterpiece",
+  "dexnum": 1013,
+  "name": "Sinistcha Masterpiece",
+  "primaryType": "grass",
+  "secondaryType": "ghost",
+  "maleRatio": -1,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "hospitality",
+    "h:heatproof"
+  ],
+  "eggGroups": [
+    "mineral",
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 71,
+    "attack": 60,
+    "defence": 106,
+    "special_attack": 121,
+    "special_defence": 80,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 60,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:matchagotcha",
+    "1:stunspore",
+    "1:withdraw",
+    "1:astonish",
+    "6:absorb",
+    "12:lifedew",
+    "18:foulplay",
+    "24:megadrain",
+    "30:hex",
+    "36:ragepowder",
+    "42:strengthsap",
+    "48:shadowball",
+    "54:memento",
+    "60:leafstorm",
+    "tm:calmmind",
+    "tm:curse",
+    "tm:endure",
+    "tm:energyball",
+    "tm:foulplay",
+    "tm:gigadrain",
+    "tm:grassyterrain",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:irondefense",
+    "tm:leafstorm",
+    "tm:magicalleaf",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:painsplit",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psychup",
+    "tm:reflect",
+    "tm:rest",
+    "tm:scald",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:substitute",
+    "tm:terablast",
+    "tm:trickroom",
+    "tm:uproar",
+    "tutor:calmmind",
+    "tutor:energyball",
+    "tutor:foulplay",
+    "tutor:gigadrain",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:magicalleaf",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:uproar"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/sinistcha.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/sinistcha_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/sinistcha.json"
+  ]
+}

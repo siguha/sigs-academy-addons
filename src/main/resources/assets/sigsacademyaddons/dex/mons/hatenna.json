@@ -1,0 +1,220 @@
+{
+  "id": "hatenna",
+  "dexnum": 856,
+  "name": "Hatenna",
+  "primaryType": "psychic",
+  "secondaryType": "",
+  "maleRatio": 0,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "healer",
+    "anticipation",
+    "h:magicbounce"
+  ],
+  "eggGroups": [
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 42,
+    "attack": 30,
+    "defence": 45,
+    "special_attack": 56,
+    "special_defence": 53,
+    "speed": 39
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 235,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:babiri_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:confusion",
+    "1:playnice",
+    "5:lifedew",
+    "10:disarmingvoice",
+    "15:aromatherapy",
+    "20:psybeam",
+    "25:healpulse",
+    "30:dazzlinggleam",
+    "35:calmmind",
+    "40:psychic",
+    "45:healingwish",
+    "egg:afteryou",
+    "egg:aromaticmist",
+    "egg:mysticalfire",
+    "egg:nuzzle",
+    "egg:quash",
+    "tm:afteryou",
+    "tm:batonpass",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:disarmingvoice",
+    "tm:drainingkiss",
+    "tm:endure",
+    "tm:expandingforce",
+    "tm:facade",
+    "tm:futuresight",
+    "tm:gigadrain",
+    "tm:helpinghand",
+    "tm:imprison",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:metronome",
+    "tm:mistyterrain",
+    "tm:mysticalfire",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:quash",
+    "tm:reflect",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:swift",
+    "tm:terablast",
+    "tm:thunderwave",
+    "tm:trick",
+    "tm:trickroom",
+    "tutor:afteryou",
+    "tutor:calmmind",
+    "tutor:darkpulse",
+    "tutor:dazzlinggleam",
+    "tutor:expandingforce",
+    "tutor:gigadrain",
+    "tutor:helpinghand",
+    "tutor:magicalleaf",
+    "tutor:mysticalfire",
+    "tutor:playrough",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:trick",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "hatenna_hattrem",
+      "variant": "level_up",
+      "result": "hattrem",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "brutalswing"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 8.4,
+        "levels": "2-27",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_magical",
+            "aether:skyroot_forest",
+            "aether:skyroot_woodland"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0856_hatenna.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "2-27",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0856_hatenna.json",
+        "structures": [
+          "minecraft:swamp_hut"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "mansion"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "2-27",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0856_hatenna.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/hatenna.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/hatenna_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/hatenna.json"
+  ]
+}

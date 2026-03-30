@@ -1,0 +1,278 @@
+{
+  "id": "hawlucha",
+  "dexnum": 701,
+  "name": "Hawlucha",
+  "primaryType": "fighting",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "limber",
+    "unburden",
+    "h:moldbreaker"
+  ],
+  "eggGroups": [
+    "flying",
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 78,
+    "attack": 92,
+    "defence": 75,
+    "special_attack": 74,
+    "special_defence": 63,
+    "speed": 118
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 100,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:kings_rock",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:coba_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:expert_belt",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:honeclaws",
+    "1:karatechop",
+    "1:submission",
+    "4:wingattack",
+    "8:detect",
+    "12:aerialace",
+    "16:encore",
+    "20:featherdance",
+    "24:brickbreak",
+    "28:bounce",
+    "32:taunt",
+    "36:roost",
+    "40:swordsdance",
+    "44:flyingpress",
+    "48:highjumpkick",
+    "52:endeavor",
+    "56:skyattack",
+    "egg:crosschop",
+    "egg:defog",
+    "egg:entrainment",
+    "egg:feint",
+    "egg:meanlook",
+    "egg:mefirst",
+    "egg:mudsport",
+    "egg:quickguard",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:assurance",
+    "tm:batonpass",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bravebird",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:cut",
+    "tm:defog",
+    "tm:dig",
+    "tm:drainpunch",
+    "tm:dualchop",
+    "tm:dualwingbeat",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:featherdance",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:fly",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:ironhead",
+    "tm:laserfocus",
+    "tm:lastresort",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:lunge",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roost",
+    "tm:skyattack",
+    "tm:skydrop",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunderpunch",
+    "tm:torment",
+    "tm:trailblaze",
+    "tm:upperhand",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:workup",
+    "tm:xscissor",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:allyswitch",
+    "tutor:bounce",
+    "tutor:bulkup",
+    "tutor:coaching",
+    "tutor:defog",
+    "tutor:drainpunch",
+    "tutor:dualchop",
+    "tutor:dualwingbeat",
+    "tutor:endeavor",
+    "tutor:falseswipe",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:ironhead",
+    "tutor:laserfocus",
+    "tutor:lastresort",
+    "tutor:lowkick",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:roost",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:stoneedge",
+    "tutor:superpower",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:thunderpunch",
+    "tutor:uproar",
+    "tutor:xscissor",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:tailwind",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "jungle_pyramid"
+        ],
+        "rarity": "common",
+        "weight": 60.0,
+        "levels": "25-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0701_hawlucha.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 2.0,
+        "levels": "25-50",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_badlands",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_tropical_island"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0701_hawlucha.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/hawlucha.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/hawlucha_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/hawlucha.json"
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "id": "darumaka",
+  "dexnum": 554,
+  "name": "Darumaka",
+  "primaryType": "fire",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5",
+    "unovan_form"
+  ],
+  "abilities": [
+    "hustle",
+    "h:innerfocus"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 90,
+    "defence": 45,
+    "special_attack": 15,
+    "special_defence": 45,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 120,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:rage",
+    "1:ember",
+    "4:taunt",
+    "8:bite",
+    "12:incinerate",
+    "16:workup",
+    "20:firefang",
+    "24:headbutt",
+    "28:firepunch",
+    "32:uproar",
+    "36:bellydrum",
+    "40:flareblitz",
+    "44:thrash",
+    "48:superpower",
+    "egg:extrasensory",
+    "egg:flamewheel",
+    "egg:focuspunch",
+    "egg:hammerarm",
+    "egg:takedown",
+    "egg:yawn",
+    "tm:brickbreak",
+    "tm:dig",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firepunch",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:fling",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:grassknot",
+    "tm:gyroball",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:incinerate",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:overheat",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:solarbeam",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:endeavor",
+    "tutor:firefang",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focusenergy",
+    "tutor:focuspunch",
+    "tutor:heatwave",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:superpower",
+    "tutor:uproar",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [
+    "Galar"
+  ],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "darumaka_darmanitan",
+      "variant": "level_up",
+      "result": "darmanitan blazing_mode=standard",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "hammerarm"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 54.0,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_desert",
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0554_darumaka.json",
+        "structures": [
+          "#cobblemon:ruin"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "desert_pyramid"
+        ],
+        "rarity": "common",
+        "weight": 54.0,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_desert"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0554_darumaka.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "jungle_pyramid"
+        ],
+        "rarity": "common",
+        "weight": 54.0,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0554_darumaka.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 5.4,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#minecraft:is_nether"
+          ],
+          "exclude": [
+            "#cobblemon:nether/is_frozen",
+            "#cobblemon:nether/is_quartz",
+            "#cobblemon:nether/is_toxic"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0554_darumaka.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/genomons/darumaka.png",
+      "out/sprites/cobblemon/darumaka.png"
+    ],
+    "shiny": [
+      "out/sprites/genomons/darumaka_shiny.png",
+      "out/sprites/cobblemon/darumaka_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/darumaka.json"
+  ]
+}

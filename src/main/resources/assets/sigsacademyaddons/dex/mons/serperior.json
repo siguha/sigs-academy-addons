@@ -1,0 +1,219 @@
+{
+  "id": "serperior",
+  "dexnum": 497,
+  "name": "Serperior",
+  "primaryType": "grass",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "overgrow",
+    "h:contrary"
+  ],
+  "eggGroups": [
+    "field",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 75,
+    "defence": 95,
+    "special_attack": 75,
+    "special_defence": 95,
+    "speed": 113
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "1:vinewhip",
+    "1:wrap",
+    "1:leaftornado",
+    "1:wringout",
+    "13:growth",
+    "16:magicalleaf",
+    "20:leechseed",
+    "24:megadrain",
+    "28:slam",
+    "32:leafblade",
+    "38:coil",
+    "44:gigadrain",
+    "50:gastroacid",
+    "56:leafstorm",
+    "egg:captivate",
+    "egg:glare",
+    "egg:irontail",
+    "egg:meanlook",
+    "egg:mirrorcoat",
+    "egg:naturalgift",
+    "egg:pursuit",
+    "egg:sweetscent",
+    "egg:synthesis",
+    "egg:twister",
+    "tm:aerialace",
+    "tm:aquatail",
+    "tm:bind",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:brutalswing",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:cut",
+    "tm:defog",
+    "tm:doubleedge",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:frenzyplant",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:leafblade",
+    "tm:leafstorm",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:outrage",
+    "tm:petalblizzard",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:safeguard",
+    "tm:scaleshot",
+    "tm:scaryface",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:solarbeam",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:torment",
+    "tm:trailblaze",
+    "tm:twister",
+    "tm:workup",
+    "tm:worryseed",
+    "tutor:aerialace",
+    "tutor:aquatail",
+    "tutor:bind",
+    "tutor:calmmind",
+    "tutor:defog",
+    "tutor:dragonpulse",
+    "tutor:energyball",
+    "tutor:frenzyplant",
+    "tutor:gastroacid",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grasspledge",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:magicalleaf",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:scaleshot",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:swift",
+    "tutor:synthesis",
+    "tutor:twister",
+    "tutor:worryseed",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:aromatherapy",
+    "special:holdback"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "treetop"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_jungle"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0497_serperior.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/serperior.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/serperior_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/serperior.json"
+  ]
+}

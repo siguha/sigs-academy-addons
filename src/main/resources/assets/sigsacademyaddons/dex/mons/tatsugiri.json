@@ -1,0 +1,228 @@
+{
+  "id": "tatsugiri",
+  "dexnum": 978,
+  "name": "Tatsugiri",
+  "primaryType": "dragon",
+  "secondaryType": "water",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "commander",
+    "h:stormdrain"
+  ],
+  "eggGroups": [
+    "water_2"
+  ],
+  "baseStats": {
+    "hp": 68,
+    "attack": 50,
+    "defence": 60,
+    "special_attack": 120,
+    "special_defence": 95,
+    "speed": 82
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 100,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:salmon",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:haban_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:watergun",
+    "1:splash",
+    "6:harden",
+    "12:helpinghand",
+    "17:waterpulse",
+    "23:soak",
+    "28:taunt",
+    "34:memento",
+    "39:muddywater",
+    "43:nastyplot",
+    "47:mirrorcoat",
+    "52:dragonpulse",
+    "egg:batonpass",
+    "egg:counter",
+    "egg:rapidspin",
+    "tm:batonpass",
+    "tm:chillingwater",
+    "tm:dracometeor",
+    "tm:dragoncheer",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:endure",
+    "tm:facade",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icywind",
+    "tm:lunge",
+    "tm:muddywater",
+    "tm:nastyplot",
+    "tm:outrage",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:surf",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:icywind",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:waterpulse"
+  ],
+  "forms": [
+    "Droopy",
+    "Stretchy"
+  ],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "rare",
+        "weight": 10.0,
+        "levels": "23-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0978_tatsugiri.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "rare",
+        "weight": 10.0,
+        "levels": "23-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0978_tatsugiri.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 10.0,
+        "levels": "23-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_bamboo",
+            "#cobblemon:is_forest",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0978_tatsugiri.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "rare",
+        "weight": 10.0,
+        "levels": "23-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0978_tatsugiri.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 10.0,
+        "levels": "23-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_bamboo",
+            "#cobblemon:is_forest",
+            "#cobblemon:is_jungle",
+            "#cobblemon:is_swamp"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0978_tatsugiri.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {},
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/tatsugiri.json"
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "id": "oshawott",
+  "dexnum": 501,
+  "name": "Oshawott",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen5",
+    "starter",
+    "unovan_form"
+  ],
+  "abilities": [
+    "torrent",
+    "h:shellarmor"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 55,
+    "defence": 45,
+    "special_attack": 63,
+    "special_defence": 45,
+    "speed": 45
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:shell_bell",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:watersport",
+    "5:tailwhip",
+    "7:watergun",
+    "11:soak",
+    "13:focusenergy",
+    "17:razorshell",
+    "19:furycutter",
+    "23:waterpulse",
+    "25:aerialace",
+    "29:aquajet",
+    "31:encore",
+    "35:aquatail",
+    "37:retaliate",
+    "41:swordsdance",
+    "43:hydropump",
+    "egg:airslash",
+    "egg:aquacutter",
+    "egg:copycat",
+    "egg:detect",
+    "egg:knockoff",
+    "egg:nightslash",
+    "egg:sacredsword",
+    "egg:screech",
+    "egg:trumpcard",
+    "tm:aerialace",
+    "tm:airslash",
+    "tm:aquatail",
+    "tm:assurance",
+    "tm:avalanche",
+    "tm:blizzard",
+    "tm:brine",
+    "tm:chillingwater",
+    "tm:covet",
+    "tm:cut",
+    "tm:dig",
+    "tm:dive",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:flipturn",
+    "tm:focusenergy",
+    "tm:furycutter",
+    "tm:grassknot",
+    "tm:hail",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:protect",
+    "tm:raindance",
+    "tm:razorshell",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:rocksmash",
+    "tm:screech",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:waterfall",
+    "tm:waterpledge",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:workup",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:aquatail",
+    "tutor:covet",
+    "tutor:dive",
+    "tutor:falseswipe",
+    "tutor:flipturn",
+    "tutor:focusenergy",
+    "tutor:furycutter",
+    "tutor:helpinghand",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:liquidation",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:waterpledge",
+    "tutor:waterpulse",
+    "tutor:xscissor"
+  ],
+  "forms": [
+    "Hisui-Bias"
+  ],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "oshawott_dewott",
+      "variant": "level_up",
+      "result": "dewott",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 17
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_beach"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0501_oshawott.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_beach"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0501_oshawott.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-31",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_beach",
+            "#cobblemon:is_ocean",
+            "#cobblemon:is_tropical_island"
+          ],
+          "exclude": [
+            "#cobblemon:is_cold"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0501_oshawott.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/oshawott.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/oshawott_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/oshawott.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation5\\oshawott.json"
+  ]
+}

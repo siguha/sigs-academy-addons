@@ -1,0 +1,66 @@
+{
+  "id": "unown_f",
+  "dexnum": 201,
+  "name": "Unown F",
+  "primaryType": "psychic",
+  "secondaryType": "",
+  "maleRatio": -1,
+  "labels": [
+    "gen2"
+  ],
+  "abilities": [
+    "levitate",
+    "h:levitate"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 48,
+    "attack": 72,
+    "defence": 48,
+    "special_attack": 72,
+    "special_defence": 48,
+    "speed": 48
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 225,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:ender_pearl",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:hiddenpower"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/unown_f.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/unown_f_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/unown.json"
+  ]
+}

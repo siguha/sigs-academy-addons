@@ -1,0 +1,255 @@
+{
+  "id": "zweilous",
+  "dexnum": 634,
+  "name": "Zweilous",
+  "primaryType": "dark",
+  "secondaryType": "dragon",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "hustle",
+    "h:hustle"
+  ],
+  "eggGroups": [
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 85,
+    "defence": 70,
+    "special_attack": 65,
+    "special_defence": 70,
+    "speed": 58
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:dragon_breath",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:roseli_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:doublehit",
+    "1:dragonrage",
+    "1:focusenergy",
+    "1:bite",
+    "1:dragonbreath",
+    "1:tackle",
+    "12:roar",
+    "16:assurance",
+    "20:headbutt",
+    "24:workup",
+    "28:slam",
+    "32:crunch",
+    "36:scaryface",
+    "40:dragonpulse",
+    "44:bodyslam",
+    "48:hypervoice",
+    "54:dragonrush",
+    "60:nastyplot",
+    "66:outrage",
+    "egg:astonish",
+    "egg:belch",
+    "egg:doublehit",
+    "egg:headsmash",
+    "tm:aquatail",
+    "tm:assurance",
+    "tm:beatup",
+    "tm:bodyslam",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dracometeor",
+    "tm:dragoncheer",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:earthpower",
+    "tm:endure",
+    "tm:facade",
+    "tm:firefang",
+    "tm:focusenergy",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:incinerate",
+    "tm:lashout",
+    "tm:nastyplot",
+    "tm:outrage",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:spite",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superpower",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderfang",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:aquatail",
+    "tutor:darkpulse",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:earthpower",
+    "tutor:firefang",
+    "tutor:focusenergy",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:icefang",
+    "tutor:lashout",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:spite",
+    "tutor:stompingtantrum",
+    "tutor:superpower",
+    "tutor:thunderfang",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:uproar"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "zweilous_hydreigon",
+      "variant": "level_up",
+      "result": "hydreigon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 64
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 2.25,
+        "levels": "50-55",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0634_zweilous.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 3.6,
+        "levels": "50-55",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_deep_dark"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0634_zweilous.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 2.25,
+        "levels": "50-55",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0634_zweilous.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/zweilous.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/zweilous_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/zweilous.json"
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "id": "shedinja",
+  "dexnum": 292,
+  "name": "Shedinja",
+  "primaryType": "bug",
+  "secondaryType": "ghost",
+  "maleRatio": -1,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "wonderguard",
+    "h:wonderguard"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 1,
+    "attack": 90,
+    "defence": 45,
+    "special_attack": 30,
+    "special_defence": 30,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "erratic",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:shed_shell",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:harden",
+    "1:sandattack",
+    "1:grudge",
+    "1:healblock",
+    "1:dig",
+    "1:mudslap",
+    "1:falseswipe",
+    "1:shadowclaw",
+    "1:metalclaw",
+    "15:confuseray",
+    "23:absorb",
+    "29:shadowsneak",
+    "36:furyswipes",
+    "43:mindreader",
+    "50:shadowball",
+    "57:spite",
+    "64:phantomforce",
+    "egg:bide",
+    "egg:bugbite",
+    "egg:feintattack",
+    "egg:finalgambit",
+    "egg:flail",
+    "egg:gust",
+    "egg:nightslash",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:bugbite",
+    "tm:bugbuzz",
+    "tm:confuseray",
+    "tm:cut",
+    "tm:dig",
+    "tm:dreameater",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:flash",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:hex",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:leechlife",
+    "tm:metalclaw",
+    "tm:mudslap",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:rest",
+    "tm:sandstorm",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trick",
+    "tm:willowisp",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:allyswitch",
+    "tutor:bugbite",
+    "tutor:falseswipe",
+    "tutor:furycutter",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:leechlife",
+    "tutor:mudslap",
+    "tutor:poltergeist",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:stringshot",
+    "tutor:suckerpunch",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:xscissor",
+    "legacy:batonpass",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:return",
+    "legacy:round",
+    "legacy:screech",
+    "legacy:secretpower",
+    "legacy:slash",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:swordsdance",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 2.0,
+        "levels": "20-24",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_jungle"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0292_shedinja.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.03,
+        "levels": "20-24",
+        "biomeTags": {
+          "include": [
+            "aether:skyroot_forest",
+            "aether:skyroot_woodland"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0292_shedinja.json",
+        "sky": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/shedinja.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/shedinja_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/shedinja.json"
+  ]
+}

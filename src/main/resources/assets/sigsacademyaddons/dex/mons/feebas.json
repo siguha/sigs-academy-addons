@@ -1,0 +1,196 @@
+{
+  "id": "feebas",
+  "dexnum": 349,
+  "name": "Feebas",
+  "primaryType": "water",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "swiftswim",
+    "oblivious",
+    "h:adaptability"
+  ],
+  "eggGroups": [
+    "water_1",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 20,
+    "attack": 15,
+    "defence": 20,
+    "special_attack": 10,
+    "special_defence": 55,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "experienceGroup": "erratic",
+  "catchRate": 255,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:salmon",
+        "percentage": null,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:prism_scale",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:splash",
+    "15:tackle",
+    "25:flail",
+    "egg:captivate",
+    "egg:confuseray",
+    "egg:dragonbreath",
+    "egg:haze",
+    "egg:hypnosis",
+    "egg:mirrorcoat",
+    "egg:mist",
+    "egg:mudsport",
+    "egg:tickle",
+    "tm:blizzard",
+    "tm:brine",
+    "tm:captivate",
+    "tm:chillingwater",
+    "tm:confuseray",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:dragonpulse",
+    "tm:endure",
+    "tm:facade",
+    "tm:hail",
+    "tm:haze",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:lightscreen",
+    "tm:muddywater",
+    "tm:mudshot",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:scaleshot",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:terablast",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:dive",
+    "tutor:dragonpulse",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:rest",
+    "tutor:scaleshot",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:scald",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "feebas_milotic",
+      "variant": "trade",
+      "result": "milotic",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "waterpulse"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:prism_scale"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "rarity": "common",
+        "weight": 5.7,
+        "levels": "1-20",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0349_feebas.json"
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 9.5,
+        "levels": "1-20",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_coast",
+            "#cobblemon:is_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0349_feebas.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/feebas.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/feebas_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/feebas.json"
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "id": "obstagoon",
+  "dexnum": 862,
+  "name": "Obstagoon",
+  "primaryType": "dark",
+  "secondaryType": "normal",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen8"
+  ],
+  "abilities": [
+    "reckless",
+    "guts",
+    "h:defiant"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 93,
+    "attack": 90,
+    "defence": 101,
+    "special_attack": 60,
+    "special_defence": 81,
+    "speed": 95
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:chople_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:obstruct",
+    "1:crosschop",
+    "1:submission",
+    "1:nightslash",
+    "1:switcheroo",
+    "1:pinmissile",
+    "1:babydolleyes",
+    "1:tackle",
+    "1:leer",
+    "1:sandattack",
+    "1:lick",
+    "9:snarl",
+    "12:headbutt",
+    "15:honeclaws",
+    "18:furyswipes",
+    "23:rest",
+    "28:takedown",
+    "35:scaryface",
+    "42:counter",
+    "49:taunt",
+    "56:doubleedge",
+    "egg:knockoff",
+    "egg:partingshot",
+    "egg:quickguard",
+    "tm:assurance",
+    "tm:babydolleyes",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:closecombat",
+    "tm:crosspoison",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focusenergy",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gunkshot",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lowkick",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:mudshot",
+    "tm:payback",
+    "tm:pinmissile",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:stompingtantrum",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:trick",
+    "tm:whirlpool",
+    "tm:workup",
+    "tm:xscissor",
+    "tutor:babydolleyes",
+    "tutor:bulkup",
+    "tutor:firepunch",
+    "tutor:focusenergy",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:icebeam",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:irontail",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:lowkick",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:stompingtantrum",
+    "tutor:swift",
+    "tutor:throatchop",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:trick",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:round",
+    "legacy:snore"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "common",
+        "weight": 0.1,
+        "levels": "35-52",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0862_obstagoon.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/obstagoon.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/obstagoon_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation8/obstagoon.json"
+  ]
+}

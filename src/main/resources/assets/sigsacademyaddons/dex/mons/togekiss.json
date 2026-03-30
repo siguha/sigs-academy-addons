@@ -1,0 +1,335 @@
+{
+  "id": "togekiss",
+  "dexnum": 468,
+  "name": "Togekiss",
+  "primaryType": "fairy",
+  "secondaryType": "flying",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen4"
+  ],
+  "abilities": [
+    "hustle",
+    "serenegrace",
+    "h:superluck"
+  ],
+  "eggGroups": [
+    "flying",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 50,
+    "defence": 95,
+    "special_attack": 120,
+    "special_defence": 115,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "fast",
+  "catchRate": 30,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:lucky_egg",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:shiny_stone",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:fairy_feather",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:skyattack",
+    "1:extremespeed",
+    "1:aurasphere",
+    "1:airslash",
+    "1:safeguard",
+    "1:ancientpower",
+    "1:lastresort",
+    "1:afteryou",
+    "1:triattack",
+    "1:fairywind",
+    "1:charm",
+    "1:yawn",
+    "1:metronome",
+    "1:doubleedge",
+    "1:followme",
+    "1:batonpass",
+    "1:wish",
+    "1:growl",
+    "1:pound",
+    "1:sweetkiss",
+    "1:lifedew",
+    "1:bestow",
+    "egg:aerialace",
+    "egg:bestow",
+    "egg:extrasensory",
+    "egg:foresight",
+    "egg:luckychant",
+    "egg:mirrormove",
+    "egg:morningsun",
+    "egg:peck",
+    "egg:present",
+    "egg:psychoshift",
+    "egg:secretpower",
+    "tm:aerialace",
+    "tm:afteryou",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:allyswitch",
+    "tm:amnesia",
+    "tm:ancientpower",
+    "tm:aurasphere",
+    "tm:babydolleyes",
+    "tm:batonpass",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:charm",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:doubleedge",
+    "tm:drainingkiss",
+    "tm:drainpunch",
+    "tm:dreameater",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:fling",
+    "tm:fly",
+    "tm:focuspunch",
+    "tm:futuresight",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:headbutt",
+    "tm:healbell",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:imprison",
+    "tm:incinerate",
+    "tm:laserfocus",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magiccoat",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:mudslap",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:ominouswind",
+    "tm:playrough",
+    "tm:pluck",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:rocksmash",
+    "tm:rollout",
+    "tm:roost",
+    "tm:safeguard",
+    "tm:secretpower",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:silverwind",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:smartstrike",
+    "tm:solarbeam",
+    "tm:steelwing",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thunderwave",
+    "tm:triattack",
+    "tm:trick",
+    "tm:twister",
+    "tm:uproar",
+    "tm:waterpulse",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:aerialace",
+    "tutor:afteryou",
+    "tutor:aircutter",
+    "tutor:allyswitch",
+    "tutor:ancientpower",
+    "tutor:babydolleyes",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:defog",
+    "tutor:drainpunch",
+    "tutor:dualwingbeat",
+    "tutor:endeavor",
+    "tutor:flamethrower",
+    "tutor:focuspunch",
+    "tutor:gigaimpact",
+    "tutor:healbell",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:laserfocus",
+    "tutor:lastresort",
+    "tutor:magicalleaf",
+    "tutor:magiccoat",
+    "tutor:mudslap",
+    "tutor:mysticalfire",
+    "tutor:ominouswind",
+    "tutor:playrough",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:roost",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:twister",
+    "tutor:uproar",
+    "tutor:waterpulse",
+    "tutor:zenheadbutt",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:detect",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:seismictoss",
+    "legacy:snore",
+    "legacy:softboiled",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:zapcannon"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 0.125,
+        "levels": "36-55",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_floral",
+            "#cobblemon:is_magical",
+            "#cobblemon:is_sky"
+          ],
+          "exclude": [
+            "#cobblemon:is_plains",
+            "#cobblemon:is_spooky"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0468_togekiss.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        },
+        "weather": {
+          "isRaining": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 0.125,
+        "levels": "36-55",
+        "biomeTags": {
+          "include": [
+            "aether:skyroot_grove",
+            "aether:skyroot_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0468_togekiss.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "rare",
+        "weight": 0.125,
+        "levels": "36-55",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:floral_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0468_togekiss.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/togekiss.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/togekiss_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation4/togekiss.json"
+  ]
+}

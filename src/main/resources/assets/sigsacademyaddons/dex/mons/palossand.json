@@ -1,0 +1,215 @@
+{
+  "id": "palossand",
+  "dexnum": 770,
+  "name": "Palossand",
+  "primaryType": "ghost",
+  "secondaryType": "ground",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "watercompaction",
+    "h:sandveil"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 75,
+    "defence": 110,
+    "special_attack": 100,
+    "special_defence": 75,
+    "speed": 35
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 60,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:sand",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:soft_sand",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:passho_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:harden",
+    "1:absorb",
+    "1:astonish",
+    "1:sandtomb",
+    "15:megadrain",
+    "20:sandattack",
+    "25:bulldoze",
+    "30:hypnosis",
+    "35:gigadrain",
+    "40:irondefense",
+    "47:shadowball",
+    "54:earthpower",
+    "61:shoreup",
+    "68:sandstorm",
+    "egg:ancientpower",
+    "egg:curse",
+    "egg:destinybond",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow",
+    "tm:afteryou",
+    "tm:amnesia",
+    "tm:ancientpower",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:bulldoze",
+    "tm:chillingwater",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:embargo",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:fling",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:gravity",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:nightshade",
+    "tm:painsplit",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psychic",
+    "tm:quash",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scaryface",
+    "tm:scorchingsands",
+    "tm:shadowball",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:spite",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:terablast",
+    "tm:terrainpulse",
+    "tm:trick",
+    "tutor:afteryou",
+    "tutor:ancientpower",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:energyball",
+    "tutor:flashcannon",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:mudslap",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:roleplay",
+    "tutor:scorchingsands",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spite",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:terrainpulse",
+    "tutor:trick",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "rarity": "common",
+        "weight": 0.2,
+        "levels": "42-48",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_beach"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0770_palossand.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/palossand.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/palossand_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/palossand.json"
+  ]
+}

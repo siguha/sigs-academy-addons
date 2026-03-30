@@ -1,0 +1,286 @@
+{
+  "id": "igglybuff",
+  "dexnum": 174,
+  "name": "Igglybuff",
+  "primaryType": "normal",
+  "secondaryType": "fairy",
+  "maleRatio": 0.25,
+  "labels": [
+    "gen2",
+    "baby"
+  ],
+  "abilities": [
+    "cutecharm",
+    "competitive",
+    "h:friendguard"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 30,
+    "defence": 15,
+    "special_attack": 40,
+    "special_defence": 20,
+    "speed": 15
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "fast",
+  "catchRate": 170,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:moon_stone",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:air_balloon",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:sing",
+    "1:pound",
+    "1:copycat",
+    "4:defensecurl",
+    "8:sweetkiss",
+    "12:disarmingvoice",
+    "16:disable",
+    "20:charm",
+    "egg:captivate",
+    "egg:covet",
+    "egg:feintattack",
+    "egg:gravity",
+    "egg:healpulse",
+    "egg:lastresort",
+    "egg:perishsong",
+    "egg:present",
+    "egg:punishment",
+    "egg:rollout",
+    "egg:wish",
+    "tm:alluringvoice",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:captivate",
+    "tm:charm",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:dig",
+    "tm:disarmingvoice",
+    "tm:doubleedge",
+    "tm:drainingkiss",
+    "tm:dreameater",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:fling",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:headbutt",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hypervoice",
+    "tm:icywind",
+    "tm:incinerate",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:mistyterrain",
+    "tm:painsplit",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:roleplay",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:screech",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:wildcharge",
+    "tm:workup",
+    "tutor:bounce",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:endeavor",
+    "tutor:flamethrower",
+    "tutor:gravity",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:icywind",
+    "tutor:lastresort",
+    "tutor:magiccoat",
+    "tutor:painsplit",
+    "tutor:playrough",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:roleplay",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:wildcharge",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:counter",
+    "legacy:curse",
+    "legacy:detect",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:nightmare",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic",
+    "legacy:uproar",
+    "legacy:waterpulse",
+    "legacy:zapcannon",
+    "special:tickle"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "igglybuff_jigglypuff",
+      "variant": "level_up",
+      "result": "jigglypuff",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "1-21",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_floral"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0174_igglybuff.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "1-21",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_plains"
+          ],
+          "exclude": [
+            "#cobblemon:is_floral"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0174_igglybuff.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 9.0,
+        "levels": "1-21",
+        "biomeTags": {
+          "include": [
+            "aether:skyroot_grove",
+            "aether:skyroot_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0174_igglybuff.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/igglybuff.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/igglybuff_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/igglybuff.json"
+  ]
+}

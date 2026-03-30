@@ -1,0 +1,225 @@
+{
+  "id": "charjabug",
+  "dexnum": 737,
+  "name": "Charjabug",
+  "primaryType": "bug",
+  "secondaryType": "electric",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "battery",
+    "h:battery"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 57,
+    "attack": 82,
+    "defence": 95,
+    "special_attack": 55,
+    "special_defence": 75,
+    "speed": 36
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 120,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:wepear_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:cell_battery",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:charge",
+    "1:visegrip",
+    "1:stringshot",
+    "1:mudslap",
+    "1:bugbite",
+    "15:bite",
+    "23:spark",
+    "29:stickyweb",
+    "36:xscissor",
+    "43:crunch",
+    "50:dig",
+    "57:irondefense",
+    "64:discharge",
+    "egg:discharge",
+    "egg:harden",
+    "tm:batonpass",
+    "tm:bugbite",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:crunch",
+    "tm:dig",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:facade",
+    "tm:irondefense",
+    "tm:lightscreen",
+    "tm:lunge",
+    "tm:magnetrise",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:poisonjab",
+    "tm:pounce",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:screech",
+    "tm:shockwave",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:xscissor",
+    "tutor:bugbite",
+    "tutor:chargebeam",
+    "tutor:electroweb",
+    "tutor:irondefense",
+    "tutor:magnetrise",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:shockwave",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:stringshot",
+    "tutor:thunderbolt",
+    "tutor:wildcharge",
+    "tutor:xscissor",
+    "legacy:acrobatics",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "charjabug_vikavolt",
+      "variant": "item_interact",
+      "result": "vikavolt",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "thunderbolt"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:thunder_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 2.0,
+        "levels": "20-35",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_jungle"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0737_charjabug.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 2.0,
+        "levels": "20-35",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_jungle"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0737_charjabug.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/charjabug.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/charjabug_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/charjabug.json"
+  ]
+}

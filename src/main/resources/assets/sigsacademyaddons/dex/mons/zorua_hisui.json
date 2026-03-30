@@ -1,0 +1,214 @@
+{
+  "id": "zorua_hisui",
+  "dexnum": 570,
+  "name": "Zorua Hisui",
+  "primaryType": "normal",
+  "secondaryType": "ghost",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen8a",
+    "hisuian_form"
+  ],
+  "abilities": [
+    "illusion",
+    "h:illusion"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 60,
+    "defence": 40,
+    "special_attack": 85,
+    "special_defence": 40,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 75,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:sweet_berries",
+        "percentage": null,
+        "quantityRange": "1-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:colbur_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:scratch",
+    "1:leer",
+    "4:torment",
+    "8:honeclaws",
+    "12:shadowsneak",
+    "16:curse",
+    "20:taunt",
+    "24:knockoff",
+    "32:agility",
+    "36:shadowball",
+    "40:bittermalice",
+    "44:nastyplot",
+    "48:foulplay",
+    "egg:comeuppance",
+    "egg:detect",
+    "egg:extrasensory",
+    "egg:memento",
+    "tm:agility",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:foulplay",
+    "tm:gigaimpact",
+    "tm:hex",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:painsplit",
+    "tm:phantomforce",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:snarl",
+    "tm:snowscape",
+    "tm:spite",
+    "tm:substitute",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:torment",
+    "tm:trick",
+    "tm:uturn",
+    "tm:willowisp",
+    "tutor:burningjealousy",
+    "tutor:calmmind",
+    "tutor:darkpulse",
+    "tutor:focuspunch",
+    "tutor:foulplay",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:icywind",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:painsplit",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:snarl",
+    "tutor:spite",
+    "tutor:swift",
+    "tutor:trick"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "zorua_zoroarkhisui",
+      "variant": "level_up",
+      "result": "zoroark hisuian",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "shadowclaw"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural",
+          "wild"
+        ],
+        "rarity": "uncommon",
+        "weight": 5.04,
+        "levels": "8-33",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_snowy_forest",
+            "#cobblemon:is_snowy_taiga"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0570_zorua.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "nether_fossil"
+        ],
+        "rarity": "uncommon",
+        "weight": 84.0,
+        "levels": "8-33",
+        "biomeTags": {
+          "include": [
+            "#minecraft:is_nether"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0570_zorua.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/zorua_hisuian.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/zorua_hisuian_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/zorua.json"
+  ]
+}

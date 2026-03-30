@@ -1,0 +1,108 @@
+{
+  "id": "pecharunt",
+  "dexnum": 1025,
+  "name": "Pecharunt",
+  "primaryType": "poison",
+  "secondaryType": "ghost",
+  "maleRatio": -1,
+  "labels": [
+    "gen9",
+    "mythical"
+  ],
+  "abilities": [
+    "poisonpuppeteer",
+    "h:poisonpuppeteer"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 88,
+    "attack": 88,
+    "defence": 160,
+    "special_attack": 88,
+    "special_defence": 88,
+    "speed": 88
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 3,
+  "drops": {
+    "amount": 0,
+    "entries": []
+  },
+  "moves": [
+    "1:smog",
+    "1:poisongas",
+    "1:memento",
+    "1:astonish",
+    "1:defensecurl",
+    "1:rollout",
+    "1:meanlook",
+    "8:withdraw",
+    "16:destinybond",
+    "24:faketears",
+    "32:partingshot",
+    "40:shadowball",
+    "48:malignantchain",
+    "56:toxic",
+    "64:nastyplot",
+    "72:recover",
+    "tm:acidspray",
+    "tm:curse",
+    "tm:endure",
+    "tm:faketears",
+    "tm:foulplay",
+    "tm:gunkshot",
+    "tm:hex",
+    "tm:imprison",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:rest",
+    "tm:rollout",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:spite",
+    "tm:substitute",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:venoshock",
+    "tutor:foulplay",
+    "tutor:gunkshot",
+    "tutor:poltergeist",
+    "tutor:rest",
+    "tutor:rollout",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spite"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/pecharunt.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/pecharunt_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/pecharunt.json"
+  ]
+}

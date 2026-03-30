@@ -1,0 +1,296 @@
+{
+  "id": "walrein",
+  "dexnum": 365,
+  "name": "Walrein",
+  "primaryType": "ice",
+  "secondaryType": "water",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen3"
+  ],
+  "abilities": [
+    "thickfat",
+    "icebody",
+    "h:oblivious"
+  ],
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 80,
+    "defence": 90,
+    "special_attack": 95,
+    "special_defence": 90,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:cod",
+        "percentage": null,
+        "quantityRange": "0-3",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 10.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:crunch",
+    "1:growl",
+    "1:watergun",
+    "1:icefang",
+    "1:rollout",
+    "1:defensecurl",
+    "1:swagger",
+    "12:powdersnow",
+    "16:rest",
+    "20:snore",
+    "24:brine",
+    "28:aurorabeam",
+    "35:encore",
+    "40:bodyslam",
+    "48:surf",
+    "56:blizzard",
+    "64:hail",
+    "72:sheercold",
+    "egg:aquaring",
+    "egg:bellydrum",
+    "egg:curse",
+    "egg:fissure",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow",
+    "egg:waterpulse",
+    "egg:watersport",
+    "egg:yawn",
+    "tm:aquatail",
+    "tm:avalanche",
+    "tm:babydolleyes",
+    "tm:blizzard",
+    "tm:block",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:bulldoze",
+    "tm:crunch",
+    "tm:curse",
+    "tm:dive",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:frostbreath",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:headbutt",
+    "tm:heavyslam",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:iceball",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:iciclespear",
+    "tm:icywind",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:liquidation",
+    "tm:mudslap",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rollout",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:steelroller",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:superfang",
+    "tm:surf",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:terablast",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:aquatail",
+    "tutor:babydolleyes",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:dive",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:iceball",
+    "tutor:icebeam",
+    "tutor:icefang",
+    "tutor:icywind",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:liquidation",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rollout",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:steelroller",
+    "tutor:stompingtantrum",
+    "tutor:superfang",
+    "tutor:waterpulse",
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:toxic",
+    "special:charm"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 0.06,
+        "levels": "44-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0365_walrein.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.06,
+        "levels": "44-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0365_walrein.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.02,
+        "levels": "44-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0365_walrein.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "water"
+        ],
+        "rarity": "common",
+        "weight": 0.06,
+        "levels": "44-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0365_walrein.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "common",
+        "weight": 0.02,
+        "levels": "44-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_cold_ocean",
+            "#cobblemon:is_frozen_ocean"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0365_walrein.json",
+        "sky": {
+          "canSeeSky": false,
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/walrein.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/walrein_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation3/walrein.json"
+  ]
+}

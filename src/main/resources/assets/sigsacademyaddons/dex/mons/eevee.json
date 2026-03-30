@@ -1,0 +1,506 @@
+{
+  "id": "eevee",
+  "dexnum": 133,
+  "name": "Eevee",
+  "primaryType": "normal",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen1"
+  ],
+  "abilities": [
+    "runaway",
+    "adaptability",
+    "h:anticipation"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 55,
+    "defence": 50,
+    "special_attack": 45,
+    "special_defence": 65,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:silk_scarf",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:eviolite",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tailwhip",
+    "1:tackle",
+    "1:helpinghand",
+    "1:growl",
+    "1:covet",
+    "5:sandattack",
+    "10:quickattack",
+    "15:babydolleyes",
+    "20:refresh",
+    "25:bite",
+    "30:copycat",
+    "35:batonpass",
+    "40:takedown",
+    "45:trumpcard",
+    "50:doubleedge",
+    "55:lastresort",
+    "egg:captivate",
+    "egg:curse",
+    "egg:detect",
+    "egg:doublekick",
+    "egg:flail",
+    "egg:mudslap",
+    "egg:naturalgift",
+    "egg:synchronoise",
+    "egg:tickle",
+    "egg:wish",
+    "egg:yawn",
+    "tm:alluringvoice",
+    "tm:babydolleyes",
+    "tm:batonpass",
+    "tm:bodyslam",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:charm",
+    "tm:covet",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:focusenergy",
+    "tm:headbutt",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hypervoice",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:lastresort",
+    "tm:mudslap",
+    "tm:naturalgift",
+    "tm:payday",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:roar",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:weatherball",
+    "tm:workup",
+    "tutor:babydolleyes",
+    "tutor:calmmind",
+    "tutor:covet",
+    "tutor:focusenergy",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:lastresort",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:swift"
+  ],
+  "forms": [
+    "Gmax"
+  ],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "eevee_jolteon",
+      "variant": "item_interact",
+      "result": "jolteon",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "thundershock"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:thunder_stone"
+    },
+    {
+      "id": "eevee_vaporeon",
+      "variant": "item_interact",
+      "result": "vaporeon",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "watergun"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:water_stone"
+    },
+    {
+      "id": "eevee_flareon",
+      "variant": "item_interact",
+      "result": "flareon",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "ember"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:fire_stone"
+    },
+    {
+      "id": "eevee_espeon",
+      "variant": "level_up",
+      "result": "espeon",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "confusion"
+      ],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ]
+    },
+    {
+      "id": "eevee_umbreon",
+      "variant": "level_up",
+      "result": "umbreon",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "pursuit",
+        "snarl"
+      ],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ]
+    },
+    {
+      "id": "eevee_sylveon",
+      "variant": "level_up",
+      "result": "sylveon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "fairywind",
+        "disarmingvoice"
+      ],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        },
+        {
+          "variant": "has_move_type",
+          "type": "fairy"
+        }
+      ]
+    },
+    {
+      "id": "eevee_leafeon",
+      "variant": "item_interact",
+      "result": "leafeon",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "razorleaf"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:leaf_stone"
+    },
+    {
+      "id": "eevee_glaceon",
+      "variant": "item_interact",
+      "result": "glaceon",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "icywind"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:ice_stone"
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 4.8,
+        "levels": "5-33",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_ocean",
+            "#cobblemon:is_temperate"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0133_eevee.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 10.0,
+        "levels": "5-33",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_temperate"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0133_eevee.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.84,
+        "levels": "5-33",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0133_eevee.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 1.84,
+        "levels": "5-33",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0133_eevee.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "mansion"
+        ],
+        "rarity": "uncommon",
+        "weight": 9.2,
+        "levels": "5-33",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0133_eevee.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 2.4,
+        "levels": "5-33",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ],
+          "exclude": [
+            "#cobblemon:is_ocean",
+            "#cobblemon:is_temperate"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0133_eevee.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 3.0,
+        "levels": "5-33",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_temperate"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0133_eevee.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural",
+          "urban"
+        ],
+        "rarity": "rare",
+        "weight": 3.84,
+        "levels": "5-33",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0133_eevee.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 2.84,
+        "levels": "5-33",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0133_eevee.json",
+        "structures": [
+          "#minecraft:village"
+        ],
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "mansion"
+        ],
+        "rarity": "rare",
+        "weight": 2.2,
+        "levels": "5-33",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "datapacks/Academy/data/cobblemon/spawn_pool_world/0133_eevee.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/eevee.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/eevee_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/eevee.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation1\\eevee.json"
+  ]
+}

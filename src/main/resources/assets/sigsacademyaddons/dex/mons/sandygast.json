@@ -1,0 +1,220 @@
+{
+  "id": "sandygast",
+  "dexnum": 769,
+  "name": "Sandygast",
+  "primaryType": "ghost",
+  "secondaryType": "ground",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "watercompaction",
+    "h:sandveil"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 55,
+    "defence": 80,
+    "special_attack": 70,
+    "special_defence": 45,
+    "speed": 15
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 140,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:sand",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:soft_sand",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:passho_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:harden",
+    "1:absorb",
+    "5:astonish",
+    "10:sandtomb",
+    "15:megadrain",
+    "20:sandattack",
+    "25:bulldoze",
+    "30:hypnosis",
+    "35:gigadrain",
+    "40:irondefense",
+    "45:shadowball",
+    "50:earthpower",
+    "55:shoreup",
+    "60:sandstorm",
+    "egg:ancientpower",
+    "egg:curse",
+    "egg:destinybond",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow",
+    "tm:afteryou",
+    "tm:amnesia",
+    "tm:ancientpower",
+    "tm:block",
+    "tm:brine",
+    "tm:bulldoze",
+    "tm:chillingwater",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:fling",
+    "tm:gigadrain",
+    "tm:gravity",
+    "tm:hex",
+    "tm:imprison",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:nightshade",
+    "tm:painsplit",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psychic",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scaryface",
+    "tm:scorchingsands",
+    "tm:shadowball",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:spite",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:terablast",
+    "tm:trick",
+    "tutor:afteryou",
+    "tutor:ancientpower",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:energyball",
+    "tutor:flashcannon",
+    "tutor:gigadrain",
+    "tutor:gravity",
+    "tutor:irondefense",
+    "tutor:mudslap",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:roleplay",
+    "tutor:scorchingsands",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spite",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:trick",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "sandygast_palossand",
+      "variant": "level_up",
+      "result": "palossand",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "rarity": "common",
+        "weight": 1.8,
+        "levels": "7-32",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_beach"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0769_sandygast.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/sandygast.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/sandygast_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/sandygast.json"
+  ]
+}

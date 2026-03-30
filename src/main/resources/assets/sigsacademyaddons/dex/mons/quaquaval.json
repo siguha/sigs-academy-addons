@@ -1,0 +1,246 @@
+{
+  "id": "quaquaval",
+  "dexnum": 914,
+  "name": "Quaquaval",
+  "primaryType": "water",
+  "secondaryType": "fighting",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen9"
+  ],
+  "abilities": [
+    "torrent",
+    "h:moxie"
+  ],
+  "eggGroups": [
+    "flying",
+    "water_1"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 120,
+    "defence": 80,
+    "special_attack": 85,
+    "special_defence": 75,
+    "speed": 85
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 25.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:aquastep",
+    "1:pound",
+    "1:growl",
+    "1:watergun",
+    "1:doublehit",
+    "1:counter",
+    "7:workup",
+    "10:wingattack",
+    "13:aquajet",
+    "17:lowsweep",
+    "17:waterpulse",
+    "21:aquacutter",
+    "27:airslash",
+    "32:focusenergy",
+    "38:megakick",
+    "43:acrobatics",
+    "47:liquidation",
+    "52:featherdance",
+    "58:closecombat",
+    "64:wavecrash",
+    "egg:detect",
+    "egg:lastresort",
+    "egg:rapidspin",
+    "egg:roost",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:batonpass",
+    "tm:bravebird",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:chillingwater",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:disarmingvoice",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:fling",
+    "tm:flipturn",
+    "tm:focusenergy",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:hurricane",
+    "tm:hydrocannon",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:icespinner",
+    "tm:icywind",
+    "tm:knockoff",
+    "tm:lastresort",
+    "tm:liquidation",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:megakick",
+    "tm:mistyterrain",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:reversal",
+    "tm:roost",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:tripleaxel",
+    "tm:upperhand",
+    "tm:uturn",
+    "tm:waterpledge",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:bulkup",
+    "tutor:coaching",
+    "tutor:endeavor",
+    "tutor:flipturn",
+    "tutor:focusenergy",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hydrocannon",
+    "tutor:hyperbeam",
+    "tutor:icywind",
+    "tutor:knockoff",
+    "tutor:lastresort",
+    "tutor:liquidation",
+    "tutor:lowkick",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:tripleaxel",
+    "tutor:waterpledge",
+    "tutor:waterpulse"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_grassland",
+            "#cobblemon:is_river"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0914_quaquaval.json",
+        "nearbyBlocks": {
+          "selectors": [
+            "minecraft:water"
+          ]
+        },
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_grassland",
+            "#cobblemon:is_river"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0914_quaquaval.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 0.4,
+        "levels": "36-53",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_freshwater",
+            "#cobblemon:is_grassland",
+            "#cobblemon:is_jungle"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0914_quaquaval.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/quaquaval.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/quaquaval_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation9/quaquaval.json"
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "id": "arcanine_hisui",
+  "dexnum": 59,
+  "name": "Arcanine Hisui",
+  "primaryType": "fire",
+  "secondaryType": "rock",
+  "maleRatio": 0.75,
+  "labels": [
+    "gen8a",
+    "hisuian_form"
+  ],
+  "abilities": [
+    "intimidate",
+    "flashfire",
+    "h:rockhead"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 115,
+    "defence": 80,
+    "special_attack": 95,
+    "special_defence": 80,
+    "speed": 90
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "catchRate": 75,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "percentage": null,
+        "quantityRange": "0-2",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:rockslide",
+    "1:firefang",
+    "1:extremespeed",
+    "1:flamewheel",
+    "1:flareblitz",
+    "1:howl",
+    "1:helpinghand",
+    "1:crunch",
+    "1:reversal",
+    "1:retaliate",
+    "1:takedown",
+    "1:agility",
+    "1:rockthrow",
+    "1:ember",
+    "1:roar",
+    "1:bite",
+    "1:leer",
+    "5:flamethrower",
+    "64:ragingfury",
+    "egg:covet",
+    "egg:doubleedge",
+    "egg:doublekick",
+    "egg:headsmash",
+    "egg:morningsun",
+    "egg:thrash",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:bodyslam",
+    "tm:bulldoze",
+    "tm:closecombat",
+    "tm:covet",
+    "tm:crunch",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:dragonpulse",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:gigaimpact",
+    "tm:heatcrash",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:outrage",
+    "tm:overheat",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:scorchingsands",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:smartstrike",
+    "tm:snarl",
+    "tm:solarbeam",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderfang",
+    "tm:wildcharge",
+    "tm:willowisp",
+    "tutor:aerialace",
+    "tutor:bulldoze",
+    "tutor:covet",
+    "tutor:dragonpulse",
+    "tutor:firefang",
+    "tutor:flamethrower",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:ironhead",
+    "tutor:irontail",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:scorchingsands",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:thunderfang",
+    "tutor:wildcharge"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 2,
+        "levels": "25-55",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0059_arcanine_hisuian.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 2.25,
+        "levels": "25-55",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_volcanic"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0059_arcanine_hisuian.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 2,
+        "levels": "25-55",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#minecraft:is_nether"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0059_arcanine_hisuian.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 2,
+        "levels": "25-55",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_mountain"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0059_arcanine_hisuian.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 2.25,
+        "levels": "25-55",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_volcanic"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0059_arcanine_hisuian.json",
+        "sky": {
+          "canSeeSky": true
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 2,
+        "levels": "25-55",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#minecraft:is_nether"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0059_arcanine_hisuian.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/genomons/arcanine_hisui.png",
+      "out/sprites/cobblemon/arcanine_hisuian.png"
+    ],
+    "shiny": [
+      "out/sprites/genomons/arcanine_hisui_shiny.png",
+      "out/sprites/cobblemon/arcanine_hisuian_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation1/arcanine.json"
+  ]
+}

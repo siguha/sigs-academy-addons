@@ -1,0 +1,221 @@
+{
+  "id": "grubbin",
+  "dexnum": 736,
+  "name": "Grubbin",
+  "primaryType": "bug",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen7"
+  ],
+  "abilities": [
+    "swarm",
+    "h:swarm"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 47,
+    "attack": 62,
+    "defence": 45,
+    "special_attack": 55,
+    "special_defence": 45,
+    "speed": 46
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "percentage": null,
+        "quantityRange": "0-1",
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:wepear_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:cell_battery",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:visegrip",
+    "1:mudslap",
+    "5:stringshot",
+    "10:bugbite",
+    "15:bite",
+    "21:spark",
+    "25:stickyweb",
+    "30:xscissor",
+    "35:crunch",
+    "40:dig",
+    "egg:discharge",
+    "egg:harden",
+    "tm:batonpass",
+    "tm:bugbite",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:crunch",
+    "tm:dig",
+    "tm:electricterrain",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:facade",
+    "tm:lightscreen",
+    "tm:lunge",
+    "tm:magnetrise",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:poisonjab",
+    "tm:pounce",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:screech",
+    "tm:shockwave",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:stringshot",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:xscissor",
+    "tutor:bugbite",
+    "tutor:chargebeam",
+    "tutor:electroweb",
+    "tutor:magnetrise",
+    "tutor:mudslap",
+    "tutor:poisonjab",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:shockwave",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:stringshot",
+    "tutor:thunderbolt",
+    "tutor:wildcharge",
+    "tutor:xscissor",
+    "legacy:acrobatics",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "grubbin_charjabug",
+      "variant": "level_up",
+      "result": "charjabug",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "charge"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 2.0,
+        "levels": "7-21",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_jungle"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0736_grubbin.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "common",
+        "weight": 2.0,
+        "levels": "7-21",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_forest",
+            "#cobblemon:is_jungle"
+          ],
+          "exclude": [
+            "#cobblemon:is_freezing"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0736_grubbin.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/grubbin.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/grubbin_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation7/grubbin.json"
+  ]
+}

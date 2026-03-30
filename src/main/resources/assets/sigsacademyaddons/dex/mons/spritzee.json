@@ -1,0 +1,238 @@
+{
+  "id": "spritzee",
+  "dexnum": 682,
+  "name": "Spritzee",
+  "primaryType": "fairy",
+  "secondaryType": "",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen6"
+  ],
+  "abilities": [
+    "healer",
+    "h:aromaveil"
+  ],
+  "eggGroups": [
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 78,
+    "attack": 52,
+    "defence": 60,
+    "special_attack": 63,
+    "special_defence": 65,
+    "speed": 23
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 200,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:kebia_berry",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:fairy_feather",
+        "percentage": 2.5,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:sweetscent",
+    "1:fairywind",
+    "1:odorsleuth",
+    "3:sweetkiss",
+    "6:echoedvoice",
+    "9:drainingkiss",
+    "12:aromatherapy",
+    "18:attract",
+    "21:flail",
+    "24:mistyterrain",
+    "27:psychic",
+    "30:charm",
+    "33:calmmind",
+    "36:moonblast",
+    "39:skillswap",
+    "egg:afteryou",
+    "egg:captivate",
+    "egg:disable",
+    "egg:refresh",
+    "egg:wish",
+    "tm:afteryou",
+    "tm:allyswitch",
+    "tm:attract",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:disarmingvoice",
+    "tm:drainingkiss",
+    "tm:dreameater",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:gyroball",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:mistyexplosion",
+    "tm:mistyterrain",
+    "tm:nastyplot",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thunderbolt",
+    "tm:torment",
+    "tm:trickroom",
+    "tutor:afteryou",
+    "tutor:allyswitch",
+    "tutor:calmmind",
+    "tutor:chargebeam",
+    "tutor:covet",
+    "tutor:dazzlinggleam",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:flashcannon",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:magiccoat",
+    "tutor:mistyexplosion",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:telekinesis",
+    "tutor:thunderbolt",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "spritzee_aromatisse",
+      "variant": "trade",
+      "result": "aromatisse",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:sachet"
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "mansion_bedrooms"
+        ],
+        "rarity": "common",
+        "weight": 5.7,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_overworld"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0682_spritzee.json",
+        "sky": {
+          "canSeeSky": false
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 5.52,
+        "levels": "9-34",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_floral"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0682_spritzee.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "uncommon",
+        "weight": 2.75,
+        "levels": "15-28",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_aether"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0682_spritzee.json"
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/spritzee.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/spritzee_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation6/spritzee.json"
+  ]
+}

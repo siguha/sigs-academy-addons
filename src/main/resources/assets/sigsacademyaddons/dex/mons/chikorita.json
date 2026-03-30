@@ -1,0 +1,209 @@
+{
+  "id": "chikorita",
+  "dexnum": 152,
+  "name": "Chikorita",
+  "primaryType": "grass",
+  "secondaryType": "",
+  "maleRatio": 0.875,
+  "labels": [
+    "gen2",
+    "starter"
+  ],
+  "abilities": [
+    "overgrow",
+    "h:leafguard"
+  ],
+  "eggGroups": [
+    "monster",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 49,
+    "defence": 65,
+    "special_attack": 49,
+    "special_defence": 65,
+    "speed": 45
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "6:razorleaf",
+    "9:poisonpowder",
+    "12:synthesis",
+    "17:reflect",
+    "20:magicalleaf",
+    "23:naturalgift",
+    "28:sweetscent",
+    "31:lightscreen",
+    "34:bodyslam",
+    "39:safeguard",
+    "42:gigadrain",
+    "45:solarbeam",
+    "egg:ancientpower",
+    "egg:aromatherapy",
+    "egg:counter",
+    "egg:flail",
+    "egg:grasswhistle",
+    "egg:healpulse",
+    "egg:ingrain",
+    "egg:leechseed",
+    "egg:refresh",
+    "egg:vinewhip",
+    "egg:wringout",
+    "tm:ancientpower",
+    "tm:bodyslam",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:curse",
+    "tm:cut",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:irontail",
+    "tm:leafstorm",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magiccoat",
+    "tm:mudslap",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:workup",
+    "tm:worryseed",
+    "tutor:ancientpower",
+    "tutor:energyball",
+    "tutor:furycutter",
+    "tutor:gigadrain",
+    "tutor:grasspledge",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:magicalleaf",
+    "tutor:magiccoat",
+    "tutor:mudslap",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:synthesis",
+    "tutor:worryseed"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "chikorita_bayleef",
+      "variant": "level_up",
+      "result": "bayleef",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-32",
+        "biomeTags": {
+          "include": [
+            "#aether:is_aether",
+            "#cobblemon:is_floral"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0152_chikorita.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ],
+    [
+      {
+        "rarity": "ultra-rare",
+        "weight": 6.0,
+        "levels": "5-32",
+        "biomeTags": {
+          "include": [
+            "the_bumblezone:floral_meadow"
+          ]
+        },
+        "source": "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/spawn_pool_world/0152_chikorita.json",
+        "sky": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15
+        }
+      }
+    ]
+  ],
+  "implemented": true,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/chikorita.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/chikorita_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation2/chikorita.json",
+    "datapacks\\Academy\\data\\cobblemon\\species\\generation2\\chikorita.json"
+  ]
+}

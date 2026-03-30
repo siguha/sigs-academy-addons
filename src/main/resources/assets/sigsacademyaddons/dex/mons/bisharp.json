@@ -1,0 +1,262 @@
+{
+  "id": "bisharp",
+  "dexnum": 625,
+  "name": "Bisharp",
+  "primaryType": "dark",
+  "secondaryType": "steel",
+  "maleRatio": 0.5,
+  "labels": [
+    "gen5"
+  ],
+  "abilities": [
+    "defiant",
+    "innerfocus",
+    "h:pressure"
+  ],
+  "eggGroups": [
+    "human_like"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 125,
+    "defence": 100,
+    "special_attack": 60,
+    "special_defence": 70,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:iron_helmet",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      },
+      {
+        "item": "cobblemon:chople_berry",
+        "percentage": 5.0,
+        "quantityRange": null,
+        "source": "species"
+      }
+    ]
+  },
+  "moves": [
+    "1:metalburst",
+    "1:scratch",
+    "1:leer",
+    "1:furycutter",
+    "1:feintattack",
+    "1:metalclaw",
+    "15:torment",
+    "20:scaryface",
+    "25:assurance",
+    "30:metalsound",
+    "35:slash",
+    "40:nightslash",
+    "45:irondefense",
+    "50:retaliate",
+    "57:ironhead",
+    "64:swordsdance",
+    "71:guillotine",
+    "egg:feintattack",
+    "egg:headbutt",
+    "egg:meanlook",
+    "egg:pursuit",
+    "egg:quickguard",
+    "egg:suckerpunch",
+    "tm:aerialace",
+    "tm:airslash",
+    "tm:assurance",
+    "tm:beatup",
+    "tm:brickbreak",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:dualchop",
+    "tm:embargo",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:flashcannon",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:foulplay",
+    "tm:furycutter",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:headbutt",
+    "tm:honeclaws",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:laserfocus",
+    "tm:lashout",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:magnetrise",
+    "tm:metalclaw",
+    "tm:metalsound",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychocut",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:rockpolish",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:spite",
+    "tm:stealthrock",
+    "tm:steelbeam",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:xscissor",
+    "tutor:aerialace",
+    "tutor:darkpulse",
+    "tutor:dualchop",
+    "tutor:falseswipe",
+    "tutor:flashcannon",
+    "tutor:foulplay",
+    "tutor:furycutter",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:laserfocus",
+    "tutor:lashout",
+    "tutor:lowkick",
+    "tutor:magnetrise",
+    "tutor:poisonjab",
+    "tutor:psychocut",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:roleplay",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:snatch",
+    "tutor:spite",
+    "tutor:stealthrock",
+    "tutor:steelbeam",
+    "tutor:stoneedge",
+    "tutor:suckerpunch",
+    "tutor:throatchop",
+    "tutor:xscissor",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:knockoff",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "forms": [],
+  "types": [],
+  "evolutions": [
+    {
+      "id": "bisharp_kingambit",
+      "variant": "level_up",
+      "result": "kingambit",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "kowtowcleave"
+      ],
+      "requirements": [
+        {
+          "variant": "defeat",
+          "target": "bisharp held_item=cobblemon:kings_rock",
+          "amount": 3
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 2.0,
+        "levels": "38-65",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_bamboo"
+          ]
+        },
+        "source": "datapacks/CCC_1.9.2/data/cobblemon/spawn_pool_world/0625_bisharp.json"
+      }
+    ],
+    [
+      {
+        "presets": [
+          "natural"
+        ],
+        "rarity": "rare",
+        "weight": 1.7,
+        "levels": "38-65",
+        "contexts": [
+          "grounded"
+        ],
+        "biomeTags": {
+          "include": [
+            "#cobblemon:is_bamboo"
+          ]
+        },
+        "source": "datapacks/CCC_2.0/data/cobblemon/spawn_pool_world/0625_bisharp.json"
+      }
+    ]
+  ],
+  "implemented": false,
+  "images": {
+    "normal": [
+      "out/sprites/cobblemon/bisharp.png"
+    ],
+    "shiny": [
+      "out/sprites/cobblemon/bisharp_shiny.png"
+    ]
+  },
+  "speciesSources": [
+    "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar!/data/cobblemon/species/generation5/bisharp.json"
+  ]
+}
