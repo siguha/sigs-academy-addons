@@ -7,6 +7,7 @@ import net.minecraft.client.DeltaTracker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
@@ -34,8 +35,8 @@ public class DaycareHudRenderer implements HudPanel {
     private static final int COLOR_INCOMPATIBLE = 0xFFFF3333;
     private static final int COLOR_TEXT_UNSET = 0xFF888888;
 
-    private static final String EMPTY_MESSAGE_FULL = "Please load all daycare pens to load data.";
-    private static final String EMPTY_MESSAGE_COMPACT = "Load daycare pens.";
+    private static final Component EMPTY_MESSAGE_FULL = Component.translatable("interface.saa.daycare.empty_full");
+    private static final Component EMPTY_MESSAGE_COMPACT = Component.translatable("interface.saa.daycare.empty_compact");
 
     private final DaycareManager daycareManager;
     private final HudConfig hudConfig;
@@ -116,7 +117,7 @@ public class DaycareHudRenderer implements HudPanel {
                 return PADDING + LINE_HEIGHT + HudTextUtil.wrappedCenteredHeight(font, EMPTY_MESSAGE_COMPACT, panelWidth, LINE_HEIGHT) + PADDING;
             } else {
                 int h = PADDING;
-                h += HudTextUtil.wrappedCenteredHeight(font, "SAA Daycare Helper", panelWidth, LINE_HEIGHT);
+                h += HudTextUtil.wrappedCenteredHeight(font, Component.translatable("interface.saa.daycare.helper"), panelWidth, LINE_HEIGHT);
                 h += 2 + SECTION_SPACING;
                 h += HudTextUtil.wrappedCenteredHeight(font, EMPTY_MESSAGE_FULL, panelWidth, LINE_HEIGHT);
                 h += PADDING;
@@ -251,8 +252,7 @@ public class DaycareHudRenderer implements HudPanel {
 
     private void renderFullEmpty(GuiGraphics graphics, Font font, int panelWidth) {
         int currentY = PADDING;
-        String header = "SAA Daycare Helper";
-        currentY = HudTextUtil.renderWrappedCentered(graphics, font, header, panelWidth, currentY, COLOR_HEADER, LINE_HEIGHT);
+        currentY = HudTextUtil.renderWrappedCentered(graphics, font, Component.translatable("interface.saa.daycare.helper"), panelWidth, currentY, COLOR_HEADER, LINE_HEIGHT);
 
         currentY += 2;
         graphics.fill(PADDING, currentY, panelWidth - PADDING, currentY + 1, 0xFF555555);
@@ -328,8 +328,8 @@ public class DaycareHudRenderer implements HudPanel {
     private int renderCompactEggTimer(GuiGraphics graphics, Font font, DaycareState.ClaimedEgg egg,
                                        int startY, int panelWidth) {
         int y = startY;
-        String label = egg.getDisplayLabel();
-        String timerText = egg.getRemainingFormatted();
+        Component label = egg.getDisplayLabel();
+        Component timerText = egg.getRemainingFormatted();
         int timerColor = getTimerColor(egg.getProgress());
         return HudTextUtil.renderStatLine(graphics, font, label, timerText,
                 COLOR_TEXT_PRIMARY, timerColor, y, panelWidth, PADDING, LINE_HEIGHT);
@@ -341,8 +341,7 @@ public class DaycareHudRenderer implements HudPanel {
                              int totalActiveEggs, int maxDisplayEggs) {
         int currentY = PADDING;
 
-        String header = "SAA Daycare Helper";
-        currentY = HudTextUtil.renderWrappedCentered(graphics, font, header, panelWidth, currentY, COLOR_HEADER, LINE_HEIGHT);
+        currentY = HudTextUtil.renderWrappedCentered(graphics, font, Component.translatable("interface.saa.daycare.helper"), panelWidth, currentY, COLOR_HEADER, LINE_HEIGHT);
 
         boolean hasAnyPen = !displayPens.isEmpty();
         if (hasAnyPen) {
@@ -448,7 +447,7 @@ public class DaycareHudRenderer implements HudPanel {
 
             case NEEDS_RESET -> {
                 String species = getPenSpeciesLabel(pen);
-                String resetText = "Parents Need Reset!";
+                Component resetText = Component.translatable("interface.saa.daycare.parent_reset");
 
                 graphics.drawString(font, penLabel, PADDING + 2, y, COLOR_PEN_LABEL, true);
                 graphics.drawString(font, species, textX, y, COLOR_TEXT_PRIMARY, true);
@@ -490,8 +489,8 @@ public class DaycareHudRenderer implements HudPanel {
                                 int startY, int panelWidth) {
         int y = startY;
 
-        String label = egg.getDisplayLabel();
-        String timerText = egg.getRemainingFormatted();
+        Component label = egg.getDisplayLabel();
+        Component timerText = egg.getRemainingFormatted();
         int timerColor = getTimerColor(egg.getProgress());
 
         y = HudTextUtil.renderStatLine(graphics, font, label, timerText,
@@ -538,8 +537,8 @@ public class DaycareHudRenderer implements HudPanel {
         }
 
         for (DaycareState.ClaimedEgg egg : eggs) {
-            String label = egg.getDisplayLabel();
-            String timer = egg.getRemainingFormatted();
+            Component label = egg.getDisplayLabel();
+            Component timer = egg.getRemainingFormatted();
             int lineWidth = font.width(label) + font.width(timer) + PADDING * 2 + 8;
             maxWidth = Math.max(maxWidth, lineWidth);
         }
@@ -583,7 +582,7 @@ public class DaycareHudRenderer implements HudPanel {
                                      int totalActiveEggs, int maxDisplayEggs) {
         int maxWidth = PANEL_MIN_WIDTH;
 
-        maxWidth = Math.max(maxWidth, font.width("SAA Daycare Helper") + PADDING * 2);
+        maxWidth = Math.max(maxWidth, font.width(Component.translatable("interface.saa.daycare.helper")) + PADDING * 2);
 
         for (DaycareState.PenState pen : pens) {
             String penLabel = "[PEN " + pen.getPenNumber() + "]";
@@ -596,14 +595,14 @@ public class DaycareHudRenderer implements HudPanel {
 
             } else if (stage == DaycareState.BreedingStage.NEEDS_RESET) {
                 lineWidth = font.width(penLabel) + 4 + font.width(species)
-                        + 8 + font.width("Parents Need Reset!");
+                        + 8 + font.width(Component.translatable("interface.saa.daycare.parent_reset"));
 
             } else if (stage == DaycareState.BreedingStage.INCOMPATIBLE) {
                 lineWidth = font.width(penLabel) + 4 + font.width("Incompatible Setup");
 
             } else {
                 String timer = pen.getRemainingFormatted();
-                int rightWidth = Math.max(font.width(timer), font.width("Parents Need Reset!"));
+                int rightWidth = Math.max(font.width(timer), font.width(Component.translatable("interface.saa.daycare.parent_reset")));
                 lineWidth = font.width(penLabel) + 4 + font.width(species) + 8 + rightWidth;
 
             }
@@ -611,8 +610,8 @@ public class DaycareHudRenderer implements HudPanel {
         }
 
         for (DaycareState.ClaimedEgg egg : eggs) {
-            String label = egg.getDisplayLabel();
-            String timer = egg.getRemainingFormatted();
+            Component label = egg.getDisplayLabel();
+            Component timer = egg.getRemainingFormatted();
             int lineWidth = font.width(label) + font.width(timer) + PADDING * 2 + 8;
             maxWidth = Math.max(maxWidth, lineWidth);
         }
@@ -723,7 +722,7 @@ public class DaycareHudRenderer implements HudPanel {
             case NEEDS_RESET -> {
                 String species = getPenSpeciesLabel(pen);
                 int speciesW = font.width(species);
-                int resetW = font.width("Parents Need Reset!");
+                int resetW = font.width(Component.translatable("interface.saa.daycare.parent_reset"));
                 int textLines = (speciesW + 8 + resetW <= available) ? LINE_HEIGHT : LINE_HEIGHT * 2;
                 return textLines + TIMER_BAR_HEIGHT + 2;
             }
@@ -766,7 +765,7 @@ public class DaycareHudRenderer implements HudPanel {
                                               List<DaycareState.ClaimedEgg> eggs,
                                               int totalActiveEggs, int maxDisplayEggs) {
         int height = PADDING;
-        height += HudTextUtil.wrappedCenteredHeight(font, "SAA Daycare Helper", panelWidth, LINE_HEIGHT);
+        height += HudTextUtil.wrappedCenteredHeight(font, Component.translatable("interface.saa.daycare.helper"), panelWidth, LINE_HEIGHT);
 
         if (!pens.isEmpty()) {
             height += 2 + SECTION_SPACING;

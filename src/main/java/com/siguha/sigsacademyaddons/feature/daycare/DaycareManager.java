@@ -252,7 +252,7 @@ public class DaycareManager {
         return target;
     }
 
-    public String getClosestHatchingEggSpecies() {
+    public Component getClosestHatchingEggSpecies() {
         DaycareState.ClaimedEgg closest = null;
         for (DaycareState.ClaimedEgg egg : claimedEggs) {
             if (!egg.isCompleted() && egg.getRemainingMs() <= HATCH_MATCH_TOLERANCE_MS) {
@@ -279,7 +279,7 @@ public class DaycareManager {
                 }
             }
         }
-        return closest != null ? closest.getDisplayLabel() : "Unknown";
+        return closest != null ? closest.getDisplayLabel() : Component.literal("Unknown");
     }
 
     private static final long HATCH_MATCH_TOLERANCE_MS = 10 * 1000L;

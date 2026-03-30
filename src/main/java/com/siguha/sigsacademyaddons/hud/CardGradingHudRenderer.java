@@ -6,6 +6,7 @@ import net.minecraft.client.DeltaTracker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.network.chat.Component;
 
 public class CardGradingHudRenderer implements HudPanel {
 
@@ -120,14 +121,14 @@ public class CardGradingHudRenderer implements HudPanel {
                 : cardGradingManager.hasTimer() ? cardGradingManager.getRemainingFormatted() : "Not Set";
         int timerColor = cardGradingManager.hasTimer() ? COLOR_TIMER : COLOR_TEXT_UNSET;
 
-        HudTextUtil.renderStatLine(graphics, font, "Grading Time:", timerText,
+        HudTextUtil.renderStatLine(graphics, font, Component.literal("Grading Time:"), Component.literal(timerText),
                 COLOR_HEADER, timerColor, y, panelWidth, PADDING, LINE_HEIGHT);
     }
 
     private void renderFull(GuiGraphics graphics, Font font, int panelWidth) {
         int y = PADDING;
 
-        y = HudTextUtil.renderWrappedCentered(graphics, font, "SAA Card Grading",
+        y = HudTextUtil.renderWrappedCentered(graphics, font, Component.literal("SAA Card Grading"),
                 panelWidth, y, COLOR_HEADER, LINE_HEIGHT);
 
         y += 2;
@@ -137,7 +138,7 @@ public class CardGradingHudRenderer implements HudPanel {
         String timerText;
         if (!cardGradingManager.hasTimer()) {
             String unsetText = "Please use grading once to set menu.";
-            HudTextUtil.renderWrappedCentered(graphics, font, unsetText, panelWidth, y, COLOR_TEXT_UNSET, LINE_HEIGHT);
+            HudTextUtil.renderWrappedCentered(graphics, font, Component.literal(unsetText), panelWidth, y, COLOR_TEXT_UNSET, LINE_HEIGHT);
             return;
         } else if (cardGradingManager.isReadyToClaim()) {
             timerText = "Ready to Claim!";
@@ -187,7 +188,7 @@ public class CardGradingHudRenderer implements HudPanel {
         } else {
             timerText = cardGradingManager.getRemainingFormatted();
         }
-        return PADDING + HudTextUtil.statLineHeight(font, "Grading Time:", timerText, panelWidth, PADDING, LINE_HEIGHT) + PADDING;
+        return PADDING + HudTextUtil.statLineHeight(font, Component.literal("Grading Time:"), Component.literal(timerText), panelWidth, PADDING, LINE_HEIGHT) + PADDING;
     }
 
     private int calculatePanelWidth(Font font) {
@@ -214,12 +215,12 @@ public class CardGradingHudRenderer implements HudPanel {
 
     private int calculatePanelHeightForWidth(Font font, int panelWidth) {
         int height = PADDING;
-        height += HudTextUtil.wrappedCenteredHeight(font, "SAA Card Grading", panelWidth, LINE_HEIGHT);
+        height += HudTextUtil.wrappedCenteredHeight(font, Component.literal("SAA Card Grading"), panelWidth, LINE_HEIGHT);
         height += 2 + SECTION_SPACING;
         if (!cardGradingManager.hasTimer()) {
-            height += HudTextUtil.wrappedCenteredHeight(font, "Please use grading once to set menu.", panelWidth, LINE_HEIGHT);
+            height += HudTextUtil.wrappedCenteredHeight(font, Component.literal("Please use grading once to set menu."), panelWidth, LINE_HEIGHT);
         } else {
-            height += HudTextUtil.wrappedCenteredHeight(font, "Ready to Claim!", panelWidth, LINE_HEIGHT);
+            height += HudTextUtil.wrappedCenteredHeight(font, Component.literal("Ready to Claim!"), panelWidth, LINE_HEIGHT);
             height += TIMER_BAR_HEIGHT;
         }
         height += PADDING;

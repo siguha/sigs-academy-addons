@@ -4,6 +4,7 @@ import com.siguha.sigsacademyaddons.SigsAcademyAddons;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.core.BlockPos;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.Mth;
@@ -103,22 +104,22 @@ public class PortalManager {
         activeScanId = -1;
     }
 
-    public String trackPortal(int id) {
+    public Component trackPortal(int id) {
         PendingPortal pending = pendingPortals.get(id);
         if (pending == null) {
             // Could have been auto-tracked already
             if (isActive()) {
-                return "\u00A7aAlready tracking a portal.";
+                return Component.translatable("text.saa.already_tracking");
             }
-            return "\u00A7cPortal has expired or is no longer available.";
+            return Component.translatable("text.saa.expired_tracking");
         }
 
         switch (pending.state) {
             case SCANNING:
-                return "\u00A7eStill locating portal, try again in a moment...";
+                return Component.translatable("text.saa.scanning_tracking");
             case FAILED:
                 pendingPortals.remove(id);
-                return "\u00A7cPortal could not be located.";
+                return Component.translatable("text.saa.failed_tracking");
             case LOCATED:
                 break;
         }
@@ -127,8 +128,9 @@ public class PortalManager {
         pendingPortals.remove(id);
 
         String typeText = pending.type == PortalType.HIDEOUT ? "Hideout" : "Raid";
-        return "\u00A7aTracking Tier " + pending.tier + " " + typeText + " at " +
-                pending.position.getX() + ", " + pending.position.getY() + ", " + pending.position.getZ();
+
+        Component text = Component.translatable("text.saa.portal.location", pending.tier, typeText, pending.position.getX(), pending.position.getY(), pending.position.getZ());
+        return text;
     }
 
     private void activatePortal(PendingPortal pending) {
