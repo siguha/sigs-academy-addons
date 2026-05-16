@@ -18,7 +18,7 @@ import java.util.UUID;
 
 public class WondertradeManager {
 
-    private static final long COOLDOWN_DURATION_MS = 61 * 60 * 1000L;
+    private static final long COOLDOWN_DURATION_MS = 16 * 60 * 1000L;
     private static final int POST_CLOSE_MONITOR_TICKS = 200;
 
     private final WondertradeDataStore dataStore;
