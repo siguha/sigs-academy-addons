@@ -42,7 +42,8 @@ public class DungeonEntityScanner {
 
                 if (name.contains("_stake")) {
                     results.add(new ScannedEntity(stand.getId(), DungeonEntityType.STAKE, stand.blockPosition()));
-                } else if (name.contains("oasislayout") || name.contains("covelayout")) {
+                } else if (name.contains("oasislayout") || name.contains("covelayout")
+                        || name.contains("moltenlayout")) {
                     results.add(new ScannedEntity(stand.getId(), DungeonEntityType.POKELOOT, stand.blockPosition()));
                 }
             } catch (Exception ignored) {}
