@@ -22,7 +22,7 @@ public class DungeonWorldRenderer {
 
     private static final float STAKE_R = 0.6f, STAKE_G = 0.0f, STAKE_B = 0.8f;
     private static final float POKELOOT_R = 0.0f, POKELOOT_G = 0.8f, POKELOOT_B = 0.8f;
-    private static final float CHEST_R = 1.0f, CHEST_G = 0.6f, CHEST_B = 0.0f;
+    private static final float CHEST_R = 0.0f, CHEST_G = 0.8f, CHEST_B = 0.8f;
     private static final float FILL_ALPHA = 0.35f;
     private static final float WIRE_ALPHA = 0.8f;
 
